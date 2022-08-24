@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss",
+    "stylelint-config-outside-in-order"
+  ],
+  "rules": {
+    "string-quotes": "double",
+    "function-url-quotes": "always",
+    "font-family-no-missing-generic-family-keyword": null,
+    "selector-class-pattern": null,
+    "no-descending-specificity": null,
+    "keyframes-name-pattern": null
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.css"
+      ]
+    }
+  ]
+}

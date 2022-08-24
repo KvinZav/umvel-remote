@@ -1,0 +1,15 @@
+{
+  "printWidth": 100,
+  "singleQuote": false,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "importOrder": [
+    "^@core/(.*)$",
+    "^@server/(.*)$",
+    "^@ui/(.*)$",
+    "^[./]"
+  ],
+  "experimentalBabelParserPluginsList": [
+    "jsx", "tsx"
+  ]
+}
