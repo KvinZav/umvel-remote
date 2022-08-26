@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heading1, Heading2, HighlightSubtitle, HighlightTitle, M1, S2 } from '../modules/TextComponents';
+import { HighlightSubtitle, HighlightTitle } from '../modules/TextComponents';
 
 type CaseOfStudyType = {
   data: {
