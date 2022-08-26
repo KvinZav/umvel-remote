@@ -1,7 +1,7 @@
 import { environment } from '@environments/index';
 import useSWR from 'swr';
 import { get } from '@fetcher/get';
-import Highlights from 'components/Highlights';
+import Highlights from '@elements/Highlights';
 
 
 export default function Home() {
