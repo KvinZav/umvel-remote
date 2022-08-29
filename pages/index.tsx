@@ -18,10 +18,11 @@ export default function Home() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline ">
+    <h1 className="text-3xl font-bold underline order-2">
       Umvel Website!
     </h1>
-    <Hero data={data?.data?.attributes.body} />
+    <Hero data={data?.data?.attributes.body
+          .find((item) => item.__component === "heading.heading")} />
     </>
   )
 }

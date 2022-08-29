@@ -3,32 +3,61 @@ import { useEffect } from "react";
 
 export const Card = (props: CardInterface) => {
   const { styles } = props;
-  useEffect(() => {
-    console.log(styles.color);
-  });
+  
   return (
     <>
       <div
-        className={`group flex-${styles.direction} text-${styles?.color} flex items-${styles.textPositionHorizontal} justify-${styles.textPositionVertical} h-[448px]
-        border-solid border border-[${styles.borderColor}] ${styles.bg}`}
+        className={`flex group ${styles.direction === "col" ? "flex-col" : "flex-row-reverse"} ${
+          styles?.color === "white" ? "text-white" : "text-black"
+        } ${
+          styles.textPositionHorizontal === "start"
+            ? "items-start"
+            : styles.textPositionHorizontal === "center"
+            ? "items-center"
+            : "items-end"
+        }  ${styles.textPositionVertical === "start" ? "justify-start" : "justify-center"} h-[448px]
+        border-solid border border-[${styles.borderColor}] ${
+          styles.bg === "capa"
+            ? "bg-blue-500"
+            : styles.bg === "capa-secondary"
+            ? "bg-blue-700"
+            : "bg-white"
+        }`}
       >
-        {styles.imageUrl && <img className="m-auto" src={styles.imageUrl} alt="" />}
+        {styles.imageUrl && <img className="m-auto" src={styles.imageUrl} alt="image" />}
 
         <p
-          className={`${!styles.descriptionSection ? null : "group-hover:hidden"} p-4 w-full text-${
-            styles.textStyles?.align
-          } text-[${styles.textStyles?.height}]`}
+          className={`${
+            !styles.descriptionSection
+              ? null
+              : styles.showDescription
+              ? "hidden"
+              : "group-hover:hidden"
+          } p-4 ${
+            styles.textStyles?.align === "start"
+              ? "text-start"
+              : styles.textStyles?.align === "center"
+              ? "text-center"
+              : "text-end"
+          } w-full ${styles.textStyles?.height === 'title' ?  'text-[98px]' : styles.textStyles?.height ==='subtitle' ? 'text-[36px]' : 'text-[16px]'}`}
         >
           {styles.text}
         </p>
         {/* When hover show description and background change */}
+
         {styles.descriptionSection && (
           <>
             <section
-              className={`group-hover:${styles.bgSecondary} flex-${styles.direction} group-hover:block hidden p-4 ${styles.bgSecondary}`}
+              className={`w-full ${
+                styles.bgSecondary === "capa-secondary"
+                  ? "group-hover:bg-blue-700"
+                  : "group-hover:bg-white"
+              } ${styles.direction === "col" ? "flex-col" : "flex-row-reverse"} ${
+                styles.showDescription ? "block" : "group-hover:block hidden"
+              }  p-4 ${styles.bgSecondary}`}
             >
               <p
-                className={`w-full font-bold text-${styles.textStyles?.align} text-[${styles.textStyles?.height}]`}
+                className={`w-full font-bold text-${styles.textStyles?.align} ${styles.textStyles?.height === 'title' ?  'text-[98px]' : styles.textStyles?.height ==='subtitle' ? 'text-[36px]' : 'text-[16px]'}`}
               >
                 {styles.text}
               </p>
