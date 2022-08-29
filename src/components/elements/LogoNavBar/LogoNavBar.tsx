@@ -1,4 +1,4 @@
-import { LogoPorps } from "@types/components/LogoNavBar";
+import type { LogoPorps } from "@type/components/LogoNavBar"
 
 const Logo: React.FC<LogoPorps> = ({ imgUrl, alt, caption, url }) => {
     return (

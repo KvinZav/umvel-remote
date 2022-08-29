@@ -1,6 +1,7 @@
 import React from "react"
-import { LinkProps } from "@types/components/Link";
+import type { LinkProps } from "@type/components/Link"
 import Link from "next/link"
+
 const customLink: React.FC<LinkProps> = ({url, name,}) => {
     
     return (

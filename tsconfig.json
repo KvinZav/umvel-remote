@@ -29,7 +29,7 @@
       "@schemes/*": ["src/models/schemes/*"],
       "@store/*": ["src/store/*"],
       "@translation/*": ["src/translation/*"],
-      "@types/*": ["src/models/types/*"],
+      "@type/*": ["src/models/types/*"],
       "@utils/*": ["src/utils/*"],
       "@environments/*": ["src/environments/*"],
       "@fetcher/*": ["src/api/*"],
