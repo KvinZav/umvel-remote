@@ -77,9 +77,9 @@
                                     "id": 1,
                                     "attributes": {
                                         "title": "Capa delivers efficiency!",
-                                        "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions.",
-                                        "primaryColor": null,
-                                        "secondaryColor": null,
+                                        "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions. ",
+                                        "primaryColor": "capa",
+                                        "secondaryColor": "capa-secondary",
                                         "createdAt": "2022-08-19T15:15:34.095Z",
                                         "updatedAt": "2022-08-19T15:16:13.168Z",
                                         "publishedAt": "2022-08-19T15:15:36.577Z",

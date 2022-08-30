@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require ('./tw-config/colors.js') 
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -8,8 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Lato'],
-      }
+      },
+      display: ["group-hover"]
     },
+    colors
   },
   plugins: [
     function ({ addVariant }) {

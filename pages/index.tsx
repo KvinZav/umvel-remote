@@ -4,6 +4,8 @@ import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/ScrollInteraction1';
 import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
+import { Hero } from '@modules/hero';
+
 
 export default function Home() {
   const isBrowser = typeof window !== "undefined"
@@ -24,6 +26,8 @@ export default function Home() {
   
   return data && (
     <div>
+      <Hero data={data?.data?.attributes.body
+          .find((item) => item.__component === "heading.heading")} />
       <ScrollInteraction1
         steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
         offsetY={scrollOffset}
