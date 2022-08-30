@@ -78,8 +78,8 @@
                                     "attributes": {
                                         "title": "Capa delivers efficiency!",
                                         "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions. ",
-                                        "primaryColor": "bg-blue-500",
-                                        "secondaryColor": "bg-blue-700",
+                                        "primaryColor": "capa",
+                                        "secondaryColor": "capa-secondary",
                                         "createdAt": "2022-08-19T15:15:34.095Z",
                                         "updatedAt": "2022-08-19T15:16:13.168Z",
                                         "publishedAt": "2022-08-19T15:15:36.577Z",
@@ -97,7 +97,7 @@
                         "textOrientation": null,
                         "title": "We",
                         "contentType": null,
-                        "primaryColor": "bg-white",
+                        "primaryColor": null,
                         "secondaryColor": null,
                         "featured": null,
                         "displayName": "We"
