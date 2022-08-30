@@ -1,28 +1,20 @@
 import { environment } from '@environments/index';
 import useSWR from 'swr';
 import { get } from '@fetcher/get';
-import { Hero } from '@modules/hero';
+import Highlights from '@elements/Highlights';
 
 
 export default function Home() {
 
   const { data, error } = useSWR(environment.HOME_URL, get, {
     revalidateOnFocus: false,
-  });
+  });    
 
-
-  if (!data) {
-    return null;
-  }
-
-
-  return (
-    <>
-    <h1 className="text-3xl font-bold underline order-2">
-      Umvel Website!
-    </h1>
-    <Hero data={data?.data?.attributes.body
-          .find((item) => item.__component === "heading.heading")} />
-    </>
+  return data && (
+    <div>
+      <Highlights
+        cases={data?.data?.attributes.body.find(i => i.__component === 'highlights.highlights').cases}
+      />
+    </div>
   )
 }
