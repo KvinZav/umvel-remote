@@ -34,22 +34,22 @@ const ScrollInteraction1 = ({steps, offsetY}) => {
 
   useEffect(() => {
     setIsTitleAnimToggled(currentStep === 3)
-  }, [rightTextOpacities])
+  }, [currentStep])
 
   return(
     <section
-      className={`flex justify-center items-center h-screen ${isTitleSticky ? 'sticky top-0' : 'static'}`}
+      className={`flex justify-center items-center h-screen ${isTitleSticky ? 'overflow-scroll' : 'overflow-clip'} snap-y snap-mandatory`}
       ref={containerRef}
+      onScroll={handleScroll}
     >
-      <div className="flex flex-1 h-full pt-[312px] pr-8">
+      <div className={`flex flex-1 h-full pt-[312px] pr-8 ${isTitleSticky ? 'sticky top-0' : 'static'}`}>
         <AnimatedTitle
           toggled={isTitleAnimToggled}
           isSticky={isTitleSticky}
         />
       </div>
       <div
-        className={`h-full flex-1 ${isTitleSticky ? 'overflow-scroll' : 'overflow-clip'} snap-y snap-mandatory`}
-        onScroll={handleScroll}
+        className={`h-full flex-1`}
       >
         {
           steps?.map((i, n) => n > 0 ? (
