@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import { SWRConfig } from 'swr';
+import { GlobalContextProvider } from '@context/globalContext';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -8,7 +9,9 @@ const swrConfig = {
 function MyApp({ Component, pageProps }) {
   return <>
     <SWRConfig value={swrConfig}>
-      <Component {...pageProps} />
+      <GlobalContextProvider>
+        <Component {...pageProps} />
+      </GlobalContextProvider>
     </SWRConfig>
   </>
 }

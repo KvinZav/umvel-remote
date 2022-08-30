@@ -1,31 +1,61 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { HeadingProps } from './TextComponents';
 
 // interface TextBlockProps extends HeadingProps {
 //   fullWidth?: boolean;
 //   hidden?: boolean;
 // }
 
-const ScrollInteraction1 = () => {
+
+
+const ScrollInteraction1 = ({offsetY}) => {
 
   const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
+  const [containerOffset, setContainerOffset] = useState({top: 0, bottom: 0})
+  const [isTitleSticky, setIsTitleSticky] = useState(false)
+
+  const containerRef = useRef()
+  
+  useEffect(() => {
+    const { top, bottom } = containerRef.current.getBoundingClientRect()
+    setContainerOffset({top, bottom})
+  }, [offsetY])
+
+  useEffect(() => {
+    console.log(containerOffset.top, containerOffset.bottom);
+    if(containerOffset.top <= 0){
+      setIsTitleSticky(true)
+    }else{
+      setIsTitleSticky(false)
+    }
+  }, [containerOffset])
 
   return(
-    <section className="flex flex-col justify-center items-center">
-      <button
-        className="bg-red-500"
-        onClick={() => setIsTitleAnimToggled(state => !state)}
-      >
-        TOGGLE
-      </button>
-      <AnimatedTitle
-        toggled={isTitleAnimToggled}
-      />
+    <section
+      className={`flex justify-center items-center bg-gray-200 h-screen ${isTitleSticky ? 'sticky top-0' : 'static'}`}
+      ref={containerRef}
+    >
+      <div className="flex-grow">
+        <AnimatedTitle
+          toggled={isTitleAnimToggled}
+          isSticky={isTitleSticky}
+        />
+      </div>
+      <div className={`h-full flex-grow ${isTitleSticky ? 'overflow-scroll' : 'overflow-clip'} snap-y snap-mandatory`}>
+        <div className="h-screen flex items-center snap-start">
+          <p>Sample</p>
+        </div>
+        <div className="h-screen flex items-center snap-start">
+          <p>Sample</p>
+        </div>
+        <div className="h-screen flex items-center snap-start">
+          <p>Sample</p>
+        </div>
+      </div>
     </section>
   )
 }
 
-const AnimatedTitle = ({toggled}) => {
+const AnimatedTitle = ({toggled, isSticky}) => {
 
   const theRef = useRef()
   const itRef = useRef()
@@ -42,7 +72,7 @@ const AnimatedTitle = ({toggled}) => {
   }, [toggled])
 
   return (
-    <div className="flex flex-col w-full">
+    <div className={`flex flex-col w-full`}>
       <div className="flex justify-end children:ease-in-out children:transform children:transition-all children:duration-700">
         <span className={`mr-1`}>Making</span>
         <div
