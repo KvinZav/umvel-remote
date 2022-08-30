@@ -32,7 +32,7 @@ export const Hero = (props) => {
         <div className="hidden md:block">
           <Card
             styles={{
-              textStyles: { height: "parrafo", align: "start" },
+              textStyles: { height: "paragraph", align: "start" },
               direction: "col",
               color: "white",
               descriptionSection: {
@@ -53,7 +53,7 @@ export const Hero = (props) => {
         <div className="hidden md:block lg:hidden">
           <Card
             styles={{
-              textStyles: { height: "parrafo", align: "start" },
+              textStyles: { height: "paragraph", align: "start" },
               direction: "col",
               color: "white",
               descriptionSection: {
@@ -75,7 +75,7 @@ export const Hero = (props) => {
       <div className="sm:block md:hidden">
         <Card
           styles={{
-            textStyles: { height: "parrafo", align: "start" },
+            textStyles: { height: "paragraph", align: "start" },
             direction: "col",
             color: "white",
             descriptionSection: {

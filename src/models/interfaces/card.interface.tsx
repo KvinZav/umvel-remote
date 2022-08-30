@@ -1,6 +1,6 @@
 export interface CardInterface {
     styles: {
-        textStyles: {  height: "title" | "subtitle" | "parrafo", align: string };
+        textStyles: {  height: "title" | "subtitle" | "paragraph", align: string };
         direction?: "col" | "col-reverse";
         color?: string;
         descriptionSection?: {
