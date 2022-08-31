@@ -7,11 +7,11 @@ const ScrollInteraction1 = ({steps, offsetY}) => {
   const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
   const [containerOffset, setContainerOffset] = useState({top: 0, bottom: 0})
   const [isTitleSticky, setIsTitleSticky] = useState(false)
-  const [rightTextOpacities, setRightTextOpacities] = useState(steps.map(((i, n) => n === 0 || n===1 ? 1 : 0)))
+  const [rightTextOpacities, setRightTextOpacities] = useState(steps.map(((_, n) => n === 0 || n===1 ? 1 : 0)))
   const [currentStep, setCurrentStep] = useState(0)
 
-  const containerRef = useRef()
-  const rightTextRefs = useRef([])
+  const containerRef = useRef<HTMLDivElement>()
+  const rightTextRefs = useRef<Array<HTMLDivElement>>([])
   
   useEffect(() => {
     const { top, bottom } = containerRef.current.getBoundingClientRect()
@@ -45,7 +45,6 @@ const ScrollInteraction1 = ({steps, offsetY}) => {
       <div className={`flex flex-1 h-full pt-[312px] pr-8 ${isTitleSticky ? 'sticky top-0' : 'static'}`}>
         <AnimatedTitle
           toggled={isTitleAnimToggled}
-          isSticky={isTitleSticky}
         />
       </div>
       <div
@@ -70,12 +69,12 @@ const ScrollInteraction1 = ({steps, offsetY}) => {
   )
 }
 
-const AnimatedTitle = ({toggled, isSticky}) => {
+const AnimatedTitle = ({toggled}) => {
 
-  const theRef = useRef()
-  const itRef = useRef()
+  const theRef = useRef<HTMLSpanElement>()
+  const itRef = useRef<HTMLSpanElement>()
   
-  const [wordWidth, setWordWidth] = useState()
+  const [wordWidth, setWordWidth] = useState<number | undefined>()
 
   useEffect(() => {
     if(!toggled){
@@ -109,8 +108,5 @@ const AnimatedTitle = ({toggled, isSticky}) => {
     </div>
   )
 }
-
-// const TextBlock = ({children, fullWidth, hidden} : TextBlockProps) => <span className={`flex transform transition-opacity duration-500 ${hidden ? 'opacity-0' : 'opacity-100'} ${fullWidth ? 'col-span-full' : 'col-span-1'}`}>{children}</span>
-
 
 export default ScrollInteraction1;

@@ -2,10 +2,10 @@ import React, { createContext, useContext, useState } from "react";
 
 const initialState = {
   scrollOffset: 0,
-  handleScroll: () => null
+  handleScroll: (value : number) => null
 }
 
-export const AppStateContext = createContext()
+export const AppStateContext = createContext(initialState)
 
 export function GlobalContextProvider(props){
 

@@ -26,12 +26,17 @@ export default function Home() {
   
   return data && (
     <div>
-      <Hero data={data?.data?.attributes.body
-          .find((item) => item.__component === "heading.heading")} />
-      <ScrollInteraction1
-        steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
-        offsetY={scrollOffset}
-      />
+      <div>
+        <Hero data={data?.data?.attributes.body
+            .find((item) => item.__component === "heading.heading")} />
+      </div>
+      <div>
+        <ScrollInteraction1
+          steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
+          offsetY={scrollOffset}
+        />
+      </div>
+      <div className="h-screen"/>
     </div>
   )
 }
