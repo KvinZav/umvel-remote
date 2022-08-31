@@ -5,6 +5,7 @@ import ScrollInteraction1 from '@modules/ScrollInteraction1';
 import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
 import { Hero } from '@modules/hero';
+import Highlights from '@elements/Highlights';
 
 
 export default function Home() {
@@ -26,17 +27,15 @@ export default function Home() {
   
   return data && (
     <div>
-      <div>
-        <Hero data={data?.data?.attributes.body
-            .find((item) => item.__component === "heading.heading")} />
-      </div>
-      <div>
-        <ScrollInteraction1
-          steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
-          offsetY={scrollOffset}
-        />
-      </div>
-      <div className="h-screen"/>
+      <Hero data={data?.data?.attributes.body
+          .find((item) => item.__component === "heading.heading")} />
+      <Highlights
+        cases={data?.data?.attributes.body.find(i => i.__component === 'highlights.highlights').cases}
+      />
+      <ScrollInteraction1
+        steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
+        offsetY={scrollOffset}
+      />
     </div>
   )
 }
