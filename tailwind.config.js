@@ -16,7 +16,14 @@ module.exports = {
   plugins: [],
   variants: {
     extend: {
-        display: ["group-hover"],
+      display: ["group-hover"]
     },
-},
+    colors
+  },
+  plugins: [
+    function ({ addVariant }) {
+      addVariant('children', '& > *');
+      addVariant('children-hover', '& > *:hover');
+    }
+  ],
 }
