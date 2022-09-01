@@ -36,6 +36,7 @@ export default function Home() {
         steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
         offsetY={scrollOffset}
       />
+      <div className="h-screen top-0"/>
     </div>
   )
 }
