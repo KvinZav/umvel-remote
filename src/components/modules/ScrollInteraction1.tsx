@@ -1,8 +1,11 @@
+import { useAppState } from '@hooks/customHooks';
 import React, { useEffect, useRef, useState } from 'react';
 
 const determineOpacity = (top) => (100 - (Math.abs(top) * 0.6)) * 0.01
 
-const ScrollInteraction1 = ({steps, offsetY}) => {  
+const ScrollInteraction1 = ({steps}) => {  
+
+  const { scrollOffset } = useAppState()
 
   const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
   const [containerOffset, setContainerOffset] = useState({top: 0, bottom: 0})
@@ -16,7 +19,7 @@ const ScrollInteraction1 = ({steps, offsetY}) => {
   useEffect(() => {
     const { top, bottom } = containerRef.current.getBoundingClientRect()
     setContainerOffset({top, bottom})
-  }, [offsetY])
+  }, [scrollOffset])
 
   useEffect(() => {
     if(containerOffset.top <= 0){
