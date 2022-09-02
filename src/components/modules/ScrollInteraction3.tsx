@@ -1,4 +1,4 @@
-import { Card, CustomCard } from '@elements/card/card';
+import { CustomCard } from '@elements/card/card';
 import { useAppState } from '@hooks/customHooks';
 import React from 'react';
 
@@ -12,17 +12,31 @@ const ScrollInteraction3 = ({steps}) => {
 
   return(
     <section className="grid grid-cols-3">
-      <CustomCard>
-        <h1 className="text-[58px] font-bold">
+      <CustomCard customStyles="flex justify-end items-center p-4">
+        <h1 className="text-[58px] font-bold text-right max-w-xs">
           {left.text}
         </h1>
       </CustomCard>
-      <CustomCard>
-        <h2>
-          {right.text}
+      <CustomCard customStyles="flex justify-start items-center p-4">
+        <h2 className="text-[58px] font-bold text-left max-w-xs">
+          <br/>
+          {right.text.toLowerCase()}
         </h2>
       </CustomCard>
-      <div>
+      {/* TODO: Replace with missing contents from CMS */}
+      <div className="px-8">
+        <div className="border-b border-secondary-10 pb-8">
+          <p>Make your platform tangible with best-in-class design.</p>
+        </div>
+        <div className="border-b border-secondary-10 py-8">
+          <p>Build your digital platform no matter its complexity.</p>
+        </div>
+        <div className="border-b border-secondary-10 py-8">
+          <p>Run, maintain and support your digital platform.</p>
+        </div>
+        <div className="border-b border-secondary-10 pt-8">
+          <p>Ensure your platform is secure and compliant.</p>
+        </div>
         
       </div>
     </section>
