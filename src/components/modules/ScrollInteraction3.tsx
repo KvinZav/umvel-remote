@@ -34,10 +34,19 @@ const ScrollInteraction3 = ({steps}) => {
         <div className="border-b border-secondary-10 py-8">
           <p>Run, maintain and support your digital platform.</p>
         </div>
-        <div className="border-b border-secondary-10 pt-8">
+        <div className="pt-8 pb-10">
           <p>Ensure your platform is secure and compliant.</p>
         </div>
-        
+        <div className="flex items-center">
+          <div className="flex w-32 aspect-square p-9">
+            <div className="flex-1 bg-prisma-pink "/>
+          </div>
+          <div>
+            <h2 className="font-bold text-xl">
+              We seamlessly deliver business value.
+            </h2>
+          </div>
+        </div>
       </div>
     </section>
   )
