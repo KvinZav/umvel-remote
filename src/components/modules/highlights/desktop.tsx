@@ -1,4 +1,4 @@
-import { HighlightsDesktopPorps } from "@types/modules/highlights";
+import { HighlightsDesktopPorps } from "@type/modules/highlights";
 import { useEffect, useState } from "react";
 import { useSpring, animated, config , useSpringRef} from 'react-spring';
 import SheetAnimation from "./sheetAnimation";
@@ -53,6 +53,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handlePrevio
         if(startAnimation){
             refAnimation.start();
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[startAnimation])
 
 

@@ -1,6 +1,6 @@
-import { HighlighsPhonePorps } from "@types/modules/highlights"
+import { HighlightsPhonePorps } from "@type/modules/highlights"
 
-const HighlightsPhone:React.FC<HighlighsPhonePorps> = ({projects}):JSX.Element => {
+const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element => {
     if(projects){
         return (
             <div className=" bg-cases-viva w-screen h-[300vw] grid grid-rows-6">

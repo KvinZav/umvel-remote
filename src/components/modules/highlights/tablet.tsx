@@ -1,4 +1,4 @@
-import { HighlightsTabletPorps } from "@types/modules/highlights";
+import { HighlightsTabletPorps } from "@type/modules/highlights";
 
 const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,handlePrevious}):JSX.Element => {
     if(project){
