@@ -18,8 +18,8 @@ const Header = () => {
     const options = event.data.attributes.header.links;
     return (
     <>
-        {(!showMenu)&&<nav className="sticky top-0 bg-white ">
-            <div className="flex flex-wrap justify-between items-center px-4 ">
+        {(!showMenu)&&<nav className="sticky top-0 bg-primary-white z-50">
+            <div className="flex flex-wrap justify-between items-center px-4">
                 {logo && <Logo imgUrl={'https://media-exp1.licdn.com/dms/image/C560BAQF_7neTAhdJ-w/company-logo_200_200/0/1602081394947?e=2147483647&v=beta&t=QdK1sJQS3aoEFmHYtSeselnXtwyZQ597nAJYFi2kTSQ'} alt={logo.alternativeText} />}
                 {(!matchMedia || !isVerticalScroll) &&
                     <button data-collapse-toggle="navbar-default" onClick={() => setShowMenu(!showMenu)} type="button" className="inline-flex items-center p-4 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0 " >
@@ -36,7 +36,7 @@ const Header = () => {
                 </div>}
             </div>
         </nav>}
-        {(showMenu) && <div className="w-screen sticky top-0 md:block md:w-auto bg-white" id="navbar-default" data-collapse-toggle="navbar-default">
+        {(showMenu) && <div className="w-screen sticky top-0 md:block md:w-auto bg-primary-white z-50" id="navbar-default" data-collapse-toggle="navbar-default">
             <div className='w-full h-screen flex'>
                 {matchMedia&&<div className='h-full min-w-[100vh] grid grid-cols-3 grid-rows-3 gap-0'>
                     <Square title='Card' description="skdla asldkf asldkfl asdfas"><p>asdasd</p><br /><br /><br /><br /><p>werre</p></Square>
