@@ -6,6 +6,7 @@ import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
 import { Hero } from '@modules/hero';
 import Highlights from '@elements/Highlights';
+import ScrollInteraction3 from '@modules/ScrollInteraction3';
 
 
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
 
     return () => isBrowser && window.removeEventListener("scroll", onScroll);
   }, [])
-  
+    
   return data && (
     <div>
       <Hero data={data?.data?.attributes.body
@@ -35,6 +36,9 @@ export default function Home() {
       <ScrollInteraction1
         steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
         offsetY={scrollOffset}
+      />
+      <ScrollInteraction3
+        steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction3").step}
       />
       <div className="h-screen top-0"/>
     </div>
