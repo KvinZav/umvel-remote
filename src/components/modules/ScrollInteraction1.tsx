@@ -1,8 +1,11 @@
+import { useAppState } from '@hooks/customHooks';
 import React, { useEffect, useRef, useState } from 'react';
 
 const determineOpacity = (top) => (100 - (Math.abs(top) * 0.6)) * 0.01
 
-const ScrollInteraction1 = ({ steps, offsetY }) => {
+const ScrollInteraction1 = ({steps}) => {  
+
+  const { scrollOffset } = useAppState()
 
   const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
   const [rightTextOpacities, setRightTextOpacities] = useState(steps.map(((_, n) => n === 0 || n === 1 ? 1 : 0)))
@@ -17,7 +20,7 @@ const ScrollInteraction1 = ({ steps, offsetY }) => {
     setRightTextOpacities(refsOpacity)
     setCurrentStep(refsOpacity.findIndex(i => i > 0.2))
 
-  }, [offsetY])
+  }, [scrollOffset])
 
   useEffect(() => {
     setIsTitleAnimToggled(currentStep === 3)
