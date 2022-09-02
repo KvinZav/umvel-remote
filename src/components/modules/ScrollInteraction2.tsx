@@ -1,12 +1,6 @@
 import { useAppState } from '@hooks/customHooks';
 import React, { useEffect, useRef, useState } from 'react';
 
-type TransformValuesProp = {
-  scale: number;
-  translate: number
-}
-
-
 const ScrollInteraction2 = ({steps}) => {
   const isBrowser = typeof window !== "undefined"
   const innerHeight = isBrowser  ? window.innerHeight : 0
@@ -15,17 +9,14 @@ const ScrollInteraction2 = ({steps}) => {
 
   const { scrollOffset } = useAppState()
 
-  const [transformValues, setTransformValues] = useState<TransformValuesProp>({scale: 1, translate: 0})
+  const [scaleValue, setScaleValue] = useState<number>()
   const [topPosition, setTopPosition] = useState(Number.MAX_SAFE_INTEGER)
 
   useEffect(() => {
     const { bottom, top } = mainContainerRef.current.getBoundingClientRect()  
-    setTopPosition(top)
-    setTransformValues({scale: bottom - innerHeight, translate: bottom - innerHeight})        
-  }, [scrollOffset, mainContainerRef])
-
-  console.log(steps);
-  
+    setTopPosition(top)    
+    setScaleValue(bottom - innerHeight)        
+  }, [scrollOffset, mainContainerRef])  
 
   return(
     <section
@@ -38,34 +29,34 @@ const ScrollInteraction2 = ({steps}) => {
             {topPosition < 500 && <div className="grid grid-cols-3 gap-2">
               <div/>
               <Block
-                scale={transformValues.scale / 500 + 1}
-                translate={transformValues.translate * (0.8/5)}
+                scale={scaleValue / 500 + 1}
+                translate={scaleValue * (0.8/5)}
               >
                 {steps[0].left.identifier}
               </Block>
               <div/>
               <Block
-                scale={transformValues.scale / 350 + 1}
-                translate={transformValues.translate * (1.5/5)}
+                scale={scaleValue / 350 + 1}
+                translate={scaleValue * (1.5/5)}
               >
                 {steps[1].left.identifier}
               </Block>
               <Block
-                scale={transformValues.scale / 300 + 1}
-                translate={transformValues.translate * (2.5/5)}
+                scale={scaleValue / 300 + 1}
+                translate={scaleValue * (2.5/5)}
               >
                 {steps[2].left.identifier}
               </Block>
               <Block
-                scale={transformValues.scale / 150 + 1}
-                translate={transformValues.translate * (4/5)}
+                scale={scaleValue / 150 + 1}
+                translate={scaleValue * (4/5)}
               >
                 {steps[3].left.identifier}
               </Block>
               <div/>
               <Block
-                scale={transformValues.scale / 100 + 1}
-                translate={transformValues.translate * (6/5)}
+                scale={scaleValue / 100 + 1}
+                translate={scaleValue * (6/5)}
               >
                 {steps[3].left.identifier}
               </Block>
@@ -75,9 +66,9 @@ const ScrollInteraction2 = ({steps}) => {
           <div className="flex-1 ml-4">
             <h1 className="font-bold text-[38px] leading-tight max-w-xs mb-6">{steps[0].right.identifier.replace(/\*/g, '')}</h1>
             {/* TODO: Connect to CMS when texts are fixed */}
-            <p className="text-base leading-tight w-[418px]">We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
+            <p className={`text-base leading-tight w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 10 ? 'opacity-0' : 'opacity-100'}`}>We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
             <br/>
-            <p className="text-base leading-tight w-[418px]">Our approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise.</p>
+            <p className={`text-base leading-tight w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 10 ? 'opacity-0' : 'opacity-100'}`}>Our approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise.</p>
           </div>
         </div>
       </div>
