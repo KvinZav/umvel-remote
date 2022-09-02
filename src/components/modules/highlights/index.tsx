@@ -4,8 +4,17 @@ import HighlightsPhone from "./phone";
 import HighlightsTablet from "./tablet";
 import HighlightsDesktop from "./desktop";
 
+// temporal
+interface hola  { 
+    id: number;
+    title: string;
+    subtitle: string;
+    description: string;
+    imgUrl: string;
+}
+
 const CasesHighlights:React.FC = ():JSX.Element => {
-    const [project,setProject] = useState();
+    const [project,setProject] = useState<hola>();
     const phone= useMediaQuery('(max-width: 640px)');
     const tablet= useMediaQuery('(max-width: 1024px) and (min-width: 640px)');
     const desktop= useMediaQuery('(min-width: 1024px)');
@@ -23,7 +32,6 @@ const CasesHighlights:React.FC = ():JSX.Element => {
         }
     }
     const handlePrevious = () => {
-        console.log(project.id);
         if(project.id>1){
             setProject(projects[(project.id-2)])
         }
