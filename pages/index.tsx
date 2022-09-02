@@ -39,6 +39,7 @@ export default function Home() {
       <ScrollInteraction2
         steps={data?.data?.attributes.body[4].step}
       />
+      <div className="h-screen top-0"/>
     </div>
   )
 }
