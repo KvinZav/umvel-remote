@@ -24,6 +24,9 @@ const ScrollInteraction2 = ({steps}) => {
     setTransformValues({scale: bottom - innerHeight, translate: bottom - innerHeight})        
   }, [scrollOffset, mainContainerRef])
 
+  console.log(steps);
+  
+
   return(
     <section
       ref={mainContainerRef}
@@ -70,7 +73,8 @@ const ScrollInteraction2 = ({steps}) => {
             </div>}
           </div>
           <div className="flex-1 ml-4">
-            <h1 className="bold text-[38px] leading-tight max-w-xs mb-6">A sound process for crafting solid platforms.</h1>
+            <h1 className="font-bold text-[38px] leading-tight max-w-xs mb-6">{steps[0].right.identifier.replace(/\*/g, '')}</h1>
+            {/* TODO: Connect to CMS when texts are fixed */}
             <p className="text-base leading-tight w-[418px]">We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
             <br/>
             <p className="text-base leading-tight w-[418px]">Our approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise.</p>
