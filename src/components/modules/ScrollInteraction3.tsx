@@ -4,11 +4,7 @@ import React from 'react';
 
 const ScrollInteraction3 = ({steps}) => {
 
-  const { left, right } = steps[0]
-  console.log(left, right);
-  
-
-  const { scrollOffset } = useAppState()
+  const { left, right } = steps[0]  
 
   return(
     <section className="grid grid-cols-3">

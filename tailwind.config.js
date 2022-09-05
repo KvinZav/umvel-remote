@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Lato'],
-      }
+      },
+      borderStyle: ['hover'],
     },
     colors,
   },
