@@ -3,7 +3,7 @@ type SquareColorsProps = {
     text: string;
     textSize?: "sm"|"md"|"lg";
 }
-const SqueareColors:React.FC<SquareColorsProps> = ({text,textSize='md'}):JSX.Element => {
+const SquareColors:React.FC<SquareColorsProps> = ({text,textSize='md'}):JSX.Element => {
     return (
         <div className="group w-full aspect-square grid grid-cols-4 grid-rows-5 lg:grid-rows-4 lg:grid-cols-4 lg:hover:grid-cols-4 lg:hover:grid-rows-5 justify-items-center place-items-center">
             <div className="w-full lg:group-hover:scale-50 scale-50 lg:scale-100 transition delay-150 ease-in-out duration-1000 aspect-square bg-prisma-aqua" />
@@ -29,4 +29,4 @@ const SqueareColors:React.FC<SquareColorsProps> = ({text,textSize='md'}):JSX.Ele
     )
 }
 
-export default SqueareColors
+export default SquareColors
