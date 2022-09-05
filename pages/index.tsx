@@ -6,7 +6,9 @@ import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
 import { Hero } from '@modules/hero';
 import Highlights from '@elements/Highlights';
+import ScrollInteraction3 from '@modules/ScrollInteraction3';
 import ScrollInteraction2 from '@modules/ScrollInteraction2';
+import FooterCta from '@modules/FooterCta';
 
 
 export default function Home() {
@@ -26,6 +28,9 @@ export default function Home() {
     return () => isBrowser && window.removeEventListener("scroll", onScroll);
   }, [])  
   
+  console.log("DATA", data);
+  
+
   return data && (
     <div>
       <Hero data={data?.data?.attributes.body
@@ -39,7 +44,12 @@ export default function Home() {
       <ScrollInteraction2
         steps={data?.data?.attributes.body[4].step}
       />
-      <div className="h-screen top-0"/>
+      <ScrollInteraction3
+        steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction3").step}
+      />
+      <FooterCta
+        data={data?.data?.attributes.body.find(i => i.__component === "interactive-footer.interactive-footer")}
+      />
     </div>
   )
 }
