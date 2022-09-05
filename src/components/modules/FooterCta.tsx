@@ -10,7 +10,7 @@ const FooterCta = ({data}) => {
         <div className="flex flex-col">
           <h1 className="text-[58px] leading-tight font-bold text-primary-white pb-8">{data.left.title}</h1>
           <p className="text-lg leading-tight text-primary-white pb-8">{data.left.subtitle}</p>
-          <BasicButton theme="dark">Let\'s Talk!</BasicButton>
+          <BasicButton theme="dark">Lets Talk!</BasicButton>
         </div>
       </CustomCard>
       <CustomCard customStyles="relative grid grid-cols-12" borderless>
