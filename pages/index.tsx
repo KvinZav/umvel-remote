@@ -8,7 +8,8 @@ import { Hero } from '@modules/hero';
 import Highlights from '@elements/Highlights';
 import ScrollInteraction3 from '@modules/ScrollInteraction3';
 import ScrollInteraction2 from '@modules/ScrollInteraction2';
-import FooterCta from '@modules/FooterCta';
+import FooterCta from '@modules/footer/FooterCta';
+import FooterMenu from '@modules/footer/footerMenu';
 
 
 export default function Home() {
@@ -27,9 +28,6 @@ export default function Home() {
 
     return () => isBrowser && window.removeEventListener("scroll", onScroll);
   }, [])  
-  
-  console.log("DATA", data);
-  
 
   return data && (
     <div>
@@ -50,6 +48,7 @@ export default function Home() {
       <FooterCta
         data={data?.data?.attributes.body.find(i => i.__component === "interactive-footer.interactive-footer")}
       />
+      <FooterMenu/>
     </div>
   )
 }
