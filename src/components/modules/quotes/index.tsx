@@ -21,7 +21,7 @@ const Quotes = (): JSX.Element => {
                 {
                     quote.map((item)=>{
                         return (
-                            <SquareQuotes key={item.id} title={item.title} subtitle={item.hoverClientHeading} description={item.hoverDescription} />
+                            <SquareQuotes key={item.id} title={item.title} subtitle={item.hoverClientHeading} description={item.hoverDescription} color={item.backgroundColor} />
                         )
                     })
                 }
@@ -38,7 +38,7 @@ type SquareQuotesProps = {
 
 const SquareQuotes:React.FC<SquareQuotesProps> = ({title='',subtitle='',description='',color=''}):JSX.Element => {
     return (
-        <article className={`group overflow-hidden h-[50%] sm:h-auto sm:w-full aspect-square bg-prisma-red border snap-center`}>
+        <article className={`group overflow-hidden h-[50%] sm:h-auto sm:w-full aspect-square bg-${color} border snap-center`}>
             <div className="h-full w-full p-9 text-primary-white">
                 <p className="mb-4">{description}</p>
                 <h3 className="font-bold mb-4">{title}</h3>

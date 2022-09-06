@@ -249,7 +249,7 @@
                                         "attributes": {
                                             "title": "Capa delivers efficiency!",
                                             "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions.",
-                                            "primaryColor": null,
+                                            "primaryColor": "cases-capa",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:15:34.095Z",
                                             "updatedAt": "2022-08-19T15:16:13.168Z",
@@ -264,7 +264,7 @@
                                         "attributes": {
                                             "title": "Prevue leads the virtual tours!",
                                             "caseDescription": "Prevue leads the virtual tours!",
-                                            "primaryColor": null,
+                                            "primaryColor": "cases-prevue",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:41:14.198Z",
                                             "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -279,7 +279,7 @@
                                         "attributes": {
                                             "title": "Campaign-Centric was created by 17 Umvellers!",
                                             "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
-                                            "primaryColor": null,
+                                            "primaryColor": "cases-campaign",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:42:33.448Z",
                                             "updatedAt": "2022-08-19T15:43:20.709Z",
@@ -294,7 +294,7 @@
                                         "attributes": {
                                             "title": "ARGO helps people of all continents!",
                                             "caseDescription": "ARGO helps people of all continents!",
-                                            "primaryColor": null,
+                                            "primaryColor": "cases-argo",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:43:13.839Z",
                                             "updatedAt": "2022-08-19T15:43:16.728Z",
@@ -308,8 +308,8 @@
                                         "id": 5,
                                         "attributes": {
                                             "title": "Viva Aerobus",
-                                            "caseDescription": "",
-                                            "primaryColor": null,
+                                            "caseDescription": "viva",
+                                            "primaryColor": "#cases-viva",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T16:08:15.067Z",
                                             "updatedAt": "2022-08-19T16:14:58.233Z",
@@ -394,7 +394,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-campaign"
                         },
                         {
                             "id": 2,
@@ -403,7 +403,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-oeio"
                         },
                         {
                             "id": 3,
@@ -412,7 +412,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-viva"
                         },
                         {
                             "id": 4,
@@ -421,7 +421,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-prevue"
                         },
                         {
                             "id": 5,
@@ -430,7 +430,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-food-central"
                         },
                         {
                             "id": 6,
@@ -439,7 +439,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-argo"
                         },
                         {
                             "id": 7,
@@ -448,7 +448,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-capa"
                         },
                         {
                             "id": 8,
@@ -457,7 +457,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-oeio"
                         },
                         {
                             "id": 9,
@@ -466,7 +466,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-viva"
                         },
                         {
                             "id": 10,
@@ -478,7 +478,7 @@
                                 "openUrl": "/viva-aerobus/website-development",
                                 "title": "View Case"
                             },
-                            "backgroundColor": null
+                            "backgroundColor": "cases-viva"
                         },
                         {
                             "id": 11,
@@ -487,7 +487,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-food-central"
                         },
                         {
                             "id": 12,
@@ -496,7 +496,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-argo"
                         },
                         {
                             "id": 13,
@@ -505,7 +505,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-prevue"
                         },
                         {
                             "id": 14,
@@ -514,7 +514,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-capa"
                         },
                         {
                             "id": 15,
@@ -523,7 +523,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-campaign"
                         },
                         {
                             "id": 16,
@@ -532,7 +532,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-argo"
                         },
                         {
                             "id": 17,
@@ -541,7 +541,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": null
+                            "backgroundColor": "cases-viva"
                         }
                     ]
                 },
