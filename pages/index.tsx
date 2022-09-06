@@ -6,10 +6,14 @@ import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
 import { Hero } from '@modules/hero';
 import FooterCta from '@modules/footer/FooterCta';
-import FooterMenu from '@modules/footer/footerMenu';
+import FooterMenu1 from '@modules/footer/footerMenu';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
+import Quotes from '@modules/quotes';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import MainMenuHighlights from '@modules/mainMenu/Highlights';
+import Highlights from '@modules/highlights';
+import { Clients } from '@modules/clients';
+import Prueba from '@modules/highlights/desktop';
 
 
 export default function Home() {
@@ -35,12 +39,15 @@ export default function Home() {
           .find((item) => item.__component === "heading.heading")} />
       <MainMenuHighlights/>
       <ScrollInteraction1/>
+      <Highlights/>
       <ScrollInteraction2
         steps={data?.data?.attributes.body[4].step}
       />
+      <Quotes />
+      <Clients />
       <ScrollInteraction3/>
       <FooterCta/>
-      <FooterMenu/>
+      <FooterMenu1/>
     </div>
   )
 }
