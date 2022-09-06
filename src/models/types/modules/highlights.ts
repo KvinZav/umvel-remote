@@ -1,20 +1,18 @@
+import { Daum } from "@interfaces/home-data/home.interface"
+
 export type HighlightsPhonePorps = {
-    projects: Array<Project>,
-}
-type Project = {
-    id: number,
+    projects: Array<Daum>,
     title: string,
-    subtitle: string,
-    description: string,
-    imgUrl: string,
 }
 export type HighlightsTabletPorps = {
-    project: Project,
-    handlePrevious: ()=>void,
-    handleNext: ()=>void,
+    project: Daum,
+    title: string,
+    handlePrevious: () => void,
+    handleNext: () => void,
 }
 export type HighlightsDesktopPorps = {
-    project: Project,
-    handlePrevious: ()=>void,
-    handleNext: ()=>void,
+    project: Daum,
+    title: string,
+    handlePrevious: () => void,
+    handleNext: () => void,
 }
