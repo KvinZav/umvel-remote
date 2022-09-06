@@ -7,7 +7,7 @@ import Image from 'next/image';
 import React from 'react';
 import useSWR from 'swr';
 
-const FooterCta = ({data}) => {
+const FooterCta = () => {
 
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;

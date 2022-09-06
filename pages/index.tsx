@@ -1,15 +1,16 @@
 import { environment } from '@environments/index';
 import useSWR from 'swr';
 import { get } from '@fetcher/get';
-import ScrollInteraction1 from '@modules/ScrollInteraction1';
+import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
 import { Hero } from '@modules/hero';
-import Highlights from '@elements/Highlights';
-import ScrollInteraction3 from '@modules/ScrollInteraction3';
-import ScrollInteraction2 from '@modules/ScrollInteraction2';
+import Highlights from '@modules/Highlights';
 import FooterCta from '@modules/footer/FooterCta';
 import FooterMenu from '@modules/footer/footerMenu';
+import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
+import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
+import MainMenuHighlights from '@modules/mainMenu/Highlights';
 
 
 export default function Home() {
@@ -33,21 +34,13 @@ export default function Home() {
     <div>
       <Hero data={data?.data?.attributes.body
           .find((item) => item.__component === "heading.heading")} />
-      <Highlights
-        cases={data?.data?.attributes.body.find(i => i.__component === 'highlights.highlights').cases}
-      />
-      <ScrollInteraction1
-        steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction").step}
-      />
+      <MainMenuHighlights/>
+      <ScrollInteraction1/>
       <ScrollInteraction2
         steps={data?.data?.attributes.body[4].step}
       />
-      <ScrollInteraction3
-        steps={data?.data?.attributes.body.find(i => i.__component === "scroll-interaction.scroll-interaction3").step}
-      />
-      <FooterCta
-        data={data?.data?.attributes.body.find(i => i.__component === "interactive-footer.interactive-footer")}
-      />
+      <ScrollInteraction3/>
+      <FooterCta/>
       <FooterMenu/>
     </div>
   )

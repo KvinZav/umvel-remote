@@ -1,21 +1,24 @@
+import { BlockNameEnum } from '@enums/BlockName';
+import { environment } from '@environments/index';
+import { FETCHER } from '@fetcher/clients';
 import { useAppState } from '@hooks/customHooks';
 import useMediaQuery from '@hooks/useMediaQuery';
 import React, { useEffect, useRef, useState } from 'react';
+import useSWR from 'swr';
 
 const determineOpacity = (top) => (100 - (Math.abs(top) * 0.6)) * 0.01
 
-const ScrollInteraction1 = ({steps}) => {  
-
-  const { scrollOffset } = useAppState()
-
-  const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
-  const [rightTextOpacities, setRightTextOpacities] = useState(steps.map(((_, n) => n === 0 || n === 1 ? 1 : 0)))
-  const [currentStep, setCurrentStep] = useState(0)
-
+const ScrollInteraction1 = () => {
   const containerRef = useRef<HTMLDivElement>()
   const rightTextRefs = useRef<Array<HTMLDivElement>>([])
   
   const isTablet = useMediaQuery('(min-width: 640px)');
+  
+  const { scrollOffset } = useAppState()
+
+  const [currentStep, setCurrentStep] = useState(0)
+  const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
+  const [rightTextOpacities, setRightTextOpacities] = useState([])
 
   useEffect(() => {
     if(!isTablet) return
@@ -30,6 +33,12 @@ const ScrollInteraction1 = ({steps}) => {
   useEffect(() => {
     setIsTitleAnimToggled(currentStep === 3)
   }, [currentStep])
+
+
+  const { data: event } = useSWR(environment.HOME_URL)
+  if (!event) return null;
+
+  const { step: steps } = FETCHER(event, BlockNameEnum.scrollInteraction)
 
   return (
     <section

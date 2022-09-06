@@ -1,13 +1,25 @@
 import { CustomCard } from '@elements/card/card';
+import { BlockNameEnum } from '@enums/BlockName';
+import { environment } from '@environments/index';
+import { FETCHER } from '@fetcher/clients';
 import { useAppState } from '@hooks/customHooks';
 import React from 'react';
+import useSWR from 'swr';
 
-const ScrollInteraction3 = ({steps}) => {
+const ScrollInteraction3 = () => {
 
-  const { left, right } = steps[0]  
+  const { data: event } = useSWR(environment.HOME_URL)
+  if (!event) return null;
 
+  const { step } = FETCHER(event, BlockNameEnum.scrollInteraction3)  
+
+  const { left, right } = step[0]
+
+  const { center } = step[1]
+  const labels = center.text.split('\n\n')  
+  
   return(
-    <section className="grid grid-cols-2 lg:grid-cols-3">
+    <section className="grid grid-cols-2 lg:grid-cols-3 mb-[312px]">
       <CustomCard customStyles="flex justify-end items-center p-4">
         <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">
           {left.text}
@@ -20,19 +32,14 @@ const ScrollInteraction3 = ({steps}) => {
         </h2>
       </CustomCard>
       {/* TODO: Replace with missing contents from CMS */}
-      <div className="mt-20 mb-[104px] lg:mt-0 lg:mb-0 px-[72px] lg:px-8 col-span-2 lg:col-span-1">
-        <div className="border-b border-secondary-10 pb-8">
-          <p>Make your platform tangible with best-in-class design.</p>
-        </div>
-        <div className="border-b border-secondary-10 py-8">
-          <p>Build your digital platform no matter its complexity.</p>
-        </div>
-        <div className="border-b border-secondary-10 py-8">
-          <p>Run, maintain and support your digital platform.</p>
-        </div>
-        <div className="pt-8 pb-10">
-          <p>Ensure your platform is secure and compliant.</p>
-        </div>
+      <div className="mt-20 mb-[104px] lg:mt-0 lg:mb-0 px-[72px] lg:px-8 col-span-2 lg:col-span-1 divide-y divide-secondary-10">
+        {
+          labels.map((i, n) => (
+            <div key={n+''} className={`${n !== 0 ? 'py-4' : 'pb-4'}`}>
+              <p>{i.replace(/\*/g, '')}</p>
+            </div>
+          ))
+        }
         <div className="flex flex-col-reverse md:flex-row-reverse lg:flex-row justify-between items-center">
           <div className="flex w-32 aspect-square p-9">
             <div className="flex-1 bg-prisma-pink "/>
