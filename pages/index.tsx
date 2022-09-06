@@ -5,7 +5,6 @@ import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
 import { Hero } from '@modules/hero';
-import Highlights from '@modules/Highlights';
 import FooterCta from '@modules/footer/FooterCta';
 import FooterMenu from '@modules/footer/footerMenu';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
