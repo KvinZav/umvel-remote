@@ -72,3 +72,11 @@ export const Card = (props: CardInterface) => {
     </>
   );
 };
+
+export const CustomCard = ({children, customStyles = '', borderless = false}) => {
+  return (
+    <div className={`aspect-square ${!borderless && 'border border-secondary-10 border-solid'} ${customStyles}`}>
+      {children}
+    </div>
+  )
+}
