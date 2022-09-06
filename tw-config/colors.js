@@ -30,6 +30,8 @@ module.exports = {
       "argo": "#dd6548",
       "campaign": "#63beb6",
       "viva": "#38ac49",
+      "food-central":"#348181",
+      "oeio": "#CBA552"
     }
 }
 
