@@ -11,9 +11,7 @@ const MainMenuHighlights = () => {
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
 
-  const { cases } = FETCHER(event, BlockNameEnum.highlights)  
-  console.log(cases);
-  
+  const { cases } = FETCHER(event, BlockNameEnum.highlights)    
 
   return(
     <section className="flex md:grid md:grid-cols-1 lg:grid-cols-3 md:justify-center overflow-x-scroll md:overflow-auto mt-[200px]">
