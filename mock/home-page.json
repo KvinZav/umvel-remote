@@ -309,7 +309,7 @@
                                         "attributes": {
                                             "title": "Viva Aerobus",
                                             "caseDescription": "viva",
-                                            "primaryColor": "#cases-viva",
+                                            "primaryColor": "cases-viva",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T16:08:15.067Z",
                                             "updatedAt": "2022-08-19T16:14:58.233Z",

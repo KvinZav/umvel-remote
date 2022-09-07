@@ -7,6 +7,16 @@ const swrConfig = {
   revalidateOnFocus: false,
 };
 
+const colors = [
+    "bg-cases-capa",
+    "bg-cases-prevue",
+    "bg-cases-argo",
+    "bg-cases-campaign",
+    "bg-cases-viva",
+    "bg-cases-food-central",
+    "bg-cases-oeio",
+]
+
 function MyApp({ Component, pageProps }) {
   return <>
     <SWRConfig value={swrConfig}>
