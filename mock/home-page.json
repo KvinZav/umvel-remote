@@ -710,16 +710,84 @@
                     }
                 },
                 {
+                  "id": 1,
+                  "__component": "team.footer-team",
+                  "leftFooterTeam": {
                     "id": 1,
-                    "__component": "team.footer-team",
-                    "leftFooterTeam": {
-                        "id": 1,
-                        "title": "150+ fearless Umvellers strong."
+                    "title": "150+ fearless Umvellers strong."
+                  },
+                  "rightFooterTeam": {
+                    "id": 1,
+                    "title": "We deliver what we promise."
+                  },
+                  "names": [
+                    "Juan",
+                    "Luis",
+                    "Pat",
+                    "Lupe",
+                    "Paco",
+                    "Joss",
+                    "Mary",
+                    "Jane",
+                    "Saul",
+                    "Kim",
+                    "Miguel",
+                    "Pedro",
+                    "Ale",
+                    "Manuel",
+                    "Magos",
+                    "Carmen",
+                    "Carlos",
+                    "Roberto",
+                    "Fer",
+                    "Daniel",
+                    "Xavi",
+                    "Jorge",
+                    "Richard",
+                    "Miguel",
+                    "Lalo",
+                    "Javier",
+                    "Rafael",
+                    "Martín",
+                    "Raúl",
+                    "David",
+                    "Vic",
+                    "Beto",
+                    "Arturo",
+                    "Marco",
+                    "Manuel",
+                    "Javier",
+                    "Kike",
+                    "Vero",
+                    "Gera",
+                    "Elena",
+                    "Leti",
+                    "Rosa",
+                    "Mario",
+                    "Alan",
+                    "Fredy",
+                    "Tess",
+                    "Ali",
+                    "Fer",
+                    "Sergio"
+                  ],
+                  "socialNetworks": [
+                    {
+                      "id": "social-media-1",
+                      "name": "Medium",
+                      "link": "#"
                     },
-                    "rightFooterTeam": {
-                        "id": 1,
-                        "title": "We deliver what we promise."
+                    {
+                      "id": "social-media-2",
+                      "name": "Instagram",
+                      "link": "#"
+                    },
+                    {
+                      "id": "social-media-3",
+                      "name": "LinkedIn",
+                      "link": "#"
                     }
+                  ]
                 }
             ],
             "footer": null
