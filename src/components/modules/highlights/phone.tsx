@@ -1,4 +1,4 @@
-import SqueareColors from "@elements/square-colors";
+import SquareColors from "@elements/square-colors";
 import { HighlightsPhonePorps } from "@type/modules/highlights"
 
 const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element => {
@@ -26,7 +26,7 @@ const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element 
                 </div>
                 <div className="aspect-[3/2] flex justify-center items-center">
                     <div className="w-1/3">
-                        <SqueareColors text="View all cases" textSize="md"/>
+                        <SquareColors text="View all cases" textSize="md"/>
                     </div>
                 </div>
                 <hr className="mx-12 text-secondary-30"></hr>

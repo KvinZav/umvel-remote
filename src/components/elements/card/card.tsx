@@ -1,5 +1,4 @@
 import { CardInterface } from "@interfaces/card.interface";
-import { useEffect } from "react";
 
 export const Card = (props: CardInterface) => {
   const { styles } = props;
