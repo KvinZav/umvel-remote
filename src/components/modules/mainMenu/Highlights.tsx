@@ -27,18 +27,16 @@ const MainMenuHighlights = () => {
             {/* Card */}
             <Card
               styles={{
-                text: title,
                 textPositionVertical: 'start',
                 textPositionHorizontal: 'start',
                 bg: 'bg-primary-white',
                 textStyles: {
                   height: 'paragraph',
                   align: 'left'
-                },
-                descriptionSection: {
-                  text: caseDescription
-                },
+                }
               }}
+              text={title}
+              description={caseDescription}
             />
             <div
               className={`md:flex-1 md:basis-1/2 lg:flex-auto lg:basis-auto aspect-square bg-red-500`}
