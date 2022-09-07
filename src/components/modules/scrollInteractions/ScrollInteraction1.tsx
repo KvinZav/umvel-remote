@@ -19,12 +19,13 @@ const ScrollInteraction1 = () => {
   const [currentStep, setCurrentStep] = useState(0)
   const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
   const [rightTextOpacities, setRightTextOpacities] = useState([])
+  const [boundsTop, setBoundsTop] = useState<Array<number>>([])
 
   useEffect(() => {
     if(!isTablet) return
     
     const refsOpacity = rightTextRefs.current.map(i => determineOpacity(i.getBoundingClientRect().top) + 1)
-
+    setBoundsTop(rightTextRefs.current.map(i => i.getBoundingClientRect().top))
     setRightTextOpacities(refsOpacity)
     setCurrentStep(refsOpacity.findIndex(i => i > 0.2))
 
@@ -34,11 +35,15 @@ const ScrollInteraction1 = () => {
     setIsTitleAnimToggled(currentStep === 3)
   }, [currentStep])
 
+  useEffect(() => {
+    console.log(boundsTop[0] * 0.01)
+  }, [boundsTop])
+
 
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
 
-  const { step: steps } = FETCHER(event, BlockNameEnum.scrollInteraction)
+  const { step: steps } = FETCHER(event, BlockNameEnum.scrollInteraction)  
 
   return (
     <section
@@ -62,7 +67,8 @@ const ScrollInteraction1 = () => {
               ref={el => rightTextRefs.current[n] = el}
               className={`flex snap-start w-[50vw] h-screen items-center`}
               style={{
-                opacity: rightTextOpacities[n]
+                opacity: rightTextOpacities[n],
+                transform: `translateY(${1-(boundsTop[n] * 0.3)}px)`
               }}
             >
               <p className={`${n === steps.length - 1 ? 'pb-[72px]' : 'pb-0'} max-w-[416px] text-4xl leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>

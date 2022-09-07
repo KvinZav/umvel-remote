@@ -2,7 +2,6 @@ import { Card } from "@elements/card/card";
 import { useEffect } from "react";
 
 export const Hero = (props) => {
-  console.log(props);
   
   return (
     <>
