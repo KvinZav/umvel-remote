@@ -1,4 +1,4 @@
-import SqueareColors from "@elements/square-colors"
+import SquareColors from "@elements/square-colors"
 import { environment } from "@environments/index"
 import { useAppState } from "@hooks/customHooks"
 import { HighlightsDesktopPorps } from "@type/modules/highlights"
@@ -47,7 +47,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
                             <div className="h-1/2 flex flex-row justify-center items-center">
                                 <button className="mr-4" onClick={() => handlePrevious()}>{'<'}</button>
                                 <div className="w-1/4">
-                                    <SqueareColors text="Show more" textSize="sm" />
+                                    <SquareColors text="Show more" textSize="sm" />
                                 </div>
                                 <button className="ml-4" onClick={() => handleNext()}>{'>'}</button>
                             </div>
