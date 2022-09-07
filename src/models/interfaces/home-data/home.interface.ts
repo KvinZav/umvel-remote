@@ -74,6 +74,8 @@ export interface Body {
     left?: Left2
     leftFooterTeam?: LeftFooterTeam
     rightFooterTeam?: RightFooterTeam
+    names?: string[];
+    socialNetworks?: SocialNetWork[];
 }
 
 export interface CaseOfStudy {
@@ -264,3 +266,9 @@ export interface RightFooterTeam {
 }
 
 export interface Meta { }
+
+export interface SocialNetWork {
+  id: string;
+  name: string;
+  link: string;
+}
