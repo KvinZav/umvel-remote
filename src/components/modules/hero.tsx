@@ -2,6 +2,8 @@ import { Card } from "@elements/card/card";
 import { useEffect } from "react";
 
 export const Hero = (props) => {
+  console.log(props);
+  
   return (
     <>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-0">
@@ -12,9 +14,8 @@ export const Hero = (props) => {
             textPositionHorizontal: "center",
             textPositionVertical: "end",
             bg: props.data.primaryColor,
-            borderColor: "#E6E6E6",
-            text: props.data?.block.displayName,
           }}
+          text={props.data?.block.displayName}
         />
 
         {/* second card */}
@@ -24,9 +25,8 @@ export const Hero = (props) => {
             textPositionHorizontal: "center",
             textPositionVertical: "end",
             bg: props.data.caseOfStudy[0].primaryColor,
-            borderColor: "#E6E6E6",
-            text: props.data.caseOfStudy[0].Title,
           }}
+          text={props.data.caseOfStudy[0].Title}
         />
         {/* third card */}
         <div className="hidden md:block">
@@ -35,17 +35,14 @@ export const Hero = (props) => {
               textStyles: { height: "paragraph", align: "start" },
               direction: "col",
               color: "white",
-              descriptionSection: {
-                text: props.data.caseOfStudy[0].case_of_study.data.attributes.caseDescription,
-              },
-              imageUrl: "/assets/images/capa.svg",
               textPositionHorizontal: "center",
               textPositionVertical: "center",
               bg: props.data.caseOfStudy[0].case_of_study.data.attributes.primaryColor,
               bgSecondary: props.data.caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
-              borderColor: "#E6E6E6",
-              text: props.data.caseOfStudy[0].case_of_study.data.attributes.title,
             }}
+            description={props.data.caseOfStudy[0].case_of_study.data.attributes.caseDescription}
+            imageUrl={"/assets/images/capa.svg"}
+            text={props.data.caseOfStudy[0].case_of_study.data.attributes.title}
           />
         </div>
         
@@ -56,18 +53,15 @@ export const Hero = (props) => {
               textStyles: { height: "paragraph", align: "start" },
               direction: "col",
               color: "white",
-              descriptionSection: {
-                text: props.data.caseOfStudy[0].case_of_study.data.attributes.caseDescription,
-              },
-              imageUrl: "",
               textPositionHorizontal: "center",
               textPositionVertical: "center",
               bg: props.data.caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
               bgSecondary: props.data.caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
-              borderColor: "#E6E6E6",
-              text: props.data.caseOfStudy[0].Title,
-              showDescription: true
             }}
+            description={props.data.caseOfStudy[0].case_of_study.data.attributes.caseDescription}
+            imageUrl=""
+            text={props.data.caseOfStudy[0].Title}
+            showDescription
           />
         </div>
       </div>
@@ -78,17 +72,14 @@ export const Hero = (props) => {
             textStyles: { height: "paragraph", align: "start" },
             direction: "col",
             color: "white",
-            descriptionSection: {
-              text: props.data.caseOfStudy[0].case_of_study.data.attributes.caseDescription,
-            },
-            imageUrl: "/assets/images/capa.svg",
             textPositionHorizontal: "center",
             textPositionVertical: "center",
             bg: props.data.caseOfStudy[0].case_of_study.data.attributes.primaryColor,
             bgSecondary: props.data.caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
-            borderColor: "#E6E6E6",
-            text: props.data.caseOfStudy[0].Title,
           }}
+          description={props.data.caseOfStudy[0].case_of_study.data.attributes.caseDescription}
+          imageUrl={"/assets/images/capa.svg"}
+          text={props.data.caseOfStudy[0].Title}
         />
       </div>
     </>

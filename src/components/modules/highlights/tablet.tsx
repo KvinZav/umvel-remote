@@ -1,4 +1,4 @@
-import SqueareColors from "@elements/square-colors";
+import SquareColors from "@elements/square-colors";
 import { HighlightsTabletPorps } from "@type/modules/highlights";
 
 const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,handlePrevious,title}):JSX.Element => {
@@ -22,7 +22,7 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                         <div className="h-1/2 flex flex-row justify-center items-center ">
                             <button className="mr-4" onClick={()=>handlePrevious()}>{'<'}</button>
                             <div className="w-1/4">
-                                    <SqueareColors text="View all cases" textSize="sm" />
+                                    <SquareColors text="View all cases" textSize="sm" />
                             </div>
                             <button className="ml-4" onClick={()=>handleNext()}>{'>'}</button>
                         </div>
