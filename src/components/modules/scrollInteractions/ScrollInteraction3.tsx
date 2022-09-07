@@ -17,6 +17,9 @@ const ScrollInteraction3 = () => {
 
   const { center } = step[1]
   const labels = center.text.split('\n\n')  
+
+  console.log(step);
+  
   
   return(
     <section className="grid grid-cols-2 lg:grid-cols-3 mb-[312px]">
