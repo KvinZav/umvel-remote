@@ -4,7 +4,7 @@ import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
-import { Hero } from '@modules/hero';
+import Hero from '@modules/hero';
 import FooterCta from '@modules/footer/FooterCta';
 import FooterMenu1 from '@modules/footer/footerMenu';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
@@ -37,8 +37,7 @@ export default function Home() {
 
   return data && (
     <div>
-      <Hero data={data?.data?.attributes.body
-          .find((item) => item.__component === "heading.heading")} />
+      <Hero />
       <MainMenuHighlights/>
       <ScrollInteraction1/>
       <Highlights/>
