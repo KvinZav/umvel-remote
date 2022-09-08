@@ -1,8 +1,9 @@
+import Image from "@elements/image-component";
 import SquareColors from "@elements/square-colors";
 import { HighlightsTabletPorps } from "@type/modules/highlights";
-
 const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,handlePrevious,title}):JSX.Element => {
-    if(project){
+    const imgAttribute = project.attributes.image.data.attributes
+;    if(project){
         return (
             <div className={`bg-${project.attributes.primaryColor} w-full h-[150vw] grid grid-cols-2 grid-rows-3`}>
                 <div className="col-start-1 col-span-1 row-start-1 row-span-1">
@@ -29,8 +30,7 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                     </div>
                 </div>
                 <div className="col-start-1 col-span-2 row-start-2 row-span-2 flex justify-center items-center">
-                    <img src={"https://picsum.photos/500/1200"} alt="proyect" className="h-[80%] rounded-3xl opacity-50 z-0 relative left-12"/>
-                    <img src={"https://picsum.photos/500/1200"} alt="proyect" className="h-[90%] rounded-3xl z-10"/>
+                    {imgAttribute.url&&<Image url={imgAttribute.url} alternativeText="proyect" layout="intrinsic" height={imgAttribute.height} width={imgAttribute.height}/>}
                 </div>
             </div>
         )
