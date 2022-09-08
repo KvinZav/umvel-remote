@@ -24,10 +24,10 @@ const ScrollInteraction2 = ({steps}) => {
   return(
     <section
       ref={mainContainerRef}
-      className="h-screen lg:h-[500vh] w-screen"
+      className="h-screen lg:h-[500vh] w-full"
     >
       <div className="w-full md:h-[250px]"/>
-      <div className="w-screen flex items-center lg:sticky top-0">
+      <div className="w-full flex items-center lg:sticky top-0">
         <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-48">
           <div className="lg:flex-1 flex items-end md:items-start md:justify-end mr-4">
             {isDesktop && topPosition < 500 && <div className="grid grid-cols-3 gap-2">

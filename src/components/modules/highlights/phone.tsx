@@ -9,7 +9,7 @@ const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element 
                 <div className="h-full aspect-[2/1] flex justify-center items-center">
                     <h3 className="text-3xl font-bold">If you can dream it,<br/> we can make it.</h3>
                 </div>
-                <div className="w-screen h-[180vw] overflow-hidden overflow-x-scroll snap-x bg-prisma-green">
+                <div className="w-full h-[180vw] overflow-hidden overflow-x-scroll snap-x bg-prisma-green">
                     <div className="h-full flex flex-row">
                         {
                             projects.map((project)=>{
