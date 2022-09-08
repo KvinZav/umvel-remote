@@ -12,11 +12,13 @@ const Quotes = (): JSX.Element => {
     const {quote} = FETCHER(event, BlockNameEnum.quotes)
 
     return (
-        <div className={`h-[180vm] sm:h-auto w-screen overflow-hidden overflow-x-scroll snap-x`}>
-            <section className="h-[180vw] flex flex-col flex-wrap sm:h-auto sm:w-screen sm:grid sm:grid-cols-2 lg:grid-cols-4 snap-x">
-                <article className="bg-primary-white p-9 h-[50%] sm:h-auto sm:w-full aspect-square border snap-center overflow-hidden">
-                    <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">Our projects speak for themselves.</h2>
-                    <p className="text-base">Millions of people used products we’ve built.  And we just got started.</p>
+        <div className={`h-[180vm] sm:h-auto w-full overflow-hidden overflow-x-auto snap-x`}>
+            <section className="h-[180vw] flex flex-col flex-wrap sm:h-auto sm:w-full sm:grid sm:grid-cols-2 lg:grid-cols-4 snap-x">
+                <article className="bg-primary-white p-[4vw] h-[50%] sm:h-auto sm:w-full aspect-square border snap-center overflow-hidden">
+                    <div>
+                        <h2 className="text-4xl font-bold leading-snug mb-4 lg:text-2xl xl:text-4xl">Our projects speak for themselves.</h2>
+                        <p className="text-base">Millions of people used products we’ve built.  And we just got started.</p>
+                    </div>
                 </article>
                 {
                     quote.map((item)=>{
