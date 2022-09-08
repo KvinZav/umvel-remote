@@ -11,12 +11,6 @@ export const Clients = () => {
 
     const { data: event } = useSWR(environment.HOME_URL)
     if (!event) return null;
-
-    const handleMouseOver = (event) => {
-        console.log(event.currentTarget.dataset.info);
-    };
-
-
     const { title, subtitle, clients } = FETCHER(event, BlockNameEnum.clients)
 
 
@@ -30,7 +24,6 @@ export const Clients = () => {
                 {clients.data.map(({ id, attributes }) => (
                     <div key={id}
                         data-info={attributes.name}
-                        onMouseEnter={handleMouseOver}
                     >
                         <ClientsText>{attributes.name}</ClientsText>
                     </div>

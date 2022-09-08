@@ -10,7 +10,6 @@ export const get = async (url: string) => {
 
   const json = await res.json();
   if (json.errors) {
-    console.error(json.errors);
     throw new Error('Failed to get');
   }
 
