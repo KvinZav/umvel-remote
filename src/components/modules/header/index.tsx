@@ -5,7 +5,8 @@ import Link from '@elements/Link/Link';
 import useSWR from 'swr';
 import { environment } from '@environments/index';
 import useVerticalScroll from '@hooks/useVerticalScroll';
-import Image from '@elements/Image';
+import CustomImage from '@elements/image-component/CustomImage'
+
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
     const { data: event } = useSWR(environment.HOME_URL);
@@ -27,7 +28,7 @@ const Header = () => {
                 {(!matchMedia || !isVerticalScroll) &&
                     <button data-collapse-toggle="navbar-default" onClick={() => setShowMenu(!showMenu)} type="button" className="flex items-center text-sm text-gray-500 rounded-lg md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0" >
                         <div className='h-5 w-5 md:w-7 md:h-7'>
-                            <Image url={'/assets/images/menu-icon.svg'} alternativeText="menu" width='100%' height='100%'/>
+                            <CustomImage src={'/assets/images/menu-icon.svg'} alt="menu" width='100%' height='100%'/>
                         </div>
                     </button>}
                 {(matchMedia && isVerticalScroll) && <div className="w-full md:block md:w-auto" id="navbar-default" data-collapse-toggle="navbar-default">
@@ -60,7 +61,7 @@ const Header = () => {
                             {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
                         </div>
                         <div className='h-5 w-5 md:w-7 md:h-7' onClick={()=>{setShowMenu(!showMenu)}}>
-                            <Image url="/assets/images/x-icon.svg" width={"100%"} height={"100%"} alternativeText="close" />
+                            <CustomImage src="/assets/images/x-icon.svg" width={"100%"} height={"100%"} alt="close" />
                         </div>
                     </div>
                     <div className="w-min h-full flex items-center" id="navbar-default">

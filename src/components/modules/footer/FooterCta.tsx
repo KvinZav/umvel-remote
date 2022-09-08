@@ -1,6 +1,6 @@
 import BasicButton from '@elements/button';
 import { CustomCard } from '@elements/card/card';
-import CustomImage from '@elements/image/CustomImage';
+import CustomImage from '@elements/image-component/CustomImage';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
