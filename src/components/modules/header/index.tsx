@@ -5,7 +5,7 @@ import Link from '@elements/Link/Link';
 import useSWR from 'swr';
 import { environment } from '@environments/index';
 import useVerticalScroll from '@hooks/useVerticalScroll';
-import CustomImage from '@elements/Image/CustomImage'
+import CustomImage from '@elements/image-component/CustomImage'
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
