@@ -21,7 +21,7 @@
                             "ext": ".png",
                             "mime": "image/png",
                             "size": 0.42,
-                            "url": "/uploads/Umvel_Logotype_c2f08b71ea.png",
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Variant%3DIsotype.svg",
                             "previewUrl": null,
                             "provider": "local",
                             "provider_metadata": null,
@@ -34,32 +34,38 @@
                     {
                         "id": 1,
                         "name": "Our work",
-                        "link": "our-work"
+                        "link": "our-work",
+                        "type": "link"
                     },
                     {
                         "id": 2,
                         "name": "Our Offering",
-                        "link": "our-offering"
+                        "link": "our-offering",
+                        "type": "link"
                     },
                     {
                         "id": 3,
                         "name": "Capabilities",
-                        "link": "capabilities"
+                        "link": "capabilities",
+                        "type": "link"
                     },
                     {
                         "id": 4,
                         "name": "About us",
-                        "link": "about-us"
+                        "link": "about-us",
+                        "type": "link"
                     },
                     {
                         "id": 5,
                         "name": "Resources",
-                        "link": "resources"
+                        "link": "resources",
+                        "type": "link"
                     },
                     {
                         "id": 6,
                         "name": "Lets talk",
-                        "link": "lets-talk"
+                        "link": "lets-talk",
+                        "type": "button"
                     }
                 ]
             },

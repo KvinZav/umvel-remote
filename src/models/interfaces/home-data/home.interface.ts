@@ -55,6 +55,7 @@ export interface Link {
     id: number
     name: string
     link: string
+    type: string
 }
 
 export interface Body {
