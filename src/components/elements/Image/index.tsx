@@ -7,7 +7,6 @@ const Image: FC<ImageProps> = ({ alternativeText, width, height, url }) => {
 
     return (
         <NextImage
-            layout="responsive"
             width={width}
             height={height}
             objectFit="contain"
