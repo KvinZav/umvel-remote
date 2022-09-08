@@ -4,6 +4,7 @@ import { useAppState } from "@hooks/customHooks"
 import { HighlightsDesktopPorps } from "@type/modules/highlights"
 import React, { useEffect, useRef, useState } from "react"
 import useSWR from "swr"
+import Image from "@elements/image-component";
 
 const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,handlePrevious, title}):JSX.Element => {
     const isBrowser = typeof window !== "undefined"
@@ -20,7 +21,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
         setScaleValue(bottom - innerHeight > 0 ? bottom - innerHeight : 0)
     }, [scrollOffset, container])
     if (!event) return null;
-
+    const imgAttributes = project.attributes.image.data.attributes;
     const positionInfo = scaleValue * (2.5 / 10)
     const positionCase = scaleValue * (3.5 / 10)
     const positionImagen = scaleValue * (3.5 / 10)
@@ -54,8 +55,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
                         </div>
                     </div>
                     <div className="col-start-2 col-span-3 row-start-2 row-span-2 flex justify-center items-center" style={{ transform: `translateY(${positionImagen}px)`, transformOrigin: 'top left', opacity: (topPosition * -1 / 500) - 3 }}>
-                        <img src={"https://picsum.photos/500/1200"} alt="proyect" className="h-[80%] rounded-3xl opacity-50 z-0 relative left-12" />
-                        <img src={"https://picsum.photos/500/1200"} alt="proyect" className="h-[90%] rounded-3xl z-10" />
+                        {imgAttributes.url&&<Image url={imgAttributes.url} alternativeText="proyect" layout="intrinsic" height={imgAttributes.height} width={imgAttributes.width}/>}
                     </div>
                 </div>
             </div>
