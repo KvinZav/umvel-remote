@@ -90,7 +90,7 @@ const AnimatedTitle = ({ toggled }) => {
   const theRef = useRef<HTMLSpanElement>()
   const itRef = useRef<HTMLSpanElement>()
 
-  const [wordWidth, setWordWidth] = useState<number | undefined>()
+  const [wordWidth, setWordWidth] = useState<number>(86)
 
   useEffect(() => {
     if (!toggled) {
