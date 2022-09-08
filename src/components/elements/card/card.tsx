@@ -1,7 +1,7 @@
 import React from "react";
 import { CardInterface } from "@interfaces/card.interface";
 import BasicButton from '@elements/button'
-import Image from "@elements/Image";
+import Image from "@elements/image-component/index";
 
 //eslint-disable-next-line react/display-name
 export const Card = React.memo((props: CardInterface) => {
