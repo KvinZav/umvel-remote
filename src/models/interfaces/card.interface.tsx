@@ -9,7 +9,7 @@ export interface CardInterface {
         bgSecondary?:string;
         borderColor?: string;
     },
-    text: string;
+    text?: string;
     description?: string;
     imageUrl?: string;
     showDescription?: boolean;

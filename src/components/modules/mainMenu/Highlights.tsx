@@ -24,23 +24,24 @@ const MainMenuHighlights = () => {
               <HighlightTitle>{caseItem.Title}</HighlightTitle>
               <HighlightSubtitle>{caseItem.Subtitle}</HighlightSubtitle>
             </div>
-            {/* Card */}
-            <Card
-              styles={{
-                textPositionVertical: 'start',
-                textPositionHorizontal: 'start',
-                bg: 'bg-primary-white',
-                textStyles: {
-                  height: 'paragraph',
-                  align: 'left'
-                }
-              }}
-              text={title}
-              description={caseDescription}
-            />
-            <div
-              className={`md:flex-1 md:basis-1/2 lg:flex-auto lg:basis-auto aspect-square bg-red-500`}
-            />
+            <div className="flex-[1_1_50%]">
+              {/* Card */}
+              <Card
+                styles={{
+                  textPositionVertical: 'start',
+                  textPositionHorizontal: 'start',
+                  bg: 'bg-primary-white',
+                  textStyles: {
+                    height: 'paragraph',
+                    align: 'left'
+                  },
+                  direction: "col-reverse"
+                }}
+                text={title}
+                description={caseDescription}
+                imageUrl={"/assets/images/placeholderIcon.svg"}
+              />
+            </div>
           </section>
         )})}
     </section>
