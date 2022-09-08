@@ -30,7 +30,7 @@ export const Card = React.memo((props: CardInterface) => {
           ${styles.textPositionVertical === "start" ? "justify-start" : "justify-center"}
         `}
       >
-        {imageUrl && <div className="w-[50%] m-auto"><Image url={imageUrl} alternativeText="" height="100%" width="100%" /></div>}
+        {imageUrl && <div className="w-[50%] m-auto"><Image url={imageUrl} alternativeText="" height="100%" width="100%" layout="responsive"/></div>}
         <div className={`flex self-start flex-col`}>
           <p
             className={`

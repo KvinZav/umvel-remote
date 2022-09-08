@@ -3,4 +3,5 @@ export type ImageProps = {
     width: number | string
     height: number | string;
     url: string;
+    layout?: 'fixed' | 'fill' | 'intrinsic' | 'responsive'; 
 }

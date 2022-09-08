@@ -3,7 +3,7 @@ import { ImageProps } from "@type/components/Image.type";
 import NextImage from "next/image";
 import { FC } from "react";
 
-const Image: FC<ImageProps> = ({ alternativeText, width, height, url }) => {
+const Image: FC<ImageProps> = ({ alternativeText, width, height, url, layout = "fixed" }) => {
 
     return (
         <NextImage
@@ -12,6 +12,7 @@ const Image: FC<ImageProps> = ({ alternativeText, width, height, url }) => {
             objectFit="contain"
             src={getStrapiMedia(url)}
             alt={alternativeText || ""}
+            layout={layout}
         />
     );
 };

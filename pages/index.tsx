@@ -13,7 +13,6 @@ import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import MainMenuHighlights from '@modules/mainMenu/Highlights';
 import Highlights from '@modules/highlights';
 import { Clients } from '@modules/clients';
-import Prueba from '@modules/highlights/desktop';
 import FooterTeam from '@modules/footer/FooterTeam';
 import { BlockNameEnum } from '@enums/BlockName';
 import { HomeDataInterface } from '@interfaces/home-data/home.interface';
