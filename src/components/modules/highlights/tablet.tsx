@@ -4,7 +4,7 @@ import { HighlightsTabletPorps } from "@type/modules/highlights";
 const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,handlePrevious,title}):JSX.Element => {
     if(project){
         return (
-            <div className={`bg-${project.attributes.primaryColor} w-screen h-[150vw] grid grid-cols-2 grid-rows-3`}>
+            <div className={`bg-${project.attributes.primaryColor} w-full h-[150vw] grid grid-cols-2 grid-rows-3`}>
                 <div className="col-start-1 col-span-1 row-start-1 row-span-1">
                     <div className="h-full p-8 bg-secondary-70/50">
                         <h3 className="text-xl font-bold text-primary-white mb-4">{project.attributes.title}</h3>

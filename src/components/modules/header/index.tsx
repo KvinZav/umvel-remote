@@ -41,7 +41,7 @@ const Header = () => {
                 </div>}
             </div>
         </nav>}
-        {(showMenu) && <div className="w-screen h-screen sticky top-0 md:block md:w-auto bg-primary-white z-50">
+        {(showMenu) && <div className="w-full h-screen sticky top-0 md:block md:w-auto bg-primary-white z-50">
             <div className='w-full h-screen flex'>
                 {matchMedia&&<div className='h-full min-w-[100vh] grid grid-cols-3 grid-rows-3 gap-0'>
                     <Square title='Card' description="skdla asldkf asldkfl asdfas"><p>asdasd</p><br /><br /><br /><br /><p>werre</p></Square>
