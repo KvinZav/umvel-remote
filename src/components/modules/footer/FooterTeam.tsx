@@ -1,4 +1,4 @@
-import CustomImage from "@elements/image/CustomImage";
+import CustomImage from "@elements/Image/CustomImage";
 import useMediaQuery from "@hooks/useMediaQuery";
 import { useEffect, useState } from "react";
 import { Body } from '@interfaces/home-data/home.interface';
