@@ -35,11 +35,6 @@ const ScrollInteraction1 = () => {
     setIsTitleAnimToggled(currentStep === 3)
   }, [currentStep])
 
-  useEffect(() => {
-    console.log(boundsTop[0] * 0.01)
-  }, [boundsTop])
-
-
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
 
@@ -73,7 +68,7 @@ const ScrollInteraction1 = () => {
             >
               <p className={`${n === steps.length - 1 ? 'pb-[72px]' : 'pb-0'} max-w-[416px] text-4xl leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
             </div>
-          ) : <div ref={el => rightTextRefs.current[n] = el} />)
+          ) : <div key={n + ''} ref={el => rightTextRefs.current[n] = el} />)
           : steps?.map((i, n) => n > 0 ? (
             <div
               key={n + ''}
@@ -83,7 +78,7 @@ const ScrollInteraction1 = () => {
               <p className={`${n === steps.length - 1 ? 'pb-[72px]' : 'pb-0'} max-w-[416px] text-lg leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
               <br/>
             </div>
-          ) : <div ref={el => rightTextRefs.current[n] = el} />)
+          ) : <div key={n + ''} ref={el => rightTextRefs.current[n] = el} />)
         }
       </div>
     </section>

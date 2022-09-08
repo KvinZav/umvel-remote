@@ -8,13 +8,14 @@ import useSWR from "swr";
 
 const Hero = () => {  
 
-  const tablet= useMediaQuery('(max-width: 1023px) and (min-width: 640px)');
+  const isMobile = useMediaQuery('(max-width: 640px)');
+  const tablet= useMediaQuery('(max-width: 1023px) and (min-width: 640px)');  
 
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
 
   const { block, caseOfStudy } = FETCHER(event, BlockNameEnum.heading)
-
+  
   return (
     <>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-0">
@@ -47,7 +48,7 @@ const Hero = () => {
           <Card
             styles={{
               textStyles: { height: "paragraph", align: "start" },
-              direction: "col",
+              direction: isMobile ? "col-reverse" : "col",
               color: "white",
               textPositionHorizontal: "center",
               textPositionVertical: "center",
@@ -57,6 +58,7 @@ const Hero = () => {
             description={caseOfStudy[0].case_of_study.data.attributes.caseDescription}
             imageUrl={"/assets/images/capa.svg"}
             text={caseOfStudy[0].case_of_study.data.attributes.title}
+            showButton={isMobile}
           />
           {tablet && <Card
             styles={{

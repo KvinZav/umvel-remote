@@ -2,11 +2,14 @@ import { Card } from '@elements/card/card';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
+import useMediaQuery from '@hooks/useMediaQuery';
 import React from 'react';
 import useSWR from 'swr';
 import { HighlightSubtitle, HighlightTitle } from '../../elements/text/TextComponents';
 
 const MainMenuHighlights = () => {
+  const desktop = useMediaQuery('(min-width: 1024px)');
+  const tablet= useMediaQuery('(max-width: 1023px) and (min-width: 640px)');  
 
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
@@ -35,11 +38,12 @@ const MainMenuHighlights = () => {
                     height: 'paragraph',
                     align: 'left'
                   },
-                  direction: "col-reverse"
+                  direction: tablet ? "col" : "col-reverse"
                 }}
                 text={title}
                 description={caseDescription}
                 imageUrl={"/assets/images/placeholderIcon.svg"}
+                showButton={!desktop}
               />
             </div>
           </section>
