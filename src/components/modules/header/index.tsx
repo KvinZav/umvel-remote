@@ -17,7 +17,6 @@ const Header = () => {
 
     const logo = event.data.attributes.header.logo.data.attributes;
     const options = event.data.attributes.header.links;
-    console.log(logo);
     return (
     <>
         {(!showMenu)&&<nav className="sticky top-0 z-50">

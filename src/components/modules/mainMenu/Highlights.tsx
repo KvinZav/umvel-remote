@@ -2,11 +2,14 @@ import { Card } from '@elements/card/card';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
+import useMediaQuery from '@hooks/useMediaQuery';
 import React from 'react';
 import useSWR from 'swr';
 import { HighlightSubtitle, HighlightTitle } from '../../elements/text/TextComponents';
 
 const MainMenuHighlights = () => {
+  const desktop = useMediaQuery('(min-width: 1024px)');
+  const tablet= useMediaQuery('(max-width: 1023px) and (min-width: 640px)');  
 
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
@@ -24,23 +27,25 @@ const MainMenuHighlights = () => {
               <HighlightTitle>{caseItem.Title}</HighlightTitle>
               <HighlightSubtitle>{caseItem.Subtitle}</HighlightSubtitle>
             </div>
-            {/* Card */}
-            <Card
-              styles={{
-                textPositionVertical: 'start',
-                textPositionHorizontal: 'start',
-                bg: 'bg-primary-white',
-                textStyles: {
-                  height: 'paragraph',
-                  align: 'left'
-                }
-              }}
-              text={title}
-              description={caseDescription}
-            />
-            <div
-              className={`md:flex-1 md:basis-1/2 lg:flex-auto lg:basis-auto aspect-square bg-red-500`}
-            />
+            <div className="flex-[1_1_50%]">
+              {/* Card */}
+              <Card
+                styles={{
+                  textPositionVertical: 'start',
+                  textPositionHorizontal: 'start',
+                  bg: 'bg-primary-white',
+                  textStyles: {
+                    height: 'paragraph',
+                    align: 'left'
+                  },
+                  direction: tablet ? "col" : "col-reverse"
+                }}
+                text={title}
+                description={caseDescription}
+                imageUrl={"/assets/images/placeholderIcon.svg"}
+                showButton={!desktop}
+              />
+            </div>
           </section>
         )})}
     </section>
