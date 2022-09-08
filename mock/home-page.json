@@ -262,7 +262,30 @@
                                             "publishedAt": "2022-08-19T15:15:36.577Z",
                                             "portfolioTitle": null,
                                             "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null
+                                            "portfolioDataOfInterest": null,
+                                            "image": {
+                                                "data": {
+                                                    "id": 1,
+                                                    "attributes": {
+                                                        "name": "Viva Aerobus Logo.png",
+                                                        "alternativeText": "Viva Aerobus Logo.png",
+                                                        "caption": "Viva Aerobus Logotype.png",
+                                                        "width": 977,
+                                                        "height": 673,
+                                                        "formats": null,
+                                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                                        "ext": ".svg",
+                                                        "mime": "image/png",
+                                                        "size": 0.42,
+                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                                        "previewUrl": null,
+                                                        "provider": "local",
+                                                        "provider_metadata": null,
+                                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                                    }
+                                                }
+                                            }
                                         }
                                     },
                                     {
@@ -277,7 +300,30 @@
                                             "publishedAt": "2022-08-19T15:43:23.633Z",
                                             "portfolioTitle": null,
                                             "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null
+                                            "portfolioDataOfInterest": null,
+                                            "image": {
+                                                "data": {
+                                                    "id": 1,
+                                                    "attributes": {
+                                                        "name": "cancer buddy.png",
+                                                        "alternativeText": "Cancer Buddy.png",
+                                                        "caption": "CancerBuddyMockup.png",
+                                                        "width": 977,
+                                                        "height": 673,
+                                                        "formats": null,
+                                                        "hash": "CancerBuddy_Logotype_c2f08b71ea",
+                                                        "ext": ".svg",
+                                                        "mime": "image/png",
+                                                        "size": 0.42,
+                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.svg",
+                                                        "previewUrl": null,
+                                                        "provider": "local",
+                                                        "provider_metadata": null,
+                                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                                    }
+                                                }
+                                            }
                                         }
                                     },
                                     {
@@ -292,7 +338,30 @@
                                             "publishedAt": "2022-08-19T15:43:20.707Z",
                                             "portfolioTitle": null,
                                             "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null
+                                            "portfolioDataOfInterest": null,
+                                            "image": {
+                                                "data": {
+                                                    "id": 1,
+                                                    "attributes": {
+                                                        "name": "Viva Aerobus Logo.png",
+                                                        "alternativeText": "Viva Aerobus Logo.png",
+                                                        "caption": "Viva Aerobus Logotype.png",
+                                                        "width": 977,
+                                                        "height": 673,
+                                                        "formats": null,
+                                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                                        "ext": ".svg",
+                                                        "mime": "image/png",
+                                                        "size": 0.42,
+                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                                        "previewUrl": null,
+                                                        "provider": "local",
+                                                        "provider_metadata": null,
+                                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                                    }
+                                                }
+                                            }
                                         }
                                     },
                                     {
@@ -307,7 +376,30 @@
                                             "publishedAt": "2022-08-19T15:43:16.726Z",
                                             "portfolioTitle": null,
                                             "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null
+                                            "portfolioDataOfInterest": null,
+                                            "image": {
+                                                "data": {
+                                                    "id": 1,
+                                                    "attributes": {
+                                                        "name": "cancer buddy.png",
+                                                        "alternativeText": "Cancer Buddy.png",
+                                                        "caption": "CancerBuddyMockup.png",
+                                                        "width": 977,
+                                                        "height": 673,
+                                                        "formats": null,
+                                                        "hash": "CancerBuddy_Logotype_c2f08b71ea",
+                                                        "ext": ".svg",
+                                                        "mime": "image/png",
+                                                        "size": 0.42,
+                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.svg",
+                                                        "previewUrl": null,
+                                                        "provider": "local",
+                                                        "provider_metadata": null,
+                                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                                    }
+                                                }
+                                            }
                                         }
                                     },
                                     {
@@ -322,7 +414,30 @@
                                             "publishedAt": "2022-08-19T16:10:38.202Z",
                                             "portfolioTitle": "Viva Aerobus",
                                             "portfolioDescription": "Helping a Mexican titan to increase sales up to 20% We reimagined what the digital experience for a large-scale airline could look & feel like.",
-                                            "portfolioDataOfInterest": "1,000,000 + \nUsers"
+                                            "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                                            "image": {
+                                                "data": {
+                                                    "id": 1,
+                                                    "attributes": {
+                                                        "name": "Viva Aerobus Logo.png",
+                                                        "alternativeText": "Viva Aerobus Logo.png",
+                                                        "caption": "Viva Aerobus Logotype.png",
+                                                        "width": 977,
+                                                        "height": 673,
+                                                        "formats": null,
+                                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                                        "ext": ".svg",
+                                                        "mime": "image/png",
+                                                        "size": 0.42,
+                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                                        "previewUrl": null,
+                                                        "provider": "local",
+                                                        "provider_metadata": null,
+                                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                                    }
+                                                }
+                                            }
                                         }
                                     }
                                 ]
