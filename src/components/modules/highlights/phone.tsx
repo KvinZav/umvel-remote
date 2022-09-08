@@ -1,6 +1,7 @@
 import SquareColors from "@elements/square-colors";
 import { HighlightsPhonePorps } from "@type/modules/highlights"
 import Image from "@elements/image-component";
+import { Attributes2 } from "@interfaces/home-data/home.interface";
 
 const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element => {
     if(projects){
@@ -41,7 +42,7 @@ type PorjectsCardPropsTypes = {
     subtitle?:string,
     description?:string,
     button?:boolean,
-    imgAttributes?:object,
+    imgAttributes?:Attributes2,
     handleClick?:()=>void
 }
 const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({title,subtitle,description,button=false,handleClick,imgAttributes}):JSX.Element => {
