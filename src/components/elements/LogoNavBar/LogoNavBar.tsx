@@ -1,5 +1,5 @@
 import type { LogoPorps } from "@type/components/LogoNavBar"
-import Image from '@elements/Image';
+import Image from '@elements/image-component/index';
 
 const Logo: React.FC<LogoPorps> = ({ imgUrl, alt, caption, url}) => {
     return (
