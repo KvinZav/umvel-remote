@@ -7,7 +7,7 @@ const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element 
     if(projects){
         return (
             <>
-                <hr className="mx-12 text-secondary-30"></hr>
+                <hr className="mx-12 text-secondary-10"></hr>
                 <div className="h-full aspect-[2/1] flex justify-center items-center">
                     <h3 className="text-3xl font-bold">If you can dream it,<br/> we can make it.</h3>
                 </div>
@@ -32,7 +32,7 @@ const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element 
                         <SquareColors text="View all cases" textSize="md"/>
                     </div>
                 </div>
-                <hr className="mx-12 text-secondary-30"></hr>
+                <hr className="mx-12 text-secondary-10"></hr>
             </>
         )
     }

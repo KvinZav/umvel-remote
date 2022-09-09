@@ -3,8 +3,9 @@ import { BlockNameEnum } from "@enums/BlockName";
 import { environment } from "@environments/index";
 import { FETCHER } from "@fetcher/clients";
 import useMediaQuery from "@hooks/useMediaQuery";
-import React from "react";
+import React, { useEffect } from "react";
 import useSWR from "swr";
+import { setInterval } from "timers/promises";
 
 const Hero = () => {  
 
