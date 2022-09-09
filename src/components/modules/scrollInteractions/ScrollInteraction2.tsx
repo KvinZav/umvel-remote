@@ -18,13 +18,13 @@ const ScrollInteraction2 = ({steps}) => {
   useEffect(() => {
     const { bottom, top } = mainContainerRef.current.getBoundingClientRect()  
     setTopPosition(top)    
-    setScaleValue(bottom - innerHeight > 0 ? bottom - innerHeight : 0)        
+    setScaleValue(bottom - (innerHeight + 200) > 0 ? bottom - (innerHeight + 200) : 0)        
   }, [scrollOffset, mainContainerRef])
 
   return(
     <section
       ref={mainContainerRef}
-      className="my-[104px] md:my-[216px] lg:my-0 lg:h-[500vh] w-full lg:pt-[50vh]"
+      className="my-[104px] md:my-[216px] lg:mt-56 lg:mb-0 lg:h-[500vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
         <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-48">
@@ -72,9 +72,9 @@ const ScrollInteraction2 = ({steps}) => {
           <div className="lg:flex-1 lg:ml-4">
             <h1 className="font-bold text-[38px] leading-tight max-w-xs mb-6">{steps[0].right.identifier.replace(/\*/g, '')}</h1>
             {/* TODO: Connect to CMS when texts are fixed */}
-            <p className={`text-base leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 10 ? 'lg:opacity-0' : 'opacity-100'}`}>We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
+            <p className={`text-base leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'}`}>We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
             <br/>
-            <p className={`text-base leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 10 ? 'lg:opacity-0' : 'opacity-100'}`}>Our approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise.</p>
+            <p className={`text-base leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'}`}>Our approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise.</p>
           </div>
         </div>
       </div>
