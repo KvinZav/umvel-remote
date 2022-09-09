@@ -9,7 +9,7 @@ export const Card = React.memo((props: CardInterface) => {
   
   return (
     <div
-      className={`overflow-hidden flex ${styles.direction === "col" ? "flex-col-reverse" : "flex-col"} group aspect-square border-solid border ${styles.bg}`}
+      className={`group overflow-hidden flex ${styles.direction === "col" ? "flex-col-reverse" : "flex-col"} aspect-square border-solid border ${styles.bg}`}
       style={{
         borderColor: styles.borderColor || "#e6e6e6",
       }}
@@ -55,7 +55,7 @@ export const Card = React.memo((props: CardInterface) => {
         </div>
       </div>}
       {description &&
-        <div className={`w-full h-full lg:h-auto bg-primary-black bg-opacity-50 flex flex-col justify-center lg:justify-end items-start py-8 px-9 transition ease-in-out duration-700 ${styles.direction === "col" ? 'lg:group-hover:translate-y-[100%] lg:-translate-y-[100%]' : 'lg:group-hover:-translate-y-[100%] lg:translate-y-[100%]'}`}>
+        <div className={`w-full h-full lg:h-auto bg-primary-black bg-opacity-50 flex flex-col justify-center lg:justify-end items-start py-8 px-9 transition ease-in-out duration-1000 ${styles.direction === "col" ? 'lg:group-hover:translate-y-[100%] lg:-translate-y-[100%] lg:opacity-0 lg:group-hover:opacity-100' : 'lg:group-hover:-translate-y-[100%] lg:translate-y-[100%] lg:opacity-0 lg:group-hover:opacity-100'}`}>
           <p
             className={`text-primary-white mb-2 w-full font-bold text-${styles.textStyles?.align} ${styles.textStyles?.height === 'title' ?  'text-[98px]' : styles.textStyles?.height ==='subtitle' ? 'text-[36px]' : 'text-[16px]'}`}
           >

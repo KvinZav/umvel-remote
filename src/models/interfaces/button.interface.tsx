@@ -1,5 +1,5 @@
 export interface BasicButtonProps {
-  children: string;
+  children: any;
   onClick?: () => any;
   theme?: 'light' | 'dark';
 }
