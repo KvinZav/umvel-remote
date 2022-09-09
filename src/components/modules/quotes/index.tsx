@@ -15,7 +15,7 @@ const Quotes = (): JSX.Element => {
         <div className={`w-full h-[180vw] md:h-auto overflow-hidden overflow-x-auto snap-x`}>
             <section className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-4 flex-wrap snap-x h-[180vw] md:h-auto">
                 <article className="bg-primary-white group p-[4vw] w-[90vw] md:w-[100%] aspect-square border snap-center overflow-hidden lg:text-2xl">
-                    <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">Our projects speak for themselves.</h2>
+                    <h2 className="text-4xl font-bold leading-snug mb-4 lg:text-2xl xl:text-4xl">Our projects speak for themselves.</h2>
                     <p className="text-base">Millions of people used products we’ve built.  And we just got started.</p>
                 </article>
                 {
