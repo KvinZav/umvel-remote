@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useVerticalScroll = (offset:number) => {
-    const [scroll, setScroll] = useState(false);
+    const [scroll, setScroll] = useState(true);
     useEffect(function onFirstMount() {
         const changeNavbar = () => {
             if (window.scrollY>=offset) {

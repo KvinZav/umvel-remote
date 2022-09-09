@@ -6,6 +6,7 @@ import useSWR from 'swr';
 import { environment } from '@environments/index';
 import useVerticalScroll from '@hooks/useVerticalScroll';
 import CustomImage from '@elements/image-component/CustomImage'
+import BasicButton from '@elements/button';
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -17,6 +18,7 @@ const Header = () => {
 
     const logo = event.data.attributes.header.logo.data.attributes;
     const options = event.data.attributes.header.links;
+    
     return (
     <>
         {(!showMenu)&&<nav className="sticky top-0 z-50">
@@ -33,7 +35,10 @@ const Header = () => {
                 {(matchMedia && isVerticalScroll) && <div className="w-full md:block md:w-auto" id="navbar-default" data-collapse-toggle="navbar-default">
                     <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 items-center">
                         {options && options.map(link =>
-                            <li key={'link-' + link.id} className={link.type==='button'&&"border px-2 py-2 rounded-full flex justify-center items-center"}>
+                            link.type === 'button' ? <BasicButton>
+                                <Link name={link.name} url={link.link} />
+                            </BasicButton> :
+                            <li key={'link-' + link.id}>
                                 <Link name={link.name} url={link.link} />
                             </li>
                         )}

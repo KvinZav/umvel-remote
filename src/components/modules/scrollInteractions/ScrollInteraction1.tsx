@@ -53,7 +53,7 @@ const ScrollInteraction1 = () => {
         </div>
       </div>
       <div
-        className={`h-full flex flex-col md:items-end -mt-[90vh]`}
+        className={`h-full flex flex-col md:items-end -mt-[90vh] pointer-events-none`}
       >
         {
           isTablet ? steps?.map((i, n) => n > 0 ? (
@@ -92,21 +92,21 @@ const AnimatedTitle = ({ toggled }) => {
 
   const [wordWidth, setWordWidth] = useState<number>(86)
 
-  useEffect(() => {
+  useEffect(() => {    
     if (!toggled) {
       setWordWidth(theRef?.current?.offsetWidth)
     } else {
       setWordWidth(itRef?.current?.offsetWidth)
     }
 
-  }, [toggled])
+  }, [toggled, theRef?.current?.offsetWidth])
 
   return (
     <div className={`flex flex-col w-full h-full`}>
       <div className="flex justify-end children:ease-in-out children:transform children:transition-all children:duration-700">
-        <span className={`font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight`}>Making</span>
+        <span className={`font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight mr-3`}>Making</span>
         <div
-          className={`relative ml-3`}
+          className={`relative`}
           style={{
             transition: 'width 500ms',
             transitionDelay: '250ms',
