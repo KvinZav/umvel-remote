@@ -47,8 +47,8 @@ const ScrollInteraction3 = () => {
           </ul>
           }
         <div className="flex flex-col-reverse md:flex-row-reverse lg:flex-row justify-between items-center self-center w-full lg:w-auto">
-          <div className="min-w-[52px] min-h-[52px] mr-3">
-            <SquareColors text="Our Work" textSize="sm"/>
+          <div className="min-w-[120px] min-h-[120px] lg:min-w-[72px] lg:min-h-[72px] mr-3">
+            <SquareColors text="Our Work" textSize={isDesktop ? "sm" : "md"}/>
           </div>
           <div className="py-[104px] lg:py-0 mr-7 flex justify-center">
             <h2 className="font-bold text-xl">
