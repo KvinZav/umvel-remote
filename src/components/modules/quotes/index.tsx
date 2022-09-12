@@ -12,7 +12,7 @@ const Quotes = (): JSX.Element => {
     const {quote} = FETCHER(event, BlockNameEnum.quotes)
 
     return (
-        <div className={`h-[180vw] sm:h-[200vw] w-screen overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}>
+        <div className={`h-[180vw] sm:h-[200vw] w-full overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}>
             <section className="h-[180vw] flex flex-col flex-wrap sm:h-[200vw] lg:h-[50vw] snap-x">
                 <article className="bg-primary-white p-[4vw] h-[50%] sm:h-1/4 aspect-square snap-center overflow-hidden lg:h-1/2 lg:w-auto lg:text-2xl">
                     <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">Our projects speak for themselves.</h2>
