@@ -45,15 +45,16 @@ const ScrollInteraction1 = () => {
       className={`px-[72px] py-[104px] md:px-0 md:py-0`}
       ref={containerRef}
     >
-      <div className={`flex flex-col md:flex-row pr-8 md:sticky top-0 h-screen items-center`}>
-        <div className="md:w-1/2">
-          {isTablet ? <AnimatedTitle
+      <div className={`flex flex-col md:flex-row pr-8 md:sticky top-0 md:h-screen items-center`}>
+        {isTablet ? <div className="md:w-1/2">
+          <AnimatedTitle
             toggled={isTitleAnimToggled}
-          /> : <h1 className="font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight">Making the impossible, possible.</h1>}
-        </div>
+          />
+        </div> :
+        <h1 className="font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight mb-4">Making the impossible, possible.</h1>}
       </div>
       <div
-        className={`h-full flex flex-col md:items-end -mt-[90vh] pointer-events-none`}
+        className={`h-full flex flex-col items-start md:items-end md:-mt-[90vh] pointer-events-none`}
       >
         {
           isTablet ? steps?.map((i, n) => n > 0 ? (
