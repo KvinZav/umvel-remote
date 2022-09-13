@@ -16,10 +16,15 @@ const ScrollInteraction2 = ({steps}) => {
   const isDesktop = useMediaQuery('(min-width: 1024px)');
 
   useEffect(() => {
-    const { bottom, top } = mainContainerRef.current.getBoundingClientRect()  
+    const { bottom, top } = mainContainerRef.current.getBoundingClientRect()      
     setTopPosition(top)    
     setScaleValue(bottom - innerHeight > 0 ? bottom - innerHeight : 0)        
   }, [scrollOffset, mainContainerRef])
+
+  useEffect(() => {
+    console.log("TOP", topPosition / 5)
+    
+  }, [topPosition])
 
   return(
     <section
@@ -27,7 +32,7 @@ const ScrollInteraction2 = ({steps}) => {
       className="my-[104px] md:my-[216px] lg:my-0 lg:h-[500vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
-        <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-48">
+        <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[40vh]">
           <div className="lg:flex-1 flex items-end md:items-start md:justify-end mr-4">
             {isDesktop && topPosition < 500 && <div className="grid grid-cols-3 gap-2">
               <div/>
@@ -70,7 +75,8 @@ const ScrollInteraction2 = ({steps}) => {
             </div>}
           </div>
           <div className="lg:flex-1 lg:ml-4">
-            <h1 className="font-bold text-[38px] leading-tight max-w-xs mb-6">{steps[0].right.identifier.replace(/\*/g, '')}</h1>
+            <h1
+              className="font-bold text-[38px] leading-tight max-w-xs mb-6">{steps[0].right.identifier.replace(/\*/g, '')}</h1>
             {/* TODO: Connect to CMS when texts are fixed */}
             <p className={`text-base leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 10 ? 'lg:opacity-0' : 'opacity-100'}`}>We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
             <br/>
