@@ -67,10 +67,11 @@ const OurWorkPage = () => {
             <div key={'indicator-'+index} className="group relative">
               <div className={`w-3 h-3 rounded-full ${index === currentPage ? 'bg-secondary-50' : 'bg-secondary-20'}`}/>
               <button
-                className={`absolute flex -top-[150%] -right-[17px] border border-secondary-10 rounded-full py-3 px-4 space-x-4 justify-center items-center opacity-0 group-hover:opacity-100`}
+                //Negative right offset 19px = 34px (from indicator container margin) - 16px (from label padding) + 1px (from border width)
+                className={`absolute flex -top-[160%] -right-[19px] border border-secondary-10 rounded-full py-3 px-4 space-x-4 justify-center items-center transition duration-500 opacity-0 group-hover:opacity-100`}
                 onClick={() => workCaseRefs.current[index].scrollIntoView({behavior: 'smooth'})}
               >
-                <span className="whitespace-nowrap origin-right">{section.title}</span>
+                <span className="whitespace-nowrap origin-right transition-[max-width] duration-1000 max-w-0 group-hover:max-w-[85px] overflow-hidden">{section.title}</span>
                 <div className={`w-4 h-4 ${section.background}`}/>
               </button>
             </div>
