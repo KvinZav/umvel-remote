@@ -1,6 +1,8 @@
 import React from "react";
 import { WorkCaseProps } from "@interfaces/components/WorkCase";
 import Image from '@elements/image-component/index';
+import BasicButton from "@elements/button";
+import Link from "next/link";
 
 const WorkCase:React.FC<WorkCaseProps> = ({inverted}):JSX.Element => {
     
@@ -10,11 +12,9 @@ const WorkCase:React.FC<WorkCaseProps> = ({inverted}):JSX.Element => {
                 <p className="text-3xl font-bold mb-4 mt-[6rem] sm:mt-0">Viva Aerobus</p>
                 <p className="text-xl font-bold mb-4">Mobile App</p>
                 <p className="mb-4">You love flying. Now you’ll love getting tickets too.</p>
-                <div className="border rounded-full w-min px-4 py-3">
-                    <a href="#">
-                        <p className="inline-block whitespace-nowrap">View Cases</p>
-                    </a>
-                </div>
+                <Link href="#">
+                    <BasicButton>View Cases</BasicButton>
+                </Link>
             </div>
             <div className="w-full sm:w-1/2 aspect-square bg-prisma-lemon flex justify-center items-center">
                 <Image url="https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg" alternativeText="project" layout="intrinsic" height={'673'} width={'977'} />
