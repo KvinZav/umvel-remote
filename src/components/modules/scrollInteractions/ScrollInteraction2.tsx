@@ -21,11 +21,6 @@ const ScrollInteraction2 = ({steps}) => {
     setScaleValue(bottom - (innerHeight + 200) > 0 ? bottom - (innerHeight + 200) : 0)        
   }, [scrollOffset, mainContainerRef])
 
-  useEffect(() => {
-    console.log("TOP", topPosition / 5)
-    
-  }, [topPosition])
-
   return(
     <section
       ref={mainContainerRef}
