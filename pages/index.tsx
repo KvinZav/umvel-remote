@@ -3,7 +3,7 @@ import useSWR from 'swr';
 import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import { useAppState } from '@hooks/customHooks';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import Hero from '@modules/hero';
 import FooterCta from '@modules/footer/FooterCta';
 import FooterMenu1 from '@modules/footer/footerMenu';
@@ -16,6 +16,7 @@ import { Clients } from '@modules/clients';
 import FooterTeam from '@modules/footer/FooterTeam';
 import { BlockNameEnum } from '@enums/BlockName';
 import { HomeDataInterface } from '@interfaces/home-data/home.interface';
+import { ButtonScroll } from '@elements/ButtonScroll';
 
 export default function Home() {
   const isBrowser = typeof window !== "undefined"
@@ -34,12 +35,17 @@ export default function Home() {
     return () => isBrowser && window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const highlightsRef = useRef();
+
   return data && (
     <div>
       <Hero />
+      {<ButtonScroll elementTo={highlightsRef}/>}
       <MainMenuHighlights/>
       <ScrollInteraction1/>
-      <Highlights/>
+      <div ref={highlightsRef}>
+        <Highlights/>
+      </div>
       <ScrollInteraction2
         steps={data?.data?.attributes.body[4].step}
       />

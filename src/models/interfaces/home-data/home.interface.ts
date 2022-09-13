@@ -205,6 +205,7 @@ export interface Attributes5 {
     portfolioTitle?: string
     portfolioDescription?: string
     portfolioDataOfInterest?: string
+    image?: Logo 
 }
 
 export interface Quote {

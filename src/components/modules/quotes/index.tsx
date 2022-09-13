@@ -12,13 +12,11 @@ const Quotes = (): JSX.Element => {
     const {quote} = FETCHER(event, BlockNameEnum.quotes)
 
     return (
-        <div className={`h-[180vm] sm:h-auto w-full overflow-hidden overflow-x-auto snap-x`}>
-            <section className="h-[180vw] flex flex-col flex-wrap sm:h-auto sm:w-full sm:grid sm:grid-cols-2 lg:grid-cols-4 snap-x">
-                <article className="bg-primary-white p-[4vw] h-[50%] sm:h-auto sm:w-full aspect-square border snap-center overflow-hidden">
-                    <div>
-                        <h2 className="text-4xl font-bold leading-snug mb-4 lg:text-2xl xl:text-4xl">Our projects speak for themselves.</h2>
-                        <p className="text-base">Millions of people used products we’ve built.  And we just got started.</p>
-                    </div>
+        <div className={`h-[180vw] sm:h-[200vw] w-full overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}>
+            <section className="h-[180vw] flex flex-col flex-wrap sm:h-[200vw] lg:h-[50vw] snap-x">
+                <article className="bg-primary-white p-[4vw] h-[50%] sm:h-1/4 aspect-square snap-center overflow-hidden lg:h-1/2 lg:w-auto lg:text-2xl">
+                    <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">Our projects speak for themselves.</h2>
+                    <p className="text-base">Millions of people used products we’ve built.  And we just got started.</p>
                 </article>
                 {
                     quote.map((item)=>{
@@ -40,7 +38,7 @@ type SquareQuotesProps = {
 
 const SquareQuotes:React.FC<SquareQuotesProps> = ({title='',subtitle='',description='',color=''}):JSX.Element => {
     return (
-        <article className={`bg-${color} group overflow-hidden h-[50%] sm:h-auto sm:w-full aspect-square border snap-center`}>
+        <article className={`bg-${color} group overflow-hidden h-[50%] sm:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}>
             <div className="h-full w-full p-9 text-primary-white">
                 <p className="mb-4">{description}</p>
                 <h3 className="font-bold mb-4">{title}</h3>

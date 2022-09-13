@@ -1,11 +1,13 @@
 import SquareColors from "@elements/square-colors";
 import { HighlightsPhonePorps } from "@type/modules/highlights"
+import Image from "@elements/image-component";
+import { Attributes2 } from "@interfaces/home-data/home.interface";
 
 const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element => {
     if(projects){
         return (
             <>
-                <hr className="mx-12 text-secondary-30"></hr>
+                <hr className="mx-12 text-secondary-10"></hr>
                 <div className="h-full aspect-[2/1] flex justify-center items-center">
                     <h3 className="text-3xl font-bold">If you can dream it,<br/> we can make it.</h3>
                 </div>
@@ -19,6 +21,7 @@ const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element 
                                     description={project.attributes.caseDescription}
                                     key={project.id}
                                     button={true}
+                                    imgAttributes={project?.attributes?.image?.data?.attributes}
                                 />
                             })
                         }
@@ -29,7 +32,7 @@ const HighlightsPhone:React.FC<HighlightsPhonePorps> = ({projects}):JSX.Element 
                         <SquareColors text="View all cases" textSize="md"/>
                     </div>
                 </div>
-                <hr className="mx-12 text-secondary-30"></hr>
+                <hr className="mx-12 text-secondary-10"></hr>
             </>
         )
     }
@@ -39,10 +42,10 @@ type PorjectsCardPropsTypes = {
     subtitle?:string,
     description?:string,
     button?:boolean,
-    imgUrl?:string,
+    imgAttributes?:Attributes2,
     handleClick?:()=>void
 }
-const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({title,subtitle,description,button=false,handleClick,imgUrl}):JSX.Element => {
+const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({title,subtitle,description,button=false,handleClick,imgAttributes}):JSX.Element => {
     return (
         <article className="w-full aspect-[1/2] h-full grid grid-rows-2 border snap-center">
             <div className="row-start-1 row-span-1">
@@ -53,9 +56,8 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({title,subtitle,descripti
                     {button&&<button className="border-2 rounded-full px-4 py-1 text-primary-white" >View Case</button>}
                 </div>
             </div>
-            {imgUrl&&<div className="row-start-2 row-span-1 flex justify-center items-center">
-                <img src={imgUrl?imgUrl:"https://picsum.photos/500/1200"} alt="proyect" className="h-[80%] max-w-[30%] rounded-3xl opacity-50 z-0 relative left-12"/>
-                <img src={imgUrl?imgUrl:"https://picsum.photos/500/1200"} alt="proyect" className="h-[90%] max-w-[40%] rounded-3xl z-10"/>
+            {imgAttributes.url&&<div className="row-start-2 row-span-1 flex justify-center items-center">
+                <Image url={imgAttributes.url} alternativeText="proyect" layout="intrinsic" width={imgAttributes.width} height={imgAttributes.height}/>
             </div>}
         </article>
     )
