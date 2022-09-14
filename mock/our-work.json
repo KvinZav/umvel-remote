@@ -14,7 +14,31 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-campaign"
+                            "backgroundColor": "cases-campaign",
+                            "quote": "We deliver what we promise.",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
                         },
                         {
                             "id": 2,
@@ -23,7 +47,30 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-oeio"
+                            "backgroundColor": "cases-oeio",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
                         },
                         {
                             "id": 3,
@@ -32,7 +79,31 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-viva"
+                            "backgroundColor": "cases-viva",
+                            "quote": "We deliver what we promise.",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
                         },
                         {
                             "id": 4,
@@ -41,7 +112,30 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-prevue"
+                            "backgroundColor": "cases-prevue",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
                         },
                         {
                             "id": 5,
@@ -50,7 +144,30 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-food-central"
+                            "backgroundColor": "cases-food-central",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
                         },
                         {
                             "id": 6,
@@ -59,7 +176,30 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-argo"
+                            "backgroundColor": "cases-argo",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
                         },
                         {
                             "id": 7,
@@ -68,29 +208,30 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-capa"
-                        }
-                    ],
-                    "quotes":[
-                        {
-                            "id": 1,
-                            "title": "We deliver what we promise.",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
-                            "hoverClientHeading": null,
-                            "callToAction": null,
                             "backgroundColor": "cases-capa",
-                            "position": 2
-                        },
-                        {
-                            "id": 2,
-                            "title": "We deliver what we promise.",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
-                            "hoverClientHeading": null,
-                            "callToAction": null,
-                            "backgroundColor": "cases-capa",
-                            "position": 5
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
                         }
                     ]
                 }
