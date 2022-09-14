@@ -234,6 +234,15 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": 1,
+                    "__component": "page-header.page-header",
+                    "left": {
+                        "id": 1,
+                        "title": "Work we’re proud of",
+                        "subtitle": "Projects that made our clients shine."
+                    }
                 }
             ]
         }
