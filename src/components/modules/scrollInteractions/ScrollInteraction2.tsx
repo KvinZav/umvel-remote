@@ -18,22 +18,22 @@ const ScrollInteraction2 = ({ steps }) => {
   useEffect(() => {
     const { bottom, top } = mainContainerRef.current.getBoundingClientRect()
     setTopPosition(top)
-    setScaleValue(bottom - (innerHeight + 200) > 0 ? bottom - (innerHeight + 200) : 0)
+    setScaleValue(bottom - (innerHeight + 100) > 0 ? bottom - (innerHeight + 100) : 0)
   }, [scrollOffset, mainContainerRef])
 
   return (
     <section
       ref={mainContainerRef}
-      className="my-[104px] md:my-[216px] lg:mt-56 lg:mb-0 lg:h-[500vh] w-full"
+      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[500vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
-        <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[40vh]">
+        <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[30vh]">
           <div className="lg:flex-1 flex items-end md:items-start md:justify-end mr-4">
             {isDesktop && topPosition < 500 && <div className="grid grid-cols-3 gap-2">
               <div />
               <Block
                 scale={scaleValue / 500 + 1}
-                translate={scaleValue * (0.8 / 5)}
+                translate={scaleValue * (0.6 / 5)}
               >
                 {steps[0].left.identifier}
               </Block>
