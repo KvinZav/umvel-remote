@@ -7,10 +7,13 @@ import { environment } from '@environments/index';
 import useVerticalScroll from '@hooks/useVerticalScroll';
 import CustomImage from '@elements/image-component/CustomImage'
 import BasicButton from '@elements/button';
+import { get } from '@fetcher/get';
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
-    const { data: event } = useSWR(environment.HOME_URL);
+    const { data: event } = useSWR(environment.HOME_URL, get, {
+        revalidateOnFocus: false
+    });
     const matchMedia = useMediaQuery("(min-width: 1024px)");
     const isVerticalScroll = useVerticalScroll(1);
 
