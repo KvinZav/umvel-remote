@@ -10,7 +10,7 @@ export const ButtonScroll = ({elementTo}) => {
   }
 
   return (
-    <section className="w-full flex justify-center lg:justify-end p-[1.5rem]">
+    <section className="w-full flex justify-center md:justify-end p-[1.5rem]">
       <button
         className="border rounded-full border-3 grid place-content-center p-[1rem] w-[3rem] h-[3rem]"
         onClick={scrollToRef}>
