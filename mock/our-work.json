@@ -1,0 +1,242 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "body": [
+                {
+                    "id": 1,
+                    "__component": "workcases.cases",
+                    "cases": [
+                        {
+                            "id": 1,
+                            "title": "Delivery App",
+                            "hoverDescription": null,
+                            "hoverClientName": null,
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-campaign",
+                            "quote": "We deliver what we promise.",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "title": "Our projects speak for themselves.",
+                            "hoverDescription": null,
+                            "hoverClientName": null,
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-oeio",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "title": "VISA Consultory App",
+                            "hoverDescription": null,
+                            "hoverClientName": null,
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-viva",
+                            "quote": "We deliver what we promise.",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "title": "Miyana Delivery App",
+                            "hoverDescription": null,
+                            "hoverClientName": null,
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-prevue",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "title": "Self storage app",
+                            "hoverDescription": null,
+                            "hoverClientName": null,
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-food-central",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "title": "Health App",
+                            "hoverDescription": null,
+                            "hoverClientName": null,
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-argo",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "title": "VISA Consultory App",
+                            "hoverDescription": null,
+                            "hoverClientName": null,
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-capa",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "meta": {}
+}

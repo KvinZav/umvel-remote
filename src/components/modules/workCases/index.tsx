@@ -1,15 +1,19 @@
 import React, { useRef, useState } from "react"
 import WorkCase from "@elements/WorkCase/WorkCase";
+import useSWR from "swr";
+import { environment } from "@environments/index";
 
 const WorkCases: React.FC = (): JSX.Element => {
 
     const workCaseRefs = useRef<HTMLDivElement[]>([])
     const mainContainerRef = useRef<HTMLDivElement>(null)
-    // const [sectionPages, setSectionPages] = useState<Array<any>>(sections)
     const [currentPage, setCurrentPage] = useState<number>(0)
 
+    const { data: event } = useSWR(environment.OUR_WORK_URL)
+    if (!event) return null;
+    const cases = event.data.attributes.body[0].cases;
+    
     const handleScroll = event => setCurrentPage(Math.round(event.currentTarget.scrollTop / event.currentTarget.offsetHeight))
-
     return (
         <main
             className="relative h-screen w-screen overflow-scroll snap-proximity snap-y"
@@ -17,15 +21,15 @@ const WorkCases: React.FC = (): JSX.Element => {
             onScroll={handleScroll}
         >
             {
-                [...new Array(6)].map((_, index) => {
+                cases.map((project, index) => {
                     return (
                         <div
                             ref={el => workCaseRefs.current[index] = el}
                             key={'project-' + index}
                             id={'project-' + index}
-                            className={`z-0 w-full flex flex-col justify-center items-center snap-center`}
+                            className={`z-0 w-full flex flex-col justify-center items-center`}
                         >
-                            <WorkCase inverted={index % 2 === 0} />
+                            <WorkCase project={project} inverted={index % 2 === 0} key={project.title+index} alignImage={'left'} />
                         </div>
                     )
                 })

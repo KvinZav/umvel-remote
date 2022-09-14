@@ -1,12 +1,18 @@
+import { environment } from '@environments/index';
+import useSWR from 'swr';
+import { get } from '@fetcher/get';
 import WorkCases from '@modules/workCases';
-import React from 'react';
 
-const OurWorkPage = () => {
-  return(
+
+export default function OurWork() {
+
+  const { data } = useSWR(environment.OUR_WORK_URL, get, {
+    revalidateOnFocus: false,
+  });
+
+  return data && (
     <>
-      <WorkCases/>
+      <WorkCases />
     </>
-  )
+  );
 }
-
-export default OurWorkPage;
