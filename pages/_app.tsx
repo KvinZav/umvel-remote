@@ -1,7 +1,8 @@
 import '../styles/globals.css'
 import { SWRConfig } from 'swr';
-import { GlobalContextProvider } from '@context/globalContext';
+import { GlobalContextProvider, useAppState } from '@context/globalContext';
 import Header from '@modules/header';
+import { useEffect } from 'react';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -18,6 +19,7 @@ const colors = [
 ]
 
 function MyApp({ Component, pageProps }) {
+
   return <>
     <SWRConfig value={swrConfig}>
       <GlobalContextProvider>

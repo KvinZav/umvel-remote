@@ -1,6 +1,8 @@
 import React from "react";
 import { WorkCaseProps } from "@interfaces/components/WorkCase";
 import Image from '@elements/image-component/index';
+import BasicButton from "@elements/button";
+import Link from "next/link";
 
 const WorkCase: React.FC<WorkCaseProps> = ({ project, inverted, alignImage }): JSX.Element => {
     return (
