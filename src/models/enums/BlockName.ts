@@ -8,5 +8,6 @@ export enum BlockNameEnum {
     clients = 'clients.clients',
     scrollInteraction3 = 'scroll-interaction.scroll-interaction3',
     interactiveFooter = 'interactive-footer.interactive-footer',
-    team = 'team.footer-team'
+    team = 'team.footer-team',
+    pageHeader = 'page-header.page-header',
 }
