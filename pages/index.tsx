@@ -2,7 +2,7 @@ import { environment } from '@environments/index';
 import useSWR from 'swr';
 import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
-import { useAppState } from '@hooks/customHooks';
+import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
 import Hero from '@modules/hero';
 import FooterCta from '@modules/footer/FooterCta';
@@ -25,7 +25,7 @@ export default function Home() {
     revalidateOnFocus: false,
   }); 
   
-  const { handleScroll } = useAppState();
+  const { handleScroll } = useScrollOffset();
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
   

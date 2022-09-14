@@ -1,6 +1,6 @@
 import SquareColors from "@elements/square-colors"
 import { environment } from "@environments/index"
-import { useAppState } from "@hooks/customHooks"
+import useScrollOffset from "@hooks/useScrollOffset"
 import { HighlightsDesktopPorps } from "@type/modules/highlights"
 import React, { useEffect, useRef, useState } from "react"
 import useSWR from "swr"
@@ -10,7 +10,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
     const isBrowser = typeof window !== "undefined"
     const innerHeight = isBrowser ? window.innerHeight : 0
     const container = useRef<HTMLDivElement>()
-    const { scrollOffset } = useAppState()
+    const { scrollOffset } = useScrollOffset()
     const [scaleValue, setScaleValue] = useState<number>()
     const [topPosition, setTopPosition] = useState(Number.MAX_SAFE_INTEGER)
     const { data: event } = useSWR(environment.HOME_URL)

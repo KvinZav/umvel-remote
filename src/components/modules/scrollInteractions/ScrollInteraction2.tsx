@@ -1,5 +1,5 @@
-import { useAppState } from '@hooks/customHooks';
 import useMediaQuery from '@hooks/useMediaQuery';
+import useScrollOffset from '@hooks/useScrollOffset';
 import React, { useEffect, useRef, useState } from 'react';
 
 const ScrollInteraction2 = ({ steps }) => {
@@ -8,7 +8,7 @@ const ScrollInteraction2 = ({ steps }) => {
 
   const mainContainerRef = useRef<HTMLDivElement>()
 
-  const { scrollOffset } = useAppState()
+  const { scrollOffset } = useScrollOffset()
 
   const [scaleValue, setScaleValue] = useState<number>()
   const [topPosition, setTopPosition] = useState(Number.MAX_SAFE_INTEGER)

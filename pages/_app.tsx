@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { SWRConfig } from 'swr';
-import { GlobalContextProvider } from '@context/globalContext';
 import Header from '@modules/header';
+import { ScrollContextProvider } from '@context/scrollContext';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -20,10 +20,10 @@ const colors = [
 function MyApp({ Component, pageProps }) {
   return <>
     <SWRConfig value={swrConfig}>
-      <GlobalContextProvider>
+      <ScrollContextProvider>
         <Header />
         <Component {...pageProps} />
-      </GlobalContextProvider>
+      </ScrollContextProvider>
     </SWRConfig>
   </>
 }

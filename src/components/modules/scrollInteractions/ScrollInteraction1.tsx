@@ -1,10 +1,10 @@
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
-import { useAppState } from '@hooks/customHooks';
 import useMediaQuery from '@hooks/useMediaQuery';
 import React, { useEffect, useRef, useState } from 'react';
 import useSWR from 'swr';
+import useScrollOffset from '@hooks/useScrollOffset';
 
 const determineOpacity = (top) => (100 - (Math.abs(top) * 0.6)) * 0.01
 
@@ -14,7 +14,7 @@ const ScrollInteraction1 = () => {
   
   const isTablet = useMediaQuery('(min-width: 640px)');
   
-  const { scrollOffset } = useAppState()
+  const { scrollOffset } = useScrollOffset()
 
   const [currentStep, setCurrentStep] = useState(0)
   const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
