@@ -26,7 +26,7 @@ const FooterCta = ({theme = 'dark'}: {theme?: 'dark' | 'light'}) => {
       </CustomCard>
       <CustomCard customStyles="relative grid grid-cols-12" borderless>
         {
-          [...new Array(144)].map((_, n) => <div key={n+''} className={`border-[0.5px] ${darkTheme ? 'border-[#333]' : 'border-[#ccc]'}`}/>)
+          [...new Array(144)].map((_, n) => <div key={n+''} className={`border ${darkTheme ? 'border-[#333]' : 'border-[#ccc]'}`}/>)
         }
         <div className="absolute w-full p-[24vw] md:p-[12vw]">
           <CustomImage 
