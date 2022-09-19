@@ -67,6 +67,84 @@
                         "link": "lets-talk",
                         "type": "button"
                     }
+                ],
+                "cases": [
+                    {
+                        "id": 0,
+                        "title": "null",
+                        "backgroundColor": "cases-viva",
+                        "image": null
+                    },
+                    {
+                        "id": 1,
+                        "title": null,
+                        "backgroundColor": "cases-campaign",
+                        "image": null
+                    },
+                    {
+                        "id": 2,
+                        "title": null,
+                        "backgroundColor": "cases-oeio",
+                        "image": null
+                    },
+                    {
+                        "id": 3,
+                        "title": null,
+                        "backgroundColor": "cases-argo",
+                        "image": null
+                    },
+                    {
+                        "id": 4,
+                        "title": "CancerBuddy App",
+                        "backgroundColor": "cases-cancer-buddy",
+                        "image": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Viva Aerobus Logo.png",
+                                    "alternativeText": "Viva Aerobus Logo.png",
+                                    "caption": "Viva Aerobus Logotype.png",
+                                    "width": 500,
+                                    "height": 500,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DBMCF.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "title": null,
+                        "backgroundColor": "cases-campaign",
+                        "image": null
+                    },
+                    {
+                        "id": 6,
+                        "title": null,
+                        "backgroundColor": "cases-food-central",
+                        "image": null
+                    },
+                    {
+                        "id": 7,
+                        "title": null,
+                        "backgroundColor": "cases-buyback",
+                        "image": null
+                    },
+                    {
+                        "id": 8,
+                        "title": null,
+                        "backgroundColor": "cases-food-central",
+                        "image": null
+                    }
                 ]
             },
             "body": [
