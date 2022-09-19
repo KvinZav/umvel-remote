@@ -14,9 +14,9 @@ module.exports = {
     },
     "prisma":{
       "red": "#ce4c4c",
-      "organge": "#ce924c",
-      "ellow": "#cec94c",
-      "lemon": "#95ce4c",
+      "orange": "#ce924c",
+      "yellow": "#cec94c",
+      "lime": "#95ce4c",
       "green": "#4cce71",
       "aqua": "#4ccec6",
       "blue": "#4c98ce",
