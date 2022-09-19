@@ -5,15 +5,13 @@ import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import { useAppState } from '@hooks/customHooks';
 import { useEffect, useRef } from 'react';
 import Hero from '@modules/hero';
-import FooterCta from '@modules/footer/FooterCta';
-import FooterMenu1 from '@modules/footer/footerMenu';
+import { FooterMenu, FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import MainMenuHighlights from '@modules/mainMenu/Highlights';
 import Highlights from '@modules/highlights';
 import { Clients } from '@modules/clients';
-import FooterTeam from '@modules/footer/FooterTeam';
 import { BlockNameEnum } from '@enums/BlockName';
 import { HomeDataInterface } from '@interfaces/home-data/home.interface';
 import { ButtonScroll } from '@elements/ButtonScroll';
@@ -57,7 +55,7 @@ export default function Home() {
         data={data.data.attributes.body
           .find((item) => item.__component === BlockNameEnum.team)}
       />
-      <FooterMenu1/>
+      <FooterMenu/>
     </div>
   );
 }
