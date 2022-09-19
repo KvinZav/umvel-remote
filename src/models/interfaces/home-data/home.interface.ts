@@ -105,7 +105,8 @@ export interface Attributes3 {
     publishedAt: string
     portfolioTitle: any
     portfolioDescription: any
-    portfolioDataOfInterest: any
+    portfolioDataOfInterest: any,
+    image: Logo
 }
 
 export interface Block {
@@ -146,7 +147,8 @@ export interface Attributes4 {
     publishedAt: string
     portfolioTitle: any
     portfolioDescription: any
-    portfolioDataOfInterest: any
+    portfolioDataOfInterest: any,
+    image: Logo
 }
 
 export interface Step {

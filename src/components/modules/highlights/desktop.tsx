@@ -35,6 +35,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
                         <div className="h-full p-8 bg-secondary-70/50">
                             <h3 className="text-xl font-bold text-primary-white mb-4">{project.attributes.title}</h3>
                             <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDataOfInterest}</p>
+                            <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDescription}</p>
                             <p className="text-sm text-primary-white mb-4">{project.attributes.caseDescription}</p>
                             <button className="border-2 rounded-full px-4 py-1 text-base text-primary-white" >View Case</button>
                         </div>
