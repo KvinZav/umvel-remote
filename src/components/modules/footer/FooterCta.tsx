@@ -7,7 +7,7 @@ import { FETCHER } from '@fetcher/clients';
 import React from 'react';
 import useSWR from 'swr';
 
-const FooterCta = ({theme = 'dark'}: {theme?: 'dark' | 'light'}) => {
+export const FooterCta = ({theme = 'dark'}: {theme?: 'dark' | 'light'}) => {
 
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
@@ -38,5 +38,3 @@ const FooterCta = ({theme = 'dark'}: {theme?: 'dark' | 'light'}) => {
     </div>
   )
 }
-
-export default FooterCta;

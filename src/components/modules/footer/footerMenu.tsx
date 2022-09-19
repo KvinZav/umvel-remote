@@ -69,13 +69,13 @@ const MENU_ITEMS = [
   }
 ]
 
-const FooterMenu = () => {
+export const FooterMenu = () => {
   return(
     <section className="py-[104px] px-[72px] md:p-36 lg:p-32">
-      <div className="grid md:grid-cols-2 lg:grid-cols-5">
+      <div className="grid md:flex md:max-h-[80vh] md:flex-wrap md:flex-col md:content-around lg:place-content-around lg:grid lg:grid-cols-5">
         {
           MENU_ITEMS.map((i, n) => 
-            <div key={n + ''} >
+            <div key={n + ''} className={`lg:order-1 ${n % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
               <div className="mb-8">
                 <Link href={i.ref}>
                   <a className="text-xl leading-tight font-bold">{i.title}</a>
@@ -100,5 +100,3 @@ const FooterMenu = () => {
     </section>
   )
 }
-
-export default FooterMenu;
