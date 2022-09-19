@@ -217,7 +217,8 @@ export interface Quote {
     hoverClientName?: string
     hoverClientHeading?: string
     callToAction?: CallToAction
-    backgroundColor: any
+    backgroundColor: any,
+    primaryColor: string
 }
 
 export interface CallToAction {

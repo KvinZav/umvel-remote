@@ -21,7 +21,8 @@ const Quotes = (): JSX.Element => {
                 {
                     quote.map((item)=>{
                         return (
-                            <SquareQuotes key={item.id} title={item.title} subtitle={item.hoverClientHeading} description={item.hoverDescription} color={item.backgroundColor} />
+                            <SquareQuotes key={item.id} title={item.title} subtitle={item.hoverClientHeading} 
+                            description={item.hoverDescription} color={item.backgroundColor} primaryColor={item.primaryColor} />
                         )
                     })
                 }
@@ -34,18 +35,21 @@ type SquareQuotesProps = {
     subtitle: string;
     description: string;
     color?: string;
+    clientName?: string;
+    primaryColor?: string;
 }
 
-const SquareQuotes:React.FC<SquareQuotesProps> = ({title='',subtitle='',description='',color=''}):JSX.Element => {
+const SquareQuotes:React.FC<SquareQuotesProps> = ({title='',subtitle='',description='',color='', primaryColor}):JSX.Element => {
+    const textColor = primaryColor === 'black' ? 'text-primary-black' : 'text-primary-white';
     return (
         <article className={`bg-${color} group overflow-hidden h-[50%] sm:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}>
-            <div className="h-full w-full p-9 text-primary-white">
+            <div className={`h-full w-full p-9 ${textColor}`}>
                 <p className="mb-4">{description}</p>
                 <h3 className="font-bold mb-4">{title}</h3>
                 <h4 className="mb-4">{subtitle}</h4>
             </div>
             <div className={'h-1/4 w-auto hidden bg-secondary-70/50 lg:flex justify-end px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '}>
-                <button className=" text-primary-white border-2 px-4 rounded-full my-auto">View Case</button>
+                <button className={`${textColor} border-2 px-4 rounded-full my-auto`}>View Case</button>
             </div>
         </article>
     )

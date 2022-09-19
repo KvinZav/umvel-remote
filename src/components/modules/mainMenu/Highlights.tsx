@@ -35,7 +35,7 @@ const MainMenuHighlights = () => {
                   textPositionVertical: 'start',
                   textPositionHorizontal: 'start',
                   bg: primaryColor,
-                  textColor: 'white',
+                  textColor: 'black',
                   textStyles: {
                     height: 'paragraph',
                     align: 'left'

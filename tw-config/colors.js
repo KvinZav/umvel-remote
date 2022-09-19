@@ -33,6 +33,7 @@ module.exports = {
       "food-central":"#348181",
       "oeio": "#CBA552",
       "cancer-buddy": "#F1DE4F",
+      "buyback": "#4C98CE"
     }
 }
 
