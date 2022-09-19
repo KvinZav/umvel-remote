@@ -68,7 +68,7 @@ const MainContainer = ({children, styles, hasDescription}) => {
   )
 }
 
-const MainGraphic = ({imageUrl}) => <div className="w-1/2 h-1/2 m-auto"><Image url={imageUrl} alternativeText="" height="100%" width="100%" layout="responsive"/></div>
+const MainGraphic = ({imageUrl}) => <div className="w-1/2 h-1/2 m-auto"><Image url={imageUrl} alt="" height="100%" width="100%" layout="responsive"/></div>
 
 const TitleComponent = ({text, description, showButton, styles}) => {
   return description ? (

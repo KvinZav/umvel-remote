@@ -62,7 +62,7 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({ title, description,back
                 </div>
             </div>
             {imgAttributes.url && <div className="row-start-2 row-span-1 flex justify-center items-center">
-                <Image url={imgAttributes.url} alternativeText="proyect" layout="intrinsic" width={imgAttributes.width} height={imgAttributes.height} />
+                <Image url={imgAttributes.url} alt="proyect" layout="intrinsic" width={imgAttributes.width} height={imgAttributes.height} />
             </div>}
         </article>
     )

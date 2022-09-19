@@ -23,7 +23,7 @@ const WorkCase: React.FC<WorkCaseProps> = ({ project, inverted, alignImage }): J
                 </div>
                 <div className={`w-full sm:w-1/2 aspect-square bg-${project.backgroundColor} flex justify-center items-center overflow-hidden`}>
                     <div className={alignImage === 'right' ? "translate-x-[20%]" : alignImage === 'left' ? "-translate-x-[20%]" : ""}>
-                        <Image url={project.image.data.attributes.url} alternativeText="project" layout="intrinsic" height={'673'} width={'977'} />
+                        <Image url={project.image.data.attributes.url} alt="project" layout="intrinsic" height={'673'} width={'977'} />
                     </div>
                 </div>
             </article>

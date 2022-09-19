@@ -56,7 +56,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
                         </div>
                     </div>
                     <div className="col-start-2 col-span-3 row-start-2 row-span-2 flex justify-center items-center" style={{ transform: `translateY(${positionImagen}px)`, transformOrigin: 'top left', opacity: (topPosition * -1 / 500) - 3 }}>
-                        {imgAttributes.url&&<Image url={imgAttributes.url} alternativeText="proyect" layout="intrinsic" height={imgAttributes.height} width={imgAttributes.width}/>}
+                        {imgAttributes.url&&<Image url={imgAttributes.url} alt="proyect" layout="intrinsic" height={imgAttributes.height} width={imgAttributes.width}/>}
                     </div>
                 </div>
             </div>

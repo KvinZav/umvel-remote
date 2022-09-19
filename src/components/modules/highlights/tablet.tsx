@@ -31,7 +31,7 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                     </div>
                 </div>
                 <div className="col-start-1 col-span-2 row-start-2 row-span-2 flex justify-center items-center">
-                    {imgAttribute.url&&<Image url={imgAttribute.url} alternativeText="proyect" layout="intrinsic" height={imgAttribute.height} width={imgAttribute.height}/>}
+                    {imgAttribute.url&&<Image url={imgAttribute.url} alt="proyect" layout="intrinsic" height={imgAttribute.height} width={imgAttribute.height}/>}
                 </div>
             </div>
         )
