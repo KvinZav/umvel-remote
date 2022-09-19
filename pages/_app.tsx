@@ -18,6 +18,7 @@ const colors = [
 ]
 
 function MyApp({ Component, pageProps }) {
+
   return <>
     <SWRConfig value={swrConfig}>
       <ScrollContextProvider>
