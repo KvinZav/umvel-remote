@@ -10,6 +10,7 @@ const ScrollInteraction3 = () => {
     <>
       {isDesktop ?
         <DesktopScrollInteraction3/> :
+        //Phone and Tablet
         <MobileScrollInteraction3/>
       }
       
