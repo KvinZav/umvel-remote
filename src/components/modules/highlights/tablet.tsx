@@ -21,11 +21,11 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                             <p className="font-sm mx-8 mb-4">Explore more cases:</p>
                         </div>
                         <div className="h-1/2 flex flex-row justify-center items-center ">
-                            <button className="mr-4" onClick={()=>handlePrevious()}>{'<'}</button>
+                            <button className="mr-16 text-4xl" onClick={()=>handlePrevious()}>{'<'}</button>
                             <div className="w-1/4">
                                     <SquareColors text="View all cases" textSize="sm" />
                             </div>
-                            <button className="ml-4" onClick={()=>handleNext()}>{'>'}</button>
+                            <button className="ml-16 text-4xl" onClick={()=>handleNext()}>{'>'}</button>
                         </div>
                     </div>
                 </div>
