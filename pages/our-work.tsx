@@ -4,9 +4,9 @@ import { get } from '@fetcher/get';
 import WorkCases from '@modules/workCases';
 import { OurWorkHeader } from '@modules/pageHeader';
 import { BlockNameEnum } from '@enums/BlockName';
-import FooterCta from '@modules/footer/FooterCta';
 import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
+import { FooterMenu, FooterCta } from '@modules/footer';
 
 export default function OurWork() {
 
@@ -31,6 +31,7 @@ export default function OurWork() {
           .find((item) => item.__component === BlockNameEnum.pageHeader)}/>
       <WorkCases />
       <FooterCta theme='light'/>
+      <FooterMenu/>
     </>
   );
 }
