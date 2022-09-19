@@ -1,14 +1,17 @@
+import { environment } from '@environments/index';
+import useSWR from 'swr';
+import { get } from '@fetcher/get';
 import WorkCases from '@modules/workCases';
 import { OurWorkHeader } from '@modules/pageHeader';
 import { BlockNameEnum } from '@enums/BlockName';
 import FooterCta from '@modules/footer/FooterCta';
-import { useAppState } from '@hooks/customHooks';
 import { useEffect } from 'react';
+import useScrollOffset from '@hooks/useScrollOffset';
 
 export default function OurWork() {
 
   const isBrowser = typeof window !== "undefined"
-  const { handleScroll } = useAppState();
+  const { handleScroll } = useScrollOffset();
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
   
