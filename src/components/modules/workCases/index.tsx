@@ -2,11 +2,11 @@ import React, { useEffect, useRef, useState } from "react"
 import WorkCase from "@elements/WorkCase/WorkCase";
 import useSWR from "swr";
 import { environment } from "@environments/index";
-import { useAppState } from "@hooks/customHooks";
+import useScrollOffset from "@hooks/useScrollOffset";
 
 const WorkCases: React.FC = (): JSX.Element => {
 
-    const { scrollOffset } = useAppState()
+    const { scrollOffset } = useScrollOffset()
     const workCaseRefs = useRef<HTMLDivElement[]>([])
     const [currentPage, setCurrentPage] = useState<number>(0)
     
@@ -26,15 +26,15 @@ const WorkCases: React.FC = (): JSX.Element => {
             className="w-screen"
         >
             {
-                [...new Array(6)].map((_, index) => {
+                cases.map((project, index) => {
                     return (
                         <div
                             ref={el => workCaseRefs.current[index] = el}
                             key={'project-' + index}
                             id={'project-' + index}
-                            className={`z-0 w-full flex flex-col justify-center items-center snap-center`}
+                            className={`z-0 w-full flex flex-col justify-center items-center`}
                         >
-                            <WorkCase inverted={index % 2 === 0} />
+                            <WorkCase project={project} inverted={index % 2 === 0} key={project.title+index} alignImage={'left'} />
                         </div>
                     )
                 })
