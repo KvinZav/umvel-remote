@@ -23,7 +23,7 @@ const WorkCases: React.FC = (): JSX.Element => {
 
     return (
         <section
-            className="w-screen"
+            className="w-full"
         >
             {
                 cases.map((project, index) => {
@@ -44,7 +44,7 @@ const WorkCases: React.FC = (): JSX.Element => {
                 <p>we promise.</p>
             </div>
 
-            <div className="h-full fixed top-0 right-0 z-50 flex flex-col justify-center space-y-10 px-[34px]">
+            <div className="h-full fixed top-0 right-0 flex flex-col justify-center space-y-10 px-[34px]">
                 {
                     cases.map((caseItem, caseIndex) => (
                         <div key={'indicator-' + caseIndex} className="group relative">

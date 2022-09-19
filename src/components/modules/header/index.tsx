@@ -67,7 +67,7 @@ const Header = () => {
                         <div className='h-6 w-6 md:h-8 md:w-8'>
                             {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
                         </div>
-                        <div className='h-5 w-5 md:w-7 md:h-7' onClick={()=>{setShowMenu(!showMenu)}}>
+                        <div className='h-5 w-5 md:w-7 md:h-7 hover:cursor-pointer' onClick={()=>{setShowMenu(!showMenu)}}>
                             <CustomImage src="/assets/images/x-icon.svg" width={"100%"} height={"100%"} alt="close" />
                         </div>
                     </div>
