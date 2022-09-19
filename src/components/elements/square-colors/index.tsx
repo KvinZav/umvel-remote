@@ -15,7 +15,7 @@ const SquareColors:React.FC<SquareColorsProps> = ({text,textSize='md'}):JSX.Elem
             <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-out duration-1000 aspect-square bg-prisma-red" />
             <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-out duration-1000 aspect-square bg-prisma-orange" />
             <div className="lg:-z-10 lg:absolute w-full h-full flex items-center justify-center top-0 col-span-4 transition delay-150 ease-in-out duration-1000 lg:min-h-0">
-                <p className={`${textSize==="sm"? "text-xs": textSize==="md"? "text-base" : "text-lg"} whitespace-nowrap`}>{text}</p>
+                <p className={`${textSize==="sm"? "text-xs": textSize==="md"? "text-base" : "text-lg"} lg:transition-opacity lg:duration-300 lg:opacity-0 lg:group-hover:opacity-100 whitespace-nowrap`}>{text}</p>
             </div>
             <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-out duration-1000 aspect-square bg-prisma-navy" />
             <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-out duration-1000 aspect-square bg-prisma-blue" />

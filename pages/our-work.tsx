@@ -4,14 +4,14 @@ import { get } from '@fetcher/get';
 import WorkCases from '@modules/workCases';
 import { OurWorkHeader } from '@modules/pageHeader';
 import { BlockNameEnum } from '@enums/BlockName';
-import { useAppState } from '@hooks/customHooks';
+import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect } from 'react';
 import { FooterMenu, FooterCta } from '@modules/footer';
 
 export default function OurWork() {
 
   const isBrowser = typeof window !== "undefined"
-  const { handleScroll } = useAppState();
+  const { handleScroll } = useScrollOffset();
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
   

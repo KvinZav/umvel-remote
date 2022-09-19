@@ -2,11 +2,11 @@ import React, { useEffect, useRef, useState } from "react"
 import WorkCase from "@elements/WorkCase/WorkCase";
 import useSWR from "swr";
 import { environment } from "@environments/index";
-import { useAppState } from "@hooks/customHooks";
+import useScrollOffset from "@hooks/useScrollOffset";
 
 const WorkCases: React.FC = (): JSX.Element => {
 
-    const { scrollOffset } = useAppState()
+    const { scrollOffset } = useScrollOffset()
     const workCaseRefs = useRef<HTMLDivElement[]>([])
     const [currentPage, setCurrentPage] = useState<number>(0)
     

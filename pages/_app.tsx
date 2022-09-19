@@ -1,8 +1,7 @@
 import '../styles/globals.css'
 import { SWRConfig } from 'swr';
-import { GlobalContextProvider, useAppState } from '@context/globalContext';
 import Header from '@modules/header';
-import { useEffect } from 'react';
+import { ScrollContextProvider } from '@context/scrollContext';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -22,10 +21,10 @@ function MyApp({ Component, pageProps }) {
 
   return <>
     <SWRConfig value={swrConfig}>
-      <GlobalContextProvider>
+      <ScrollContextProvider>
         <Header />
         <Component {...pageProps} />
-      </GlobalContextProvider>
+      </ScrollContextProvider>
     </SWRConfig>
   </>
 }

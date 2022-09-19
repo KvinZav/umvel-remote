@@ -2,19 +2,19 @@ import { environment } from '@environments/index';
 import useSWR from 'swr';
 import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
-import { useAppState } from '@hooks/customHooks';
+import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
 import Hero from '@modules/hero';
 import { FooterMenu, FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
-import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import MainMenuHighlights from '@modules/mainMenu/Highlights';
 import Highlights from '@modules/highlights';
 import { Clients } from '@modules/clients';
 import { BlockNameEnum } from '@enums/BlockName';
 import { HomeDataInterface } from '@interfaces/home-data/home.interface';
 import { ButtonScroll } from '@elements/ButtonScroll';
+import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 
 export default function Home() {
   const isBrowser = typeof window !== "undefined"
@@ -23,7 +23,7 @@ export default function Home() {
     revalidateOnFocus: false,
   }); 
   
-  const { handleScroll } = useAppState();
+  const { handleScroll } = useScrollOffset();
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
   
