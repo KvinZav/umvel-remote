@@ -35,6 +35,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
                         <div className="h-full p-8 bg-secondary-70/50">
                             <h3 className="text-xl font-bold text-primary-white mb-4">{project.attributes.title}</h3>
                             <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDataOfInterest}</p>
+                            <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDescription}</p>
                             <p className="text-sm text-primary-white mb-4">{project.attributes.caseDescription}</p>
                             <button className="border-2 rounded-full px-4 py-1 text-base text-primary-white" >View Case</button>
                         </div>
@@ -55,7 +56,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
                         </div>
                     </div>
                     <div className="col-start-2 col-span-3 row-start-2 row-span-2 flex justify-center items-center" style={{ transform: `translateY(${positionImagen}px)`, transformOrigin: 'top left', opacity: (topPosition * -1 / 500) - 3 }}>
-                        {imgAttributes.url&&<Image url={imgAttributes.url} alternativeText="proyect" layout="intrinsic" height={imgAttributes.height} width={imgAttributes.width}/>}
+                        {imgAttributes.url&&<Image url={imgAttributes.url} alt="proyect" layout="intrinsic" height={imgAttributes.height} width={imgAttributes.width}/>}
                     </div>
                 </div>
             </div>

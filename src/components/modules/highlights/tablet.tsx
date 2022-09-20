@@ -10,6 +10,7 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                     <div className="h-full p-8 bg-secondary-70/50">
                         <h3 className="text-xl font-bold text-primary-white mb-4">{project.attributes.title}</h3>
                         <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDataOfInterest}</p>
+                        <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDescription}</p>
                         <p className="text-sm text-primary-white mb-4">{project.attributes.caseDescription}</p>
                         <button className="border-2 rounded-full px-4 py-1 text-primary-white" >View Case</button>
                     </div>
@@ -21,16 +22,16 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                             <p className="font-sm mx-8 mb-4">Explore more cases:</p>
                         </div>
                         <div className="h-1/2 flex flex-row justify-center items-center ">
-                            <button className="mr-4" onClick={()=>handlePrevious()}>{'<'}</button>
+                            <button className="mr-16 text-4xl" onClick={()=>handlePrevious()}>{'<'}</button>
                             <div className="w-1/4">
                                     <SquareColors text="View all cases" textSize="sm" />
                             </div>
-                            <button className="ml-4" onClick={()=>handleNext()}>{'>'}</button>
+                            <button className="ml-16 text-4xl" onClick={()=>handleNext()}>{'>'}</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-start-1 col-span-2 row-start-2 row-span-2 flex justify-center items-center">
-                    {imgAttribute.url&&<Image url={imgAttribute.url} alternativeText="proyect" layout="intrinsic" height={imgAttribute.height} width={imgAttribute.height}/>}
+                    {imgAttribute.url&&<Image url={imgAttribute.url} alt="proyect" layout="intrinsic" height={imgAttribute.height} width={imgAttribute.height}/>}
                 </div>
             </div>
         )

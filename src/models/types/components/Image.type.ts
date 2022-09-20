@@ -1,7 +1,8 @@
 export type ImageProps = {
-    alternativeText: string;
+    alt: string;
     width: number | string
     height: number | string;
     url: string;
-    layout?: 'fixed' | 'fill' | 'intrinsic' | 'responsive'; 
+    layout?: 'fixed' | 'fill' | 'intrinsic' | 'responsive';
+    className?: string;
 }

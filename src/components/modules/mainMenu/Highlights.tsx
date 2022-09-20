@@ -19,7 +19,8 @@ const MainMenuHighlights = () => {
   return(
     <section className="flex md:grid md:grid-cols-1 lg:grid-cols-3 md:justify-center overflow-x-scroll md:overflow-auto mt-[200px]">
       {cases.map((caseItem, caseIndex) => {
-        const { title, caseDescription } = caseItem.case_of_study.data.attributes
+        const { title, caseDescription, image, primaryColor} = caseItem.case_of_study.data.attributes;
+        const imageUrl = image.data.attributes.url;
 
         return(
           <section className={`min-w-[84vw] md:min-w-full md:flex ${caseIndex%2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'} lg:flex-col pt-0`} key={caseItem.id+''}>
@@ -33,7 +34,8 @@ const MainMenuHighlights = () => {
                 styles={{
                   textPositionVertical: 'start',
                   textPositionHorizontal: 'start',
-                  bg: 'bg-primary-white',
+                  bg: primaryColor,
+                  textColor: 'black',
                   textStyles: {
                     height: 'paragraph',
                     align: 'left'
@@ -42,7 +44,7 @@ const MainMenuHighlights = () => {
                 }}
                 text={title}
                 description={caseDescription}
-                imageUrl={"/assets/images/placeholderIcon.svg"}
+                imageUrl={imageUrl}
                 showButton={!desktop}
               />
             </div>

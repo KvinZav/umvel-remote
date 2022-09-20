@@ -15,6 +15,8 @@ const colors = [
     "bg-cases-viva",
     "bg-cases-food-central",
     "bg-cases-oeio",
+    "bg-cases-cancer-buddy",
+    "bg-cases-buyback",
 ]
 
 function MyApp({ Component, pageProps }) {

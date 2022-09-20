@@ -54,9 +54,10 @@ const Hero = () => {
               textPositionVertical: "center",
               bg: caseOfStudy[0].case_of_study.data.attributes.primaryColor,
               bgSecondary: caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
+              textColor: "white",
             }}
             description={caseOfStudy[0].case_of_study.data.attributes.caseDescription}
-            imageUrl={"/assets/images/capa.svg"}
+            imageUrl={caseOfStudy[0].case_of_study.data.attributes.image.data.attributes.url}
             text={!tablet && caseOfStudy[0].case_of_study.data.attributes.title}
             showButton={isMobile}
           />
