@@ -1,16 +1,14 @@
 import React from "react";
 import { WorkCaseProps } from "@interfaces/components/WorkCase";
 import Image from '@elements/image-component/index';
-import BasicButton from "@elements/button";
-import Link from "next/link";
 
-const WorkCase: React.FC<WorkCaseProps> = ({ project, inverted, alignImage }): JSX.Element => {
+const WorkCase: React.FC<WorkCaseProps> = ({ project, inverted, alignImage, caseRef }): JSX.Element => {
     return (
         <>
            {project.quote && <div className="hidden sm:flex w-full h-[30vw] flex-col justify-center items-center text-lg">
                 <p>{project.quote}</p>
             </div>}
-            <article className={inverted ? `w-full flex flex-col sm:flex-row` : `w-full flex flex-col sm:flex-row-reverse`}>
+            <article ref={caseRef} className={inverted ? `w-full flex flex-col sm:flex-row` : `w-full flex flex-col sm:flex-row-reverse`}>
                 <div className="w-full sm:w-1/2 sm:aspect-square bg-primary-white flex justify-center p-4 flex-col sm:p-16 lg:p-32">
                     <p className="text-3xl font-bold mb-4 mt-[6rem] sm:mt-0">{project.title}</p>
                     <p className="text-xl font-bold mb-4">{project.hoverClientName}</p>
