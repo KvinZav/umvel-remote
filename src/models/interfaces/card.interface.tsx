@@ -14,5 +14,6 @@ export interface CardInterface {
     imageUrl?: string;
     showDescription?: boolean;
     showButton?:boolean;
+    descriptionOnly?:boolean;
 }
 

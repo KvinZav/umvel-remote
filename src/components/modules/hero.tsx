@@ -57,10 +57,11 @@ const Hero = () => {
             }}
             description={caseOfStudy[0].case_of_study.data.attributes.caseDescription}
             imageUrl={"/assets/images/capa.svg"}
-            text={caseOfStudy[0].case_of_study.data.attributes.title}
+            text={!tablet && caseOfStudy[0].case_of_study.data.attributes.title}
             showButton={isMobile}
           />
           {tablet && <Card
+            text={caseOfStudy[0].case_of_study.data.attributes.title}
             styles={{
               textStyles: { height: "paragraph", align: "start" },
               direction: "col",
@@ -71,6 +72,7 @@ const Hero = () => {
               bgSecondary: caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
             }}
             description={caseOfStudy[0].case_of_study.data.attributes.caseDescription}
+            descriptionOnly
           />}
         </div>
       </div>
