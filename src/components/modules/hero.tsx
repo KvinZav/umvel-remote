@@ -35,7 +35,7 @@ const Hero = () => {
           <Card
             styles={{
               textStyles: { height: "subtitle", align: "start" },
-              textPositionHorizontal: "end",
+              textPositionHorizontal: "start",
               textPositionVertical: "end",
               bg: 'white'
             }}
