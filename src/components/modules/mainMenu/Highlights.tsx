@@ -23,7 +23,7 @@ const MainMenuHighlights = () => {
 
         return(
           <section className={`min-w-[84vw] md:min-w-full md:flex ${caseIndex%2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'} lg:flex-col pt-0`} key={caseItem.id+''}>
-            <div className="p-6 lg:p-8 lg:pt-0 box-border md:flex-1 md:basis-1/2 lg:flex-auto lg:basis-auto">
+            <div className="p-6 lg:p-8 lg:pt-0 box-border md:flex-1 md:basis-1/2 lg:flex-auto lg:basis-auto flex flex-col md:justify-center md:px-[72px]">
               <HighlightTitle>{caseItem.Title}</HighlightTitle>
               <HighlightSubtitle>{caseItem.Subtitle}</HighlightSubtitle>
             </div>
