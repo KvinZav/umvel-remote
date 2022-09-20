@@ -421,7 +421,7 @@
                             "case_of_studies": {
                                 "data": [
                                     {
-                                        "id": 5,
+                                        "id": 1,
                                         "attributes": {
                                             "title": "Viva Aerobus",
                                             "caseDescription": "We reimagined what the digital experience for a large-scale airline could look & feel like.",
@@ -459,7 +459,7 @@
                                         }
                                     },
                                     {
-                                        "id": 1,
+                                        "id": 2,
                                         "attributes": {
                                             "title": "Capa delivers efficiency!",
                                             "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions.",
@@ -497,7 +497,7 @@
                                         }
                                     },
                                     {
-                                        "id": 2,
+                                        "id": 3,
                                         "attributes": {
                                             "title": "Prevue leads the virtual tours!",
                                             "caseDescription": "Prevue leads the virtual tours!",
@@ -535,7 +535,7 @@
                                         }
                                     },
                                     {
-                                        "id": 3,
+                                        "id": 4,
                                         "attributes": {
                                             "title": "Campaign-Centric was created by 17 Umvellers!",
                                             "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
@@ -573,7 +573,7 @@
                                         }
                                     },
                                     {
-                                        "id": 4,
+                                        "id": 5,
                                         "attributes": {
                                             "title": "ARGO helps people of all continents!",
                                             "caseDescription": "ARGO helps people of all continents!",
