@@ -1,4 +1,4 @@
-import SquareColors from "@elements/square-colors"
+import PrismButton from "@elements/square-colors"
 import { environment } from "@environments/index"
 import useScrollOffset from "@hooks/useScrollOffset"
 import { HighlightsDesktopPorps } from "@type/modules/highlights"
@@ -6,7 +6,7 @@ import React, { useEffect, useRef, useState } from "react"
 import useSWR from "swr"
 import Image from "@elements/image-component";
 
-const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,handlePrevious, title}):JSX.Element => {
+const HighlightsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,handlePrevious, title}):JSX.Element => {
     const isBrowser = typeof window !== "undefined"
     const innerHeight = isBrowser ? window.innerHeight : 0
     const container = useRef<HTMLDivElement>()
@@ -48,9 +48,7 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
                             </div>
                             <div className="h-1/2 flex flex-row justify-center items-center">
                                 <button className="mr-4" onClick={() => handlePrevious()}>{'<'}</button>
-                                <div className="w-1/4">
-                                    <SquareColors text="Show more" textSize="sm" />
-                                </div>
+                                <PrismButton>Show more</PrismButton>
                                 <button className="ml-4" onClick={() => handleNext()}>{'>'}</button>
                             </div>
                         </div>
@@ -64,4 +62,4 @@ const HighlighsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,h
     )
 }
 
-export default HighlighsDesktop
+export default HighlightsDesktop
