@@ -1,5 +1,5 @@
 import { CustomCard } from '@elements/card/card';
-import SquareColors from '@elements/square-colors';
+import PrismButton from '@elements/square-colors';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
@@ -48,7 +48,7 @@ const MobileScrollInteraction3 = () => {
                 className={`flex flex-col-reverse md:flex-row-reverse justify-between items-center self-center w-full`}
               >
                 <div className="min-w-[120px] min-h-[120px] mr-3">
-                  <SquareColors text="Our Work" textSize="md"/>
+                  <PrismButton>Our Work</PrismButton>
                 </div>
                 <div className="py-[104px] mr-7 flex justify-center">
                   <h2 className="font-bold text-xl">

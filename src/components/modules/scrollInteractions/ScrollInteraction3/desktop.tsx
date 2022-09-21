@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { CustomCard } from '@elements/card/card';
-import SquareColors from '@elements/square-colors';
+import PrismButton from '@elements/square-colors';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
@@ -104,7 +104,7 @@ const DesktopScrollInteraction3 = () => {
                   className={`flex justify-start items-center self-center w-auto py-9 xl:px-10 transition-all duration-1000 ${currentHighlight > n-1 || currentHighlight === -1 ? "translate-y-0 opacity-100" : "translate-y-24 opacity-[0.15]"}`}
                 >
                   <div className="min-w-[48px] min-h-[48px] mr-4 xl:mr-14">
-                    <SquareColors text="Our Work" textSize={isDesktop ? "sm" : "md"}/>
+                    <PrismButton>Our Work</PrismButton>
                   </div>
                   <div className="py-0 mr-7 flex justify-center">
                     <h2 className="font-bold text-xl">
