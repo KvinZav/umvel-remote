@@ -1,10 +1,10 @@
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
-import { useAppState } from '@hooks/customHooks';
 import useMediaQuery from '@hooks/useMediaQuery';
 import React, { useEffect, useRef, useState } from 'react';
 import useSWR from 'swr';
+import useScrollOffset from '@hooks/useScrollOffset';
 
 const determineOpacity = (top) => (100 - (Math.abs(top) * 0.6)) * 0.01
 
@@ -14,7 +14,7 @@ const ScrollInteraction1 = () => {
   
   const isTablet = useMediaQuery('(min-width: 640px)');
   
-  const { scrollOffset } = useAppState()
+  const { scrollOffset } = useScrollOffset()
 
   const [currentStep, setCurrentStep] = useState(0)
   const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
@@ -28,7 +28,7 @@ const ScrollInteraction1 = () => {
     setBoundsTop(rightTextRefs.current.map(i => i.getBoundingClientRect().top))
     setRightTextOpacities(refsOpacity)
     setCurrentStep(refsOpacity.findIndex(i => i > 0.2))
-
+    
   }, [scrollOffset])
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const ScrollInteraction1 = () => {
               className={`flex snap-start w-[50vw] h-screen items-center`}
               style={{
                 opacity: rightTextOpacities[n],
-                transform: `translateY(${1-(boundsTop[n] * 0.3)}px)`
+                transform: boundsTop[0] < 0 ? `translateY(${1-(boundsTop[n] * 0.3)}px)` : ''
               }}
             >
               <p className={`${n === steps.length - 1 ? 'pb-[72px]' : 'pb-0'} max-w-[416px] text-4xl leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>

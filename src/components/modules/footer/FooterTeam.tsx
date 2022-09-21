@@ -3,7 +3,7 @@ import useMediaQuery from "@hooks/useMediaQuery";
 import { useEffect, useState } from "react";
 import { Body } from '@interfaces/home-data/home.interface';
 
-const FooterTeam = ({data}: {data: Body}) => {
+export const FooterTeam = ({data}: {data: Body}) => {
   const {
     names,
     socialNetworks,
@@ -60,7 +60,6 @@ const FooterTeam = ({data}: {data: Body}) => {
   );
 };
 
-export default FooterTeam;
 
 
 

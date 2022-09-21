@@ -7,29 +7,30 @@ import { FETCHER } from '@fetcher/clients';
 import React from 'react';
 import useSWR from 'swr';
 
-const FooterCta = () => {
+export const FooterCta = ({theme = 'dark'}: {theme?: 'dark' | 'light'}) => {
 
   const { data: event } = useSWR(environment.HOME_URL)
   if (!event) return null;
 
-  const { left } = FETCHER(event, BlockNameEnum.interactiveFooter)  
+  const { left } = FETCHER(event, BlockNameEnum.interactiveFooter);
+  const darkTheme = theme === 'dark';
 
   return(
-    <div className="grid md:grid-cols-2 bg-primary-black">
-      <CustomCard customStyles="flex flex-col items-center justify-center" borderless>
-        <div className="flex flex-col w-[280px] lg:w-[420px]">
-          <h1 className="text-[26px] md:text-[27px] lg:text-[58px] leading-tight font-bold text-primary-white pb-6 xl:pb-8">{left.title}</h1>
-          <p className="text-base lg:text-lg leading-tight text-primary-white pb-6 xl:pb-8">{left.subtitle}</p>
-          <BasicButton theme="dark">Lets Talk!</BasicButton>
+    <div className={`grid md:grid-cols-2 ${darkTheme ? 'bg-primary-black' : ''}`}>
+      <CustomCard customStyles={`flex flex-col items-center justify-center ${!darkTheme ? 'border border-[#ccc]' : ''}`} borderless>
+        <div className={`flex flex-col w-[280px] lg:w-[420px] ${darkTheme ? ' text-primary-white' : ''}`}>
+          <h1 className={`text-[26px] md:text-[27px] lg:text-[58px] leading-tight font-bold pb-6 xl:pb-8`}>{left.title}</h1>
+          <p className="text-base lg:text-lg leading-tight pb-6 xl:pb-8">{left.subtitle}</p>
+          <BasicButton theme={theme}>Lets Talk!</BasicButton>
         </div>
       </CustomCard>
       <CustomCard customStyles="relative grid grid-cols-12" borderless>
         {
-          [...new Array(144)].map((_, n) => <div key={n+''} className="border-[0.5px] border-[#333333]"/>)
+          [...new Array(144)].map((_, n) => <div key={n+''} className={`border ${darkTheme ? 'border-[#333]' : 'border-[#ccc]'}`}/>)
         }
         <div className="absolute w-full p-[24vw] md:p-[12vw]">
           <CustomImage 
-            src={'/assets/images/umvelLogo.svg'}
+            src={`/assets/images/${darkTheme ? 'umvelLogo.svg' : 'umvelLogoDark.svg'}`}
             alt={'logo-umvel'}
             className="w-full"/>
         </div>
@@ -37,5 +38,3 @@ const FooterCta = () => {
     </div>
   )
 }
-
-export default FooterCta;

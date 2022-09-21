@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { SWRConfig } from 'swr';
-import { GlobalContextProvider } from '@context/globalContext';
 import Header from '@modules/header';
+import { ScrollContextProvider } from '@context/scrollContext';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -15,15 +15,23 @@ const colors = [
     "bg-cases-viva",
     "bg-cases-food-central",
     "bg-cases-oeio",
+    "bg-cases-cancer-buddy",
+    "bg-cases-buyback",
+    "bg-cases-miyana",
+    "bg-cases-seguros-mundial",
+    "bg-cases-arrivia",
+    "bg-cases-viva-app",
+    "bg-cases-smart-walk",
 ]
 
 function MyApp({ Component, pageProps }) {
+
   return <>
     <SWRConfig value={swrConfig}>
-      <GlobalContextProvider>
+      <ScrollContextProvider>
         <Header />
         <Component {...pageProps} />
-      </GlobalContextProvider>
+      </ScrollContextProvider>
     </SWRConfig>
   </>
 }

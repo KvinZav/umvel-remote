@@ -8,11 +8,13 @@ export interface CardInterface {
         bg: string;
         bgSecondary?:string;
         borderColor?: string;
+        textColor?: string;
     },
     text?: string;
     description?: string;
     imageUrl?: string;
     showDescription?: boolean;
     showButton?:boolean;
+    descriptionOnly?:boolean;
 }
 

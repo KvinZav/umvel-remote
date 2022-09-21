@@ -14,9 +14,9 @@ module.exports = {
     },
     "prisma":{
       "red": "#ce4c4c",
-      "organge": "#ce924c",
-      "ellow": "#cec94c",
-      "lemon": "#95ce4c",
+      "orange": "#ce924c",
+      "yellow": "#cec94c",
+      "lime": "#95ce4c",
       "green": "#4cce71",
       "aqua": "#4ccec6",
       "blue": "#4c98ce",
@@ -29,9 +29,16 @@ module.exports = {
       "prevue": "#538e82",
       "argo": "#dd6548",
       "campaign": "#63beb6",
-      "viva": "#38ac49",
+      "viva": "#2F7C38",
+      "viva-app": "#40AD4C",
       "food-central":"#348181",
-      "oeio": "#CBA552"
+      "oeio": "#CBA552",
+      "cancer-buddy": "#F1DE4F",
+      "buyback": "#6BB7E6",
+      "miyana": "#8B6A88",
+      "smart-walk": "#DA3440",
+      "seguros-mundial": "#5B96CD",
+      "arrivia": "#04A3AC"
     }
 }
 
