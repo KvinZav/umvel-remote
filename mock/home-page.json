@@ -44,21 +44,9 @@
                         "type": "link"
                     },
                     {
-                        "id": 3,
-                        "name": "Capabilities",
-                        "link": "capabilities",
-                        "type": "link"
-                    },
-                    {
                         "id": 4,
                         "name": "About us",
                         "link": "about-us",
-                        "type": "link"
-                    },
-                    {
-                        "id": 5,
-                        "name": "Resources",
-                        "link": "resources",
                         "type": "link"
                     },
                     {
@@ -987,6 +975,53 @@
                       "link": "#"
                     }
                   ]
+                },
+                
+                {
+                    "id": 1,
+                    "__component": "footer-components.footer-menu",
+                    "left": {
+                        "id": 1,
+                        "title": "Work we’re proud of",
+                        "subtitle": "Projects that made our clients shine."
+                    },
+                    "socialNetworks": [
+                        {
+                          "id": "social-media-1",
+                          "name": "Medium",
+                          "link": "https://umvel.medium.com/"
+                        },
+                        {
+                          "id": "social-media-2",
+                          "name": "Instagram",
+                          "link": "https://www.instagram.com/umvel_inc/"
+                        },
+                        {
+                          "id": "social-media-3",
+                          "name": "LinkedIn",
+                          "link": "https://www.linkedin.com/company/umvel/mycompany/"
+                        }
+                      ],
+                      "links": [
+                        {
+                            "id": 1,
+                            "name": "Our work",
+                            "link": "our-work",
+                            "type": "link"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Our Offering",
+                            "link": "our-offering",
+                            "type": "link"
+                        },
+                        {
+                            "id": 4,
+                            "name": "About us",
+                            "link": "about-us",
+                            "type": "link"
+                        }
+                      ]
                 }
             ],
             "footer": null
