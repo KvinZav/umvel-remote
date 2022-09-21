@@ -34,7 +34,7 @@ const WorkCases: React.FC = (): JSX.Element => {
                 id={'project-' + index}
                 className={`z-0 w-full flex flex-col justify-center items-center`}
               >
-                <WorkCase caseRef={(el : HTMLDivElement) => workCaseRefs.current[index] = el} project={project} inverted={index % 2 === 0} key={project.title + index} alignImage={'left'} />
+                <WorkCase caseRef={(el : HTMLDivElement) => workCaseRefs.current[index] = el} project={project} inverted={index % 2 !== 0} key={project.title + index} alignImage={'center'} />
               </div>
             )
           })

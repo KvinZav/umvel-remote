@@ -9,13 +9,13 @@
                     "cases": [
                         {
                             "id": 1,
-                            "title": "Delivery App",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
+                            "title": "Viva Aerobus",
+                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-campaign",
-                            "quote": "We deliver what we promise.",
+                            "backgroundColor": "cases-viva",
+                            "quote": null,
                             "image": {
                                 "data": {
                                     "id": 1,
@@ -42,12 +42,12 @@
                         },
                         {
                             "id": 2,
-                            "title": "Our projects speak for themselves.",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
+                            "title": "Cancer Buddy",
+                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-oeio",
+                            "backgroundColor": "cases-cancer-buddy",
                             "image": {
                                 "data": {
                                     "id": 1,
@@ -62,7 +62,7 @@
                                         "ext": ".svg",
                                         "mime": "image/png",
                                         "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
@@ -74,12 +74,77 @@
                         },
                         {
                             "id": 3,
-                            "title": "VISA Consultory App",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
+                            "title": "Miyana",
+                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "hoverClientName": "Website",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-viva",
+                            "backgroundColor": "cases-miyana",
+                            "quote": "We deliver what we promise.",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Dashboard%201.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "title": "Planet Buyback",
+                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "hoverClientName": "Mobile App",
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-buyback",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "Viva Aerobus Logo.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Group%201271.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "title": "OEIO",
+                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "hoverClientName": "Mobile App",
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-oeio",
                             "quote": "We deliver what we promise.",
                             "image": {
                                 "data": {
@@ -106,77 +171,13 @@
                             }
                         },
                         {
-                            "id": 4,
-                            "title": "Miyana Delivery App",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
-                            "hoverClientHeading": null,
-                            "callToAction": null,
-                            "backgroundColor": "cases-prevue",
-                            "image": {
-                                "data": {
-                                    "id": 1,
-                                    "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
-                                        "alternativeText": "Viva Aerobus Logo.png",
-                                        "caption": "Viva Aerobus Logotype.png",
-                                        "width": 977,
-                                        "height": 673,
-                                        "formats": null,
-                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                        "ext": ".svg",
-                                        "mime": "image/png",
-                                        "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "id": 5,
-                            "title": "Self storage app",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
-                            "hoverClientHeading": null,
-                            "callToAction": null,
-                            "backgroundColor": "cases-food-central",
-                            "image": {
-                                "data": {
-                                    "id": 1,
-                                    "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
-                                        "alternativeText": "Viva Aerobus Logo.png",
-                                        "caption": "Viva Aerobus Logotype.png",
-                                        "width": 977,
-                                        "height": 673,
-                                        "formats": null,
-                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                        "ext": ".svg",
-                                        "mime": "image/png",
-                                        "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                    }
-                                }
-                            }
-                        },
-                        {
                             "id": 6,
-                            "title": "Health App",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
+                            "title": "Capa",
+                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "hoverClientName": "Website",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-argo",
+                            "backgroundColor": "cases-capa",
                             "image": {
                                 "data": {
                                     "id": 1,

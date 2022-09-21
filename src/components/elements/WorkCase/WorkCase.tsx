@@ -12,10 +12,10 @@ const WorkCase: React.FC<WorkCaseProps> = ({ project, inverted, alignImage, case
                 <div className="w-full sm:w-1/2 sm:aspect-square bg-primary-white flex justify-center p-4 flex-col sm:p-16 lg:p-32">
                     <p className="text-3xl font-bold mb-4 mt-[6rem] sm:mt-0">{project.title}</p>
                     <p className="text-xl font-bold mb-4">{project.hoverClientName}</p>
-                    <p className="mb-4">{project.hoverDescription}</p>
+                    <p className="mb-8">{project.hoverDescription}</p>
                     <div className="border rounded-full w-min px-4 py-3">
                         <a href={project.callToAction}>
-                            <p className="inline-block whitespace-nowrap">View Cases</p>
+                            <p className="inline-block whitespace-nowrap">View Case</p>
                         </a>
                     </div>
                 </div>
