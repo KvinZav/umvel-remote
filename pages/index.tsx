@@ -55,7 +55,8 @@ export default function Home() {
         data={data.data.attributes.body
           .find((item) => item.__component === BlockNameEnum.team)}
       />
-      <FooterMenu/>
+      <FooterMenu data={data.data.attributes.body
+          .find((item) => item.__component === BlockNameEnum.menu)}/>
     </div>
   );
 }
