@@ -77,6 +77,7 @@ export interface Body {
     rightFooterTeam?: RightFooterTeam
     names?: string[];
     socialNetworks?: SocialNetWork[];
+    links?: Link[];
 }
 
 export interface CaseOfStudy {
