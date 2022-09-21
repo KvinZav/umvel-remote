@@ -42,7 +42,7 @@ const HighlightsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,
                         </div>
                     </div>
                     <div className="col-start-1 col-span-1 row-start-3 row-span-1 bg-primary-white w-full aspect-square text-primary-black" style={{ transform: `translateY(${positionInfo}px)`, transformOrigin: 'top left' }}>
-                        <div className="h-full flex flex-col justify-center bgred">
+                        <div className="h-full flex flex-col justify-center">
                             <div>
                                 <h3 className="text-xl font-bold mb-4 mx-8 mt-8">{title}</h3>
                                 <p className="font-sm mx-8 mb-4 text-base">Explore more cases:</p>
