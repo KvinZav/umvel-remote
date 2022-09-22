@@ -22,6 +22,7 @@ const colors = [
     "bg-cases-arrivia",
     "bg-cases-viva-app",
     "bg-cases-smart-walk",
+    "bg-cases-ecri",
 ]
 
 function MyApp({ Component, pageProps }) {
