@@ -16,7 +16,7 @@ const MobileScrollInteraction3 = () => {
   const labels = center.text.split('\n\n')
 
   return(
-    <section className="grid grid-cols-2 items-start mb-[104px] md:mb-[112px] w-screen overflow-x-clip">
+    <section className="grid grid-cols-2 items-start mb-[104px] md:mb-[112px] w-full overflow-x-clip">
       <CustomCard customStyles="flex justify-end items-center p-4">
         <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">
           {left.text}
