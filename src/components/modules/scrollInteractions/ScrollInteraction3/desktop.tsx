@@ -46,7 +46,7 @@ const DesktopScrollInteraction3 = () => {
   const labels = center.text.split('\n\n')
   
   return(
-    <section className="grid grid-cols-3 items-start mb-[312px] w-screen overflow-x-clip">
+    <section className="grid grid-cols-3 items-start mb-[312px] w-full overflow-x-clip">
       <div className="sticky pt-[200px] top-0">
         <CustomCard customStyles="flex justify-end items-center p-4">
           <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">
