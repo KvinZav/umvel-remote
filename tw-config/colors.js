@@ -40,6 +40,7 @@ module.exports = {
       "seguros-mundial": "#5B96CD",
       "arrivia": "#04A3AC",
       "ecri": "#0081C6"
-    }
+    },
+    transparent:"transparent"
 }
 
