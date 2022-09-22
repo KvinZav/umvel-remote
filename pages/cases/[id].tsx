@@ -1,7 +1,7 @@
 import { environment } from '@environments/index';
 import { CASE_FETCHER } from '@fetcher/clients';
 import { get } from '@fetcher/get';
-import CasesHero from '@modules/cases/CasesHero';
+import CasesHero from '@modules/cases';
 import { useRouter } from 'next/router';
 import React from 'react';
 import useSWR from 'swr';
@@ -17,6 +17,8 @@ const CasesPage = () => {
   const caseData = CASE_FETCHER(event, id)
   if (!caseData) return;
 
+  console.log("CASE DATA", caseData);
+  
   return(
     <>
       <CasesHero
