@@ -10,7 +10,7 @@ const CasesPage = () => {
   const router = useRouter()
   const { id } = router.query
 
-  const { data: event, error } = useSWR(environment.CASES_URL, get, {revalidateOnFocus: false})  
+  const { data: event } = useSWR(environment.CASES_URL, get, {revalidateOnFocus: false})  
   
   if(!event || typeof id !== 'string') return;
 
