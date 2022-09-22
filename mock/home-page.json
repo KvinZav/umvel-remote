@@ -668,19 +668,19 @@
                     "quote": [
                         {
                             "id": 1,
-                            "title": "Planet Buyback",
-                            "hoverDescription": "‘Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-                            "hoverClientName": "Nature Crowfunding",
-                            "hoverClientHeading": "Nature Crowfunding",
+                            "title": "ECRI",
+                            "hoverDescription": "“I feel like we’re going to a psychologist for our business with every meeting”",
+                            "hoverClientName": "Economic Cycle Research Institute",
+                            "hoverClientHeading": "Economic Cycle Research Institute",
                             "callToAction": null,
-                            "backgroundColor": "cases-buyback"
+                            "backgroundColor": "cases-ecri"
                         },
                         {
                             "id": 2,
                             "title": "Cancer Buddy",
-                            "hoverDescription": "‘Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-                            "hoverClientName": "Cancer Network",
-                            "hoverClientHeading": "Cancer Network",
+                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+                            "hoverClientName": "Cancer App",
+                            "hoverClientHeading": "Cancer App",
                             "callToAction": null,
                             "backgroundColor": "cases-cancer-buddy",
                             "primaryColor": "black"
@@ -688,16 +688,16 @@
                         {
                             "id": 3,
                             "title": "Smart Walk",
-                            "hoverDescription": "‘Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
                             "hoverClientName": "Virtual Tools",
                             "hoverClientHeading": "Virtual Tools",
                             "callToAction": null,
-                            "backgroundColor": "cases-campaign"
+                            "backgroundColor": "cases-smart-walk"
                         },
                         {
                             "id": 4,
                             "title": "Viva Aerobus",
-                            "hoverDescription": "‘Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                            "hoverDescription": "“Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.”",
                             "hoverClientName": "National Airline",
                             "hoverClientHeading": "National Airline",
                             "callToAction": null,
@@ -706,25 +706,25 @@
                         {
                             "id": 5,
                             "title": "OEIO",
-                            "hoverDescription": "‘Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-                            "hoverClientName": "Wellness",
-                            "hoverClientHeading": "Wellness",
+                            "hoverDescription": "“The Umvel team was very quick and on time with everything.”",
+                            "hoverClientName": "Wellness App",
+                            "hoverClientHeading": "Wellness App",
                             "callToAction": null,
                             "backgroundColor": "cases-oeio"
                         },
                         {
                             "id": 6,
                             "title": "OEIO",
-                            "hoverDescription": "‘Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-                            "hoverClientName": "Wellness app",
-                            "hoverClientHeading": "Wellness app",
+                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+                            "hoverClientName": "Wellness",
+                            "hoverClientHeading": "Wellness",
                             "callToAction": null,
-                            "backgroundColor": "cases-oeio"
+                            "backgroundColor": "cases-prevue"
                         },
                         {
                             "id": 7,
                             "title": "Capa",
-                            "hoverDescription": "‘Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
                             "hoverClientName": "Real State",
                             "hoverClientHeading": "Real State",
                             "callToAction": null,
