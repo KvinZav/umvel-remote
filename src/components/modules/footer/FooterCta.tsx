@@ -24,7 +24,7 @@ export const FooterCta = ({theme = 'dark'}: {theme?: 'dark' | 'light'}) => {
           <BasicButton theme={theme}>Lets Talk!</BasicButton>
         </div>
       </CustomCard>
-      <CustomCard customStyles="relative grid grid-cols-12" borderless>
+      <CustomCard customStyles="relative grid grid-cols-12 h-full" borderless>
         {
           [...new Array(144)].map((_, n) => <div key={n+''} className={`border ${darkTheme ? 'border-[#333]' : 'border-[#ccc]'}`}/>)
         }
