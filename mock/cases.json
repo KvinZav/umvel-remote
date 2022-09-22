@@ -1,0 +1,1494 @@
+{
+    "cases": [
+        {
+            "data": {
+                "id": 1,
+                "attributes": {
+                    "title": "Viva Aerobus",
+                    "caseDescription": "",
+                    "primaryColor": null,
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "Meet Viva Aerobus' new app:",
+                    "portfolioDescription": "The perfect partner for your trip",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "Viva Aerobus Logo.png",
+                                "alternativeText": "Viva Aerobus Logo.png",
+                                "caption": "Viva Aerobus Logotype.png",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaApp.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "Viva Aerobus Hero.png",
+                                "alternativeText": "Viva Aerobus Hero.png",
+                                "caption": "Viva Aerobus Hero.png",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "Viva Aerobus is one of the largest low-cost airline in Mexico. It has over one million passengers monthly, and is the fastest-growing airline globally. We were tasked to develop a best-in-class digital experience for its customers across the world. Our team was able to enhance and simplify the airline booking experience in a responsive, fast and well integrated website.",
+                        "callToAction": [
+                            {
+                                "id": 12,
+                                "action": {
+                                    "openUrl": "https://apps.apple.com/mx/app/viva-aerobus/id1563307248"
+                                },
+                                "title": "See in appstore",
+                                "subtitle": null
+                            }
+                        ],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformation": {
+                        "title": "Technical Information",
+                        "industry": "Travel",
+                        "year": "2020 - Ongoing",
+                        "country": "Mexico",
+                        "platforms": [
+                            "Android",
+                            "iOS"
+                        ],
+                        "services": ["Repositories", "Micro-services", "Web development", "Front-end"]
+                    },
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "A truly native experience",
+                                "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Increased Conversions",
+                                "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time."
+                            },
+                            {
+                                "id": 3,
+                                "title": "Rapid Deployment",
+                                "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n"
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "Easier booking ",
+                                "content": "Through an intuitive, well designed and fast booking experience, conversion has increased up to 15%.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "New homepage",
+                                "content": "An easier journey, news alerts and a responsive cross-browser experience.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Simplified Adds-ons",
+                                "content": "Easily understand what you're paying for and add only what you need.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Look and Feel",
+                                "content": "The website offers a new look and feel, in line with Viva's new branding.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Content management",
+                                "content": "The Viva team can easily manage content and or remove pages, in seconds.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                        "client": {
+                            "name": "Pablo Gomez Gallardo",
+                            "title": "Chief Digital Officer at Viva Aerobus"
+                        },
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_quote_background.png.png",
+                                    "alternativeText": "vivaApp_quote_background.png.png",
+                                    "caption": "vivaApp_quote_background.png.png_background.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_quote_background.png.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "For Viva Aerobus, we developed and deployed a native digital browsing experience for its new website, that's future-proof in all possible ways, and enables Viva to make changes and add new pages independently. During the process, we ensured a continuous and constructive relationship with the Viva team, achieving complete alignment with all stakeholders.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 2,
+                "attributes": {
+                    "title": "Viva Aerobus Web",
+                    "caseDescription": "",
+                    "primaryColor": null,
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "Viva Aerobus:",
+                    "portfolioDescription": "digital revamp for a Mexican icon",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "Viva Aerobus Logo.png",
+                                "alternativeText": "Viva Aerobus Logo.png",
+                                "caption": "Viva Aerobus Logotype.png",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaLogo.svg",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "Viva Aerobus Hero.png",
+                                "alternativeText": "Viva Aerobus Hero.png",
+                                "caption": "Viva Aerobus Hero.png",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "Viva Aerobus is one of the largest low-cost airline in Mexico. It has over one million passengers monthly, and is the fastest-growing airline globally. We were tasked to develop a best-in-class digital experience for its customers across the world. Our team was able to enhance and simplify the airline booking experience in a responsive, fast and well integrated website.",
+                        "callToAction": [
+                            {
+                                "id": 12,
+                                "action": {
+                                    "openUrl": "https://vivaaerobus.com"
+                                },
+                                "title": "Launch website",
+                                "subtitle": null
+                            }
+                        ],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformation": {
+                        "title": "Technical Information",
+                        "industry": "Travel",
+                        "year": "2020 - Ongoing",
+                        "country": "Mexico",
+                        "platforms": ["Web"],
+                        "services": ["Repositories", "Micro-services", "Web development", "Front-end"]
+                    },
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "A truly native experience",
+                                "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Increased Conversions",
+                                "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time."
+                            },
+                            {
+                                "id": 3,
+                                "title": "Rapid Deployment",
+                                "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n"
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "Easier booking ",
+                                "content": "Through an intuitive, well designed and fast booking experience, conversion has increased up to 15%.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "New homepage",
+                                "content": "An easier journey, news alerts and a responsive cross-browser experience.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Simplified Adds-ons",
+                                "content": "Easily understand what you're paying for and add only what you need.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Look and Feel",
+                                "content": "The website offers a new look and feel, in line with Viva's new branding.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Content management",
+                                "content": "The Viva team can easily manage content and or remove pages, in seconds.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                        "client": {
+                            "name": "Pablo Gomez Gallardo",
+                            "title": "Chief Digital Officer at Viva Aerobus"
+                        },
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaWeb_quote_background.png",
+                                    "alternativeText": "vivaWeb_quote_background.png",
+                                    "caption": "vivaWeb_quote_background.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_quote_background.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "For Viva Aerobus, we developed and deployed a native digital browsing experience for its new website, that's future-proof in all possible ways, and enables Viva to make changes and add new pages independently. During the process, we ensured a continuous and constructive relationship with the Viva team, achieving complete alignment with all stakeholders.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 3,
+                "attributes": {
+                    "title": "Planet Buyback",
+                    "caseDescription": "",
+                    "primaryColor": null,
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "Planet Buyback:",
+                    "portfolioDescription": "Helping the planet, one donation at a time",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "pbb_logo.svg",
+                                "alternativeText": "pbb_logo.svg",
+                                "caption": "pbb_logo.svg",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_logo.svg",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "Viva Aerobus Hero.png",
+                                "alternativeText": "Viva Aerobus Hero.png",
+                                "caption": "Viva Aerobus Hero.png",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero_bg.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "Umvel was tasked to rethink, redesign, and improve the planet buyback platform and produce a new digital experience stimulates people to donate to charities. We assisted Planet Buyback in simplifying their experience by integrating best in class UX, visual design and storytelling in order to retain and boost donations for projects that help our planet heal.",
+                        "callToAction": [
+                            {
+                                "id": 12,
+                                "action": {
+                                    "openUrl": "https://www.planetbuyback.com/"
+                                },
+                                "title": "Launch website",
+                                "subtitle": null
+                            }
+                        ],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformation": {
+                        "title": "Technical Information",
+                        "industry": "Sustainability",
+                        "year": "2022",
+                        "country": "Mexico & US",
+                        "platforms": ["Web"],
+                        "services": ["UI/UX Design", "Animation", "Front-end", "Back-end"]
+                    },
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "An new project dashboard experience",
+                                "content": "The donation dashboard provides a consistent, visual design in line with Planet Buyback's brand guidelines. It informs and attracts new users to donate in a simple and effective way."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Enticing data visualization",
+                                "content": "We kept a close relationship between textual and visual storytelling in order to match content, with form. Images, icons, and animations support and reinforce the main value proposition."
+                            },
+                            {
+                                "id": 3,
+                                "title": "Brand new interface design ",
+                                "content": "The new interface design followed from a market study and an overall brand revamp; this defined the desired modifications in terms of forms, composition, hierarchy, and components."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "Easy subscription and community building",
+                                "content": "To make it easier to subscribe, we provided a community in which people with similar interests can connect.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "Donation Dashboard ",
+                                "content": "A new and exciting way to donate to projects that heal and improve our planet. We made it fun and exciting to donate - and low the barrier to do so.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Fully responsive Design ",
+                                "content": "Whether on laptop or phone, the new Planet Buyback platform adapts to your device, ensuring an optimal experience at all times.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Functional Animations",
+                                "content": "As part of creating an enticing new experience, we introduced functional micro animiations across the website.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": "",
+                        "client": null,
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Speed Icon",
+                                    "alternativeText": "Speed Icon",
+                                    "caption": "Speed Icon",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "Next to developing Viva Aerobus' website, Umvel was tasked to create a fun, convenient, and user-friendly mobile application. This app allows travelers to book and manage their trips in a variety of ways. We created the mobile digital strategy, the design, and all development, with a special focus on leveraging native iOS and Android features.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 4,
+                "attributes": {
+                    "title": "Cancer Buddy",
+                    "caseDescription": "",
+                    "primaryColor": null,
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "",
+                    "portfolioDescription": "Developing the first social network for cancer patients and survivors.",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "BMCF_logo.png",
+                                "alternativeText": "Bone Marrow Cancer Logo",
+                                "caption": "Bone Marrow Cancer Logo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/BMCF_logo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "cb_hero_photo.png",
+                                "alternativeText": "Cancer Buddy Photo",
+                                "caption": "Cancer Buddy Photo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "The Bone Marrow Cancer Foundation, a New York-based organization, envisioned Cancerbuddy as a free mobile app for cancer patients, survivors and caregivers to connect, share and help each other. This gives them strength during their treatment and recovery and reduces a feeling of loneliness or isolation. Umvel was tasked with development, testing and deployment of Cancerbuddy's iOS application, working together closely with our client and partners.",
+                        "callToAction": [
+                            {
+                                "id": 12,
+                                "action": {
+                                    "openUrl": "https://apps.apple.com/us/app/cancerbuddy/id1610149676/"
+                                },
+                                "title": "See in appstore",
+                                "subtitle": null
+                            }
+                        ],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformation": {
+                        "title": "Technical Information",
+                        "industry": "Health & Wellness",
+                        "year": "2020 - Ongoing",
+                        "country": "Mexico",
+                        "platforms": ["Web"],
+                        "services": ["Repositories", "Micro-services", "Web development", "Front-end"]
+                    },
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "A hybrid mobile app",
+                                "content": "Cancerbuddy is built on a serverless framework; it's a hybrid app making it easy to scale to other platforms. We used the React Native framework, allowing us to easily build the app for iOS, Android and web, all with one codebase."
+                            },
+                            {
+                                "id": 2,
+                                "title": "A fast and seamless experience",
+                                "content": "We used Amplify (an AWS service). This allows for fast and effective coding. It provides easy Authentication, data and API integration and the tools to help us authenticate users, connect services, build databases and web services, resulting in a fast and seamless end user experience."
+                            },
+                            {
+                                "id": 3,
+                                "title": "A world's first",
+                                "content": "It's not everyday that we can work on an app that truly changes lives. Cancerbuddy is the world’s first cancer patient and survivor network and offers people that are affected by this disease a way to feel less isolated and supported by others."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "Easier booking ",
+                                "content": "Through an intuitive, well designed and fast booking experience, conversion has increased up to 15%.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "New homepage",
+                                "content": "An easier journey, news alerts and a responsive cross-browser experience.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Simplified Adds-ons",
+                                "content": "Easily understand what you're paying for and add only what you need.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Look and Feel",
+                                "content": "The website offers a new look and feel, in line with Viva's new branding.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Content management",
+                                "content": "The Viva team can easily manage content and or remove pages, in seconds.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                        "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "cb_quote_bg.png",
+                                    "alternativeText": "cb_quote_bg.png",
+                                    "caption": "cb_quote_bg.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "We helped to design, build and operate a pioneering food plaza marketplace. This SaaS solution spans native client apps, a versatile admin portal, rich reporting and other useful features. Food Central is now live and can be used in Miyana, CDMX. We learned a tremendous amount about fulfillment, the food logistics industry and building flexible, digital marketplaces.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        }
+    ]
+}
