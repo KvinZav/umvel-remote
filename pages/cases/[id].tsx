@@ -10,11 +10,18 @@ const CasesPage = () => {
   const router = useRouter()
   const { id } = router.query
 
-  const {data: event} = useSWR(environment.CASES_URL, get, {revalidateOnFocus: false})
+  const { data: event } = useSWR(environment.CASES_URL, get, {revalidateOnFocus: false})  
   
-  if(!event || !id) return
+  if(!event || typeof id !== 'string') return;
 
-  const { title } = CASE_FETCHER(event, id)  
+  const caseData = CASE_FETCHER(event, id)  
+  
+
+  if (!caseData) {
+    return;
+  }
+
+  const { title } = caseData
 
   return(
     <>
@@ -22,5 +29,6 @@ const CasesPage = () => {
     </>
   )
 }
+
 
 export default CasesPage;
