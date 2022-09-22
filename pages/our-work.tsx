@@ -30,8 +30,9 @@ export default function OurWork() {
       <OurWorkHeader data={data.data.attributes.body
           .find((item) => item.__component === BlockNameEnum.pageHeader)}/>
       <WorkCases />
-      <FooterCta theme='dark'/>
-      <FooterMenu/>
+      <FooterCta theme='light'/>
+      <FooterMenu data={data.data.attributes.body
+          .find((item) => item.__component === BlockNameEnum.menu)}/>
     </>
   );
 }

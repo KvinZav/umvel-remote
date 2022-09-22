@@ -1,4 +1,4 @@
-import SquareColors from "@elements/square-colors";
+import PrismButton from "@elements/square-colors";
 import { HighlightsPhonePorps } from "@type/modules/highlights"
 import Image from "@elements/image-component";
 import { Attributes2 } from "@interfaces/home-data/home.interface";
@@ -31,7 +31,7 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
                 </div>
                 <div className="aspect-[3/2] flex justify-center items-center">
                     <div className="w-1/3">
-                        <SquareColors text="View all cases" textSize="md" />
+                        <PrismButton>View all cases</PrismButton>
                     </div>
                 </div>
                 <hr className="mx-12 text-secondary-10"></hr>

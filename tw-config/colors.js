@@ -38,7 +38,8 @@ module.exports = {
       "miyana": "#8B6A88",
       "smart-walk": "#DA3440",
       "seguros-mundial": "#5B96CD",
-      "arrivia": "#04A3AC"
+      "arrivia": "#04A3AC",
+      "ecri": "#0081C6"
     }
 }
 

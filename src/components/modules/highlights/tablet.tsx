@@ -1,5 +1,5 @@
 import Image from "@elements/image-component";
-import SquareColors from "@elements/square-colors";
+import PrismButton from "@elements/square-colors";
 import { HighlightsTabletPorps } from "@type/modules/highlights";
 const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,handlePrevious,title}):JSX.Element => {
     const imgAttribute = project.attributes.image.data.attributes
@@ -24,7 +24,7 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                         <div className="h-1/2 flex flex-row justify-center items-center ">
                             <button className="mr-16 text-4xl" onClick={()=>handlePrevious()}>{'<'}</button>
                             <div className="w-1/4">
-                                    <SquareColors text="View all cases" textSize="sm" />
+                                    <PrismButton>View all cases</PrismButton>
                             </div>
                             <button className="ml-16 text-4xl" onClick={()=>handleNext()}>{'>'}</button>
                         </div>

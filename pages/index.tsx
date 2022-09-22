@@ -39,11 +39,11 @@ export default function Home() {
     <div>
       <Hero />
       {<ButtonScroll elementTo={highlightsRef}/>}
-      <MainMenuHighlights/>
-      <ScrollInteraction1/>
       <div ref={highlightsRef}>
-        <Highlights/>
+        <MainMenuHighlights/>
       </div>
+      <ScrollInteraction1/>
+        <Highlights/>
       <ScrollInteraction2
         steps={data?.data?.attributes.body[4].step}
       />
@@ -55,7 +55,8 @@ export default function Home() {
         data={data.data.attributes.body
           .find((item) => item.__component === BlockNameEnum.team)}
       />
-      <FooterMenu/>
+      <FooterMenu data={data.data.attributes.body
+          .find((item) => item.__component === BlockNameEnum.menu)}/>
     </div>
   );
 }

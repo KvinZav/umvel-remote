@@ -1,32 +1,73 @@
-import React from "react"
-type SquareColorsProps = {
-    text: string;
-    textSize?: "sm"|"md"|"lg";
-}
-const SquareColors:React.FC<SquareColorsProps> = ({text,textSize='md'}):JSX.Element => {
-    return (
-        <div className="relative group w-full aspect-square grid grid-cols-4 grid-rows-5 lg:grid-rows-4 lg:grid-cols-4 lg:hover:grid-cols-4 justify-items-center place-items-center text-primary-black gap-1 lg:gap-0 cursor-pointer">
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-aqua" />
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-green" />
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-lime" />
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-yellow" />
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-purple" />
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-pink" />
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-red" />
-            <div className="w-full -translate-y-1 lg:translate-y-0 lg:group-hover:-translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-orange" />
-            <div className="lg:-z-10 lg:absolute w-full h-full flex items-center justify-center top-0 col-span-4 transition delay-150 ease-in-out duration-1000 lg:min-h-0">
-                <p className={`${textSize==="sm"? "text-xs": textSize==="md"? "text-base" : "text-lg"} lg:transition-opacity lg:duration-300 lg:opacity-0 lg:group-hover:opacity-100 whitespace-nowrap`}>{text}</p>
-            </div>
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-navy" />
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-blue" />
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-aqua" />
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-green" />
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-red" />
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:-translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-orange" />
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-1 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-yellow" />
-            <div className="w-full translate-y-1 lg:translate-y-0 lg:group-hover:translate-y-2 lg:translate-x-0 lg:group-hover:translate-x-2 lg:group-hover:scale-50 scale-50 lg:scale-100 transition-all delay-150 ease-in-out duration-500 aspect-square bg-prisma-lime" />
-        </div>
-    )
+import useMediaQuery from "@hooks/useMediaQuery";
+import React, { useState } from "react"
+import { animated, config, useSpring } from "react-spring";
+type PrismButtonProps = {
+  children: string | JSX.Element;
 }
 
-export default SquareColors
+const PrismButton:React.FC<PrismButtonProps> = ({children}):JSX.Element => {
+
+  const [isExpanded, setIsExpanded] = useState(false)
+
+  const isDesktop = useMediaQuery('(min-width: 1024px)');
+
+  const childrenStyle = useSpring({
+    delay: 0,
+    transform: isExpanded || !isDesktop ?
+      `scale(1)` :
+      `scale(0.2)`,
+    config: config.wobbly,
+  })
+
+  return (
+    <div 
+      className="relative group w-12 h-12 aspect-square grid grid-rows-4 grid-cols-4 justify-items-center place-items-center text-primary-black gap-1 lg:gap-0 cursor-pointer"
+      onMouseEnter={() => setIsExpanded(true)}
+      onMouseLeave={() => setIsExpanded(false)}
+    >
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top left" backgroundColor="bg-prisma-aqua" isExpanded={isExpanded} translateX={-12} translateY={-32}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top center" backgroundColor="bg-prisma-green" isExpanded={isExpanded} translateX={-4} translateY={-32}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top center" backgroundColor="bg-prisma-lime" isExpanded={isExpanded} translateX={4} translateY={-32}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top right" backgroundColor="bg-prisma-yellow" isExpanded={isExpanded} translateX={12} translateY={-32}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top left" backgroundColor="bg-prisma-purple" isExpanded={isExpanded} translateX={-12} translateY={-24}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top center" backgroundColor="bg-prisma-pink" isExpanded={isExpanded} translateX={-4} translateY={-24}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top center" backgroundColor="bg-prisma-red" isExpanded={isExpanded} translateX={4} translateY={-24}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="top right" backgroundColor="bg-prisma-orange" isExpanded={isExpanded} translateX={12} translateY={-24}/>
+      <div className="lg:-z-10 lg:absolute w-full h-full flex items-center justify-center top-0 col-span-4 transition delay-150 ease-in-out duration-1000 lg:min-h-0">
+        {typeof children === 'string' ? 
+          <animated.p style={childrenStyle}  className="text-sm whitespace-nowrap">{children}</animated.p>
+          : children
+        }
+      </div>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom left"  backgroundColor="bg-prisma-navy" isExpanded={isExpanded} translateX={-12} translateY={24}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom center"  backgroundColor="bg-prisma-blue" isExpanded={isExpanded} translateX={-4} translateY={24}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom center"  backgroundColor="bg-prisma-aqua" isExpanded={isExpanded} translateX={4} translateY={24}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom right"  backgroundColor="bg-prisma-green" isExpanded={isExpanded} translateX={12} translateY={24}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom left" backgroundColor="bg-prisma-red" isExpanded={isExpanded} translateX={-12} translateY={32}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom center" backgroundColor="bg-prisma-orange" isExpanded={isExpanded} translateX={-4} translateY={32}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom center" backgroundColor="bg-prisma-yellow" isExpanded={isExpanded} translateX={4} translateY={32}/>
+      <ColorSquare isAnimated={isDesktop} transformOrigin="bottom right" backgroundColor="bg-prisma-lime" isExpanded={isExpanded} translateX={12} translateY={32}/>
+    </div>
+  )
+}
+
+const ColorSquare = ({ backgroundColor, isExpanded, translateX, translateY, transformOrigin, isAnimated = true}) =>  {
+
+  const style = useSpring({
+    transform: isExpanded || !isAnimated ?
+      `translate(${translateX}px, ${translateY}px) scale(0.8)` :
+      `translate(0px, 0px) scale(1)`,
+    config: config.wobbly,
+    transformOrigin
+  })
+
+
+  return (
+    <animated.div
+      className={`w-full -translate-y-1 aspect-square ${backgroundColor}`}
+      style={style}
+    />
+  )
+}
+
+export default PrismButton
