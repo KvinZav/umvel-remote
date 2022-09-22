@@ -6,7 +6,7 @@
                 "attributes": {
                     "title": "Viva Aerobus",
                     "caseDescription": "",
-                    "primaryColor": null,
+                    "primaryColor": "#40AD4C",
                     "secondaryColor": null,
                     "createdAt": "2022-08-19T16:08:15.067Z",
                     "updatedAt": "2022-09-21T22:57:26.199Z",
@@ -389,7 +389,7 @@
                 "attributes": {
                     "title": "Viva Aerobus Web",
                     "caseDescription": "",
-                    "primaryColor": null,
+                    "primaryColor": "#40AD4C",
                     "secondaryColor": null,
                     "createdAt": "2022-08-19T16:08:15.067Z",
                     "updatedAt": "2022-09-21T22:57:26.199Z",
@@ -769,7 +769,7 @@
                 "attributes": {
                     "title": "Planet Buyback",
                     "caseDescription": "",
-                    "primaryColor": null,
+                    "primaryColor": "#6BB7E6",
                     "secondaryColor": null,
                     "createdAt": "2022-08-19T16:08:15.067Z",
                     "updatedAt": "2022-09-21T22:57:26.199Z",
@@ -1118,7 +1118,7 @@
                 "attributes": {
                     "title": "Cancer Buddy",
                     "caseDescription": "",
-                    "primaryColor": null,
+                    "primaryColor": "#F1DE4F",
                     "secondaryColor": null,
                     "createdAt": "2022-08-19T16:08:15.067Z",
                     "updatedAt": "2022-09-21T22:57:26.199Z",
