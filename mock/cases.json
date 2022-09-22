@@ -28,7 +28,7 @@
                                 "ext": ".svg",
                                 "mime": "image/png",
                                 "size": 0.42,
-                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaApp.png",
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaLogo.svg",
                                 "previewUrl": null,
                                 "provider": "local",
                                 "provider_metadata": null,
@@ -389,13 +389,13 @@
                 "attributes": {
                     "title": "Viva Aerobus Web",
                     "caseDescription": "",
-                    "primaryColor": "#40AD4C",
+                    "primaryColor": "#2F7C38",
                     "secondaryColor": null,
                     "createdAt": "2022-08-19T16:08:15.067Z",
                     "updatedAt": "2022-09-21T22:57:26.199Z",
                     "publishedAt": "2022-08-19T16:10:38.202Z",
                     "portfolioTitle": "Viva Aerobus:",
-                    "portfolioDescription": "digital revamp for a Mexican icon",
+                    "portfolioDescription": "Digital revamp for a Mexican icon",
                     "portfolioDataOfInterest": "1,000,000 + \nUsers",
                     "logo": {
                         "data": {
@@ -774,7 +774,7 @@
                     "createdAt": "2022-08-19T16:08:15.067Z",
                     "updatedAt": "2022-09-21T22:57:26.199Z",
                     "publishedAt": "2022-08-19T16:10:38.202Z",
-                    "portfolioTitle": "Planet Buyback:",
+                    "portfolioTitle": "",
                     "portfolioDescription": "Helping the planet, one donation at a time",
                     "portfolioDataOfInterest": "1,000,000 + \nUsers",
                     "logo": {

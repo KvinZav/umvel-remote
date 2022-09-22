@@ -81,7 +81,7 @@ export interface ChallengeData {
   id: number
   title: string
   content: string
-  callToAction: Action[]
+  callToAction: CallToAction[]
   images: Logo[]
 }
 
