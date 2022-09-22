@@ -9,12 +9,21 @@ const CasesHero = ({caseData : CaseAttributes}) => {
       <div className="col-span-1 aspect-square bg-prisma-red">
         
       </div>
-      <div className="col-span-2 row-span-2 aspect-square">
+      <div className="col-span-2 row-span-2 aspect-square bg-prisma-blue">
         
       </div>
-      <div className="col-span-1 aspect-square">
+      <div className="col-span-1 aspect-square bg-prisma-aqua">
         
       </div>
+      <div className="col-span-1 aspect-square bg-prisma-orange">
+        
+      </div>
+      <div className="col-span-1 aspect-square bg-prisma-lime">
+        
+      </div>
+      <div className="col-span-1 aspect-square bg-prisma-yellow">
+        
+      </div>  
     </section>
   )
 }
