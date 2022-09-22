@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from '@elements/image-component';
 import { CasesHeroProps } from '.';
+import BasicButton from '@elements/button';
+import Link from 'next/link';
 
 const CasesHeroMobile = (props : CasesHeroProps) => {
   const {portfolioTitle, portfolioDescription, image, logo, challenge, primaryColor} = props.caseData
@@ -40,6 +42,15 @@ const CasesHeroMobile = (props : CasesHeroProps) => {
           />
           <h1 className="text-xl mt-8 mb-2">{portfolioTitle}</h1>
           <h2 className="font-bold text-[28px]">{portfolioDescription}</h2>
+          <div className="flex flex-wrap mt-4 space-x-4 space-y-4">
+            {
+              challenge.callToAction.map((item, index) => 
+                <Link key={'action-'+index} href={item.action.openUrl}>
+                  <BasicButton>{item.title}</BasicButton>
+                </Link>
+              )
+            }
+          </div>
         </div>
       </div>
       <div className="aspect-square p-12 bg-primary-black text-primary-white">

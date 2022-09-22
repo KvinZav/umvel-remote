@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from '@elements/image-component';
 import { CasesHeroProps } from '.';
+import Link from 'next/link';
+import BasicButton from '@elements/button';
 
 const CasesHeroDesktop = (props : CasesHeroProps) => {  
 
@@ -12,7 +14,16 @@ const CasesHeroDesktop = (props : CasesHeroProps) => {
     >
       <div className="col-span-1 aspect-square flex flex-col justify-center px-12 border border-secondary-10">
         <h1 className="text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">{portfolioTitle}</h1>
-        <h2 className="font-bold text-[28px] md:text-[32px] lg:text-4xl md:leading-tight lg:leading-snug">{portfolioDescription}</h2>
+        <h2 className="font-bold text-[28px] md:text-[32px] lg:text-4xl md:leading-tight lg:leading-snug mb-12">{portfolioDescription}</h2>
+        <div className="flex flex-wrap space-x-4 space-y-4">
+          {
+            challenge.callToAction.map((item, index) => 
+              <Link key={'action-'+index} href={item.action.openUrl}>
+                <BasicButton>{item.title}</BasicButton>
+              </Link>
+            )
+          }
+        </div>
       </div>
       <div className="col-span-1 lg:col-span-2 row-span-2 aspect-square">
         <Image

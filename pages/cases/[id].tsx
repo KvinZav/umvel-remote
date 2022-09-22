@@ -2,11 +2,11 @@ import TechnicalInformation from '@modules/technicalInformation';
 import { environment } from '@environments/index';
 import { CASE_FETCHER } from '@fetcher/clients';
 import { get } from '@fetcher/get';
-import CasesHero from '@modules/cases';
 import { useRouter } from 'next/router';
 import React from 'react';
 import useSWR from 'swr';
 import ContactLayout from '@layouts/ContactLayout';
+import CasesHero from '@modules/casesHero';
 
 const CasesPage = () => {
   
@@ -18,8 +18,6 @@ const CasesPage = () => {
 
   const caseData = CASE_FETCHER(event, id)
   if (!caseData) return;
-
-  console.log("CASE DATA", caseData);
   
   return(
     <>
