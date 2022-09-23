@@ -40,10 +40,10 @@ const Hero = () => {
             }}
             text={caseOfStudy[0].Title}
           />
-          <div className="absolute inset-x-4 sm:inset-x-6 lg:inset-x-8 bottom-4 sm:bottom-6 lg:bottom-8 h-1 sm:h-2 rounded-full bg-secondary-10 overflow-hidden"/>
+          <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 bottom-4 md:bottom-6 lg:bottom-8 h-1 md:h-2 rounded-full bg-secondary-10 overflow-hidden"/>
         </div>
         {/* third card */}
-        <div className="sm:flex sm:flex-row lg:block col-span-2 lg:col-span-1">
+        <div className="md:flex md:flex-row lg:block col-span-2 lg:col-span-1">
           <div className={`${tablet && 'flex-1'}`}>
             <Card
               styles={{

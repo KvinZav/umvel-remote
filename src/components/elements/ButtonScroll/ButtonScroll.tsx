@@ -15,7 +15,7 @@ export const ButtonScroll = ({elementTo}) => {
   const [isHovered, setIsHovered] = useState(false)
 
   return (
-    <div className="w-full flex justify-center sm:justify-end p-[1.5rem]">
+    <div className="w-full flex justify-center md:justify-end p-[1.5rem]">
       <button
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}

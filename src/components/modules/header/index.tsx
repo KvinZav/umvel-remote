@@ -28,17 +28,17 @@ const Header = () => {
         <>
             {(!showMenu) && <nav className="sticky top-0 z-[99]">
                 <div className="flex justify-between items-center py-6 px-8">
-                    <div className='h-6 w-6 sm:h-8 sm:w-8 '>
+                    <div className='h-6 w-6 md:h-8 md:w-8 '>
                         {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
                     </div>
                     {(!matchMedia || !isVerticalScroll) &&
-                        <button data-collapse-toggle="navbar-default" onClick={() => setShowMenu(!showMenu)} type="button" className="flex items-center text-sm text-gray-500 rounded-lg sm:flex-row sm:mt-0 sm:text-sm sm:font-medium sm:border-0" >
-                            <div className='h-5 w-5 sm:w-7 sm:h-7'>
+                        <button data-collapse-toggle="navbar-default" onClick={() => setShowMenu(!showMenu)} type="button" className="flex items-center text-sm text-gray-500 rounded-lg md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0" >
+                            <div className='h-5 w-5 md:w-7 md:h-7'>
                                 <CustomImage src={'/assets/images/menu-icon.svg'} alt="menu" width='100%' height='100%' className='bg-primary-white bg-clip-text' />
                             </div>
                         </button>}
-                    {(matchMedia && isVerticalScroll) && <div className="w-full sm:block sm:w-auto" id="navbar-default" data-collapse-toggle="navbar-default">
-                        <ul className="flex flex-col mt-4 border sm:flex-row sm:space-x-8 sm:mt-0 sm:text-sm sm:font-medium sm:border-0 items-center">
+                    {(matchMedia && isVerticalScroll) && <div className="w-full md:block md:w-auto" id="navbar-default" data-collapse-toggle="navbar-default">
+                        <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 items-center">
                             {options && options.map(link =>
                                 link.type === 'button' ? <BasicButton onClick={() => setShowMenu(false)}>
                                     <Link name={link.name} url={link.link} />
@@ -51,7 +51,7 @@ const Header = () => {
                     </div>}
                 </div>
             </nav>}
-            {(showMenu) && <div className="w-full h-screen sticky top-0 sm:block sm:w-auto bg-primary-white z-[99]">
+            {(showMenu) && <div className="w-full h-screen sticky top-0 md:block md:w-auto bg-primary-white z-[99]">
                 <div className='w-full h-screen flex'>
                     {matchMedia && <div className='h-full min-w-[100vh] grid grid-cols-3 grid-rows-3 gap-0'>
                         {cases && cases.map((caseItem, index) =>
@@ -62,10 +62,10 @@ const Header = () => {
                     </div>}
                     <div className='h-full min-w-min w-full flex flex-col items-center p-8'>
                         <div className='w-full flex flex-row justify-between'>
-                            <div className='h-6 w-6 sm:h-8 sm:w-8'>
+                            <div className='h-6 w-6 md:h-8 md:w-8'>
                                 {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
                             </div>
-                            <div className='h-5 w-5 sm:w-7 sm:h-7' onClick={() => { setShowMenu(!showMenu) }}>
+                            <div className='h-5 w-5 md:w-7 md:h-7' onClick={() => { setShowMenu(!showMenu) }}>
                                 <CustomImage src="/assets/images/x-icon.svg" width={"100%"} height={"100%"} alt="close" />
                             </div>
                         </div>

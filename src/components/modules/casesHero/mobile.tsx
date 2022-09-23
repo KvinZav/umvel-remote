@@ -54,7 +54,7 @@ const CasesHeroMobile = (props : CasesHeroProps) => {
         </div>
       </div>
       <div className="aspect-square p-12 bg-primary-black text-primary-white">
-        <h2 className="mb-2 text-xl sm:text-2xl lg:text-[28px] sm:leading-tight lg:leading-snug">{challenge.title}</h2>
+        <h2 className="mb-2 text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">{challenge.title}</h2>
         <p>{challenge.content}</p>
       </div>
       <div className="relative aspect-square" style={{ backgroundColor: primaryColor }}>

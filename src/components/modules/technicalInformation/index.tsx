@@ -10,9 +10,9 @@ const TechnicalInformation:FC<TechnicalInformationProps> = ({caseData}) => {
     return (
         <>
             <div className="flex justify-center ">
-                <p className="font-bold text-4xl mb-20 mt-36 sm:mt-40 lg:mt-48">Technical information</p>
+                <p className="font-bold text-4xl mb-20 mt-36 md:mt-40 lg:mt-48">Technical information</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
                 <div className="aspect-square w-auto border-secondary-10 bg-cover bg-center hidden lg:flex" style={{backgroundImage: 'url(https://picsum.photos/700)'}} />
                 <div className="aspect-square w-auto border border-secondary-10 p-8 lg:p-12 flex flex-col justify-between">
                     <div>

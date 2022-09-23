@@ -34,14 +34,14 @@ export const FooterMenu = ({data: {socialNetworks, links}}: {data: Body}) => {
         </div>
         <hr className="text-[#E6E6E6] hidden lg:block mb-8"/>
         <div className="flex justify-between flex-col lg:flex-row">
-          <div className="flex gap-8 flex-col sm:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
+          <div className="flex gap-8 flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
             {socialNetworks.map((socialNetwork, index) => (
               <Link href={socialNetwork.link} key={`menu-item-footer-${index}`}>
                 <a className="text-base leading-tight">{socialNetwork.name}</a>
               </Link>
             ))}
           </div>
-          <div className="flex flex-col sm:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
+          <div className="flex flex-col md:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
             <Link href="#">
               <a>Privacy Policy</a>
             </Link>

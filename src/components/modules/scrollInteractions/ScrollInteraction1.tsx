@@ -42,7 +42,7 @@ const ScrollInteraction1 = () => {
 
   return (
     <section
-      className={`flex flex-col items-center lg:block px-[72px] sm:px-36 lg:px-0 pt-[104px] sm:pt-[200px] pb-0 sm:pb-[200px] lg:pt-0`}
+      className={`flex flex-col items-center lg:block px-[72px] md:px-36 lg:px-0 pt-[104px] md:pt-[200px] pb-0 md:pb-[200px] lg:pt-0`}
       ref={containerRef}
     >
       <div className={`flex flex-col lg:flex-row pr-8 lg:sticky top-0 lg:h-screen lg:items-center`}>
