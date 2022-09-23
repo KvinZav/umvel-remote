@@ -14,7 +14,7 @@
                             "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-viva",
+                            "backgroundColor": "#40AD4C",
                             "quote": null,
                             "image": {
                                 "data": {
@@ -47,7 +47,7 @@
                             "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-cancer-buddy",
+                            "backgroundColor": "#F1DE4F",
                             "image": {
                                 "data": {
                                     "id": 1,
@@ -112,7 +112,7 @@
                             "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-buyback",
+                            "backgroundColor": "#6BB7E6",
                             "image": {
                                 "data": {
                                     "id": 1,
@@ -144,7 +144,7 @@
                             "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-oeio",
+                            "backgroundColor": "#CBA552",
                             "quote": "We deliver what we promise.",
                             "image": {
                                 "data": {
@@ -177,7 +177,7 @@
                             "hoverClientName": "Website",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-capa",
+                            "backgroundColor": "#093998",
                             "image": {
                                 "data": {
                                     "id": 1,
@@ -209,7 +209,7 @@
                             "hoverClientName": null,
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-capa",
+                            "backgroundColor": "#093998",
                             "image": {
                                 "data": {
                                     "id": 1,

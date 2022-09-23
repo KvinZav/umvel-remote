@@ -7,24 +7,6 @@ const swrConfig = {
   revalidateOnFocus: false,
 };
 
-const colors = [
-    "bg-cases-capa",
-    "bg-cases-prevue",
-    "bg-cases-argo",
-    "bg-cases-campaign",
-    "bg-cases-viva",
-    "bg-cases-food-central",
-    "bg-cases-oeio",
-    "bg-cases-cancer-buddy",
-    "bg-cases-buyback",
-    "bg-cases-miyana",
-    "bg-cases-seguros-mundial",
-    "bg-cases-arrivia",
-    "bg-cases-viva-app",
-    "bg-cases-smart-walk",
-    "bg-cases-ecri",
-]
-
 function MyApp({ Component, pageProps }) {
 
   return <>

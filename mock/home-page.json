@@ -60,7 +60,7 @@
                     {
                         "id": 0,
                         "title": "null",
-                        "backgroundColor": "cases-viva",
+                        "backgroundColor": "#40AD4C",
                         "image": null
                     },
                     {
@@ -72,7 +72,7 @@
                     {
                         "id": 2,
                         "title": null,
-                        "backgroundColor": "cases-oeio",
+                        "backgroundColor": "#CBA552",
                         "image": null
                     },
                     {
@@ -84,7 +84,7 @@
                     {
                         "id": 4,
                         "title": "CancerBuddy App",
-                        "backgroundColor": "cases-cancer-buddy",
+                        "backgroundColor": "#F1DE4F",
                         "image": {
                             "data": {
                                 "id": 1,
@@ -118,19 +118,19 @@
                     {
                         "id": 6,
                         "title": null,
-                        "backgroundColor": "cases-food-central",
+                        "backgroundColor": "#348181",
                         "image": null
                     },
                     {
                         "id": 7,
                         "title": null,
-                        "backgroundColor": "cases-buyback",
+                        "backgroundColor": "#6BB7E6",
                         "image": null
                     },
                     {
                         "id": 8,
                         "title": null,
-                        "backgroundColor": "cases-food-central",
+                        "backgroundColor": "#348181",
                         "image": null
                     }
                 ]
@@ -150,7 +150,7 @@
                                     "attributes": {
                                         "title": "Viva App delivers eficiency!",
                                         "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions. ",
-                                        "primaryColor": "cases-viva",
+                                        "primaryColor": "#40AD4C",
                                         "secondaryColor": "capa-secondary",
                                         "createdAt": "2022-08-19T15:15:34.095Z",
                                         "updatedAt": "2022-08-19T15:16:13.168Z",
@@ -212,7 +212,7 @@
                                     "attributes": {
                                         "title": "Cancerbuddy App is leading connection!",
                                         "caseDescription": "Prevue leads the virtual tours!",
-                                        "primaryColor": "cases-cancer-buddy",
+                                        "primaryColor": "#F1DE4F",
                                         "secondaryColor": null,
                                         "createdAt": "2022-08-19T15:41:14.198Z",
                                         "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -257,7 +257,7 @@
                                     "attributes": {
                                         "title": "Viva Website was created by 20+ Umvellers!",
                                         "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
-                                        "primaryColor": "cases-viva",
+                                        "primaryColor": "#40AD4C",
                                         "secondaryColor": null,
                                         "createdAt": "2022-08-19T15:42:33.448Z",
                                         "updatedAt": "2022-08-19T15:43:20.709Z",
@@ -302,7 +302,7 @@
                                     "attributes": {
                                         "title": "Food Central App thinks in customer satisfaction!",
                                         "caseDescription": "Food Central App thinks in customer satisfaction!",
-                                        "primaryColor": "cases-food-central",
+                                        "primaryColor": "#348181",
                                         "secondaryColor": null,
                                         "createdAt": "2022-08-19T15:43:13.839Z",
                                         "updatedAt": "2022-08-19T15:43:16.728Z",
@@ -413,7 +413,7 @@
                                         "attributes": {
                                             "title": "Viva Aerobus",
                                             "caseDescription": "We reimagined what the digital experience for a large-scale airline could look & feel like.",
-                                            "primaryColor": "cases-viva",
+                                            "primaryColor": "#40AD4C",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T16:08:15.067Z",
                                             "updatedAt": "2022-08-19T16:14:58.233Z",
@@ -451,7 +451,7 @@
                                         "attributes": {
                                             "title": "Capa delivers efficiency!",
                                             "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions.",
-                                            "primaryColor": "cases-capa",
+                                            "primaryColor": "#093998",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:15:34.095Z",
                                             "updatedAt": "2022-08-19T15:16:13.168Z",
@@ -682,7 +682,7 @@
                             "hoverClientName": "Cancer App",
                             "hoverClientHeading": "Cancer App",
                             "callToAction": null,
-                            "backgroundColor": "cases-cancer-buddy",
+                            "backgroundColor": "#F1DE4F",
                             "primaryColor": "black"
                         },
                         {
@@ -692,7 +692,7 @@
                             "hoverClientName": "Virtual Tools",
                             "hoverClientHeading": "Virtual Tools",
                             "callToAction": null,
-                            "backgroundColor": "cases-smart-walk"
+                            "backgroundColor": "#DA3440"
                         },
                         {
                             "id": 4,
@@ -701,7 +701,7 @@
                             "hoverClientName": "National Airline",
                             "hoverClientHeading": "National Airline",
                             "callToAction": null,
-                            "backgroundColor": "cases-viva"
+                            "backgroundColor": "#40AD4C"
                         },
                         {
                             "id": 5,
@@ -710,7 +710,7 @@
                             "hoverClientName": "Wellness App",
                             "hoverClientHeading": "Wellness App",
                             "callToAction": null,
-                            "backgroundColor": "cases-oeio"
+                            "backgroundColor": "#CBA552"
                         },
                         {
                             "id": 6,
@@ -728,7 +728,7 @@
                             "hoverClientName": "Real State",
                             "hoverClientHeading": "Real State",
                             "callToAction": null,
-                            "backgroundColor": "cases-capa"
+                            "backgroundColor": "#093998"
                         }
                     ]
                 },

@@ -39,9 +39,10 @@ const MainContainer = ({children, styles, hasDescription}) => {
   
   return (
     <div
-      className={`overflow-hidden flex ${styles.direction === "col" ? "flex-col" : "flex-col-reverse"} group aspect-square border-solid border bg-${styles.bg}`}
+      className={`overflow-hidden flex ${styles.direction === "col" ? "flex-col" : "flex-col-reverse"} group aspect-square border-solid border`}
       style={{
         borderColor: styles.borderColor || "#e6e6e6",
+        backgroundColor: styles.bg
       }}
     >
       <div
