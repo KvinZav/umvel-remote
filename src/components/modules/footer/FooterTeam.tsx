@@ -21,7 +21,7 @@ export const FooterTeam = ({data}: {data: Body}) => {
 
   return (
     <section className="flex">
-      <article className="aspect-square relative border border-secondary-10 border-solid hidden md:block w-[50%] p-[2vw]">
+      <article className="aspect-square relative border border-secondary-10 border-solid hidden sm:block w-[50%] p-[2vw]">
         <div
           className="grid gap-[5px] h-[100%]"
           style={{ gridTemplateColumns: `repeat(${totalGrid}, minmax(0, 1fr))` }}
@@ -39,7 +39,7 @@ export const FooterTeam = ({data}: {data: Body}) => {
           <p className="font-bold text-[31px] lg:text-[58px]">{titleLeft}</p>
         </div>
       </article>
-      <article className="aspect-square flex flex-col justify-between border border-secondary-10 border-solid w-[100%] md:w-[50%] p-[15vw] md:p-[8vw_8.5vw_8.5vw_8vw]">
+      <article className="aspect-square flex flex-col justify-between border border-secondary-10 border-solid w-[100%] sm:w-[50%] p-[15vw] sm:p-[8vw_8.5vw_8.5vw_8vw]">
         <div className="self-start">
           <CustomImage
             src="/assets/images/umvelImagoType.svg"
