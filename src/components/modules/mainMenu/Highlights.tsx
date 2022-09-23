@@ -17,7 +17,7 @@ const MainMenuHighlights = () => {
   const { cases } = FETCHER(event, BlockNameEnum.highlights)    
 
   return(
-    <section className="flex sm:grid sm:grid-cols-1 lg:grid-cols-3 sm:justify-center overflow-x-scroll sm:overflow-auto pt-16 sm:pt-[104px] lg:pt-[216px]">
+    <section className="flex sm:grid sm:grid-cols-1 lg:grid-cols-3 sm:justify-center overflow-x-scroll sm:overflow-auto pt-16 lg:pt-[104px]">
       {cases.map((caseItem, caseIndex) => {
         const { title, caseDescription, image, primaryColor} = caseItem.case_of_study.data.attributes;
         const imageUrl = image.data.attributes.url;
