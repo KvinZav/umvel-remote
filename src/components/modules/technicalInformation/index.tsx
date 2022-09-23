@@ -8,8 +8,6 @@ type TechnicalInformationProps = {
 const TechnicalInformation:FC<TechnicalInformationProps> = ({caseData}) => {
 
     const {services, platforms , technicalInformation} = caseData.technicalInformationGroup;
-
-    console.log(services, platforms , technicalInformation);
     
     return (
         <>
