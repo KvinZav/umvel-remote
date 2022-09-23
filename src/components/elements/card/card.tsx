@@ -90,8 +90,8 @@ const TitleComponent = ({text, description, showButton, styles}) => {
         ${styles.textStyles.align === "start" && "text-start"}
         ${styles.textStyles.align === "center" && "text-center"}
         ${styles.textStyles.align === "end" && "text-end"}
-        ${styles.textStyles?.height === 'title' && 'text-[46px] sm:text-[78px] lg:text-[98px] font-bold'}
-        ${styles.textStyles?.height === 'subtitle' && 'text-[18px] sm:text-4xl lg:text-[38px] font-bold max-w-xs'}
+        ${styles.textStyles?.height === 'title' && 'text-[46px] md:text-[78px] lg:text-[98px] font-bold'}
+        ${styles.textStyles?.height === 'subtitle' && 'text-[18px] md:text-4xl lg:text-[38px] font-bold max-w-xs'}
         ${styles.textStyles?.height === 'paragraph' && 'text-base font-bold'}
       `}
     >

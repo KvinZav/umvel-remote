@@ -13,8 +13,8 @@ const CasesHeroTablet = (props : CasesHeroProps) => {
       className="grid grid-cols-2"
     >
       <div className="aspect-square flex flex-col justify-center px-12 border border-secondary-10">
-        <h1 className="text-xl sm:text-2xl lg:text-[28px] sm:leading-tight lg:leading-snug">{portfolioTitle}</h1>
-        <h2 className="font-bold text-[28px] sm:text-[32px] lg:text-4xl sm:leading-tight lg:leading-snug">{portfolioDescription}</h2>
+        <h1 className="text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">{portfolioTitle}</h1>
+        <h2 className="font-bold text-[28px] md:text-[32px] lg:text-4xl md:leading-tight lg:leading-snug">{portfolioDescription}</h2>
         <div className="flex flex-wrap mt-4 space-x-4 space-y-4">
           {
             challenge.callToAction.map((item, index) => 
@@ -55,7 +55,7 @@ const CasesHeroTablet = (props : CasesHeroProps) => {
         />
       </div>
       <div className="col-span-1 aspect-square p-8 bg-primary-black text-primary-white">
-        <h2 className="mb-2 text-xl sm:text-2xl lg:text-[28px] sm:leading-tight lg:leading-snug">{challenge.title}</h2>
+        <h2 className="mb-2 text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">{challenge.title}</h2>
         <p>{challenge.content}</p>
       </div>
       <div className={`relative col-span-1 aspect-square`} style={{ backgroundColor: primaryColor }}>
