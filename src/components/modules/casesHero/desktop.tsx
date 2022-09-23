@@ -10,7 +10,7 @@ const CasesHeroDesktop = (props : CasesHeroProps) => {
 
   return (
     <section
-      className="grid grid-cols-2 lg:grid-cols-3 grid-rows-3"
+      className="grid grid-cols-3"
     >
       <div className="col-span-1 aspect-square flex flex-col justify-center px-12 border border-secondary-10">
         <h1 className="text-xl sm:text-2xl lg:text-[28px] sm:leading-tight lg:leading-snug">{portfolioTitle}</h1>
@@ -36,13 +36,15 @@ const CasesHeroDesktop = (props : CasesHeroProps) => {
       </div>
       <div className="relative col-span-1 aspect-square p-12">
         <span className="absolute top-12 left-12">Client</span>
-        <Image
-          width="100%"
-          height="100%"
-          layout="responsive"
-          url={logo.data.attributes.url}
-          alt={logo.data.attributes.alternativeText}
-        />
+        <div className="w-56 m-auto">
+          <Image
+            width="100%"
+            height="100%"
+            layout="responsive"
+            url={logo.data.attributes.url}
+            alt={logo.data.attributes.alternativeText}
+          />
+        </div>
       </div>
       <div className="col-span-1 aspect-square p-12 bg-primary-black text-primary-white">
         <h2 className="mb-2 text-xl sm:text-2xl lg:text-[28px] sm:leading-tight lg:leading-snug">{challenge.title}</h2>

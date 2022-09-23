@@ -1,12 +1,16 @@
+import { CaseAttributes } from "@interfaces/cases-data/cases.interface";
 import React, { FC } from "react"
 
 type TechnicalInformationProps = {
-    caseData: any;
+    caseData: CaseAttributes;
 }
 
 const TechnicalInformation:FC<TechnicalInformationProps> = ({caseData}) => {
 
-    const {services, title ,...technicalInformation} = caseData;
+    const {services, platforms , technicalInformation} = caseData.technicalInformationGroup;
+
+    console.log(services, platforms , technicalInformation);
+    
     return (
         <>
             <div className="flex justify-center ">
@@ -14,25 +18,19 @@ const TechnicalInformation:FC<TechnicalInformationProps> = ({caseData}) => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full">
                 <div className="aspect-square w-auto border-secondary-10 bg-cover bg-center hidden lg:flex" style={{backgroundImage: 'url(https://picsum.photos/700)'}} />
-                <div className="aspect-square w-auto border border-secondary-10 p-8 lg:p-12 flex flex-col justify-between">
-                    <div>
-                        <h3>Industry</h3>
-                        <p className="font-bold">{technicalInformation.industry}</p>
-                    </div> 
-                    <div>
-                        <h3>year</h3>
-                        <p className="font-bold">{technicalInformation.year}</p>
-                    </div> 
-                    <div>
-                        <h3>Country</h3>
-                        <p className="font-bold">{technicalInformation.country}</p>
-                    </div> 
+                <div className="aspect-square w-auto border border-secondary-10 p-8 lg:p-12 flex flex-col space-y-10">
+                    {
+                        technicalInformation.map(infoItem => infoItem.title.toLowerCase() !== "client" ?
+                            <div key={'tech-info-'+infoItem.id}>
+                                <h3>{infoItem.title}</h3>
+                                <p className="font-bold">{infoItem.content}</p>
+                            </div> : null
+                        )
+                    }
                     <div>
                         <h3>Platforms</h3>
-                        <p className="font-bold">{
-                            technicalInformation.platforms.join(',')
-                        }</p>
-                    </div>     
+                        <p className="font-bold">{platforms.map(platform => platform.name).join('/')}</p>
+                    </div>
                 </div>
                 <div className="aspect-square w-auto border border-secondary-10 p-8 lg:p-12 flex flex-col overflow-y-scroll overflow-hidden">
                     <h3 className="mb-4">Services</h3>
@@ -40,8 +38,8 @@ const TechnicalInformation:FC<TechnicalInformationProps> = ({caseData}) => {
                         {
                             services.map(item=>{
                                 return(
-                                    <div className="rounded-full bg-secondary-10 mb-4 mr-4 px-6 py-2" key={'info'+item}>
-                                        <p className="text-primary-black inline">{item}</p>
+                                    <div className="rounded-full bg-secondary-10 mb-4 mr-4 px-6 py-2" key={'info'+item.id}>
+                                        <p className="text-primary-black inline">{item.name}</p>
                                     </div>
                                 ) 
                             })
