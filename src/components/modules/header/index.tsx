@@ -65,9 +65,9 @@ const Header = () => {
                             <div className='h-6 w-6 sm:h-8 sm:w-8'>
                                 {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
                             </div>
-                            <div className='h-5 w-5 sm:w-7 sm:h-7' onClick={() => { setShowMenu(!showMenu) }}>
+                            <button className='h-5 w-5 sm:w-7 sm:h-7 cursor-pointer' onClick={() => { setShowMenu(!showMenu) }}>
                                 <CustomImage src="/assets/images/x-icon.svg" width={"100%"} height={"100%"} alt="close" />
-                            </div>
+                            </button>
                         </div>
                         <div className="w-min h-full flex items-center" id="navbar-default">
                             <ul className="flex flex-col p-4 mt-4 whitespace-nowrap">
@@ -109,7 +109,7 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
     const image = imgAttribute?.data?.attributes;
 
     return (
-        <div className={`h-full w-full bg-${backgroundColor} group overflow-hidden aspect-square snap-center`}>
+        <div className={`h-full w-full group overflow-hidden aspect-square snap-center`} style={{backgroundColor}}>
             <div className={`h-full w-full p-9`}>
                 {image && <Image url={image.url} alt="proyect" layout="responsive" height={image.height} width={image.height} />}
             </div>

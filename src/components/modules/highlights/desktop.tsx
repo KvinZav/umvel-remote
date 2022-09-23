@@ -31,9 +31,9 @@ const HighlightsDesktop:React.FC<HighlightsDesktopPorps> = ({project,handleNext,
         <section className="w-full h-[400vh]" ref={container}>
             <div className="w-full h-screen bg-primary-black sticky top-0 flex justify-center items-center text-4xl text-primary-white">
                 <p style={{ opacity: topPosition * -1 / 500 < 1 ? topPosition * -1 / 500 : 2 - (topPosition * -1 / 500), display: topPosition * -1 / 500 >= 2 ? 'none' : 'flex' }}>Let us show you some great cases!</p>
-                <div className={`w-full grid grid-cols-4 grid-rows-4 bg-${project.attributes.primaryColor} sticky bottom-0 aspect-square `} style={{ display: topPosition * -1 / 500 <= 2 ? 'none' : 'grid', opacity: (topPosition * -1 / 500) - 2 }}>
+                <div className={`w-full grid grid-cols-4 grid-rows-4 sticky bottom-0 aspect-square `} style={{ display: topPosition * -1 / 500 <= 2 ? 'none' : 'grid', opacity: (topPosition * -1 / 500) - 2, backgroundColor: project.attributes.primaryColor }}>
                     <div className="col-start-1 col-span-1 row-start-2 row-span-1 aspect-square w-full " style={{ transform: `translateY(${positionCase}px)`, transformOrigin: 'top left' }}>
-                        <div className="h-full p-8 bg-secondary-70/50">
+                        <div className="h-full p-8 bg-primary-black bg-opacity-50">
                             <h3 className="text-xl font-bold text-primary-white mb-4">{project.attributes.title}</h3>
                             <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDataOfInterest}</p>
                             <p className="text-sm font-bold text-primary-white mb-4">{project.attributes.portfolioDescription}</p>

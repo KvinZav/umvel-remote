@@ -4,6 +4,7 @@ import { FETCHER } from '@fetcher/clients';
 import { BlockNameEnum } from "@enums/BlockName";
 import useSWR from "swr";
 import BasicButton from "@elements/button";
+import { isColorLight } from "@utils/colorUtils";
 
 const Quotes = (): JSX.Element => {
 
@@ -41,18 +42,20 @@ type SquareQuotesProps = {
 }
 
 const SquareQuotes:React.FC<SquareQuotesProps> = ({title='',subtitle='',description='',color='', primaryColor}):JSX.Element => {
-    const textColor = primaryColor === 'black' ? 'text-primary-black' : 'text-primary-white';
-    
+    const backgroundIsLight = isColorLight(color)    
     return (
-        <article className={`bg-${color} group overflow-hidden h-[50%] sm:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}>
-            <div className={`h-full w-full p-4 sm:p-12 lg:p-8 overflow-ellipsis ${textColor}`}>
+        <article
+            className={`group overflow-hidden h-[50%] sm:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}
+            style={{backgroundColor: color}}
+        >
+            <div className={`h-full w-full p-4 sm:p-12 lg:p-8 overflow-ellipsis ${backgroundIsLight ? 'text-primary-black' : 'text-primary-white'}`}>
                 <p>{description}</p>
                 <h3 className="font-bold mt-4 lg:mb-2">{title}</h3>
                 <h4>{subtitle}</h4>
             </div>
             <div className={'h-1/4 w-auto hidden bg-primary-black bg-opacity-20 lg:flex justify-end items-center px-8 transition ease-in-out duration-700 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '}>
                 <div>
-                    <BasicButton small>View Case</BasicButton>
+                    <BasicButton theme={backgroundIsLight ? "light" : "dark"} small>View Case</BasicButton>
                 </div>
             </div>
         </article>

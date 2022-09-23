@@ -2,11 +2,14 @@ import React from "react";
 import { CardInterface } from "@interfaces/card.interface";
 import BasicButton from '@elements/button'
 import Image from "@elements/image-component/index";
+import { isColorLight } from "@utils/colorUtils";
 
 //eslint-disable-next-line react/display-name
 export const Card = React.memo((props: CardInterface) => {
   
-  const { styles, imageUrl, text, description, showButton, showDescription, descriptionOnly } = props;
+  const { styles, imageUrl, text, description, showButton, descriptionOnly } = props;
+
+  const backgroundIsLight = isColorLight(styles.bg)
   
   return (
     <MainContainer styles={styles} hasDescription={Boolean(description)}>
@@ -17,11 +20,11 @@ export const Card = React.memo((props: CardInterface) => {
           description={description}
           showButton={showButton}
           styles={styles}
+          backgroundIsLight={backgroundIsLight}
         /> :
         <DescriptionComponent
           text={text}
           description={description}
-          styles={styles}
         />}
     </MainContainer>
   );
@@ -70,15 +73,15 @@ const MainContainer = ({children, styles, hasDescription}) => {
 
 const MainGraphic = ({imageUrl}) => <div className="w-1/2 h-1/2 m-auto"><Image url={imageUrl} alt="" height="100%" width="100%" layout="responsive"/></div>
 
-const TitleComponent = ({text, description, showButton, styles}) => {  
+const TitleComponent = ({text, description, showButton, styles, backgroundIsLight}) => {  
   return description ? (
     <div className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 w-full`}>
       <h1
-        className={`transition-colors duration-500 pb-2 font-bold text-primary-black lg:group-hover:text-primary-white`}
+        className={`transition-colors duration-500 pb-2 font-bold ${backgroundIsLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white'}`}
       >
         {text}
       </h1>
-      {showButton && <BasicButton theme="light">View Case</BasicButton>}
+      {showButton && <BasicButton theme={backgroundIsLight ? "light" : "dark"}>View Case</BasicButton>}
       <div className={`transition-[max-height] overflow-hidden duration-1000 max-h-0 lg:group-hover:max-h-[180px]`}>
         <p className="text-primary-white mb-4">{description}</p>
         <BasicButton theme="dark">View Case</BasicButton>
@@ -101,7 +104,7 @@ const TitleComponent = ({text, description, showButton, styles}) => {
   )
 }
 
-export const DescriptionComponent = ({text, description, styles}) => {
+export const DescriptionComponent = ({text, description}) => {
   return(
     <div className={`flex flex-col justify-center transition-[background-color] duration-500 bg-primary-black bg-opacity-50 p-8 w-full h-full`}>
       <h1

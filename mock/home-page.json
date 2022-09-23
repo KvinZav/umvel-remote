@@ -66,7 +66,7 @@
                     {
                         "id": 1,
                         "title": null,
-                        "backgroundColor": "cases-campaign",
+                        "backgroundColor": "#63beb6",
                         "image": null
                     },
                     {
@@ -78,7 +78,7 @@
                     {
                         "id": 3,
                         "title": null,
-                        "backgroundColor": "cases-argo",
+                        "backgroundColor": "#dd6548",
                         "image": null
                     },
                     {
@@ -112,7 +112,7 @@
                     {
                         "id": 5,
                         "title": null,
-                        "backgroundColor": "cases-campaign",
+                        "backgroundColor": "#63beb6",
                         "image": null
                     },
                     {
@@ -489,7 +489,7 @@
                                         "attributes": {
                                             "title": "Prevue leads the virtual tours!",
                                             "caseDescription": "Prevue leads the virtual tours!",
-                                            "primaryColor": "cases-prevue",
+                                            "primaryColor": "#538e82",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:41:14.198Z",
                                             "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -527,7 +527,7 @@
                                         "attributes": {
                                             "title": "Campaign-Centric was created by 17 Umvellers!",
                                             "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
-                                            "primaryColor": "cases-campaign",
+                                            "primaryColor": "#63beb6",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:42:33.448Z",
                                             "updatedAt": "2022-08-19T15:43:20.709Z",
@@ -565,7 +565,7 @@
                                         "attributes": {
                                             "title": "ARGO helps people of all continents!",
                                             "caseDescription": "ARGO helps people of all continents!",
-                                            "primaryColor": "cases-argo",
+                                            "primaryColor": "#dd6548",
                                             "secondaryColor": null,
                                             "createdAt": "2022-08-19T15:43:13.839Z",
                                             "updatedAt": "2022-08-19T15:43:16.728Z",
@@ -673,7 +673,7 @@
                             "hoverClientName": "Economic Cycle Research Institute",
                             "hoverClientHeading": "Economic Cycle Research Institute",
                             "callToAction": null,
-                            "backgroundColor": "cases-ecri"
+                            "backgroundColor": "#0081C6"
                         },
                         {
                             "id": 2,
@@ -719,7 +719,7 @@
                             "hoverClientName": "Wellness",
                             "hoverClientHeading": "Wellness",
                             "callToAction": null,
-                            "backgroundColor": "cases-prevue"
+                            "backgroundColor": "#538e82"
                         },
                         {
                             "id": 7,
