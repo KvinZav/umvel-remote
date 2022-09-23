@@ -69,10 +69,10 @@ const Header = () => {
                                 <CustomImage src="/assets/images/x-icon.svg" width={"100%"} height={"100%"} alt="close" />
                             </div>
                         </div>
-                        <div className="w-min h-full flex items-center" id="navbar-default">
+                        <div className="h-full flex items-center" id="navbar-default">
                             <ul className="flex flex-col p-4 mt-4">
                                 {options && options.map(link =>
-                                    <li key={'link-' + link.id} className={link.type === 'button' ? "border px-2 py-2 mt-4 rounded-full flex justify-center items-center my-2" : 'my-2'}>
+                                    <li key={'link-' + link.id} onClick={()=>{setShowMenu(false)}} className={link.type === 'button' ? "border px-2 py-2 mt-4 rounded-full flex justify-center items-center my-2" : 'my-2'}>
                                         <Link name={link.name} url={link.link} />
                                     </li>
                                 )}
