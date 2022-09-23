@@ -14,13 +14,13 @@
                             "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-viva",
+                            "backgroundColor": "cases-viva-app",
                             "quote": null,
                             "image": {
                                 "data": {
                                     "id": 1,
                                     "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
+                                        "name": "vivaApp_mockup.png",
                                         "alternativeText": "Viva Aerobus Logo.png",
                                         "caption": "Viva Aerobus Logotype.png",
                                         "width": 977,
@@ -30,7 +30,7 @@
                                         "ext": ".svg",
                                         "mime": "image/png",
                                         "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_mockup.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
@@ -39,74 +39,18 @@
                                     }
                                 }
                             }
-                        },
-                        {
+                        },{
                             "id": 2,
-                            "title": "Cancer Buddy",
-                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
-                            "hoverClientName": "Mobile App",
-                            "hoverClientHeading": null,
-                            "callToAction": null,
-                            "backgroundColor": "cases-cancer-buddy",
-                            "image": {
-                                "data": {
-                                    "id": 1,
-                                    "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
-                                        "alternativeText": "Viva Aerobus Logo.png",
-                                        "caption": "Viva Aerobus Logotype.png",
-                                        "width": 977,
-                                        "height": 673,
-                                        "formats": null,
-                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                        "ext": ".svg",
-                                        "mime": "image/png",
-                                        "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "id": 3,
-                            "title": "Miyana",
-                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "title": "Viva Aerobus",
+                            "hoverDescription": "How we helped boost sales, conversion and engagement through Viva Aerobus’ new website.",
                             "hoverClientName": "Website",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-miyana",
-                            "quote": "We deliver what we promise.",
-                            "image": {
-                                "data": {
-                                    "id": 1,
-                                    "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
-                                        "alternativeText": "Viva Aerobus Logo.png",
-                                        "caption": "Viva Aerobus Logotype.png",
-                                        "width": 977,
-                                        "height": 673,
-                                        "formats": null,
-                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                        "ext": ".svg",
-                                        "mime": "image/png",
-                                        "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Dashboard%201.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "id": 4,
+                            "backgroundColor": "cases-viva",
+                            "quote": "We seamlessly deliver business value.",
+                            "image": null
+                        },{
+                            "id": 3,
                             "title": "Planet Buyback",
                             "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
                             "hoverClientName": "Mobile App",
@@ -117,7 +61,7 @@
                                 "data": {
                                     "id": 1,
                                     "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
+                                        "name": "pbb_mockup.png",
                                         "alternativeText": "Viva Aerobus Logo.png",
                                         "caption": "Viva Aerobus Logotype.png",
                                         "width": 977,
@@ -127,7 +71,7 @@
                                         "ext": ".svg",
                                         "mime": "image/png",
                                         "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Group%201271.png",
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_mockup.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
@@ -136,16 +80,46 @@
                                     }
                                 }
                             }
-                        },
-                        {
-                            "id": 5,
-                            "title": "OEIO",
+                        },{
+                            "id": 4,
+                            "title": "Cancer Buddy",
                             "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
                             "hoverClientName": "Mobile App",
                             "hoverClientHeading": null,
                             "callToAction": null,
-                            "backgroundColor": "cases-oeio",
-                            "quote": "We deliver what we promise.",
+                            "backgroundColor": "cases-cancer-buddy",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "cb_mockup.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_mockup.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },{
+                            "id": 5,
+                            "title": "Food Central",
+                            "hoverDescription": "An all-in-one solution for food ordeing and delivery to residents.",
+                            "hoverClientName": "App",
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-food-central",
+                            "quote": "We design, build and run digital platforms.",
                             "image": {
                                 "data": {
                                     "id": 1,
@@ -160,7 +134,7 @@
                                         "ext": ".svg",
                                         "mime": "image/png",
                                         "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_mockup.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
@@ -169,11 +143,106 @@
                                     }
                                 }
                             }
-                        },
-                        {
+                        },{
                             "id": 6,
-                            "title": "Capa",
-                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
+                            "title": "Smart Walk",
+                            "hoverDescription": "View how we translated physical property tours, into digital delight.",
+                            "hoverClientName": "Web platform",
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-smart-walk",
+                            "quote": "",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "sw_mockup.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_mockup.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },{
+                            "id": 7,
+                            "title": "Seguros Mundial",
+                            "hoverDescription": "See how we created a fully digital renter’s insurance platform.",
+                            "hoverClientName": "Web platform",
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-seguros-mundial",
+                            "quote": "We know what it takes, to make your idea real.",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "sm_mockup.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_mockup.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },{
+                            "id": 8,
+                            "title": "OEIO",
+                            "hoverDescription": "The first LATAM wellness marketplace for salon vistors and owners.",
+                            "hoverClientName": "Mobile App",
+                            "hoverClientHeading": null,
+                            "callToAction": null,
+                            "backgroundColor": "cases-oeio",
+                            "quote": "",
+                            "image": {
+                                "data": {
+                                    "id": 1,
+                                    "attributes": {
+                                        "name": "oeio_mockup.png",
+                                        "alternativeText": "Viva Aerobus Logo.png",
+                                        "caption": "Viva Aerobus Logotype.png",
+                                        "width": 977,
+                                        "height": 673,
+                                        "formats": null,
+                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                        "ext": ".svg",
+                                        "mime": "image/png",
+                                        "size": 0.42,
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_mockup.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2022-08-19T15:35:22.751Z",
+                                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                                    }
+                                }
+                            }
+                        },{
+                            "id": 9,
+                            "title": "Arrivia",
+                            "hoverDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                             "hoverClientName": "Website",
                             "hoverClientHeading": null,
                             "callToAction": null,
@@ -182,7 +251,7 @@
                                 "data": {
                                     "id": 1,
                                     "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
+                                        "name": "arrivia_mockup.png",
                                         "alternativeText": "Viva Aerobus Logo.png",
                                         "caption": "Viva Aerobus Logotype.png",
                                         "width": 977,
@@ -192,7 +261,7 @@
                                         "ext": ".svg",
                                         "mime": "image/png",
                                         "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_mockup.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
@@ -201,20 +270,20 @@
                                     }
                                 }
                             }
-                        },
-                        {
-                            "id": 7,
-                            "title": "VISA Consultory App",
-                            "hoverDescription": null,
-                            "hoverClientName": null,
+                        },{
+                            "id": 10,
+                            "title": "Capa",
+                            "hoverDescription": "How we design, build and deployed a fully digital real-estate investment platform.",
+                            "hoverClientName": "Web platform",
                             "hoverClientHeading": null,
                             "callToAction": null,
                             "backgroundColor": "cases-capa",
+                            "quote": "We got plenty of space to put your brand here.",
                             "image": {
                                 "data": {
                                     "id": 1,
                                     "attributes": {
-                                        "name": "Viva Aerobus Logo.png",
+                                        "name": "capa_mockup.png",
                                         "alternativeText": "Viva Aerobus Logo.png",
                                         "caption": "Viva Aerobus Logotype.png",
                                         "width": 977,
@@ -224,7 +293,7 @@
                                         "ext": ".svg",
                                         "mime": "image/png",
                                         "size": 0.42,
-                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_mockup.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,

@@ -29,7 +29,7 @@ const WorkCases: React.FC = (): JSX.Element => {
 
   return (
     <section
-      className="w-full flex overflow-x-clip mb-[104px] lg:mb-[200px]"
+      className="w-full flex overflow-x-clip md:mb-0"
     >
       <div className="flex flex-col min-w-full">
         {
@@ -45,7 +45,9 @@ const WorkCases: React.FC = (): JSX.Element => {
             )
           })
         }
+        <p className="md:hidden text-4xl font-bold max-w-md text-center mb-36">We deliver what we promise.</p>
       </div>
+      
 
       <div className="hidden lg:flex h-screen w-8 px-4 sticky top-0 right-0 flex-col justify-center items-end space-y-10">
         {
@@ -64,7 +66,7 @@ const WorkCases: React.FC = (): JSX.Element => {
           ))
         }
       </div>
-    </section>
+</section>
   )
 }
 
