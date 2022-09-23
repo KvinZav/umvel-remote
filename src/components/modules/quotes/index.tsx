@@ -45,7 +45,7 @@ const SquareQuotes:React.FC<SquareQuotesProps> = ({title='',subtitle='',descript
         <article className={`bg-${color} group overflow-hidden h-[50%] sm:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}>
             <div className={`h-full w-full p-9 ${textColor}`}>
                 <p className="mb-4">{description}</p>
-                <h3 className="font-bold mb-4">{title}</h3>
+                <h3 className="font-bold lg:mb-2 ">{title}</h3>
                 <h4 className="mb-4">{subtitle}</h4>
             </div>
             <div className={'h-1/4 w-auto hidden bg-secondary-70/50 lg:flex justify-end px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '}>
