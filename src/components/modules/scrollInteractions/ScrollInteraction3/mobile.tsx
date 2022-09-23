@@ -16,19 +16,19 @@ const MobileScrollInteraction3 = () => {
   const labels = center.text.split('\n\n')
 
   return(
-    <section className="grid grid-cols-2 items-start mb-[104px] md:mb-[112px] w-full overflow-x-clip">
+    <section className="grid grid-cols-2 items-start mb-[104px] sm:mb-[112px] w-full overflow-x-clip">
       <CustomCard customStyles="flex justify-end items-center p-4">
-        <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">
+        <h1 className="text-[32px] sm:text-[58px] font-bold text-right max-w-xs">
           {left.text}
         </h1>
       </CustomCard>
       <CustomCard customStyles="flex justify-start items-center p-4">
-        <h2 className="text-[32px] md:text-[58px] font-bold text-left max-w-xs">
+        <h2 className="text-[32px] sm:text-[58px] font-bold text-left max-w-xs">
           <br/>
           {right.text.toLowerCase()}
         </h2>
       </CustomCard>
-      <div className="flex flex-col justify-end items-center col-span-2 px-[72px] md:px-36 pt-12 md:pt-4">
+      <div className="flex flex-col justify-end items-center col-span-2 px-[72px] sm:px-36 pt-12 sm:pt-4">
         <ul className="flex flex-1 flex-col justify-end">
           {[...labels, ''].map((i, n) => n < labels.length ? (
               <li
@@ -45,12 +45,12 @@ const MobileScrollInteraction3 = () => {
               key={'scroll3-quote-'+n+''}
             >
               <div
-                className={`flex flex-col-reverse md:flex-row-reverse justify-between items-center self-center w-full`}
+                className={`flex flex-col-reverse sm:flex-row-reverse justify-between items-center self-center w-full`}
               >
-                <div className="min-w-[120px] min-h-[120px] mr-3">
+                <div className="flex justify-center items-center min-w-[120px] min-h-[120px] lg:mr-3">
                   <PrismButton>Our Work</PrismButton>
                 </div>
-                <div className="py-[104px] mr-7 flex justify-center">
+                <div className="py-[104px] sm:mr-7 flex justify-center">
                   <h2 className="font-bold text-xl">
                     We seamlessly deliver business value.
                   </h2>
