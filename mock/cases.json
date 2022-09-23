@@ -120,16 +120,54 @@
                             }
                         }]
                     },
-                    "technicalInformation": {
-                        "title": "Technical Information",
-                        "industry": "Travel",
-                        "year": "2020 - Ongoing",
-                        "country": "Mexico",
-                        "platforms": [
-                            "Android",
-                            "iOS"
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Viva Aerobus"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Travel"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2020-ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Mexico"
+                            }
                         ],
-                        "services": ["Repositories", "Micro-services", "Web development", "Front-end"]
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "Repositories"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Web development"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Micro-services"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Front-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            }
+                        ]
                     },
                     "deliverValue": {
                         "id": 1,
@@ -503,13 +541,54 @@
                             }
                         }]
                     },
-                    "technicalInformation": {
-                        "title": "Technical Information",
-                        "industry": "Travel",
-                        "year": "2020 - Ongoing",
-                        "country": "Mexico",
-                        "platforms": ["Web"],
-                        "services": ["Repositories", "Micro-services", "Web development", "Front-end"]
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Viva Aerobus"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Travel"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2020-ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Mexico"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "Repositories"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Web development"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Micro-services"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Front-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            }
+                        ]
                     },
                     "deliverValue": {
                         "id": 1,
@@ -883,13 +962,58 @@
                             }
                         }]
                     },
-                    "technicalInformation": {
-                        "title": "Technical Information",
-                        "industry": "Sustainability",
-                        "year": "2022",
-                        "country": "Mexico & US",
-                        "platforms": ["Web"],
-                        "services": ["UI/UX Design", "Animation", "Front-end", "Back-end"]
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Viva Aerobus"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Sustainability"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2020-Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Mexico"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "UI/UX Design"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Animation"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Front-end"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Back-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 1,
+                                "name": "iOS"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Android"
+                            }
+                        ]
                     },
                     "deliverValue": {
                         "id": 1,
@@ -1232,13 +1356,54 @@
                             }
                         }]
                     },
-                    "technicalInformation": {
-                        "title": "Technical Information",
-                        "industry": "Health & Wellness",
-                        "year": "2020 - Ongoing",
-                        "country": "Mexico",
-                        "platforms": ["Web"],
-                        "services": ["Repositories", "Micro-services", "Web development", "Front-end"]
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Viva Aerobus"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Health & Wellness"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2020 - Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Mexico"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "Repositories"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Micro-services"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Web development"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Front-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            }
+                        ]
                     },
                     "deliverValue": {
                         "id": 1,
@@ -1437,6 +1602,2503 @@
                     "whatWeLearned": {
                         "title": "What we learned",
                         "content": "We helped to design, build and operate a pioneering food plaza marketplace. This SaaS solution spans native client apps, a versatile admin portal, rich reporting and other useful features. Food Central is now live and can be used in Miyana, CDMX. We learned a tremendous amount about fulfillment, the food logistics industry and building flexible, digital marketplaces.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 5,
+                "attributes": {
+                    "title": "Food Central",
+                    "caseDescription": "",
+                    "primaryColor": "#348181",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "",
+                    "portfolioDescription": "Digital transformation in the food marketplace industry",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "fc_logo.svg",
+                                "alternativeText": "Food Central Logo",
+                                "caption": "Food Central Logo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/svg+xml",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_logo.svg",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "fc_hero_photo.png",
+                                "alternativeText": "Food Central Photo",
+                                "caption": "Food Central Photo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "Food Central is food plaza with unique culinary options, serving to all people in the residential, corporate and commercial spaces inside large Mexican building complex.\nUmvel helped Food Central to develop a digital marketplace that gives its users the ability to order - and get delivered - any products they buy online.",
+                        "callToAction": [],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Food Central"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Food & logistics"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2020 - Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Mexico"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "UI/UX Design"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Animation"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Devops"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Front-end"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Back-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 1,
+                                "name": "iOS"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Android"
+                            }
+                        ]
+                    },
+
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "Enabling providers to instantly digitize their business",
+                                "content": "By the use of a so-called “central table”, the system collects and organizes orders in a central place, making fulfillment more efficient."
+                            },
+                            {
+                                "id": 2,
+                                "title": "All-in-one solution for restaurants",
+                                "content": "Users can pre-order food up to 24 hours before delivery and have a pick-up option if needed. This provides a great customer experience and makes it easy to plan the day ahead in an easy way."
+                            },
+                            {
+                                "id": 3,
+                                "title": "Native iOS and Android experience",
+                                "content": "We have developed both a native iOS and Android experience, making the Food Central intuitive and easy to use."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "Manage performance and places",
+                                "content": "We designed and developed an easy way to register (new) providers in Food Central, view performance reports, manage promotions and customers.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "A native, easy to use app to order food",
+                                "content": "A well designed native order app to browse restaurants, make and track orders and read reviews of all providers.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Versatile SaaS solution",
+                                "content": "Food Central is a SaaS solution that allows new providers and customes to onboard instantly, allowing for platform scalability.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Centralized fulfillment",
+                                "content": "By making the ordering system centralized, couriers and providers have the shortest and most efficient route to their customers.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                        "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "cb_quote_bg.png",
+                                    "alternativeText": "cb_quote_bg.png",
+                                    "caption": "cb_quote_bg.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "We helped to design, build and operate a pioneering food plaza marketplace. This SaaS solution spans native client apps, a versatile admin portal, rich reporting and other useful features. Food Central is now live and can be used in Miyana, CDMX. We learned a tremendous amount about fulfillment, the food logistics industry and building flexible, digital marketplaces.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 6,
+                "attributes": {
+                    "title": "Smart Walk",
+                    "caseDescription": "",
+                    "primaryColor": "#DA3440",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "",
+                    "portfolioDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "sw_logo.png",
+                                "alternativeText": "Smart Walk Logo",
+                                "caption": "Smart Walk Logo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_logo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "sw_hero_photo.png",
+                                "alternativeText": "Smart Walk Photo",
+                                "caption": "Smart Walk Photo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "GGI is an innovative real estate development company, that manages more than 128 real estate properties and 1,500 commercial premises.\nUmvel helped GGI to translate the best practices in physical real estate tours into a truly immersive digital platform, that helps brokers sell properties in digital first way.",
+                        "callToAction": [],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Viva Aerobus Challenge.png",
+                                    "alternativeText": "Viva Aerobus Challenge.png",
+                                    "caption": "Viva Aerobus Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Smart Walk"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Real Estate"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2020 - Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Mexico"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "UI/UX Design"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Animation"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Devops"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Front-end"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Back-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            }
+                        ]
+                    },
+
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "Uptake of 10% in property viewings",
+                                "content": "GGI now has a new way to attract potential buyers who are interested in property and use SmartWalk to get a better impression of the space, before they decide to physically go."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Better relationships between broker and buyer",
+                                "content": "Because of the video and audio layer on top of the 3D tour, the broker can answer questions and provide a voice over while doing the tour."
+                            },
+                            {
+                                "id": 3,
+                                "title": "New way to capture client data",
+                                "content": "Potential buyers can leave their personal data behind when signing up for SmartWalk, captured in a CRM system so that GGI can track its leads better."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "A complete Admin experience",
+                                "content": "Register new brokers, team leaders, and properties in the GGI admin system.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "Broker management tool",
+                                "content": "Centralized access to properties for brokers. Manage upcoming virtual and physical visits in brokers' calendars.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "An immersive experience",
+                                "content": "A unique interactive visit experience, that provides the right assistance for brokers to make an amazing impression on the potential buyer.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Seamless Matterport integration",
+                                "content": "SmartWalk works with any Matterport file. Import a file with a click of a button and off you go.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Real-time tours with video-conferencing",
+                                "content": "During tours, brokers can communicate with buyers through a built-in video conferencing layer.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "title": "Instant switching between properties",
+                                "content": "Often, buyers want to see multiple properties at once. SmartWalk’s instant property switching makes this possible.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                        "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "cb_quote_bg.png",
+                                    "alternativeText": "cb_quote_bg.png",
+                                    "caption": "cb_quote_bg.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "SmartWalk is a disruptive real estate platform, that empowers brokers to strengthen the client relationship. By offering virtual, immersive tools it helps potential buyers to make better decisions.\nWe have learned that a seamless user unboarding, rich ways of interaction and easy ways to capture user data, are key in creating a successful platform experience.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 7,
+                "attributes": {
+                    "title": "Seguros Mundial",
+                    "caseDescription": "",
+                    "primaryColor": "#5B96CD",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "",
+                    "portfolioDescription": "A new digital experiene for both renter’s and owner’s insurance.",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "sm_logo.png",
+                                "alternativeText": "Seguros Mundial Logo",
+                                "caption": "Seguros Mundial Logo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_logo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "sm_hero_photo.png",
+                                "alternativeText": "Seguros Mundial Photo",
+                                "caption": "Seguros Mundial Photo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "Seguros Mundial is a large Colombian insurer. One of their biggest products is renter’s and owner’s insurance.\nWe were asked to digitize the quoting and contracting process, and help them implement a DevOps culture to better operate digital processess. Off we go!",
+                        "callToAction": [
+                            {
+                                "id": 12,
+                                "action": {
+                                    "openUrl": "https://www.segurosmundial.com.co/"
+                                },
+                                "title": "Launch website",
+                                "subtitle": null
+                            }
+                        ],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Seguros Mundial.png",
+                                    "alternativeText": "Seguros Mundial.png",
+                                    "caption": "Seguros Mundial.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Seguros Mundial Challenge.png",
+                                    "alternativeText": "Seguros Mundial Challenge.png",
+                                    "caption": "Seguros Mundial Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Seguros Mundial"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Insurance"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2019 - Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Colombia"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "UI/UX Design"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Devops"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Front-end"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Back-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            },
+                            {
+                                "id": 6,
+                                "name": "Web app"
+                            }
+                        ]
+                    },
+
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "80% more effective operations",
+                                "content": "Thanks to the DevOps implementation we carried out, Seguros Mundial can execute operations with 80% more speed."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Fully digitized insurance process",
+                                "content": "Say goodbye to long paper trails! By digitizing the insurance experience, customers can quote and contract insurance products fully online. That’s a first in Seguros Mundial’s local industry."
+                            },
+                            {
+                                "id": 3,
+                                "title": "Reducing operational costs with 20%",
+                                "content": "Thanks to a fully digital self service platform, the help of a broker is not required anymore. This greatly benefits the customer acquisition process, as operational costs go down while customer volume increases."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "Full DevOps implementation",
+                                "content": "Resulting in an 80% more effective operations by digitizing development and deployment processes.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "Microservices Architecture Deployment",
+                                "content": "Allowing for rapid code deployments and an overall lightweight achitecture.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "A web-based platform",
+                                "content": "The first local player to implement digital renter’s insurance, end-to-end – without using a broker.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Best in class design",
+                                "content": "By using best practices in UX and UI design, we provide a delighful, seamless insurance experience.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
+                        "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "sm_quote_bg.png",
+                                    "alternativeText": "sm_quote_bg.png",
+                                    "caption": "sm_quote_bg.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "We designed, built and deployed new customer success journeys for Seguros Mundial. This made their operations 80% more effective, by offering a fully automated acquisition process, removing the need to work with an insurance broker.\nWe learned a lot about the insurance industry, business processes and rules, and how to turn a paper trail into a best-in-class digital experience.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 8,
+                "attributes": {
+                    "title": "OEIO",
+                    "caseDescription": "",
+                    "primaryColor": "#CBA552",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "",
+                    "portfolioDescription": "The first wellness marketplace in LATAM.",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "oeio_logo.svg",
+                                "alternativeText": "OEIO Logo",
+                                "caption": "OEIO Logo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/svg+xml",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_logo.svg",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "oeio_hero_photo.png",
+                                "alternativeText": "OEIO Photo",
+                                "caption": "OEIO Photo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "OEIO is a sports and wellness marketplace, that helps people achieve the best version of themselves. Easily book a spa treatment, yoga class or crossfit workout, in seconds. Umvel was asked to design, build and operate the entire ecosystem, which is the first marketplace of its kind in LATAM.",
+                        "callToAction": [
+                            {
+                                "id": 12,
+                                "action": {
+                                    "openUrl": "https://oeio.app/"
+                                },
+                                "title": "Launch website",
+                                "subtitle": null
+                            },
+                            {
+                                "id": 13,
+                                "action": {
+                                    "openUrl": "https://oeio.app/"
+                                },
+                                "title": "View launch video",
+                                "subtitle": null
+                            }
+                        ],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "Seguros Mundial.png",
+                                    "alternativeText": "Seguros Mundial.png",
+                                    "caption": "Seguros Mundial.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Seguros Mundial Challenge.png",
+                                    "alternativeText": "Seguros Mundial Challenge.png",
+                                    "caption": "Seguros Mundial Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "OEIO"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Wellness"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2020 - Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "Colombia"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "UI/UX Design"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Devops"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Front-end"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Back-end"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 1,
+                                "name": "iOS"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Android"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            }
+                        ]
+                    },
+
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "A versatile, digital wellness marketplace",
+                                "content": "OEIO offers all tools for customers, salon owners and managers, professionals and OEIO staff to book and manages appointments. All in one ecosystem."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Track and manage business growth",
+                                "content": "We’ve built an easy to use Admin SaaS platform, that serves native OEIO iOS and Android apps. It lets owners manage bookings, track sales, progress and employee performance."
+                            },
+                            {
+                                "id": 3,
+                                "title": "End-to-end digital experience for customers",
+                                "content": "From discovery, to choosing a service, to booking, to payment: users can perform everything in-app, in the palm of their hands."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "An all-in-one solution",
+                                "content": "Find the best places for many fitness and wellness services in your area, in the palm of your hand. Easier, better, faster.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "Reserve in seconds",
+                                "content": "Pick and choose your favorite service, staff, date and hour without having to call or wait in line.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Pay directly in-app",
+                                "content": "The OEIO app generates a QR code, that allows customers to pay in-store, providing for a true end-to-end booking experience.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Track performance and growth",
+                                "content": "Salon owners can easily track how their business performs, by viewing new members, booked services and other KPIs that matter to them.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Manage bookings and reservations",
+                                "content": "Easily manage bookings and reservations, view customer data, which professionals will deliver the service and other information.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": null,
+                        "client": null,
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "oeio_quote_bg.png",
+                                    "alternativeText": "oeio_quote_bg.png",
+                                    "caption": "oeio_quote_bg.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "We helped OEIO to design, build and operate their sports and wellness marketplace, a LATAM first. This SaaS solution spans native apps, a complete admin portal, versatile reporting and other features.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 9,
+                "attributes": {
+                    "title": "Arrivia",
+                    "caseDescription": "",
+                    "primaryColor": "#04A3AC",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "",
+                    "portfolioDescription": "Crafting travel personas for air, cruise and hotel customers.",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "arrivia_logo.svg",
+                                "alternativeText": "Arrivia Logo",
+                                "caption": "Arrivia Logo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/svg+xml",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_logo.svg",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "arrivia_hero_photo.png",
+                                "alternativeText": "Arrivia Photo",
+                                "caption": "Arrivia Photo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "A large, international B2B travel services company (1+ billion revenue) tasked us to define customer segmentations for 7 partner brands, in the domains of air, hotel, timeshares, cruise and car rental.The research conducted spanned qualitative (100+ interviews) and quantitative data (500k+ data points). There was a special focus on loyalty and how members are spending travel points and credits.",
+                        "callToAction": [],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "arrivia_technical_photo.png",
+                                    "alternativeText": "Arrivia",
+                                    "caption": "Arrivia",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_hero_photo.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Arrivia Challenge.png",
+                                    "alternativeText": "Arrivia Challenge.png",
+                                    "caption": "Arrivia Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "Arrivia"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Travel"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2021 - Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "United States"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "UI/UX Design"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Research"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Value proposition design"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Personas"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            },{
+                                "id": 1,
+                                "name": "Mobile"
+                            }
+                        ]
+                    },
+
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "Understanding members and their behavior",
+                                "content": "We helped our client truly understand their members. What drives them? What’s their decision making process? Why do they choose one travel product over another? A total of 34 personas over 7 brands helped to answers these questions."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Actionable personas, backed up by data",
+                                "content": "Next to qualitative research, we conducted quantitative analysis: through 500,000 data points on purchase and loyalty behavior and cross-referenced these with our qualitative hypotheses and insights. This resulted in very rich personas, backed up by data around ROI, CLV and other metrics."
+                            },
+                            {
+                                "id": 3,
+                                "title": "Priorization of better ways to earn and spending loyalty points",
+                                "content": "As a result of our research, we prioritized potential improvements in the digital journey for all products (air, cruise, hotel, car rental). These were mostly centered around better ways to educate people about earning and spending loyalty points, which ultimately is our client’s main revenue driver."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "34 personas across 7 partner brands",
+                                "content": "Per brand, we created 4-5 personas, ranging from ‘first-time travelers’ to ‘power members’.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "Future travel journeys for all personas",
+                                "content": "For each persona, we defined the future travel journey, highlighting key improvements for web and mobile.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Opportunity mapping",
+                                "content": "After aligning business goals with user research, we identified 50 opportunities to improve the travel journeys and stimulate earning and spending of points.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "100+ interviews",
+                                "content": "We conducted over 100 interviews, in Mexico, the United States and Canada, resulting in awesome insights for constructing personas.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Moderated and unmoderated research",
+                                "content": "Apart from moderated interviews, we organized unmoderated usability sessions for a UX audit.",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": null,
+                        "client": null,
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "arrivia_quote_bg.png",
+                                    "alternativeText": "arrivia_quote_bg.png",
+                                    "caption": "arrivia_quote_bg.png",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "We helped our client to better understand the overall member travel experience and how they’d like to earn and spend loyalty points and credits. Aligned with business goals and internal KPIs, we prioritized journey (design) improvements so that our client can offer better travel services. The team learned everything there is to know about travel behavior, decision factors and ways to create more loyal ‘travel fans’.",
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "vivaApp_learned1.png",
+                                    "alternativeText": "Viva Aerobus Learned",
+                                    "caption": "Viva Aerobus Learned",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        },{
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "vivaApp_learned2.png",
+                                    "alternativeText": "Viva Aerobus Learned.png",
+                                    "caption": "Viva Aerobus Learned.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".svg",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "contactForm": {
+                        "id": 1
+                    }
+                }
+            },
+            "meta": {}
+        },{
+            "data": {
+                "id": 10,
+                "attributes": {
+                    "title": "CAPA",
+                    "caseDescription": "",
+                    "primaryColor": "#093998",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T16:08:15.067Z",
+                    "updatedAt": "2022-09-21T22:57:26.199Z",
+                    "publishedAt": "2022-08-19T16:10:38.202Z",
+                    "portfolioTitle": "CAPA Managament",
+                    "portfolioDescription": "A fully digital way to invest in real-estate.",
+                    "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                    "logo": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "capa_logo.svg",
+                                "alternativeText": "CAPA Logo",
+                                "caption": "CAPA Logo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".svg",
+                                "mime": "image/svg+xml",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_logo.svg",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "id": 1,
+                            "attributes": {
+                                "name": "capa_hero_photo.png",
+                                "alternativeText": "CAPA Photo",
+                                "caption": "CAPA Photo",
+                                "width": 977,
+                                "height": 673,
+                                "formats": null,
+                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 0.42,
+                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero_photo.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2022-08-19T15:35:22.751Z",
+                                "updatedAt": "2022-08-19T15:35:22.751Z"
+                            }
+                        }
+                    },
+                    "challenge": {
+                        "id": 1,
+                        "title": "The Challenge",
+                        "content": "CAPA Management is a real-estate investment manager. They help people to invest in properties and property funds in an easy way, reducing the barrier to enter the investment market. Umvel was asked to design, build and deploy a fully digital investment platform, in which clients can easily manage and track their portfolio growth in every possible way.",
+                        "callToAction": [
+                            {
+                                "id": 12,
+                                "action": {
+                                    "openUrl": "https://www.capa.management/"
+                                },
+                                "title": "Launch website",
+                                "subtitle": null
+                            }
+                        ],
+                        "images": [{
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "arrivia_technical_photo.png",
+                                    "alternativeText": "Arrivia",
+                                    "caption": "Arrivia",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_hero_photo.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }, {
+                            "data": {
+                                "id": 2,
+                                "attributes": {
+                                    "name": "Arrivia Challenge.png",
+                                    "alternativeText": "Arrivia Challenge.png",
+                                    "caption": "Arrivia Challenge.png",
+                                    "width": 977,
+                                    "height": 673,
+                                    "formats": null,
+                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 0.42,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }]
+                    },
+                    "technicalInformationGroup": {
+                        "id": 1,
+                        "technicalInformation": [
+                            {
+                                "id": 1,
+                                "title": "Client",
+                                "content": "CAPA"
+                            },
+                            {
+                                "id": 2,
+                                "title": "Industry",
+                                "content": "Finance & Real-estate"
+                            },
+                            {
+                                "id": 3,
+                                "title": "Year",
+                                "content": "2021 - Ongoing"
+                            },
+                            {
+                                "id": 4,
+                                "title": "Country",
+                                "content": "United States"
+                            }
+                        ],
+                        "services": [
+                            {
+                                "id": 1,
+                                "name": "UI/UX Design"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Research"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Value proposition design"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Personas"
+                            }
+                        ],
+                        "platforms": [
+                            {
+                                "id": 5,
+                                "name": "Web"
+                            },{
+                                "id": 1,
+                                "name": "Mobile"
+                            }
+                        ]
+                    },
+
+                    "deliverValue": {
+                        "id": 1,
+                        "title": "Delivered Client Value",
+                        "list": [
+                            {
+                                "id": 1,
+                                "title": "A real-time, digital way to start investing",
+                                "content": "Investors can onboard themselves in a digital way, and start investing the same day. This form of self-service allows them to independently explore the real-estate investment world, without requiring assistance."
+                            },
+                            {
+                                "id": 2,
+                                "title": "Track performance and growth in one place",
+                                "content": "The central dashboard enables investors to keep track of asset and fund performance, ARR, MRR and other important financial metrics - all in one place and in real-time."
+                            },
+                            {
+                                "id": 3,
+                                "title": "Reduction of operational costs and effort",
+                                "content": "The new digital platform allows CAPA to reduce cost por customer acquisition, onboarding and operational costs. By offering a real-time, automated view on portfolio performance, our client avoid drafting lengthy quarterly reports (done by hand)."
+                            }
+                        ]
+                    },
+                    "feature": {
+                        "id": 1,
+                        "title": "Key features",
+                        "keyFeatures": [
+                            {
+                                "id": 1,
+                                "title": "Track all financial metrics for your portfolio ",
+                                "content": "",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Book Icon",
+                                            "alternativeText": "Book Icon",
+                                            "caption": "Book Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/book-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "Track all financial metrics for your portfolio ",
+                                "content": "",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Animation Icon",
+                                            "alternativeText": "Animation Icon",
+                                            "caption": "Animation Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/animation-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Versatile admin tools",
+                                "content": "",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "Speed Icon",
+                                            "alternativeText": "Speed Icon",
+                                            "caption": "Speed Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/speed-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "title": "Automated and real-time information",
+                                "content": "",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Rich, visual information",
+                                "content": "",
+                                "icon": {
+                                    "data": {
+                                        "id": 1,
+                                        "attributes": {
+                                            "name": "No Wifi Icon",
+                                            "alternativeText": "No Wifi Icon",
+                                            "caption": "No Wifi Icon",
+                                            "width": 64,
+                                            "height": 64,
+                                            "formats": null,
+                                            "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                            "ext": ".svg",
+                                            "mime": "image/svg+xml",
+                                            "size": 1,
+                                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/wifi-off-icon.svg",
+                                            "previewUrl": null,
+                                            "provider": "local",
+                                            "provider_metadata": null,
+                                            "createdAt": "2022-08-19T15:35:22.751Z",
+                                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "quote": {
+                        "body": null,
+                        "client": null,
+                        "photo": {
+                            "data": {
+                                "id": 1,
+                                "attributes": {
+                                    "name": "capa_quote_bg.png",
+                                    "alternativeText": "CAPA",
+                                    "caption": "CAPA",
+                                    "width": 64,
+                                    "height": 64,
+                                    "formats": null,
+                                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 1,
+                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_quote_bg.png",
+                                    "previewUrl": null,
+                                    "provider": "local",
+                                    "provider_metadata": null,
+                                    "createdAt": "2022-08-19T15:35:22.751Z",
+                                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                                }
+                            }
+                        }
+                    },
+                    "whatWeLearned": {
+                        "title": "What we learned",
+                        "content": "",
                         "images": [{
                             "data": {
                                 "id": 1,

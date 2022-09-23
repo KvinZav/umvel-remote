@@ -28,7 +28,7 @@ export interface CaseAttributes {
   logo: Logo
   image: Logo
   challenge: ChallengeData
-  technicalInformation: TechnicalInformation
+  technicalInformationGroup: TechnicalInformationGroup
   deliverValue: DeliverValue
   feature: Feature
   quote: Quote
@@ -97,10 +97,24 @@ export interface Action {
 }
 
 export interface TechnicalInformation {
+  id: number
   title: string
-  industry: string
-  year: string
-  country: string
-  platforms: string[],
-  services: string[]
+  content: string
+}
+
+export interface Service {
+  id: number
+  name: string
+}
+
+export interface Platform {
+  id: number
+  name: string
+}
+
+export interface TechnicalInformationGroup {
+  id: number
+  technicalInformation: TechnicalInformation[]
+  services: Service[]
+  platforms: Platform[]
 }

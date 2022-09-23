@@ -24,7 +24,7 @@ const CasesPage = () => {
       <CasesHero
         caseData={caseData}
       />
-      <TechnicalInformation caseData={caseData.technicalInformation} />
+      <TechnicalInformation caseData={caseData} />
       <ContactLayout />
     </>
   )
