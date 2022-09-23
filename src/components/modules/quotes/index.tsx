@@ -3,6 +3,7 @@ import { environment } from "@environments/index";
 import { FETCHER } from '@fetcher/clients';
 import { BlockNameEnum } from "@enums/BlockName";
 import useSWR from "swr";
+import BasicButton from "@elements/button";
 
 const Quotes = (): JSX.Element => {
 
@@ -16,7 +17,7 @@ const Quotes = (): JSX.Element => {
             <section className="h-[180vw] flex flex-col flex-wrap sm:h-[200vw] lg:h-[50vw] snap-x">
                 <article className="bg-primary-white p-[4vw] h-[50%] sm:h-1/4 aspect-square snap-center overflow-hidden lg:h-1/2 lg:w-auto lg:text-2xl">
                     <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">Our projects speak for themselves.</h2>
-                    <p className="text-base">Millions of people used products we’ve built.  And we just got started.</p>
+                    <p className="text-base">{'Millions of people used products we\'ve built.  And we just got started.'}</p>
                 </article>
                 {
                     quote.map((item)=>{
@@ -41,15 +42,18 @@ type SquareQuotesProps = {
 
 const SquareQuotes:React.FC<SquareQuotesProps> = ({title='',subtitle='',description='',color='', primaryColor}):JSX.Element => {
     const textColor = primaryColor === 'black' ? 'text-primary-black' : 'text-primary-white';
+    
     return (
         <article className={`bg-${color} group overflow-hidden h-[50%] sm:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}>
-            <div className={`h-full w-full p-9 ${textColor}`}>
-                <p className="mb-4">{description}</p>
-                <h3 className="font-bold mb-4">{title}</h3>
-                <h4 className="mb-4">{subtitle}</h4>
+            <div className={`h-full w-full p-4 sm:p-12 lg:p-8 overflow-ellipsis ${textColor}`}>
+                <p>{description}</p>
+                <h3 className="font-bold mt-4 lg:mb-2">{title}</h3>
+                <h4>{subtitle}</h4>
             </div>
-            <div className={'h-1/4 w-auto hidden bg-secondary-70/50 lg:flex justify-end px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '}>
-                <button className={`${textColor} border-2 px-4 rounded-full my-auto`}>View Case</button>
+            <div className={'h-1/4 w-auto hidden bg-primary-black bg-opacity-20 lg:flex justify-end items-center px-8 transition ease-in-out duration-700 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '}>
+                <div>
+                    <BasicButton small>View Case</BasicButton>
+                </div>
             </div>
         </article>
     )
