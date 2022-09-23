@@ -10,7 +10,6 @@ import useSWR from 'swr';
 
 const DesktopScrollInteraction3 = () => {
 
-  const isDesktop = useMediaQuery('(min-width: 1024px)');
   const { scrollOffset } = useScrollOffset()
 
   const titleScrollControlRef = useRef<HTMLDivElement>(null)
@@ -49,7 +48,7 @@ const DesktopScrollInteraction3 = () => {
     <section className="grid grid-cols-3 items-start mb-[312px] w-full overflow-x-clip">
       <div className="sticky pt-[200px] top-0">
         <CustomCard customStyles="flex justify-end items-center p-4">
-          <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">
+          <h1 className="text-[32px] sm:text-[58px] font-bold text-right max-w-xs">
             {left.text}
           </h1>
         </CustomCard>
@@ -62,7 +61,7 @@ const DesktopScrollInteraction3 = () => {
         }}
       >
         <CustomCard customStyles="flex justify-start items-center p-4">
-          <h2 className="text-[32px] md:text-[58px] font-bold text-left max-w-xs">
+          <h2 className="text-[32px] sm:text-[58px] font-bold text-left max-w-xs">
             <br/>
             {right.text.toLowerCase()}
           </h2>

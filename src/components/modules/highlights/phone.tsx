@@ -29,8 +29,8 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
                         }
                     </div>
                 </div>
-                <div className="aspect-[3/2] flex justify-center items-center">
-                    <div className="w-1/3">
+                <div className="flex justify-center items-center">
+                    <div className="min-h-[128px] flex justify-center items-center my-[104px]">
                         <PrismButton>View all cases</PrismButton>
                     </div>
                 </div>

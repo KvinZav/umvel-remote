@@ -3,6 +3,7 @@ import WorkCase from "@elements/WorkCase/WorkCase";
 import useSWR from "swr";
 import { environment } from "@environments/index";
 import useScrollOffset from "@hooks/useScrollOffset";
+import smoothscroll from 'smoothscroll-polyfill';
 
 const WorkCases: React.FC = (): JSX.Element => {
 
@@ -20,6 +21,11 @@ const WorkCases: React.FC = (): JSX.Element => {
   const { data: event } = useSWR(environment.OUR_WORK_URL)
   if (!event) return null;
   const cases = event.data.attributes.body[0].cases;
+
+  const handleSmoothScroll = (caseIndex) => {
+    smoothscroll.polyfill();
+    workCaseRefs.current[caseIndex].scrollIntoView({ behavior: 'smooth', block: "center" })    
+  }
 
   return (
     <section
@@ -49,7 +55,7 @@ const WorkCases: React.FC = (): JSX.Element => {
               <div className={`mr-[19px] w-3 h-3 rounded-full ${caseIndex === currentPage ? 'bg-secondary-50' : 'bg-secondary-20'}`} />
               <button
                 className={`absolute flex -top-[160%] right-0 border border-secondary-10 rounded-full py-3 px-4 space-x-4 justify-center items-center opacity-0 group-hover:opacity-100`}
-                onClick={() => workCaseRefs.current[caseIndex].scrollIntoView({ behavior: 'smooth', block: "center" })}
+                onClick={() => handleSmoothScroll(caseIndex)}
               >
                 <span className="whitespace-nowrap origin-right transition-[max-width] duration-1000 max-w-0 group-hover:max-w-[150px] overflow-hidden">{caseItem.title}</span>
                 <div className={`w-4 h-4 bg-${caseItem.backgroundColor}`} />

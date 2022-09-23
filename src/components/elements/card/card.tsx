@@ -39,9 +39,9 @@ const MainContainer = ({children, styles, hasDescription}) => {
   
   return (
     <div
-      className={`overflow-hidden flex ${styles.direction === "col" ? "flex-col" : "flex-col-reverse"} group aspect-square border-solid border bg-${styles.bg}`}
+      className={`aspect-square overflow-clip flex ${styles.direction === "col" ? "flex-col" : "flex-col-reverse"} group aspect-square border-solid border bg-${styles.bg}`}
       style={{
-        borderColor: styles.borderColor || "#e6e6e6",
+        borderColor: !styles.bg ? "#e6e6e6" : "#00000000",
       }}
     >
       <div
@@ -69,7 +69,7 @@ const MainContainer = ({children, styles, hasDescription}) => {
 
 const MainGraphic = ({imageUrl}) => <div className="w-1/2 h-1/2 m-auto"><Image url={imageUrl} alt="" height="100%" width="100%" layout="responsive"/></div>
 
-const TitleComponent = ({text, description, showButton, styles}) => {
+const TitleComponent = ({text, description, showButton, styles}) => {  
   return description ? (
     <div className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 w-full`}>
       <h1
@@ -90,8 +90,8 @@ const TitleComponent = ({text, description, showButton, styles}) => {
         ${styles.textStyles.align === "start" && "text-start"}
         ${styles.textStyles.align === "center" && "text-center"}
         ${styles.textStyles.align === "end" && "text-end"}
-        ${styles.textStyles?.height === 'title' && 'text-[46px] md:text-[78px] lg:text-[98px] font-bold'}
-        ${styles.textStyles?.height === 'subtitle' && 'text-[18px] md:text-4xl lg:text-[38px] font-bold max-w-xs'}
+        ${styles.textStyles?.height === 'title' && 'text-[46px] sm:text-[78px] lg:text-[98px] font-bold'}
+        ${styles.textStyles?.height === 'subtitle' && 'text-[18px] sm:text-4xl lg:text-[38px] font-bold max-w-xs'}
         ${styles.textStyles?.height === 'paragraph' && 'text-base font-bold'}
       `}
     >

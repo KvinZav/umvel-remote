@@ -11,7 +11,7 @@ import { Daum } from "@interfaces/home-data/home.interface";
 
 const CasesHighlights:React.FC = ():JSX.Element => {
     const [project,setProject] = useState<Daum>();
-    const phone= useMediaQuery('(max-width: 640px)');
+    const phone= useMediaQuery('(max-width: 639px)');
     const tablet= useMediaQuery('(max-width: 1024px) and (min-width: 640px)');
     const desktop= useMediaQuery('(min-width: 1024px)');
     const { data: event } = useSWR(environment.HOME_URL)

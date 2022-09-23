@@ -12,7 +12,7 @@ export type CasesHeroProps = {
 
 const CasesHero = (props: CasesHeroProps) => {
 
-  const mobile = useMediaQuery('(max-width: 640px)');
+  const mobile = useMediaQuery('(max-width: 639px)');
   const tablet = useMediaQuery('(max-width: 1024px) and (min-width: 640px)');
   const desktop = useMediaQuery('(min-width: 1024px)');
 

@@ -24,11 +24,11 @@ const ScrollInteraction2 = ({ steps }) => {
   return (
     <section
       ref={mainContainerRef}
-      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[500vh] w-full"
+      className="my-[104px] sm:my-[216px] lg:mt-96 lg:mb-0 lg:h-[500vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
-        <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[30vh]">
-          <div className="lg:flex-1 flex items-end md:items-start md:justify-end mr-4">
+        <div className="flex flex-col sm:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] sm:px-0 lg:pt-[30vh]">
+          <div className="lg:flex-1 flex items-end sm:items-start sm:justify-end mr-4">
             {isDesktop && topPosition < 500 && <div className="grid grid-cols-3 gap-2">
               <div />
               <Block
@@ -72,9 +72,9 @@ const ScrollInteraction2 = ({ steps }) => {
           <div className="lg:flex-1 lg:ml-4">
             <h1 className="font-bold text-[38px] leading-tight max-w-xs mb-6">{steps[0].right.identifier.replace(/\*/g, '')}</h1>
             {/* TODO: Connect to CMS when texts are fixed */}
-            <p className={`text-base leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'}`}>We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
+            <p className={`text-base leading-tight sm:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'}`}>We partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.</p>
             <br />
-            <p className={`text-base leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'}`}>Our approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise.</p>
+            <p className={`text-base leading-tight sm:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'}`}>Our approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise.</p>
           </div>
         </div>
       </div>
