@@ -79,7 +79,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Alexandre Trino",
             "position": "Business & e-Commerce Lead",
@@ -106,7 +107,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Amisadai Rivero",
             "position": "Technical Support Lead",
@@ -133,7 +135,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Evelisce Soloza",
             "position": "Chief Operations Officer",
@@ -160,7 +163,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Fabien Solano",
             "position": "QA Lead",
@@ -187,7 +191,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Frank van de Ven",
             "position": "Chief Strategy Officer",
@@ -214,7 +219,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Izchel Cansino",
             "position": "HR Lead",
@@ -241,7 +247,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Jaime Reixach",
             "position": "Chief Executive Officer",
@@ -268,7 +275,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Jose Fernando Rodriguez",
             "position": "Chief Innovation & Technology Officer",
@@ -295,7 +303,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "José María Sánchez",
             "position": "UI & Visual Design Lead",
@@ -322,7 +331,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Marlen Pacheco",
             "position": "Process Lead",
@@ -349,7 +359,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Miguel Esparza",
             "position": "Marketing & Research Lead",
@@ -376,7 +387,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Miguel Lopez",
             "position": "Marketing & Research Lead",
@@ -403,12 +415,14 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Ricardo Trevizo",
             "position": "UX Lead",
             "photo": null
-          },{
+          },
+          {
             "id": 2,
             "name": "Rodolfo Jiménez",
             "position": "Android Development Lead",
@@ -435,7 +449,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Orlando Sánchez",
             "position": "iOS Development Lead",
@@ -462,7 +477,8 @@
                 }
               }
             }
-          },{
+          },
+          {
             "id": 2,
             "name": "Victor León",
             "position": "Project Management Officer",
