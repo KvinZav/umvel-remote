@@ -25,14 +25,7 @@ const CasesHeroTablet = (props : CasesHeroProps) => {
           }
         </div>
       </div>
-      <div className="aspect-square">
-        <Image
-          width="100%"
-          height="100%"
-          layout="responsive"
-          url={image.data.attributes.url}
-          alt={image.data.attributes.alternativeText}
-        />
+      <div className="aspect-square bg-cover bg-center" style={{backgroundImage: `url(${image.data.attributes.url})`}}>
       </div>
       <div className="relative col-span-1 aspect-square p-12">
         <span className="absolute top-12 left-12">Client</span>

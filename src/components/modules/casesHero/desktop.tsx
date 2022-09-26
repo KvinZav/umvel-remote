@@ -25,21 +25,13 @@ const CasesHeroDesktop = (props : CasesHeroProps) => {
           }
         </div>
       </div>
-      <div className="col-span-1 lg:col-span-2 row-span-2 aspect-square">
-        <Image
-          width="100%"
-          height="100%"
-          layout="responsive"
-          url={image.data.attributes.url}
-          alt={image.data.attributes.alternativeText}
-        />
-      </div>
+      <div className="col-span-1 lg:col-span-2 row-span-2 aspect-square bg-cover bg-center" style={{backgroundImage: `url(${image.data.attributes.url})`}}/>
       <div className="relative col-span-1 aspect-square p-12">
         <span className="absolute top-12 left-12">Client</span>
-        <div className="w-56 m-auto">
+        <div className="w-full h-full p-12">
           <Image
-            width="100%"
-            height="100%"
+            width="50"
+            height="50"
             layout="responsive"
             url={logo.data.attributes.url}
             alt={logo.data.attributes.alternativeText}
