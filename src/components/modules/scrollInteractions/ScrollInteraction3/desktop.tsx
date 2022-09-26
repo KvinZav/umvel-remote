@@ -10,7 +10,6 @@ import useSWR from 'swr';
 
 const DesktopScrollInteraction3 = () => {
 
-  const isDesktop = useMediaQuery('(min-width: 1024px)');
   const { scrollOffset } = useScrollOffset()
 
   const titleScrollControlRef = useRef<HTMLDivElement>(null)

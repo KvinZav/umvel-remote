@@ -3,6 +3,7 @@ import WorkCase from "@elements/WorkCase/WorkCase";
 import useSWR from "swr";
 import { environment } from "@environments/index";
 import useScrollOffset from "@hooks/useScrollOffset";
+import smoothscroll from 'smoothscroll-polyfill';
 
 const WorkCases: React.FC = (): JSX.Element => {
 
@@ -21,9 +22,14 @@ const WorkCases: React.FC = (): JSX.Element => {
   if (!event) return null;
   const cases = event.data.attributes.body[0].cases;
 
+  const handleSmoothScroll = (caseIndex) => {
+    smoothscroll.polyfill();
+    workCaseRefs.current[caseIndex].scrollIntoView({ behavior: 'smooth', block: "center" })    
+  }
+
   return (
     <section
-      className="w-full flex overflow-x-clip mb-[104px] lg:mb-[200px]"
+      className="w-full flex overflow-x-clip md:mb-0"
     >
       <div className="flex flex-col min-w-full">
         {
@@ -39,7 +45,9 @@ const WorkCases: React.FC = (): JSX.Element => {
             )
           })
         }
+        <p className="md:hidden text-4xl font-bold max-w-md text-center mb-36">We deliver what we promise.</p>
       </div>
+      
 
       <div className="hidden lg:flex h-screen w-8 px-4 sticky top-0 right-0 flex-col justify-center items-end space-y-10">
         {
@@ -49,7 +57,7 @@ const WorkCases: React.FC = (): JSX.Element => {
               <div className={`mr-[19px] w-3 h-3 rounded-full ${caseIndex === currentPage ? 'bg-secondary-50' : 'bg-secondary-20'}`} />
               <button
                 className={`absolute flex -top-[160%] right-0 border border-secondary-10 rounded-full py-3 px-4 space-x-4 justify-center items-center opacity-0 group-hover:opacity-100`}
-                onClick={() => workCaseRefs.current[caseIndex].scrollIntoView({ behavior: 'smooth', block: "center" })}
+                onClick={() => handleSmoothScroll(caseIndex)}
               >
                 <span className="whitespace-nowrap origin-right transition-[max-width] duration-1000 max-w-0 group-hover:max-w-[150px] overflow-hidden">{caseItem.title}</span>
                 <div className={`w-4 h-4 bg-${caseItem.backgroundColor}`} />
@@ -58,7 +66,7 @@ const WorkCases: React.FC = (): JSX.Element => {
           ))
         }
       </div>
-    </section>
+</section>
   )
 }
 

@@ -4,6 +4,7 @@ import BasicButton from '@elements/button';
 import { Body } from '@interfaces/home-data/home.interface';
 
 export const FooterMenu = ({data: {socialNetworks, links}}: {data: Body}) => {
+  
   return (
     <section className="p-[15%] lg:p-[10%]">
       <div className="flex flex-col">
@@ -41,7 +42,7 @@ export const FooterMenu = ({data: {socialNetworks, links}}: {data: Body}) => {
             ))}
           </div>
           <div className="flex flex-col md:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
-            <Link href="#">
+            <Link href="privacy-policy">
               <a>Privacy Policy</a>
             </Link>
             <p>© 2022 Umvel Inc.</p>

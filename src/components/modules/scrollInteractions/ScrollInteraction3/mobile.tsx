@@ -47,10 +47,10 @@ const MobileScrollInteraction3 = () => {
               <div
                 className={`flex flex-col-reverse md:flex-row-reverse justify-between items-center self-center w-full`}
               >
-                <div className="min-w-[120px] min-h-[120px] mr-3">
+                <div className="flex justify-center items-center min-w-[120px] min-h-[120px] lg:mr-3">
                   <PrismButton>Our Work</PrismButton>
                 </div>
-                <div className="py-[104px] mr-7 flex justify-center">
+                <div className="py-[104px] md:mr-7 flex justify-center">
                   <h2 className="font-bold text-xl">
                     We seamlessly deliver business value.
                   </h2>

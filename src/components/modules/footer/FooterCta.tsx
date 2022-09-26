@@ -21,10 +21,10 @@ export const FooterCta = ({theme = 'dark'}: {theme?: 'dark' | 'light'}) => {
         <div className={`flex flex-col w-[280px] lg:w-[420px] ${darkTheme ? ' text-primary-white' : ''}`}>
           <h1 className={`text-[26px] md:text-[27px] lg:text-[58px] leading-tight font-bold pb-6 xl:pb-8`}>{left.title}</h1>
           <p className="text-base lg:text-lg leading-tight pb-6 xl:pb-8">{left.subtitle}</p>
-          <BasicButton theme={theme}>Lets Talk!</BasicButton>
+          <BasicButton theme={theme}>{'Let\'s Talk!'}</BasicButton>
         </div>
       </CustomCard>
-      <CustomCard customStyles="relative grid grid-cols-12" borderless>
+      <CustomCard customStyles="relative grid grid-cols-12 h-full" borderless>
         {
           [...new Array(144)].map((_, n) => <div key={n+''} className={`border ${darkTheme ? 'border-[#333]' : 'border-[#ccc]'}`}/>)
         }
