@@ -1,6 +1,7 @@
-export type LogoPorps ={
+export type LogoProps ={
     imgUrl: string,
     alt: string,
     url?: string,
-    caption?: string
+    caption?: string,
+    onClick?: () => any
 } 

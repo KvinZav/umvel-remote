@@ -63,17 +63,23 @@ const Header = () => {
                     <div className='h-full min-w-min w-full flex flex-col items-center p-8'>
                         <div className='w-full flex flex-row justify-between'>
                             <div className='h-6 w-6 md:h-8 md:w-8'>
-                                {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
+                                {logo && <Logo onClick={() => setShowMenu(false)} imgUrl={logo.url} alt={logo.alternativeText} />}
                             </div>
                             <div className='h-5 w-5 md:w-7 md:h-7' onClick={() => { setShowMenu(!showMenu) }}>
                                 <CustomImage src="/assets/images/x-icon.svg" width={"100%"} height={"100%"} alt="close" />
                             </div>
                         </div>
                         <div className="h-full flex items-center" id="navbar-default">
-                            <ul className="flex flex-col p-4 mt-4">
+                            <ul className="flex flex-col p-4 mt-4 whitespace-nowrap">
                                 {options && options.map(link =>
-                                    <li key={'link-' + link.id} onClick={()=>{setShowMenu(false)}} className={link.type === 'button' ? "border px-2 py-2 mt-4 rounded-full flex justify-center items-center my-2" : 'my-2'}>
-                                        <Link name={link.name} url={link.link} />
+                                    link.type === 'button' ?
+                                    <li key={'link-' + link.id} className="-ml-6 py-3">
+                                        <BasicButton>
+                                            <Link onClick={() => setShowMenu(false)} name={link.name} url={link.link} />
+                                        </BasicButton>
+                                    </li> :
+                                    <li key={'link-' + link.id} className="first-line:my-2 py-3">
+                                        <Link onClick={() => setShowMenu(false)} name={link.name} url={link.link} />
                                     </li>
                                 )}
                             </ul>
