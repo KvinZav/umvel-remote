@@ -117,4 +117,5 @@ export interface TechnicalInformationGroup {
   technicalInformation: TechnicalInformation[]
   services: Service[]
   platforms: Platform[]
+  image: Logo
 }

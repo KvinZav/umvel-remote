@@ -12,15 +12,7 @@ const CasesHeroMobile = (props : CasesHeroProps) => {
       <div
         className="grid grid-cols-2"
       >
-        <div className="col-span-1 aspect-square">
-          <Image
-            width="100%"
-            height="100%"
-            layout="responsive"
-            url={image.data.attributes.url}
-            alt={image.data.attributes.alternativeText}
-          />
-        </div>
+        <div className="col-span-1 aspect-square bg-cover bg-center" style={{backgroundImage: `url(${image.data.attributes.url})`}}/>
         <div className={`relative col-span-1 aspect-square`} style={{ backgroundColor: primaryColor }}>
           <div className="absolute w-full h-full bg-primary-black opacity-20" />
           <Image
