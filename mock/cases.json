@@ -199,17 +199,20 @@
                             {
                                 "id": 1,
                                 "title": "A truly native experience",
-                                "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience."
+                                "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Increased Conversions",
-                                "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time."
+                                "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "Rapid Deployment",
-                                "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n"
+                                "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -643,17 +646,20 @@
                             {
                                 "id": 1,
                                 "title": "A truly native experience",
-                                "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience."
+                                "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Increased Conversions",
-                                "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time."
+                                "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "Rapid Deployment",
-                                "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n"
+                                "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -1091,17 +1097,20 @@
                             {
                                 "id": 1,
                                 "title": "An new project dashboard experience",
-                                "content": "The donation dashboard provides a consistent, visual design in line with Planet Buyback's brand guidelines. It informs and attracts new users to donate in a simple and effective way."
+                                "content": "The donation dashboard provides a consistent, visual design in line with Planet Buyback's brand guidelines. It informs and attracts new users to donate in a simple and effective way.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Enticing data visualization",
-                                "content": "We kept a close relationship between textual and visual storytelling in order to match content, with form. Images, icons, and animations support and reinforce the main value proposition."
+                                "content": "We kept a close relationship between textual and visual storytelling in order to match content, with form. Images, icons, and animations support and reinforce the main value proposition.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "Brand new interface design ",
-                                "content": "The new interface design followed from a market study and an overall brand revamp; this defined the desired modifications in terms of forms, composition, hierarchy, and components."
+                                "content": "The new interface design followed from a market study and an overall brand revamp; this defined the desired modifications in terms of forms, composition, hierarchy, and components.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -1504,17 +1513,20 @@
                             {
                                 "id": 1,
                                 "title": "A hybrid mobile app",
-                                "content": "Cancerbuddy is built on a serverless framework; it's a hybrid app making it easy to scale to other platforms. We used the React Native framework, allowing us to easily build the app for iOS, Android and web, all with one codebase."
+                                "content": "Cancerbuddy is built on a serverless framework; it's a hybrid app making it easy to scale to other platforms. We used the React Native framework, allowing us to easily build the app for iOS, Android and web, all with one codebase.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "A fast and seamless experience",
-                                "content": "We used Amplify (an AWS service). This allows for fast and effective coding. It provides easy Authentication, data and API integration and the tools to help us authenticate users, connect services, build databases and web services, resulting in a fast and seamless end user experience."
+                                "content": "We used Amplify (an AWS service). This allows for fast and effective coding. It provides easy Authentication, data and API integration and the tools to help us authenticate users, connect services, build databases and web services, resulting in a fast and seamless end user experience.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "A world's first",
-                                "content": "It's not everyday that we can work on an app that truly changes lives. Cancerbuddy is the world’s first cancer patient and survivor network and offers people that are affected by this disease a way to feel less isolated and supported by others."
+                                "content": "It's not everyday that we can work on an app that truly changes lives. Cancerbuddy is the world’s first cancer patient and survivor network and offers people that are affected by this disease a way to feel less isolated and supported by others.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -1945,17 +1957,20 @@
                             {
                                 "id": 1,
                                 "title": "Enabling providers to instantly digitize their business",
-                                "content": "By the use of a so-called “central table”, the system collects and organizes orders in a central place, making fulfillment more efficient."
+                                "content": "By the use of a so-called “central table”, the system collects and organizes orders in a central place, making fulfillment more efficient.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "All-in-one solution for restaurants",
-                                "content": "Users can pre-order food up to 24 hours before delivery and have a pick-up option if needed. This provides a great customer experience and makes it easy to plan the day ahead in an easy way."
+                                "content": "Users can pre-order food up to 24 hours before delivery and have a pick-up option if needed. This provides a great customer experience and makes it easy to plan the day ahead in an easy way.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "Native iOS and Android experience",
-                                "content": "We have developed both a native iOS and Android experience, making the Food Central intuitive and easy to use."
+                                "content": "We have developed both a native iOS and Android experience, making the Food Central intuitive and easy to use.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -2381,17 +2396,20 @@
                             {
                                 "id": 1,
                                 "title": "Uptake of 10% in property viewings",
-                                "content": "GGI now has a new way to attract potential buyers who are interested in property and use SmartWalk to get a better impression of the space, before they decide to physically go."
+                                "content": "GGI now has a new way to attract potential buyers who are interested in property and use SmartWalk to get a better impression of the space, before they decide to physically go.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Better relationships between broker and buyer",
-                                "content": "Because of the video and audio layer on top of the 3D tour, the broker can answer questions and provide a voice over while doing the tour."
+                                "content": "Because of the video and audio layer on top of the 3D tour, the broker can answer questions and provide a voice over while doing the tour.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "New way to capture client data",
-                                "content": "Potential buyers can leave their personal data behind when signing up for SmartWalk, captured in a CRM system so that GGI can track its leads better."
+                                "content": "Potential buyers can leave their personal data behind when signing up for SmartWalk, captured in a CRM system so that GGI can track its leads better.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -2855,17 +2873,20 @@
                             {
                                 "id": 1,
                                 "title": "80% more effective operations",
-                                "content": "Thanks to the DevOps implementation we carried out, Seguros Mundial can execute operations with 80% more speed."
+                                "content": "Thanks to the DevOps implementation we carried out, Seguros Mundial can execute operations with 80% more speed.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Fully digitized insurance process",
-                                "content": "Say goodbye to long paper trails! By digitizing the insurance experience, customers can quote and contract insurance products fully online. That’s a first in Seguros Mundial’s local industry."
+                                "content": "Say goodbye to long paper trails! By digitizing the insurance experience, customers can quote and contract insurance products fully online. That’s a first in Seguros Mundial’s local industry.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "Reducing operational costs with 20%",
-                                "content": "Thanks to a fully digital self service platform, the help of a broker is not required anymore. This greatly benefits the customer acquisition process, as operational costs go down while customer volume increases."
+                                "content": "Thanks to a fully digital self service platform, the help of a broker is not required anymore. This greatly benefits the customer acquisition process, as operational costs go down while customer volume increases.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -3312,17 +3333,20 @@
                             {
                                 "id": 1,
                                 "title": "A versatile, digital wellness marketplace",
-                                "content": "OEIO offers all tools for customers, salon owners and managers, professionals and OEIO staff to book and manages appointments. All in one ecosystem."
+                                "content": "OEIO offers all tools for customers, salon owners and managers, professionals and OEIO staff to book and manages appointments. All in one ecosystem.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Track and manage business growth",
-                                "content": "We’ve built an easy to use Admin SaaS platform, that serves native OEIO iOS and Android apps. It lets owners manage bookings, track sales, progress and employee performance."
+                                "content": "We’ve built an easy to use Admin SaaS platform, that serves native OEIO iOS and Android apps. It lets owners manage bookings, track sales, progress and employee performance.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "End-to-end digital experience for customers",
-                                "content": "From discovery, to choosing a service, to booking, to payment: users can perform everything in-app, in the palm of their hands."
+                                "content": "From discovery, to choosing a service, to booking, to payment: users can perform everything in-app, in the palm of their hands.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -3748,17 +3772,20 @@
                             {
                                 "id": 1,
                                 "title": "Understanding members and their behavior",
-                                "content": "We helped our client truly understand their members. What drives them? What’s their decision making process? Why do they choose one travel product over another? A total of 34 personas over 7 brands helped to answers these questions."
+                                "content": "We helped our client truly understand their members. What drives them? What’s their decision making process? Why do they choose one travel product over another? A total of 34 personas over 7 brands helped to answers these questions.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Actionable personas, backed up by data",
-                                "content": "Next to qualitative research, we conducted quantitative analysis: through 500,000 data points on purchase and loyalty behavior and cross-referenced these with our qualitative hypotheses and insights. This resulted in very rich personas, backed up by data around ROI, CLV and other metrics."
+                                "content": "Next to qualitative research, we conducted quantitative analysis: through 500,000 data points on purchase and loyalty behavior and cross-referenced these with our qualitative hypotheses and insights. This resulted in very rich personas, backed up by data around ROI, CLV and other metrics.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "Priorization of better ways to earn and spending loyalty points",
-                                "content": "As a result of our research, we prioritized potential improvements in the digital journey for all products (air, cruise, hotel, car rental). These were mostly centered around better ways to educate people about earning and spending loyalty points, which ultimately is our client’s main revenue driver."
+                                "content": "As a result of our research, we prioritized potential improvements in the digital journey for all products (air, cruise, hotel, car rental). These were mostly centered around better ways to educate people about earning and spending loyalty points, which ultimately is our client’s main revenue driver.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
@@ -4192,17 +4219,20 @@
                             {
                                 "id": 1,
                                 "title": "A real-time, digital way to start investing",
-                                "content": "Investors can onboard themselves in a digital way, and start investing the same day. This form of self-service allows them to independently explore the real-estate investment world, without requiring assistance."
+                                "content": "Investors can onboard themselves in a digital way, and start investing the same day. This form of self-service allows them to independently explore the real-estate investment world, without requiring assistance.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
                             },
                             {
                                 "id": 2,
                                 "title": "Track performance and growth in one place",
-                                "content": "The central dashboard enables investors to keep track of asset and fund performance, ARR, MRR and other important financial metrics - all in one place and in real-time."
+                                "content": "The central dashboard enables investors to keep track of asset and fund performance, ARR, MRR and other important financial metrics - all in one place and in real-time.",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
                             },
                             {
                                 "id": 3,
                                 "title": "Reduction of operational costs and effort",
-                                "content": "The new digital platform allows CAPA to reduce cost por customer acquisition, onboarding and operational costs. By offering a real-time, automated view on portfolio performance, our client avoid drafting lengthy quarterly reports (done by hand)."
+                                "content": "The new digital platform allows CAPA to reduce cost por customer acquisition, onboarding and operational costs. By offering a real-time, automated view on portfolio performance, our client avoid drafting lengthy quarterly reports (done by hand).",
+                                "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
                             }
                         ]
                     },
