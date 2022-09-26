@@ -75,6 +75,7 @@ export interface Value {
   id: number
   title: string
   content: string
+  image?: string;
 }
 
 export interface ChallengeData {

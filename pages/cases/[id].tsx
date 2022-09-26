@@ -7,6 +7,7 @@ import React from 'react';
 import useSWR from 'swr';
 import ContactLayout from '@layouts/ContactLayout';
 import CasesHero from '@modules/casesHero';
+import { DeliveredValue } from '@modules/deliveredValue';
 
 const CasesPage = () => {
   
@@ -25,6 +26,7 @@ const CasesPage = () => {
         caseData={caseData}
       />
       <TechnicalInformation caseData={caseData} />
+      <DeliveredValue data={caseData.deliverValue} primaryColor={caseData.primaryColor}/>
       <ContactLayout />
     </>
   )
