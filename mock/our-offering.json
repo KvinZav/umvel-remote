@@ -1,0 +1,68 @@
+{
+    "data": {
+        "offer": [
+            {
+                "id": 1,
+                "icon": "Search",
+                "description": "Define service, user and technology needs"
+            },
+            {
+                "id": 2,
+                "icon": "People",
+                "description": "System, product and experience design"
+            },
+            {
+                "id": 3,
+                "icon": "Rocket",
+                "description": "Continuous platform innovation"
+            },
+            {
+                "id": 4,
+                "icon": "Devices",
+                "description": "Software engineering"
+            },
+            {
+                "id": 5,
+                "icon": "Lock",
+                "description": "Testing, platform security and compliance"
+            },
+            {
+                "id": 6,
+                "icon": "Support",
+                "description": "DevOps, support and maintenace"
+            },
+            {
+                "id": 7,
+                "icon": "Insights",
+                "description": "Plantform growth and tech strategy"
+            }
+        ],
+        "services": [
+            {
+                "id": 1,
+                "text": "Create a new business or venture",
+                "items": [1,2,3,4,5,6,7]
+            },
+            {
+                "id": 2,
+                "text": "Define value proposition, brand or target customer",
+                "items": [1,7,2]
+            },
+            {
+                "id": 3,
+                "text": "Design and develop new digital platforms",
+                "items": [1,7,2,4,5]
+            },
+            {
+                "id": 4,
+                "text": "Optimize software development and IT operations",
+                "items": [7,5,6]
+            },
+            {
+                "id": 5,
+                "text": "Modernize and overhaul existing platform technology",
+                "items": [7,4,5,6,3]
+            }
+        ]
+    }
+}

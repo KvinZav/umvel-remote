@@ -5,5 +5,6 @@ export const environment = {
   HOME_URL: `/api/home`,
   OUR_WORK_URL: `/api/our-work`,
   CASES_URL: `/api/cases`,
-  ABOUT_US: `/api/about-us`
+  ABOUT_US: `/api/about-us`,
+  OUR_OFFER_URL: `/api/our-offer`,
 };
