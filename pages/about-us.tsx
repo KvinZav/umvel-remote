@@ -33,9 +33,6 @@ export default function AboutUs() {
           data={data?.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
         />
         <ReadyToTake />
-        <FooterMenu
-          data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.menu)}
-        />
       </div>
     )
   );
