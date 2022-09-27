@@ -45,12 +45,12 @@ interface Philosophy {
   bulletPoints: PhilosophyBulletPoint[]
 }
 
-interface PhilosophyBulletPoint {
+export interface PhilosophyBulletPoint {
   id: number
   body: string
 }
 
-interface AboutUsHeader {
+export interface AboutUsHeader {
   id: number
   title: string
   subtitle: string
