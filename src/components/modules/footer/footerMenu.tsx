@@ -1,9 +1,20 @@
-import Link from "next/link";
-import CustomImage from "@elements/image-component/CustomImage";
-import BasicButton from "@elements/button";
-import { Body } from "@interfaces/home-data/home.interface";
+import Link from 'next/link';
+import CustomImage from '@elements/image-component/CustomImage';
+import BasicButton from '@elements/button';
+import useSWR from 'swr';
+import { environment } from '@environments/index';
+import { get } from '@fetcher/get';
+import { FETCHER } from '@fetcher/clients';
+import { BlockNameEnum } from '@enums/BlockName';
 
-export const FooterMenu = ({ data: { socialNetworks, links } }: { data: Body }) => {
+export const FooterMenu = () => {
+  const { data: event } = useSWR(environment.HOME_URL, get, {
+    revalidateOnFocus: false
+  });
+  if (!event) return null;
+
+  const {socialNetworks,links} = FETCHER(event, BlockNameEnum.menu);
+  
   return (
     <section className="p-[15%] lg:p-[10%]">
       <div className="flex flex-col">
