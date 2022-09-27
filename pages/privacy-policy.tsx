@@ -1,10 +1,8 @@
 import { environment } from "@environments/index";
 import useSWR from "swr";
 import { get } from "@fetcher/get";
-import { BlockNameEnum } from "@enums/BlockName";
 import useScrollOffset from "@hooks/useScrollOffset";
 import { useEffect } from "react";
-import { FooterMenu } from "@modules/footer";
 import { PrivacyPolicy } from '@elements/PrivacyPolicy/PrivacyPolicy';
 
 export default function OurWork() {
@@ -27,9 +25,6 @@ export default function OurWork() {
     data && (
       <>
         <PrivacyPolicy theme="light" />
-        <FooterMenu
-          data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.menu)}
-        />
       </>
     )
   );

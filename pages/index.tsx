@@ -5,7 +5,7 @@ import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
 import Hero from '@modules/hero';
-import { FooterMenu, FooterTeam, FooterCta } from '@modules/footer';
+import { FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
 import MainMenuHighlights from '@modules/mainMenu/Highlights';

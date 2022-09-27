@@ -6,7 +6,7 @@ import { OurWorkHeader } from '@modules/pageHeader';
 import { BlockNameEnum } from '@enums/BlockName';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect } from 'react';
-import { FooterMenu, FooterCta } from '@modules/footer';
+import { FooterCta } from '@modules/footer';
 
 export default function OurWork() {
 
@@ -31,8 +31,6 @@ export default function OurWork() {
           .find((item) => item.__component === BlockNameEnum.pageHeader)}/>
       <WorkCases />
       <FooterCta/>
-      <FooterMenu data={data.data.attributes.body
-          .find((item) => item.__component === BlockNameEnum.menu)}/>
     </>
   );
 }
