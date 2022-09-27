@@ -5,6 +5,7 @@ import { environment } from "@environments/index";
 import { get } from "@fetcher/get";
 import useSWR from "swr";
 import CustomImage from "@elements/image-component/CustomImage";
+import { AboutUsHeader } from "@interfaces/about-us-data/about-us.interface";
 
 const configNames = [
   { size: Sizes.LG, rows: 7, columns: 7 },
@@ -13,7 +14,7 @@ const configNames = [
 ];
 
 export const HeaderAboutUs = ({ data }) => {
-  const infoAboutUs: any = useSWR(environment.ABOUT_US, get, {
+  const infoAboutUs = useSWR(environment.ABOUT_US, get, {
     revalidateOnFocus: false,
   });
 
@@ -27,7 +28,7 @@ export const HeaderAboutUs = ({ data }) => {
     <div>
       <CardTeam
         config={configNames}
-        className="relative border border-secondary-10 border-solid md:block w-[100%] h-[42rem] p-[2vw]"
+        className="relative md:block w-[100%] h-[42rem] p-[2vw]"
         names={data.names}
       >
         <div
@@ -49,7 +50,7 @@ export const HeaderAboutUs = ({ data }) => {
         </div>
 
         <div className="absolute bottom-[12%] w-[96%] flex justify-between px-[8%] flex-wrap">
-          {header?.highlightText.map((item: any, index: number) => {
+          {header?.highlightText.map((item: AboutUsHeader, index: number) => {
             return (
               <div
                 key={"indicator-" + index}

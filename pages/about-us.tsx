@@ -7,6 +7,7 @@ import { FooterMenu } from "@modules/footer";
 import { BlockNameEnum } from "@enums/BlockName";
 import { HomeDataInterface } from "@interfaces/home-data/home.interface";
 import { HeaderAboutUs } from "@modules/aboutUs/HeaderAboutUs";
+import { ReadyToTake } from '@modules/aboutUs/ReadyToTake';
 
 export default function AboutUs() {
   const isBrowser = typeof window !== "undefined";
@@ -31,6 +32,7 @@ export default function AboutUs() {
         <HeaderAboutUs
           data={data?.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
         />
+        <ReadyToTake />
         <FooterMenu
           data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.menu)}
         />
