@@ -9,18 +9,20 @@
         "id": 1,
         "title": "We are Umvel",
         "subtitle": "Umvel is an integral team of 150+ engineers, researchers, strategists and designers.",
-        "highlightText": [
-          {
+        "highlightText": [{
             "id": 1,
-            "title": "100+ Umvellers"
+            "title": "100+",
+            "subtitle": "Umvellers"
           },
           {
             "id": 2,
-            "title": "3 Continents"
+            "title": "3",
+            "subtitle": "Continents"
           },
           {
             "id": 3,
-            "title": "100% Growth"
+            "title": "100%",
+            "subtitle": "Growth"
           }
         ]
       },
@@ -31,8 +33,7 @@
         "philosophy": {
           "title": "Our philosophy",
           "body": "“We are fearless, take ownership of what we do and help each other to push boundaries.”",
-          "bulletPoints": [
-            {
+          "bulletPoints": [{
               "id": 1,
               "body": "We’re confident about what we do"
             },
@@ -51,8 +52,7 @@
         "id": 3,
         "title": "Umvel leadership team",
         "subtitle": "Meet our passionate leadership team",
-        "teamMembers": [
-          {
+        "teamMembers": [{
             "id": 1,
             "name": "Alberto Yael Vazquez",
             "position": "SysAdmin/DevOps Lead",
