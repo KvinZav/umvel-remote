@@ -8,6 +8,7 @@ import useSWR from 'swr';
 import ContactLayout from '@layouts/ContactLayout';
 import CasesHero from '@modules/casesHero';
 import { DeliveredValue } from '@modules/deliveredValue';
+import { KeyFeatures } from '@modules/keyFeatures';
 
 const CasesPage = () => {
   
@@ -27,6 +28,7 @@ const CasesPage = () => {
       />
       <TechnicalInformation caseData={caseData} />
       <DeliveredValue data={caseData.deliverValue} primaryColor={caseData.primaryColor}/>
+      <KeyFeatures data={caseData.feature}/>
       <ContactLayout />
     </>
   )
