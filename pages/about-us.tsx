@@ -6,8 +6,6 @@ import { useEffect } from "react";
 import { FooterMenu } from "@modules/footer";
 import { BlockNameEnum } from "@enums/BlockName";
 import { HomeDataInterface } from "@interfaces/home-data/home.interface";
-import { Sizes } from "@enums/sizes.enum";
-import { CardTeam } from "@elements/card";
 import { HeaderAboutUs } from "@modules/aboutUs/HeaderAboutUs";
 
 export default function AboutUs() {
