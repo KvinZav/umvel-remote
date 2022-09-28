@@ -9,12 +9,12 @@ import { BlockNameEnum } from '@enums/BlockName';
 
 export const FooterMenu = () => {
   const { data: event } = useSWR(environment.HOME_URL, get, {
-    revalidateOnFocus: false
+    revalidateOnFocus: false,
   });
   if (!event) return null;
 
-  const {socialNetworks,links} = FETCHER(event, BlockNameEnum.menu);
-  
+  const { socialNetworks, links } = FETCHER(event, BlockNameEnum.menu);
+
   return (
     <section className="p-[15%] lg:p-[10%]">
       <div className="flex flex-col">
@@ -30,7 +30,7 @@ export const FooterMenu = () => {
           <div className="flex flex-col lg:flex-row">
             <div className="flex lg:items-center flex-col lg:flex-row my-6 lg:m-0">
               {links.map((menuItem, index) => (
-                <Link href={menuItem.link} key={`menu-item-footer-${index}`}>
+                <Link href={`/${menuItem.link}`} key={`menu-item-footer-${index}`}>
                   <a className="text-base leading-tight py-4 lg:px-6">{menuItem.name}</a>
                 </Link>
               ))}
