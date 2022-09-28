@@ -1,10 +1,9 @@
-import Link from 'next/link';
-import CustomImage from '@elements/image-component/CustomImage';
-import BasicButton from '@elements/button';
-import { Body } from '@interfaces/home-data/home.interface';
+import Link from "next/link";
+import CustomImage from "@elements/image-component/CustomImage";
+import BasicButton from "@elements/button";
+import { Body } from "@interfaces/home-data/home.interface";
 
-export const FooterMenu = ({data: {socialNetworks, links}}: {data: Body}) => {
-  
+export const FooterMenu = ({ data: { socialNetworks, links } }: { data: Body }) => {
   return (
     <section className="p-[15%] lg:p-[10%]">
       <div className="flex flex-col">
@@ -26,19 +25,23 @@ export const FooterMenu = ({data: {socialNetworks, links}}: {data: Body}) => {
               ))}
             </div>
             <div className="lg:px-4">
-              <BasicButton onClick={() => {}}>
-                {"Let's Talk"}
-              </BasicButton>
+              <BasicButton onClick={() => {}}>{"Let's Talk"}</BasicButton>
             </div>
           </div>
         </div>
-        <hr className="text-[#E6E6E6] hidden lg:block mb-8"/>
+        <hr className="text-[#E6E6E6] hidden lg:block mb-8" />
         <div className="flex justify-between flex-col lg:flex-row">
           <div className="flex gap-8 flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
             {socialNetworks.map((socialNetwork, index) => (
-              <Link href={socialNetwork.link} key={`menu-item-footer-${index}`}>
-                <a className="text-base leading-tight">{socialNetwork.name}</a>
-              </Link>
+              <a
+                className="text-base leading-tight"
+                key={`menu-item-footer-${index}`}
+                href={socialNetwork.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {socialNetwork.name}
+              </a>
             ))}
           </div>
           <div className="flex flex-col md:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
@@ -51,4 +54,4 @@ export const FooterMenu = ({data: {socialNetworks, links}}: {data: Body}) => {
       </div>
     </section>
   );
-}
+};
