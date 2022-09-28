@@ -7,6 +7,7 @@ import { BlockNameEnum } from '@enums/BlockName';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect } from 'react';
 import { FooterCta } from '@modules/footer';
+import Head from 'next/head';
 
 export default function OurWork() {
 
@@ -27,6 +28,11 @@ export default function OurWork() {
 
   return data && (
     <>
+      <Head>
+        <title>Digital experiences we have brought to life</title>
+        <meta name='keywords' content='Case studies, UX research, design'/>
+        <meta name='description' content='Umvel has worked for over 50 clients, across 6 countries, and more than USD $500 million has been transacted on platforms we’ve built.'/>
+      </Head>
       <OurWorkHeader data={data.data.attributes.body
           .find((item) => item.__component === BlockNameEnum.pageHeader)}/>
       <WorkCases />
