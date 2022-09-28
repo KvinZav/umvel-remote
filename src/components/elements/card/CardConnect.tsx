@@ -1,4 +1,5 @@
 import CustomImage from "@elements/image-component/CustomImage";
+import { Position } from "@enums/position.enum";
 import { useIsSizeScreen } from "@hooks/useIsSizeScreen";
 import {
   CardConnectComponent,
@@ -45,6 +46,25 @@ const configByPosition: positionConfiguration = {
   },
 };
 
+const changeBorderColor = (position: Position) => {
+  let borderClass = '';
+  switch(position) {
+    case Position.bottom:
+      borderClass = 'border-b-transparent';
+      break;
+    case Position.left:
+      borderClass = 'border-l-transparent';
+      break;
+    case Position.right:
+      borderClass = 'border-r-transparent';
+      break;
+    case Position.top:
+      borderClass = 'border-t-transparent';
+      break;
+  }
+  return borderClass;
+}
+
 export const CardConnect = ({
   config,
   alignDefault,
@@ -54,6 +74,7 @@ export const CardConnect = ({
 }: CardConnectComponent) => {
   const { currentScreen } = useIsSizeScreen();
   const [configConnector, setConfigConnector] = useState<ConnectorConfiguration>(null);
+  const [borderClass, setBorderClass] = useState<string>('');
 
   useEffect(() => {
     const currentConfig = config.find((configItem) => configItem.size === currentScreen);
@@ -62,17 +83,19 @@ export const CardConnect = ({
       setConfigConnector({
         ...configByPosition[`${currentConfig.align}`],
       });
+      setBorderClass(changeBorderColor(currentConfig.align));
     } else if (!!alignDefault) {
       setConfigConnector({
         ...configByPosition[`${alignDefault}`],
       });
+      setBorderClass(changeBorderColor(alignDefault));
     } else {
       setConfigConnector(null);
     }
   }, [config, currentScreen, alignDefault]);
 
   return (
-    <div className={`relative ${className}`} style={style}>
+    <div className={`relative ${className} ${borderClass}`} style={style}>
       {!!configConnector && (
         <div
           className={`absolute flex w-full h-full ${configConnector.className}`}
