@@ -10,6 +10,7 @@ import BasicButton from "@elements/button";
 import { get } from "@fetcher/get";
 import Image from "@elements/image-component";
 import { BlockNameEnum } from "@enums/BlockName";
+import Tooltip from "@elements/tooltip/tooltip";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -28,8 +29,6 @@ const Header = () => {
   const { socialNetworks } = event.data.attributes.body.find(
     (item) => item.__component === BlockNameEnum.menu
   );
-
-  console.log(event.data.attributes.body);
 
   return (
     <>
@@ -151,15 +150,18 @@ const Header = () => {
               </div>
               <div className="w-full text-base flex flex-row justify-end ">
                 {socialNetworks.map((socialNetwork) => (
-                  <a
-                  className='ml-10'
-                    key={socialNetwork.id}
-                    href={socialNetwork.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {socialNetwork.name}
-                  </a>
+                  <div key={socialNetwork.id} className="ml-10">
+                    <Tooltip tooltipText={socialNetwork.name}>
+                      <a
+                        key={socialNetwork.id}
+                        href={socialNetwork.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {socialNetwork.nickName}
+                      </a>
+                    </Tooltip>
+                  </div>
                 ))}
               </div>
             </div>

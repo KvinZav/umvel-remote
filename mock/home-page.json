@@ -980,24 +980,27 @@
                     "socialNetworks": [{
                             "id": "social-media-1",
                             "name": "Medium",
+                            "nickName": "MD",
                             "link": "https://umvel.medium.com/"
                         },
                         {
                             "id": "social-media-2",
                             "name": "Instagram",
+                            "nickName": "IG",
                             "link": "https://www.instagram.com/umvel_inc/"
                         },
                         {
                             "id": "social-media-3",
                             "name": "LinkedIn",
+                            "nickName": "IN",
                             "link": "https://www.linkedin.com/company/umvel/mycompany/"
                         },
                         {
                             "id": "social-media-4",
                             "name": "Facebook",
+                            "nickName": "FB",
                             "link": "https://www.facebook.com/profile.php?id=100084068735293"
                         }
-
                     ],
                     "links": [{
                             "id": 1,
