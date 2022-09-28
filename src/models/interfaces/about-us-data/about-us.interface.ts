@@ -18,7 +18,7 @@ interface AboutUsAttributes {
   team: Team
 }
 
-interface Team {
+export interface Team {
   id: number
   title: string
   subtitle: string
