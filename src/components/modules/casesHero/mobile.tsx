@@ -2,18 +2,22 @@ import React from 'react';
 import Image from '@elements/image-component';
 import { CasesHeroProps } from '.';
 import BasicButton from '@elements/button';
-import Link from 'next/link';
 
-const CasesHeroMobile = (props : CasesHeroProps) => {
-  const {portfolioTitle, portfolioDescription, image, logo, challenge, primaryColor} = props.caseData
+const CasesHeroMobile = (props: CasesHeroProps) => {
+  const { portfolioTitle, portfolioDescription, image, logo, challenge, primaryColor } =
+    props.caseData;
 
   return (
     <section>
-      <div
-        className="grid grid-cols-2"
-      >
-        <div className="col-span-1 aspect-square bg-cover bg-center" style={{backgroundImage: `url(${image.data.attributes.url})`}}/>
-        <div className={`relative col-span-1 aspect-square`} style={{ backgroundColor: primaryColor }}>
+      <div className="grid grid-cols-2">
+        <div
+          className="col-span-1 aspect-square bg-cover bg-center"
+          style={{ backgroundImage: `url(${image.data.attributes.url})` }}
+        />
+        <div
+          className={`relative col-span-1 aspect-square`}
+          style={{ backgroundColor: primaryColor }}
+        >
           <div className="absolute w-full h-full bg-primary-black opacity-20" />
           <Image
             width="100%"
@@ -35,18 +39,23 @@ const CasesHeroMobile = (props : CasesHeroProps) => {
           <h1 className="text-xl mt-8 mb-2">{portfolioTitle}</h1>
           <h2 className="font-bold text-[28px]">{portfolioDescription}</h2>
           <div className="flex flex-wrap mt-4 space-x-4 space-y-4">
-            {
-              challenge.callToAction.map((item, index) => 
-                <Link key={'action-'+index} href={item.action.openUrl}>
-                  <BasicButton>{item.title}</BasicButton>
-                </Link>
-              )
-            }
+            {challenge.callToAction.map((item, index) => (
+              <a
+                key={"action-" + index}
+                href={item.action.openUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BasicButton>{item.title}</BasicButton>
+              </a>
+            ))}
           </div>
         </div>
       </div>
       <div className="aspect-square p-12 bg-primary-black text-primary-white">
-        <h2 className="mb-2 text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">{challenge.title}</h2>
+        <h2 className="mb-2 text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">
+          {challenge.title}
+        </h2>
         <p>{challenge.content}</p>
       </div>
       <div className="relative aspect-square" style={{ backgroundColor: primaryColor }}>
@@ -60,7 +69,7 @@ const CasesHeroMobile = (props : CasesHeroProps) => {
         />
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default CasesHeroMobile;
