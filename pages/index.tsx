@@ -15,6 +15,7 @@ import { BlockNameEnum } from '@enums/BlockName';
 import { HomeDataInterface } from '@interfaces/home-data/home.interface';
 import { ButtonScroll } from '@elements/ButtonScroll';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
+import Head from 'next/head';
 
 export default function Home() {
   const isBrowser = typeof window !== "undefined"
@@ -37,6 +38,11 @@ export default function Home() {
 
   return data && (
     <div>
+      <Head>
+        <title>Umvel inc top rated custom software development agency</title>
+        <meta name='keywords' content='Software Development, UX research, design'/>
+        <meta name='description' content='We design, build and run your digital platform.  A top-rated design and development agency offering a wide range of services delivering business value to your company'/>
+      </Head>
       <Hero />
       {<ButtonScroll elementTo={highlightsRef}/>}
       <div ref={highlightsRef}>
