@@ -67,11 +67,11 @@ const Header = () => {
                     options.map((link) =>
                       link.type === "button" ? (
                         <BasicButton onClick={() => setShowMenu(false)}>
-                          <Link name={link.name} url={link.link} />
+                          <Link name={link.name} url={`/${link.link}`} />
                         </BasicButton>
                       ) : (
                         <li key={"link-" + link.id}>
-                          <Link name={link.name} url={link.link} />
+                          <Link name={link.name} url={`/${link.link}`} />
                         </li>
                       )
                     )}
@@ -132,7 +132,7 @@ const Header = () => {
                             <Link
                               onClick={() => setShowMenu(false)}
                               name={link.name}
-                              url={link.link}
+                              url={`/${link.link}`}
                             />
                           </BasicButton>
                         </li>
@@ -141,14 +141,14 @@ const Header = () => {
                           <Link
                             onClick={() => setShowMenu(false)}
                             name={link.name}
-                            url={link.link}
+                            url={`/${link.link}`}
                           />
                         </li>
                       )
                     )}
                 </ul>
               </div>
-              <div className='md:hidden border border-solid border-secondary-10 w-[50%] mb-12 mt-5'></div>
+              <div className="md:hidden border border-solid border-secondary-10 w-[50%] mb-12 mt-5"></div>
               <div className="w-full text-base md:flex md:justify-end">
                 {socialNetworks.map((socialNetwork) => (
                   <div key={socialNetwork.id} className="md:ml-10 mb-8 text-center">
