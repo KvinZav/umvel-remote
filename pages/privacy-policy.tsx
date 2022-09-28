@@ -4,6 +4,8 @@ import { get } from "@fetcher/get";
 import useScrollOffset from "@hooks/useScrollOffset";
 import { useEffect } from "react";
 import { PrivacyPolicy } from '@elements/PrivacyPolicy/PrivacyPolicy';
+import { FooterMenu } from '@modules/footer';
+import { BlockNameEnum } from '@enums/BlockName';
 
 export default function OurWork() {
   const isBrowser = typeof window !== "undefined";
@@ -24,7 +26,10 @@ export default function OurWork() {
   return (
     data && (
       <>
-        <PrivacyPolicy theme="light" />
+        <PrivacyPolicy />
+        <FooterMenu
+          data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.menu)}
+        />
       </>
     )
   );
