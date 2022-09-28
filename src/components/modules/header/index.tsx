@@ -97,7 +97,7 @@ const Header = () => {
                   ))}
               </div>
             )}
-            <div className="h-full min-w-min w-full flex flex-col items-center p-8">
+            <div className="h-full overflow-y-auto min-w-min w-full flex flex-col items-center p-8">
               <div className="w-full flex flex-row justify-between">
                 <div className="h-6 w-6 md:h-8 md:w-8">
                   {logo && (
@@ -148,9 +148,10 @@ const Header = () => {
                     )}
                 </ul>
               </div>
-              <div className="w-full text-base flex flex-row justify-end ">
+              <div className='md:hidden border border-solid border-secondary-10 w-[50%] mb-12 mt-5'></div>
+              <div className="w-full text-base md:flex md:justify-end">
                 {socialNetworks.map((socialNetwork) => (
-                  <div key={socialNetwork.id} className="ml-10">
+                  <div key={socialNetwork.id} className="md:ml-10 mb-8 text-center">
                     <Tooltip tooltipText={socialNetwork.name}>
                       <a
                         key={socialNetwork.id}
@@ -161,6 +162,16 @@ const Header = () => {
                         {socialNetwork.nickName}
                       </a>
                     </Tooltip>
+
+                    <a
+                      className="block lg:hidden"
+                      key={socialNetwork.id}
+                      href={socialNetwork.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {socialNetwork.name}
+                    </a>
                   </div>
                 ))}
               </div>

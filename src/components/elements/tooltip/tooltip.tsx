@@ -12,7 +12,7 @@ export const Tooltip = ({ children, tooltipText }) => {
 
   return (
     <div
-      className="relative flex items-center"
+      className="relative flex items-center lg:block hidden"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
