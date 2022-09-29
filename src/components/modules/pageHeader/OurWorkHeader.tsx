@@ -3,11 +3,11 @@ import PrismButton from '@elements/square-colors';
 import { Body } from '@interfaces/home-data/home.interface';
 import React from 'react';
 
-export const OurWorkHeader = ({data}: {data: Body}) => {
+export const OurWorkHeader = ({data, onScrollButtonClick}: {data: Body, onScrollButtonClick: () => any}) => {
   return (
     <section className="w-full flex flex-col-reverse md:flex-row px-[72px] md:px-24 lg:px-60 py-24 md:py-[124px] lg:py-40">
         <div className="flex justify-center items-center lg:items-start md:justify-end lg:ml-10 h-36 md:h-auto lg:pt-6">
-          <PrismButton>
+          <PrismButton onClick={onScrollButtonClick}>
             <Image url="/assets/icons/arrowDown.svg" width={12} height={12} alt="Down"/>
           </PrismButton>
         </div>

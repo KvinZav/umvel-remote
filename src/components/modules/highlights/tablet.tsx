@@ -2,6 +2,7 @@ import Image from "@elements/image-component";
 import CustomImage from "@elements/image-component/CustomImage";
 import PrismButton from "@elements/square-colors";
 import { HighlightsTabletPorps } from "@type/modules/highlights";
+import Link from "next/link";
 const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,handlePrevious,title}):JSX.Element => {
     const imgAttribute = project.attributes.image.data.attributes
 ;    if(project){
@@ -30,7 +31,9 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                                 />
                             </button>
                             <div>
+                                <Link href="/our-work">
                                     <PrismButton>View all cases</PrismButton>
+                                </Link>
                             </div>
                             <button className="ml-16 text-4xl" onClick={()=>handleNext()}>
                                 <CustomImage

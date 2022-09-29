@@ -2,6 +2,7 @@ import PrismButton from "@elements/square-colors";
 import { HighlightsPhonePorps } from "@type/modules/highlights"
 import Image from "@elements/image-component";
 import { Attributes2 } from "@interfaces/home-data/home.interface";
+import Link from "next/link";
 
 const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Element => {
     if (projects) {
@@ -31,7 +32,9 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
                 </div>
                 <div className="flex justify-center items-center">
                     <div className="min-h-[128px] flex justify-center items-center my-[104px]">
-                        <PrismButton>View all cases</PrismButton>
+                        <Link href="/our-work">
+                            <PrismButton>View all cases</PrismButton>
+                        </Link>
                     </div>
                 </div>
                 <hr className="mx-12 text-secondary-10"></hr>
