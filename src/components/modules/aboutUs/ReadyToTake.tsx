@@ -4,6 +4,7 @@ import { get } from '@fetcher/get';
 import React from 'react';
 import useSWR from 'swr';
 import { PhilosophyBulletPoint } from '@interfaces/about-us-data/about-us.interface';
+import Link from 'next/link';
 
 export const ReadyToTake = () => {
   const infoAboutUs = useSWR(environment.ABOUT_US, get, {
@@ -25,8 +26,10 @@ export const ReadyToTake = () => {
         <div className="px-16 py-20 lg:px-32 lg:py-60">
           <h1 className="font-bold lg:mb-2 md:text-[38px] text-[28px] mb-6">{quotes.title}</h1>
           <p className="mb-8 lg:text-[18px]">{quotes.subtitle}</p>
-          <div className="p-10 flex md:flex-row flex-col-reverse flex-row items-center text-center">
-            <PrismButton> Our Work</PrismButton>
+          <div className="p-10 flex md:flex-row flex-col-reverse items-center text-center">
+            <Link href="/our-work">
+              <PrismButton> Our Work</PrismButton>
+            </Link>
 
             <p className="font-bold text-[24px] lg:text-[28px] md:ml-10 mb-14 md:mb-0">
               We deliver what we promise.

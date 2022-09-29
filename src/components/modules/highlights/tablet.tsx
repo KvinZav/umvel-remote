@@ -2,6 +2,7 @@ import Image from '@elements/image-component';
 import CustomImage from '@elements/image-component/CustomImage';
 import PrismButton from '@elements/square-colors';
 import { HighlightsTabletPorps } from '@type/modules/highlights';
+import Link from 'next/link';
 const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
   project,
   handleNext,
@@ -42,7 +43,9 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
                 <CustomImage src="/assets/icons/chevronLeft.svg" alt="icon-chevron-right" />
               </button>
               <div>
-                <PrismButton>View all cases</PrismButton>
+                <Link href="/our-work">
+                  <PrismButton>View all cases</PrismButton>
+                </Link>
               </div>
               <button className="ml-16 text-4xl" onClick={() => handleNext()}>
                 <CustomImage src="/assets/icons/chevronRight.svg" alt="icon-chevron-right" />

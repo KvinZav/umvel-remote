@@ -3,6 +3,7 @@ import PrismButton from '@elements/square-colors';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
+import Link from 'next/link';
 import React from 'react';
 import useSWR from 'swr';
 
@@ -44,7 +45,9 @@ const MobileScrollInteraction3 = () => {
                   className={`flex flex-col-reverse md:flex-row-reverse justify-between items-center self-center w-full`}
                 >
                   <div className="flex justify-center items-center min-w-[120px] min-h-[120px] lg:mr-3">
-                    <PrismButton>Our Work</PrismButton>
+                    <Link href="/our-work">
+                      <PrismButton>Our Work</PrismButton>
+                    </Link>
                   </div>
                   <div className="py-[104px] md:mr-7 flex justify-center">
                     <h2 className="font-bold text-xl">We seamlessly deliver business value.</h2>

@@ -6,6 +6,7 @@ import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
 import useScrollOffset from '@hooks/useScrollOffset';
 import useSWR from 'swr';
+import Link from 'next/link';
 
 const DesktopScrollInteraction3 = () => {
   const { scrollOffset } = useScrollOffset();
@@ -112,7 +113,9 @@ const DesktopScrollInteraction3 = () => {
                     }`}
                   >
                     <div className="min-w-[48px] min-h-[48px] mr-4 xl:mr-14">
-                      <PrismButton>Our Work</PrismButton>
+                      <Link href="/our-work">
+                        <PrismButton>Our Work</PrismButton>
+                      </Link>
                     </div>
                     <div className="py-0 mr-7 flex justify-center">
                       <h2 className="font-bold text-xl">We seamlessly deliver business value.</h2>

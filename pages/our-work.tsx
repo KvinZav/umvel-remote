@@ -5,9 +5,10 @@ import WorkCases from '@modules/workCases';
 import { OurWorkHeader } from '@modules/pageHeader';
 import { BlockNameEnum } from '@enums/BlockName';
 import useScrollOffset from '@hooks/useScrollOffset';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { FooterCta } from '@modules/footer';
 import Head from 'next/head';
+import smoothscroll from 'smoothscroll-polyfill';
 
 export default function OurWork() {
   const isBrowser = typeof window !== 'undefined';
@@ -25,6 +26,13 @@ export default function OurWork() {
     revalidateOnFocus: false,
   });
 
+  const casesContainerRef = useRef<HTMLDivElement>(null)
+
+  const handleSmoothScroll = () => {
+    smoothscroll.polyfill();
+    casesContainerRef.current.scrollIntoView({ behavior: 'smooth', block: "start" })    
+  }
+
   return (
     data && (
       <>
@@ -40,8 +48,11 @@ export default function OurWork() {
           data={data.data.attributes.body.find(
             (item) => item.__component === BlockNameEnum.pageHeader
           )}
+          onScrollButtonClick={handleSmoothScroll}
         />
-        <WorkCases />
+        <div ref={casesContainerRef}>
+          <WorkCases />
+        </div>
         <FooterCta />
       </>
     )

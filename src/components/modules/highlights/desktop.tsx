@@ -6,6 +6,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import useSWR from 'swr';
 import Image from '@elements/image-component';
 import CustomImage from '@elements/image-component/CustomImage';
+import Link from 'next/link';
 
 const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   project,
@@ -88,7 +89,9 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 <button className="mr-4" onClick={() => handlePrevious()}>
                   <CustomImage src="/assets/icons/chevronLeft.svg" alt="icon-chevron-left" />
                 </button>
-                <PrismButton>Show more</PrismButton>
+                <Link href="/our-work">
+                  <PrismButton>Show more</PrismButton>
+                </Link>
                 <button className="mr-4" onClick={() => handlePrevious()}>
                   <CustomImage src="/assets/icons/chevronRight.svg" alt="icon-chevron-right" />
                 </button>
