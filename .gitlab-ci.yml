@@ -101,7 +101,7 @@ deploy:image:
     - staging
     - demo
 
-deploy:image:
+deploy-prod:image:
   stage: deploy
   image: amazon/aws-cli
   tags:
