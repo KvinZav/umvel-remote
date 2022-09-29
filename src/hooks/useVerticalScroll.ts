@@ -1,23 +1,24 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
-const useVerticalScroll = (offset:number) => {
-    const [scroll, setScroll] = useState(true);
-    useEffect(function onFirstMount() {
-        const changeNavbar = () => {
-            if (window.scrollY>=offset) {
-                setScroll(false);
-            }else{
-                setScroll(true);
-            }
+const useVerticalScroll = (offset: number) => {
+  const [scroll, setScroll] = useState(true);
+  useEffect(
+    function onFirstMount() {
+      const changeNavbar = () => {
+        if (window.scrollY >= offset) {
+          setScroll(false);
+        } else {
+          setScroll(true);
         }
-        window.addEventListener("scroll", changeNavbar);
-        return () => {
-            window.removeEventListener("scroll",changeNavbar);
-        }
-    }, [offset]);
+      };
+      window.addEventListener('scroll', changeNavbar);
+      return () => {
+        window.removeEventListener('scroll', changeNavbar);
+      };
+    },
+    [offset]
+  );
 
-    return (
-        scroll
-    )
-} 
+  return scroll;
+};
 export default useVerticalScroll;
