@@ -3,11 +3,17 @@ import ContactForm from '@elements/ContactForm';
 import UmvelCard from '@modules/footer/UmvelCard';
 import Services from '@modules/whatWeOffer';
 import React from 'react';
+import Head from 'next/head';
 
 const OurOffering = () => {
 
   return (
     <>
+      <Head>
+          <title>Meaningful digital products through an end- to- end approach</title>
+          <meta name='keywords' content='Software Development, UX research, design'/>
+          <meta name='description' content='We work with proven methodologies and frameworks, to make sure that we design, build and run your digital platform in the best way possible - no matter the challenge.'/>
+      </Head>
       <Services />
       <UmvelCard darkTheme={true}>
         <div className="p-12 lg:p-[max(10%_128px)]">
