@@ -1,4 +1,4 @@
-import CustomImage from "@elements/image-component/CustomImage";
+import CustomImage from '@elements/image-component/CustomImage';
 
 const FindUs = () => {
   return (
@@ -28,8 +28,8 @@ const FindUs = () => {
         </div>
         <div className="self-end">
           <CustomImage
-            src={"/assets/images/umvelLogo.svg"}
-            alt={"logo-umvel"}
+            src={'/assets/images/umvelLogo.svg'}
+            alt={'logo-umvel'}
             className="w-[64px]"
           />
         </div>
