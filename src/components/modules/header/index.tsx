@@ -124,7 +124,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="h-full flex items-center" id="navbar-default">
-                <ul className="flex flex-col p-4 mt-4 whitespace-nowrap">
+                <ul className="flex flex-col p-4 mt-4 whitespace-nowrap text-xl">
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
@@ -150,9 +150,9 @@ const Header = () => {
                 </ul>
               </div>
               <div className="md:hidden border border-solid border-secondary-10 w-[50%] mb-12 mt-5"></div>
-              <div className="w-full text-base md:flex md:justify-end">
+              <div className="md:w-full h-full md:h-min w-min text-sm flex flex-col md:flex-row md:justify-end">
                 {socialNetworks.map((socialNetwork) => (
-                  <div key={socialNetwork.id} className="md:ml-10 mb-8 text-center">
+                  <div key={socialNetwork.id} className="md:ml-10 mb-8 md:text-center">
                     <Tooltip tooltipText={socialNetwork.name}>
                       <a
                         key={socialNetwork.id}
