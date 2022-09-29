@@ -107,7 +107,6 @@ export const DeliveredValue = ({
 
   useEffect(() => {
     const config = gridConfig[currentScreen];
-
     if (!!config) {
       setCurrentGridConfig(config);
     } else {

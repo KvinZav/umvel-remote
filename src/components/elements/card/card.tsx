@@ -2,11 +2,12 @@ import React from "react";
 import { CardInterface } from "@interfaces/card.interface";
 import BasicButton from '@elements/button'
 import Image from "@elements/image-component/index";
+import Link from "next/link";
 
 //eslint-disable-next-line react/display-name
 export const Card = React.memo((props: CardInterface) => {
   
-  const { styles, imageUrl, text, description, showButton, showDescription, descriptionOnly } = props;
+  const { styles, imageUrl, text, description, showButton, showDescription, descriptionOnly, caseId } = props;
   
   return (
     <MainContainer styles={styles} hasDescription={Boolean(description)}>
@@ -17,11 +18,13 @@ export const Card = React.memo((props: CardInterface) => {
           description={description}
           showButton={showButton}
           styles={styles}
+          id={caseId}
         /> :
         <DescriptionComponent
           text={text}
           description={description}
           styles={styles}
+          id={caseId}
         />}
     </MainContainer>
   );
@@ -69,7 +72,7 @@ const MainContainer = ({children, styles, hasDescription}) => {
 
 const MainGraphic = ({imageUrl}) => <div className="w-1/2 h-1/2 m-auto"><Image url={imageUrl} alt="" height="100%" width="100%" layout="responsive"/></div>
 
-const TitleComponent = ({text, description, showButton, styles}) => {  
+const TitleComponent = ({text, description, showButton, styles, id}) => {  
   return description ? (
     <div className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 w-full`}>
       <h1
@@ -77,10 +80,16 @@ const TitleComponent = ({text, description, showButton, styles}) => {
       >
         {text}
       </h1>
-      {showButton && <BasicButton theme="light">View Case</BasicButton>}
+      {showButton && 
+        <Link href={'/cases/'+id}>
+          <BasicButton theme="light">View Case</BasicButton>
+        </Link>
+      }
       <div className={`transition-[max-height] overflow-hidden duration-1000 max-h-0 lg:group-hover:max-h-[180px]`}>
         <p className="text-primary-white mb-4">{description}</p>
-        <BasicButton theme="dark">View Case</BasicButton>
+        <Link href={'/cases/'+id}>
+          <BasicButton theme="dark">View Case</BasicButton>
+        </Link>
       </div>
     </div>
   ) : (
@@ -100,7 +109,7 @@ const TitleComponent = ({text, description, showButton, styles}) => {
   )
 }
 
-export const DescriptionComponent = ({text, description, styles}) => {
+export const DescriptionComponent = ({text, description, styles, id}) => {
   return(
     <div className={`flex flex-col justify-center transition-[background-color] duration-500 bg-primary-black bg-opacity-50 p-8 w-full h-full`}>
       <h1
@@ -109,7 +118,9 @@ export const DescriptionComponent = ({text, description, styles}) => {
         {text}
       </h1>
       <p className="text-primary-white mb-4">{description}</p>
-      <BasicButton theme="dark">View Case</BasicButton>
+      <Link href={'/cases/'+id}>
+        <BasicButton theme="dark">View Case</BasicButton>
+      </Link>
     </div>
   )
 }

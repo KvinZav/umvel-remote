@@ -9,11 +9,11 @@ import { BlockNameEnum } from '@enums/BlockName';
 
 export const FooterMenu = () => {
   const { data: event } = useSWR(environment.HOME_URL, get, {
-    revalidateOnFocus: false,
+    revalidateOnFocus: false
   });
   if (!event) return null;
 
-  const { socialNetworks, links } = FETCHER(event, BlockNameEnum.menu);
+  const {socialNetworks,links} = FETCHER(event, BlockNameEnum.menu);
 
   return (
     <section className="p-[15%] lg:p-[10%]">

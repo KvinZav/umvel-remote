@@ -25,7 +25,7 @@ export const Filter = ({ text, active, selected, setSelected, item, setButtons }
 
     return (
         <button className={isActive ? "border rounded-lg border-primary-black bg-primary-black text-primary-white p-4" : "border rounded-lg border-secondary-10 p-4 text-secondary-60"} onClick={handleClick}>
-            <p className='text-sm'>{text}</p>
+            <p className='text-left text-sm'>{text}</p>
         </button>
     )
 }
