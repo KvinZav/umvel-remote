@@ -67,7 +67,7 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
-                        <BasicButton onClick={() => setShowMenu(false)}>
+                        <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
                           <Link name={link.name} url={`/${link.link}`} />
                         </BasicButton>
                       ) : (
