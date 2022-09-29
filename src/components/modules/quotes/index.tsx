@@ -15,7 +15,7 @@ const Quotes = (): JSX.Element => {
     <div
       className={`h-[180vw] md:h-[200vw] w-full overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}
     >
-      <section className="h-[180vw] flex flex-col flex-wrap md:h-[200vw] lg:h-[50vw] snap-x">
+      <section className="h-[180vw] flex md:flex-row flex-col flex-wrap md:h-[200vw] lg:h-[50vw] snap-x">
         <article className="bg-primary-white p-[4vw] h-[50%] md:h-1/4 aspect-square snap-center overflow-hidden lg:h-1/2 lg:w-auto lg:text-2xl">
           <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">
             Our projects speak for themselves.
@@ -64,7 +64,7 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
     >
       <div className={`h-full w-full p-9 ${textColor}`}>
         <p className="mb-4">{description}</p>
-        <h3 className="font-bold lg:mb-2 ">{title}</h3>
+        <h3 className="font-bold text-[18px] lg:mb-2 ">{title}</h3>
         <h4 className="mb-4">{subtitle}</h4>
       </div>
       <div
