@@ -36,8 +36,6 @@ const colors = [
 function MyApp({ Component, pageProps }) {
   const [showModal, setShowModal] = useState(false);
 
-  const windowGlobal = typeof window !== 'undefined' && window;
-
   useEffect(() => {
     if (!sessionStorage.getItem('consent')) {
       sessionStorage.setItem('consent', 'false');
@@ -49,7 +47,7 @@ function MyApp({ Component, pageProps }) {
   
   return (
     <>
-    <ModalCookies showModal={showModal} refWindow={windowGlobal}/>
+    <ModalCookies showModal={showModal}/>
       <SWRConfig value={swrConfig}>
         <ScrollContextProvider>
           <Header />
