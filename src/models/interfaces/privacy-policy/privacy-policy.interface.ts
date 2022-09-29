@@ -2,6 +2,10 @@ export interface PrivacyPolicyResponse {
   data: PrivacyPolicyData;
 }
 
+export interface PrivacyPolicyAttributes {
+  attribute: PrivacyPolicyData;
+}
+
 export interface PrivacyPolicyData {
   createdAt: string;
   updatedAt: string;
@@ -9,11 +13,10 @@ export interface PrivacyPolicyData {
   title: string;
   info: string;
   items: PrivacyPolicyItems[];
-  footer: null;
 }
 
 export interface PrivacyPolicyItems {
   id: number;
   title: string;
-  subtitle: string;
+  body: string;
 }

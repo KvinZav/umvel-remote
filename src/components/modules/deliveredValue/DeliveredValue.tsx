@@ -88,10 +88,10 @@ const connectConfigurations: {
   },
 ];
 
-const imageConfigurations: {className: string, style: CSSProperties}[] = [
-  { className: 'justify-center items-end', style: { background: 'rgba(0,0,0,.1)' } },
-  { className: 'justify-center items-center', style: { background: 'rgba(0,0,0,.3)' } },
-  { className: 'justify-center items-center', style: { background: 'rgba(0,0,0,.2)' } },
+const imageConfigurations: { className: string; style: CSSProperties }[] = [
+  { className: "justify-center items-end", style: { background: "rgba(0,0,0,.1)" } },
+  { className: "justify-center items-center", style: { background: "rgba(0,0,0,.3)" } },
+  { className: "justify-center items-center", style: { background: "rgba(0,0,0,.2)" } },
 ];
 
 export const DeliveredValue = ({
@@ -107,7 +107,6 @@ export const DeliveredValue = ({
 
   useEffect(() => {
     const config = gridConfig[currentScreen];
-    console.log(config);
     if (!!config) {
       setCurrentGridConfig(config);
     } else {
@@ -144,9 +143,10 @@ export const DeliveredValue = ({
             >
               <div
                 className={`flex w-full h-full ${imageConfigurations[idx].className}`}
-                style={imageConfigurations[idx].style}>
-                  <CustomImage src={image} alt={`deliver-image-${idx}`}/>
-                </div>
+                style={imageConfigurations[idx].style}
+              >
+                <CustomImage src={image} alt={`deliver-image-${idx}`} />
+              </div>
             </div>
           </div>
         ))}

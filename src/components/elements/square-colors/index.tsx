@@ -3,9 +3,10 @@ import React, { useState } from "react"
 import { animated, config, useSpring } from "react-spring";
 type PrismButtonProps = {
   children: string | JSX.Element;
+  onClick?: () => any;
 }
 
-const PrismButton:React.FC<PrismButtonProps> = ({children}):JSX.Element => {
+const PrismButton:React.FC<PrismButtonProps> = ({children, onClick}):JSX.Element => {
 
   const [isExpanded, setIsExpanded] = useState(false)
 
@@ -20,10 +21,11 @@ const PrismButton:React.FC<PrismButtonProps> = ({children}):JSX.Element => {
   })
 
   return (
-    <div 
+    <button 
       className="relative group w-12 h-12 aspect-square grid grid-rows-4 grid-cols-4 justify-items-center place-items-center text-primary-black gap-1 lg:gap-0 cursor-pointer"
       onMouseEnter={() => setIsExpanded(true)}
       onMouseLeave={() => setIsExpanded(false)}
+      onClick={onClick}
     >
       <ColorSquare isAnimated={isDesktop} transformOrigin="top left" backgroundColor="bg-prisma-aqua" isExpanded={isExpanded} translateX={-12} translateY={-32}/>
       <ColorSquare isAnimated={isDesktop} transformOrigin="top center" backgroundColor="bg-prisma-green" isExpanded={isExpanded} translateX={-4} translateY={-32}/>
@@ -47,7 +49,7 @@ const PrismButton:React.FC<PrismButtonProps> = ({children}):JSX.Element => {
       <ColorSquare isAnimated={isDesktop} transformOrigin="bottom center" backgroundColor="bg-prisma-orange" isExpanded={isExpanded} translateX={-4} translateY={32}/>
       <ColorSquare isAnimated={isDesktop} transformOrigin="bottom center" backgroundColor="bg-prisma-yellow" isExpanded={isExpanded} translateX={4} translateY={32}/>
       <ColorSquare isAnimated={isDesktop} transformOrigin="bottom right" backgroundColor="bg-prisma-lime" isExpanded={isExpanded} translateX={12} translateY={32}/>
-    </div>
+    </button>
   )
 }
 

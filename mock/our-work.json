@@ -52,8 +52,8 @@
                         },{
                             "id": 3,
                             "title": "Planet Buyback",
-                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
-                            "hoverClientName": "Mobile App",
+                            "hoverDescription": "See how we helped improve the world, pixel by pixel.",
+                            "hoverClientName": "Web platform",
                             "hoverClientHeading": null,
                             "callToAction": null,
                             "backgroundColor": "cases-buyback",
@@ -83,8 +83,8 @@
                         },{
                             "id": 4,
                             "title": "Cancer Buddy",
-                            "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
-                            "hoverClientName": "Mobile App",
+                            "hoverDescription": "Creating meaningful connections between cancer patients and survivors, through technology.",
+                            "hoverClientName": "App",
                             "hoverClientHeading": null,
                             "callToAction": null,
                             "backgroundColor": "cases-cancer-buddy",
@@ -337,6 +337,11 @@
                           "id": "social-media-3",
                           "name": "LinkedIn",
                           "link": "https://www.linkedin.com/company/umvel/mycompany/"
+                        },
+                        {
+                            "id": "social-media-4",
+                            "name": "Facebook",
+                            "link": "https://www.facebook.com/profile.php?id=100084068735293"
                         }
                       ],
                       "links": [

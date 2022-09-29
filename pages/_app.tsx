@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { SWRConfig } from 'swr';
 import Header from '@modules/header';
 import { ScrollContextProvider } from '@context/scrollContext';
+import { FooterMenu } from '@modules/footer';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -32,6 +33,7 @@ function MyApp({ Component, pageProps }) {
       <ScrollContextProvider>
         <Header />
         <Component {...pageProps} />
+        <FooterMenu />
       </ScrollContextProvider>
     </SWRConfig>
   </>

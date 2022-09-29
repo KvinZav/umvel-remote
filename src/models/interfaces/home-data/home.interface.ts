@@ -243,6 +243,7 @@ export interface Attributes6 {
     updatedAt: string
     publishedAt: string
     slug: string
+    image: Logo
 }
 
 export interface Right2 {

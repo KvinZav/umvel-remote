@@ -16,5 +16,6 @@ export interface CardInterface {
     showDescription?: boolean;
     showButton?:boolean;
     descriptionOnly?:boolean;
+    caseId?:number
 }
 
