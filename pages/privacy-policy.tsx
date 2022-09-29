@@ -1,12 +1,13 @@
-import React from "react";
-import response from "@mock/privacy-policy.json";
+import React from 'react';
+import response from '@mock/privacy-policy.json';
 import {
   PrivacyPolicyData,
   PrivacyPolicyItems,
-} from "@interfaces/privacy-policy/privacy-policy.interface";
+} from '@interfaces/privacy-policy/privacy-policy.interface';
 
 export default function PrivacyPolicy() {
   const data: PrivacyPolicyData = response.data.attributes;
+  
   if (!data) return null;
 
   return (
@@ -24,7 +25,7 @@ export default function PrivacyPolicy() {
       <div className="lg:col-start-2 lg:col-end-4 lg:p-8 lg:pr-32 md:px-32 md:py-0 px-10">
         {data.items.map((item: PrivacyPolicyItems, index: number) => {
           return (
-            <div key={"indicator-" + index} className={`${index > 0 ? "mt-5" : ""}`}>
+            <div key={'indicator-' + index} className={`${index > 0 ? 'mt-5' : ''}`}>
               <p className="text-[24px] leading-tight font-bold pb-4 xl:pb-8">{item.title}</p>
 
               <div

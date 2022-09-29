@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 import { SWRConfig } from 'swr';
 import Header from '@modules/header';
 import { ScrollContextProvider } from '@context/scrollContext';
@@ -8,35 +8,41 @@ const swrConfig = {
   revalidateOnFocus: false,
 };
 
+/**
+ * @description tailwind - there is a JIT that creates the classes used in tail 
+ * per page but only if it is in code, this stays because when they arrive 
+ * from the api the name does not exist when a map is used
+ */
 const colors = [
-    "bg-cases-capa",
-    "bg-cases-prevue",
-    "bg-cases-argo",
-    "bg-cases-campaign",
-    "bg-cases-viva",
-    "bg-cases-food-central",
-    "bg-cases-oeio",
-    "bg-cases-cancer-buddy",
-    "bg-cases-buyback",
-    "bg-cases-miyana",
-    "bg-cases-seguros-mundial",
-    "bg-cases-arrivia",
-    "bg-cases-viva-app",
-    "bg-cases-smart-walk",
-    "bg-cases-ecri",
-]
+  'bg-cases-capa',
+  'bg-cases-prevue',
+  'bg-cases-argo',
+  'bg-cases-campaign',
+  'bg-cases-viva',
+  'bg-cases-food-central',
+  'bg-cases-oeio',
+  'bg-cases-cancer-buddy',
+  'bg-cases-buyback',
+  'bg-cases-miyana',
+  'bg-cases-seguros-mundial',
+  'bg-cases-arrivia',
+  'bg-cases-viva-app',
+  'bg-cases-smart-walk',
+  'bg-cases-ecri',
+];
 
 function MyApp({ Component, pageProps }) {
-
-  return <>
-    <SWRConfig value={swrConfig}>
-      <ScrollContextProvider>
-        <Header />
-        <Component {...pageProps} />
-        <FooterMenu />
-      </ScrollContextProvider>
-    </SWRConfig>
-  </>
+  return (
+    <>
+      <SWRConfig value={swrConfig}>
+        <ScrollContextProvider>
+          <Header />
+          <Component {...pageProps} />
+          <FooterMenu />
+        </ScrollContextProvider>
+      </SWRConfig>
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
