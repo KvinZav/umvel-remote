@@ -1,1237 +1,1237 @@
 {
-    "data": {
+  "data": {
+    "id": 1,
+    "attributes": {
+      "createdAt": "2022-08-19T15:31:41.050Z",
+      "updatedAt": "2022-08-22T19:28:21.985Z",
+      "publishedAt": "2022-08-19T15:46:07.644Z",
+      "header": {
         "id": 1,
-        "attributes": {
-            "createdAt": "2022-08-19T15:31:41.050Z",
-            "updatedAt": "2022-08-22T19:28:21.985Z",
-            "publishedAt": "2022-08-19T15:46:07.644Z",
-            "header": {
+        "logo": {
+          "data": {
+            "id": 6,
+            "attributes": {
+              "name": "Umvel Logotype.png",
+              "alternativeText": "Umvel Logotype.png",
+              "caption": "Umvel Logotype.png",
+              "width": 32,
+              "height": 32,
+              "formats": null,
+              "hash": "Umvel_Logotype_c2f08b71ea",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0.42,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Variant%3DIsotype.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
+        "links": [{
+            "id": 1,
+            "name": "Our work",
+            "link": "our-work",
+            "type": "link"
+          },
+          {
+            "id": 2,
+            "name": "Our Offering",
+            "link": "our-offering",
+            "type": "link"
+          },
+          {
+            "id": 4,
+            "name": "About us",
+            "link": "about-us",
+            "type": "link"
+          },
+          {
+            "id": 6,
+            "name": "Let's talk!",
+            "link": "lets-talk",
+            "type": "button"
+          }
+        ],
+        "cases": [{
+            "id": 0,
+            "title": "null",
+            "backgroundColor": "cases-viva",
+            "image": null
+          },
+          {
+            "id": 1,
+            "title": null,
+            "backgroundColor": "cases-campaign",
+            "image": null
+          },
+          {
+            "id": 2,
+            "title": null,
+            "backgroundColor": "cases-oeio",
+            "image": null
+          },
+          {
+            "id": 3,
+            "title": null,
+            "backgroundColor": "cases-argo",
+            "image": null
+          },
+          {
+            "id": 4,
+            "title": "CancerBuddy App",
+            "backgroundColor": "cases-cancer-buddy",
+            "image": {
+              "data": {
                 "id": 1,
-                "logo": {
+                "attributes": {
+                  "name": "Viva Aerobus Logo.png",
+                  "alternativeText": "Viva Aerobus Logo.png",
+                  "caption": "Viva Aerobus Logotype.png",
+                  "width": 500,
+                  "height": 500,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DBMCF.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": null,
+            "backgroundColor": "cases-campaign",
+            "image": null
+          },
+          {
+            "id": 6,
+            "title": null,
+            "backgroundColor": "cases-food-central",
+            "image": null
+          },
+          {
+            "id": 7,
+            "title": null,
+            "backgroundColor": "cases-buyback",
+            "image": null
+          },
+          {
+            "id": 8,
+            "title": null,
+            "backgroundColor": "cases-food-central",
+            "image": null
+          }
+        ]
+      },
+      "body": [{
+          "id": 2,
+          "__component": "heading.heading",
+          "caseOfStudy": [{
+            "id": 2,
+            "Title": "Seamlessly deliver value",
+            "Subtitle": null,
+            "case_of_study": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "title": "Viva App delivers eficiency!",
+                  "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions. ",
+                  "primaryColor": "cases-viva",
+                  "secondaryColor": "capa-secondary",
+                  "createdAt": "2022-08-19T15:15:34.095Z",
+                  "updatedAt": "2022-08-19T15:16:13.168Z",
+                  "publishedAt": "2022-08-19T15:15:36.577Z",
+                  "portfolioTitle": null,
+                  "portfolioDescription": null,
+                  "portfolioDataOfInterest": null,
+                  "image": {
                     "data": {
-                        "id": 6,
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 977,
+                        "height": 673,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaApp.png",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }],
+          "block": {
+            "id": 37,
+            "subtitle": null,
+            "textOrientation": null,
+            "title": "We",
+            "contentType": null,
+            "primaryColor": null,
+            "secondaryColor": null,
+            "featured": null,
+            "displayName": "We"
+          }
+        },
+        {
+          "id": 1,
+          "__component": "highlights.highlights",
+          "cases": [{
+              "id": 3,
+              "Title": "Leading",
+              "Subtitle": "Recognized as a leading Latam software company.",
+              "case_of_study": {
+                "data": {
+                  "id": 2,
+                  "attributes": {
+                    "title": "Cancerbuddy App is leading connection!",
+                    "caseDescription": "Prevue leads the virtual tours!",
+                    "primaryColor": "cases-cancer-buddy",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T15:41:14.198Z",
+                    "updatedAt": "2022-08-19T15:43:23.634Z",
+                    "publishedAt": "2022-08-19T15:43:23.633Z",
+                    "portfolioTitle": null,
+                    "portfolioDescription": null,
+                    "portfolioDataOfInterest": null,
+                    "image": {
+                      "data": {
+                        "id": 1,
                         "attributes": {
-                            "name": "Umvel Logotype.png",
-                            "alternativeText": "Umvel Logotype.png",
-                            "caption": "Umvel Logotype.png",
-                            "width": 32,
-                            "height": 32,
+                          "name": "Viva Aerobus Logo.png",
+                          "alternativeText": "Viva Aerobus Logo.png",
+                          "caption": "Viva Aerobus Logotype.png",
+                          "width": 977,
+                          "height": 673,
+                          "formats": null,
+                          "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                          "ext": ".svg",
+                          "mime": "image/png",
+                          "size": 0.42,
+                          "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DBMCF.png",
+                          "previewUrl": null,
+                          "provider": "local",
+                          "provider_metadata": null,
+                          "createdAt": "2022-08-19T15:35:22.751Z",
+                          "updatedAt": "2022-08-19T15:35:22.751Z"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "id": 4,
+              "Title": "150+ Umvellers",
+              "Subtitle": "We are 150+ professionals strong.",
+              "case_of_study": {
+                "data": {
+                  "id": 3,
+                  "attributes": {
+                    "title": "Viva Website was created by 20+ Umvellers!",
+                    "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
+                    "primaryColor": "cases-viva",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T15:42:33.448Z",
+                    "updatedAt": "2022-08-19T15:43:20.709Z",
+                    "publishedAt": "2022-08-19T15:43:20.707Z",
+                    "portfolioTitle": null,
+                    "portfolioDescription": null,
+                    "portfolioDataOfInterest": null,
+                    "image": {
+                      "data": {
+                        "id": 1,
+                        "attributes": {
+                          "name": "Viva Aerobus Logo.png",
+                          "alternativeText": "Viva Aerobus Logo.png",
+                          "caption": "Viva Aerobus Logotype.png",
+                          "width": 977,
+                          "height": 673,
+                          "formats": null,
+                          "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                          "ext": ".svg",
+                          "mime": "image/png",
+                          "size": 0.42,
+                          "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg",
+                          "previewUrl": null,
+                          "provider": "local",
+                          "provider_metadata": null,
+                          "createdAt": "2022-08-19T15:35:22.751Z",
+                          "updatedAt": "2022-08-19T15:35:22.751Z"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "id": 5,
+              "Title": "3 Continents",
+              "Subtitle": "We are present in America, Europe and Asia.",
+              "case_of_study": {
+                "data": {
+                  "id": 4,
+                  "attributes": {
+                    "title": "Food Central App thinks in customer satisfaction!",
+                    "caseDescription": "Food Central App thinks in customer satisfaction!",
+                    "primaryColor": "cases-food-central",
+                    "secondaryColor": null,
+                    "createdAt": "2022-08-19T15:43:13.839Z",
+                    "updatedAt": "2022-08-19T15:43:16.728Z",
+                    "publishedAt": "2022-08-19T15:43:16.726Z",
+                    "portfolioTitle": null,
+                    "portfolioDescription": null,
+                    "portfolioDataOfInterest": null,
+                    "image": {
+                      "data": {
+                        "id": 1,
+                        "attributes": {
+                          "name": "Viva Aerobus Logo.png",
+                          "alternativeText": "Viva Aerobus Logo.png",
+                          "caption": "Viva Aerobus Logotype.png",
+                          "width": 977,
+                          "height": 673,
+                          "formats": null,
+                          "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                          "ext": ".svg",
+                          "mime": "image/png",
+                          "size": 0.42,
+                          "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/image%204.png",
+                          "previewUrl": null,
+                          "provider": "local",
+                          "provider_metadata": null,
+                          "createdAt": "2022-08-19T15:35:22.751Z",
+                          "updatedAt": "2022-08-19T15:35:22.751Z"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "__component": "scroll-interaction.scroll-interaction",
+          "ScrollInteraction": null,
+          "step": [{
+              "id": 1,
+              "right": {
+                "id": 1,
+                "identifier": "**We partner with organizations that are on a quest for business breakthroughs and transformation. **",
+                "text": "**We partner with organizations that are on a quest for business breakthroughs and transformation. **"
+              },
+              "left": {
+                "id": 1,
+                "identifier": "Making the impossible, possible.",
+                "text": "Making the impossible, possible."
+              }
+            },
+            {
+              "id": 2,
+              "right": {
+                "id": 2,
+                "identifier": "We partner with organizations that are on a quest for business breakthroughs and transformation. ",
+                "text": "We partner with organizations that are on a quest for business breakthroughs and transformation. "
+              },
+              "left": {
+                "id": 2,
+                "identifier": "Making **the impossible**, possible.",
+                "text": "Making **the impossible**, possible."
+              }
+            },
+            {
+              "id": 3,
+              "right": {
+                "id": 3,
+                "identifier": "**Bold ideas require fearless partners, who don’t take shortcuts in getting to the finish line. **",
+                "text": "**Bold ideas require fearless partners, who don’t take shortcuts in getting to the finish line. **"
+              },
+              "left": {
+                "id": 3,
+                "identifier": "Makingthe impossible,",
+                "text": "Makingthe impossible,"
+              }
+            },
+            {
+              "id": 4,
+              "right": {
+                "id": 4,
+                "identifier": "**Start your journey with us, and we’ll make sure to make your idea real.**",
+                "text": "**Start your journey with us, and we’ll make sure to make your idea real.**"
+              },
+              "left": {
+                "id": 4,
+                "identifier": "**Making it possible.**",
+                "text": "**Making it possible.**"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "__component": "portfolio.portfolio",
+          "caseSelector": {
+            "id": 1,
+            "title": "If you can dream it, we can make it.",
+            "selector": {
+              "id": 1,
+              "case_of_studies": {
+                "data": [{
+                    "id": 1,
+                    "attributes": {
+                      "title": "Viva Aerobus",
+                      "caseDescription": "We reimagined what the digital experience for a large-scale airline could look & feel like.",
+                      "primaryColor": "cases-viva",
+                      "secondaryColor": null,
+                      "createdAt": "2022-08-19T16:08:15.067Z",
+                      "updatedAt": "2022-08-19T16:14:58.233Z",
+                      "publishedAt": "2022-08-19T16:10:38.202Z",
+                      "portfolioTitle": "Viva Aerobus",
+                      "portfolioDescription": "Helping a Mexican titan to increase sales up to 20% We reimagined what the digital experience for a large-scale airline could look & feel like.",
+                      "portfolioDataOfInterest": "1,000,000 + \nUsers",
+                      "image": {
+                        "data": {
+                          "id": 1,
+                          "attributes": {
+                            "name": "Viva Aerobus Logo.png",
+                            "alternativeText": "Viva Aerobus Logo.png",
+                            "caption": "Viva Aerobus Logotype.png",
+                            "width": 977,
+                            "height": 673,
                             "formats": null,
-                            "hash": "Umvel_Logotype_c2f08b71ea",
-                            "ext": ".png",
+                            "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                            "ext": ".svg",
                             "mime": "image/png",
                             "size": 0.42,
-                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Variant%3DIsotype.svg",
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
                             "previewUrl": null,
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
                             "updatedAt": "2022-08-19T15:35:22.751Z"
+                          }
                         }
+                      }
                     }
-                },
-                "links": [{
-                        "id": 1,
-                        "name": "Our work",
-                        "link": "our-work",
-                        "type": "link"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Our Offering",
-                        "link": "our-offering",
-                        "type": "link"
-                    },
-                    {
-                        "id": 4,
-                        "name": "About us",
-                        "link": "about-us",
-                        "type": "link"
-                    },
-                    {
-                        "id": 6,
-                        "name": "Let's talk!",
-                        "link": "lets-talk",
-                        "type": "button"
-                    }
-                ],
-                "cases": [{
-                        "id": 0,
-                        "title": "null",
-                        "backgroundColor": "cases-viva",
-                        "image": null
-                    },
-                    {
-                        "id": 1,
-                        "title": null,
-                        "backgroundColor": "cases-campaign",
-                        "image": null
-                    },
-                    {
-                        "id": 2,
-                        "title": null,
-                        "backgroundColor": "cases-oeio",
-                        "image": null
-                    },
-                    {
-                        "id": 3,
-                        "title": null,
-                        "backgroundColor": "cases-argo",
-                        "image": null
-                    },
-                    {
-                        "id": 4,
-                        "title": "CancerBuddy App",
-                        "backgroundColor": "cases-cancer-buddy",
-                        "image": {
-                            "data": {
-                                "id": 1,
-                                "attributes": {
-                                    "name": "Viva Aerobus Logo.png",
-                                    "alternativeText": "Viva Aerobus Logo.png",
-                                    "caption": "Viva Aerobus Logotype.png",
-                                    "width": 500,
-                                    "height": 500,
-                                    "formats": null,
-                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                    "ext": ".svg",
-                                    "mime": "image/png",
-                                    "size": 0.42,
-                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DBMCF.png",
-                                    "previewUrl": null,
-                                    "provider": "local",
-                                    "provider_metadata": null,
-                                    "createdAt": "2022-08-19T15:35:22.751Z",
-                                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                                }
-                            }
+                  },
+                  {
+                    "id": 2,
+                    "attributes": {
+                      "title": "Capa delivers efficiency!",
+                      "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions.",
+                      "primaryColor": "cases-capa",
+                      "secondaryColor": null,
+                      "createdAt": "2022-08-19T15:15:34.095Z",
+                      "updatedAt": "2022-08-19T15:16:13.168Z",
+                      "publishedAt": "2022-08-19T15:15:36.577Z",
+                      "portfolioTitle": null,
+                      "portfolioDescription": null,
+                      "portfolioDataOfInterest": null,
+                      "image": {
+                        "data": {
+                          "id": 1,
+                          "attributes": {
+                            "name": "Viva Aerobus Logo.png",
+                            "alternativeText": "Viva Aerobus Logo.png",
+                            "caption": "Viva Aerobus Logotype.png",
+                            "width": 977,
+                            "height": 673,
+                            "formats": null,
+                            "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                            "ext": ".svg",
+                            "mime": "image/png",
+                            "size": 0.42,
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-19T15:35:22.751Z",
+                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                          }
                         }
-                    },
-                    {
-                        "id": 5,
-                        "title": null,
-                        "backgroundColor": "cases-campaign",
-                        "image": null
-                    },
-                    {
-                        "id": 6,
-                        "title": null,
-                        "backgroundColor": "cases-food-central",
-                        "image": null
-                    },
-                    {
-                        "id": 7,
-                        "title": null,
-                        "backgroundColor": "cases-buyback",
-                        "image": null
-                    },
-                    {
-                        "id": 8,
-                        "title": null,
-                        "backgroundColor": "cases-food-central",
-                        "image": null
+                      }
                     }
+                  },
+                  {
+                    "id": 3,
+                    "attributes": {
+                      "title": "Prevue leads the virtual tours!",
+                      "caseDescription": "Prevue leads the virtual tours!",
+                      "primaryColor": "cases-prevue",
+                      "secondaryColor": null,
+                      "createdAt": "2022-08-19T15:41:14.198Z",
+                      "updatedAt": "2022-08-19T15:43:23.634Z",
+                      "publishedAt": "2022-08-19T15:43:23.633Z",
+                      "portfolioTitle": null,
+                      "portfolioDescription": null,
+                      "portfolioDataOfInterest": null,
+                      "image": {
+                        "data": {
+                          "id": 1,
+                          "attributes": {
+                            "name": "cancer buddy.png",
+                            "alternativeText": "Cancer Buddy.png",
+                            "caption": "CancerBuddyMockup.png",
+                            "width": 977,
+                            "height": 673,
+                            "formats": null,
+                            "hash": "CancerBuddy_Logotype_c2f08b71ea",
+                            "ext": ".svg",
+                            "mime": "image/png",
+                            "size": 0.42,
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-19T15:35:22.751Z",
+                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 4,
+                    "attributes": {
+                      "title": "Campaign-Centric was created by 17 Umvellers!",
+                      "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
+                      "primaryColor": "cases-campaign",
+                      "secondaryColor": null,
+                      "createdAt": "2022-08-19T15:42:33.448Z",
+                      "updatedAt": "2022-08-19T15:43:20.709Z",
+                      "publishedAt": "2022-08-19T15:43:20.707Z",
+                      "portfolioTitle": null,
+                      "portfolioDescription": null,
+                      "portfolioDataOfInterest": null,
+                      "image": {
+                        "data": {
+                          "id": 1,
+                          "attributes": {
+                            "name": "Viva Aerobus Logo.png",
+                            "alternativeText": "Viva Aerobus Logo.png",
+                            "caption": "Viva Aerobus Logotype.png",
+                            "width": 977,
+                            "height": 673,
+                            "formats": null,
+                            "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                            "ext": ".svg",
+                            "mime": "image/png",
+                            "size": 0.42,
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-19T15:35:22.751Z",
+                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 5,
+                    "attributes": {
+                      "title": "ARGO helps people of all continents!",
+                      "caseDescription": "ARGO helps people of all continents!",
+                      "primaryColor": "cases-argo",
+                      "secondaryColor": null,
+                      "createdAt": "2022-08-19T15:43:13.839Z",
+                      "updatedAt": "2022-08-19T15:43:16.728Z",
+                      "publishedAt": "2022-08-19T15:43:16.726Z",
+                      "portfolioTitle": null,
+                      "portfolioDescription": null,
+                      "portfolioDataOfInterest": null,
+                      "image": {
+                        "data": {
+                          "id": 1,
+                          "attributes": {
+                            "name": "cancer buddy.png",
+                            "alternativeText": "Cancer Buddy.png",
+                            "caption": "CancerBuddyMockup.png",
+                            "width": 977,
+                            "height": 673,
+                            "formats": null,
+                            "hash": "CancerBuddy_Logotype_c2f08b71ea",
+                            "ext": ".svg",
+                            "mime": "image/png",
+                            "size": 0.42,
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-19T15:35:22.751Z",
+                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                          }
+                        }
+                      }
+                    }
+                  }
                 ]
+              }
+            }
+          }
+        },
+        {
+          "id": 2,
+          "__component": "scroll-interaction.scroll-interaction",
+          "ScrollInteraction": null,
+          "step": [{
+              "id": 5,
+              "right": {
+                "id": 5,
+                "identifier": "**A sound process \nfor crafting solid platforms.**",
+                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
+              },
+              "left": {
+                "id": 5,
+                "identifier": "Define business and brand strategy.",
+                "text": "Define business and brand strategy."
+              }
             },
-            "body": [{
-                    "id": 2,
-                    "__component": "heading.heading",
-                    "caseOfStudy": [{
-                        "id": 2,
-                        "Title": "Seamlessly deliver value",
-                        "Subtitle": null,
-                        "case_of_study": {
-                            "data": {
-                                "id": 1,
-                                "attributes": {
-                                    "title": "Viva App delivers eficiency!",
-                                    "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions. ",
-                                    "primaryColor": "cases-viva",
-                                    "secondaryColor": "capa-secondary",
-                                    "createdAt": "2022-08-19T15:15:34.095Z",
-                                    "updatedAt": "2022-08-19T15:16:13.168Z",
-                                    "publishedAt": "2022-08-19T15:15:36.577Z",
-                                    "portfolioTitle": null,
-                                    "portfolioDescription": null,
-                                    "portfolioDataOfInterest": null,
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 977,
-                                                "height": 673,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaApp.png",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }],
-                    "block": {
-                        "id": 37,
-                        "subtitle": null,
-                        "textOrientation": null,
-                        "title": "We",
-                        "contentType": null,
-                        "primaryColor": null,
-                        "secondaryColor": null,
-                        "featured": null,
-                        "displayName": "We"
+            {
+              "id": 6,
+              "right": {
+                "id": 6,
+                "identifier": "**A sound process \nfor crafting solid platforms.**",
+                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
+              },
+              "left": {
+                "id": 6,
+                "identifier": "Design, build and deploy an MVP.",
+                "text": "Design, build and deploy an MVP."
+              }
+            },
+            {
+              "id": 7,
+              "right": {
+                "id": 7,
+                "identifier": "**A sound process \nfor crafting solid platforms.**",
+                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
+              },
+              "left": {
+                "id": 7,
+                "identifier": "End-to-end product development.",
+                "text": "End-to-end product development."
+              }
+            },
+            {
+              "id": 8,
+              "right": {
+                "id": 8,
+                "identifier": "A sound process \nfor crafting solid platforms.",
+                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
+              },
+              "left": {
+                "id": 8,
+                "identifier": null,
+                "text": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "__component": "quotes.quote-grid",
+          "quote": [{
+              "id": 1,
+              "title": "ECRI",
+              "hoverDescription": "“I feel like we’re going to a psychologist for our business with every meeting”",
+              "hoverClientName": "Economic Cycle Research Institute",
+              "hoverClientHeading": "Economic Cycle Research Institute",
+              "callToAction": null,
+              "backgroundColor": "cases-ecri"
+            },
+            {
+              "id": 2,
+              "title": "Cancer Buddy",
+              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+              "hoverClientName": "Cancer App",
+              "hoverClientHeading": "Cancer App",
+              "callToAction": null,
+              "backgroundColor": "cases-cancer-buddy",
+              "primaryColor": "black"
+            },
+            {
+              "id": 3,
+              "title": "Smart Walk",
+              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+              "hoverClientName": "Virtual Tools",
+              "hoverClientHeading": "Virtual Tools",
+              "callToAction": null,
+              "backgroundColor": "cases-smart-walk"
+            },
+            {
+              "id": 4,
+              "title": "Viva Aerobus",
+              "hoverDescription": "“Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.”",
+              "hoverClientName": "National Airline",
+              "hoverClientHeading": "National Airline",
+              "callToAction": null,
+              "backgroundColor": "cases-viva"
+            },
+            {
+              "id": 5,
+              "title": "OEIO",
+              "hoverDescription": "“The Umvel team was very quick and on time with everything.”",
+              "hoverClientName": "Wellness App",
+              "hoverClientHeading": "Wellness App",
+              "callToAction": null,
+              "backgroundColor": "cases-oeio"
+            },
+            {
+              "id": 6,
+              "title": "OEIO",
+              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+              "hoverClientName": "Wellness",
+              "hoverClientHeading": "Wellness",
+              "callToAction": null,
+              "backgroundColor": "cases-prevue"
+            },
+            {
+              "id": 7,
+              "title": "Capa",
+              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+              "hoverClientName": "Real State",
+              "hoverClientHeading": "Real State",
+              "callToAction": null,
+              "backgroundColor": "cases-capa"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "__component": "clients.clients",
+          "title": "Clients we’re proud to work with.",
+          "subtitle": "We’ve done it before.",
+          "clients": {
+            "data": [{
+                "id": 1,
+                "attributes": {
+                  "name": "Viva Aerobus",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-17T21:43:39.559Z",
+                  "updatedAt": "2022-08-19T17:03:40.929Z",
+                  "publishedAt": "2022-08-17T21:44:21.432Z",
+                  "slug": "viva-erobus",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
                     }
-                },
-                {
-                    "id": 1,
-                    "__component": "highlights.highlights",
-                    "cases": [{
-                            "id": 3,
-                            "Title": "Leading",
-                            "Subtitle": "Recognized as a leading Latam software company.",
-                            "case_of_study": {
-                                "data": {
-                                    "id": 2,
-                                    "attributes": {
-                                        "title": "Cancerbuddy App is leading connection!",
-                                        "caseDescription": "Prevue leads the virtual tours!",
-                                        "primaryColor": "cases-cancer-buddy",
-                                        "secondaryColor": null,
-                                        "createdAt": "2022-08-19T15:41:14.198Z",
-                                        "updatedAt": "2022-08-19T15:43:23.634Z",
-                                        "publishedAt": "2022-08-19T15:43:23.633Z",
-                                        "portfolioTitle": null,
-                                        "portfolioDescription": null,
-                                        "portfolioDataOfInterest": null,
-                                        "image": {
-                                            "data": {
-                                                "id": 1,
-                                                "attributes": {
-                                                    "name": "Viva Aerobus Logo.png",
-                                                    "alternativeText": "Viva Aerobus Logo.png",
-                                                    "caption": "Viva Aerobus Logotype.png",
-                                                    "width": 977,
-                                                    "height": 673,
-                                                    "formats": null,
-                                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                    "ext": ".svg",
-                                                    "mime": "image/png",
-                                                    "size": 0.42,
-                                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DBMCF.png",
-                                                    "previewUrl": null,
-                                                    "provider": "local",
-                                                    "provider_metadata": null,
-                                                    "createdAt": "2022-08-19T15:35:22.751Z",
-                                                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "id": 4,
-                            "Title": "150+ Umvellers",
-                            "Subtitle": "We are 150+ professionals strong.",
-                            "case_of_study": {
-                                "data": {
-                                    "id": 3,
-                                    "attributes": {
-                                        "title": "Viva Website was created by 20+ Umvellers!",
-                                        "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
-                                        "primaryColor": "cases-viva",
-                                        "secondaryColor": null,
-                                        "createdAt": "2022-08-19T15:42:33.448Z",
-                                        "updatedAt": "2022-08-19T15:43:20.709Z",
-                                        "publishedAt": "2022-08-19T15:43:20.707Z",
-                                        "portfolioTitle": null,
-                                        "portfolioDescription": null,
-                                        "portfolioDataOfInterest": null,
-                                        "image": {
-                                            "data": {
-                                                "id": 1,
-                                                "attributes": {
-                                                    "name": "Viva Aerobus Logo.png",
-                                                    "alternativeText": "Viva Aerobus Logo.png",
-                                                    "caption": "Viva Aerobus Logotype.png",
-                                                    "width": 977,
-                                                    "height": 673,
-                                                    "formats": null,
-                                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                    "ext": ".svg",
-                                                    "mime": "image/png",
-                                                    "size": 0.42,
-                                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg",
-                                                    "previewUrl": null,
-                                                    "provider": "local",
-                                                    "provider_metadata": null,
-                                                    "createdAt": "2022-08-19T15:35:22.751Z",
-                                                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "id": 5,
-                            "Title": "3 Continents",
-                            "Subtitle": "We are present in America, Europe and Asia.",
-                            "case_of_study": {
-                                "data": {
-                                    "id": 4,
-                                    "attributes": {
-                                        "title": "Food Central App thinks in customer satisfaction!",
-                                        "caseDescription": "Food Central App thinks in customer satisfaction!",
-                                        "primaryColor": "cases-food-central",
-                                        "secondaryColor": null,
-                                        "createdAt": "2022-08-19T15:43:13.839Z",
-                                        "updatedAt": "2022-08-19T15:43:16.728Z",
-                                        "publishedAt": "2022-08-19T15:43:16.726Z",
-                                        "portfolioTitle": null,
-                                        "portfolioDescription": null,
-                                        "portfolioDataOfInterest": null,
-                                        "image": {
-                                            "data": {
-                                                "id": 1,
-                                                "attributes": {
-                                                    "name": "Viva Aerobus Logo.png",
-                                                    "alternativeText": "Viva Aerobus Logo.png",
-                                                    "caption": "Viva Aerobus Logotype.png",
-                                                    "width": 977,
-                                                    "height": 673,
-                                                    "formats": null,
-                                                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                    "ext": ".svg",
-                                                    "mime": "image/png",
-                                                    "size": 0.42,
-                                                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/image%204.png",
-                                                    "previewUrl": null,
-                                                    "provider": "local",
-                                                    "provider_metadata": null,
-                                                    "createdAt": "2022-08-19T15:35:22.751Z",
-                                                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "__component": "scroll-interaction.scroll-interaction",
-                    "ScrollInteraction": null,
-                    "step": [{
-                            "id": 1,
-                            "right": {
-                                "id": 1,
-                                "identifier": "**We partner with organizations that are on a quest for business breakthroughs and transformation. **",
-                                "text": "**We partner with organizations that are on a quest for business breakthroughs and transformation. **"
-                            },
-                            "left": {
-                                "id": 1,
-                                "identifier": "Making the impossible, possible.",
-                                "text": "Making the impossible, possible."
-                            }
-                        },
-                        {
-                            "id": 2,
-                            "right": {
-                                "id": 2,
-                                "identifier": "We partner with organizations that are on a quest for business breakthroughs and transformation. ",
-                                "text": "We partner with organizations that are on a quest for business breakthroughs and transformation. "
-                            },
-                            "left": {
-                                "id": 2,
-                                "identifier": "Making **the impossible**, possible.",
-                                "text": "Making **the impossible**, possible."
-                            }
-                        },
-                        {
-                            "id": 3,
-                            "right": {
-                                "id": 3,
-                                "identifier": "**Bold ideas require fearless partners, who don’t take shortcuts in getting to the finish line. **",
-                                "text": "**Bold ideas require fearless partners, who don’t take shortcuts in getting to the finish line. **"
-                            },
-                            "left": {
-                                "id": 3,
-                                "identifier": "Makingthe impossible,",
-                                "text": "Makingthe impossible,"
-                            }
-                        },
-                        {
-                            "id": 4,
-                            "right": {
-                                "id": 4,
-                                "identifier": "**Start your journey with us, and we’ll make sure to make your idea real.**",
-                                "text": "**Start your journey with us, and we’ll make sure to make your idea real.**"
-                            },
-                            "left": {
-                                "id": 4,
-                                "identifier": "**Making it possible.**",
-                                "text": "**Making it possible.**"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "__component": "portfolio.portfolio",
-                    "caseSelector": {
-                        "id": 1,
-                        "title": "If you can dream it, we can make it.",
-                        "selector": {
-                            "id": 1,
-                            "case_of_studies": {
-                                "data": [{
-                                        "id": 1,
-                                        "attributes": {
-                                            "title": "Viva Aerobus",
-                                            "caseDescription": "We reimagined what the digital experience for a large-scale airline could look & feel like.",
-                                            "primaryColor": "cases-viva",
-                                            "secondaryColor": null,
-                                            "createdAt": "2022-08-19T16:08:15.067Z",
-                                            "updatedAt": "2022-08-19T16:14:58.233Z",
-                                            "publishedAt": "2022-08-19T16:10:38.202Z",
-                                            "portfolioTitle": "Viva Aerobus",
-                                            "portfolioDescription": "Helping a Mexican titan to increase sales up to 20% We reimagined what the digital experience for a large-scale airline could look & feel like.",
-                                            "portfolioDataOfInterest": "1,000,000 + \nUsers",
-                                            "image": {
-                                                "data": {
-                                                    "id": 1,
-                                                    "attributes": {
-                                                        "name": "Viva Aerobus Logo.png",
-                                                        "alternativeText": "Viva Aerobus Logo.png",
-                                                        "caption": "Viva Aerobus Logotype.png",
-                                                        "width": 977,
-                                                        "height": 673,
-                                                        "formats": null,
-                                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                        "ext": ".svg",
-                                                        "mime": "image/png",
-                                                        "size": 0.42,
-                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
-                                                        "previewUrl": null,
-                                                        "provider": "local",
-                                                        "provider_metadata": null,
-                                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": 2,
-                                        "attributes": {
-                                            "title": "Capa delivers efficiency!",
-                                            "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions.",
-                                            "primaryColor": "cases-capa",
-                                            "secondaryColor": null,
-                                            "createdAt": "2022-08-19T15:15:34.095Z",
-                                            "updatedAt": "2022-08-19T15:16:13.168Z",
-                                            "publishedAt": "2022-08-19T15:15:36.577Z",
-                                            "portfolioTitle": null,
-                                            "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null,
-                                            "image": {
-                                                "data": {
-                                                    "id": 1,
-                                                    "attributes": {
-                                                        "name": "Viva Aerobus Logo.png",
-                                                        "alternativeText": "Viva Aerobus Logo.png",
-                                                        "caption": "Viva Aerobus Logotype.png",
-                                                        "width": 977,
-                                                        "height": 673,
-                                                        "formats": null,
-                                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                        "ext": ".svg",
-                                                        "mime": "image/png",
-                                                        "size": 0.42,
-                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
-                                                        "previewUrl": null,
-                                                        "provider": "local",
-                                                        "provider_metadata": null,
-                                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": 3,
-                                        "attributes": {
-                                            "title": "Prevue leads the virtual tours!",
-                                            "caseDescription": "Prevue leads the virtual tours!",
-                                            "primaryColor": "cases-prevue",
-                                            "secondaryColor": null,
-                                            "createdAt": "2022-08-19T15:41:14.198Z",
-                                            "updatedAt": "2022-08-19T15:43:23.634Z",
-                                            "publishedAt": "2022-08-19T15:43:23.633Z",
-                                            "portfolioTitle": null,
-                                            "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null,
-                                            "image": {
-                                                "data": {
-                                                    "id": 1,
-                                                    "attributes": {
-                                                        "name": "cancer buddy.png",
-                                                        "alternativeText": "Cancer Buddy.png",
-                                                        "caption": "CancerBuddyMockup.png",
-                                                        "width": 977,
-                                                        "height": 673,
-                                                        "formats": null,
-                                                        "hash": "CancerBuddy_Logotype_c2f08b71ea",
-                                                        "ext": ".svg",
-                                                        "mime": "image/png",
-                                                        "size": 0.42,
-                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.svg",
-                                                        "previewUrl": null,
-                                                        "provider": "local",
-                                                        "provider_metadata": null,
-                                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": 4,
-                                        "attributes": {
-                                            "title": "Campaign-Centric was created by 17 Umvellers!",
-                                            "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
-                                            "primaryColor": "cases-campaign",
-                                            "secondaryColor": null,
-                                            "createdAt": "2022-08-19T15:42:33.448Z",
-                                            "updatedAt": "2022-08-19T15:43:20.709Z",
-                                            "publishedAt": "2022-08-19T15:43:20.707Z",
-                                            "portfolioTitle": null,
-                                            "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null,
-                                            "image": {
-                                                "data": {
-                                                    "id": 1,
-                                                    "attributes": {
-                                                        "name": "Viva Aerobus Logo.png",
-                                                        "alternativeText": "Viva Aerobus Logo.png",
-                                                        "caption": "Viva Aerobus Logotype.png",
-                                                        "width": 977,
-                                                        "height": 673,
-                                                        "formats": null,
-                                                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                        "ext": ".svg",
-                                                        "mime": "image/png",
-                                                        "size": 0.42,
-                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DDefault.svg",
-                                                        "previewUrl": null,
-                                                        "provider": "local",
-                                                        "provider_metadata": null,
-                                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": 5,
-                                        "attributes": {
-                                            "title": "ARGO helps people of all continents!",
-                                            "caseDescription": "ARGO helps people of all continents!",
-                                            "primaryColor": "cases-argo",
-                                            "secondaryColor": null,
-                                            "createdAt": "2022-08-19T15:43:13.839Z",
-                                            "updatedAt": "2022-08-19T15:43:16.728Z",
-                                            "publishedAt": "2022-08-19T15:43:16.726Z",
-                                            "portfolioTitle": null,
-                                            "portfolioDescription": null,
-                                            "portfolioDataOfInterest": null,
-                                            "image": {
-                                                "data": {
-                                                    "id": 1,
-                                                    "attributes": {
-                                                        "name": "cancer buddy.png",
-                                                        "alternativeText": "Cancer Buddy.png",
-                                                        "caption": "CancerBuddyMockup.png",
-                                                        "width": 977,
-                                                        "height": 673,
-                                                        "formats": null,
-                                                        "hash": "CancerBuddy_Logotype_c2f08b71ea",
-                                                        "ext": ".svg",
-                                                        "mime": "image/png",
-                                                        "size": 0.42,
-                                                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Property%201%3DCancer.svg",
-                                                        "previewUrl": null,
-                                                        "provider": "local",
-                                                        "provider_metadata": null,
-                                                        "createdAt": "2022-08-19T15:35:22.751Z",
-                                                        "updatedAt": "2022-08-19T15:35:22.751Z"
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "__component": "scroll-interaction.scroll-interaction",
-                    "ScrollInteraction": null,
-                    "step": [{
-                            "id": 5,
-                            "right": {
-                                "id": 5,
-                                "identifier": "**A sound process \nfor crafting solid platforms.**",
-                                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
-                            },
-                            "left": {
-                                "id": 5,
-                                "identifier": "Define business and brand strategy.",
-                                "text": "Define business and brand strategy."
-                            }
-                        },
-                        {
-                            "id": 6,
-                            "right": {
-                                "id": 6,
-                                "identifier": "**A sound process \nfor crafting solid platforms.**",
-                                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
-                            },
-                            "left": {
-                                "id": 6,
-                                "identifier": "Design, build and deploy an MVP.",
-                                "text": "Design, build and deploy an MVP."
-                            }
-                        },
-                        {
-                            "id": 7,
-                            "right": {
-                                "id": 7,
-                                "identifier": "**A sound process \nfor crafting solid platforms.**",
-                                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
-                            },
-                            "left": {
-                                "id": 7,
-                                "identifier": "End-to-end product development.",
-                                "text": "End-to-end product development."
-                            }
-                        },
-                        {
-                            "id": 8,
-                            "right": {
-                                "id": 8,
-                                "identifier": "A sound process \nfor crafting solid platforms.",
-                                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
-                            },
-                            "left": {
-                                "id": 8,
-                                "identifier": null,
-                                "text": null
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "__component": "quotes.quote-grid",
-                    "quote": [{
-                            "id": 1,
-                            "title": "ECRI",
-                            "hoverDescription": "“I feel like we’re going to a psychologist for our business with every meeting”",
-                            "hoverClientName": "Economic Cycle Research Institute",
-                            "hoverClientHeading": "Economic Cycle Research Institute",
-                            "callToAction": null,
-                            "backgroundColor": "cases-ecri"
-                        },
-                        {
-                            "id": 2,
-                            "title": "Cancer Buddy",
-                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
-                            "hoverClientName": "Cancer App",
-                            "hoverClientHeading": "Cancer App",
-                            "callToAction": null,
-                            "backgroundColor": "cases-cancer-buddy",
-                            "primaryColor": "black"
-                        },
-                        {
-                            "id": 3,
-                            "title": "Smart Walk",
-                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
-                            "hoverClientName": "Virtual Tools",
-                            "hoverClientHeading": "Virtual Tools",
-                            "callToAction": null,
-                            "backgroundColor": "cases-smart-walk"
-                        },
-                        {
-                            "id": 4,
-                            "title": "Viva Aerobus",
-                            "hoverDescription": "“Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.”",
-                            "hoverClientName": "National Airline",
-                            "hoverClientHeading": "National Airline",
-                            "callToAction": null,
-                            "backgroundColor": "cases-viva"
-                        },
-                        {
-                            "id": 5,
-                            "title": "OEIO",
-                            "hoverDescription": "“The Umvel team was very quick and on time with everything.”",
-                            "hoverClientName": "Wellness App",
-                            "hoverClientHeading": "Wellness App",
-                            "callToAction": null,
-                            "backgroundColor": "cases-oeio"
-                        },
-                        {
-                            "id": 6,
-                            "title": "OEIO",
-                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
-                            "hoverClientName": "Wellness",
-                            "hoverClientHeading": "Wellness",
-                            "callToAction": null,
-                            "backgroundColor": "cases-prevue"
-                        },
-                        {
-                            "id": 7,
-                            "title": "Capa",
-                            "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
-                            "hoverClientName": "Real State",
-                            "hoverClientHeading": "Real State",
-                            "callToAction": null,
-                            "backgroundColor": "cases-capa"
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "__component": "clients.clients",
-                    "title": "Clients we’re proud to work with.",
-                    "subtitle": "We’ve done it before.",
-                    "clients": {
-                        "data": [{
-                                "id": 1,
-                                "attributes": {
-                                    "name": "Viva Aerobus",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-17T21:43:39.559Z",
-                                    "updatedAt": "2022-08-19T17:03:40.929Z",
-                                    "publishedAt": "2022-08-17T21:44:21.432Z",
-                                    "slug": "viva-erobus",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 3,
-                                "attributes": {
-                                    "name": "Grupo Gigante",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-19T16:51:39.616Z",
-                                    "updatedAt": "2022-08-19T16:53:16.712Z",
-                                    "publishedAt": "2022-08-19T16:53:16.710Z",
-                                    "slug": "grupo-gigante",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 4,
-                                "attributes": {
-                                    "name": "Dentsu",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-19T16:51:47.254Z",
-                                    "updatedAt": "2022-08-19T16:53:21.418Z",
-                                    "publishedAt": "2022-08-19T16:53:21.417Z",
-                                    "slug": "dentsu",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 5,
-                                "attributes": {
-                                    "name": "Cinemex",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-19T16:51:54.906Z",
-                                    "updatedAt": "2022-08-19T16:53:24.890Z",
-                                    "publishedAt": "2022-08-19T16:53:24.888Z",
-                                    "slug": "cinemex",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 6,
-                                "attributes": {
-                                    "name": "Arrivia",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-19T16:52:02.622Z",
-                                    "updatedAt": "2022-08-19T16:53:28.624Z",
-                                    "publishedAt": "2022-08-19T16:53:28.623Z",
-                                    "slug": "arrivia",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 7,
-                                "attributes": {
-                                    "name": "Seguros Mundial",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-19T16:52:18.207Z",
-                                    "updatedAt": "2022-08-19T16:53:31.661Z",
-                                    "publishedAt": "2022-08-19T16:53:31.660Z",
-                                    "slug": "seguros-mundial",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_seguros_mundial.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 8,
-                                "attributes": {
-                                    "name": "ECRI",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-19T16:52:26.258Z",
-                                    "updatedAt": "2022-08-19T16:53:34.859Z",
-                                    "publishedAt": "2022-08-19T16:53:34.859Z",
-                                    "slug": "ecri",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 9,
-                                "attributes": {
-                                    "name": "Planet Buyback",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-19T16:52:36.891Z",
-                                    "updatedAt": "2022-08-19T16:52:37.523Z",
-                                    "publishedAt": "2022-08-19T16:52:37.521Z",
-                                    "slug": "planet-buyback",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Planet Buyback.gif",
-                                                "alternativeText": "Planet Buyback.gif",
-                                                "caption": "Planet Buyback.gif",
-                                                "width": 472,
-                                                "height": 472,
-                                                "formats": null,
-                                                "hash": "Planet_Buyback_Animation_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/gif",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_planet_buyback.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": 2,
-                                "attributes": {
-                                    "name": "Bone Marrow",
-                                    "backgroundColor": null,
-                                    "createdAt": "2022-08-17T21:49:46.878Z",
-                                    "updatedAt": "2022-08-19T17:03:17.215Z",
-                                    "publishedAt": "2022-08-17T21:49:48.934Z",
-                                    "slug": "bone-barrow",
-                                    "image": {
-                                        "data": {
-                                            "id": 1,
-                                            "attributes": {
-                                                "name": "Viva Aerobus Logo.png",
-                                                "alternativeText": "Viva Aerobus Logo.png",
-                                                "caption": "Viva Aerobus Logotype.png",
-                                                "width": 977,
-                                                "height": 673,
-                                                "formats": null,
-                                                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                                                "ext": ".svg",
-                                                "mime": "image/png",
-                                                "size": 0.42,
-                                                "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_cancer_buddy.gif?raw=true",
-                                                "previewUrl": null,
-                                                "provider": "local",
-                                                "provider_metadata": null,
-                                                "createdAt": "2022-08-19T15:35:22.751Z",
-                                                "updatedAt": "2022-08-19T15:35:22.751Z"
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 1,
-                    "__component": "scroll-interaction.scroll-interaction3",
-                    "ScrollInteraction": null,
-                    "step": [{
-                            "id": 1,
-                            "right": {
-                                "id": 9,
-                                "identifier": "You to...",
-                                "text": "You to..."
-                            },
-                            "left": {
-                                "id": 9,
-                                "identifier": "We partner up with",
-                                "text": "We partner up with"
-                            },
-                            "center": null
-                        },
-                        {
-                            "id": 2,
-                            "right": {
-                                "id": 10,
-                                "identifier": "You",
-                                "text": "You"
-                            },
-                            "left": {
-                                "id": 10,
-                                "identifier": "We",
-                                "text": "We"
-                            },
-                            "center": {
-                                "id": 1,
-                                "identifier": null,
-                                "text": "Help you understand and define customers, the market and business opportunity.\n\nDefine the challenges and steps to take, for a successful launch.\n\n**Make your platform tangible with best-in-class design.**\n\nEnsure your platform is secure and compliant.\n\nRun, maintain and support your digital platform.\n\nBuild your digital platform -no matter its complexity."
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "__component": "interactive-footer.interactive-footer",
-                    "right": {
-                        "component": "Umvel"
-                    },
-                    "left": {
-                        "id": 3,
-                        "action": {
-                            "openUrl": "/contact-us",
-                            "title": "Talk to sales"
-                        },
-                        "title": "Ready to make your business future-proof?",
-                        "subtitle": "We got everything in house to help you conquer the digital economy. Get in touch today to explore how we can help you."
-                    }
-                },
-                {
-                    "id": 1,
-                    "__component": "team.footer-team",
-                    "leftFooterTeam": {
-                        "id": 1,
-                        "title": "150+ fearless Umvellers strong."
-                    },
-                    "rightFooterTeam": {
-                        "id": 1,
-                        "title": "We deliver what we promise."
-                    },
-                    "names": [
-                        "Juan",
-                        "Luis",
-                        "Pat",
-                        "Lupe",
-                        "Paco",
-                        "Joss",
-                        "Mary",
-                        "Jane",
-                        "Saul",
-                        "Kim",
-                        "Miguel",
-                        "Pedro",
-                        "Ale",
-                        "Manuel",
-                        "Magos",
-                        "Carmen",
-                        "Carlos",
-                        "Roberto",
-                        "Fer",
-                        "Daniel",
-                        "Xavi",
-                        "Jorge",
-                        "Richard",
-                        "Miguel",
-                        "Lalo",
-                        "Javier",
-                        "Rafael",
-                        "Martín",
-                        "Raúl",
-                        "David",
-                        "Vic",
-                        "Beto",
-                        "Arturo",
-                        "Marco",
-                        "Manuel",
-                        "Javier",
-                        "Kike",
-                        "Vero",
-                        "Gera",
-                        "Elena",
-                        "Leti",
-                        "Rosa",
-                        "Mario",
-                        "Alan",
-                        "Fredy",
-                        "Tess",
-                        "Ali",
-                        "Fer",
-                        "Sergio"
-                    ],
-                    "socialNetworks": [{
-                            "id": "social-media-1",
-                            "name": "Medium",
-                            "link": "https://umvel.medium.com/"
-                        },
-                        {
-                            "id": "social-media-2",
-                            "name": "Instagram",
-                            "link": "https://www.instagram.com/umvel_inc/"
-                        },
-                        {
-                            "id": "social-media-3",
-                            "name": "LinkedIn",
-                            "link": "https://www.linkedin.com/company/umvel/mycompany/"
-                        },
-                        {
-                            "id": "social-media-4",
-                            "name": "Facebook",
-                            "link": "https://www.facebook.com/profile.php?id=100084068735293"
-                        }
-                    ]
-                },
-
-                {
-                    "id": 1,
-                    "__component": "footer-components.footer-menu",
-                    "left": {
-                        "id": 1,
-                        "title": "Work we’re proud of",
-                        "subtitle": "Projects that made our clients shine."
-                    },
-                    "socialNetworks": [{
-                            "id": "social-media-1",
-                            "name": "Medium",
-                            "nickName": "MD",
-                            "link": "https://umvel.medium.com/"
-                        },
-                        {
-                            "id": "social-media-2",
-                            "name": "Instagram",
-                            "nickName": "IG",
-                            "link": "https://www.instagram.com/umvel_inc/"
-                        },
-                        {
-                            "id": "social-media-3",
-                            "name": "LinkedIn",
-                            "nickName": "IN",
-                            "link": "https://www.linkedin.com/company/umvel/mycompany/"
-                        },
-                        {
-                            "id": "social-media-4",
-                            "name": "Facebook",
-                            "nickName": "FB",
-                            "link": "https://www.facebook.com/profile.php?id=100084068735293"
-                        }
-                    ],
-                    "links": [{
-                            "id": 1,
-                            "name": "Our work",
-                            "link": "our-work",
-                            "type": "link"
-                        },
-                        {
-                            "id": 2,
-                            "name": "Our Offering",
-                            "link": "our-offering",
-                            "type": "link"
-                        },
-                        {
-                            "id": 4,
-                            "name": "About us",
-                            "link": "about-us",
-                            "type": "link"
-                        }
-                    ]
+                  }
                 }
-            ],
-            "footer": null
+              },
+              {
+                "id": 3,
+                "attributes": {
+                  "name": "Grupo Gigante",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-19T16:51:39.616Z",
+                  "updatedAt": "2022-08-19T16:53:16.712Z",
+                  "publishedAt": "2022-08-19T16:53:16.710Z",
+                  "slug": "grupo-gigante",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 4,
+                "attributes": {
+                  "name": "Dentsu",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-19T16:51:47.254Z",
+                  "updatedAt": "2022-08-19T16:53:21.418Z",
+                  "publishedAt": "2022-08-19T16:53:21.417Z",
+                  "slug": "dentsu",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 5,
+                "attributes": {
+                  "name": "Cinemex",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-19T16:51:54.906Z",
+                  "updatedAt": "2022-08-19T16:53:24.890Z",
+                  "publishedAt": "2022-08-19T16:53:24.888Z",
+                  "slug": "cinemex",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 6,
+                "attributes": {
+                  "name": "Arrivia",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-19T16:52:02.622Z",
+                  "updatedAt": "2022-08-19T16:53:28.624Z",
+                  "publishedAt": "2022-08-19T16:53:28.623Z",
+                  "slug": "arrivia",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 7,
+                "attributes": {
+                  "name": "Seguros Mundial",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-19T16:52:18.207Z",
+                  "updatedAt": "2022-08-19T16:53:31.661Z",
+                  "publishedAt": "2022-08-19T16:53:31.660Z",
+                  "slug": "seguros-mundial",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_seguros_mundial.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 8,
+                "attributes": {
+                  "name": "ECRI",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-19T16:52:26.258Z",
+                  "updatedAt": "2022-08-19T16:53:34.859Z",
+                  "publishedAt": "2022-08-19T16:53:34.859Z",
+                  "slug": "ecri",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_viva.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 9,
+                "attributes": {
+                  "name": "Planet Buyback",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-19T16:52:36.891Z",
+                  "updatedAt": "2022-08-19T16:52:37.523Z",
+                  "publishedAt": "2022-08-19T16:52:37.521Z",
+                  "slug": "planet-buyback",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Planet Buyback.gif",
+                        "alternativeText": "Planet Buyback.gif",
+                        "caption": "Planet Buyback.gif",
+                        "width": 472,
+                        "height": 472,
+                        "formats": null,
+                        "hash": "Planet_Buyback_Animation_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/gif",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_planet_buyback.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 2,
+                "attributes": {
+                  "name": "Bone Marrow",
+                  "backgroundColor": null,
+                  "createdAt": "2022-08-17T21:49:46.878Z",
+                  "updatedAt": "2022-08-19T17:03:17.215Z",
+                  "publishedAt": "2022-08-17T21:49:48.934Z",
+                  "slug": "bone-barrow",
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "Viva Aerobus Logo.png",
+                        "alternativeText": "Viva Aerobus Logo.png",
+                        "caption": "Viva Aerobus Logotype.png",
+                        "width": 977,
+                        "height": 673,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/png",
+                        "size": 0.42,
+                        "url": "https://github.com/franciscojagarcia/assets-umvel/blob/main/project_cancer_buddy.gif?raw=true",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 1,
+          "__component": "scroll-interaction.scroll-interaction3",
+          "ScrollInteraction": null,
+          "step": [{
+              "id": 1,
+              "right": {
+                "id": 9,
+                "identifier": "You to...",
+                "text": "You to..."
+              },
+              "left": {
+                "id": 9,
+                "identifier": "We partner up with",
+                "text": "We partner up with"
+              },
+              "center": null
+            },
+            {
+              "id": 2,
+              "right": {
+                "id": 10,
+                "identifier": "You",
+                "text": "You"
+              },
+              "left": {
+                "id": 10,
+                "identifier": "We",
+                "text": "We"
+              },
+              "center": {
+                "id": 1,
+                "identifier": null,
+                "text": "Help you understand and define customers, the market and business opportunity.\n\nDefine the challenges and steps to take, for a successful launch.\n\n**Make your platform tangible with best-in-class design.**\n\nEnsure your platform is secure and compliant.\n\nRun, maintain and support your digital platform.\n\nBuild your digital platform -no matter its complexity."
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "__component": "interactive-footer.interactive-footer",
+          "right": {
+            "component": "Umvel"
+          },
+          "left": {
+            "id": 3,
+            "action": {
+              "openUrl": "/contact-us",
+              "title": "Talk to sales"
+            },
+            "title": "Ready to make your business future-proof?",
+            "subtitle": "We got everything in house to help you conquer the digital economy. Get in touch today to explore how we can help you."
+          }
+        },
+        {
+          "id": 1,
+          "__component": "team.footer-team",
+          "leftFooterTeam": {
+            "id": 1,
+            "title": "150+ fearless Umvellers strong."
+          },
+          "rightFooterTeam": {
+            "id": 1,
+            "title": "We deliver what we promise."
+          },
+          "names": [
+            "Juan",
+            "Luis",
+            "Pat",
+            "Lupe",
+            "Paco",
+            "Joss",
+            "Mary",
+            "Jane",
+            "Saul",
+            "Kim",
+            "Miguel",
+            "Pedro",
+            "Ale",
+            "Manuel",
+            "Magos",
+            "Carmen",
+            "Carlos",
+            "Roberto",
+            "Fer",
+            "Daniel",
+            "Xavi",
+            "Jorge",
+            "Richard",
+            "Miguel",
+            "Lalo",
+            "Javier",
+            "Rafael",
+            "Martín",
+            "Raúl",
+            "David",
+            "Vic",
+            "Beto",
+            "Arturo",
+            "Marco",
+            "Manuel",
+            "Javier",
+            "Kike",
+            "Vero",
+            "Gera",
+            "Elena",
+            "Leti",
+            "Rosa",
+            "Mario",
+            "Alan",
+            "Fredy",
+            "Tess",
+            "Ali",
+            "Fer",
+            "Sergio"
+          ],
+          "socialNetworks": [{
+              "id": "social-media-1",
+              "name": "Medium",
+              "link": "https://umvel.medium.com/"
+            },
+            {
+              "id": "social-media-2",
+              "name": "Instagram",
+              "link": "https://www.instagram.com/umvel_inc/"
+            },
+            {
+              "id": "social-media-3",
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/company/umvel/mycompany/"
+            },
+            {
+              "id": "social-media-4",
+              "name": "Facebook",
+              "link": "https://www.facebook.com/profile.php?id=100084068735293"
+            }
+          ]
+        },
+
+        {
+          "id": 1,
+          "__component": "footer-components.footer-menu",
+          "left": {
+            "id": 1,
+            "title": "Work we’re proud of",
+            "subtitle": "Projects that made our clients shine."
+          },
+          "socialNetworks": [{
+              "id": "social-media-1",
+              "name": "Medium",
+              "nickName": "MD",
+              "link": "https://umvel.medium.com/"
+            },
+            {
+              "id": "social-media-2",
+              "name": "Instagram",
+              "nickName": "IG",
+              "link": "https://www.instagram.com/umvel_inc/"
+            },
+            {
+              "id": "social-media-3",
+              "name": "LinkedIn",
+              "nickName": "IN",
+              "link": "https://www.linkedin.com/company/umvel/mycompany/"
+            },
+            {
+              "id": "social-media-4",
+              "name": "Facebook",
+              "nickName": "FB",
+              "link": "https://www.facebook.com/profile.php?id=100084068735293"
+            }
+          ],
+          "links": [{
+              "id": 1,
+              "name": "Our work",
+              "link": "our-work",
+              "type": "link"
+            },
+            {
+              "id": 2,
+              "name": "Our Offering",
+              "link": "our-offering",
+              "type": "link"
+            },
+            {
+              "id": 4,
+              "name": "About us",
+              "link": "about-us",
+              "type": "link"
+            }
+          ]
         }
-    },
-    "meta": {}
+      ],
+      "footer": null
+    }
+  },
+  "meta": {}
 }

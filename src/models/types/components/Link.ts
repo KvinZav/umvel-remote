@@ -1,5 +1,5 @@
 export type LinkProps = {
-    name: string,
-    url: string,
-    onClick?: () => any
-}
+  name: string;
+  url: string;
+  onClick?: () => any;
+};

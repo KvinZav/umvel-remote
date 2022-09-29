@@ -1,5 +1,5 @@
-import { CaseOfStudy2 } from "@interfaces/home-data/home.interface";
-import { IconNameType } from "@type/components/Icons.type";
+import { CaseOfStudy2 } from '@interfaces/home-data/home.interface';
+import { IconNameType } from '@type/components/Icons.type';
 
 export type ServicePropsTypes = {
   icon: IconNameType | string;
@@ -7,8 +7,8 @@ export type ServicePropsTypes = {
   description: string;
   dark?: boolean;
   onDetailClick: () => any;
-}
+};
 
 export type DetailHighlightsProps = {
-  cases: CaseOfStudy2[]
-}
+  cases: CaseOfStudy2[];
+};
