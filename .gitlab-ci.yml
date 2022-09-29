@@ -97,7 +97,7 @@ deploy:image:
     name: $CI_COMMIT_REF_NAME
     url: https://$CI_COMMIT_REF_NAME-website.umvel.dev
   script:
-    - ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
+    - aws ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
   only:
     - development
     - staging
@@ -115,6 +115,6 @@ deploy-prod:image:
     name: production
     url: https://umvel.com
   script:
-    - ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
+    - aws ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
   only:
     - master
