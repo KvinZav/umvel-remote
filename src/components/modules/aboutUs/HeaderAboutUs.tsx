@@ -1,11 +1,11 @@
-import React from "react";
-import { CardTeam } from "@elements/card";
-import { Sizes } from "@enums/sizes.enum";
-import { environment } from "@environments/index";
-import { get } from "@fetcher/get";
-import useSWR from "swr";
-import CustomImage from "@elements/image-component/CustomImage";
-import { AboutUsHeader } from "@interfaces/about-us-data/about-us.interface";
+import React from 'react';
+import { CardTeam } from '@elements/card';
+import { Sizes } from '@enums/sizes.enum';
+import { environment } from '@environments/index';
+import { get } from '@fetcher/get';
+import useSWR from 'swr';
+import CustomImage from '@elements/image-component/CustomImage';
+import { AboutUsHeader } from '@interfaces/about-us-data/about-us.interface';
 
 const configNames = [
   { size: Sizes.LG, rows: 7, columns: 7 },
@@ -36,8 +36,8 @@ export const HeaderAboutUs = ({ data }) => {
             top-[100px] mx-auto lg:flex items-end"
         >
           <CustomImage
-            src={"assets/images/umvelLogoDark.svg"}
-            alt={"logo-umvel"}
+            src={'assets/images/umvelLogoDark.svg'}
+            alt={'logo-umvel'}
             className="min-w-[96px] w-[96px] md:min-w-[128px] md:w-[128px] 
               lg:min-w-[144px] lg:w-[144px] mb-2.5 mx-auto lg:mr-6"
           />
@@ -53,8 +53,8 @@ export const HeaderAboutUs = ({ data }) => {
           {header?.highlightText.map((item: AboutUsHeader, index: number) => {
             return (
               <div
-                key={"indicator-" + index}
-                className={`${index == 2 ? "w-full" : "w-6/12"} 
+                key={'indicator-' + index}
+                className={`${index == 2 ? 'w-full' : 'w-6/12'} 
                   md:w-4/12 md:flex md:justify-center text-center items-center`}
               >
                 <p className="font-bold text-[28px] md:text-[38px] mr-2">{item.title}</p>
