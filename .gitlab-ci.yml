@@ -87,7 +87,9 @@ build push image:
 
 deploy:image:
   stage: deploy
-  image: amazon/aws-cli
+  image:
+    name: amazon/aws-cli
+    entrypoint: [""]
   tags:
     - UMVEL-CICD-GLOBAL
   cache: {}
@@ -103,7 +105,9 @@ deploy:image:
 
 deploy-prod:image:
   stage: deploy
-  image: amazon/aws-cli
+  image:
+    name: amazon/aws-cli
+    entrypoint: [""]
   tags:
     - UMVEL-CICD-GLOBAL
   cache: {}
