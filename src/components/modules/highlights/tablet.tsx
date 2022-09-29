@@ -27,9 +27,11 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
                             {project.attributes.portfolioDescription}
                         </p>
                         <p className="text-sm text-primary-white mb-4">{project.attributes.caseDescription}</p>
-                        <button className="border-2 rounded-full px-4 py-1 text-primary-white">
-                            View Case
-                        </button>
+                        <div className="flex">
+                            <div className="flex border rounded-full px-4 py-2 text-primary-white text-base">
+                                <Link href={`/cases/${project.id}`}>View Case</Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="col-start-2 col-span-1 row-start-1 row-span-1 bg-primary-white">

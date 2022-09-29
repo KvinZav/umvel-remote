@@ -28,6 +28,7 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
                                     button={true}
                                     imgAttributes={project?.attributes?.image?.data?.attributes}
                                     backgroundColor={project.attributes.primaryColor}
+                                    url={`/cases/${project.id}`}
                                 />
                             );
                         })}
@@ -54,16 +55,17 @@ type PorjectsCardPropsTypes = {
     imgAttributes?: Attributes2;
     handleClick?: () => void;
     backgroundColor?: string;
+    url: string;
 };
 const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({
     title,
     description,
     backgroundColor,
     button = false,
-    handleClick,
     imgAttributes,
     portfolioDataOfInterest,
     portfolioDescription,
+    url,
 }): JSX.Element => {
     return (
         <article
@@ -80,9 +82,11 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({
                     )}
                     {description && <p className="text-sm text-primary-white mb-4">{description}</p>}
                     {button && (
-                        <button className="border-2 rounded-full px-4 py-1 text-primary-white">
-                            View Case
-                        </button>
+                    <div className="flex">
+                        <div className="flex border rounded-full px-4 py-2 text-primary-white text-base">
+                            <Link href={url}>View Case</Link>
+                        </div>
+                    </div>
                     )}
                 </div>
             </div>
