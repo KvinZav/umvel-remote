@@ -1,4 +1,4 @@
-import Image from "@elements/image-component";
+import Image from '@elements/image-component';
 
 const CasesLearned = ({ caseData }) => {
   const { primaryColor, whatWeLearned } = caseData;

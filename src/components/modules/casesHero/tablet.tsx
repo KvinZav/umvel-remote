@@ -19,7 +19,7 @@ const CasesHeroTablet = (props: CasesHeroProps) => {
         <div className="flex flex-wrap mt-4 space-x-4 space-y-4">
           {challenge.callToAction.map((item, index) => (
             <a
-              key={"action-" + index}
+              key={'action-' + index}
               href={item.action.openUrl}
               target="_blank"
               rel="noopener noreferrer"

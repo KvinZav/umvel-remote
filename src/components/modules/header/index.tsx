@@ -1,16 +1,16 @@
-import { useState } from "react";
-import useMediaQuery from "@hooks/useMediaQuery";
-import Logo from "@elements/LogoNavBar/LogoNavBar";
-import Link from "@elements/Link/Link";
-import useSWR from "swr";
-import { environment } from "@environments/index";
-import useVerticalScroll from "@hooks/useVerticalScroll";
-import CustomImage from "@elements/image-component/CustomImage";
-import BasicButton from "@elements/button";
-import { get } from "@fetcher/get";
-import Image from "@elements/image-component";
-import { BlockNameEnum } from "@enums/BlockName";
-import Tooltip from "@elements/tooltip/tooltip";
+import { useState } from 'react';
+import useMediaQuery from '@hooks/useMediaQuery';
+import Logo from '@elements/LogoNavBar/LogoNavBar';
+import Link from '@elements/Link/Link';
+import useSWR from 'swr';
+import { environment } from '@environments/index';
+import useVerticalScroll from '@hooks/useVerticalScroll';
+import CustomImage from '@elements/image-component/CustomImage';
+import BasicButton from '@elements/button';
+import { get } from '@fetcher/get';
+import Image from '@elements/image-component';
+import { BlockNameEnum } from '@enums/BlockName';
+import Tooltip from '@elements/tooltip/tooltip';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
     revalidateOnFocus: false,
   });
 
-  const matchMedia = useMediaQuery("(min-width: 1024px)");
+  const matchMedia = useMediaQuery('(min-width: 1024px)');
   const isVerticalScroll = useVerticalScroll(1);
 
   if (!event) return null;
@@ -26,7 +26,7 @@ const Header = () => {
   const logo = event.data.attributes.header.logo.data.attributes;
   const options = event.data.attributes.header.links;
   const cases = event.data.attributes.header.cases;
-  
+
   const { socialNetworks } = event.data.attributes.body.find(
     (item) => item.__component === BlockNameEnum.menu
   );
@@ -48,7 +48,7 @@ const Header = () => {
               >
                 <div className="h-5 w-5 md:w-7 md:h-7">
                   <CustomImage
-                    src={"/assets/images/menu-icon.svg"}
+                    src={'/assets/images/menu-icon.svg'}
                     alt="menu"
                     width="100%"
                     height="100%"
@@ -66,12 +66,12 @@ const Header = () => {
                 <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 items-center">
                   {options &&
                     options.map((link) =>
-                      link.type === "button" ? (
+                      link.type === 'button' ? (
                         <BasicButton onClick={() => setShowMenu(false)}>
                           <Link name={link.name} url={`/${link.link}`} />
                         </BasicButton>
                       ) : (
-                        <li key={"link-" + link.id}>
+                        <li key={'link-' + link.id}>
                           <Link name={link.name} url={`/${link.link}`} />
                         </li>
                       )
@@ -117,8 +117,8 @@ const Header = () => {
                 >
                   <CustomImage
                     src="/assets/images/x-icon.svg"
-                    width={"100%"}
-                    height={"100%"}
+                    width={'100%'}
+                    height={'100%'}
                     alt="close"
                   />
                 </div>
@@ -127,8 +127,8 @@ const Header = () => {
                 <ul className="flex flex-col p-4 mt-4 whitespace-nowrap">
                   {options &&
                     options.map((link) =>
-                      link.type === "button" ? (
-                        <li key={"link-" + link.id} className="-ml-6 py-3">
+                      link.type === 'button' ? (
+                        <li key={'link-' + link.id} className="-ml-6 py-3">
                           <BasicButton>
                             <Link
                               onClick={() => setShowMenu(false)}
@@ -138,7 +138,7 @@ const Header = () => {
                           </BasicButton>
                         </li>
                       ) : (
-                        <li key={"link-" + link.id} className="first-line:my-2 py-3">
+                        <li key={'link-' + link.id} className="first-line:my-2 py-3">
                           <Link
                             onClick={() => setShowMenu(false)}
                             name={link.name}
@@ -193,7 +193,7 @@ type SquareProps = {
   primaryColor?: string;
 };
 const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, primaryColor }) => {
-  const textColor = primaryColor === "black" ? "text-primary-black" : "text-primary-white";
+  const textColor = primaryColor === 'black' ? 'text-primary-black' : 'text-primary-white';
   const image = imgAttribute?.data?.attributes;
 
   return (
@@ -214,7 +214,7 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
       {title && (
         <div
           className={
-            "h-1/4 w-auto hidden bg-secondary-70/50 lg:flex justify-start px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] "
+            'h-1/4 w-auto hidden bg-secondary-70/50 lg:flex justify-start px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
           }
         >
           <p className={`${textColor} my-auto`}>{title}</p>

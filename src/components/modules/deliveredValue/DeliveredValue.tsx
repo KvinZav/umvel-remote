@@ -1,67 +1,67 @@
-import { CardConnect } from "@elements/card";
-import CustomImage from "@elements/image-component/CustomImage";
-import { Position } from "@enums/position.enum";
-import { Sizes } from "@enums/sizes.enum";
-import { useIsSizeScreen } from "@hooks/useIsSizeScreen";
-import { DeliverValue } from "@interfaces/cases-data/cases.interface";
-import { CardConnectConfiguration } from "@interfaces/components/cardConnect.interface";
-import { CSSProperties, useEffect, useState } from "react";
+import { CardConnect } from '@elements/card';
+import CustomImage from '@elements/image-component/CustomImage';
+import { Position } from '@enums/position.enum';
+import { Sizes } from '@enums/sizes.enum';
+import { useIsSizeScreen } from '@hooks/useIsSizeScreen';
+import { DeliverValue } from '@interfaces/cases-data/cases.interface';
+import { CardConnectConfiguration } from '@interfaces/components/cardConnect.interface';
+import { CSSProperties, useEffect, useState } from 'react';
 
 const gridConfig = {
   sm: {
     items: [
       {
-        parentStyle: { gridColumn: "1/2", flexDirection: "column" },
-        cardConnectStyle: { width: "100%" },
-        imageStyle: { width: "100%" },
+        parentStyle: { gridColumn: '1/2', flexDirection: 'column' },
+        cardConnectStyle: { width: '100%' },
+        imageStyle: { width: '100%' },
       },
       {
-        parentStyle: { gridColumn: "2/3", flexDirection: "column" },
-        cardConnectStyle: { width: "100%" },
-        imageStyle: { width: "100%" },
+        parentStyle: { gridColumn: '2/3', flexDirection: 'column' },
+        cardConnectStyle: { width: '100%' },
+        imageStyle: { width: '100%' },
       },
       {
-        parentStyle: { gridColumn: "3/4", flexDirection: "column" },
-        cardConnectStyle: { width: "100%" },
-        imageStyle: { width: "100%" },
+        parentStyle: { gridColumn: '3/4', flexDirection: 'column' },
+        cardConnectStyle: { width: '100%' },
+        imageStyle: { width: '100%' },
       },
     ],
   },
   md: {
     items: [
       {
-        parentStyle: { gridColumn: "1/3" },
-        cardConnectStyle: { width: "50%" },
-        imageStyle: { width: "50%" },
+        parentStyle: { gridColumn: '1/3' },
+        cardConnectStyle: { width: '50%' },
+        imageStyle: { width: '50%' },
       },
       {
-        parentStyle: { gridRow: "2/4", gridColumn: "2/3", flexDirection: "column" },
-        cardConnectStyle: { width: "100%" },
-        imageStyle: { width: "100%" },
+        parentStyle: { gridRow: '2/4', gridColumn: '2/3', flexDirection: 'column' },
+        cardConnectStyle: { width: '100%' },
+        imageStyle: { width: '100%' },
       },
       {
-        parentStyle: { gridRow: "2/4", flexDirection: "column-reverse" },
-        cardConnectStyle: { width: "100%" },
-        imageStyle: { width: "100%" },
+        parentStyle: { gridRow: '2/4', flexDirection: 'column-reverse' },
+        cardConnectStyle: { width: '100%' },
+        imageStyle: { width: '100%' },
       },
     ],
   },
   lg: {
     items: [
       {
-        parentStyle: { gridColumn: "1/3" },
-        cardConnectStyle: { width: "50%" },
-        imageStyle: { width: "50%" },
+        parentStyle: { gridColumn: '1/3' },
+        cardConnectStyle: { width: '50%' },
+        imageStyle: { width: '50%' },
       },
       {
-        parentStyle: { gridRow: "1/3", gridColumn: "3/4", flexDirection: "column" },
-        cardConnectStyle: { width: "100%" },
-        imageStyle: { width: "100%" },
+        parentStyle: { gridRow: '1/3', gridColumn: '3/4', flexDirection: 'column' },
+        cardConnectStyle: { width: '100%' },
+        imageStyle: { width: '100%' },
       },
       {
-        parentStyle: { gridRow: "2/3", gridColumn: "1/3", flexDirection: "row-reverse" },
-        cardConnectStyle: { width: "50%" },
-        imageStyle: { width: "50%" },
+        parentStyle: { gridRow: '2/3', gridColumn: '1/3', flexDirection: 'row-reverse' },
+        cardConnectStyle: { width: '50%' },
+        imageStyle: { width: '50%' },
       },
     ],
   },
@@ -89,9 +89,9 @@ const connectConfigurations: {
 ];
 
 const imageConfigurations: { className: string; style: CSSProperties }[] = [
-  { className: "justify-center items-end", style: { background: "rgba(0,0,0,.1)" } },
-  { className: "justify-center items-center", style: { background: "rgba(0,0,0,.3)" } },
-  { className: "justify-center items-center", style: { background: "rgba(0,0,0,.2)" } },
+  { className: 'justify-center items-end', style: { background: 'rgba(0,0,0,.1)' } },
+  { className: 'justify-center items-center', style: { background: 'rgba(0,0,0,.3)' } },
+  { className: 'justify-center items-center', style: { background: 'rgba(0,0,0,.2)' } },
 ];
 
 export const DeliveredValue = ({
@@ -115,7 +115,7 @@ export const DeliveredValue = ({
   }, [currentScreen]);
 
   return (
-    <section className="w-full" style={{ gridColumn: "1/3" }}>
+    <section className="w-full" style={{ gridColumn: '1/3' }}>
       <div className="m-[15%_0px_80px]">
         <h4 className="text-center font-bold text-2xl md:text-3xl">{title}</h4>
       </div>

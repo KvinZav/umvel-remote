@@ -1,7 +1,7 @@
-import CustomImage from "@elements/image-component/CustomImage";
-import { Body } from "@interfaces/home-data/home.interface";
-import { CardTeam } from "@elements/card";
-import { Sizes } from "@enums/sizes.enum";
+import CustomImage from '@elements/image-component/CustomImage';
+import { Body } from '@interfaces/home-data/home.interface';
+import { CardTeam } from '@elements/card';
+import { Sizes } from '@enums/sizes.enum';
 
 const configNames = [
   { size: Sizes.LG, rows: 7, columns: 7 },
