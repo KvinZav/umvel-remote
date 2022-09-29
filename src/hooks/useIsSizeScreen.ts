@@ -1,10 +1,10 @@
-import { Sizes } from "@enums/sizes.enum";
-import { useEffect, useState } from "react";
-import useMediaQuery from "./useMediaQuery";
+import { Sizes } from '@enums/sizes.enum';
+import { useEffect, useState } from 'react';
+import useMediaQuery from './useMediaQuery';
 
 export const useIsSizeScreen = () => {
-  const isLg = useMediaQuery("(min-width: 1024px)");
-  const isMd = useMediaQuery("(min-width: 640px)");
+  const isLg = useMediaQuery('(min-width: 1024px)');
+  const isMd = useMediaQuery('(min-width: 640px)');
 
   const [currentScreen, setCurrentScreen] = useState<Sizes>(null);
 

@@ -1,10 +1,10 @@
-import { Sizes } from "@enums/sizes.enum";
-import { useIsSizeScreen } from "@hooks/useIsSizeScreen";
+import { Sizes } from '@enums/sizes.enum';
+import { useIsSizeScreen } from '@hooks/useIsSizeScreen';
 import {
   CardTeamComponent,
   CardTeamConfiguration,
-} from "@interfaces/components/cardTeam.interface";
-import { useState, useEffect } from "react";
+} from '@interfaces/components/cardTeam.interface';
+import { useState, useEffect } from 'react';
 
 /**
  * CardTeam displays specific names by row and column and also can display another component on its
@@ -54,7 +54,7 @@ export const CardTeam = ({
       >
         {names.slice(0, columns * rows).map((name: string, index: number) => (
           <div
-            key={"card-team-name-" + index}
+            key={'card-team-name-' + index}
             className="aspect-square flex justify-center items-center text-secondary-30 text-sm"
           >
             {name}

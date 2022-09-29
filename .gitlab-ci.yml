@@ -87,7 +87,7 @@ build push image:
 
 deploy:image:
   stage: deploy
-  image: alpine
+  image: amazon/aws-cli
   tags:
     - UMVEL-CICD-GLOBAL
   cache: {}
@@ -95,8 +95,22 @@ deploy:image:
     name: $CI_COMMIT_REF_NAME
     url: https://$CI_COMMIT_REF_NAME-website.umvel.dev
   script:
-    - echo "deploy ${CI_COMMIT_BRANCH}"
+    - ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
   only:
     - development
     - staging
     - demo
+
+deploy-prod:image:
+  stage: deploy
+  image: amazon/aws-cli
+  tags:
+    - UMVEL-CICD-GLOBAL
+  cache: {}
+  environment:
+    name: production
+    url: https://umvel.com
+  script:
+    - ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
+  only:
+    - master

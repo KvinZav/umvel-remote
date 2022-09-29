@@ -1,12 +1,12 @@
-import { ScrollContext } from "@context/scrollContext";
-import { useContext } from "react"
+import { ScrollContext } from '@context/scrollContext';
+import { useContext } from 'react';
 
-function useScrollOffset(){
-  const context = useContext(ScrollContext)
-  if(!context){
-    throw new Error('Context should be called inside of Provider')
+function useScrollOffset() {
+  const context = useContext(ScrollContext);
+  if (!context) {
+    throw new Error('Context should be called inside of Provider');
   }
-  return context
+  return context;
 }
 
 export default useScrollOffset;

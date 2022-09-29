@@ -1,5 +1,5 @@
-import { Sizes } from "@enums/sizes.enum";
-import { CSSProperties, ReactNode } from "react";
+import { Sizes } from '@enums/sizes.enum';
+import { CSSProperties, ReactNode } from 'react';
 
 export interface CardTeamConfiguration {
   rows: number;
@@ -7,9 +7,9 @@ export interface CardTeamConfiguration {
   size: Sizes;
 }
 
-export interface CardTeamComponent{
+export interface CardTeamComponent {
   config: CardTeamConfiguration[];
-  names: string[],
+  names: string[];
   className?: string;
   style?: CSSProperties;
   defaultConfig?: CardTeamConfiguration;

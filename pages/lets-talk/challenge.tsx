@@ -1,4 +1,4 @@
-import BasicButton from "@elements/button";
+import BasicButton from '@elements/button';
 
 const Challenge = () => {
   return (

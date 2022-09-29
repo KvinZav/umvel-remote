@@ -23,6 +23,7 @@ module.exports = {
       "navy": "#4c59ce",
       "purple": "#764cce",
       "pink": "#bc4cce",
+      "cookie": "#EFD3AF",
     },
     "cases":{
       "capa": "#093998",

@@ -1,8 +1,17 @@
 {
   "printWidth": 100,
-  "singleQuote": false,
+  "singleQuote": true,
   "trailingComma": "es5",
   "tabWidth": 2,
+  "strictFunctionTypes": true,
+  "noImplicitReturns": true,
+  "noUnusedLocals": true,
+  "noImplicitAny": true,
+  "noImplicitThis": true,
+  "alwaysStrict": true,
+  "strictBindCallApply": true,
+  "strictNullChecks": false,
+  "strictPropertyInitialization": false,
   "importOrder": [
     "^@core/(.*)$",
     "^@server/(.*)$",

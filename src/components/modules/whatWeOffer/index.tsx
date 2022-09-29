@@ -13,37 +13,37 @@ const Services = () => {
   const [servicesSelected, setServicesSelected] = useState([]);
   const [offerSelected, setOfferSelected] = useState([]);
 
-  const [selectedDetail, setSelectedDetail] = useState(null)
-  const [isDetailVisible, setIsDetailVisible] = useState(false)
+  const [selectedDetail, setSelectedDetail] = useState(null);
+  const [isDetailVisible, setIsDetailVisible] = useState(false);
 
   const { data: event } = useSWR(environment.OUR_OFFER_URL, get, {
-    revalidateOnFocus: false
+    revalidateOnFocus: false,
   });
 
   if (!event) return null;
 
   const response = event as OurOfferingInterface;
 
-  const { offer, services } = response.data
+  const { offer, services } = response.data;
 
   const handleDetailClick = (id) => {
-    setSelectedDetail(response.data.offer.find(item => item.id === id))
-    setIsDetailVisible(true)
-  }
+    setSelectedDetail(response.data.offer.find((item) => item.id === id));
+    setIsDetailVisible(true);
+  };
 
   const handleDetailsClose = () => {
-    setIsDetailVisible(false)
-  }
+    setIsDetailVisible(false);
+  };
 
   const handleNext = () => {
-    const currentIndex = offer.findIndex(item => item.id === selectedDetail.id)
-    setSelectedDetail(currentIndex < offer.length - 1 ? offer[currentIndex + 1] : offer[0])
-  }
+    const currentIndex = offer.findIndex((item) => item.id === selectedDetail.id);
+    setSelectedDetail(currentIndex < offer.length - 1 ? offer[currentIndex + 1] : offer[0]);
+  };
 
   const handlePrevious = () => {
-    const currentIndex = offer.findIndex(item => item.id === selectedDetail.id)
-    setSelectedDetail(currentIndex > 0 ? offer[currentIndex - 1] : offer[offer.length - 1])
-  }
+    const currentIndex = offer.findIndex((item) => item.id === selectedDetail.id);
+    setSelectedDetail(currentIndex > 0 ? offer[currentIndex - 1] : offer[offer.length - 1]);
+  };
 
   return (
     <section className="relative">
@@ -57,60 +57,65 @@ const Services = () => {
             <p className="font-bold text-2xl mb-6">Have a goal in mind?</p>
           </div>
           <div className="hidden w-full lg:grid grid-cols-2 gap-4">
-            {
-              services.map((item) => {
-                return <Filter text={item.text}
+            {services.map((item) => {
+              return (
+                <Filter
+                  text={item.text}
                   active={offerSelected.includes(item.id)}
                   selected={servicesSelected}
                   setSelected={setServicesSelected}
                   setButtons={setOfferSelected}
                   key={'filter' + item.id}
-                  item={item} />
-              })
-            }
+                  item={item}
+                />
+              );
+            })}
           </div>
-          <div className='mb-20 flex lg:hidden'>
-            <button className='px-6 py-4 border rounded-full' onClick={() => setShowModal(!showModal)}>
+          <div className="mb-20 flex lg:hidden">
+            <button
+              className="px-6 py-4 border rounded-full"
+              onClick={() => setShowModal(!showModal)}
+            >
               Have a goal in mind?
             </button>
           </div>
         </div>
         <div className="lg:col-span-7">
           <div className="flex flex-row flex-wrap">
-            {
-              response.data.offer.map((item) =>
-                <Service
-                  description={item.name}
-                  icon={item.icon}
-                  dark={servicesSelected.includes(item.id)}
-                  key={item.id}
-                  onDetailClick={() => handleDetailClick(item.id)}
-                />
-              )
-            }
+            {response.data.offer.map((item) => (
+              <Service
+                description={item.name}
+                icon={item.icon}
+                dark={servicesSelected.includes(item.id)}
+                key={item.id}
+                onDetailClick={() => handleDetailClick(item.id)}
+              />
+            ))}
           </div>
         </div>
       </div>
-      {showModal && <ModalOffers
-        servicesSelected={servicesSelected}
-        setServicesSelected={setServicesSelected}
-        services={services}
-        setStateModal={setShowModal}
-        buttons={offerSelected}
-        setButtons={setOfferSelected}
-      />}
+      {showModal && (
+        <ModalOffers
+          servicesSelected={servicesSelected}
+          setServicesSelected={setServicesSelected}
+          services={services}
+          setStateModal={setShowModal}
+          buttons={offerSelected}
+          setButtons={setOfferSelected}
+        />
+      )}
 
-      {isDetailVisible && <OfferDetails
-        detail={selectedDetail}
-        onPreviousClick={handlePrevious}
-        onNextClick={handleNext}
-        onClose={handleDetailsClose}
-        servicesSelected={servicesSelected}
-      />
-      }
+      {isDetailVisible && (
+        <OfferDetails
+          detail={selectedDetail}
+          onPreviousClick={handlePrevious}
+          onNextClick={handleNext}
+          onClose={handleDetailsClose}
+          servicesSelected={servicesSelected}
+        />
+      )}
     </section>
-  )
-}
+  );
+};
 
-
-export default Services
+export default Services;

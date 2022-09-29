@@ -6,16 +6,16 @@ import MobileScrollInteraction3 from './mobile';
 const ScrollInteraction3 = () => {
   const isDesktop = useMediaQuery('(min-width: 1024px)');
 
-  return(
+  return (
     <>
-      {isDesktop ?
-        <DesktopScrollInteraction3/> :
+      {isDesktop ? (
+        <DesktopScrollInteraction3 />
+      ) : (
         //Phone and Tablet
-        <MobileScrollInteraction3/>
-      }
-      
+        <MobileScrollInteraction3 />
+      )}
     </>
-  )
-}
+  );
+};
 
 export default ScrollInteraction3;

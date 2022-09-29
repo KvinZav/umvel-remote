@@ -1,5 +1,5 @@
 import response from '@mock/cases.json';
 
 export default function handler(req, res) {
-  res.status(200).json(response)
+  res.status(200).json(response);
 }

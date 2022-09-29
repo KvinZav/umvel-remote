@@ -1,12 +1,12 @@
-import CustomImage from "@elements/image-component/CustomImage";
-import { Position } from "@enums/position.enum";
-import { useIsSizeScreen } from "@hooks/useIsSizeScreen";
+import CustomImage from '@elements/image-component/CustomImage';
+import { Position } from '@enums/position.enum';
+import { useIsSizeScreen } from '@hooks/useIsSizeScreen';
 import {
   CardConnectComponent,
   ConnectorConfiguration,
   positionConfiguration,
-} from "@interfaces/components/cardConnect.interface";
-import { useEffect, useState } from "react";
+} from '@interfaces/components/cardConnect.interface';
+import { useEffect, useState } from 'react';
 
 /**
  * This Custom Card display an connector in some side: top | bottom | right | left
@@ -21,34 +21,34 @@ import { useEffect, useState } from "react";
 
 const configByPosition: positionConfiguration = {
   top: {
-    image: "triangleTop.svg",
-    className: "justify-center z-10",
-    widthConnector: "56px",
-    style: { top: "-24px" },
+    image: 'triangleTop.svg',
+    className: 'justify-center z-10',
+    widthConnector: '56px',
+    style: { top: '-24px' },
   },
   bottom: {
-    image: "triangleBottom.svg",
-    className: "justify-center items-end z-10",
-    widthConnector: "56px",
-    style: { top: "24px" },
+    image: 'triangleBottom.svg',
+    className: 'justify-center items-end z-10',
+    widthConnector: '56px',
+    style: { top: '24px' },
   },
   right: {
-    image: "triangleRight.svg",
-    className: "items-center justify-end z-10",
-    widthConnector: "24px",
-    style: { right: "-24px" },
+    image: 'triangleRight.svg',
+    className: 'items-center justify-end z-10',
+    widthConnector: '24px',
+    style: { right: '-24px' },
   },
   left: {
-    image: "triangleLeft.svg",
-    className: "items-center justify-start z-10",
-    widthConnector: "24px",
-    style: { right: "24px" },
+    image: 'triangleLeft.svg',
+    className: 'items-center justify-start z-10',
+    widthConnector: '24px',
+    style: { right: '24px' },
   },
 };
 
 const changeBorderColor = (position: Position) => {
   let borderClass = '';
-  switch(position) {
+  switch (position) {
     case Position.bottom:
       borderClass = 'border-b-transparent';
       break;
@@ -63,7 +63,7 @@ const changeBorderColor = (position: Position) => {
       break;
   }
   return borderClass;
-}
+};
 
 export const CardConnect = ({
   config,
