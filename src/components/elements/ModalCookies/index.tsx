@@ -2,8 +2,7 @@ import CustomImage from "@elements/image-component/CustomImage"
 import { useState } from "react"
 import { animated, config, useSpring } from "react-spring"
 
-const CookiesModal = () => {
-    const [showModal, setShowModal] = useState(true)
+const CookiesModal = ({refWindow,showModal=false }) => {
     const [isExpanded, setIsExpanded] = useState(false)
     const childrenStyle = useSpring({
         delay: 0,
@@ -13,10 +12,13 @@ const CookiesModal = () => {
         config: config.wobbly,
     })
     const handleLeave = () => {
-        setIsExpanded(true)
+        setIsExpanded(true);
+        sessionStorage.setItem('consent', 'false');
+        refWindow.close();
     }
     const handleAccept = () => {
-        setIsExpanded(true)
+        setIsExpanded(true);
+        sessionStorage.setItem('consent', 'true');
     }
     return showModal && (
         <animated.div

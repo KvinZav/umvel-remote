@@ -16,6 +16,7 @@ import { HomeDataInterface } from '@interfaces/home-data/home.interface';
 import { ButtonScroll } from '@elements/ButtonScroll';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import Head from 'next/head';
+import ModalCookies from '@elements/ModalCookies';
 
 export default function Home() {
   const isBrowser = typeof window !== 'undefined';
@@ -62,6 +63,7 @@ export default function Home() {
         <FooterTeam
           data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
         />
+        <ModalCookies />
       </div>
     )
   );
