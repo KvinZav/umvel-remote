@@ -2,7 +2,7 @@ import useMediaQuery from "@hooks/useMediaQuery"
 import React,{useState} from "react"
 import HighlightsPhone from "./phone";
 import HighlightsTablet from "./tablet";
-import HighlighsDesktop from "./desktop";
+import HighlightsDesktop from "./desktop";
 import useSWR from "swr";
 import { environment } from "@environments/index";
 import { FETCHER } from "@fetcher/clients";
@@ -11,7 +11,7 @@ import { Daum } from "@interfaces/home-data/home.interface";
 
 const CasesHighlights:React.FC = ():JSX.Element => {
     const [project,setProject] = useState<Daum>();
-    const phone= useMediaQuery('(max-width: 640px)');
+    const phone= useMediaQuery('(max-width: 639px)');
     const tablet= useMediaQuery('(max-width: 1024px) and (min-width: 640px)');
     const desktop= useMediaQuery('(min-width: 1024px)');
     const { data: event } = useSWR(environment.HOME_URL)
@@ -42,7 +42,7 @@ const CasesHighlights:React.FC = ():JSX.Element => {
 
     if(phone){return <HighlightsPhone projects={projects} title={caseSelector.title}/>}
     if(tablet){return <HighlightsTablet project={project} handleNext={handleNext} handlePrevious={handlePrevious} title={caseSelector.title}/>}
-    if(desktop){return <HighlighsDesktop project={project} handleNext={handleNext} handlePrevious={handlePrevious} title={caseSelector.title}/>} 
+    if(desktop){return <HighlightsDesktop project={project} handleNext={handleNext} handlePrevious={handlePrevious} title={caseSelector.title}/>} 
 }
 
 export default CasesHighlights

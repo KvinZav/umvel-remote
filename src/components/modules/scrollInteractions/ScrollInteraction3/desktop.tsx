@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { CustomCard } from '@elements/card/card';
-import SquareColors from '@elements/square-colors';
+import PrismButton from '@elements/square-colors';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
@@ -10,7 +10,6 @@ import useSWR from 'swr';
 
 const DesktopScrollInteraction3 = () => {
 
-  const isDesktop = useMediaQuery('(min-width: 1024px)');
   const { scrollOffset } = useScrollOffset()
 
   const titleScrollControlRef = useRef<HTMLDivElement>(null)
@@ -46,7 +45,7 @@ const DesktopScrollInteraction3 = () => {
   const labels = center.text.split('\n\n')
   
   return(
-    <section className="grid grid-cols-3 items-start mb-[312px] w-screen overflow-x-clip">
+    <section className="grid grid-cols-3 items-start mb-[312px] w-full overflow-x-clip">
       <div className="sticky pt-[200px] top-0">
         <CustomCard customStyles="flex justify-end items-center p-4">
           <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">
@@ -104,7 +103,7 @@ const DesktopScrollInteraction3 = () => {
                   className={`flex justify-start items-center self-center w-auto py-9 xl:px-10 transition-all duration-1000 ${currentHighlight > n-1 || currentHighlight === -1 ? "translate-y-0 opacity-100" : "translate-y-24 opacity-[0.15]"}`}
                 >
                   <div className="min-w-[48px] min-h-[48px] mr-4 xl:mr-14">
-                    <SquareColors text="Our Work" textSize={isDesktop ? "sm" : "md"}/>
+                    <PrismButton>Our Work</PrismButton>
                   </div>
                   <div className="py-0 mr-7 flex justify-center">
                     <h2 className="font-bold text-xl">

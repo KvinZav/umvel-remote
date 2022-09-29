@@ -1,5 +1,5 @@
 import { CustomCard } from '@elements/card/card';
-import SquareColors from '@elements/square-colors';
+import PrismButton from '@elements/square-colors';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
@@ -16,7 +16,7 @@ const MobileScrollInteraction3 = () => {
   const labels = center.text.split('\n\n')
 
   return(
-    <section className="grid grid-cols-2 items-start mb-[104px] md:mb-[112px] w-screen overflow-x-clip">
+    <section className="grid grid-cols-2 items-start mb-[104px] md:mb-[112px] w-full overflow-x-clip">
       <CustomCard customStyles="flex justify-end items-center p-4">
         <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">
           {left.text}
@@ -47,10 +47,10 @@ const MobileScrollInteraction3 = () => {
               <div
                 className={`flex flex-col-reverse md:flex-row-reverse justify-between items-center self-center w-full`}
               >
-                <div className="min-w-[120px] min-h-[120px] mr-3">
-                  <SquareColors text="Our Work" textSize="md"/>
+                <div className="flex justify-center items-center min-w-[120px] min-h-[120px] lg:mr-3">
+                  <PrismButton>Our Work</PrismButton>
                 </div>
-                <div className="py-[104px] mr-7 flex justify-center">
+                <div className="py-[104px] md:mr-7 flex justify-center">
                   <h2 className="font-bold text-xl">
                     We seamlessly deliver business value.
                   </h2>

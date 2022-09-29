@@ -29,11 +29,18 @@ module.exports = {
       "prevue": "#538e82",
       "argo": "#dd6548",
       "campaign": "#63beb6",
-      "viva": "#38ac49",
+      "viva": "#2F7C38",
+      "viva-app": "#40AD4C",
       "food-central":"#348181",
       "oeio": "#CBA552",
       "cancer-buddy": "#F1DE4F",
-      "buyback": "#4C98CE"
-    }
+      "buyback": "#6BB7E6",
+      "miyana": "#8B6A88",
+      "smart-walk": "#DA3440",
+      "seguros-mundial": "#5B96CD",
+      "arrivia": "#04A3AC",
+      "ecri": "#0081C6"
+    },
+    transparent:"transparent"
 }
 

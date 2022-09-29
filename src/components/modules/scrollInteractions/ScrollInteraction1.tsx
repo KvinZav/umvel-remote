@@ -12,7 +12,7 @@ const ScrollInteraction1 = () => {
   const containerRef = useRef<HTMLDivElement>()
   const rightTextRefs = useRef<Array<HTMLDivElement>>([])
   
-  const isTablet = useMediaQuery('(min-width: 640px)');
+  const isDesktop = useMediaQuery('(min-width: 1024px)');
   
   const { scrollOffset } = useScrollOffset()
 
@@ -22,7 +22,7 @@ const ScrollInteraction1 = () => {
   const [boundsTop, setBoundsTop] = useState<Array<number>>([])
 
   useEffect(() => {
-    if(!isTablet) return
+    if(!isDesktop) return
     
     const refsOpacity = rightTextRefs.current.map(i => determineOpacity(i.getBoundingClientRect().top) + 1)
     setBoundsTop(rightTextRefs.current.map(i => i.getBoundingClientRect().top))
@@ -42,22 +42,22 @@ const ScrollInteraction1 = () => {
 
   return (
     <section
-      className={`px-[72px] py-[104px] md:px-0 md:py-0`}
+      className={`flex flex-col items-center lg:block px-[72px] md:px-36 lg:px-0 pt-[104px] md:pt-[200px] pb-0 md:pb-[200px] lg:pt-0`}
       ref={containerRef}
     >
-      <div className={`flex flex-col md:flex-row pr-8 md:sticky top-0 md:h-screen items-center`}>
-        {isTablet ? <div className="md:w-1/2">
+      <div className={`flex flex-col lg:flex-row pr-8 lg:sticky top-0 lg:h-screen lg:items-center`}>
+        {isDesktop ? <div className="w-1/2">
           <AnimatedTitle
             toggled={isTitleAnimToggled}
           />
         </div> :
-        <h1 className="font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight mb-4">Making the impossible, possible.</h1>}
+        <h1 className="font-bold text-[26px] leading-tight mb-4">Making the impossible, possible.</h1>}
       </div>
       <div
-        className={`h-full flex flex-col items-start md:items-end md:-mt-[90vh] pointer-events-none`}
+        className={`h-full flex flex-col items-start lg:items-end lg:-mt-[90vh] pointer-events-none`}
       >
         {
-          isTablet ? steps?.map((i, n) => n > 0 ? (
+          isDesktop ? steps?.map((i, n) => n > 0 ? (
             <div
               key={n + ''}
               ref={el => rightTextRefs.current[n] = el}
@@ -67,7 +67,7 @@ const ScrollInteraction1 = () => {
                 transform: boundsTop[0] < 0 ? `translateY(${1-(boundsTop[n] * 0.3)}px)` : ''
               }}
             >
-              <p className={`${n === steps.length - 1 ? 'pb-[72px]' : 'pb-0'} max-w-[416px] text-4xl leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
+              <p className={`${n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'} max-w-[416px] text-4xl leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
             </div>
           ) : <div key={n + ''} ref={el => rightTextRefs.current[n] = el} />)
           : steps?.map((i, n) => n > 0 ? (
@@ -76,7 +76,7 @@ const ScrollInteraction1 = () => {
               ref={el => rightTextRefs.current[n] = el}
               className={``}
             >
-              <p className={`${n === steps.length - 1 ? 'pb-[72px]' : 'pb-0'} max-w-[416px] text-lg leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
+              <p className={`${n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'} max-w-[416px] text-lg leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
               <br/>
             </div>
           ) : <div key={n + ''} ref={el => rightTextRefs.current[n] = el} />)
@@ -105,7 +105,7 @@ const AnimatedTitle = ({ toggled }) => {
   return (
     <div className={`flex flex-col w-full h-full`}>
       <div className="flex justify-end children:ease-in-out children:transform children:transition-all children:duration-700">
-        <span className={`font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight mr-3`}>Making</span>
+        <span className={`font-bold text-[58px] leading-tight mr-3`}>Making</span>
         <div
           className={`relative`}
           style={{
@@ -114,13 +114,13 @@ const AnimatedTitle = ({ toggled }) => {
             width: wordWidth,
           }}
         >
-          <span ref={theRef} className={`font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${toggled ? 'opacity-0' : 'opacity-100 delay-300'}`}>the</span>
-          <span ref={itRef} className={`font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${toggled ? 'opacity-100' : 'opacity-0'}`}>it</span>
+          <span ref={theRef} className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${toggled ? 'opacity-0' : 'opacity-100 delay-300'}`}>the</span>
+          <span ref={itRef} className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${toggled ? 'opacity-100' : 'opacity-0'}`}>it</span>
         </div>
       </div>
       <div className="relative children:ease-in-out children:transform children:transition-all children:duration-500 h-[144px]">
-        <span className={`font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight absolute top-0 right-0  ${toggled ? 'opacity-0' : 'opacity-100'}`}>impossible,</span>
-        <span className={`font-bold text-[26px] md:text-[50px] lg:text-[58px] leading-tight delay-150 absolute top-0 right-0  ${!toggled ? 'translate-y-full' : 'translate-y-0'}`}>possible.</span>
+        <span className={`font-bold text-[58px] leading-tight absolute top-0 right-0  ${toggled ? 'opacity-0' : 'opacity-100'}`}>impossible,</span>
+        <span className={`font-bold text-[58px] leading-tight delay-150 absolute top-0 right-0  ${!toggled ? 'translate-y-full' : 'translate-y-0'}`}>possible.</span>
       </div>
     </div>
   )

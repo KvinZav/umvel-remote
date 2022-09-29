@@ -10,4 +10,5 @@ export enum BlockNameEnum {
     interactiveFooter = 'interactive-footer.interactive-footer',
     team = 'team.footer-team',
     pageHeader = 'page-header.page-header',
+    menu = 'footer-components.footer-menu'
 }

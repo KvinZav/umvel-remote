@@ -5,7 +5,7 @@ export interface CardInterface {
         color?: string;
         textPositionHorizontal: "start" | "center" | "end";
         textPositionVertical: "start" | "center" | "end";
-        bg: string;
+        bg?: string;
         bgSecondary?:string;
         borderColor?: string;
         textColor?: string;

@@ -1,102 +1,68 @@
 import Link from 'next/link';
-import React from 'react';
-
-const MENU_ITEMS = [
-  {
-    title: 'Our work',
-    ref: '',
-    items: [{
-      label: 'Case studies',
-      ref: ''
-    }]
-  },
-  {
-    title: 'Our offering',
-    ref: '',
-    items: [{
-      label: 'How we can help',
-      ref: ''
-    },{
-      label: 'The Umvel Way',
-      ref: ''
-    },{
-      label: 'Our approach',
-      ref: ''
-    }]
-  },
-  {
-    title: 'Our capabilities',
-    ref: '',
-    items: [{
-      label: 'Creative',
-      ref: ''
-    },{
-      label: 'Technology',
-      ref: ''
-    },{
-      label: 'Research',
-      ref: ''
-    }]
-  },{
-    title: 'About Us',
-    ref: '',
-    items: [{
-      label: 'What we do',
-      ref: ''
-    },{
-      label: 'Philosophy',
-      ref: ''
-    },{
-      label: 'Process',
-      ref: ''
-    },{
-      label: 'Our team',
-      ref: ''
-    }]
-  },{
-    title: 'Resources',
-    ref: '',
-    items: [{
-      label: 'Insights by Umvellers',
-      ref: ''
-    },{
-      label: 'Tools',
-      ref: ''
-    },{
-      label: 'Frameworks',
-      ref: ''
-    }]
-  }
-]
+import CustomImage from '@elements/image-component/CustomImage';
+import BasicButton from '@elements/button';
+import useSWR from 'swr';
+import { environment } from '@environments/index';
+import { get } from '@fetcher/get';
+import { FETCHER } from '@fetcher/clients';
+import { BlockNameEnum } from '@enums/BlockName';
 
 export const FooterMenu = () => {
-  return(
-    <section className="py-[104px] px-[72px] md:p-36 lg:p-32">
-      <div className="grid md:flex md:max-h-[80vh] md:flex-wrap md:flex-col md:content-around lg:place-content-around lg:grid lg:grid-cols-5">
-        {
-          MENU_ITEMS.map((i, n) => 
-            <div key={n + ''} className={`lg:order-1 ${n % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
-              <div className="mb-8">
-                <Link href={i.ref}>
-                  <a className="text-xl leading-tight font-bold">{i.title}</a>
+  const { data: event } = useSWR(environment.HOME_URL, get, {
+    revalidateOnFocus: false,
+  });
+  if (!event) return null;
+
+  const { socialNetworks, links } = FETCHER(event, BlockNameEnum.menu);
+
+  return (
+    <section className="p-[15%] lg:p-[10%]">
+      <div className="flex flex-col">
+        <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8">
+          <div className="flex items-center gap-4">
+            <CustomImage
+              src={"assets/images/umvelLogoDark.svg"}
+              alt={"logo-umvel"}
+              className="w-8"
+            />
+            <p className="font-bold text-base">We deliver what we promise.</p>
+          </div>
+          <div className="flex flex-col lg:flex-row">
+            <div className="flex lg:items-center flex-col lg:flex-row my-6 lg:m-0">
+              {links.map((menuItem, index) => (
+                <Link href={`/${menuItem.link}`} key={`menu-item-footer-${index}`}>
+                  <a className="text-base leading-tight py-4 lg:px-6">{menuItem.name}</a>
                 </Link>
-              </div>
-              <ul className="hidden md:block md:mb-16 lg:mb-0">
-                {i.items.map((j, n) => (
-                  <li className={n !== i.items.length - 1 ? 'mb-6' : 'mb-0'} key={n+''}>
-                    <Link href={j.ref}>
-                      <a>{j.label}</a>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              ))}
             </div>
-          )
-        }
-      </div>
-      <div className="flex justify-end mt-32">
-        <p>© 2022 Umvel Inc.</p>
+            <div className="lg:px-4">
+              <BasicButton onClick={() => {}}>{"Let's Talk"}</BasicButton>
+            </div>
+          </div>
+        </div>
+        <hr className="text-[#E6E6E6] hidden lg:block mb-8" />
+        <div className="flex justify-between flex-col lg:flex-row">
+          <div className="flex gap-8 flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
+            {socialNetworks.map((socialNetwork, index) => (
+              <a
+                className="text-base leading-tight"
+                key={`menu-item-footer-${index}`}
+                href={socialNetwork.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {socialNetwork.name}
+              </a>
+            ))}
+          </div>
+          <div className="flex flex-col md:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
+            <Link href="privacy-policy">
+              <a>Privacy Policy</a>
+            </Link>
+            <p>© 2022 Umvel Inc.</p>
+          </div>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};

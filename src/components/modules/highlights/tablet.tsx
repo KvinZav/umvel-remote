@@ -1,5 +1,6 @@
 import Image from "@elements/image-component";
-import SquareColors from "@elements/square-colors";
+import CustomImage from "@elements/image-component/CustomImage";
+import PrismButton from "@elements/square-colors";
 import { HighlightsTabletPorps } from "@type/modules/highlights";
 const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,handlePrevious,title}):JSX.Element => {
     const imgAttribute = project.attributes.image.data.attributes
@@ -22,11 +23,21 @@ const HighlightsTablet:React.FC<HighlightsTabletPorps> = ({project,handleNext,ha
                             <p className="font-sm mx-8 mb-4">Explore more cases:</p>
                         </div>
                         <div className="h-1/2 flex flex-row justify-center items-center ">
-                            <button className="mr-16 text-4xl" onClick={()=>handlePrevious()}>{'<'}</button>
-                            <div className="w-1/4">
-                                    <SquareColors text="View all cases" textSize="sm" />
+                            <button className="mr-16 text-4xl" onClick={()=>handlePrevious()}>
+                                <CustomImage
+                                    src="/assets/icons/chevronLeft.svg"
+                                    alt="icon-chevron-right"
+                                />
+                            </button>
+                            <div>
+                                    <PrismButton>View all cases</PrismButton>
                             </div>
-                            <button className="ml-16 text-4xl" onClick={()=>handleNext()}>{'>'}</button>
+                            <button className="ml-16 text-4xl" onClick={()=>handleNext()}>
+                                <CustomImage
+                                    src="/assets/icons/chevronRight.svg"
+                                    alt="icon-chevron-right"
+                                />
+                            </button>
                         </div>
                     </div>
                 </div>

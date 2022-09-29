@@ -5,7 +5,7 @@ import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
 import Hero from '@modules/hero';
-import { FooterMenu, FooterTeam, FooterCta } from '@modules/footer';
+import { FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
 import MainMenuHighlights from '@modules/mainMenu/Highlights';
@@ -39,11 +39,11 @@ export default function Home() {
     <div>
       <Hero />
       {<ButtonScroll elementTo={highlightsRef}/>}
-      <MainMenuHighlights/>
-      <ScrollInteraction1/>
       <div ref={highlightsRef}>
-        <Highlights/>
+        <MainMenuHighlights/>
       </div>
+      <ScrollInteraction1/>
+        <Highlights/>
       <ScrollInteraction2
         steps={data?.data?.attributes.body[4].step}
       />
@@ -55,7 +55,6 @@ export default function Home() {
         data={data.data.attributes.body
           .find((item) => item.__component === BlockNameEnum.team)}
       />
-      <FooterMenu/>
     </div>
   );
 }
