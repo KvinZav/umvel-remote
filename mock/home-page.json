@@ -667,25 +667,6 @@
             },
             {
               "id": 2,
-              "title": "Cancer Buddy",
-              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
-              "hoverClientName": "Cancer App",
-              "hoverClientHeading": "Cancer App",
-              "callToAction": null,
-              "backgroundColor": "cases-cancer-buddy",
-              "primaryColor": "black"
-            },
-            {
-              "id": 3,
-              "title": "Smart Walk",
-              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
-              "hoverClientName": "Virtual Tools",
-              "hoverClientHeading": "Virtual Tools",
-              "callToAction": null,
-              "backgroundColor": "cases-smart-walk"
-            },
-            {
-              "id": 4,
               "title": "Viva Aerobus",
               "hoverDescription": "“Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.”",
               "hoverClientName": "National Airline",
@@ -694,18 +675,37 @@
               "backgroundColor": "cases-viva"
             },
             {
-              "id": 5,
+              "id": 3,
               "title": "OEIO",
-              "hoverDescription": "“The Umvel team was very quick and on time with everything.”",
+              "hoverDescription": "“The Umvel team was  quick, on time with everything and delivered an amazing result.“",
               "hoverClientName": "Wellness App",
               "hoverClientHeading": "Wellness App",
               "callToAction": null,
               "backgroundColor": "cases-oeio"
             },
             {
+              "id": 4,
+              "title": "Cancer Buddy",
+              "hoverDescription": "“We are changing lives with our app. That’s a direct result of a great working app, made by Umvel.”",
+              "hoverClientName": "Cancer App",
+              "hoverClientHeading": "Cancer App",
+              "callToAction": null,
+              "backgroundColor": "cases-cancer-buddy",
+              "primaryColor": "black"
+            },
+            {
+              "id": 5,
+              "title": "Smart Walk",
+              "hoverDescription": "“We envisioned a product experience that would ‘wow’ people, and that’s what we got.”",
+              "hoverClientName": "Virtual Tools",
+              "hoverClientHeading": "Virtual Tools",
+              "callToAction": null,
+              "backgroundColor": "cases-smart-walk"
+            },
+            {
               "id": 6,
-              "title": "OEIO",
-              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+              "title": "Food Central",
+              "hoverDescription": "“Creating and end-to-end digital platform is hard, but I’m surprised how easy and efficient the project went.”",
               "hoverClientName": "Wellness",
               "hoverClientHeading": "Wellness",
               "callToAction": null,
@@ -714,7 +714,7 @@
             {
               "id": 7,
               "title": "Capa",
-              "hoverDescription": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisi vel purus imperdiet laoreet. Aliquam et malesuada sapien.”",
+              "hoverDescription": "“The real estate and investing markets are hard to understand. Umvel’s team immersed themselves in our industry.”",
               "hoverClientName": "Real State",
               "hoverClientHeading": "Real State",
               "callToAction": null,
