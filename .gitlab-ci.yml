@@ -95,8 +95,22 @@ deploy:image:
     name: $CI_COMMIT_REF_NAME
     url: https://$CI_COMMIT_REF_NAME-website.umvel.dev
   script:
-    - echo "deploy ${CI_COMMIT_BRANCH}"
+    - aws ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
   only:
     - development
     - staging
     - demo
+
+deploy:image:
+  stage: deploy
+  image: amazon/aws-cli
+  tags:
+    - UMVEL-CICD-GLOBAL
+  cache: {}
+  environment:
+    name: production
+    url: https://umvel.com
+  script:
+    - aws ecs update-service --cluster $ECS_CLUSTER --service $ECS_SERVICE --force-new-deployment
+  only:
+    - master
