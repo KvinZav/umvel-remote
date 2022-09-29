@@ -63,7 +63,6 @@ export default function Home() {
         <FooterTeam
           data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
         />
-        <ModalCookies />
       </div>
     )
   );
