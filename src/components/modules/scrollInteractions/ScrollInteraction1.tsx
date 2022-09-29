@@ -6,39 +6,40 @@ import React, { useEffect, useRef, useState } from 'react';
 import useSWR from 'swr';
 import useScrollOffset from '@hooks/useScrollOffset';
 
-const determineOpacity = (top) => (100 - (Math.abs(top) * 0.6)) * 0.01
+const determineOpacity = (top) => (100 - Math.abs(top) * 0.6) * 0.01;
 
 const ScrollInteraction1 = () => {
-  const containerRef = useRef<HTMLDivElement>()
-  const rightTextRefs = useRef<Array<HTMLDivElement>>([])
-  
+  const containerRef = useRef<HTMLDivElement>();
+  const rightTextRefs = useRef<Array<HTMLDivElement>>([]);
+
   const isDesktop = useMediaQuery('(min-width: 1024px)');
-  
-  const { scrollOffset } = useScrollOffset()
 
-  const [currentStep, setCurrentStep] = useState(0)
-  const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false)
-  const [rightTextOpacities, setRightTextOpacities] = useState([])
-  const [boundsTop, setBoundsTop] = useState<Array<number>>([])
+  const { scrollOffset } = useScrollOffset();
 
-  useEffect(() => {
-    if(!isDesktop) return
-    
-    const refsOpacity = rightTextRefs.current.map(i => determineOpacity(i.getBoundingClientRect().top) + 1)
-    setBoundsTop(rightTextRefs.current.map(i => i.getBoundingClientRect().top))
-    setRightTextOpacities(refsOpacity)
-    setCurrentStep(refsOpacity.findIndex(i => i > 0.2))
-    
-  }, [scrollOffset])
+  const [currentStep, setCurrentStep] = useState(0);
+  const [isTitleAnimToggled, setIsTitleAnimToggled] = useState(false);
+  const [rightTextOpacities, setRightTextOpacities] = useState([]);
+  const [boundsTop, setBoundsTop] = useState<Array<number>>([]);
 
   useEffect(() => {
-    setIsTitleAnimToggled(currentStep === 3)
-  }, [currentStep])
+    if (!isDesktop) return;
 
-  const { data: event } = useSWR(environment.HOME_URL)
+    const refsOpacity = rightTextRefs.current.map(
+      (i) => determineOpacity(i.getBoundingClientRect().top) + 1
+    );
+    setBoundsTop(rightTextRefs.current.map((i) => i.getBoundingClientRect().top));
+    setRightTextOpacities(refsOpacity);
+    setCurrentStep(refsOpacity.findIndex((i) => i > 0.2));
+  }, [scrollOffset]);
+
+  useEffect(() => {
+    setIsTitleAnimToggled(currentStep === 3);
+  }, [currentStep]);
+
+  const { data: event } = useSWR(environment.HOME_URL);
   if (!event) return null;
 
-  const { step: steps } = FETCHER(event, BlockNameEnum.scrollInteraction)  
+  const { step: steps } = FETCHER(event, BlockNameEnum.scrollInteraction);
 
   return (
     <section
@@ -46,61 +47,77 @@ const ScrollInteraction1 = () => {
       ref={containerRef}
     >
       <div className={`flex flex-col lg:flex-row pr-8 lg:sticky top-0 lg:h-screen lg:items-center`}>
-        {isDesktop ? <div className="w-1/2">
-          <AnimatedTitle
-            toggled={isTitleAnimToggled}
-          />
-        </div> :
-        <h1 className="font-bold text-[26px] leading-tight mb-4">Making the impossible, possible.</h1>}
+        {isDesktop ? (
+          <div className="w-1/2">
+            <AnimatedTitle toggled={isTitleAnimToggled} />
+          </div>
+        ) : (
+          <h1 className="font-bold text-[26px] leading-tight mb-4">
+            Making the impossible, possible.
+          </h1>
+        )}
       </div>
       <div
         className={`h-full flex flex-col items-start lg:items-end lg:-mt-[90vh] pointer-events-none`}
       >
-        {
-          isDesktop ? steps?.map((i, n) => n > 0 ? (
-            <div
-              key={n + ''}
-              ref={el => rightTextRefs.current[n] = el}
-              className={`flex snap-start w-[50vw] h-screen items-center`}
-              style={{
-                opacity: rightTextOpacities[n],
-                transform: boundsTop[0] < 0 ? `translateY(${1-(boundsTop[n] * 0.3)}px)` : ''
-              }}
-            >
-              <p className={`${n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'} max-w-[416px] text-4xl leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
-            </div>
-          ) : <div key={n + ''} ref={el => rightTextRefs.current[n] = el} />)
-          : steps?.map((i, n) => n > 0 ? (
-            <div
-              key={n + ''}
-              ref={el => rightTextRefs.current[n] = el}
-              className={``}
-            >
-              <p className={`${n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'} max-w-[416px] text-lg leading-snug`}>{i.right.text.replace(/\*/g, '')}</p>
-              <br/>
-            </div>
-          ) : <div key={n + ''} ref={el => rightTextRefs.current[n] = el} />)
-        }
+        {isDesktop
+          ? steps?.map((i, n) =>
+              n > 0 ? (
+                <div
+                  key={n + ''}
+                  ref={(el) => (rightTextRefs.current[n] = el)}
+                  className={`flex snap-start w-[50vw] h-screen items-center`}
+                  style={{
+                    opacity: rightTextOpacities[n],
+                    transform: boundsTop[0] < 0 ? `translateY(${1 - boundsTop[n] * 0.3}px)` : '',
+                  }}
+                >
+                  <p
+                    className={`${
+                      n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'
+                    } max-w-[416px] text-4xl leading-snug`}
+                  >
+                    {i.right.text.replace(/\*/g, '')}
+                  </p>
+                </div>
+              ) : (
+                <div key={n + ''} ref={(el) => (rightTextRefs.current[n] = el)} />
+              )
+            )
+          : steps?.map((i, n) =>
+              n > 0 ? (
+                <div key={n + ''} ref={(el) => (rightTextRefs.current[n] = el)} className={``}>
+                  <p
+                    className={`${
+                      n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'
+                    } max-w-[416px] text-lg leading-snug`}
+                  >
+                    {i.right.text.replace(/\*/g, '')}
+                  </p>
+                  <br />
+                </div>
+              ) : (
+                <div key={n + ''} ref={(el) => (rightTextRefs.current[n] = el)} />
+              )
+            )}
       </div>
     </section>
-  )
-}
+  );
+};
 
 const AnimatedTitle = ({ toggled }) => {
+  const theRef = useRef<HTMLSpanElement>();
+  const itRef = useRef<HTMLSpanElement>();
 
-  const theRef = useRef<HTMLSpanElement>()
-  const itRef = useRef<HTMLSpanElement>()
+  const [wordWidth, setWordWidth] = useState<number>(86);
 
-  const [wordWidth, setWordWidth] = useState<number>(86)
-
-  useEffect(() => {    
+  useEffect(() => {
     if (!toggled) {
-      setWordWidth(theRef?.current?.offsetWidth)
+      setWordWidth(theRef?.current?.offsetWidth);
     } else {
-      setWordWidth(itRef?.current?.offsetWidth)
+      setWordWidth(itRef?.current?.offsetWidth);
     }
-
-  }, [toggled, theRef?.current?.offsetWidth])
+  }, [toggled, theRef?.current?.offsetWidth]);
 
   return (
     <div className={`flex flex-col w-full h-full`}>
@@ -114,16 +131,42 @@ const AnimatedTitle = ({ toggled }) => {
             width: wordWidth,
           }}
         >
-          <span ref={theRef} className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${toggled ? 'opacity-0' : 'opacity-100 delay-300'}`}>the</span>
-          <span ref={itRef} className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${toggled ? 'opacity-100' : 'opacity-0'}`}>it</span>
+          <span
+            ref={theRef}
+            className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${
+              toggled ? 'opacity-0' : 'opacity-100 delay-300'
+            }`}
+          >
+            the
+          </span>
+          <span
+            ref={itRef}
+            className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${
+              toggled ? 'opacity-100' : 'opacity-0'
+            }`}
+          >
+            it
+          </span>
         </div>
       </div>
       <div className="relative children:ease-in-out children:transform children:transition-all children:duration-500 h-[144px]">
-        <span className={`font-bold text-[58px] leading-tight absolute top-0 right-0  ${toggled ? 'opacity-0' : 'opacity-100'}`}>impossible,</span>
-        <span className={`font-bold text-[58px] leading-tight delay-150 absolute top-0 right-0  ${!toggled ? 'translate-y-full' : 'translate-y-0'}`}>possible.</span>
+        <span
+          className={`font-bold text-[58px] leading-tight absolute top-0 right-0  ${
+            toggled ? 'opacity-0' : 'opacity-100'
+          }`}
+        >
+          impossible,
+        </span>
+        <span
+          className={`font-bold text-[58px] leading-tight delay-150 absolute top-0 right-0  ${
+            !toggled ? 'translate-y-full' : 'translate-y-0'
+          }`}
+        >
+          possible.
+        </span>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ScrollInteraction1;

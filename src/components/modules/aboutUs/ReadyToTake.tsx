@@ -1,10 +1,10 @@
-import PrismButton from "@elements/square-colors";
-import { environment } from "@environments/index";
-import { get } from "@fetcher/get";
-import React from "react";
-import useSWR from "swr";
-import { PhilosophyBulletPoint } from "@interfaces/about-us-data/about-us.interface";
-import Link from "next/link";
+import PrismButton from '@elements/square-colors';
+import { environment } from '@environments/index';
+import { get } from '@fetcher/get';
+import React from 'react';
+import useSWR from 'swr';
+import { PhilosophyBulletPoint } from '@interfaces/about-us-data/about-us.interface';
+import Link from 'next/link';
 
 export const ReadyToTake = () => {
   const infoAboutUs = useSWR(environment.ABOUT_US, get, {
@@ -31,7 +31,9 @@ export const ReadyToTake = () => {
               <PrismButton> Our Work</PrismButton>
             </Link>
 
-            <p className="font-bold text-[24px] lg:text-[28px] md:ml-10 mb-14 md:mb-0">We deliver what we promise.</p>
+            <p className="font-bold text-[24px] lg:text-[28px] md:ml-10 mb-14 md:mb-0">
+              We deliver what we promise.
+            </p>
           </div>
         </div>
       </div>
@@ -53,7 +55,7 @@ export const ReadyToTake = () => {
           >
             {quotes?.philosophy.bulletPoints.map((item: PhilosophyBulletPoint, index: number) => {
               return (
-                <div key={"indicator-" + index}>
+                <div key={'indicator-' + index}>
                   <p className="lg:w-40 lg:text-[18px] mt-6 text-primary-white">{item.body}</p>
                 </div>
               );

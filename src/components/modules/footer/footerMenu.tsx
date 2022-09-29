@@ -9,11 +9,11 @@ import { BlockNameEnum } from '@enums/BlockName';
 
 export const FooterMenu = () => {
   const { data: event } = useSWR(environment.HOME_URL, get, {
-    revalidateOnFocus: false
+    revalidateOnFocus: false,
   });
   if (!event) return null;
 
-  const {socialNetworks,links} = FETCHER(event, BlockNameEnum.menu);
+  const { socialNetworks, links } = FETCHER(event, BlockNameEnum.menu);
 
   return (
     <section className="p-[15%] lg:p-[10%]">
@@ -21,8 +21,8 @@ export const FooterMenu = () => {
         <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8">
           <div className="flex items-center gap-4">
             <CustomImage
-              src={"assets/images/umvelLogoDark.svg"}
-              alt={"logo-umvel"}
+              src={'assets/images/umvelLogoDark.svg'}
+              alt={'logo-umvel'}
               className="w-8"
             />
             <p className="font-bold text-base">We deliver what we promise.</p>
