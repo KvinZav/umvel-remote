@@ -71,9 +71,11 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
               <p className="text-sm text-primary-white mb-4">
                 {project.attributes.caseDescription}
               </p>
-              <button className="border-2 rounded-full px-4 py-1 text-base text-primary-white">
-                View Case
-              </button>
+              <div className="flex">
+                <div className="flex border rounded-full px-4 py-2 text-primary-white text-sm">
+                  <Link href={`/cases/${project.id}`}>View Case</Link>
+                </div>
+              </div>
             </div>
           </div>
           <div
