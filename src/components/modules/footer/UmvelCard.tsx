@@ -2,7 +2,7 @@ import { CustomCard } from "@elements/card/card"
 import CustomImage from "@elements/image-component/CustomImage"
 import React, { FC } from "react"
 
-const UmvelCard: FC<{ children?: React.ReactNode, darkTheme: boolean}> = ({ children, darkTheme = false } ) => {
+const UmvelCard: FC<{ children?: React.ReactNode, darkTheme: boolean }> = ({ children, darkTheme = false }) => {
     return (
         <div className={`grid md:grid-cols-2 ${darkTheme ? 'bg-primary-black' : ''}`}>
             <CustomCard customStyles={`flex flex-col items-center justify-center ${!darkTheme ? 'border border-[#ccc]' : ''}`} borderless>

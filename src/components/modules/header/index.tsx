@@ -26,6 +26,7 @@ const Header = () => {
   const logo = event.data.attributes.header.logo.data.attributes;
   const options = event.data.attributes.header.links;
   const cases = event.data.attributes.header.cases;
+  
   const { socialNetworks } = event.data.attributes.body.find(
     (item) => item.__component === BlockNameEnum.menu
   );
