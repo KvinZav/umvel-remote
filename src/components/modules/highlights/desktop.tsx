@@ -92,7 +92,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 <Link href="/our-work">
                   <PrismButton>Show more</PrismButton>
                 </Link>
-                <button className="mr-4" onClick={() => handlePrevious()}>
+                <button className="mr-4" onClick={() => handleNext()}>
                   <CustomImage src="/assets/icons/chevronRight.svg" alt="icon-chevron-right" />
                 </button>
               </div>
