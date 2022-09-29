@@ -17,6 +17,7 @@ import { ButtonScroll } from '@elements/ButtonScroll';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import Head from 'next/head';
 
+
 export default function Home() {
   const isBrowser = typeof window !== 'undefined';
 

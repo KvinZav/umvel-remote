@@ -3,6 +3,8 @@ import { SWRConfig } from 'swr';
 import Header from '@modules/header';
 import { ScrollContextProvider } from '@context/scrollContext';
 import { FooterMenu } from '@modules/footer';
+import ModalCookies from '@elements/ModalCookies';
+import { useEffect, useState } from 'react';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -32,8 +34,20 @@ const colors = [
 ];
 
 function MyApp({ Component, pageProps }) {
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    if (!sessionStorage.getItem('consent')) {
+      sessionStorage.setItem('consent', 'false');
+    }
+    if (sessionStorage.getItem('consent') !== 'true') {
+      setShowModal(true);
+    }
+  }, []);
+  
   return (
     <>
+    <ModalCookies showModal={showModal}/>
       <SWRConfig value={swrConfig}>
         <ScrollContextProvider>
           <Header />
