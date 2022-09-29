@@ -1,24 +1,23 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState } from 'react';
 
 const initialState = {
   scrollOffset: 0,
-  handleScroll: (value : number) => null
-}
+  handleScroll: (value: number) => null,
+};
 
-export const ScrollContext = createContext(initialState)
+export const ScrollContext = createContext(initialState);
 
-export function ScrollContextProvider(props){
-
-  const [offsetY, setOffsetY] = useState(0)
+export function ScrollContextProvider(props) {
+  const [offsetY, setOffsetY] = useState(0);
 
   const handleScroll = (value) => {
-    setOffsetY(value)
-  }
+    setOffsetY(value);
+  };
 
   const value = {
     handleScroll,
-    scrollOffset: offsetY
-  }
+    scrollOffset: offsetY,
+  };
 
-  return <ScrollContext.Provider value={value} {...props }/>
+  return <ScrollContext.Provider value={value} {...props} />;
 }
