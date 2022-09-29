@@ -1,6 +1,6 @@
-import { Position } from "@enums/position.enum";
-import { Sizes } from "@enums/sizes.enum";
-import { CSSProperties, ReactNode, StyleHTMLAttributes } from "react";
+import { Position } from '@enums/position.enum';
+import { Sizes } from '@enums/sizes.enum';
+import { CSSProperties, ReactNode } from 'react';
 
 export interface CardConnectConfiguration {
   size: Sizes;
