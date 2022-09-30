@@ -141,7 +141,7 @@
           "__component": "heading.heading",
           "caseOfStudy": [{
             "id": 1,
-            "Title": "seamlessly deliver business value",
+            "Title": "seamlessly deliver business value.",
             "Subtitle": null,
             "case_of_study": {
               "data": {
@@ -149,7 +149,7 @@
                 "attributes": {
                   "title": "Viva App delivers efficiency!",
                   "caseDescription": "See how delivered an efficient, simple and fun flight experience for Viva Aerobus.",
-                  "primaryColor": "cases-viva",
+                  "primaryColor": "cases-viva-app",
                   "secondaryColor": "capa-secondary",
                   "createdAt": "2022-08-19T15:15:34.095Z",
                   "updatedAt": "2022-08-19T15:16:13.168Z",
