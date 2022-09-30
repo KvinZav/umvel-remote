@@ -37,6 +37,15 @@ npm run dev
 # or
 yarn dev
 ```
+## Environments
+You can see more details about environments on Next.js [here](https://nextjs.org/docs/basic-features/environment-variables)
+
+### Environment Variables Allowed
+```bash
+NEXT_PUBLIC_STRAPI_API_URL=''
+API_HUBAPI=''
+API_HUBAPI_TOKEN='Bearer TOKEN_API'
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
