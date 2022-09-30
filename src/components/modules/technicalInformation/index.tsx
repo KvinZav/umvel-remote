@@ -1,4 +1,5 @@
 import { CaseAttributes } from '@interfaces/cases-data/cases.interface';
+import Link from 'next/link';
 import React, { FC } from 'react';
 
 type TechnicalInformationProps = {
@@ -47,11 +48,11 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
             })}
           </div>
           <div className="flex">
-            <a href="#">
-              <div className="flex border rounded-full py-3 px-6">
-                <p>See all services</p>
+            <Link href="/our-offering">
+              <div className="flex border rounded-full py-3 px-6 hover:cursor-pointer">
+                <p >See all services</p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
