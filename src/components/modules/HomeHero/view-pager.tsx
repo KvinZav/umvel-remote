@@ -62,7 +62,7 @@ const ViewPager = ({cases}) => {
       setCurrentTimeout(timeoutId)
     }
     
-  }, [currentCaseIndex])
+  }, [currentCaseIndex]);
 
   useEffect(() => {
     setTopVisible(false)
@@ -152,6 +152,7 @@ const ViewPager = ({cases}) => {
                 bgSecondary: cases[bottomCaseIndex]?.case_of_study.data.attributes.secondaryColor,
                 textColor: 'white',
               }}
+              caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
               imageUrl={cases[bottomCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}
               text={cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
@@ -199,6 +200,7 @@ const ViewPager = ({cases}) => {
               }}
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
               descriptionOnly
+              caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
             />
             </div>
             {/* top */}
@@ -218,6 +220,7 @@ const ViewPager = ({cases}) => {
                 }}
                 description={cases[topCaseIndex]?.case_of_study.data.attributes.caseDescription}
                 descriptionOnly
+                caseId={cases[topCaseIndex]?.case_of_study.data.id}
               />
             </div>
         </div>}
