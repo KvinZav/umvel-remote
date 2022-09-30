@@ -19,11 +19,9 @@ const Hero = () => {
 
   return (
     <>
-      <div className="">
-          <ViewPager
-            cases={caseOfStudy}
-          />
-      </div>
+      <ViewPager
+        cases={caseOfStudy}
+      />
     </>
   );
 };

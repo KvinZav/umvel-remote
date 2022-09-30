@@ -123,7 +123,7 @@
           },
           {
             "id": 7,
-            "title": null,
+            "title": null, 
             "backgroundColor": "cases-oeio",
             "image": null
           },
@@ -270,6 +270,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-white"
                     }
                   }
                 }
@@ -332,6 +335,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-black"
                     }
                   }
                 }
@@ -377,6 +383,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-white"
                     }
                   }
                 }
@@ -422,6 +431,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-white"
                     }
                   }
                 }
@@ -943,7 +955,7 @@
               "hoverClientHeading": "Cancer App",
               "callToAction": null,
               "backgroundColor": "cases-cancer-buddy",
-              "primaryColor": "black"
+              "primaryColor": "white"
             },
             {
               "id": 5,

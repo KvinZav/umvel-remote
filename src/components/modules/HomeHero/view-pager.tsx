@@ -91,7 +91,7 @@ const ViewPager = ({cases}) => {
       <div className="col-span-1 relative overflow-hidden">
         {/* bottom */}
         <div
-          className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out translate-y-full opacity-0' : 'transition-none translate-y-0 opacity-100'} duration-1000`}
+          className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out translate-y-[-50%] opacity-0' : 'transition-none translate-y-0 opacity-100'} duration-1000`}
         >
           <Card
             styles={{
