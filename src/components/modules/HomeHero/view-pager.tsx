@@ -27,34 +27,48 @@ const ViewPager = ({cases}) => {
   const [styles, api] = useSpring(() => ({
     from: { width: '0%', height: '100%' },
     to: { width: '100%', height: '100%' },
-    config: { duration: 4000 },
+    config: { duration: 6000 },
   }))
 
-  const initialLoading = async () => {
-    setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)
-    setInterval(() => {      
-      setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)     
-      api.set({width: '0%'})
-      api.start({width: '100%'})
-    }, 4000);
-  }
+  // const initialLoading = async () => {
+  //   setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)
+  //   setInterval(() => {      
+  //     setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)     
+  //     api.set({width: '0%'})
+  //     api.start({width: '100%'})
+  //   }, 6000);
+  // }
+
+  // useEffect(() => {
+  //   initialLoading()
+  // }, [])
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)
+  //   }, 6000)
+  // }, [currentCaseIndex])
 
   useEffect(() => {
-    initialLoading()
-  }, [])
-
-  useEffect(() => {
+    
     const setCaseSource = async () => {
       setTopCaseIndex(currentCaseIndex)
       await waitFor(250)
       setTopVisible(true)
       await waitFor(1000)
       setBottomCaseIndex(currentCaseIndex)
+      api.set({width: '0%'})
+      api.start({width: '100%'})
     }
 
+    // setTimeout(() => {
+    //   setCaseSource()
+    // }, 6000);
+    
+    setCaseSource()
     setTimeout(() => {
-      setCaseSource()
-    }, 4000);
+      setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)
+    }, 6000);
 
   }, [currentCaseIndex])
 
