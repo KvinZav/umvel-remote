@@ -8,5 +8,5 @@ export const environment = {
   CASES_URL: `/api/cases`,
   ABOUT_US: `/api/about-us`,
   OUR_OFFER_URL: `/api/our-offer`,
-  OBJECTS_CONTACT: `/api/contact`
+  OBJECTS_CONTACT: `/api/contact`,
 };
