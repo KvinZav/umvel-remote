@@ -20,13 +20,13 @@ export const AboutUsTeam = ({ data: { title, subtitle, teamMembers } }: { data: 
   }, [currentScreen, teamMembers]);
 
   return (
-    <section className="w-full my-28 md:my-48 lg:my-80">
-      <div className="w-full text-center p-[0px_72px_72px_48px]">
-        <h3 className="text-[28px] md:text-5xl md:mb-2 lg:text-[58px] font-bold">{title}</h3>
+    <section className="w-full">
+      <div className="w-full text-center mt-[104px] md:mt-[200px] lg:mt-[320px] p-[0px_72px] mb-12 md:mb-[80px]">
+        <h3 className="text-[28px] md:text-5xl mb-4 md:mb-2 lg:text-[58px] font-bold">{title}</h3>
         <p className="text-base md:text-[28px]">{subtitle}</p>
       </div>
       <div
-        className="w-full grid grid-rows-2 md:flex md:flex-wrap md:justify-center gap-y-8 overflow-x-auto snap-x"
+        className="w-full grid grid-rows-2 md:flex md:flex-wrap md:justify-center gap-y-8 overflow-x-auto snap-x mb-[104px] md:mb-[200px] lg:mb-[320px]"
         style={customStyle}
       >
         {teamMembers.map((member, idx) => (
@@ -41,6 +41,9 @@ export const AboutUsTeam = ({ data: { title, subtitle, teamMembers } }: { data: 
             </div>
           </div>
         ))}
+      </div>
+      <div className="w-full flex justify-center">
+        <hr className="md:hidden w-[240px] text-[#E6E6E6]" />
       </div>
     </section>
   );
