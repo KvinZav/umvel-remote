@@ -56,7 +56,7 @@ export const GetInTouch = () => {
   return (
     <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-10 grid-rows-2 lg:px-[20%] lg:gap-x-[32px] items-center">
       <div className="px-[72px] md:px-0" style={{ gridColumn: '1/4', gridRow: '1/3' }}>
-        <h3 className="font-bold text-[28px] text-center md:text-[58px]">Get In Touch!</h3>
+        <h3 className="font-bold text-[28px] text-center md:text-[58px]">Get in Touch!</h3>
       </div>
       <div
         className="text-center mb-8 lg:mb-0 lg:text-left"
