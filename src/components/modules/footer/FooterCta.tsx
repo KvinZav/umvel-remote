@@ -14,16 +14,12 @@ export const FooterCta = ({ theme = 'dark' }: { theme?: 'dark' | 'light' }) => {
   const darkTheme = theme === 'dark';
 
   return (
-    <UmvelCard darkTheme={darkTheme}>
-      <>
-        <h1
-          className={`text-[26px] md:text-[27px] lg:text-[58px] leading-tight font-bold pb-6 xl:pb-8`}
-        >
-          {left.title}
-        </h1>
-        <p className="text-base lg:text-lg leading-tight pb-6 xl:pb-8">{left.subtitle}</p>
-        <BasicButton theme={theme}>{"Let's Talk!"}</BasicButton>
-      </>
+    <UmvelCard darkTheme={darkTheme} >
+        <div className='p-12 lg:p-[max(10%_128px)]'>
+          <h1 className={`text-[26px] md:text-[27px] lg:text-[58px] leading-tight font-bold pb-6 xl:pb-8`}>{left.title}</h1>
+          <p className="text-base lg:text-lg leading-tight pb-6 xl:pb-8">{left.subtitle}</p>
+          <BasicButton theme={theme}>{'Let\'s Talk!'}</BasicButton>
+        </div>
     </UmvelCard>
   );
 };

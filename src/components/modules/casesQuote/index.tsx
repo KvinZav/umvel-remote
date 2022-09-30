@@ -16,7 +16,7 @@ const CasesQuote = ({ caseData }) => {
           <p className="lg:text-[32px] text-xl lg:leading-10 leading-6 font-normal  relative z-10">
             {'“' + quote.body + '”'}
             <br />
-            <br />-{quote.client.name}, {quote.client.title}
+            <br />-{quote?.client?.name}, {quote?.client?.title}
           </p>
         </div>
       </div>
