@@ -14,6 +14,8 @@ export const Avatar = ({
       className={`w-48 h-48 rounded-full ${className}`}
       style={{
         backgroundImage: `url('${photo}')`,
+        backgroundPosition: 'center',
+        backgroundSize: 'contain',
         ...style,
       }}
     ></div>
