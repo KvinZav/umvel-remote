@@ -420,7 +420,29 @@
             "id": 2,
             "name": "Ricardo Trevizo",
             "position": "UX Lead",
-            "photo": null
+            "photo": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "rick_trevizo.png",
+                  "alternativeText": "rick_trevizo.png",
+                  "caption": "rick_trevizo.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/rick_trevizo.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           },
           {
             "id": 2,
