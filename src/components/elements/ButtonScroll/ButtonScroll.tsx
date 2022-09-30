@@ -19,7 +19,9 @@ export const ButtonScroll = ({ elementTo }) => {
       <button
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="border rounded-full border-3 grid place-content-center p-[1rem] w-[3rem] h-[3rem] hover:bg-primary-black text-primary-black"
+        onTouchStart={() => setIsHovered(true)}
+        onTouchEnd={scrollToRef}
+        className="border rounded-full border-3 grid place-content-center p-[1rem] w-[3rem] h-[3rem] hover:bg-primary-black"
         onClick={scrollToRef}>
           {
             isHovered ? 
@@ -32,7 +34,6 @@ export const ButtonScroll = ({ elementTo }) => {
                 alt="icon-arrow-down"
               />    
           }
-
       </button>
     </div>
   );
