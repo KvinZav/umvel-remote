@@ -36,7 +36,7 @@ const ViewPager = ({cases}) => {
     }
 
     initialLoading()
-  }, [])
+  }, []);
 
   const setCaseSource = async (caseIdx) => {
     api.set({width: '0%'})
