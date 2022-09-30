@@ -135,7 +135,7 @@ const ServiceDetailHighlights: FC<DetailHighlightsProps> = ({ cases }) => {
 
   return (
     <section className="md:grid md:grid-cols-2 lg:grid-cols-3">
-      {cases.slice(0, tablet ? 4 : 3).map((caseItem, caseIndex) => {
+      {cases.slice(0, tablet ? 2 : 3).map((caseItem, caseIndex) => {
         const { title, caseDescription, primaryColor, image } = caseItem.data.attributes;
 
         return (
