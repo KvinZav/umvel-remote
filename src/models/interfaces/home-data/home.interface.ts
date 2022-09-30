@@ -108,6 +108,9 @@ export interface Attributes3 {
   portfolioDescription: any;
   portfolioDataOfInterest: any;
   image: Logo;
+  styles: {
+    textColor: string;
+  };
 }
 
 export interface Block {
@@ -150,6 +153,9 @@ export interface Attributes4 {
   portfolioDescription: any;
   portfolioDataOfInterest: any;
   image: Logo;
+  styles: {
+    textColor: string;
+  };
 }
 
 export interface Step {

@@ -13,7 +13,6 @@ export const Card = React.memo(
       text,
       description,
       showButton,
-      showDescription,
       descriptionOnly,
       caseId,
     } = props;
@@ -95,7 +94,7 @@ const TitleComponent = ({ text, description, showButton, styles, id }) => {
       className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 w-full`}
     >
       <h1
-        className={`transition-colors duration-500 pb-2 font-bold text-primary-black lg:group-hover:text-primary-white`}
+        className={`transition-colors duration-500 pb-2 font-bold text-${styles.textColor ? styles.textColor : 'primary-black'} lg:group-hover:text-primary-white`}
       >
         {text}
       </h1>

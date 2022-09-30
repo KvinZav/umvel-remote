@@ -123,7 +123,7 @@
           },
           {
             "id": 7,
-            "title": null,
+            "title": null, 
             "backgroundColor": "cases-oeio",
             "image": null
           },
@@ -142,13 +142,13 @@
           "caseOfStudy": [
             {
               "id": 2,
-              "Title": "Seamlessly deliver value",
+              "Title": "seamlessly deliver business value.",
               "Subtitle": null,
               "case_of_study": {
                 "data": {
                   "id": 1,
                   "attributes": {
-                    "title": "Viva App delivers eficiency!",
+                    "title": "Viva App delivers efficiency!",
                     "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions. ",
                     "primaryColor": "cases-viva",
                     "secondaryColor": "capa-secondary",
@@ -180,6 +180,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-white"
                     }
                   }
                 }
@@ -242,6 +245,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-black"
                     }
                   }
                 }
@@ -287,6 +293,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-white"
                     }
                   }
                 }
@@ -332,6 +341,9 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
+                    },
+                    "styles": {
+                      "textColor": "primary-white"
                     }
                   }
                 }
@@ -853,7 +865,7 @@
               "hoverClientHeading": "Cancer App",
               "callToAction": null,
               "backgroundColor": "cases-cancer-buddy",
-              "primaryColor": "black"
+              "primaryColor": "white"
             },
             {
               "id": 5,
