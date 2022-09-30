@@ -15,6 +15,11 @@ const Hero = () => {
 
   const { block, caseOfStudy } = FETCHER(event, BlockNameEnum.heading);
 
+  const { Title } = caseOfStudy[0];
+
+  const { title, primaryColor, secondaryColor, caseDescription, image, styles } =
+    caseOfStudy[0].case_of_study.data.attributes;
+
   return (
     <>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-0">
@@ -37,7 +42,7 @@ const Hero = () => {
               textPositionHorizontal: 'start',
               textPositionVertical: 'end',
             }}
-            text={caseOfStudy[0].Title}
+            text={Title}
           />
           <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 bottom-4 md:bottom-6 lg:bottom-8 h-1 md:h-2 rounded-full bg-secondary-10 overflow-hidden" />
         </div>
@@ -51,30 +56,30 @@ const Hero = () => {
                 color: 'white',
                 textPositionHorizontal: 'center',
                 textPositionVertical: 'center',
-                bg: caseOfStudy[0].case_of_study.data.attributes.primaryColor,
-                bgSecondary: caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
-                textColor: 'white',
+                bg: primaryColor,
+                bgSecondary: secondaryColor,
+                textColor: styles.textColor,
               }}
-              description={caseOfStudy[0].case_of_study.data.attributes.caseDescription}
-              imageUrl={caseOfStudy[0].case_of_study.data.attributes.image.data.attributes.url}
-              text={!tablet && caseOfStudy[0].case_of_study.data.attributes.title}
+              description={caseDescription}
+              imageUrl={image.data.attributes.url}
+              text={!tablet && title}
               showButton={isMobile}
             />
           </div>
           <div className={`${tablet && 'flex-1'}`}>
             {tablet && (
               <Card
-                text={caseOfStudy[0].case_of_study.data.attributes.title}
+                text={title}
                 styles={{
                   textStyles: { height: 'paragraph', align: 'start' },
                   direction: 'col',
                   color: 'white',
                   textPositionHorizontal: 'center',
                   textPositionVertical: 'center',
-                  bg: caseOfStudy[0].case_of_study.data.attributes.primaryColor,
-                  bgSecondary: caseOfStudy[0].case_of_study.data.attributes.secondaryColor,
+                  bg: primaryColor,
+                  bgSecondary: secondaryColor,
                 }}
-                description={caseOfStudy[0].case_of_study.data.attributes.caseDescription}
+                description={caseDescription}
                 descriptionOnly
               />
             )}
