@@ -1,3 +1,4 @@
+import BasicButton from '@elements/button';
 import { CaseAttributes } from '@interfaces/cases-data/cases.interface';
 import Link from 'next/link';
 import React, { FC } from 'react';
@@ -48,11 +49,11 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
             })}
           </div>
           <div className="flex">
-            <Link href="/our-offering">
-              <div className="flex border rounded-full py-3 px-6 hover:cursor-pointer">
-                <p >See all services</p>
-              </div>
-            </Link>
+            <BasicButton>
+              <Link href="/our-offering">
+                  <p >See all services</p>
+              </Link>
+            </BasicButton>
           </div>
         </div>
       </div>
