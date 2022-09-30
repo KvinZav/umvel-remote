@@ -2092,9 +2092,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "cb_quote_bg.png",
-                "alternativeText": "cb_quote_bg.png",
-                "caption": "cb_quote_bg.png",
+                "name": "fc_quote_bg.png",
+                "alternativeText": "fc_quote_bg.png",
+                "caption": "fc_quote_bg.png",
                 "width": 64,
                 "height": 64,
                 "formats": null,
@@ -2102,7 +2102,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_quote_bg.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
