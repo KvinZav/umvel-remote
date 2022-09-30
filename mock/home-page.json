@@ -123,7 +123,7 @@
           },
           {
             "id": 7,
-            "title": null,
+            "title": null, 
             "backgroundColor": "cases-oeio",
             "image": null
           },
@@ -142,7 +142,7 @@
           "caseOfStudy": [
             {
               "id": 2,
-              "Title": "Seamlessly deliver value",
+              "Title": "seamlessly deliver business value.",
               "Subtitle": null,
               "case_of_study": {
                 "data": {
