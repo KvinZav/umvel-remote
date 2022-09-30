@@ -139,7 +139,6 @@
         {
           "id": 2,
           "__component": "heading.heading",
-<<<<<<< HEAD
           "caseOfStudy": [
             {
               "id": 1,
@@ -270,46 +269,6 @@
                           "createdAt": "2022-08-19T15:35:22.751Z",
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
-=======
-          "caseOfStudy": [{
-            "id": 1,
-            "Title": "seamlessly deliver business value",
-            "Subtitle": null,
-            "case_of_study": {
-              "data": {
-                "id": 1,
-                "attributes": {
-                  "title": "Viva App delivers efficiency!",
-                  "caseDescription": "See how delivered an efficient, simple and fun flight experience for Viva Aerobus.",
-                  "primaryColor": "cases-viva",
-                  "secondaryColor": "capa-secondary",
-                  "createdAt": "2022-08-19T15:15:34.095Z",
-                  "updatedAt": "2022-08-19T15:16:13.168Z",
-                  "publishedAt": "2022-08-19T15:15:36.577Z",
-                  "portfolioTitle": null,
-                  "portfolioDescription": null,
-                  "portfolioDataOfInterest": null,
-                  "image": {
-                    "data": {
-                      "id": 1,
-                      "attributes": {
-                        "name": "vivaApp_case",
-                        "alternativeText": "vivaApp_case",
-                        "caption": "vivaApp_case",
-                        "width": 977,
-                        "height": 673,
-                        "formats": null,
-                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                        "ext": ".svg",
-                        "mime": "image/svg+xml",
-                        "size": 0.42,
-                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg",
-                        "previewUrl": null,
-                        "provider": "local",
-                        "provider_metadata": null,
-                        "createdAt": "2022-08-19T15:35:22.751Z",
-                        "updatedAt": "2022-08-19T15:35:22.751Z"
->>>>>>> @{-1}
                       }
                     }
                   }
