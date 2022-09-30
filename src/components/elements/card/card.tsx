@@ -5,8 +5,7 @@ import Image from '@elements/image-component/index';
 import Link from 'next/link';
 
 //eslint-disable-next-line react/display-name
-export const Card = React.memo(
-  (props: CardInterface) => {
+export const Card = (props: CardInterface) => {
     const {
       styles,
       imageUrl,
@@ -33,9 +32,7 @@ export const Card = React.memo(
         )}
       </MainContainer>
     );
-  },
-  (prevProps, nextProps) => prevProps.text === nextProps.text
-);
+  };
 
 export const CustomCard = ({ children, customStyles = '', borderless = false }) => {
   return (
