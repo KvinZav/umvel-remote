@@ -62,7 +62,7 @@ const MainContainer = ({ children, styles, hasDescription }) => {
           min-h-full
           flex
           w-full
-          ${hasDescription ? `p-0` : 'p-4 lg:p-8'}
+          ${hasDescription ? `p-0` : 'p-4'}
           ${styles.direction === 'col' ? 'flex-col' : 'flex-col-reverse'}
           ${styles.direction === 'col' && !styles.textPositionHorizontal && 'justify-start'} 
           ${styles.direction === 'col-reverse' && !styles.textPositionHorizontal && 'justify-end'} 
