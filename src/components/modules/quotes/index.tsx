@@ -16,13 +16,15 @@ const Quotes = (): JSX.Element => {
       className={`h-[180vw] md:h-[200vw] w-full overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}
     >
       <section className="h-[180vw] flex md:flex-row flex-col flex-wrap md:h-[200vw] lg:h-[50vw] snap-x">
-        <article className="bg-primary-white p-[4vw] h-[50%] md:h-1/4 aspect-square snap-center overflow-hidden lg:h-1/2 lg:w-auto lg:text-2xl">
-          <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">
-            Our projects speak for themselves.
-          </h2>
-          <p className="text-base">
-            {"Millions of people used products we've built.  And we just got started."}
-          </p>
+        <article className="bg-primary-white group overflow-hidden h-[50%] md:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto">
+          <div className='p-9'>
+            <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">
+              Our projects speak for themselves.
+            </h2>
+            <p className="text-base">
+              {"Millions of people used products we've built.  And we just got started."}
+            </p>
+          </div>
         </article>
         {quote.map((item) => {
           return (
