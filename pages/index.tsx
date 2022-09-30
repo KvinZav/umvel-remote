@@ -4,7 +4,7 @@ import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
-import Hero from '@modules/hero';
+import Hero from '@modules/hero/hero';
 import { FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
@@ -29,7 +29,7 @@ export default function Home() {
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
 
-  useEffect(() => {
+  useEffect(() => {    
     isBrowser && window.addEventListener('scroll', onScroll);
 
     return () => isBrowser && window.removeEventListener('scroll', onScroll);

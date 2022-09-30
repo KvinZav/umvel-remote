@@ -137,15 +137,15 @@
           "id": 2,
           "__component": "heading.heading",
           "caseOfStudy": [{
-            "id": 2,
-            "Title": "Seamlessly deliver value",
+            "id": 1,
+            "Title": "seamlessly deliver business value",
             "Subtitle": null,
             "case_of_study": {
               "data": {
                 "id": 1,
                 "attributes": {
-                  "title": "Viva App delivers eficiency!",
-                  "caseDescription": "CAPA is a real estate web platform that helps investors to make the best decisions. ",
+                  "title": "Viva App delivers efficiency!",
+                  "caseDescription": "See how delivered an efficient, simple and fun flight experience for Viva Aerobus.",
                   "primaryColor": "cases-viva",
                   "secondaryColor": "capa-secondary",
                   "createdAt": "2022-08-19T15:15:34.095Z",
@@ -158,17 +158,105 @@
                     "data": {
                       "id": 1,
                       "attributes": {
-                        "name": "Viva Aerobus Logo.png",
-                        "alternativeText": "Viva Aerobus Logo.png",
-                        "caption": "Viva Aerobus Logotype.png",
+                        "name": "vivaApp_case",
+                        "alternativeText": "vivaApp_case",
+                        "caption": "vivaApp_case",
                         "width": 977,
                         "height": 673,
                         "formats": null,
                         "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
                         "ext": ".svg",
-                        "mime": "image/png",
+                        "mime": "image/svg+xml",
                         "size": 0.42,
-                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaApp.png",
+                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "id": 2,
+            "Title": "design, build and run digital platforms.",
+            "Subtitle": null,
+            "case_of_study": {
+              "data": {
+                "id": 8,
+                "attributes": {
+                  "title": "OEIO disrupts the wellness market!",
+                  "caseDescription": "Find out how we created a two-sided welllness marketplace for LATAM countries.",
+                  "primaryColor": "cases-oeio",
+                  "secondaryColor": "capa-secondary",
+                  "createdAt": "2022-08-19T15:15:34.095Z",
+                  "updatedAt": "2022-08-19T15:16:13.168Z",
+                  "publishedAt": "2022-08-19T15:15:36.577Z",
+                  "portfolioTitle": null,
+                  "portfolioDescription": null,
+                  "portfolioDataOfInterest": null,
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "oeio_case",
+                        "alternativeText": "oeio_case",
+                        "caption": "oeio_case",
+                        "width": 977,
+                        "height": 673,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 0.42,
+                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2022-08-19T15:35:22.751Z",
+                        "updatedAt": "2022-08-19T15:35:22.751Z"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "id": 3,
+            "Title": "know what it takes, to make your idea real.",
+            "Subtitle": null,
+            "case_of_study": {
+              "data": {
+                "id": 6,
+                "attributes": {
+                  "title": "Smart Walk makes virtual tours real!",
+                  "caseDescription": "Turning dreams into reality. Read how we created a rich virtual tours platform for GGI.",
+                  "primaryColor": "cases-smart-walk",
+                  "secondaryColor": "capa-secondary",
+                  "createdAt": "2022-08-19T15:15:34.095Z",
+                  "updatedAt": "2022-08-19T15:16:13.168Z",
+                  "publishedAt": "2022-08-19T15:15:36.577Z",
+                  "portfolioTitle": null,
+                  "portfolioDescription": null,
+                  "portfolioDataOfInterest": null,
+                  "image": {
+                    "data": {
+                      "id": 1,
+                      "attributes": {
+                        "name": "sw_case.svg",
+                        "alternativeText": "sw_case.svg",
+                        "caption": "sw_case.svg",
+                        "width": 977,
+                        "height": 673,
+                        "formats": null,
+                        "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                        "ext": ".svg",
+                        "mime": "image/svg+xml",
+                        "size": 0.42,
+                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg",
                         "previewUrl": null,
                         "provider": "local",
                         "provider_metadata": null,
