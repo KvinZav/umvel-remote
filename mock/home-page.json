@@ -142,7 +142,7 @@
           "caseOfStudy": [
             {
               "id": 1,
-              "Title": "seamlessly deliver business value",
+              "Title": "seamlessly deliver business value.",
               "Subtitle": null,
               "case_of_study": {
                 "data": {
@@ -622,7 +622,7 @@
                             "ext": ".svg",
                             "mime": "image/png",
                             "size": 0.42,
-                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-avoid.png",
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/viva-web-home.svg",
                             "previewUrl": null,
                             "provider": "local",
                             "provider_metadata": null,
@@ -812,7 +812,7 @@
                             "ext": ".svg",
                             "mime": "image/png",
                             "size": 0.42,
-                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-avoid.png",
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/seguros-home.svg",
                             "previewUrl": null,
                             "provider": "local",
                             "provider_metadata": null,
