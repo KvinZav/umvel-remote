@@ -33,6 +33,17 @@ export interface CaseAttributes {
   feature: Feature;
   quote: Quote;
   whatWeLearned: WhatWeLearned;
+  otherCases?: OtherCases[];
+}
+
+export interface OtherCases {
+  id: number;
+  title: string;
+  subtitle: string;
+  primaryColor: string;
+  caseDescription?: string;
+  textColor?: string;
+  image: string
 }
 
 export interface WhatWeLearned {
