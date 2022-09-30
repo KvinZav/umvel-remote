@@ -77,7 +77,7 @@ const ViewPager = ({cases}) => {
 
   return (
     <div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-2 lg:grid-rows-1 gap-0 w-full">
-      <div className="col-span-1">
+      <div className="col-span-1 border border-secondary-10">
         <Card
           styles={{
             textStyles: { height: 'title', align: 'end' },
@@ -88,10 +88,10 @@ const ViewPager = ({cases}) => {
           text='We'
         />
       </div>
-      <div className="col-span-1 relative overflow-hidden">
+      <div className="col-span-1 relative overflow-hidden border border-secondary-10">
         {/* bottom */}
         <div
-          className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out translate-y-[-50%] opacity-0' : 'transition-none translate-y-0 opacity-100'} duration-1000`}
+          className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out -translate-y-[50%] opacity-0' : 'transition-none translate-y-0 opacity-100'} duration-1000`}
         >
           <Card
             styles={{
@@ -104,7 +104,7 @@ const ViewPager = ({cases}) => {
         </div>
         {/* top */}
         <div 
-          className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out translate-y-0' : 'transition-none -translate-y-full'} duration-1000`}
+          className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out translate-y-0 opacity-100' : 'transition-none translate-y-[50%] opacity-0'} duration-1000`}
         >
           <Card
             styles={{
@@ -137,6 +137,7 @@ const ViewPager = ({cases}) => {
                 bgSecondary: cases[bottomCaseIndex]?.case_of_study.data.attributes.secondaryColor,
                 textColor: 'white',
               }}
+              caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
               imageUrl={cases[bottomCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}
               text={cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
@@ -145,7 +146,7 @@ const ViewPager = ({cases}) => {
           </div>
           {/* top */}
           <div 
-            className={`absolute h-full transform ${topVisible ? 'transition-all ease-in-out translate-y-0' : 'transition-none translate-y-full'} duration-1000`}
+            className={`absolute h-full w-full transform ${topVisible ? 'transition-all ease-in-out translate-y-0' : 'transition-none translate-y-full'} duration-1000`}
           >
             <Card
               styles={{
@@ -162,6 +163,7 @@ const ViewPager = ({cases}) => {
               imageUrl={cases[topCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}
               text={cases[topCaseIndex]?.case_of_study.data.attributes.title}
               showButton={isMobile}
+              caseId={cases[topCaseIndex]?.case_of_study.data.id}
             />
           </div>
         </div>
@@ -181,11 +183,12 @@ const ViewPager = ({cases}) => {
               }}
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
               descriptionOnly
+              caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
             />
             </div>
             {/* top */}
             <div 
-              className={`absolute h-full transform ${topVisible ? 'transition-all ease-in-out translate-y-0' : 'transition-none translate-y-full'} duration-1000`}
+              className={`absolute h-full w-full transform ${topVisible ? 'transition-all ease-in-out translate-y-0' : 'transition-none translate-y-full'} duration-1000`}
             >
               <Card
                 text={cases[topCaseIndex]?.case_of_study.data.attributes.title}
@@ -200,6 +203,7 @@ const ViewPager = ({cases}) => {
                 }}
                 description={cases[topCaseIndex]?.case_of_study.data.attributes.caseDescription}
                 descriptionOnly
+                caseId={cases[topCaseIndex]?.case_of_study.data.id}
               />
             </div>
         </div>}
