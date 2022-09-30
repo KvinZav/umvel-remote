@@ -55,7 +55,7 @@ const MainContainer = ({ children, styles, hasDescription }) => {
     <div
       className={`aspect-square overflow-clip flex ${
         styles.direction === 'col' ? 'flex-col' : 'flex-col-reverse'
-      } group aspect-square border-solid border bg-${styles.bg}`}
+      } group aspect-square bg-${styles.bg}`}
       style={{
         borderColor: !styles.bg ? '#e6e6e6' : '#00000000',
       }}
