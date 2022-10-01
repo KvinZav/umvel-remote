@@ -133,19 +133,17 @@ const Header = () => {
                         <li key={'link-' + link.id} className="-ml-6 py-3">
                           <BasicButton>
                             <Link
-                              onClick={() => setShowMenu(false)}
-                              name={link.name}
-                              url={`/${link.link}`}
-                            />
+                              onClick={() => setShowMenu(false)}  
+                              href={`/${link.link}`}
+                            >{link.name}</Link>
                           </BasicButton>
                         </li>
                       ) : (
                         <li key={'link-' + link.id} className="first-line:my-2 py-3">
                           <Link
                             onClick={() => setShowMenu(false)}
-                            name={link.name}
-                            url={`/${link.link}`}
-                          />
+                            href={`/${link.link}`}
+                          >{link.name}</Link>
                         </li>
                       )
                     )}
