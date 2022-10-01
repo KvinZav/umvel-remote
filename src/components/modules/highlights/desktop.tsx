@@ -46,7 +46,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             display: (topPosition * -1) / 500 >= 2 ? 'none' : 'flex',
           }}
         >
-          Let us show you some great cases!
+          Work that lets our clients shine.
         </p>
         <div
           className={`w-full grid grid-cols-4 grid-rows-4 bg-${project.attributes.primaryColor} sticky bottom-0 aspect-square `}
