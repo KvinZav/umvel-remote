@@ -903,8 +903,21 @@
               },
               "left": {
                 "id": 8,
-                "identifier": null,
-                "text": null
+                "identifier": "Maintain, run and scale platforms.",
+                "text": "Maintain, run and scale platforms."
+              }
+            },
+            {
+              "id": 8,
+              "right": {
+                "id": 8,
+                "identifier": "A sound process \nfor crafting solid platforms.",
+                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
+              },
+              "left": {
+                "id": 8,
+                "identifier": "All of them!",
+                "text": "All of them!"
               }
             }
           ]

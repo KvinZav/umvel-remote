@@ -9,7 +9,7 @@ const Image: FC<ImageProps> = ({ alt, width, height, url, layout = 'fixed', ...p
       width={width}
       height={height}
       objectFit="contain"
-      src={getStrapiMedia(url)}
+      src={url.includes('https://') ? getStrapiMedia(url) : url}
       alt={alt || ''}
       layout={layout}
       {...props}

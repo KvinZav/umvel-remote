@@ -24,7 +24,7 @@ const ScrollInteraction2 = ({ steps }) => {
   return (
     <section
       ref={mainContainerRef}
-      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[500vh] w-full"
+      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[350vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
         <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[30vh]">
@@ -47,7 +47,7 @@ const ScrollInteraction2 = ({ steps }) => {
                 </Block>
                 <div />
                 <Block scale={scaleValue / 100 + 1} translate={scaleValue * (6 / 5)}>
-                  {steps[3].left.identifier}
+                  {steps[4].left.identifier}
                 </Block>
                 <div />
               </div>
