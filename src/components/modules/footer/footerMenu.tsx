@@ -35,9 +35,13 @@ export const FooterMenu = () => {
                 </Link>
               ))}
             </div>
-            <div className="lg:px-4">
-              <BasicButton onClick={() => {}}>{"Let's Talk"}</BasicButton>
-            </div>
+            <BasicButton>
+              <Link href={'/lets-talk'}>
+                <a>
+                  {"Let's Talk!"}
+                </a>
+              </Link>
+            </BasicButton>
           </div>
         </div>
         <hr className="text-[#E6E6E6] hidden lg:block mb-8" />

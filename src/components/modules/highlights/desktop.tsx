@@ -7,6 +7,7 @@ import useSWR from 'swr';
 import Image from '@elements/image-component';
 import CustomImage from '@elements/image-component/CustomImage';
 import Link from 'next/link';
+import BasicButton from '@elements/button';
 
 const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   project,
@@ -31,7 +32,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   const imgAttributes = project.attributes.image.data.attributes;
   const positionInfo = scaleValue * (2.5 / 10);
   const positionCase = scaleValue * (3.5 / 10);
-  const positionImagen = scaleValue * (3.5 / 10);
+  const positionImage = scaleValue * (3.5 / 10);
 
   return (
     <section className="w-full h-[400vh]" ref={container}>
@@ -72,9 +73,9 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 {project.attributes.caseDescription}
               </p>
               <div className="flex">
-                <div className="flex border rounded-full px-4 py-2 text-primary-white text-sm">
+                <BasicButton small theme="dark">
                   <Link href={`/cases/${project.id}`}>View Case</Link>
-                </div>
+                </BasicButton>
               </div>
             </div>
           </div>
@@ -103,7 +104,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
           <div
             className="col-start-2 col-span-3 row-start-2 row-span-2 flex justify-center items-center"
             style={{
-              transform: `translateY(${positionImagen}px)`,
+              transform: `translateY(${positionImage}px)`,
               transformOrigin: 'top left',
               opacity: (topPosition * -1) / 500 - 3,
             }}
@@ -111,7 +112,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             {imgAttributes.url && (
               <Image
                 url={imgAttributes.url}
-                alt="proyect"
+                alt="project"
                 layout="intrinsic"
                 height={imgAttributes.height}
                 width={imgAttributes.width}

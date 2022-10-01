@@ -59,7 +59,7 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
                     {imgAttribute.url && (
                         <Image
                             url={imgAttribute.url}
-                            alt="proyect"
+                            alt="project"
                             layout="intrinsic"
                             height={imgAttribute.height}
                             width={imgAttribute.height}

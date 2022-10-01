@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import useMediaQuery from '@hooks/useMediaQuery';
 import Logo from '@elements/LogoNavBar/LogoNavBar';
-import Link from '@elements/Link/Link';
 import useSWR from 'swr';
 import { environment } from '@environments/index';
 import useVerticalScroll from '@hooks/useVerticalScroll';
@@ -11,6 +10,7 @@ import { get } from '@fetcher/get';
 import Image from '@elements/image-component';
 import { BlockNameEnum } from '@enums/BlockName';
 import Tooltip from '@elements/tooltip/tooltip';
+import Link from 'next/link';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -67,12 +67,14 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
+                            <Link href={`/${link.link}`}>
                         <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
-                          <Link name={link.name} url={`/${link.link}`} />
-                        </BasicButton>
+                          {link.name}
+                          </BasicButton>
+                          </Link>
                       ) : (
                         <li key={'link-' + link.id}>
-                          <Link name={link.name} url={`/${link.link}`} />
+                          <Link href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
                     )}

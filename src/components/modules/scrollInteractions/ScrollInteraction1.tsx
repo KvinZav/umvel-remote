@@ -68,8 +68,8 @@ const ScrollInteraction1 = () => {
                   ref={(el) => (rightTextRefs.current[n] = el)}
                   className={`flex snap-start w-[50vw] h-screen items-center`}
                   style={{
-                    opacity: rightTextOpacities[n],
-                    transform: boundsTop[0] < 0 ? `translateY(${1 - boundsTop[n] * 0.3}px)` : '',
+                    opacity: boundsTop[boundsTop.length -1] > 0 ? rightTextOpacities[n] : 1,
+                    transform: boundsTop[0] < 0 && boundsTop[boundsTop.length -1] > 0 ? `translateY(${1 - boundsTop[n] * 0.3}px)` : '',
                   }}
                 >
                   <p

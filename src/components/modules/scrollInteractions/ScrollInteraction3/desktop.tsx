@@ -32,7 +32,7 @@ const DesktopScrollInteraction3 = () => {
     setQuotesTop(quoteRefs.current.map((i) => i.getBoundingClientRect().top));
     setTitleCardOffset(top > 0 && top < 5000 ? top : 0);
     setQuotesContainerTop(quotesRefTop);
-    setCurrentHighlight(quotesTop.findIndex((i) => i > cardComponentHeight - cardHeight * 0.25));
+    setCurrentHighlight(quotesTop.findIndex((i) => i > cardComponentHeight - cardHeight * 0.7));
   }, [scrollOffset]);
 
   const { data: event } = useSWR(environment.HOME_URL);
