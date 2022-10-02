@@ -2,7 +2,7 @@ import { Card } from '@elements/card/card'
 import useMediaQuery from '@hooks/useMediaQuery';
 import React, { useEffect, useState } from 'react'
 import { animated, useSpring } from 'react-spring';
-import { ChevronRightRounded } from '@mui/icons-material';
+import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
 
 const waitFor = (delay) => new Promise((resolve) => {
   setTimeout(() => {
@@ -114,6 +114,10 @@ const ViewPager = ({cases}) => {
             }}
             text={cases[topCaseIndex]?.Title}
           />
+        </div>
+        <div className="absolute top-0 left-0 w-full h-full bg-prisma-red">
+          <ChevronRightRounded/>
+          <ChevronLeftRounded/>
         </div>
         <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 bottom-4 md:bottom-6 lg:bottom-8 h-1 md:h-2 rounded-full overflow-hidden">
           <animated.div
