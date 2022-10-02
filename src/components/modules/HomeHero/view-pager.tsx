@@ -53,7 +53,6 @@ const ViewPager = ({cases}) => {
     let timeoutId
     if(!isMobile){
       timeoutId = setTimeout(() => {
-        
         const newIndex = currentCaseIndex >= cases.length - 1 ? 0 : currentCaseIndex + 1
         setCurrentCaseIndex(newIndex)
         setCaseSource(newIndex)
