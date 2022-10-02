@@ -35,7 +35,7 @@ export const KeyFeatures = ({ data: { title, keyFeatures } }: { data: Feature })
             key={`key-feature-${idx}`}
             className={`flex ${idx % 2 === 0 ? 'md:flex-row-reverse' : ''} ${parent[idx]}`}
           >
-            <div className="w-full md:w-1/2 aspect-square flex flex-col justify-between p-8 lg:p-2 border border-[#E6E6E6]">
+            <div className="w-full md:w-1/2 aspect-square flex flex-col justify-between p-6 lg:p-8 border border-[#E6E6E6]">
               <div className="content">
                 <h5 className="text-2xl font-bold mb-2">{keyFeature.title}</h5>
                 <p className="text-base">{keyFeature.content}</p>

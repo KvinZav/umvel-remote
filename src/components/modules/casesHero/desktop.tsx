@@ -49,7 +49,7 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
         <h2 className="mb-2 text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">
           {challenge.title}
         </h2>
-        <p>{challenge.content}</p>
+        <p dangerouslySetInnerHTML={{ __html: challenge.content }}/>
       </div>
       <div
         className={`relative col-span-1 aspect-square`}

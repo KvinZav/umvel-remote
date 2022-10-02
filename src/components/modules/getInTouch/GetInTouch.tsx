@@ -38,7 +38,7 @@ export const GetInTouch = () => {
     }
 
     const response = await post(environment.OBJECTS_CONTACT, {
-      properties: { email: email.value, comment: 'hello' },
+      properties: { email: email.value },
     });
 
     if (response.error) {

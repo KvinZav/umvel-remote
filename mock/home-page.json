@@ -385,7 +385,7 @@
             {
               "id": 3,
               "Title": "Leading",
-              "Subtitle": "Recognized as a leading Latam software company.",
+              "Subtitle": "Leading the way in meaningful digital products.",
               "case_of_study": {
                 "data": {
                   "id": 2,
@@ -433,7 +433,7 @@
             {
               "id": 4,
               "Title": "150+ Umvellers",
-              "Subtitle": "We are 150+ professionals strong.",
+              "Subtitle": "We can scale up whenever needed.",
               "case_of_study": {
                 "data": {
                   "id": 3,
@@ -480,14 +480,14 @@
             },
             {
               "id": 5,
-              "Title": "3 Continents",
-              "Subtitle": "We are present in America, Europe and Asia.",
+              "Title": "Ecosystem thinking",
+              "Subtitle": "We design and build your digital business.",
               "case_of_study": {
                 "data": {
                   "id": 4,
                   "attributes": {
                     "title": "Food Central App thinks in customer satisfaction!",
-                    "caseDescription": "Food Central App thinks in customer satisfaction!",
+                    "caseDescription": "Food Central App focuses on user satisfaction!",
                     "primaryColor": "cases-food-central",
                     "secondaryColor": null,
                     "createdAt": "2022-08-19T15:43:13.839Z",
@@ -597,6 +597,44 @@
               "id": 1,
               "case_of_studies": {
                 "data": [
+                  {
+                    "id": 10,
+                    "attributes": {
+                      "title": "Viva Aerobus App",
+                      "caseDescription": "How we designed and developed a native app for booking and managing trips for a Mexican titan.",
+                      "primaryColor": "cases-viva-app",
+                      "secondaryColor": null,
+                      "createdAt": "2022-08-19T16:08:15.067Z",
+                      "updatedAt": "2022-08-19T16:14:58.233Z",
+                      "publishedAt": "2022-08-19T16:10:38.202Z",
+                      "portfolioTitle": "Viva Aerobus",
+                      "portfolioDescription": null,
+                      "portfolioDataOfInterest": "Fun and easy to use mobile app",
+                      "image": {
+                        "data": {
+                          "id": 1,
+                          "attributes": {
+                            "name": "Viva Aerobus Logo.png",
+                            "alternativeText": "Viva Aerobus Logo.png",
+                            "caption": "Viva Aerobus Logotype.png",
+                            "width": 977,
+                            "height": 673,
+                            "formats": null,
+                            "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                            "ext": ".svg",
+                            "mime": "image/png",
+                            "size": 0.42,
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/viva-app-home.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-19T15:35:22.751Z",
+                            "updatedAt": "2022-08-19T15:35:22.751Z"
+                          }
+                        }
+                      }
+                    }
+                  },
                   {
                     "id": 1,
                     "attributes": {
@@ -997,8 +1035,21 @@
               },
               "left": {
                 "id": 8,
-                "identifier": null,
-                "text": null
+                "identifier": "Maintain, run and scale platforms.",
+                "text": "Maintain, run and scale platforms."
+              }
+            },
+            {
+              "id": 8,
+              "right": {
+                "id": 8,
+                "identifier": "A sound process \nfor crafting solid platforms.",
+                "text": "**A sound process \nfor crafting solid platforms.**\n\nWe partner with you throughout the entire journey: from idea validation, to experience design, to product development, deployment and finally, your continuous expansion strategies.\n\nOur approach draws on the best practices we have gathered from working with numerous clients, in over 10 industries and across 3 continents. We have proven over and over, that we can deliver what we promise."
+              },
+              "left": {
+                "id": 8,
+                "identifier": "All of them!",
+                "text": "All of them!"
               }
             }
           ]

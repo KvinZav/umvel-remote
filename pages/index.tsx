@@ -17,7 +17,6 @@ import { ButtonScroll } from '@elements/ButtonScroll';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import Head from 'next/head';
 
-
 export default function Home() {
   const isBrowser = typeof window !== 'undefined';
 
@@ -29,7 +28,7 @@ export default function Home() {
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
 
-  useEffect(() => {    
+  useEffect(() => {
     isBrowser && window.addEventListener('scroll', onScroll);
 
     return () => isBrowser && window.removeEventListener('scroll', onScroll);
@@ -41,7 +40,7 @@ export default function Home() {
     data && (
       <div>
         <Head>
-          <title>Umvel inc top rated custom software development agency</title>
+          <title>Umvel - Top rated custom software development agency</title>
           <meta name="keywords" content="Software Development, UX research, design" />
           <meta
             name="description"

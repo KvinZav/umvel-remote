@@ -12,6 +12,7 @@ import { KeyFeatures } from '@modules/keyFeatures';
 import CasesQuote from '@modules/casesQuote';
 import CasesApp from '@modules/casesApp';
 import CasesLearned from '@modules/casesLearned';
+import { OtherCases } from '@modules/otherCases';
 
 const CasesPage = () => {
   const router = useRouter();
@@ -33,6 +34,7 @@ const CasesPage = () => {
       <CasesApp caseData={caseData} />
       <CasesLearned caseData={caseData} />
       <ContactLayout />
+      <OtherCases caseData={caseData}/>
     </>
   );
 };
