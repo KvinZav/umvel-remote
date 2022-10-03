@@ -6,7 +6,6 @@ export const ButtonScroll = ({ elementTo }) => {
   const scrollToRef = () => {
     setIsHovered(false)
     smoothscroll.polyfill();
-
     elementTo.current.scrollIntoView({
       behavior: 'smooth',
     });
