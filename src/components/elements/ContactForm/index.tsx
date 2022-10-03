@@ -1,13 +1,13 @@
 import React, { FC, FormEvent, useState } from 'react';
 import SendIcon from '@elements/SendIcon';
 import { useForm } from '@hooks/index';
-import { emailValidation } from '@utils/validations/email.validation';
+import { emailValidation, isNotEmptyValidation } from '@utils/validations';
 import { post } from '@fetcher/post';
 import { environment } from '@environments/index';
 
 
 const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX.Element => {
-  const { email, onChangeInput } = useForm({ email: ['', emailValidation] });
+  const { email, onChangeInput } = useForm({ email: ['', [emailValidation, isNotEmptyValidation]] });
   const [currentResponse, setCurrentResponse] = useState({ error: false, message: '' });
   const [emailSend, setEmailSend] = useState(false);
   const [error, setError] = useState(false);
@@ -61,6 +61,7 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
             onFocus={onFocus}
           />
           <button
+            disabled={email.errors.length > 1}
             className={`border rounded-full py-3 px-6 flex justify-center items-center ${error && 'border-prisma-red'}`}
             type="submit"
           >
