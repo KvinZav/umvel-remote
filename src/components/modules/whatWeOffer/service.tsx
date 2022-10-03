@@ -12,8 +12,7 @@ export const Service: FC<ServicePropsTypes> = ({
   onDetailClick,
 }) => {
   return (
-    <button
-      onClick={onDetailClick}
+    <article
       className={
         dark
           ? 'aspect-square w-1/2 md:w-1/4 lg:min-w-[200px] border border-primary-black flex flex-col p-6 overflow-hidden text-primary-white justify-between bg-primary-black group'
@@ -25,16 +24,16 @@ export const Service: FC<ServicePropsTypes> = ({
           <Icon name={icon as IconNameType} size={32} />
         </div>
         <div className="flex">
-          <p className="text-left font-bold">{description}</p>
+          <p className="select-none text-left font-bold">{description}</p>
         </div>
       </div>
       <div className="hidden lg:group-hover:flex">
-        <BasicButton theme={dark ? 'dark' : 'light'} small>
+        <BasicButton theme={dark ? 'dark' : 'light'} small onClick={onDetailClick}>
           <a href="#">
             <p>See Details</p>
           </a>
         </BasicButton>
       </div>
-    </button>
+    </article>
   );
 };
