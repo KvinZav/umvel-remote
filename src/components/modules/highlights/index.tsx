@@ -34,11 +34,11 @@ const CasesHighlights: React.FC = (): JSX.Element => {
     }
   };
   const handlePrevious = () => {
-    if (project.id > 1) {
-      setProject(projects[project.id - 2]);
-    }
-    if (project.id === 1) {
+    const currentProjectIdx = projects.findIndex(item => item.id === project.id);
+    if (currentProjectIdx === 0) {
       setProject(projects[projects.length - 1]);
+    } else {
+      setProject(projects[currentProjectIdx - 1]);
     }
   };
 
