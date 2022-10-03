@@ -8,7 +8,7 @@ import CustomImage from '@elements/image-component/CustomImage';
 import { AboutUsHeader } from '@interfaces/about-us-data/about-us.interface';
 
 const configNames = [
-  { size: Sizes.LG, rows: 7, columns: 7 },
+  { size: Sizes.LG, rows: 6, columns: 12 },
   { size: Sizes.MD, rows: 7, columns: 7 },
   { size: Sizes.SM, rows: 8, columns: 5 },
 ];
@@ -28,12 +28,12 @@ export const HeaderAboutUs = ({ data }) => {
     <div>
       <CardTeam
         config={configNames}
-        className="relative md:block w-[100%] h-[42rem] p-[2vw]"
+        className="relative md:block w-[100%] p-[2vw] pt-0"
         names={data.names}
       >
         <div
           className="absolute lg:w-[660px] md:w-[463px] w-[240px] right-[0] left-[0] 
-            top-[100px] mx-auto lg:flex items-end"
+            top-[15%] mx-auto lg:flex items-end"
         >
           <CustomImage
             src={'assets/images/umvelLogoDark.svg'}
@@ -49,13 +49,13 @@ export const HeaderAboutUs = ({ data }) => {
           </div>
         </div>
 
-        <div className="absolute bottom-[12%] w-[96%] flex justify-between px-[8%] flex-wrap">
+        <div className="absolute bottom-[20%] lg:bottom-[25%] w-[96%] flex justify-between px-[8%] flex-wrap">
           {header?.highlightText.map((item: AboutUsHeader, index: number) => {
             return (
               <div
                 key={'indicator-' + index}
                 className={`${index == 2 ? 'w-full' : 'w-6/12'} 
-                  md:w-4/12 md:flex md:justify-center text-center items-center`}
+                  md:w-4/12 md:flex md:justify-center flex-col lg:flex-row text-center items-center`}
               >
                 <p className="font-bold text-[28px] md:text-[38px] mr-2">{item.title}</p>
                 <p className="text-[16px] md:text-[20px]">{item.subtitle}</p>
