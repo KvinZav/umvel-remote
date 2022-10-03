@@ -166,6 +166,7 @@ const ServiceDetailHighlights: FC<DetailHighlightsProps> = ({ cases }) => {
             showButton={!desktop}
             caseId={caseItem.data.id}
             key={'case-' + caseIndex}
+            messageOnHover={desktop}
           />
         );
       })}
