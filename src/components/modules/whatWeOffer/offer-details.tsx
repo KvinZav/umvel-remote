@@ -74,7 +74,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
             className={`border rounded-full p-2 absolute top-[45vh] left-3 md:left-8 lg:left-[134px] text-[18px] leading-[14px] ${
               dark ? 
                 'border-primary-white text-primary-white lg:hover:text-primary-black lg:hover:bg-primary-white':
-                ' border-primary-black text-primary-black lg:hover:text-primary-white lg:hover:bg-primary-black'
+                'border-primary-black text-primary-black lg:hover:text-primary-white lg:hover:bg-primary-black'
             }`}
             onClick={onPreviousClick}
           >

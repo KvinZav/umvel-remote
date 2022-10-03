@@ -90,7 +90,7 @@ const Header = () => {
             {matchMedia && (
               <div className="h-full min-w-[100vh] grid grid-cols-3 grid-rows-3 gap-0">
                 {cases &&
-                  cases.map((caseItem, index) => (
+                  cases.map(caseItem => (
                     <Square
                       key={caseItem.id}
                       title={caseItem.title}

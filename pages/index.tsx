@@ -4,7 +4,7 @@ import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
-import Hero from '@modules/hero/hero';
+import Hero from '@modules/HomeHero';
 import { FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
