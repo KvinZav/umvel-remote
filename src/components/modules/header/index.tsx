@@ -74,7 +74,7 @@ const Header = () => {
                           </Link>
                       ) : (
                         <li key={'link-' + link.id}>
-                          <Link href={`/${link.link}`}>{link.name}</Link>
+                          <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
                     )}
@@ -114,7 +114,7 @@ const Header = () => {
                 <div
                   className="h-5 w-5 md:w-7 md:h-7"
                   onClick={() => {
-                    setShowMenu(!showMenu);
+                    setShowMenu(false);
                   }}
                 >
                   <CustomImage
@@ -130,18 +130,16 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
-                        <li key={'link-' + link.id} className="-ml-6 py-3">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="-ml-6 py-3">
                           <BasicButton>
                             <Link
-                              onClick={() => setShowMenu(false)}  
                               href={`/${link.link}`}
                             >{link.name}</Link>
                           </BasicButton>
                         </li>
                       ) : (
-                        <li key={'link-' + link.id} className="first-line:my-2 py-3">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="first-line:my-2 py-3">
                           <Link
-                            onClick={() => setShowMenu(false)}
                             href={`/${link.link}`}
                           >{link.name}</Link>
                         </li>
