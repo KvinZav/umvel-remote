@@ -198,7 +198,10 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
 
   return (
     <div
-      className={`h-full w-full bg-${backgroundColor} group overflow-hidden aspect-square snap-center`}
+      className={`h-full w-full group overflow-hidden aspect-square snap-center`}
+      style={{
+        backgroundColor
+      }}
     >
       <div className={`h-full w-full p-9`}>
         {image && (

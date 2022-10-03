@@ -12,7 +12,7 @@
             "hoverClientName": "Mobile App",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-viva-app",
+            "backgroundColor": "#40AD4C",
             "quote": null,
             "image": {
               "data": {
@@ -44,7 +44,7 @@
             "hoverClientName": "Website",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-viva",
+            "backgroundColor": "#2F7C38",
             "quote": "We seamlessly deliver business value.",
             "image": null
           }, {
@@ -54,7 +54,7 @@
             "hoverClientName": "Web platform",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-buyback",
+            "backgroundColor": "#6BB7E6",
             "image": {
               "data": {
                 "id": 1,
@@ -85,7 +85,7 @@
             "hoverClientName": "App",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-cancer-buddy",
+            "backgroundColor": "#F1DE4F",
             "image": {
               "data": {
                 "id": 1,
@@ -116,7 +116,7 @@
             "hoverClientName": "App",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-food-central",
+            "backgroundColor": "#348181",
             "quote": "We design, build and run digital platforms.",
             "image": {
               "data": {
@@ -148,7 +148,7 @@
             "hoverClientName": "Web platform",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-smart-walk",
+            "backgroundColor": "#DA3440",
             "quote": "",
             "image": {
               "data": {
@@ -180,7 +180,7 @@
             "hoverClientName": "Web platform",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-seguros-mundial",
+            "backgroundColor": "#5B96CD",
             "quote": "We know what it takes, to make your idea real.",
             "image": {
               "data": {
@@ -212,7 +212,7 @@
             "hoverClientName": "Mobile App",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-oeio",
+            "backgroundColor": "#CBA552",
             "quote": "",
             "image": {
               "data": {
@@ -244,7 +244,7 @@
             "hoverClientName": "Website",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-capa",
+            "backgroundColor": "#0F55C3",
             "image": {
               "data": {
                 "id": 1,
@@ -275,7 +275,7 @@
             "hoverClientName": "Web platform",
             "hoverClientHeading": null,
             "callToAction": null,
-            "backgroundColor": "cases-capa",
+            "backgroundColor": "#0F55C3",
             "quote": "We got plenty of space to put your brand here.",
             "image": {
               "data": {

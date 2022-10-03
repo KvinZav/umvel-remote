@@ -3,7 +3,7 @@ import Image from '@elements/image-component';
 import { CasesHeroProps } from '.';
 import BasicButton from '@elements/button';
 
-const CasesHeroMobile = (props: CasesHeroProps) => {
+const  CasesHeroMobile = (props: CasesHeroProps) => {
   const { portfolioTitle, portfolioDescription, image, logo, challenge, primaryColor } =
     props.caseData;
 

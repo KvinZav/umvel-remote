@@ -49,10 +49,11 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
           Work that lets our clients shine.
         </p>
         <div
-          className={`w-full grid grid-cols-4 grid-rows-4 bg-${project.attributes.primaryColor} sticky bottom-0 aspect-square `}
+          className={`w-full grid grid-cols-4 grid-rows-4 sticky bottom-0 aspect-square `}
           style={{
             display: (topPosition * -1) / 500 <= 2 ? 'none' : 'grid',
             opacity: (topPosition * -1) / 500 - 2,
+            backgroundColor: project.attributes.primaryColor
           }}
         >
           <div

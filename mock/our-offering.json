@@ -20,7 +20,7 @@
             "attributes": {
               "title": "Food Central",
               "caseDescription": "Digital transformation in the food marketplace industry",
-              "primaryColor": "cases-food-central",
+              "primaryColor": "#348181",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -59,7 +59,7 @@
             "attributes": {
               "title": "Smart Walk",
               "caseDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
-              "primaryColor": "cases-smart-walk",
+              "primaryColor": "#DA3440",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -98,7 +98,7 @@
             "attributes": {
               "title": "CAPA",
               "caseDescription": "A fully digital way to invest in real-estate.",
-              "primaryColor": "cases-capa",
+              "primaryColor": "#0F55C3",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -137,7 +137,7 @@
             "attributes": {
               "title": "OEIO",
               "caseDescription": "The first wellness marketplace in LATAM.",
-              "primaryColor": "cases-oeio",
+              "primaryColor": "#CBA552",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -196,7 +196,7 @@
             "attributes": {
               "title": "Viva Aerobus App",
               "caseDescription": "The perfect partner for your trip",
-              "primaryColor": "cases-viva-app",
+              "primaryColor": "#40AD4C",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -235,7 +235,7 @@
             "attributes": {
               "title": "Planet Buyback",
               "caseDescription": "Helping the planet, one donation at a time",
-              "primaryColor": "cases-buyback",
+              "primaryColor": "#6BB7E6",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -274,7 +274,7 @@
             "attributes": {
               "title": "Arrivia",
               "caseDescription": "Crafting travel personas for air, cruise and hotel customers.",
-              "primaryColor": "cases-arrivia",
+              "primaryColor": "#04A3AC",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -313,7 +313,7 @@
             "attributes": {
               "title": "Food Central",
               "caseDescription": "Digital transformation in the food marketplace industry",
-              "primaryColor": "cases-food-central",
+              "primaryColor": "#348181",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -359,7 +359,7 @@
             "attributes": {
               "title": "Viva Aerobus Web",
               "caseDescription": "Digital revamp for a Mexican icon",
-              "primaryColor": "cases-viva",
+              "primaryColor": "#2F7C38",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -398,7 +398,7 @@
             "attributes": {
               "title": "Smart Walk",
               "caseDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
-              "primaryColor": "cases-smart-walk",
+              "primaryColor": "#DA3440",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -437,7 +437,7 @@
             "attributes": {
               "title": "Seguros Mundial",
               "caseDescription": "A new digital experiene for both renter’s and owner’s insurance.",
-              "primaryColor": "cases-seguros-mundial",
+              "primaryColor": "#5B96CD",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -476,7 +476,7 @@
             "attributes": {
               "title": "Viva Aerobus App",
               "caseDescription": "The perfect partner for your trip",
-              "primaryColor": "cases-viva-app",
+              "primaryColor": "#40AD4C",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -537,7 +537,7 @@
             "attributes": {
               "title": "Viva Aerobus Web",
               "caseDescription": "Digital revamp for a Mexican icon",
-              "primaryColor": "cases-viva",
+              "primaryColor": "#2F7C38",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -576,7 +576,7 @@
             "attributes": {
               "title": "Cancer Buddy",
               "caseDescription": "Developing the first social network for cancer patients and survivors.",
-              "primaryColor": "cases-cancer-buddy",
+              "primaryColor": "#F1DE4F",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -615,7 +615,7 @@
             "attributes": {
               "title": "CAPA",
               "caseDescription": "A fully digital way to invest in real-estate.",
-              "primaryColor": "cases-capa",
+              "primaryColor": "#0F55C3",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -654,7 +654,7 @@
             "attributes": {
               "title": "OEIO",
               "caseDescription": "The first wellness marketplace in LATAM.",
-              "primaryColor": "cases-oeio",
+              "primaryColor": "#CBA552",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -722,7 +722,7 @@
             "attributes": {
               "title": "Viva Aerobus App",
               "caseDescription": "The perfect partner for your trip",
-              "primaryColor": "cases-viva-app",
+              "primaryColor": "#40AD4C",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -761,7 +761,7 @@
             "attributes": {
               "title": "Viva Aerobus Web",
               "caseDescription": "Digital revamp for a Mexican icon",
-              "primaryColor": "cases-viva",
+              "primaryColor": "#2F7C38",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -800,7 +800,7 @@
             "attributes": {
               "title": "Seguros Mundial",
               "caseDescription": "A new digital experiene for both renter’s and owner’s insurance.",
-              "primaryColor": "cases-seguros-mundial",
+              "primaryColor": "#5B96CD",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -839,7 +839,7 @@
             "attributes": {
               "title": "Food Central",
               "caseDescription": "Digital transformation in the food marketplace industry",
-              "primaryColor": "cases-food-central",
+              "primaryColor": "#348181",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -896,7 +896,7 @@
             "attributes": {
               "title": "Viva Aerobus Web",
               "caseDescription": "Digital revamp for a Mexican icon",
-              "primaryColor": "cases-viva",
+              "primaryColor": "#2F7C38",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -935,7 +935,7 @@
             "attributes": {
               "title": "Food Central",
               "caseDescription": "Digital transformation in the food marketplace industry",
-              "primaryColor": "cases-food-central",
+              "primaryColor": "#348181",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -974,7 +974,7 @@
             "attributes": {
               "title": "Seguros Mundial",
               "caseDescription": "A new digital experiene for both renter’s and owner’s insurance.",
-              "primaryColor": "cases-seguros-mundial",
+              "primaryColor": "#5B96CD",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1013,7 +1013,7 @@
             "attributes": {
               "title": "Viva Aerobus App",
               "caseDescription": "The perfect partner for your trip",
-              "primaryColor": "cases-viva-app",
+              "primaryColor": "#40AD4C",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1068,7 +1068,7 @@
             "attributes": {
               "title": "Viva Aerobus Web",
               "caseDescription": "Digital revamp for a Mexican icon",
-              "primaryColor": "cases-viva",
+              "primaryColor": "#2F7C38",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1107,7 +1107,7 @@
             "attributes": {
               "title": "Cancer Buddy",
               "caseDescription": "Developing the first social network for cancer patients and survivors.",
-              "primaryColor": "cases-cancer-buddy",
+              "primaryColor": "#F1DE4F",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1146,7 +1146,7 @@
             "attributes": {
               "title": "OEIO",
               "caseDescription": "The first wellness marketplace in LATAM.",
-              "primaryColor": "cases-oeio",
+              "primaryColor": "#CBA552",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1185,7 +1185,7 @@
             "attributes": {
               "title": "Food Central",
               "caseDescription": "Digital transformation in the food marketplace industry",
-              "primaryColor": "cases-food-central",
+              "primaryColor": "#348181",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",

@@ -69,7 +69,10 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({
 }): JSX.Element => {
     return (
         <article
-            className={`w-full aspect-[1/2] h-full grid grid-rows-2 border snap-center bg-${backgroundColor}`}
+            className={`w-full aspect-[1/2] h-full grid grid-rows-2 snap-center`}
+            style={{
+                backgroundColor
+            }}
         >
             <div className="row-start-1 row-span-1">
                 <div className="h-full p-8 bg-secondary-70/50">
