@@ -40,6 +40,7 @@ export const OtherCases = ({ caseData: { otherCases } }: { caseData: CaseAttribu
                 imageUrl={caseData.image}
                 showButton={!isLg}
                 caseId={caseData.id}
+                messageOnHover={isLg}
               />
             </div>
           </div>
