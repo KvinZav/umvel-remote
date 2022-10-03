@@ -4,22 +4,20 @@ import BasicButton from '@elements/button';
 import Image from '@elements/image-component/index';
 import Link from 'next/link';
 
-//eslint-disable-next-line react/display-name
-export const Card = React.memo(
-  (props: CardInterface) => {
+export const Card = (props: CardInterface) => {
     const {
       styles,
       imageUrl,
       text,
       description,
       showButton,
-      showDescription,
       descriptionOnly,
       caseId,
+      messageOnHover
     } = props;
 
     return (
-      <MainContainer styles={styles} hasDescription={Boolean(description)}>
+      <MainContainer styles={styles} messageOnHover={messageOnHover} descriptionOnly={descriptionOnly}>
         {imageUrl && <MainGraphic imageUrl={imageUrl} />}
         {!descriptionOnly ? (
           <TitleComponent
@@ -34,9 +32,7 @@ export const Card = React.memo(
         )}
       </MainContainer>
     );
-  },
-  (prevProps, nextProps) => prevProps.text === nextProps.text
-);
+  };
 
 export const CustomCard = ({ children, customStyles = '', borderless = false }) => {
   return (
@@ -50,23 +46,23 @@ export const CustomCard = ({ children, customStyles = '', borderless = false }) 
   );
 };
 
-const MainContainer = ({ children, styles, hasDescription }) => {
+const MainContainer = ({ children, styles, messageOnHover, descriptionOnly }) => {
   return (
     <div
       className={`aspect-square overflow-clip flex ${
         styles.direction === 'col' ? 'flex-col' : 'flex-col-reverse'
-      } group aspect-square border-solid border bg-${styles.bg}`}
+      } group aspect-square bg-${styles.bg}`}
       style={{
         borderColor: !styles.bg ? '#e6e6e6' : '#00000000',
       }}
     >
       <div
         className={`
-          ${hasDescription && `transition ease-in-out duration-700`}
+          ${messageOnHover && `transition ease-in-out duration-700`}
           min-h-full
           flex
           w-full
-          ${hasDescription ? `p-0` : 'p-4 lg:p-8'}
+          ${messageOnHover || descriptionOnly ? `p-0` : 'p-4'}
           ${styles.direction === 'col' ? 'flex-col' : 'flex-col-reverse'}
           ${styles.direction === 'col' && !styles.textPositionHorizontal && 'justify-start'} 
           ${styles.direction === 'col-reverse' && !styles.textPositionHorizontal && 'justify-end'} 
@@ -95,7 +91,7 @@ const TitleComponent = ({ text, description, showButton, styles, id }) => {
       className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 w-full`}
     >
       <h1
-        className={`transition-colors duration-500 pb-2 font-bold text-primary-black lg:group-hover:text-primary-white`}
+        className={`transition-colors duration-500 pb-2 font-bold text-${styles.textColor ? styles.textColor : 'primary-black'} lg:group-hover:text-primary-white`}
       >
         {text}
       </h1>
@@ -107,7 +103,7 @@ const TitleComponent = ({ text, description, showButton, styles, id }) => {
       <div
         className={`transition-[max-height] overflow-hidden duration-1000 max-h-0 lg:group-hover:max-h-[180px]`}
       >
-        <p className="text-primary-white mb-4">{description}</p>
+        <p className="lg:hidden text-primary-white mb-4">{description}</p>
         <Link href={'/cases/' + id}>
           <BasicButton theme="dark">View Case</BasicButton>
         </Link>

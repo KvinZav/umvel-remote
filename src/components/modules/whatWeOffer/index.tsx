@@ -1,12 +1,16 @@
 import { environment } from '@environments/index';
 import { get } from '@fetcher/get';
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import useSWR from 'swr';
 import { Filter } from './filter-services';
 import { Service } from './service';
 import { OurOfferingInterface } from '@interfaces/our-offering/our-offering.interface';
 import { ModalOffers } from './modal-offers';
-import OfferDetails from './offer-details';
+import dynamic from 'next/dynamic';
+
+const OfferDetails = dynamic(() => import('./offer-details'), {
+  suspense: true,
+});
 
 const Services = () => {
   const [showModal, setShowModal] = useState(false);
@@ -106,13 +110,15 @@ const Services = () => {
       )}
 
       {isDetailVisible && (
+      <Suspense>
         <OfferDetails
-          detail={selectedDetail}
-          onPreviousClick={handlePrevious}
-          onNextClick={handleNext}
-          onClose={handleDetailsClose}
-          servicesSelected={servicesSelected}
+        detail={selectedDetail}
+        onPreviousClick={handlePrevious}
+        onNextClick={handleNext}
+        onClose={handleDetailsClose}
+        servicesSelected={servicesSelected}
         />
+      </Suspense>
       )}
     </section>
   );

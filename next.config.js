@@ -2,21 +2,16 @@
 const { withSentryConfig } = require("@sentry/nextjs");
 
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: ["raw.githubusercontent.com"],
+    domains: ["raw.githubusercontent.com","api.strapi.io"],
   },
   sentry: {
     hideSourceMaps: false,
     disableServerWebpackPlugin: true,
     disableClientWebpackPlugin: true,
   },
-  publicRuntimeConfig: {
-    appId: process.env.APP_ID,
-    host: process.env.HOST,
-    restAPIKey: process.env.REST_API_KEY,
- },
 }
 
 const sentryWebpackPluginOptions = {

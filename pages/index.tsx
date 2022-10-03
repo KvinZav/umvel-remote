@@ -4,7 +4,7 @@ import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
-import Hero from '@modules/hero';
+import Hero from '@modules/HomeHero';
 import { FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
@@ -16,7 +16,6 @@ import { HomeDataInterface } from '@interfaces/home-data/home.interface';
 import { ButtonScroll } from '@elements/ButtonScroll';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import Head from 'next/head';
-
 
 export default function Home() {
   const isBrowser = typeof window !== 'undefined';
@@ -41,7 +40,7 @@ export default function Home() {
     data && (
       <div>
         <Head>
-          <title>Umvel inc top rated custom software development agency</title>
+          <title>Umvel - Top rated custom software development agency</title>
           <meta name="keywords" content="Software Development, UX research, design" />
           <meta
             name="description"

@@ -32,7 +32,7 @@ const DesktopScrollInteraction3 = () => {
     setQuotesTop(quoteRefs.current.map((i) => i.getBoundingClientRect().top));
     setTitleCardOffset(top > 0 && top < 5000 ? top : 0);
     setQuotesContainerTop(quotesRefTop);
-    setCurrentHighlight(quotesTop.findIndex((i) => i > cardComponentHeight - cardHeight * 0.25));
+    setCurrentHighlight(quotesTop.findIndex((i) => i > cardComponentHeight - cardHeight * 0.7));
   }, [scrollOffset]);
 
   const { data: event } = useSWR(environment.HOME_URL);
@@ -77,21 +77,18 @@ const DesktopScrollInteraction3 = () => {
                   }}
                 >
                   <div
-                    className={`${
-                      n !== 0 && 'border-t border-secondary-10'
-                    } flex items-center h-[88px] transition-all duration-1000 ${
-                      (currentHighlight >= n || currentHighlight === -1) &&
-                      quotesContainerTop < cardBottom - 50
+                    className={`${n !== 0 && 'border-t border-secondary-10'
+                      } flex items-center h-[88px] transition-all duration-1000 ${(currentHighlight >= n || currentHighlight === -1) &&
+                        quotesContainerTop < cardBottom - 50
                         ? 'translate-y-0 opacity-100'
                         : 'translate-y-24 opacity-[0.15]'
-                    }`}
+                      }`}
                   >
                     <p
-                      className={`transition-[font-size] duration-1000 ${
-                        currentHighlight === n && quotesContainerTop < cardBottom - 50
+                      className={`transition-[font-size] duration-1000 ${currentHighlight === n && quotesContainerTop < cardBottom - 50
                           ? 'text-2xl font-bold'
                           : 'text-base font-normal'
-                      }`}
+                        }`}
                     >
                       {i.replace(/\*/g, '')}
                     </p>
@@ -106,17 +103,16 @@ const DesktopScrollInteraction3 = () => {
                   }}
                 >
                   <div
-                    className={`flex justify-start items-center self-center w-auto py-9 xl:px-10 transition-all duration-1000 ${
-                      currentHighlight > n - 1 || currentHighlight === -1
+                    className={`flex justify-start items-center self-center w-auto py-9 xl:px-10 transition-all duration-1000 ${currentHighlight > n - 1 || currentHighlight === -1
                         ? 'translate-y-0 opacity-100'
                         : 'translate-y-24 opacity-[0.15]'
-                    }`}
+                      }`}
                   >
-                    <div className="min-w-[48px] min-h-[48px] mr-4 xl:mr-14">
-                      <Link href="/our-work">
+                    <Link href="/our-work">
+                      <div className="min-w-[48px] min-h-[48px] mr-4 xl:mr-14">
                         <PrismButton>Our Work</PrismButton>
-                      </Link>
-                    </div>
+                      </div>
+                    </Link>
                     <div className="py-0 mr-7 flex justify-center">
                       <h2 className="font-bold text-xl">We seamlessly deliver business value.</h2>
                     </div>

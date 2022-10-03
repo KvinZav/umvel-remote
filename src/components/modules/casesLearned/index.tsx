@@ -4,10 +4,12 @@ const CasesLearned = ({ caseData }) => {
   const { primaryColor, whatWeLearned } = caseData;
 
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+    <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
       <div className="aspect-square lg:p-12 md:p-8 p-6 bg-primary-black text-primary-white">
-        <p className="md:text-[28px] text-2xl leading-8 font-bold">{whatWeLearned.title}</p>
-        <p className="mt-2 text-base">{whatWeLearned.content}</p>
+        <h1 className="md:text-[28px] text-2xl leading-8 font-bold">{whatWeLearned.title}</h1>
+        <p
+          className="mt-2 text-base"
+          dangerouslySetInnerHTML={{ __html: whatWeLearned.content }}/>
       </div>
       <div className="relative aspect-square" style={{ backgroundColor: primaryColor }}>
         <div className="absolute w-full h-full bg-primary-black opacity-10" />
@@ -32,7 +34,7 @@ const CasesLearned = ({ caseData }) => {
           alt={whatWeLearned.images[1]?.data.attributes.alternativeText}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

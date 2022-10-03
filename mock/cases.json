@@ -12,7 +12,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "Meet Viva Aerobus' new app:",
         "portfolioDescription": "The perfect partner for your trip",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -203,7 +203,7 @@
             {
               "id": 3,
               "title": "Rapid Deployment",
-              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n",
+              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).<br /><br /> ",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
             }
           ]
@@ -356,7 +356,7 @@
         "quote": {
           "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
           "client": {
-            "name": "Pablo Gomez Gallardo",
+            "name": "Pablo Gómez Gallardo",
             "title": "Chief Digital Officer at Viva Aerobus"
           },
           "photo": {
@@ -434,7 +434,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 1,
+            "title": "Viva Aerobus Website",
+            "subtitle": "",
+            "primaryColor": "cases-viva",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
+          },
+          {
+            "id": 3,
+            "title": "Cancerbuddy App",
+            "subtitle": "",
+            "primaryColor": "cases-cancer-buddy",
+            "textColor": "primary-black",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png"
+          },
+          {
+            "id": 7,
+            "title": "OEIO Marketplace",
+            "subtitle": "",
+            "primaryColor": "cases-oeio",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -451,7 +477,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "Viva Aerobus:",
         "portfolioDescription": "Digital revamp for a Mexican icon",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -642,7 +668,7 @@
             {
               "id": 3,
               "title": "Rapid Deployment",
-              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).\n",
+              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).<br /><br /> ",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
             }
           ]
@@ -795,7 +821,7 @@
         "quote": {
           "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
           "client": {
-            "name": "Pablo Gomez Gallardo",
+            "name": "Pablo Gómez Gallardo",
             "title": "Chief Digital Officer at Viva Aerobus"
           },
           "photo": {
@@ -873,7 +899,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 10,
+            "title": "Viva Aerobus Native App",
+            "subtitle": "",
+            "primaryColor": "cases-viva-app",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+          },
+          {
+            "id": 2,
+            "title": "Planet Buyback Website",
+            "subtitle": "",
+            "primaryColor": "cases-buyback",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
+          },
+          {
+            "id": 6,
+            "title": "Seguros Mundial Platform",
+            "subtitle": "",
+            "primaryColor": "cases-seguros-mundial",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -890,7 +942,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "",
         "portfolioDescription": "Helping the planet, one donation at a time",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -1286,7 +1338,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 10,
+            "title": "Viva Aerobus Native App",
+            "subtitle": "",
+            "primaryColor": "cases-viva-app",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+          },
+          {
+            "id": 4,
+            "title": "Food Central Platform",
+            "subtitle": "",
+            "primaryColor": "cases-food-central",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+          },
+          {
+            "id": 8,
+            "title": "Arrivia Platform",
+            "subtitle": "",
+            "primaryColor": "cases-arrivia",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -1303,7 +1381,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "",
         "portfolioDescription": "Developing the first social network for cancer patients and survivors.",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -1645,8 +1723,8 @@
           ]
         },
         "quote": {
-          "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-          "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+          "body": null,
+          "client": null,
           "photo": {
             "data": {
               "id": 1,
@@ -1673,7 +1751,7 @@
         },
         "whatWeLearned": {
           "title": "What we learned",
-          "content": "We helped to design, build and operate a pioneering food plaza marketplace. This SaaS solution spans native client apps, a versatile admin portal, rich reporting and other useful features. Food Central is now live and can be used in Miyana, CDMX. We learned a tremendous amount about fulfillment, the food logistics industry and building flexible, digital marketplaces.",
+          "content": "It’s not everyday that we can work on an app that truly changes lives. That’s why we were super excited to work on Cancerbuddy: the world’s first cancer patient and survivor network.<br /><br /> Cancer patients and survivors to connect, share and help each other. This application connects people who are fighting or have beaten cancer by accompanying them on their road to recovery.",
           "images": [{
             "data": {
               "id": 1,
@@ -1722,7 +1800,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 10,
+            "title": "Viva Aerobus Native App",
+            "subtitle": "",
+            "primaryColor": "cases-viva-app",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+          },
+          {
+            "id": 1,
+            "title": "Viva Aerobus Website",
+            "subtitle": "",
+            "primaryColor": "cases-viva",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
+          },
+          {
+            "id": 4,
+            "title": "Food Central Platform",
+            "subtitle": "",
+            "primaryColor": "cases-food-central",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -1739,7 +1843,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "",
         "portfolioDescription": "Digital transformation in the food marketplace industry",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br />Users",
         "logo": {
           "data": {
             "id": 1,
@@ -1789,7 +1893,7 @@
         "challenge": {
           "id": 1,
           "title": "The Challenge",
-          "content": "Food Central is food plaza with unique culinary options, serving to all people in the residential, corporate and commercial spaces inside large Mexican building complex.\nUmvel helped Food Central to develop a digital marketplace that gives its users the ability to order - and get delivered - any products they buy online.",
+          "content": "Food Central is a food plaza with unique culinary options, serving to all people in the residential, corporate and commercial spaces inside a large Mexican building complex.<br /><br /> Umvel helped Food Central to develop a digital marketplace that gives its users the ability to order — and get delivered — any products they buy online.",
           "callToAction": [],
           "images": [{
             "data": {
@@ -2083,15 +2187,18 @@
           ]
         },
         "quote": {
-          "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-          "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+          "body": "Creating and end-to-end digital platform is hard, but I’m surprised how easy and efficient the project went.",
+          "client": {
+            "name": "Food Central",
+            "title": null
+          },
           "photo": {
             "data": {
               "id": 1,
               "attributes": {
-                "name": "cb_quote_bg.png",
-                "alternativeText": "cb_quote_bg.png",
-                "caption": "cb_quote_bg.png",
+                "name": "fc_quote_bg.png",
+                "alternativeText": "fc_quote_bg.png",
+                "caption": "fc_quote_bg.png",
                 "width": 64,
                 "height": 64,
                 "formats": null,
@@ -2099,7 +2206,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_quote_bg.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2160,7 +2267,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 5,
+            "title": "Smart Walk Platform",
+            "subtitle": "",
+            "primaryColor": "cases-smart-walk",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg"
+          },
+          {
+            "id": 7,
+            "title": "OEIO Marketplace",
+            "subtitle": "",
+            "primaryColor": "cases-oeio",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
+          },
+          {
+            "id": 9,
+            "title": "CAPA Management Platform",
+            "subtitle": "",
+            "primaryColor": "cases-capa",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -2177,7 +2310,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "",
         "portfolioDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -2227,7 +2360,7 @@
         "challenge": {
           "id": 1,
           "title": "The Challenge",
-          "content": "GGI is an innovative real estate development company, that manages more than 128 real estate properties and 1,500 commercial premises.\nUmvel helped GGI to translate the best practices in physical real estate tours into a truly immersive digital platform, that helps brokers sell properties in digital first way.",
+          "content": "GGI is an innovative real estate development company, that manages more than 128 real estate properties and 1,500 commercial premises.<br /><br /> Umvel helped GGI to translate the best practices in physical real estate tours into a truly immersive digital platform, that helps brokers sell properties in digital first way.",
           "callToAction": [],
           "images": [{
             "data": {
@@ -2545,15 +2678,18 @@
           ]
         },
         "quote": {
-          "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-          "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+          "body": "We envisioned a product experience that would ‘wow’ people, and that’s what we got.",
+          "client": {
+            "name": "Smart Walk",
+            "title": null
+          },
           "photo": {
             "data": {
               "id": 1,
               "attributes": {
-                "name": "cb_quote_bg.png",
-                "alternativeText": "cb_quote_bg.png",
-                "caption": "cb_quote_bg.png",
+                "name": "sw_quote_bg.png",
+                "alternativeText": "sw_quote_bg.png",
+                "caption": "sw_quote_bg.png",
                 "width": 64,
                 "height": 64,
                 "formats": null,
@@ -2561,7 +2697,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_quote_bg.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2573,7 +2709,7 @@
         },
         "whatWeLearned": {
           "title": "What we learned",
-          "content": "SmartWalk is a disruptive real estate platform, that empowers brokers to strengthen the client relationship. By offering virtual, immersive tools it helps potential buyers to make better decisions.\nWe have learned that a seamless user unboarding, rich ways of interaction and easy ways to capture user data, are key in creating a successful platform experience.",
+          "content": "SmartWalk is a disruptive real estate platform, that empowers brokers to strengthen the client relationship. By offering virtual, immersive tools it helps potential buyers to make better decisions.<br /><br /> We have learned that a seamless user unboarding, rich ways of interaction and easy ways to capture user data, are key in creating a successful platform experience.",
           "images": [{
             "data": {
               "id": 1,
@@ -2622,7 +2758,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 4,
+            "title": "Food Central Platform",
+            "subtitle": "",
+            "primaryColor": "cases-food-central",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+          },
+          {
+            "id": 7,
+            "title": "OEIO Marketplace",
+            "subtitle": "",
+            "primaryColor": "cases-oeio",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
+          },
+          {
+            "id": 9,
+            "title": "CAPA Management Platform",
+            "subtitle": "",
+            "primaryColor": "cases-capa",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -2639,7 +2801,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "",
         "portfolioDescription": "A new digital experiene for both renter’s and owner’s insurance.",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -2689,7 +2851,7 @@
         "challenge": {
           "id": 1,
           "title": "The Challenge",
-          "content": "Seguros Mundial is a large Colombian insurer. One of their biggest products is renter’s and owner’s insurance.\nWe were asked to digitize the quoting and contracting process, and help them implement a DevOps culture to better operate digital processess. Off we go!",
+          "content": "Seguros Mundial is a large Colombian insurer. One of their biggest products is renter’s and owner’s insurance.<br /><br /> We were asked to digitize the quoting and contracting process, and help them implement a DevOps culture to better operate digital processess. Off we go!",
           "callToAction": [{
             "id": 12,
             "action": {
@@ -2902,7 +3064,7 @@
             {
               "id": 2,
               "title": "Microservices Architecture Deployment",
-              "content": "Allowing for rapid code deployments and an overall lightweight achitecture.",
+              "content": "Allowing for rapid code deployments and an overall lightweight architecture.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -2986,8 +3148,8 @@
           ]
         },
         "quote": {
-          "body": "For us, having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.",
-          "client": "Pablo Gomez Gallardo, Chief Digital Officer at Viva Aerobus",
+          "body": null,
+          "client": null,
           "photo": {
             "data": {
               "id": 1,
@@ -3014,7 +3176,7 @@
         },
         "whatWeLearned": {
           "title": "What we learned",
-          "content": "We designed, built and deployed new customer success journeys for Seguros Mundial. This made their operations 80% more effective, by offering a fully automated acquisition process, removing the need to work with an insurance broker.\nWe learned a lot about the insurance industry, business processes and rules, and how to turn a paper trail into a best-in-class digital experience.",
+          "content": "We designed, built and deployed new customer success journeys for Seguros Mundial. This made their operations 80% more effective, by offering a fully automated acquisition process, removing the need to work with an insurance broker.<br /><br /> We learned a lot about the insurance industry, business processes and rules, and how to turn a paper trail into a best-in-class digital experience.",
           "images": [{
             "data": {
               "id": 1,
@@ -3063,7 +3225,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 1,
+            "title": "Viva Aerobus Website",
+            "subtitle": "",
+            "primaryColor": "cases-viva",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
+          },
+          {
+            "id": 4,
+            "title": "Food Central Platform",
+            "subtitle": "",
+            "primaryColor": "cases-food-central",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+          },
+          {
+            "id": 9,
+            "title": "CAPA Management Platform",
+            "subtitle": "",
+            "primaryColor": "cases-capa",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -3080,7 +3268,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "",
         "portfolioDescription": "The first wellness marketplace in LATAM.",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -3441,8 +3629,11 @@
           ]
         },
         "quote": {
-          "body": null,
-          "client": null,
+          "body": "The Umvel team was  quick, on time with everything and delivered an amazing result.",
+          "client": {
+            "name": "OEIO",
+            "title": null
+          },
           "photo": {
             "data": {
               "id": 1,
@@ -3518,7 +3709,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 10,
+            "title": "Viva Aerobus Native App",
+            "subtitle": "",
+            "primaryColor": "cases-viva-app",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+          },
+          {
+            "id": 2,
+            "title": "Planet Buyback Website",
+            "subtitle": "",
+            "primaryColor": "cases-buyback",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
+          },
+          {
+            "id": 8,
+            "title": "Arrivia Platform",
+            "subtitle": "",
+            "primaryColor": "cases-arrivia",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -3535,7 +3752,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "",
         "portfolioDescription": "Crafting travel personas for air, cruise and hotel customers.",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -3950,7 +4167,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 10,
+            "title": "Viva Aerobus Native App",
+            "subtitle": "",
+            "primaryColor": "cases-viva-app",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+          },
+          {
+            "id": 2,
+            "title": "Planet Buyback Website",
+            "subtitle": "",
+            "primaryColor": "cases-buyback",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
+          },
+          {
+            "id": 5,
+            "title": "Smart Walk Platform",
+            "subtitle": "",
+            "primaryColor": "cases-smart-walk",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg"
+          }
+        ]
       }
     },
     "meta": {}
@@ -3967,7 +4210,7 @@
         "publishedAt": "2022-08-19T16:10:38.202Z",
         "portfolioTitle": "CAPA Managament",
         "portfolioDescription": "A fully digital way to invest in real-estate.",
-        "portfolioDataOfInterest": "1,000,000 + \nUsers",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
         "logo": {
           "data": {
             "id": 1,
@@ -4390,7 +4633,33 @@
         },
         "contactForm": {
           "id": 1
-        }
+        },
+        "otherCases": [
+          {
+            "id": 3,
+            "title": "Cancerbuddy App",
+            "subtitle": "",
+            "primaryColor": "cases-cancer-buddy",
+            "textColor": "primary-black",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png"
+          },
+          {
+            "id": 4,
+            "title": "Food Central Platform",
+            "subtitle": "",
+            "primaryColor": "cases-food-central",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+          },
+          {
+            "id": 6,
+            "title": "Seguros Mundial Platform",
+            "subtitle": "",
+            "primaryColor": "cases-seguros-mundial",
+            "textColor": "primary-white",
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg"
+          }
+        ]
       }
     },
     "meta": {}

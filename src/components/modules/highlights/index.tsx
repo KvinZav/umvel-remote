@@ -24,10 +24,12 @@ const CasesHighlights: React.FC = (): JSX.Element => {
     setProject(projects[0]);
   }
   const handleNext = () => {
-    if (project.id < projects.length) {
-      setProject(projects[project.id]);
+    const currentIndex = projects.findIndex(item => item.id === project.id)
+    
+    if (currentIndex < projects.length) {
+      setProject(projects[currentIndex + 1]);
     }
-    if (project.id >= projects.length) {
+    if (currentIndex >= projects.length) {
       setProject(projects[0]);
     }
   };

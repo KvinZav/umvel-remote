@@ -3,13 +3,13 @@ import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
 import useMediaQuery from '@hooks/useMediaQuery';
+import useWindowSize from '@hooks/useWindowSize';
 import React from 'react';
 import useSWR from 'swr';
 import { HighlightSubtitle, HighlightTitle } from '../../elements/text/TextComponents';
 
 const MainMenuHighlights = () => {
-  const desktop = useMediaQuery('(min-width: 1024px)');
-  const tablet = useMediaQuery('(max-width: 1023px) and (min-width: 640px)');
+  const { screen } = useWindowSize();
 
   const { data: event } = useSWR(environment.HOME_URL);
   if (!event) return null;
@@ -19,7 +19,7 @@ const MainMenuHighlights = () => {
   return (
     <section className="flex md:grid md:grid-cols-1 lg:grid-cols-3 md:justify-center overflow-x-scroll md:overflow-auto pt-8 lg:pt-[104px]">
       {cases.map((caseItem, caseIndex) => {
-        const { title, caseDescription, image, primaryColor } =
+        const { title, caseDescription, image, primaryColor, styles } =
           caseItem.case_of_study.data.attributes;
         const imageUrl = image.data.attributes.url;
 
@@ -41,17 +41,18 @@ const MainMenuHighlights = () => {
                   textPositionVertical: 'start',
                   textPositionHorizontal: 'start',
                   bg: primaryColor,
-                  textColor: 'black',
+                  textColor: styles.textColor,
                   textStyles: {
                     height: 'paragraph',
                     align: 'left',
                   },
-                  direction: tablet ? 'col' : 'col-reverse',
+                  direction: screen === "md" ? 'col' : 'col-reverse',
                 }}
                 text={title}
                 description={caseDescription}
                 imageUrl={imageUrl}
-                showButton={!desktop}
+                showButton={screen === 'sm' || screen === "md"}
+                messageOnHover={screen !== 'sm' && screen !== "md"}
               />
             </div>
           </section>

@@ -8,6 +8,7 @@ import { HomeDataInterface } from '@interfaces/home-data/home.interface';
 import { HeaderAboutUs, ReadyToTake, AboutUsTeam } from '@modules/aboutUs';
 import { AboutUsInterface } from '@interfaces/about-us-data/about-us.interface';
 import Head from 'next/head';
+import { GetInTouch } from '@modules/getInTouch';
 
 export default function AboutUs() {
   const isBrowser = typeof window !== 'undefined';
@@ -47,6 +48,7 @@ export default function AboutUs() {
         />
         <ReadyToTake />
         <AboutUsTeam data={dataAboutUs?.data.attributes.team} />
+        <GetInTouch/>
       </div>
     )
   );

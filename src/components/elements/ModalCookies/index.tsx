@@ -1,4 +1,5 @@
 import CustomImage from "@elements/image-component/CustomImage"
+import Link from "next/link"
 import { FC, useState } from "react"
 import { animated, config, useSpring } from "react-spring"
 
@@ -7,15 +8,15 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
     const childrenStyle = useSpring({
         delay: 0,
         transform: isExpanded ?
-            `sccale(0)` :
-            `scale(1)`,
-        config: config.wobbly,
+            `translateY(100%)` :
+            `translateY(0%)`,
+        config: config.slow,
     })
     const handleLeave = () => {
         setIsExpanded(true);
         sessionStorage.setItem('consent', 'false');
-        const windowGlobal = typeof window !== 'undefined' && window;
-        windowGlobal.close();
+        // const windowGlobal = typeof window !== 'undefined' && window;
+        // windowGlobal.close();
     }
     const handleAccept = () => {
         setIsExpanded(true);
@@ -42,7 +43,9 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
                 </div>
             </div>
             <div className="flex flex-row items-center md:text-sm lg:text-base ">
-                <button className="border rounded-full px-6 py-3 mr-4" onClick={handleLeave}>Leave website</button>
+                <Link href="about:blank">
+                    <button className="border rounded-full px-6 py-3 mr-4" onClick={handleLeave}>Leave website</button>
+                </Link>
                 <button className="border rounded-full px-6 py-3 bg-prisma-cookie text-primary-black" onClick={handleAccept}>Accept cookies</button>
             </div>
         </animated.div>

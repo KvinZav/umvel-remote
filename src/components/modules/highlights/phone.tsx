@@ -94,7 +94,7 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({
                 <div className="row-start-2 row-span-1 flex justify-center items-center">
                     <Image
                         url={imgAttributes.url}
-                        alt="proyect"
+                        alt="project"
                         layout="intrinsic"
                         width={imgAttributes.width}
                         height={imgAttributes.height}
