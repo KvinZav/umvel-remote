@@ -16,7 +16,8 @@ const ViewPager = ({cases}) => {
   
   const isMobile = useMediaQuery('(max-width: 639px)');
   const tablet = useMediaQuery('(max-width: 1023px) and (min-width: 640px)');
-
+  const desktop = useMediaQuery('(min-width: 1024px)');
+  
   const [currentCaseIndex, setCurrentCaseIndex] = useState<number>(0)
 
   const [topCaseIndex, setTopCaseIndex] = useState<number | undefined>(0)
@@ -156,6 +157,7 @@ const ViewPager = ({cases}) => {
               imageUrl={cases[bottomCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}
               text={cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
               showButton={isMobile}
+              messageOnHover={desktop}
             />
           </div>
           {/* top */}
@@ -178,6 +180,7 @@ const ViewPager = ({cases}) => {
               text={cases[topCaseIndex]?.case_of_study.data.attributes.title}
               showButton={isMobile}
               caseId={cases[topCaseIndex]?.case_of_study.data.id}
+              messageOnHover={desktop}
             />
           </div>
         </div>
