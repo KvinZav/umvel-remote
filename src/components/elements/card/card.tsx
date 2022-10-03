@@ -4,7 +4,6 @@ import BasicButton from '@elements/button';
 import Image from '@elements/image-component/index';
 import Link from 'next/link';
 
-//eslint-disable-next-line react/display-name
 export const Card = (props: CardInterface) => {
     const {
       styles,
@@ -14,10 +13,11 @@ export const Card = (props: CardInterface) => {
       showButton,
       descriptionOnly,
       caseId,
+      messageOnHover
     } = props;
 
     return (
-      <MainContainer styles={styles} hasDescription={Boolean(description)}>
+      <MainContainer styles={styles} messageOnHover={messageOnHover} descriptionOnly={descriptionOnly}>
         {imageUrl && <MainGraphic imageUrl={imageUrl} />}
         {!descriptionOnly ? (
           <TitleComponent
@@ -46,7 +46,7 @@ export const CustomCard = ({ children, customStyles = '', borderless = false }) 
   );
 };
 
-const MainContainer = ({ children, styles, hasDescription }) => {
+const MainContainer = ({ children, styles, messageOnHover, descriptionOnly }) => {
   return (
     <div
       className={`aspect-square overflow-clip flex ${
@@ -58,11 +58,11 @@ const MainContainer = ({ children, styles, hasDescription }) => {
     >
       <div
         className={`
-          ${hasDescription && `transition ease-in-out duration-700`}
+          ${messageOnHover && `transition ease-in-out duration-700`}
           min-h-full
           flex
           w-full
-          ${hasDescription ? `p-0` : 'p-4'}
+          ${messageOnHover || descriptionOnly ? `p-0` : 'p-4'}
           ${styles.direction === 'col' ? 'flex-col' : 'flex-col-reverse'}
           ${styles.direction === 'col' && !styles.textPositionHorizontal && 'justify-start'} 
           ${styles.direction === 'col-reverse' && !styles.textPositionHorizontal && 'justify-end'} 
@@ -103,7 +103,7 @@ const TitleComponent = ({ text, description, showButton, styles, id }) => {
       <div
         className={`transition-[max-height] overflow-hidden duration-1000 max-h-0 lg:group-hover:max-h-[180px]`}
       >
-        <p className="text-primary-white mb-4">{description}</p>
+        <p className="lg:hidden text-primary-white mb-4">{description}</p>
         <Link href={'/cases/' + id}>
           <BasicButton theme="dark">View Case</BasicButton>
         </Link>

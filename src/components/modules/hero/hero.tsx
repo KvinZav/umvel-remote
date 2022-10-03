@@ -1,4 +1,3 @@
-import { Card } from '@elements/card/card';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';

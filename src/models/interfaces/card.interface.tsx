@@ -17,4 +17,5 @@ export interface CardInterface {
   showButton?: boolean;
   descriptionOnly?: boolean;
   caseId?: number;
+  messageOnHover?: boolean;
 }

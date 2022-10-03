@@ -3,13 +3,13 @@ import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
 import useMediaQuery from '@hooks/useMediaQuery';
+import useWindowSize from '@hooks/useWindowSize';
 import React from 'react';
 import useSWR from 'swr';
 import { HighlightSubtitle, HighlightTitle } from '../../elements/text/TextComponents';
 
 const MainMenuHighlights = () => {
-  const desktop = useMediaQuery('(min-width: 1024px)');
-  const tablet = useMediaQuery('(max-width: 1023px) and (min-width: 640px)');
+  const { screen } = useWindowSize();
 
   const { data: event } = useSWR(environment.HOME_URL);
   if (!event) return null;
@@ -46,12 +46,13 @@ const MainMenuHighlights = () => {
                     height: 'paragraph',
                     align: 'left',
                   },
-                  direction: tablet ? 'col' : 'col-reverse',
+                  direction: screen === "md" ? 'col' : 'col-reverse',
                 }}
                 text={title}
                 description={caseDescription}
                 imageUrl={imageUrl}
-                showButton={!desktop}
+                showButton={screen === 'sm' || screen === "md"}
+                messageOnHover={screen !== 'sm' && screen !== "md"}
               />
             </div>
           </section>
