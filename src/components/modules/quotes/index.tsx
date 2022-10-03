@@ -74,11 +74,11 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
       </div>
       <div
         className={
-          'h-1/4 w-auto hidden bg-primary-black bg-opacity-20 lg:flex justify-end items-center px-8 transition ease-in-out duration-700 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
+          'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-end items-center px-8 transition ease-in-out duration-700 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
         }
       >
         <div>
-          <BasicButton small theme={light ? 'light' : 'dark'}>View Case</BasicButton>
+          <BasicButton theme="dark" small>View Case</BasicButton>
         </div>
       </div>
     </article>
