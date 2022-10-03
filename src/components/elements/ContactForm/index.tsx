@@ -49,7 +49,7 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
   return (
     <form onSubmit={onSubmit} method="post">
       {!emailSend ? (<div className='mt-16'>
-        <div className={`flex bg-secondary-90 rounded-full border p-1 justify-between ${error ? 'border-prisma-red' : theme !== 'light' && 'border-secondary-80'}`}>
+        <div className={`flex rounded-full border p-1 justify-between ${error ? 'border-prisma-red' : theme !== 'light' ? 'bg-secondary-90 border-secondary-80': 'border-secondary-80 bg-transparent'}`}>
           <input
             type="text"
             id="e-mail"
