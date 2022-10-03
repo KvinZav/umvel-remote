@@ -1,10 +1,21 @@
 /** @type {import('next').NextConfig} */
+const { withSentryConfig } = require("@sentry/nextjs");
+
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: ["raw.githubusercontent.com"],
+    domains: ["raw.githubusercontent.com","api.strapi.io"],
+  },
+  sentry: {
+    hideSourceMaps: false,
+    disableServerWebpackPlugin: true,
+    disableClientWebpackPlugin: true,
   },
 }
 
-module.exports = nextConfig
+const sentryWebpackPluginOptions = {
+  silent: false, 
+};
+
+module.exports = withSentryConfig(nextConfig,sentryWebpackPluginOptions)

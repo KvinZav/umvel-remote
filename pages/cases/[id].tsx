@@ -7,27 +7,36 @@ import React from 'react';
 import useSWR from 'swr';
 import ContactLayout from '@layouts/ContactLayout';
 import CasesHero from '@modules/casesHero';
+import { DeliveredValue } from '@modules/deliveredValue';
+import { KeyFeatures } from '@modules/keyFeatures';
+import CasesQuote from '@modules/casesQuote';
+import CasesApp from '@modules/casesApp';
+import CasesLearned from '@modules/casesLearned';
+import { OtherCases } from '@modules/otherCases';
 
 const CasesPage = () => {
-  
-  const router = useRouter()
-  const { id } = router.query
-  
-  const { data: event } = useSWR(environment.CASES_URL, get, {revalidateOnFocus: false})  
-  if(!event || typeof id !== 'string') return;
+  const router = useRouter();
+  const { id } = router.query;
 
-  const caseData = CASE_FETCHER(event, id)
+  const { data: event } = useSWR(environment.CASES_URL, get, { revalidateOnFocus: false });
+  if (!event || typeof id !== 'string') return;
+
+  const caseData = CASE_FETCHER(event, id);
   if (!caseData) return;
-  
-  return(
+
+  return (
     <>
-      <CasesHero
-        caseData={caseData}
-      />
-      <TechnicalInformation caseData={caseData.technicalInformation} />
+      <CasesHero caseData={caseData} />
+      <TechnicalInformation caseData={caseData} />
+      <DeliveredValue data={caseData.deliverValue} primaryColor={caseData.primaryColor} />
+      <KeyFeatures data={caseData.feature} />
+      <CasesQuote caseData={caseData} />
+      <CasesApp caseData={caseData} />
+      <CasesLearned caseData={caseData} />
       <ContactLayout />
+      <OtherCases caseData={caseData}/>
     </>
-  )
-}
+  );
+};
 
 export default CasesPage;
