@@ -2,8 +2,8 @@ import SendIcon from '@elements/SendIcon';
 import { environment } from '@environments/index';
 import { post } from '@fetcher/post';
 import { useForm } from '@hooks/useForm';
-import { emailValidation } from '@utils/validations/email.validation';
-import { FormEvent, useState } from 'react';
+import { emailValidation, isNotEmptyValidation } from '@utils/validations';
+import { FormEvent, useEffect, useState } from 'react';
 
 const errorStyles = {
   input: {borderColor: '#CE4C4C', color: '#CE4C4C'},
@@ -20,10 +20,17 @@ const defaultStyles = {
 };
 
 export const GetInTouch = () => {
-  const { email, onChangeInput } = useForm({ email: ['', emailValidation] });
+  const { email, onChangeInput } = useForm({ email: ['', [emailValidation, isNotEmptyValidation] ] });
   const [currentResponse, setCurrentResponse] = useState({ error: false, message: '' });
   const [emailSend, setEmailSend] = useState(false);
   const [formStyles, setFormStyles] = useState(defaultStyles);
+
+  useEffect(() => {
+    if (!email.error) {
+      setCurrentResponse({ error: false, message: '' });
+      setFormStyles(defaultStyles);
+    }
+  }, [email.error]);
 
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -87,6 +94,7 @@ export const GetInTouch = () => {
               />
               <p className="text-xs pt-2 px-6" style={formStyles.label}>{currentResponse.message}</p>
               <button
+                disabled={email.errors.length > 1}
                 className="w-full py-4 px-1 border border-[#000] rounded-[32px] mt-6"
                 type="submit"
               >
@@ -105,6 +113,7 @@ export const GetInTouch = () => {
                 className="rounded-full py-3 px-6 w-5/6 outline-none bg-transparent"
               />
               <button
+                disabled={email.errors.length > 1}
                 className="border rounded-full py-3 px-6 flex justify-center items-center"
                 type="submit"
                 style={formStyles.divInput}
