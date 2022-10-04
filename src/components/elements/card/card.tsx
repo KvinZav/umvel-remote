@@ -3,6 +3,7 @@ import { CardInterface } from '@interfaces/card.interface';
 import BasicButton from '@elements/button';
 import Image from '@elements/image-component/index';
 import Link from 'next/link';
+import { isColorLight } from '@utils/colorUtils';
 
 export const Card = (props: CardInterface) => {
     const {
@@ -16,6 +17,8 @@ export const Card = (props: CardInterface) => {
       messageOnHover
     } = props;
 
+    const isLight = isColorLight(styles.bg)
+
     return (
       <MainContainer styles={styles} messageOnHover={messageOnHover} descriptionOnly={descriptionOnly}>
         {imageUrl && <MainGraphic imageUrl={imageUrl} />}
@@ -26,6 +29,7 @@ export const Card = (props: CardInterface) => {
             showButton={showButton}
             styles={styles}
             id={caseId}
+            isLight={isLight}
           />
         ) : (
           <DescriptionComponent text={text} description={description} styles={styles} id={caseId} />
@@ -51,8 +55,9 @@ const MainContainer = ({ children, styles, messageOnHover, descriptionOnly }) =>
     <div
       className={`aspect-square overflow-clip flex ${
         styles.direction === 'col' ? 'flex-col' : 'flex-col-reverse'
-      } group aspect-square bg-${styles.bg}`}
+      } group aspect-square`}
       style={{
+        backgroundColor: styles.bg,
         borderColor: !styles.bg ? '#e6e6e6' : '#00000000',
       }}
     >
@@ -85,13 +90,13 @@ const MainGraphic = ({ imageUrl }) => (
   </div>
 );
 
-const TitleComponent = ({ text, description, showButton, styles, id }) => {
+const TitleComponent = ({ text, description, showButton, styles, id, isLight }) => {
   return description ? (
     <div
       className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 w-full`}
     >
       <h1
-        className={`transition-colors duration-500 pb-2 font-bold text-${styles.textColor ? styles.textColor : 'primary-black'} lg:group-hover:text-primary-white`}
+        className={`group-hover:transition-colors group-hover:duration-500 pb-2 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
       >
         {text}
       </h1>

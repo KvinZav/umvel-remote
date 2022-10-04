@@ -191,12 +191,14 @@ type SquareProps = {
   primaryColor?: string;
 };
 const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, primaryColor }) => {
-  const textColor = primaryColor === 'black' ? 'text-primary-black' : 'text-primary-white';
   const image = imgAttribute?.data?.attributes;
 
   return (
     <div
-      className={`h-full w-full bg-${backgroundColor} group overflow-hidden aspect-square snap-center`}
+      className={`h-full w-full group overflow-hidden aspect-square snap-center`}
+      style={{
+        backgroundColor
+      }}
     >
       <div className={`h-full w-full p-9`}>
         {image && (
@@ -212,10 +214,10 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
       {title && (
         <div
           className={
-            'h-1/4 w-auto hidden bg-secondary-70/50 lg:flex justify-start px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
+            'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-start px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
           }
         >
-          <p className={`${textColor} my-auto`}>{title}</p>
+          <p className={`text-primary-white my-auto`}>{title}</p>
         </div>
       )}
     </div>

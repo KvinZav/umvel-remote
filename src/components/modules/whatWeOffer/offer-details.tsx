@@ -153,7 +153,6 @@ const ServiceDetailHighlights: FC<DetailHighlightsProps> = ({ cases }) => {
               textPositionVertical: 'start',
               textPositionHorizontal: 'start',
               bg: primaryColor,
-              textColor: 'black',
               textStyles: {
                 height: 'paragraph',
                 align: 'left',

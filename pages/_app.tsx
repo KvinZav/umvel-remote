@@ -16,21 +16,21 @@ const swrConfig = {
  * from the api the name does not exist when a map is used
  */
 const colors = [
-  'bg-cases-capa',
-  'bg-cases-prevue',
+  'bg-#0F55C3',
+  'bg-#538e82',
   'bg-cases-argo',
   'bg-cases-campaign',
-  'bg-cases-viva',
-  'bg-cases-food-central',
-  'bg-cases-oeio',
-  'bg-cases-cancer-buddy',
-  'bg-cases-buyback',
+  'bg-#2F7C38',
+  'bg-#348181',
+  'bg-#CBA552',
+  'bg-#F1DE4F',
+  'bg-#6BB7E6',
   'bg-cases-miyana',
-  'bg-cases-seguros-mundial',
-  'bg-cases-arrivia',
-  'bg-cases-viva-app',
-  'bg-cases-smart-walk',
-  'bg-cases-ecri',
+  'bg-#5B96CD',
+  'bg-#04A3AC',
+  'bg-#40AD4C',
+  'bg-#DA3440',
+  'bg-#0081C6',
 ];
 
 function MyApp({ Component, pageProps }) {

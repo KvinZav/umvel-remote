@@ -4,6 +4,7 @@ import { FETCHER } from '@fetcher/clients';
 import { BlockNameEnum } from '@enums/BlockName';
 import useSWR from 'swr';
 import BasicButton from '@elements/button';
+import { isColorLight } from '@utils/colorUtils';
 
 const Quotes = (): JSX.Element => {
   const { data: event } = useSWR(environment.HOME_URL);
@@ -56,15 +57,17 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
   subtitle = '',
   description = '',
   color = '',
-  primaryColor,
 }): JSX.Element => {
-  const textColor = primaryColor === 'black' ? 'text-primary-black' : 'text-primary-white';
+  const light = isColorLight(color)
 
   return (
     <article
-      className={`bg-${color} group overflow-hidden h-[50%] md:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}
+      className={`group overflow-hidden h-[50%] md:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}
+      style={{
+        backgroundColor: color
+      }}
     >
-      <div className={`h-full w-full p-9 ${textColor}`}>
+      <div className={`h-full w-full p-9 ${light ? 'text-primary-black' : 'text-primary-white'}`}>
         <p className="mb-4">{description}</p>
         <h3 className="font-bold text-[18px] lg:mb-2 ">{title}</h3>
         <h4 className="mb-4">{subtitle}</h4>

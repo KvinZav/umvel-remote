@@ -4,7 +4,6 @@ import { get } from '@fetcher/get';
 import ScrollInteraction1 from '@modules/scrollInteractions/ScrollInteraction1';
 import useScrollOffset from '@hooks/useScrollOffset';
 import { useEffect, useRef } from 'react';
-import Hero from '@modules/HomeHero';
 import { FooterTeam, FooterCta } from '@modules/footer';
 import ScrollInteraction2 from '@modules/scrollInteractions/ScrollInteraction2';
 import Quotes from '@modules/quotes';
@@ -16,6 +15,7 @@ import { HomeDataInterface } from '@interfaces/home-data/home.interface';
 import { ButtonScroll } from '@elements/ButtonScroll';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import Head from 'next/head';
+import HomeHero from '@modules/HomeHero';
 
 export default function Home() {
   const isBrowser = typeof window !== 'undefined';
@@ -47,7 +47,7 @@ export default function Home() {
             content="We design, build and run your digital platform.  A top-rated design and development agency offering a wide range of services delivering business value to your company"
           />
         </Head>
-        <Hero />
+        <HomeHero />
         {<ButtonScroll elementTo={highlightsRef} />}
         <div ref={highlightsRef}>
           <MainMenuHighlights />

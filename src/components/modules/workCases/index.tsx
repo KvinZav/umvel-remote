@@ -67,7 +67,12 @@ const WorkCases: React.FC = (): JSX.Element => {
               <span className="whitespace-nowrap origin-right transition-[max-width] duration-1000 max-w-0 group-hover:max-w-[150px] overflow-hidden">
                 {caseItem.title}
               </span>
-              <div className={`w-4 h-4 bg-${caseItem.backgroundColor}`} />
+              <div
+                className={`w-4 h-4`}
+                style={{
+                  backgroundColor: caseItem.backgroundColor
+                }}
+              />
             </button>
           </div>
         ))}
