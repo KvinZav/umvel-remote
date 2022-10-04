@@ -5,7 +5,8 @@ import Image from '@elements/image-component/index';
 import Link from 'next/link';
 import { isColorLight } from '@utils/colorUtils';
 
-export const Card = (props: CardInterface) => {
+//eslint-disable-next-line react/display-name
+export const Card = React.memo((props: CardInterface) => {
     const {
       styles,
       imageUrl,
@@ -36,7 +37,7 @@ export const Card = (props: CardInterface) => {
         )}
       </MainContainer>
     );
-  };
+  }, (prevProps, nextProps) => prevProps.caseId === nextProps.caseId || prevProps.text === nextProps.text);
 
 export const CustomCard = ({ children, customStyles = '', borderless = false }) => {
   return (

@@ -9,7 +9,8 @@ import useSWR from 'swr';
 import Link from 'next/link';
 
 const DesktopScrollInteraction3 = () => {
-  const { scrollOffset } = useScrollOffset();
+
+  const { scrollOffset } = useScrollOffset();  
 
   const titleScrollControlRef = useRef<HTMLDivElement>(null);
   const quotesContainerRef = useRef<HTMLDivElement>(null);
@@ -26,7 +27,7 @@ const DesktopScrollInteraction3 = () => {
     const { top } = titleScrollControlRef.current.getBoundingClientRect();
     const { top: quotesRefTop } = quotesContainerRef.current.getBoundingClientRect();
     const { height: cardComponentHeight } = cardContainerRef.current.getBoundingClientRect();
-    const cardHeight = cardComponentHeight - 200;
+    const cardHeight = cardComponentHeight - 200;    
 
     setCardBottom(cardComponentHeight);
     setQuotesTop(quoteRefs.current.map((i) => i.getBoundingClientRect().top));
@@ -63,18 +64,16 @@ const DesktopScrollInteraction3 = () => {
           </h2>
         </CustomCard>
       </div>
-      <div className="h-[200vh] flex flex-col justify-end sticky bottom-0 px-8 ">
+      <div className="h-[200vh] flex flex-col justify-end sticky bottom-0 px-8">
         <div ref={titleScrollControlRef} className="h-2/5" />
         <div ref={quotesContainerRef} className="flex flex-col ">
-          <ul className="flex flex-1 flex-col justify-end">
+          <ul className="flex flex-1 flex-col justify-end"
+          >
             {[...labels, ''].map((i, n) =>
               n < labels.length ? (
                 <li
                   key={'scroll3-quote-' + n + ''}
                   ref={(el) => (quoteRefs.current[n] = el)}
-                  style={{
-                    transform: `translateY(${scrollOffset * 0.8})`,
-                  }}
                 >
                   <div
                     className={`${n !== 0 && 'border-t border-secondary-10'
@@ -98,13 +97,11 @@ const DesktopScrollInteraction3 = () => {
                 <li
                   key={'scroll3-quote-' + n + ''}
                   ref={(el) => (quoteRefs.current[n] = el)}
-                  style={{
-                    transform: `translateY(${scrollOffset * 0.8})`,
-                  }}
                 >
                   <div
-                    className={`flex justify-start items-center self-center w-auto py-9 xl:px-10 transition-all duration-1000 ${currentHighlight > n - 1 || currentHighlight === -1
-                        ? 'translate-y-0 opacity-100'
+                    className={`flex justify-start items-center self-center w-auto py-9 xl:px-10 transition-all duration-1000
+                    ${currentHighlight > n - 2 || currentHighlight === -1
+                        ? 'delay-500 translate-y-0 opacity-100'
                         : 'translate-y-24 opacity-[0.15]'
                       }`}
                   >
