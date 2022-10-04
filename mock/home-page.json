@@ -966,7 +966,7 @@
           "__component": "quotes.quote-grid",
           "quote": [
             {
-              "id": 2,
+              "id": null,
               "title": "ECRI",
               "hoverDescription": "“I feel like we’re going to a psychologist for our business with every meeting”",
               "hoverClientName": "Economic Cycle Research Institute",
