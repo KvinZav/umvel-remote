@@ -272,7 +272,7 @@
           "data": {
             "id": 8,
             "attributes": {
-              "title": "Arrivia",
+              "title": "Travel Company",
               "caseDescription": "Crafting travel personas for air, cruise and hotel customers.",
               "primaryColor": "#04A3AC",
               "secondaryColor": null,
@@ -286,9 +286,9 @@
                 "data": {
                   "id": 1,
                   "attributes": {
-                    "name": "arrivia_case.svg",
-                    "alternativeText": "arrivia_case.svg",
-                    "caption": "arrivia_case.svg",
+                    "name": "travel_company_case.svg",
+                    "alternativeText": "travel_company_case.svg",
+                    "caption": "travel_company_case.svg",
                     "width": 977,
                     "height": 673,
                     "formats": null,
