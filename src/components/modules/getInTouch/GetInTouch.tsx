@@ -61,13 +61,13 @@ export const GetInTouch = () => {
   };
 
   return (
-    <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-10 grid-rows-2 lg:px-[20%] lg:gap-x-[32px] items-center">
-      <div className="px-[72px] md:px-0" style={{ gridColumn: '1/4', gridRow: '1/3' }}>
+    <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-[200px_420px] gap-x-8 grid-rows-2 lg:px-[20%] items-center place-content-center">
+      <div className="px-[72px] md:px-0" style={{ gridColumn: '1/2', gridRow: '1/3' }}>
         <h3 className="font-bold text-[28px] text-center md:text-[58px]">Get in Touch!</h3>
       </div>
       <div
         className="text-center mb-8 lg:mb-0 lg:text-left"
-        style={{ gridColumn: '4/11', gridRow: '1/2' }}
+        style={{ gridColumn: '2/3', gridRow: '1/2' }}
       >
         <p className="text-base md:text-2xl">
           Enter your email address, and we’ll get in touch to plan a coffee.
@@ -77,7 +77,7 @@ export const GetInTouch = () => {
       <form
         onSubmit={onSubmit}
         className={`flex flex-col justify-center`}
-        style={{ gridColumn: '4/11', gridRow: '2/3' }}
+        style={{ gridColumn: '2/3', gridRow: '2/3' }}
       >
         {
           !emailSend &&
