@@ -36,7 +36,7 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
       setError(false);
       return;
     }
-    setCurrentResponse({ error: false, message: 'Your email was successfully sended!' });
+    setCurrentResponse({ error: false, message: 'Your email was successfully sent!' });
     setEmailSend(true);
   };
 
@@ -49,13 +49,13 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
   return (
     <form onSubmit={onSubmit} method="post">
       {!emailSend ? (<div className='mt-16'>
-        <div className={`flex rounded-full border border-secondary-20 p-1 justify-between ${error && 'border-prisma-red'}`}>
+        <div className={`flex rounded-full border p-1 justify-between ${theme === 'light' ? 'bg-transparent':'bg-secondary-90'} ${error ? 'border-prisma-red' : 'border-secondary-80'}`}>
           <input
             type="text"
             id="e-mail"
             name="email"
             placeholder="Email"
-            className={`rounded-full py-3 px-6 w-5/6 outline-none bg-transparent ${error && 'text-prisma-red placeholder-prisma-red'}`}
+            className={`rounded-full py-3 px-6 w-5/6 outline-none bg-transparent placeholder-secondary-50 ${error && 'text-prisma-red placeholder-prisma-red'}`}
             onChange={onChangeInput}
             value={email.value}
             onFocus={onFocus}
