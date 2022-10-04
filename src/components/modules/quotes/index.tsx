@@ -5,6 +5,7 @@ import { BlockNameEnum } from '@enums/BlockName';
 import useSWR from 'swr';
 import BasicButton from '@elements/button';
 import { isColorLight } from '@utils/colorUtils';
+import Link from 'next/link';
 
 const Quotes = (): JSX.Element => {
   const { data: event } = useSWR(environment.HOME_URL);
@@ -36,6 +37,7 @@ const Quotes = (): JSX.Element => {
               description={item.hoverDescription}
               color={item.backgroundColor}
               primaryColor={item.primaryColor}
+              id={item.id}
             />
           );
         })}
@@ -50,6 +52,7 @@ type SquareQuotesProps = {
   color?: string;
   clientName?: string;
   primaryColor?: string;
+  id: number | string;
 };
 
 const SquareQuotes: React.FC<SquareQuotesProps> = ({
@@ -57,6 +60,7 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
   subtitle = '',
   description = '',
   color = '',
+  id
 }): JSX.Element => {
   const light = isColorLight(color)
 
@@ -78,7 +82,9 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
         }
       >
         <div>
-          <BasicButton theme="dark" small>View Case</BasicButton>
+          <Link href={'/cases/' + id}>
+            <BasicButton theme="dark" small>View Case</BasicButton>
+          </Link>
         </div>
       </div>
     </article>
