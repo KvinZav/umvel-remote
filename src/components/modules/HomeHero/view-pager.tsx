@@ -2,7 +2,7 @@ import { Card } from '@elements/card/card'
 import useMediaQuery from '@hooks/useMediaQuery';
 import React, { useEffect, useState } from 'react'
 import { animated, useSpring } from 'react-spring';
-import { ChevronRightRounded } from '@mui/icons-material';
+import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
 
 const waitFor = (delay) => new Promise((resolve) => {
   setTimeout(() => {
@@ -10,7 +10,9 @@ const waitFor = (delay) => new Promise((resolve) => {
   }, delay);
 })
 
-const ViewPager = ({cases}) => {  
+const ViewPager = ({cases}) => {
+
+  const [currentTimeout, setCurrentTimeout] = useState<NodeJS.Timeout>(null)
   
   const isMobile = useMediaQuery('(max-width: 639px)');
   const tablet = useMediaQuery('(max-width: 1023px) and (min-width: 640px)');
@@ -22,76 +24,66 @@ const ViewPager = ({cases}) => {
   const [bottomCaseIndex, setBottomCaseIndex] = useState<number | undefined>(0)
   const [topVisible, setTopVisible] = useState(false)
 
-  const [copied, setCopied] = useState(false)
-
-
   const [styles, api] = useSpring(() => ({
     from: { width: '0%', height: '100%' },
     to: { width: '100%', height: '100%' },
     config: { duration: 6000 },
   }))
-
-  // const initialLoading = async () => {
-  //   setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)
-  //   setInterval(() => {      
-  //     setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)     
-  //     api.set({width: '0%'})
-  //     api.start({width: '100%'})
-  //   }, 6000);
-  // }
-
-  // useEffect(() => {
-  //   initialLoading()
-  // }, [])
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)
-  //   }, 6000)
-  // }, [currentCaseIndex])
-
+  
   useEffect(() => {
-    
-    const setCaseSource = async () => {
-      setTopCaseIndex(currentCaseIndex)
-      await waitFor(250)
-      setTopVisible(true)
-      await waitFor(1000)
-      setBottomCaseIndex(currentCaseIndex)
-      api.set({width: '0%'})
-      api.start({width: '100%'})
+    const initialLoading = async () => {
+      setCurrentCaseIndex(0)
     }
 
-    // setTimeout(() => {
-    //   setCaseSource()
-    // }, 6000);
-    
-    setCaseSource()
-    setTimeout(() => {
-      setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)
-    }, 6000);
+    initialLoading()
+  }, [])
 
+  const setCaseSource = async (caseIdx) => {
+    api.set({width: '0%'})
+    api.start({width: '100%'})
+
+    setTopCaseIndex(caseIdx)
+    await waitFor(250)
+    setTopVisible(true)
+    await waitFor(1000)
+    setBottomCaseIndex(caseIdx)
+  }
+  
+  useEffect(() => {
+    let timeoutId
+    if(!isMobile){
+      timeoutId = setTimeout(() => {
+        
+        const newIndex = currentCaseIndex >= cases.length - 1 ? 0 : currentCaseIndex + 1
+        setCurrentCaseIndex(newIndex)
+        setCaseSource(newIndex)
+      }, 6000)
+  
+      setCurrentTimeout(timeoutId)
+    }
+    
   }, [currentCaseIndex])
 
   useEffect(() => {
     setTopVisible(false)
   }, [bottomCaseIndex])
 
-  useEffect(() => {
-    if (copied) {
-      setTimeout(() => {
-        setCopied(false)
-      },
-        1000);
-    }
-  }, [copied])
-
   const handleNext = () => {
-    setCurrentCaseIndex(currentIndex => currentIndex >= cases.length - 1 ? 0 : currentIndex + 1)     
+    clearTimeout(currentTimeout)
+    const newIndex = currentCaseIndex >= cases.length - 1 ? 0 : currentCaseIndex + 1
+    setCurrentCaseIndex(newIndex)
+    setCaseSource(newIndex)
+  }
+
+  const handlePrevious = () => {
+    clearTimeout(currentTimeout)
+    const newIndex = currentCaseIndex <= 0 ? cases.length - 1 : currentCaseIndex - 1
+    setCurrentCaseIndex(newIndex)
+    setCaseSource(newIndex)
   }
 
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-2 lg:grid-rows-1 gap-0 w-full">
+    <div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-3 md:grid-rows-2 lg:grid-rows-1 gap-0 w-full">
       <div className="col-span-1 border border-secondary-10">
         <Card
           styles={{
@@ -103,7 +95,7 @@ const ViewPager = ({cases}) => {
           text='We'
         />
       </div>
-      <div className="col-span-1 relative overflow-hidden border border-secondary-10">
+      <div className="row-span-1 col-span-1 relative overflow-hidden border border-secondary-10">
         {/* bottom */}
         <div
           className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out -translate-y-[50%] opacity-0' : 'transition-none translate-y-0 opacity-100'} duration-1000`}
@@ -130,15 +122,23 @@ const ViewPager = ({cases}) => {
             text={cases[topCaseIndex]?.Title}
           />
         </div>
+        <div className="absolute right-4 md:right-6 lg:right-8 bottom-4 md:bottom-12 lg:bottom-12">
+          <button className="lg:opacity-10 lg:hover:opacity-100" onClick={handlePrevious}>
+            <ChevronLeftRounded/>
+          </button>
+          <button className="lg:opacity-10 lg:hover:opacity-100" onClick={handleNext}>
+            <ChevronRightRounded/>
+          </button>
+        </div>
         <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 bottom-4 md:bottom-6 lg:bottom-8 h-1 md:h-2 rounded-full overflow-hidden">
-          <animated.div
+          {!isMobile && <animated.div
             className={`bg-secondary-10`}
             style={styles}
-          />
+          />}
         </div>
       </div>
-      <div className="md:col-span-2 lg:col-span-1 row-span-1 flex overflow-hidden">
-        <div className={`flex-1 relative opacity-100`}>
+      <div className="row-span-2 col-span-2 lg:col-span-1 md:row-span-1 flex overflow-hidden">
+        <div className={`flex-1 relative opacity-100 aspect-square`}>
           {/* bottom */}
           <div className={`absolute w-full h-full transform ${topVisible ? 'transition-all ease-in-out -translate-y-full' : 'transition-none translate-y-0'} duration-1000`}>
             <Card
