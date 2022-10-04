@@ -15,7 +15,7 @@ const Quotes = (): JSX.Element => {
 
   return (
     <div
-      className={`h-[180vw] md:h-[200vw] w-full overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}
+      className={`h-[180vw] md:h-[200vw] w-screen overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}
     >
       <section className="h-[180vw] flex md:flex-row flex-col flex-wrap md:h-[200vw] lg:h-[50vw] snap-x">
         <article className="bg-primary-white group overflow-hidden h-[50%] md:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto">
@@ -76,7 +76,7 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
         <h3 className="font-bold text-[18px] lg:mb-2 ">{title}</h3>
         <h4 className="mb-4">{subtitle}</h4>
       </div>
-      <div
+    {id && <div
         className={
           'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-end items-center px-8 transition ease-in-out duration-700 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
         }
@@ -86,7 +86,7 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
             <BasicButton theme="dark" small>View Case</BasicButton>
           </Link>
         </div>
-      </div>
+      </div>}
     </article>
   );
 };
