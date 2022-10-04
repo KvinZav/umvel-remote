@@ -50,6 +50,12 @@
             "type": "link"
           },
           {
+            "id": 5,
+            "name": "Home",
+            "link": "",
+            "type": "home"
+          },
+          {
             "id": 6,
             "name": "Let's talk!",
             "link": "lets-talk",
@@ -191,7 +197,7 @@
               "Subtitle": null,
               "case_of_study": {
                 "data": {
-                  "id": 8,
+                  "id": 7,
                   "attributes": {
                     "title": "OEIO disrupts the wellness market!",
                     "caseDescription": "Find out how we created a two-sided welllness marketplace for LATAM countries.",
@@ -236,7 +242,7 @@
               "Subtitle": null,
               "case_of_study": {
                 "data": {
-                  "id": 6,
+                  "id": 5,
                   "attributes": {
                     "title": "Smart Walk makes virtual tours real!",
                     "caseDescription": "Turning dreams into reality. Read how we created a rich virtual tours platform for GGI.",
@@ -338,7 +344,7 @@
               }
             },
             {
-              "id": 4,
+              "id": 10,
               "Title": "150+ Umvellers",
               "Subtitle": "We can scale up whenever needed.",
               "case_of_study": {
@@ -383,7 +389,7 @@
               }
             },
             {
-              "id": 5,
+              "id": 4,
               "Title": "Ecosystem thinking",
               "Subtitle": "We design and build your digital business.",
               "case_of_study": {
@@ -960,7 +966,7 @@
           "__component": "quotes.quote-grid",
           "quote": [
             {
-              "id": 1,
+              "id": 2,
               "title": "ECRI",
               "hoverDescription": "“I feel like we’re going to a psychologist for our business with every meeting”",
               "hoverClientName": "Economic Cycle Research Institute",
@@ -969,7 +975,7 @@
               "backgroundColor": "#0081C6"
             },
             {
-              "id": 2,
+              "id": 1,
               "title": "Viva Aerobus",
               "hoverDescription": "“Having a fast, reliable and delightful web experience is essential to grow our business. Umvel has been a great development partner in making this come true.”",
               "hoverClientName": "National Airline",
@@ -978,7 +984,7 @@
               "backgroundColor": "#2F7C38"
             },
             {
-              "id": 3,
+              "id": 7,
               "title": "OEIO",
               "hoverDescription": "“The Umvel team was  quick, on time with everything and delivered an amazing result.“",
               "hoverClientName": "Wellness App",
@@ -987,7 +993,7 @@
               "backgroundColor": "#CBA552"
             },
             {
-              "id": 4,
+              "id": 3,
               "title": "Cancer Buddy",
               "hoverDescription": "“We are changing lives with our app. That’s a direct result of a great working app, made by Umvel.”",
               "hoverClientName": "Cancer App",
@@ -1006,7 +1012,7 @@
               "backgroundColor": "#DA3440"
             },
             {
-              "id": 6,
+              "id": 4,
               "title": "Food Central",
               "hoverDescription": "“Creating and end-to-end digital platform is hard, but I’m surprised how easy and efficient the project went.”",
               "hoverClientName": "Wellness",
@@ -1015,7 +1021,7 @@
               "backgroundColor": "#538e82"
             },
             {
-              "id": 7,
+              "id": 9,
               "title": "Capa",
               "hoverDescription": "“The real estate and investing markets are hard to understand. Umvel’s team immersed themselves in our industry.”",
               "hoverClientName": "Real State",
