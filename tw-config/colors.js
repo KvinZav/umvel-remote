@@ -27,7 +27,7 @@ module.exports = {
     },
     "cases":{
       "capa": "#093998",
-      "prevue": "##538e82",
+      "prevue": "#538e82",
       "argo": "#dd6548",
       "campaign": "#63beb6",
       "viva": "#2F7C38",
