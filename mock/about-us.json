@@ -51,10 +51,10 @@
       "team": {
         "id": 3,
         "title": "Umvel leadership team",
-        "subtitle": "Meet our passionate leadership team",
+        "subtitle": "Meet our senior Umvellers",
         "teamMembers": [{
             "id": 1,
-            "name": "Alberto Yael Vazquez",
+            "name": "Alberto Yael Vázquez",
             "position": "SysAdmin/DevOps Lead",
             "photo": {
               "data": {
@@ -166,7 +166,7 @@
           },
           {
             "id": 2,
-            "name": "Fabien Solano",
+            "name": "Fabián Solano",
             "position": "QA Lead",
             "photo": {
               "data": {
@@ -278,7 +278,7 @@
           },
           {
             "id": 2,
-            "name": "Jose Fernando Rodriguez",
+            "name": "José Fernando Rodríguez",
             "position": "Chief Innovation & Technology Officer",
             "photo": {
               "data": {
@@ -390,8 +390,8 @@
           },
           {
             "id": 2,
-            "name": "Miguel Lopez",
-            "position": "Marketing & Research Lead",
+            "name": "Miguel López",
+            "position": "Architect Lead",
             "photo": {
               "data": {
                 "id": 1,
