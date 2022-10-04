@@ -173,6 +173,178 @@
         }]
       },
       {
+        "id": 7,
+        "icon": "Insights",
+        "name": "Platform growth and tech strategy",
+        "description": "We develop a platform business and tech strategy, to help you understand the challenges and steps to take for a successful launch. Our team of solution architects and digital strategists will create a sound, future-proof strategy for platform execution. By keeping the end in mind, we ensure an attainable project without any major surprises along the way. The to-be technical infrastructure, (updated) value proposition and product requirements are key deliverables here.",
+        "valuePropositions": [
+          "Value proposition definition",
+          "API Documentation or definition",
+          "Innovation/scenario planning",
+          "Business model",
+          "Brand definition & positioning",
+          "Digital operating model",
+          "Platform architecture analysis"
+        ],
+        "cases": [{
+          "data": {
+            "id": 10,
+            "attributes": {
+              "title": "Viva Aerobus Web",
+              "caseDescription": "Digital revamp for a Mexican icon",
+              "primaryColor": "#2F7C38",
+              "secondaryColor": null,
+              "createdAt": "2022-08-19T15:41:14.198Z",
+              "updatedAt": "2022-08-19T15:43:23.634Z",
+              "publishedAt": "2022-08-19T15:43:23.633Z",
+              "portfolioTitle": null,
+              "portfolioDescription": null,
+              "portfolioDataOfInterest": null,
+              "image": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "vivaWeb_case.svg",
+                    "alternativeText": "vivaWeb_case.svg",
+                    "caption": "vivaWeb_case.svg",
+                    "width": 977,
+                    "height": 673,
+                    "formats": null,
+                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 0.42,
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_case.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          }
+        }, {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "title": "Cancer Buddy",
+              "caseDescription": "Developing the first social network for cancer patients and survivors.",
+              "primaryColor": "#F1DE4F",
+              "secondaryColor": null,
+              "createdAt": "2022-08-19T15:41:14.198Z",
+              "updatedAt": "2022-08-19T15:43:23.634Z",
+              "publishedAt": "2022-08-19T15:43:23.633Z",
+              "portfolioTitle": null,
+              "portfolioDescription": null,
+              "portfolioDataOfInterest": null,
+              "image": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "cb_case.png",
+                    "alternativeText": "cb_case.png",
+                    "caption": "cb_case.png",
+                    "width": 977,
+                    "height": 673,
+                    "formats": null,
+                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 0.42,
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          }
+        }, {
+          "data": {
+            "id": 7,
+            "attributes": {
+              "title": "OEIO",
+              "caseDescription": "The first wellness marketplace in LATAM.",
+              "primaryColor": "#CBA552",
+              "secondaryColor": null,
+              "createdAt": "2022-08-19T15:41:14.198Z",
+              "updatedAt": "2022-08-19T15:43:23.634Z",
+              "publishedAt": "2022-08-19T15:43:23.633Z",
+              "portfolioTitle": null,
+              "portfolioDescription": null,
+              "portfolioDataOfInterest": null,
+              "image": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "oeio_case.svg",
+                    "alternativeText": "oeio_case.svg",
+                    "caption": "oeio_case.svg",
+                    "width": 977,
+                    "height": 673,
+                    "formats": null,
+                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 0.42,
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          }
+        }, {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "title": "Food Central",
+              "caseDescription": "Digital transformation in the food marketplace industry",
+              "primaryColor": "#348181",
+              "secondaryColor": null,
+              "createdAt": "2022-08-19T15:41:14.198Z",
+              "updatedAt": "2022-08-19T15:43:23.634Z",
+              "publishedAt": "2022-08-19T15:43:23.633Z",
+              "portfolioTitle": null,
+              "portfolioDescription": null,
+              "portfolioDataOfInterest": null,
+              "image": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "fc_case.svg",
+                    "alternativeText": "fc_case.svg",
+                    "caption": "fc_case.svg",
+                    "width": 977,
+                    "height": 673,
+                    "formats": null,
+                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 0.42,
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          }
+        }]
+      },
+      {
         "id": 2,
         "icon": "People",
         "name": "System, product and experience design",
@@ -336,169 +508,6 @@
                     "mime": "image/svg+xml",
                     "size": 0.42,
                     "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2022-08-19T15:35:22.751Z",
-                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                  }
-                }
-              }
-            }
-          }
-        }]
-      },
-      {
-        "id": 3,
-        "icon": "Rocket",
-        "name": "Continuous platform innovation",
-        "description": "We enrich your platform with new features and design improvements, because software development is never ‘done’: finding product market fit, requires adaptation, flexibility and perseverance. A dedicated team of fearless Umvellers work day in, day out to take your platform to the next level.",
-        "cases": [{
-          "data": {
-            "id": 10,
-            "attributes": {
-              "title": "Viva Aerobus Web",
-              "caseDescription": "Digital revamp for a Mexican icon",
-              "primaryColor": "#2F7C38",
-              "secondaryColor": null,
-              "createdAt": "2022-08-19T15:41:14.198Z",
-              "updatedAt": "2022-08-19T15:43:23.634Z",
-              "publishedAt": "2022-08-19T15:43:23.633Z",
-              "portfolioTitle": null,
-              "portfolioDescription": null,
-              "portfolioDataOfInterest": null,
-              "image": {
-                "data": {
-                  "id": 1,
-                  "attributes": {
-                    "name": "vivaWeb_case.svg",
-                    "alternativeText": "vivaWeb_case.svg",
-                    "caption": "vivaWeb_case.svg",
-                    "width": 977,
-                    "height": 673,
-                    "formats": null,
-                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                    "ext": ".svg",
-                    "mime": "image/svg+xml",
-                    "size": 0.42,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_case.svg",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2022-08-19T15:35:22.751Z",
-                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                  }
-                }
-              }
-            }
-          }
-        }, {
-          "data": {
-            "id": 5,
-            "attributes": {
-              "title": "Smart Walk",
-              "caseDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
-              "primaryColor": "#DA3440",
-              "secondaryColor": null,
-              "createdAt": "2022-08-19T15:41:14.198Z",
-              "updatedAt": "2022-08-19T15:43:23.634Z",
-              "publishedAt": "2022-08-19T15:43:23.633Z",
-              "portfolioTitle": null,
-              "portfolioDescription": null,
-              "portfolioDataOfInterest": null,
-              "image": {
-                "data": {
-                  "id": 1,
-                  "attributes": {
-                    "name": "sw_case.svg",
-                    "alternativeText": "sw_case.svg",
-                    "caption": "sw_case.svg",
-                    "width": 977,
-                    "height": 673,
-                    "formats": null,
-                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                    "ext": ".svg",
-                    "mime": "image/svg+xml",
-                    "size": 0.42,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2022-08-19T15:35:22.751Z",
-                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                  }
-                }
-              }
-            }
-          }
-        }, {
-          "data": {
-            "id": 6,
-            "attributes": {
-              "title": "Seguros Mundial",
-              "caseDescription": "A new digital experiene for both renter’s and owner’s insurance.",
-              "primaryColor": "#5B96CD",
-              "secondaryColor": null,
-              "createdAt": "2022-08-19T15:41:14.198Z",
-              "updatedAt": "2022-08-19T15:43:23.634Z",
-              "publishedAt": "2022-08-19T15:43:23.633Z",
-              "portfolioTitle": null,
-              "portfolioDescription": null,
-              "portfolioDataOfInterest": null,
-              "image": {
-                "data": {
-                  "id": 1,
-                  "attributes": {
-                    "name": "sm_case.svg",
-                    "alternativeText": "sm_case.svg",
-                    "caption": "sm_case.svg",
-                    "width": 977,
-                    "height": 673,
-                    "formats": null,
-                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                    "ext": ".svg",
-                    "mime": "image/svg+xml",
-                    "size": 0.42,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2022-08-19T15:35:22.751Z",
-                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                  }
-                }
-              }
-            }
-          }
-        }, {
-          "data": {
-            "id": 1,
-            "attributes": {
-              "title": "Viva Aerobus App",
-              "caseDescription": "The perfect partner for your trip",
-              "primaryColor": "#40AD4C",
-              "secondaryColor": null,
-              "createdAt": "2022-08-19T15:41:14.198Z",
-              "updatedAt": "2022-08-19T15:43:23.634Z",
-              "publishedAt": "2022-08-19T15:43:23.633Z",
-              "portfolioTitle": null,
-              "portfolioDescription": null,
-              "portfolioDataOfInterest": null,
-              "image": {
-                "data": {
-                  "id": 1,
-                  "attributes": {
-                    "name": "vivaApp_case.svg",
-                    "alternativeText": "vivaApp_case.svg",
-                    "caption": "vivaApp_case.svg",
-                    "width": 977,
-                    "height": 673,
-                    "formats": null,
-                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                    "ext": ".svg",
-                    "mime": "image/svg+xml",
-                    "size": 0.42,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1049,19 +1058,10 @@
         }]
       },
       {
-        "id": 7,
-        "icon": "Insights",
-        "name": "Platform growth and tech strategy",
-        "description": "We develop a platform business and tech strategy, to help you understand the challenges and steps to take for a successful launch. Our team of solution architects and digital strategists will create a sound, future-proof strategy for platform execution. By keeping the end in mind, we ensure an attainable project without any major surprises along the way. The to-be technical infrastructure, (updated) value proposition and product requirements are key deliverables here.",
-        "valuePropositions": [
-          "Value proposition definition",
-          "API Documentation or definition",
-          "Innovation/scenario planning",
-          "Business model",
-          "Brand definition & positioning",
-          "Digital operating model",
-          "Platform architecture analysis"
-        ],
+        "id": 3,
+        "icon": "Rocket",
+        "name": "Continuous platform innovation",
+        "description": "We enrich your platform with new features and design improvements, because software development is never ‘done’: finding product market fit, requires adaptation, flexibility and perseverance. A dedicated team of fearless Umvellers work day in, day out to take your platform to the next level.",
         "cases": [{
           "data": {
             "id": 10,
@@ -1103,11 +1103,11 @@
           }
         }, {
           "data": {
-            "id": 3,
+            "id": 5,
             "attributes": {
-              "title": "Cancer Buddy",
-              "caseDescription": "Developing the first social network for cancer patients and survivors.",
-              "primaryColor": "#F1DE4F",
+              "title": "Smart Walk",
+              "caseDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
+              "primaryColor": "#DA3440",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1119,17 +1119,17 @@
                 "data": {
                   "id": 1,
                   "attributes": {
-                    "name": "cb_case.png",
-                    "alternativeText": "cb_case.png",
-                    "caption": "cb_case.png",
+                    "name": "sw_case.svg",
+                    "alternativeText": "sw_case.svg",
+                    "caption": "sw_case.svg",
                     "width": 977,
                     "height": 673,
                     "formats": null,
                     "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
-                    "ext": ".png",
-                    "mime": "image/png",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
                     "size": 0.42,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1142,11 +1142,11 @@
           }
         }, {
           "data": {
-            "id": 7,
+            "id": 6,
             "attributes": {
-              "title": "OEIO",
-              "caseDescription": "The first wellness marketplace in LATAM.",
-              "primaryColor": "#CBA552",
+              "title": "Seguros Mundial",
+              "caseDescription": "A new digital experiene for both renter’s and owner’s insurance.",
+              "primaryColor": "#5B96CD",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1158,9 +1158,9 @@
                 "data": {
                   "id": 1,
                   "attributes": {
-                    "name": "oeio_case.svg",
-                    "alternativeText": "oeio_case.svg",
-                    "caption": "oeio_case.svg",
+                    "name": "sm_case.svg",
+                    "alternativeText": "sm_case.svg",
+                    "caption": "sm_case.svg",
                     "width": 977,
                     "height": 673,
                     "formats": null,
@@ -1168,7 +1168,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 0.42,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1181,11 +1181,11 @@
           }
         }, {
           "data": {
-            "id": 4,
+            "id": 1,
             "attributes": {
-              "title": "Food Central",
-              "caseDescription": "Digital transformation in the food marketplace industry",
-              "primaryColor": "#348181",
+              "title": "Viva Aerobus App",
+              "caseDescription": "The perfect partner for your trip",
+              "primaryColor": "#40AD4C",
               "secondaryColor": null,
               "createdAt": "2022-08-19T15:41:14.198Z",
               "updatedAt": "2022-08-19T15:43:23.634Z",
@@ -1197,9 +1197,9 @@
                 "data": {
                   "id": 1,
                   "attributes": {
-                    "name": "fc_case.svg",
-                    "alternativeText": "fc_case.svg",
-                    "caption": "fc_case.svg",
+                    "name": "vivaApp_case.svg",
+                    "alternativeText": "vivaApp_case.svg",
+                    "caption": "vivaApp_case.svg",
                     "width": 977,
                     "height": 673,
                     "formats": null,
@@ -1207,7 +1207,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 0.42,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
