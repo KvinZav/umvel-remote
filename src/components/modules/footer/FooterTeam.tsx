@@ -6,6 +6,7 @@ import { Sizes } from '@enums/sizes.enum';
 const configNames = [
   { size: Sizes.LG, rows: 7, columns: 7 },
   { size: Sizes.MD, rows: 4, columns: 4 },
+  { size: Sizes.SM, rows: 4, columns: 4 },
 ];
 
 export const FooterTeam = ({ data }: { data: Body }) => {
@@ -20,7 +21,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
     <section className="flex">
       <CardTeam
         config={configNames}
-        className="relative border border-secondary-10 border-solid hidden md:block w-[50%] p-[2vw]"
+        className="relative border border-secondary-10 border-solid w-full md:w-[50%] aspect-square p-[2vw]"
         names={names}
       >
         <div className="absolute w-[200px] lg:w-[400px] top-[8vw] left-[8vw]">
@@ -28,7 +29,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
         </div>
       </CardTeam>
       <article
-        className="aspect-square flex flex-col justify-between border border-secondary-10 
+        className="aspect-square hidden md:flex flex-col justify-between border border-secondary-10 
       border-solid w-[100%] md:w-[50%] p-[15vw] md:p-[8vw_8.5vw_8.5vw_8vw]"
       >
         <div className="self-start">
