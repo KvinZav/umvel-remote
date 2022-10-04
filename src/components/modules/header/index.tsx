@@ -74,7 +74,7 @@ const Header = () => {
                           </Link>
                       ) : (
                         <li key={'link-' + link.id}>
-                          <Link href={`/${link.link}`}>{link.name}</Link>
+                          <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
                     )}
@@ -114,7 +114,7 @@ const Header = () => {
                 <div
                   className="h-5 w-5 md:w-7 md:h-7"
                   onClick={() => {
-                    setShowMenu(!showMenu);
+                    setShowMenu(false);
                   }}
                 >
                   <CustomImage
@@ -130,18 +130,16 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
-                        <li key={'link-' + link.id} className="-ml-6 py-3">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="-ml-6 py-3">
                           <BasicButton>
                             <Link
-                              onClick={() => setShowMenu(false)}  
                               href={`/${link.link}`}
                             >{link.name}</Link>
                           </BasicButton>
                         </li>
                       ) : (
-                        <li key={'link-' + link.id} className="first-line:my-2 py-3">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="first-line:my-2 py-3">
                           <Link
-                            onClick={() => setShowMenu(false)}
                             href={`/${link.link}`}
                           >{link.name}</Link>
                         </li>
@@ -193,12 +191,14 @@ type SquareProps = {
   primaryColor?: string;
 };
 const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, primaryColor }) => {
-  const textColor = primaryColor === 'black' ? 'text-primary-black' : 'text-primary-white';
   const image = imgAttribute?.data?.attributes;
 
   return (
     <div
-      className={`h-full w-full bg-${backgroundColor} group overflow-hidden aspect-square snap-center`}
+      className={`h-full w-full group overflow-hidden aspect-square snap-center`}
+      style={{
+        backgroundColor
+      }}
     >
       <div className={`h-full w-full p-9`}>
         {image && (
@@ -214,10 +214,10 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
       {title && (
         <div
           className={
-            'h-1/4 w-auto hidden bg-secondary-70/50 lg:flex justify-start px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
+            'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-start px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
           }
         >
-          <p className={`${textColor} my-auto`}>{title}</p>
+          <p className={`text-primary-white my-auto`}>{title}</p>
         </div>
       )}
     </div>

@@ -28,7 +28,10 @@ const WorkCase: React.FC<WorkCaseProps> = ({
         </Link>
       </div>
       <div
-        className={`w-full md:w-1/2 aspect-square bg-${project.backgroundColor} overflow-hidden`}
+        className={`w-full md:w-1/2 aspect-square overflow-hidden`}
+        style={{
+          backgroundColor: project.backgroundColor
+        }}
       >
         <div className="w-full h-full">
           <Image

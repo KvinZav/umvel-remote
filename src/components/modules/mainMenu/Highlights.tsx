@@ -2,7 +2,6 @@ import { Card } from '@elements/card/card';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
-import useMediaQuery from '@hooks/useMediaQuery';
 import useWindowSize from '@hooks/useWindowSize';
 import React from 'react';
 import useSWR from 'swr';
@@ -19,7 +18,7 @@ const MainMenuHighlights = () => {
   return (
     <section className="flex md:grid md:grid-cols-1 lg:grid-cols-3 md:justify-center overflow-x-scroll md:overflow-auto pt-8 lg:pt-[104px]">
       {cases.map((caseItem, caseIndex) => {
-        const { title, caseDescription, image, primaryColor, styles } =
+        const { title, caseDescription, image, primaryColor } =
           caseItem.case_of_study.data.attributes;
         const imageUrl = image.data.attributes.url;
 
@@ -41,7 +40,6 @@ const MainMenuHighlights = () => {
                   textPositionVertical: 'start',
                   textPositionHorizontal: 'start',
                   bg: primaryColor,
-                  textColor: styles.textColor,
                   textStyles: {
                     height: 'paragraph',
                     align: 'left',

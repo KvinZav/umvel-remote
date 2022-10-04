@@ -6,7 +6,6 @@ export const ButtonScroll = ({ elementTo }) => {
   const scrollToRef = () => {
     setIsHovered(false)
     smoothscroll.polyfill();
-
     elementTo.current.scrollIntoView({
       behavior: 'smooth',
     });
@@ -21,7 +20,7 @@ export const ButtonScroll = ({ elementTo }) => {
         onMouseLeave={() => setIsHovered(false)}
         onTouchStart={() => setIsHovered(true)}
         onTouchEnd={scrollToRef}
-        className="border rounded-full border-3 grid place-content-center p-[1rem] w-[3rem] h-[3rem] lg:hover:bg-primary-black"
+        className="border rounded-full border-3 p-[1rem] w-[3rem] h-[3rem] lg:hover:bg-primary-black"
         onClick={scrollToRef}>
           {
             isHovered ? 

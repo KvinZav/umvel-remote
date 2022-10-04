@@ -44,9 +44,9 @@ export const CardTeam = ({
   }, [config, defaultConfig, currentScreen]);
 
   return (
-    <article className={className} style={style}>
+    <article className={`select-none ${className}`} style={style}>
       <div
-        className="grid gap-[5px] h-[100%]"
+        className="grid h-[100%]"
         style={{
           gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
           gridTemplateRows: `repeat(${rows}, minmax(0, 1fr))`,

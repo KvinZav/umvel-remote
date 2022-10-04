@@ -35,24 +35,25 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   const positionImage = scaleValue * (3.5 / 10);
 
   return (
-    <section className="w-full h-[400vh]" ref={container}>
+    <section className="w-full h-[300vh]" ref={container}>
       <div className="w-full h-screen bg-primary-black sticky top-0 flex justify-center items-center text-4xl text-primary-white">
         <p
           style={{
             opacity:
-              (topPosition * -1) / 500 < 1
-                ? (topPosition * -1) / 500
-                : 2 - (topPosition * -1) / 500,
-            display: (topPosition * -1) / 500 >= 2 ? 'none' : 'flex',
+              (topPosition * -1) / 300 < 1
+                ? (topPosition * -1) / 300
+                : 2 - (topPosition * -1) / 300,
+            display: (topPosition * -1) / 300 >= 2 ? 'none' : 'flex',
           }}
         >
           Work that lets our clients shine.
         </p>
         <div
-          className={`w-full grid grid-cols-4 grid-rows-4 bg-${project.attributes.primaryColor} sticky bottom-0 aspect-square `}
+          className={`w-full grid grid-cols-4 grid-rows-4 sticky bottom-0 aspect-square `}
           style={{
-            display: (topPosition * -1) / 500 <= 2 ? 'none' : 'grid',
-            opacity: (topPosition * -1) / 500 - 2,
+            display: (topPosition * -1) / 300 <= 2 ? 'none' : 'grid',
+            opacity: (topPosition * -1) / 300 - 2,
+            backgroundColor: project.attributes.primaryColor
           }}
         >
           <div
@@ -106,7 +107,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             style={{
               transform: `translateY(${positionImage}px)`,
               transformOrigin: 'top left',
-              opacity: (topPosition * -1) / 500 - 3,
+              opacity: (topPosition * -1) / 300 - 2,
             }}
           >
             {imgAttributes.url && (
