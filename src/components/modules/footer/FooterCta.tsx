@@ -6,7 +6,9 @@ import React from 'react';
 import useSWR from 'swr';
 import UmvelCard from './UmvelCard';
 
-export const FooterCta = ({ theme = 'dark' }: { theme?: 'dark' | 'light' }) => {
+//eslint-disable-next-line react/display-name
+export const FooterCta = React.memo(({ theme = 'dark' }: { theme?: 'dark' | 'light' }) => {
+  
   const { data: event } = useSWR(environment.HOME_URL);
   if (!event) return null;
 
@@ -22,4 +24,4 @@ export const FooterCta = ({ theme = 'dark' }: { theme?: 'dark' | 'light' }) => {
         </div>
     </UmvelCard>
   );
-};
+});
