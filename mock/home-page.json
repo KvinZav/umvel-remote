@@ -332,9 +332,6 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
-                    },
-                    "styles": {
-                      "textColor": "primary-black"
                     }
                   }
                 }
@@ -380,9 +377,6 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
-                    },
-                    "styles": {
-                      "textColor": "primary-white"
                     }
                   }
                 }
@@ -428,9 +422,6 @@
                           "updatedAt": "2022-08-19T15:35:22.751Z"
                         }
                       }
-                    },
-                    "styles": {
-                      "textColor": "primary-white"
                     }
                   }
                 }

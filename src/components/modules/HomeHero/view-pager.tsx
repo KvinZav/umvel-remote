@@ -150,7 +150,6 @@ const ViewPager = ({cases}) => {
                 textPositionVertical: 'center',
                 bg: cases[bottomCaseIndex]?.case_of_study.data.attributes.primaryColor,
                 bgSecondary: cases[bottomCaseIndex]?.case_of_study.data.attributes.secondaryColor,
-                textColor: 'white',
               }}
               caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
@@ -173,7 +172,6 @@ const ViewPager = ({cases}) => {
                 textPositionVertical: 'center',
                 bg: cases[topCaseIndex]?.case_of_study.data.attributes.primaryColor,
                 bgSecondary: cases[topCaseIndex]?.case_of_study.data.attributes.secondaryColor,
-                textColor: 'white',
               }}
               description={cases[topCaseIndex]?.case_of_study.data.attributes.caseDescription}
               imageUrl={cases[topCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}

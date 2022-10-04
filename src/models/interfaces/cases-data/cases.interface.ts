@@ -42,7 +42,6 @@ export interface OtherCases {
   subtitle: string;
   primaryColor: string;
   caseDescription?: string;
-  textColor?: string;
   image: string
 }
 

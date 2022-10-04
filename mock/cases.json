@@ -441,7 +441,6 @@
             "title": "Viva Aerobus Website",
             "subtitle": "",
             "primaryColor": "#2F7C38",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
           },
           {
@@ -449,7 +448,6 @@
             "title": "Cancerbuddy App",
             "subtitle": "",
             "primaryColor": "#F1DE4F",
-            "textColor": "primary-black",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png"
           },
           {
@@ -457,7 +455,6 @@
             "title": "OEIO Marketplace",
             "subtitle": "",
             "primaryColor": "#CBA552",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
           }
         ]
@@ -906,7 +903,6 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
           },
           {
@@ -914,7 +910,6 @@
             "title": "Planet Buyback Website",
             "subtitle": "",
             "primaryColor": "#6BB7E6",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
           },
           {
@@ -922,7 +917,6 @@
             "title": "Seguros Mundial Platform",
             "subtitle": "",
             "primaryColor": "#5B96CD",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg"
           }
         ]
@@ -1345,7 +1339,6 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
           },
           {
@@ -1353,7 +1346,6 @@
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
           },
           {
@@ -1361,7 +1353,6 @@
             "title": "Arrivia Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_case.svg"
           }
         ]
@@ -1807,7 +1798,6 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
           },
           {
@@ -1815,7 +1805,6 @@
             "title": "Viva Aerobus Website",
             "subtitle": "",
             "primaryColor": "#2F7C38",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
           },
           {
@@ -1823,7 +1812,6 @@
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
           }
         ]
@@ -2274,7 +2262,6 @@
             "title": "Smart Walk Platform",
             "subtitle": "",
             "primaryColor": "#DA3440",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg"
           },
           {
@@ -2282,7 +2269,6 @@
             "title": "OEIO Marketplace",
             "subtitle": "",
             "primaryColor": "#CBA552",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
           },
           {
@@ -2290,7 +2276,6 @@
             "title": "CAPA Management Platform",
             "subtitle": "",
             "primaryColor": "#0F55C3",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
           }
         ]
@@ -2765,7 +2750,6 @@
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
           },
           {
@@ -2773,7 +2757,6 @@
             "title": "OEIO Marketplace",
             "subtitle": "",
             "primaryColor": "#CBA552",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
           },
           {
@@ -2781,7 +2764,6 @@
             "title": "CAPA Management Platform",
             "subtitle": "",
             "primaryColor": "#0F55C3",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
           }
         ]
@@ -3232,7 +3214,6 @@
             "title": "Viva Aerobus Website",
             "subtitle": "",
             "primaryColor": "#2F7C38",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
           },
           {
@@ -3240,7 +3221,6 @@
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
           },
           {
@@ -3248,7 +3228,6 @@
             "title": "CAPA Management Platform",
             "subtitle": "",
             "primaryColor": "#0F55C3",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
           }
         ]
@@ -3716,7 +3695,6 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
           },
           {
@@ -3724,7 +3702,6 @@
             "title": "Planet Buyback Website",
             "subtitle": "",
             "primaryColor": "#6BB7E6",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
           },
           {
@@ -3732,7 +3709,6 @@
             "title": "Arrivia Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_case.svg"
           }
         ]
@@ -4174,7 +4150,6 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
           },
           {
@@ -4182,7 +4157,6 @@
             "title": "Planet Buyback Website",
             "subtitle": "",
             "primaryColor": "#6BB7E6",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
           },
           {
@@ -4190,7 +4164,6 @@
             "title": "Smart Walk Platform",
             "subtitle": "",
             "primaryColor": "#DA3440",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg"
           }
         ]
@@ -4640,7 +4613,6 @@
             "title": "Cancerbuddy App",
             "subtitle": "",
             "primaryColor": "#F1DE4F",
-            "textColor": "primary-black",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png"
           },
           {
@@ -4648,7 +4620,6 @@
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
           },
           {
@@ -4656,7 +4627,6 @@
             "title": "Seguros Mundial Platform",
             "subtitle": "",
             "primaryColor": "#5B96CD",
-            "textColor": "primary-white",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg"
           }
         ]
