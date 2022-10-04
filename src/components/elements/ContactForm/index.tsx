@@ -36,7 +36,7 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
       setError(false);
       return;
     }
-    setCurrentResponse({ error: false, message: 'Your email was successfully send!' });
+    setCurrentResponse({ error: false, message: 'Your email was successfully sent!' });
     setEmailSend(true);
   };
 
