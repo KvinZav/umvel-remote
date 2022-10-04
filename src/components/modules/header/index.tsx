@@ -66,7 +66,7 @@ const Header = () => {
                 <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 items-center">
                   {options &&
                     options.map((link) =>
-                      link.type === 'button' ? (
+                      link.type === 'home' ? null : link.type === 'button' ? (
                             <Link href={`/${link.link}`}>
                         <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
                           {link.name}
