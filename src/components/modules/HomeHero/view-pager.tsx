@@ -36,7 +36,7 @@ const ViewPager = ({cases}) => {
     }
 
     initialLoading()
-  }, [])
+  }, []);
 
   const setCaseSource = async (caseIdx) => {
     api.set({width: '0%'})
@@ -53,7 +53,6 @@ const ViewPager = ({cases}) => {
     let timeoutId
     if(!isMobile){
       timeoutId = setTimeout(() => {
-        
         const newIndex = currentCaseIndex >= cases.length - 1 ? 0 : currentCaseIndex + 1
         setCurrentCaseIndex(newIndex)
         setCaseSource(newIndex)
@@ -62,7 +61,7 @@ const ViewPager = ({cases}) => {
       setCurrentTimeout(timeoutId)
     }
     
-  }, [currentCaseIndex])
+  }, [currentCaseIndex]);
 
   useEffect(() => {
     setTopVisible(false)
