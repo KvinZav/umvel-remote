@@ -30,11 +30,8 @@ const ScrollInteraction1 = () => {
     setBoundsTop(rightTextRefs.current.map((i) => i.getBoundingClientRect().top));
     setRightTextOpacities(refsOpacity);
     setCurrentStep(refsOpacity.findIndex((i) => i > 0.2));
+    setIsTitleAnimToggled(rightTextRefs.current[rightTextRefs.current.length - 1].getBoundingClientRect().top >= -100);
   }, [scrollOffset]);
-
-  useEffect(() => {
-    setIsTitleAnimToggled(currentStep === 3);
-  }, [currentStep]);
 
   const { data: event } = useSWR(environment.HOME_URL);
   if (!event) return null;

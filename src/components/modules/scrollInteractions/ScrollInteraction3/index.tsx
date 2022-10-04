@@ -3,7 +3,8 @@ import React from 'react';
 import DesktopScrollInteraction3 from './desktop';
 import MobileScrollInteraction3 from './mobile';
 
-const ScrollInteraction3 = () => {
+const ScrollInteraction3 = () => {  
+  
   const isDesktop = useMediaQuery('(min-width: 1024px)');
 
   return (
