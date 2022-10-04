@@ -811,14 +811,14 @@
                   {
                     "id": 8,
                     "attributes": {
-                      "title": "Arrivia",
+                      "title": "Travel Company",
                       "caseDescription": "We defined travel customer segmentations for 7 brands, in the domains of air, hotel, timeshares, cruise and car rental.",
                       "primaryColor": "#04A3AC",
                       "secondaryColor": null,
                       "createdAt": "2022-08-19T15:43:13.839Z",
                       "updatedAt": "2022-08-19T15:43:16.728Z",
                       "publishedAt": "2022-08-19T15:43:16.726Z",
-                      "portfolioTitle": "Arrivia",
+                      "portfolioTitle": "Travel Company",
                       "portfolioDescription": null,
                       "portfolioDataOfInterest": "Crafting travel personas for air, cruise and hotel customers",
                       "image": {
@@ -1211,23 +1211,23 @@
               {
                 "id": 6,
                 "attributes": {
-                  "name": "Arrivia",
+                  "name": "Travel Company",
                   "backgroundColor": null,
                   "createdAt": "2022-08-19T16:52:18.207Z",
                   "updatedAt": "2022-08-19T16:53:31.661Z",
                   "publishedAt": "2022-08-19T16:53:31.660Z",
-                  "slug": "arrivia",
+                  "slug": "travel_company",
                   "image": {
                     "data": {
                       "id": 1,
                       "attributes": {
-                        "name": "Arrivia Animation.gif",
-                        "alternativeText": "Arrivia Animation",
-                        "caption": "Arrivia Animation",
+                        "name": "Travel Company Animation.gif",
+                        "alternativeText": "Travel Company Animation",
+                        "caption": "Travel Company Animation",
                         "width": 472,
                         "height": 472,
                         "formats": null,
-                        "hash": "Arrivia_Animation_c2f08b71ea",
+                        "hash": "Travel Company_Animation_c2f08b71ea",
                         "ext": ".gif",
                         "mime": "image/gif",
                         "size": 0.42,
