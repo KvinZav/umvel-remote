@@ -28,7 +28,7 @@ export default function Home() {
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
 
-  useEffect(() => {    
+  useEffect(() => {
     isBrowser && window.addEventListener('scroll', onScroll);
 
     return () => isBrowser && window.removeEventListener('scroll', onScroll);
