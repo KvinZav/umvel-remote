@@ -28,7 +28,6 @@ export const OtherCases = ({ caseData: { otherCases } }: { caseData: CaseAttribu
                   textPositionVertical: 'start',
                   textPositionHorizontal: 'start',
                   bg: caseData.primaryColor,
-                  textColor: caseData.textColor,
                   textStyles: {
                     height: 'paragraph',
                     align: 'left',
