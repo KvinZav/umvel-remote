@@ -61,23 +61,21 @@ export const GetInTouch = () => {
   };
 
   return (
-    <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-[200px_420px] gap-x-8 grid-rows-2 lg:px-[20%] items-center place-content-center">
-      <div className="px-[72px] md:px-0" style={{ gridColumn: '1/2', gridRow: '1/3' }}>
-        <h3 className="font-bold text-b3 text-center ">Get in Touch!</h3>
+    <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-[200px_420px] xl:grid-cols-[150px_150px_600px] gap-x-8 lg:gap-y-4 grid-rows-2 lg:px-[20%] xl:px-0 items-center place-content-center">
+      <div className="px-[72px] md:px-0 col-span-1 xl:col-span-2 row-span-2 mb-">
+        <h3 className="font-bold text-b3 text-center ">Get in touch!</h3>
       </div>
       <div
-        className="text-center mb-8 lg:mb-0 lg:text-left"
-        style={{ gridColumn: '2/3', gridRow: '1/2' }}
+        className="text-center mb-8 lg:mb-0 lg:text-left col-span-1 row-span-1 flex justify-center"
       >
-        <p className="text-s1 md:text-m4">
+        <p className="text-s1 md:text-m4 md:max-w-[464px] lg:max-w-none">
           Enter your email address, and we’ll get in touch to plan a coffee.
         </p>
       </div>
 
       <form
         onSubmit={onSubmit}
-        className={`flex flex-col justify-center`}
-        style={{ gridColumn: '2/3', gridRow: '2/3' }}
+        className={`flex flex-col justify-center col-span-1 row-span-1`}
       >
         {
           !emailSend &&
