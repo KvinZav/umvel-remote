@@ -71,8 +71,8 @@ const Challenge = () => {
 
   return (
     <section className="aspect-square xl:p-20 lg:p-10 md:p-32 px-[72px] pt-7 pb-[132px] md:border-solid md:border-[#e6e6e6] md:border">
-      <h1 className="md:text-[28px] text-2xl font-bold leading-8">We’re up for the challenge</h1>
-      <p className="text-base mt-2 xl:mt-4">
+      <h1 className="text-m1 font-bold">We’re up for the challenge</h1>
+      <p className="text-s2 mt-2 xl:mt-4">
         Provide your details and we’ll get in touch as soon as humanly possible.
       </p>
       <form className="xl:mt-12 lg:mt-10 md:mt-12 mt-10" onSubmit={handleSubmit}>
@@ -90,7 +90,7 @@ const Challenge = () => {
             name="name"
           />
           {!isTheNameValid && (
-            <p className="text-xs text-[#CE4C4C] absolute top-[calc(100% + 8px)]">
+            <p className="text-s4 text-[#CE4C4C] absolute top-[calc(100% + 8px)]">
               This field is mandatory.
             </p>
           )}
@@ -111,7 +111,7 @@ const Challenge = () => {
               maxLength={80}
             />
             {!isTheEmailValid && (
-              <p className="text-xs text-[#CE4C4C] absolute top-[calc(100% + 8px)]">
+              <p className="text-s4 text-[#CE4C4C] absolute top-[calc(100% + 8px)]">
                 Your mail is incorrect, please check it again.
               </p>
             )}
@@ -131,7 +131,7 @@ const Challenge = () => {
               maxLength={15}
             />
             {!isThePhoneValid && (
-              <p className="text-xs text-[#CE4C4C] absolute top-[calc(100% + 8px)]">
+              <p className="text-s4 text-[#CE4C4C] absolute top-[calc(100% + 8px)]">
                 Your phone is incorrect, please check it again.
               </p>
             )}
@@ -151,7 +151,7 @@ const Challenge = () => {
           maxLength={500}
         />
         {hasTheFormBeenSubmitted ? (
-          <p className="text-right text-xl leading-6 font-bold lg:mt-10 md:mt-12 mt-10 xl:mt-12">
+          <p className="text-right text-m5 font-bold lg:mt-10 md:mt-12 mt-10 xl:mt-12">
             Your message was successfully sent!
           </p>
         ) : (
