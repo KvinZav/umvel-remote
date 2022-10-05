@@ -34,6 +34,7 @@ export interface CaseAttributes {
   quote: Quote;
   whatWeLearned: WhatWeLearned;
   otherCases?: OtherCases[];
+  mainGraphic: Logo;
 }
 
 export interface OtherCases {
