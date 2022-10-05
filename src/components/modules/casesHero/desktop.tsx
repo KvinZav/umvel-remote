@@ -16,7 +16,7 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
         <h2 className="font-bold text-[28px] md:text-[32px] lg:text-4xl md:leading-tight lg:leading-snug mb-12">
           {portfolioDescription}
         </h2>
-        <div className="flex flex-wrap space-x-4 space-y-4">
+        <div className="flex gap-2 mt-2">
           {challenge.callToAction.map((item, index) => (
             <a
               key={'action-' + index}
