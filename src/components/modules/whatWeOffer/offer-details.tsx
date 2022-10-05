@@ -69,7 +69,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
             <Close />
           </button>
         </section>
-        <section className="relative flex w-full px-7 lg:px-32 pt-28 md:pt-[120px] lg:pt-[136px] flex-grow">
+        <section className="relative flex w-full px-7 lg:px-32 pt-28 md:pt-[120px] lg:pt-[136px] pb-24 md:pb-[120px] flex-grow">
           <button
             className={`border rounded-full p-2 absolute top-[45vh] left-3 md:left-8 lg:left-[134px] text-[18px] leading-[14px] ${
               dark ? 
@@ -86,15 +86,15 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
                 className={`flex space-x-2 ${dark ? 'text-primary-white' : 'text-primary-black'}`}
               >
                 <Icon name={icon as IconNameType} size={32} />
-                <h1 className={`text-2xl md:text-[28px] leading-tight font-bold`}>{name}</h1>
+                <h1 className={`text-m3 leading-tight font-bold`}>{name}</h1>
               </div>
-              <p className={`${dark ? 'text-primary-white' : 'text-primary-black'}`}>
+              <p className={`text-s2 ${dark ? 'text-primary-white' : 'text-primary-black'}`}>
                 {description}
               </p>
               <ul className="flex flex-wrap">
                 {valuePropositions?.map((valueItem, valueIndex) => (
                   <li
-                    className={`w-full lg:w-auto lg:flex-[1_1_50%] mb-4 before:content-['•'] before:mr-2 ${
+                    className={`w-full lg:w-auto text-s3 lg:flex-[1_1_50%] mb-4 before:content-['•'] before:mr-2 ${
                       dark ? 'text-primary-white' : 'text-primary-black'
                     }`}
                     key={'value-' + valueIndex}
@@ -124,7 +124,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
               </p>
             </PrismButton>
           </div>
-          <p className={`${dark ? 'text-primary-white' : 'text-primary-black'} mb-10`}>
+          <p className={`text-s2 ${dark ? 'text-primary-white' : 'text-primary-black'} mb-10`}>
             See related projects
           </p>
         </section>

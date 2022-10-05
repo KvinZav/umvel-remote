@@ -6,9 +6,9 @@ const CasesLearned = ({ caseData }) => {
   return (
     <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
       <div className="aspect-square p-6 md:p-8 lg:p-12 xl:p-14 bg-primary-black text-primary-white">
-        <h1 className="md:text-[28px] text-2xl leading-8 font-bold">{whatWeLearned.title}</h1>
+        <h1 className="md:text-m3 font-bold">{whatWeLearned.title}</h1>
         <p
-          className="mt-2 text-base"
+          className="mt-2 text-s2"
           dangerouslySetInnerHTML={{ __html: whatWeLearned.content }}/>
       </div>
       <div className="relative aspect-square" style={{ backgroundColor: primaryColor }}>

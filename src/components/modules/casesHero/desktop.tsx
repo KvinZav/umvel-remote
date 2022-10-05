@@ -10,10 +10,10 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
   return (
     <section className="grid grid-cols-3">
       <div className="col-span-1 aspect-square flex flex-col justify-center px-12 xl:px-16 border border-secondary-10">
-        <h1 className="text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">
+        <h1 className="text-m1 md:leading-tight lg:leading-snug">
           {portfolioTitle}
         </h1>
-        <h2 className="font-bold text-[28px] md:text-[32px] lg:text-4xl md:leading-tight lg:leading-snug mb-12">
+        <h2 className="font-bold text-m5 md:leading-tight lg:leading-snug mb-12">
           {portfolioDescription}
         </h2>
         <div className="flex gap-2 mt-2">
@@ -46,10 +46,10 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
         </div>
       </div>
       <div className="col-span-1 aspect-square p-12 xl:p-14 bg-primary-black text-primary-white">
-        <h2 className="mb-2 xl:mb-4 text-[28px] leading-snug">
+        <h2 className="mb-2 xl:mb-4 text-m3 leading-snug">
           {challenge.title}
         </h2>
-        <p dangerouslySetInnerHTML={{ __html: challenge.content }}/>
+        <p className="text-s2" dangerouslySetInnerHTML={{ __html: challenge.content }}/>
       </div>
       <div
         className={`relative col-span-1 aspect-square`}

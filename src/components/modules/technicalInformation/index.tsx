@@ -13,7 +13,7 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
   return (
     <>
       <div className="flex justify-center ">
-        <h2 className="font-bold text-4xl mb-20 mt-36 md:mt-40 lg:mt-[198px] xl:mt-60">Technical information</h2>
+        <h2 className="font-bold text-b4 mb-20 mt-36 md:mt-40 lg:mt-[198px] xl:mt-60">Technical information</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
         <div
@@ -24,14 +24,14 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
           {technicalInformation.map((infoItem) =>
             infoItem.title.toLowerCase() !== 'client' ? (
               <div key={'tech-info-' + infoItem.id}>
-                <h3>{infoItem.title}</h3>
-                <p className="font-bold">{infoItem.content}</p>
+                <h3 className="text-s2">{infoItem.title}</h3>
+                <p className="font-bold text-m5">{infoItem.content}</p>
               </div>
             ) : null
           )}
           <div>
-            <h3>Platforms</h3>
-            <p className="font-bold">{platforms.map((platform) => platform.name).join('/')}</p>
+            <h3 className="text-s2">Platforms</h3>
+            <p className="font-bold text-m5">{platforms.map((platform) => platform.name).join('/')}</p>
           </div>
         </div>
         <div className="aspect-square w-auto border border-secondary-10 p-8 lg:p-12 xl:p-16 flex flex-col overflow-y-scroll overflow-hidden">

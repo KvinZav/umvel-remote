@@ -5,10 +5,10 @@ const ContactLayout = () => {
   return (
     <div className="w-full aspect-[2/3] md:aspect-square lg:aspect-[3/2] flex justify-center items-center">
       <div className="w-8/12 md:w-2/3 lg:w-5/12">
-        <p className="mb-6 md:text-6xl text-3xl font-bold lg:text-7xl">
+        <p className="mb-6 text-b3 font-bold">
           Meet us in real life (or on Zoom ;)
         </p>
-        <p className="mb-6 md:text-2xl lg:text-2xl">
+        <p className="mb-6 text-m4">
           Enter your email address, and we’ll get in touch to plan a coffee.
         </p>
         <ContactForm />
