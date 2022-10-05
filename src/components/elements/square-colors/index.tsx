@@ -91,7 +91,7 @@ const PrismButton: React.FC<PrismButtonProps> = ({ children, onClick }): JSX.Ele
       />
       <div className="lg:-z-10 lg:absolute w-full h-full flex items-center justify-center top-0 col-span-4 transition delay-150 ease-in-out duration-1000 lg:min-h-0">
         {typeof children === 'string' ? (
-          <animated.p style={childrenStyle} className="text-sm whitespace-nowrap">
+          <animated.p style={childrenStyle} className="text-s3 whitespace-nowrap">
             {children}
           </animated.p>
         ) : (

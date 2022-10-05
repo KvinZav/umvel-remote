@@ -25,7 +25,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
         names={names}
       >
         <div className="absolute w-[200px] lg:w-[400px] top-[8vw] left-[8vw]">
-          <p className="font-bold text-[31px] lg:text-[58px]">{titleLeft}</p>
+          <p className="font-bold text-b3">{titleLeft}</p>
         </div>
       </CardTeam>
       <article
@@ -38,9 +38,9 @@ export const FooterTeam = ({ data }: { data: Body }) => {
             alt="logo-umvel"
             className="w-[152px] lg:w-[190px]"
           />
-          <p className="mt-3 text-[18px] lg:text-[24px]">{titleRight}</p>
+          <p className="mt-3 text-m4">{titleRight}</p>
         </div>
-        <div className="flex justify-between self-end text-[14px] w-[260px]">
+        <div className="flex justify-between self-end text-s3 w-[260px]">
           {socialNetworks.map((socialNetwork) => (
             <a
               key={socialNetwork.id}

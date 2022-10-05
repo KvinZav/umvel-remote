@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-b1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .text-b2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .text-b3,
+  .text-b4,
+  .text-m1,
+  .text-m2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .text-m3,
+  .text-m4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .text-m5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text-s1,
+  .text-s2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .text-s3 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .text-s4 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  @media (min-width: 640px) {
+    .text-b1 {
+      font-size: 78px;
+      line-height: 96px;
+    }
+    .text-b2 {
+      font-size: 68px;
+      line-height: 80px;
+    }
+    .text-b3 {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    .text-b4 {
+      font-size: 38px;
+      line-height: 48px;
+    }
+    .text-m1,
+    .text-m2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .text-m3 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    .text-m4 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .text-m5 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .text-s1,
+    .text-s2 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .text-s3 {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .text-s4 {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .text-b1 {
+      font-size: 98px;
+      line-height: 120px;
+    }
+    .text-b2 {
+      font-size: 78px;
+      line-height: 96px;
+    }
+    .text-b3 {
+      font-size: 58px;
+      line-height: 72px;
+    }
+    .text-b4 {
+      font-size: 38px;
+      line-height: 48px;
+    }
+    .text-m1 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+    .text-m2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .text-m3 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    .text-m4 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .text-m5 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .text-s1 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .text-s2 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .text-s3 {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .text-s4 {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  @media (min-width: 1900px) {
+    .text-b1 {
+      font-size: 140px;
+      line-height: 156px;
+    }
+    .text-b2 {
+      font-size: 112px;
+      line-height: 120px;
+    }
+    .text-b3 {
+      font-size: 82px;
+      line-height: 90px;
+    }
+    .text-b4 {
+      font-size: 54px;
+      line-height: 62px;
+    }
+    .text-m1 {
+      font-size: 52px;
+      line-height: 62px;
+    }
+    .text-m2 {
+      font-size: 44px;
+      line-height: 52px;
+    }
+    .text-m3 {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .text-m4 {
+      font-size: 34px;
+      line-height: 42px;
+    }
+    .text-m5 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .text-s1 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    .text-s2 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .text-s3 {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    .text-s4 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}
+

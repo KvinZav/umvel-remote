@@ -117,7 +117,7 @@ export const DeliveredValue = ({
   return (
     <section className="w-full" style={{ gridColumn: '1/3' }}>
       <div className="mt-36 md:mt-40 lg:mt-[200px] xl:mt-[300px] mb-20">
-        <h4 className="text-center font-bold text-2xl md:text-3xl">{title}</h4>
+        <h4 className="text-center font-bold text-b4">{title}</h4>
       </div>
       <div className="w-full grid grid-rows-1 md:grid-rows-3 lg:grid-rows-2 grid-cols-[repeat(3,90vw)] md:grid-cols-2 lg:grid-cols-3 overflow-x-auto snap-x">
         {list.slice(0, 3).map(({ title, content, image }, idx) => (
@@ -133,8 +133,8 @@ export const DeliveredValue = ({
               alignDefault={connectConfigurations[idx].defaultConnect}
             >
               <div className="p-6 md:p-[30px] lg:p-12 xl:p-14">
-                <h5 className="text-2xl md:text-[1.75rem] font-bold mb-2 xl:mb-4">{title}</h5>
-                <p className="text-xs md:text-base">{content}</p>
+                <h5 className="text-m5 font-bold mb-2 xl:mb-4">{title}</h5>
+                <p className="text-s2 md:text-base">{content}</p>
               </div>
             </CardConnect>
             <div

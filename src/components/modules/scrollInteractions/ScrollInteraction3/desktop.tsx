@@ -47,7 +47,7 @@ const DesktopScrollInteraction3 = () => {
     <section className="grid grid-cols-3 items-start mb-[312px] w-full overflow-x-clip">
       <div className="sticky pt-[200px] top-0">
         <CustomCard customStyles="flex justify-end items-center p-4 xl:p-6">
-          <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">{left.text}</h1>
+          <h1 className="text-b3 font-bold text-right max-w-xs">{left.text}</h1>
         </CustomCard>
       </div>
       <div
@@ -58,7 +58,7 @@ const DesktopScrollInteraction3 = () => {
         }}
       >
         <CustomCard customStyles="flex justify-start items-center p-4 xl:p-6">
-          <h2 className="text-[32px] md:text-[58px] font-bold text-left max-w-xs">
+          <h2 className="text-b3 font-bold text-left max-w-xs">
             <br />
             {right.text.toLowerCase()}
           </h2>
@@ -85,8 +85,8 @@ const DesktopScrollInteraction3 = () => {
                   >
                     <p
                       className={`transition-[font-size] duration-1000 ${currentHighlight === n && quotesContainerTop < cardBottom - 50
-                          ? 'text-2xl font-bold'
-                          : 'text-base font-normal'
+                          ? 'text-m4 font-bold'
+                          : 'text-s2 font-normal'
                         }`}
                     >
                       {i.replace(/\*/g, '')}
@@ -111,7 +111,7 @@ const DesktopScrollInteraction3 = () => {
                       </div>
                     </Link>
                     <div className="py-0 mr-7 flex justify-center">
-                      <h2 className="font-bold text-xl">We seamlessly deliver business value.</h2>
+                      <h2 className="font-bold text-m5">We seamlessly deliver business value.</h2>
                     </div>
                   </div>
                 </li>

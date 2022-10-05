@@ -26,14 +26,14 @@ const OurOffering = () => {
       </Suspense>
       <UmvelCard darkTheme={true}>
         <div className="p-12 lg:p-[max(10%_128px)]">
-          <h1 className="mb-6 font-bold text-2xl md:text-[28px] lg:text-[58px] leading-tight">
+          <h1 className="mb-6 font-bold text-b3">
             Meet us
             <br className="hidden lg:inline" />
             in real life
             <br />
             (or on Zoom ;)
           </h1>
-          <p className="mb-6 lg:text-lg">
+          <p className="mb-6 text-s1">
             Enter your email address, and we’ll get in touch to plan a coffee.
           </p>
           <ContactForm theme="dark" />
