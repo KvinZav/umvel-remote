@@ -3,15 +3,16 @@ import { ImageProps } from '@type/components/Image.type';
 import NextImage from 'next/image';
 import { FC } from 'react';
 
-const Image: FC<ImageProps> = ({ alt, width, height, url, layout = 'fixed', ...props }) => {
+const Image: FC<ImageProps> = ({ alt, width, height, url, layout = 'fixed', priority, objectFit = "contain", ...props }) => {
   return (
     <NextImage
       width={width}
       height={height}
-      objectFit="contain"
+      objectFit={objectFit}
       src={url.includes('https://') ? getStrapiMedia(url) : url}
       alt={alt || ''}
       layout={layout}
+      priority={priority}
       {...props}
     />
   );

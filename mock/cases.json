@@ -363,9 +363,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_quote_background.png.png",
-                "alternativeText": "vivaApp_quote_background.png.png",
-                "caption": "vivaApp_quote_background.png.png_background.png",
+                "name": "vivaApp_quote_bg",
+                "alternativeText": "vivaApp_quote_bg",
+                "caption": "vivaApp_quote_bg",
                 "width": 64,
                 "height": 64,
                 "formats": null,
@@ -373,13 +373,36 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_quote_background.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
                 "createdAt": "2022-08-19T15:35:22.751Z",
                 "updatedAt": "2022-08-19T15:35:22.751Z"
               }
+            }
+          }
+        },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "vivaApp_quote_bg",
+              "alternativeText": "vivaApp_quote_bg",
+              "caption": "vivaApp_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
             }
           }
         },
@@ -547,7 +570,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -569,7 +592,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -654,19 +677,19 @@
               "id": 1,
               "title": "A truly native experience",
               "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_deliver1.png"
             },
             {
               "id": 2,
               "title": "Increased Conversions",
               "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_deliver2.png"
             },
             {
               "id": 3,
               "title": "Rapid Deployment",
               "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).<br /><br /> ",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_deliver3.png"
             }
           ]
         },
@@ -825,9 +848,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaWeb_quote_background.png",
-                "alternativeText": "vivaWeb_quote_background.png",
-                "caption": "vivaWeb_quote_background.png",
+                "name": "vivaWeb_quote_bg.png",
+                "alternativeText": "vivaWeb_quote_bg.png",
+                "caption": "vivaWeb_quote_bg.png",
                 "width": 64,
                 "height": 64,
                 "formats": null,
@@ -835,13 +858,36 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_quote_background.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
                 "createdAt": "2022-08-19T15:35:22.751Z",
                 "updatedAt": "2022-08-19T15:35:22.751Z"
               }
+            }
+          }
+        },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "vivaWeb_quote_bg",
+              "alternativeText": "vivaWeb_quote_bg",
+              "caption": "vivaWeb_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
             }
           }
         },
@@ -852,7 +898,7 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
+                "name": "vivaWeb_learned1.png",
                 "alternativeText": "Viva Aerobus Learned",
                 "caption": "Viva Aerobus Learned",
                 "width": 977,
@@ -862,7 +908,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -874,7 +920,7 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
+                "name": "vivaWeb_learned2.png",
                 "alternativeText": "Viva Aerobus Learned.png",
                 "caption": "Viva Aerobus Learned.png",
                 "width": 977,
@@ -884,7 +930,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -964,9 +1010,9 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "Viva Aerobus Hero.png",
-              "alternativeText": "Viva Aerobus Hero.png",
-              "caption": "Viva Aerobus Hero.png",
+              "name": "pbb_hero_photo.png",
+              "alternativeText": "pbb_hero_photo.png",
+              "caption": "pbb_hero_photo.png",
               "width": 977,
               "height": 673,
               "formats": null,
@@ -974,7 +1020,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero_bg.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero_photo.png",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -999,9 +1045,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "Planet Buyback Challenge.png",
+                "alternativeText": "Planet Buyback Challenge.png",
+                "caption": "Planet Buyback Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1009,7 +1055,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1021,9 +1067,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "Planet Buyback Challenge.png",
+                "alternativeText": "Planet Buyback Challenge.png",
+                "caption": "Planet Buyback Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1031,7 +1077,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1046,7 +1092,7 @@
           "technicalInformation": [{
               "id": 1,
               "title": "Client",
-              "content": "Viva Aerobus"
+              "content": "Planet Buyback"
             },
             {
               "id": 2,
@@ -1094,9 +1140,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "Planet Buyback Logo.png",
+                "alternativeText": "Planet Buyback Logo.png",
+                "caption": "Planet Buyback Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1121,19 +1167,19 @@
               "id": 1,
               "title": "An new project dashboard experience",
               "content": "The donation dashboard provides a consistent, visual design in line with Planet Buyback's brand guidelines. It informs and attracts new users to donate in a simple and effective way.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver1.png"
             },
             {
               "id": 2,
               "title": "Enticing data visualization",
               "content": "We kept a close relationship between textual and visual storytelling in order to match content, with form. Images, icons, and animations support and reinforce the main value proposition.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver2.png"
             },
             {
               "id": 3,
               "title": "Brand new interface design ",
               "content": "The new interface design followed from a market study and an overall brand revamp; this defined the desired modifications in terms of forms, composition, hierarchy, and components.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver3.png"
             }
           ]
         },
@@ -1255,7 +1301,7 @@
           ]
         },
         "quote": {
-          "body": "",
+          "body": null,
           "client": null,
           "photo": {
             "data": {
@@ -1281,6 +1327,29 @@
             }
           }
         },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "pbb_quote_bg",
+              "alternativeText": "pbb_quote_bg",
+              "caption": "pbb_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
         "whatWeLearned": {
           "title": "What we learned",
           "content": "Next to developing Viva Aerobus' website, Umvel was tasked to create a fun, convenient, and user-friendly mobile application. This app allows travelers to book and manage their trips in a variety of ways. We created the mobile digital strategy, the design, and all development, with a special focus on leveraging native iOS and Android features.",
@@ -1288,9 +1357,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "pbb_learned1.png",
+                "alternativeText": "Planet Buyback Learned",
+                "caption": "Planet Buyback Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1298,7 +1367,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1310,9 +1379,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "pbb_learned2.png",
+                "alternativeText": "Planet Buyback Learned.png",
+                "caption": "Planet Buyback Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1320,7 +1389,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1353,7 +1422,7 @@
             "title": "Arrivia Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_case.svg"
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_case.svg"
           }
         ]
       }
@@ -1435,9 +1504,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "BMCF Challenge.png",
+                "alternativeText": "BMCF Challenge.png",
+                "caption": "BMCF Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1445,7 +1514,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1457,9 +1526,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "BMCF Challenge.png",
+                "alternativeText": "BMCF Challenge.png",
+                "caption": "BMCF Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1467,7 +1536,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1525,9 +1594,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "BMCF Logo.png",
+                "alternativeText": "BMCF Logo.png",
+                "caption": "BMCF Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1552,19 +1621,19 @@
               "id": 1,
               "title": "A hybrid mobile app",
               "content": "Cancerbuddy is built on a serverless framework; it's a hybrid app making it easy to scale to other platforms. We used the React Native framework, allowing us to easily build the app for iOS, Android and web, all with one codebase.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver1.png"
             },
             {
               "id": 2,
               "title": "A fast and seamless experience",
               "content": "We used Amplify (an AWS service). This allows for fast and effective coding. It provides easy Authentication, data and API integration and the tools to help us authenticate users, connect services, build databases and web services, resulting in a fast and seamless end user experience.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver2.png"
             },
             {
               "id": 3,
               "title": "A world's first",
               "content": "It's not everyday that we can work on an app that truly changes lives. Cancerbuddy is the world’s first cancer patient and survivor network and offers people that are affected by this disease a way to feel less isolated and supported by others.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver3.png"
             }
           ]
         },
@@ -1740,6 +1809,29 @@
             }
           }
         },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "cb_quote_bg",
+              "alternativeText": "cb_quote_bg",
+              "caption": "cb_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
         "whatWeLearned": {
           "title": "What we learned",
           "content": "It’s not everyday that we can work on an app that truly changes lives. That’s why we were super excited to work on Cancerbuddy: the world’s first cancer patient and survivor network.<br /><br /> Cancer patients and survivors to connect, share and help each other. This application connects people who are fighting or have beaten cancer by accompanying them on their road to recovery.",
@@ -1747,9 +1839,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "cb_learned1.png",
+                "alternativeText": "BMCF Learned",
+                "caption": "BMCF Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1757,7 +1849,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1769,9 +1861,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "cb_learned2.png",
+                "alternativeText": "BMCF Learned.png",
+                "caption": "BMCF Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1779,7 +1871,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1887,9 +1979,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "Food Central Challenge.png",
+                "alternativeText": "Food Central Challenge.png",
+                "caption": "Food Central Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1897,7 +1989,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1909,9 +2001,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "Food Central Challenge.png",
+                "alternativeText": "Food Central Challenge.png",
+                "caption": "Food Central Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -1919,7 +2011,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1986,9 +2078,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "Food Central Logo.png",
+                "alternativeText": "Food Central Logo.png",
+                "caption": "Food Central Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2014,19 +2106,19 @@
               "id": 1,
               "title": "Enabling providers to instantly digitize their business",
               "content": "By the use of a so-called “central table”, the system collects and organizes orders in a central place, making fulfillment more efficient.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver1.png"
             },
             {
               "id": 2,
               "title": "All-in-one solution for restaurants",
               "content": "Users can pre-order food up to 24 hours before delivery and have a pick-up option if needed. This provides a great customer experience and makes it easy to plan the day ahead in an easy way.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver2.png"
             },
             {
               "id": 3,
               "title": "Native iOS and Android experience",
               "content": "We have developed both a native iOS and Android experience, making the Food Central intuitive and easy to use.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver3.png"
             }
           ]
         },
@@ -2204,6 +2296,29 @@
             }
           }
         },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "fc_quote_bg",
+              "alternativeText": "fc_quote_bg",
+              "caption": "fc_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
         "whatWeLearned": {
           "title": "What we learned",
           "content": "We helped to design, build and operate a pioneering food plaza marketplace. This SaaS solution spans native client apps, a versatile admin portal, rich reporting and other useful features. Food Central is now live and can be used in Miyana, CDMX. We learned a tremendous amount about fulfillment, the food logistics industry and building flexible, digital marketplaces.",
@@ -2211,9 +2326,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "fc_learned1.png",
+                "alternativeText": "Food Central Learned",
+                "caption": "Food Central Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2221,7 +2336,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2233,9 +2348,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "fc_learned2.png",
+                "alternativeText": "Food Central Learned.png",
+                "caption": "Food Central Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2243,7 +2358,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2351,9 +2466,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "Food Central Challenge.png",
+                "alternativeText": "Food Central Challenge.png",
+                "caption": "Food Central Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2361,7 +2476,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2373,9 +2488,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva Aerobus Challenge.png",
-                "caption": "Viva Aerobus Challenge.png",
+                "name": "Food Central Challenge.png",
+                "alternativeText": "Food Central Challenge.png",
+                "caption": "Food Central Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2383,7 +2498,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2445,9 +2560,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "Smart Walk Logo",
+                "alternativeText": "Smart Walk",
+                "caption": "Smart Walk",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2473,19 +2588,19 @@
               "id": 1,
               "title": "Uptake of 10% in property viewings",
               "content": "GGI now has a new way to attract potential buyers who are interested in property and use SmartWalk to get a better impression of the space, before they decide to physically go.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver1.png"
             },
             {
               "id": 2,
               "title": "Better relationships between broker and buyer",
               "content": "Because of the video and audio layer on top of the 3D tour, the broker can answer questions and provide a voice over while doing the tour.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver2.png"
             },
             {
               "id": 3,
               "title": "New way to capture client data",
               "content": "Potential buyers can leave their personal data behind when signing up for SmartWalk, captured in a CRM system so that GGI can track its leads better.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver3.png"
             }
           ]
         },
@@ -2692,6 +2807,29 @@
             }
           }
         },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "sw_quote_bg",
+              "alternativeText": "sw_quote_bg",
+              "caption": "sw_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
         "whatWeLearned": {
           "title": "What we learned",
           "content": "SmartWalk is a disruptive real estate platform, that empowers brokers to strengthen the client relationship. By offering virtual, immersive tools it helps potential buyers to make better decisions.<br /><br /> We have learned that a seamless user unboarding, rich ways of interaction and easy ways to capture user data, are key in creating a successful platform experience.",
@@ -2699,9 +2837,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "fc_learned1.png",
+                "alternativeText": "Food Central Learned",
+                "caption": "Food Central Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2709,7 +2847,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2721,9 +2859,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "fc_learned2.png",
+                "alternativeText": "Food Central Learned.png",
+                "caption": "Food Central Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2731,7 +2869,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2856,7 +2994,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2878,7 +3016,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2941,9 +3079,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "Seguros Mundial Logo.png",
+                "alternativeText": "Seguros Mundial Logo.png",
+                "caption": "Seguros Mundial Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -2951,7 +3089,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_technical_photo.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2969,19 +3107,19 @@
               "id": 1,
               "title": "80% more effective operations",
               "content": "Thanks to the DevOps implementation we carried out, Seguros Mundial can execute operations with 80% more speed.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver1.png"
             },
             {
               "id": 2,
               "title": "Fully digitized insurance process",
               "content": "Say goodbye to long paper trails! By digitizing the insurance experience, customers can quote and contract insurance products fully online. That’s a first in Seguros Mundial’s local industry.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver2.png"
             },
             {
               "id": 3,
               "title": "Reducing operational costs with 20%",
               "content": "Thanks to a fully digital self service platform, the help of a broker is not required anymore. This greatly benefits the customer acquisition process, as operational costs go down while customer volume increases.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver3.png"
             }
           ]
         },
@@ -3156,6 +3294,29 @@
             }
           }
         },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "sm_quote_bg",
+              "alternativeText": "sm_quote_bg",
+              "caption": "sm_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
         "whatWeLearned": {
           "title": "What we learned",
           "content": "We designed, built and deployed new customer success journeys for Seguros Mundial. This made their operations 80% more effective, by offering a fully automated acquisition process, removing the need to work with an insurance broker.<br /><br /> We learned a lot about the insurance industry, business processes and rules, and how to turn a paper trail into a best-in-class digital experience.",
@@ -3163,9 +3324,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "sm_learned1.png",
+                "alternativeText": "Seguros Mundial Learned",
+                "caption": "Seguros Mundial Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3173,7 +3334,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3185,9 +3346,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "sm_learned2.png",
+                "alternativeText": "Seguros Mundial Learned.png",
+                "caption": "Seguros Mundial Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3195,7 +3356,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3319,9 +3480,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Seguros Mundial.png",
-                "alternativeText": "Seguros Mundial.png",
-                "caption": "Seguros Mundial.png",
+                "name": "OEIO",
+                "alternativeText": "OEIO",
+                "caption": "OEIO",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3329,7 +3490,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3341,9 +3502,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "Seguros Mundial Challenge.png",
-                "alternativeText": "Seguros Mundial Challenge.png",
-                "caption": "Seguros Mundial Challenge.png",
+                "name": "OEIO Challenge.png",
+                "alternativeText": "OEIO Challenge.png",
+                "caption": "OEIO Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3351,7 +3512,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3418,9 +3579,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "OEIO Logo.png",
+                "alternativeText": "OEIO Logo.png",
+                "caption": "OEIO Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3428,7 +3589,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_technical_photo.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3446,19 +3607,19 @@
               "id": 1,
               "title": "A versatile, digital wellness marketplace",
               "content": "OEIO offers all tools for customers, salon owners and managers, professionals and OEIO staff to book and manages appointments. All in one ecosystem.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver1.png"
             },
             {
               "id": 2,
               "title": "Track and manage business growth",
               "content": "We’ve built an easy to use Admin SaaS platform, that serves native OEIO iOS and Android apps. It lets owners manage bookings, track sales, progress and employee performance.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver2.png"
             },
             {
               "id": 3,
               "title": "End-to-end digital experience for customers",
               "content": "From discovery, to choosing a service, to booking, to payment: users can perform everything in-app, in the palm of their hands.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver3.png"
             }
           ]
         },
@@ -3637,6 +3798,29 @@
             }
           }
         },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "oeio_quote_bg",
+              "alternativeText": "oeio_quote_bg",
+              "caption": "oeio_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
         "whatWeLearned": {
           "title": "What we learned",
           "content": "We helped OEIO to design, build and operate their sports and wellness marketplace, a LATAM first. This SaaS solution spans native apps, a complete admin portal, versatile reporting and other features.",
@@ -3644,9 +3828,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "oeio_learned1.png",
+                "alternativeText": "OEIO Learned",
+                "caption": "OEIO Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3654,7 +3838,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3666,9 +3850,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "oeio_learned2.png",
+                "alternativeText": "OEIO Learned.png",
+                "caption": "OEIO Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3676,7 +3860,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3709,7 +3893,7 @@
             "title": "Arrivia Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_case.svg"
+            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_case.svg"
           }
         ]
       }
@@ -3733,7 +3917,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "arrivia_logo.svg",
+              "name": "tc_logo.svg",
               "alternativeText": "Arrivia Logo",
               "caption": "Arrivia Logo",
               "width": 977,
@@ -3743,7 +3927,7 @@
               "ext": ".svg",
               "mime": "image/svg+xml",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_logo.svg",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_logo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3756,7 +3940,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "arrivia_hero_photo.png",
+              "name": "tc_hero_photo.png",
               "alternativeText": "Arrivia Photo",
               "caption": "Arrivia Photo",
               "width": 977,
@@ -3766,7 +3950,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_hero_photo.png",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3784,7 +3968,7 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "arrivia_technical_photo.png",
+                "name": "tc_technical_photo.png",
                 "alternativeText": "Arrivia",
                 "caption": "Arrivia",
                 "width": 977,
@@ -3794,7 +3978,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_hero_photo.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_hero1.svg",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3816,7 +4000,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3877,9 +4061,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "Travel Company Logo.png",
+                "alternativeText": "Travel Company Logo.png",
+                "caption": "Travel Company Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3887,7 +4071,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_technical_photo.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3905,19 +4089,19 @@
               "id": 1,
               "title": "Understanding members and their behavior",
               "content": "We helped our client truly understand their members. What drives them? What’s their decision making process? Why do they choose one travel product over another? A total of 34 personas over 7 brands helped to answers these questions.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver1.png"
             },
             {
               "id": 2,
               "title": "Actionable personas, backed up by data",
               "content": "Next to qualitative research, we conducted quantitative analysis: through 500,000 data points on purchase and loyalty behavior and cross-referenced these with our qualitative hypotheses and insights. This resulted in very rich personas, backed up by data around ROI, CLV and other metrics.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver2.png"
             },
             {
               "id": 3,
               "title": "Priorization of better ways to earn and spending loyalty points",
               "content": "As a result of our research, we prioritized potential improvements in the digital journey for all products (air, cruise, hotel, car rental). These were mostly centered around better ways to educate people about earning and spending loyalty points, which ultimately is our client’s main revenue driver.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver3.png"
             }
           ]
         },
@@ -3942,7 +4126,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_luggage.svg",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_groups.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3969,7 +4153,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_travel_explore.svg",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_luggage.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3997,7 +4181,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_travel_explore.svg",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_travel_explore.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4025,7 +4209,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_headset_mic.svg",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_headset_mic.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4053,7 +4237,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_search.svg",
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_search.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4072,9 +4256,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "arrivia_quote_bg.png",
-                "alternativeText": "arrivia_quote_bg.png",
-                "caption": "arrivia_quote_bg.png",
+                "name": "tc_quote_bg.png",
+                "alternativeText": "tc_quote_bg.png",
+                "caption": "tc_quote_bg.png",
                 "width": 64,
                 "height": 64,
                 "formats": null,
@@ -4082,13 +4266,36 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_quote_bg.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
                 "createdAt": "2022-08-19T15:35:22.751Z",
                 "updatedAt": "2022-08-19T15:35:22.751Z"
               }
+            }
+          }
+        },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "tc_quote_bg",
+              "alternativeText": "tc_quote_bg",
+              "caption": "tc_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
             }
           }
         },
@@ -4099,9 +4306,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "tc_learned1.png",
+                "alternativeText": "Travel Company Learned",
+                "caption": "Travel Company Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4109,7 +4316,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4121,9 +4328,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "tc_learned2.png",
+                "alternativeText": "Travel Company Learned.png",
+                "caption": "Travel Company Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4131,7 +4338,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4246,9 +4453,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "arrivia_technical_photo.png",
-                "alternativeText": "Arrivia",
-                "caption": "Arrivia",
+                "name": "capa_technical_photo.png",
+                "alternativeText": "CAPA",
+                "caption": "CAPA",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4256,7 +4463,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_hero_photo.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4268,9 +4475,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "Arrivia Challenge.png",
-                "alternativeText": "Arrivia Challenge.png",
-                "caption": "Arrivia Challenge.png",
+                "name": "CAPA Challenge.png",
+                "alternativeText": "CAPA Challenge.png",
+                "caption": "CAPA Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4278,7 +4485,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4339,9 +4546,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
-                "caption": "Viva Aerobus Logotype.png",
+                "name": "CAPA Logo.png",
+                "alternativeText": "CAPA Logo.png",
+                "caption": "CAPA Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4367,19 +4574,19 @@
               "id": 1,
               "title": "A real-time, digital way to start investing",
               "content": "Investors can onboard themselves in a digital way, and start investing the same day. This form of self-service allows them to independently explore the real-estate investment world, without requiring assistance.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver1.png"
             },
             {
               "id": 2,
               "title": "Track performance and growth in one place",
               "content": "The central dashboard enables investors to keep track of asset and fund performance, ARR, MRR and other important financial metrics - all in one place and in real-time.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver2.png"
             },
             {
               "id": 3,
               "title": "Reduction of operational costs and effort",
               "content": "The new digital platform allows CAPA to reduce cost por customer acquisition, onboarding and operational costs. By offering a real-time, automated view on portfolio performance, our client avoid drafting lengthy quarterly reports (done by hand).",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver3.png"
             }
           ]
         },
@@ -4555,16 +4762,39 @@
             }
           }
         },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "capa_quote_bg",
+              "alternativeText": "capa_quote_bg",
+              "caption": "capa_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_main.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
         "whatWeLearned": {
           "title": "What we learned",
-          "content": "",
+          "content": "Building an investment platform is not easy. The world of real estate investing holds many business rules and business logic to take into account.<br /><br />Clear and effective information (visual) design is essential, putting the focus on the content primarily. ‘Form follows function’ certainly applies to this project.",
           "images": [{
             "data": {
               "id": 1,
               "attributes": {
-                "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
-                "caption": "Viva Aerobus Learned",
+                "name": "capa_learned1.png",
+                "alternativeText": "CAPA Learned",
+                "caption": "CAPA Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4572,7 +4802,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4584,9 +4814,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
-                "caption": "Viva Aerobus Learned.png",
+                "name": "capa_learned2.png",
+                "alternativeText": "CAPA Learned.png",
+                "caption": "CAPA Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4594,7 +4824,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,

@@ -32,7 +32,7 @@ const  CasesHeroMobile = (props: CasesHeroProps) => {
           <Image
             width="200"
             height="42"
-            layout="fixed"
+            layout="responsive"
             url={logo.data.attributes.url}
             alt={logo.data.attributes.alternativeText}
           />

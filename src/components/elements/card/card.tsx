@@ -103,7 +103,7 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
       </h1>
       {showButton && (
         <Link href={'/cases/' + id}>
-          <BasicButton theme="light">View Case</BasicButton>
+          <BasicButton theme={isLight ? "light" : "dark"}>View Case</BasicButton>
         </Link>
       )}
       <div

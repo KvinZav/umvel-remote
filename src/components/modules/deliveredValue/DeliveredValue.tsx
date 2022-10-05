@@ -133,7 +133,7 @@ export const DeliveredValue = ({
               alignDefault={connectConfigurations[idx].defaultConnect}
             >
               <div className="lg:p-7 p-10">
-                <h5 className="text-2xl md:text-[1.75rem] font-bold">{title}</h5>
+                <h5 className="text-2xl md:text-[1.75rem] font-bold mb-2">{title}</h5>
                 <p className="text-xs md:text-base">{content}</p>
               </div>
             </CardConnect>

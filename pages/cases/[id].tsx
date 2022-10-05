@@ -13,6 +13,7 @@ import CasesQuote from '@modules/casesQuote';
 import CasesApp from '@modules/casesApp';
 import CasesLearned from '@modules/casesLearned';
 import { OtherCases } from '@modules/otherCases';
+import Head from 'next/head';
 
 const CasesPage = () => {
   const router = useRouter();
