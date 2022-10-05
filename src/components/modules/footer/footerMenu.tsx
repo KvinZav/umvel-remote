@@ -25,23 +25,23 @@ export const FooterMenu = () => {
               alt={'logo-umvel'}
               className="w-8"
             />
-            <p className="font-bold text-base">We deliver what we promise.</p>
+            <p className="font-bold text-s3">We deliver what we promise.</p>
           </div>
           <div className="flex flex-col lg:flex-row">
             <div className="flex lg:items-center flex-col lg:flex-row my-6 lg:m-0">
               {links.map((menuItem, index) => (
                 <Link href={`/${menuItem.link}`} key={`menu-item-footer-${index}`}>
-                  <a className="text-base leading-tight py-4 lg:px-6">{menuItem.name}</a>
+                  <a className="text-s2 leading-tight py-4 lg:px-6">{menuItem.name}</a>
                 </Link>
               ))}
             </div>
-            <BasicButton>
-              <Link href={'/lets-talk'}>
-                <a>
+            <Link href={'/lets-talk'}>
+              <a>
+                <BasicButton>
                   {"Let's Talk!"}
-                </a>
-              </Link>
-            </BasicButton>
+                </BasicButton>
+              </a>
+            </Link>
           </div>
         </div>
         <hr className="text-[#E6E6E6] hidden lg:block mb-8 xl:mb-10" />
@@ -49,7 +49,7 @@ export const FooterMenu = () => {
           <div className="flex gap-8 flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
             {socialNetworks.map((socialNetwork, index) => (
               <a
-                className="text-base leading-tight"
+                className="text-s3 leading-tight"
                 key={`menu-item-footer-${index}`}
                 href={socialNetwork.link}
                 target="_blank"
@@ -59,7 +59,7 @@ export const FooterMenu = () => {
               </a>
             ))}
           </div>
-          <div className="flex flex-col md:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
+          <div className="flex text-s3 flex-col md:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
             <Link href="privacy-policy">
               <a>Privacy Policy</a>
             </Link>

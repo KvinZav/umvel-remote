@@ -6,7 +6,7 @@
           "id": 1,
           "__component": "workcases.cases",
           "cases": [{
-            "id": 1,
+            "id": 10,
             "title": "Viva Aerobus",
             "hoverDescription": "You love flying. Now you’ll love getting tickets too.",
             "hoverClientName": "Mobile App",
@@ -38,7 +38,7 @@
               }
             }
           }, {
-            "id": 10,
+            "id": 1,
             "title": "Viva Aerobus",
             "hoverDescription": "How we helped boost sales, conversion and engagement through Viva Aerobus’ new website.",
             "hoverClientName": "Website",
@@ -46,7 +46,29 @@
             "callToAction": null,
             "backgroundColor": "#2F7C38",
             "quote": "We seamlessly deliver business value.",
-            "image": null
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "pbb_mockup.png",
+                  "alternativeText": "Viva Aerobus Logo.png",
+                  "caption": "Viva Aerobus Logotype.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_mockup.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           }, {
             "id": 2,
             "title": "Planet Buyback",
@@ -240,7 +262,7 @@
           }, {
             "id": 8,
             "title": "Travel Company",
-            "hoverDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "hoverDescription": "Crafting travel personas for air, cruise and hotel customers.",
             "hoverClientName": "Website",
             "hoverClientHeading": null,
             "callToAction": null,
@@ -259,7 +281,7 @@
                   "ext": ".svg",
                   "mime": "image/png",
                   "size": 0.42,
-                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/arrivia_mockup.png",
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_mockup.png",
                   "previewUrl": null,
                   "provider": "local",
                   "provider_metadata": null,

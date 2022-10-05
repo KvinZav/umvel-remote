@@ -24,14 +24,14 @@ export const ReadyToTake = () => {
           md:min-h-[38rem] flex items-center justify-center"
       >
         <div className="px-16 py-20 lg:px-32 lg:py-60">
-          <h1 className="font-bold lg:mb-2 md:text-[38px] text-[28px] mb-6">{quotes.title}</h1>
-          <p className="mb-8 lg:text-[18px]">{quotes.subtitle}</p>
+          <h1 className="font-bold lg:mb-2 text-m3 md:text-b4 mb-6">{quotes.title}</h1>
+          <p className="mb-8 text-s1">{quotes.subtitle}</p>
           <div className="p-10 flex md:flex-row flex-col-reverse items-center text-center">
             <Link href="/our-work">
-              <PrismButton> Our Work</PrismButton>
+              <PrismButton>{'Our Work'}</PrismButton>
             </Link>
 
-            <p className="font-bold text-[24px] lg:text-[28px] md:ml-10 mb-14 md:mb-0">
+            <p className="font-bold text-m3 md:ml-10 mb-14 md:mb-0">
               We deliver what we promise.
             </p>
           </div>
@@ -43,8 +43,8 @@ export const ReadyToTake = () => {
       >
         <div className="overflow-auto flex md:overflow-hidden md:block md:px-16 md:py-20 lg:px-32 lg:py-60">
           <div className="min-w-[319px] min-h-[319px] md:min-w-[0] md:min-h-[0] p-12 md:p-0">
-            <p className="mb-3 lg:text-[18px] text-primary-white">{quotes.philosophy.title}</p>
-            <h1 className="font-bold lg:mb-2 text-[24px] md:text-[38px] text-primary-white">
+            <p className="mb-3 text-s1 text-primary-white">{quotes.philosophy.title}</p>
+            <h1 className="font-bold lg:mb-2 text-b4 text-primary-white">
               {quotes.philosophy.body}
             </h1>
           </div>
@@ -56,7 +56,7 @@ export const ReadyToTake = () => {
             {quotes?.philosophy.bulletPoints.map((item: PhilosophyBulletPoint, index: number) => {
               return (
                 <div key={'indicator-' + index}>
-                  <p className="lg:w-40 lg:text-[18px] mt-6 text-primary-white">{item.body}</p>
+                  <p className="lg:w-40 text-s1 mt-6 text-primary-white">{item.body}</p>
                 </div>
               );
             })}

@@ -55,7 +55,7 @@ export const CardTeam = ({
         {names.slice(0, columns * rows).map((name: string, index: number) => (
           <div
             key={'card-team-name-' + index}
-            className="aspect-square flex justify-center items-center text-secondary-30 text-sm"
+            className="aspect-square flex justify-center items-center text-secondary-30 text-s3"
           >
             {name}
           </div>

@@ -152,7 +152,7 @@
               "Subtitle": null,
               "case_of_study": {
                 "data": {
-                  "id": 1,
+                  "id": 10,
                   "attributes": {
                     "title": "Viva App delivers efficiency!",
                     "caseDescription": "See how delivered an efficient, simple and fun flight experience for Viva Aerobus.",
@@ -344,12 +344,12 @@
               }
             },
             {
-              "id": 10,
+              "id": 1,
               "Title": "150+ Umvellers",
               "Subtitle": "We can scale up whenever needed.",
               "case_of_study": {
                 "data": {
-                  "id": 3,
+                  "id": 1,
                   "attributes": {
                     "title": "Viva Website was created by 20+ Umvellers!",
                     "caseDescription": "Campaign-Centric was created by 17 Umvellers!",
@@ -396,7 +396,7 @@
                 "data": {
                   "id": 4,
                   "attributes": {
-                    "title": "Food Central App thinks in customer satisfaction!",
+                    "title": "Food Central App focuses on user satisfaction!",
                     "caseDescription": "Food Central App focuses on user satisfaction!",
                     "primaryColor": "#348181",
                     "secondaryColor": null,
@@ -569,7 +569,7 @@
                             "ext": ".svg",
                             "mime": "image/png",
                             "size": 0.42,
-                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/viva-web-home.svg",
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/viva-web-home.png",
                             "previewUrl": null,
                             "provider": "local",
                             "provider_metadata": null,
@@ -635,13 +635,13 @@
                         "data": {
                           "id": 1,
                           "attributes": {
-                            "name": "Viva Aerobus Logo.png",
-                            "alternativeText": "Viva Aerobus Logo.png",
-                            "caption": "Viva Aerobus Logotype.png",
+                            "name": "Cancerbuddy.png",
+                            "alternativeText": "Cancerbuddy.png",
+                            "caption": "Cancerbuddytype.png",
                             "width": 977,
                             "height": 673,
                             "formats": null,
-                            "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                            "hash": "Cancerbuddy_Logotype_c2f08b71ea",
                             "ext": ".svg",
                             "mime": "image/png",
                             "size": 0.42,
@@ -759,7 +759,7 @@
                             "ext": ".svg",
                             "mime": "image/png",
                             "size": 0.42,
-                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/seguros-home.svg",
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/seguros-home.png",
                             "previewUrl": null,
                             "provider": "local",
                             "provider_metadata": null,
@@ -825,9 +825,9 @@
                         "data": {
                           "id": 1,
                           "attributes": {
-                            "name": "cancer buddy.png",
-                            "alternativeText": "Cancer Buddy.png",
-                            "caption": "CancerBuddyMockup.png",
+                            "name": "TC.png",
+                            "alternativeText": "Travel Company",
+                            "caption": "Travel Company",
                             "width": 977,
                             "height": 673,
                             "formats": null,
@@ -835,7 +835,7 @@
                             "ext": ".svg",
                             "mime": "image/png",
                             "size": 0.42,
-                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-arrivia.png",
+                            "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-tc.png",
                             "previewUrl": null,
                             "provider": "local",
                             "provider_metadata": null,
@@ -1231,7 +1231,7 @@
                         "ext": ".gif",
                         "mime": "image/gif",
                         "size": 0.42,
-                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/project_arrivia.png",
+                        "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/project_travel_company.gif",
                         "previewUrl": null,
                         "provider": "local",
                         "provider_metadata": null,

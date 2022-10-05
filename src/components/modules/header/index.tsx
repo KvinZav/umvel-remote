@@ -44,7 +44,7 @@ const Header = () => {
                 data-collapse-toggle="navbar-default"
                 onClick={() => setShowMenu(!showMenu)}
                 type="button"
-                className="flex items-center text-sm text-gray-500 rounded-lg md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0"
+                className="flex items-center text-s3 text-gray-500 rounded-lg md:flex-row md:mt-0 md:font-medium md:border-0"
               >
                 <div className="h-5 w-5 md:w-7 md:h-7">
                   <CustomImage
@@ -63,15 +63,17 @@ const Header = () => {
                 id="navbar-default"
                 data-collapse-toggle="navbar-default"
               >
-                <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 items-center">
+                <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 text-s2 md:font-medium md:border-0 items-center">
                   {options &&
                     options.map((link) =>
                       link.type === 'home' ? null : link.type === 'button' ? (
-                            <Link href={`/${link.link}`}>
-                        <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
-                          {link.name}
-                          </BasicButton>
-                          </Link>
+                        <Link href={`/${link.link}`}>
+                          <a>
+                            <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
+                              {link.name}
+                            </BasicButton>
+                          </a>
+                        </Link>
                       ) : (
                         <li key={'link-' + link.id}>
                           <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
@@ -126,16 +128,20 @@ const Header = () => {
                 </div>
               </div>
               <div className="h-full flex items-center" id="navbar-default">
-                <ul className="flex flex-col p-4 mt-4 whitespace-nowrap text-xl">
+                <ul className="flex flex-col p-4 mt-4 whitespace-nowrap text-m5">
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
                         <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="-ml-6 py-3">
-                          <BasicButton>
-                            <Link
-                              href={`/${link.link}`}
-                            >{link.name}</Link>
-                          </BasicButton>
+                          <Link
+                            href={`/${link.link}`}
+                          >
+                            <a>
+                              <BasicButton>
+                                {link.name}
+                              </BasicButton>
+                            </a>
+                          </Link>
                         </li>
                       ) : (
                         <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="first-line:my-2 py-3">
@@ -148,7 +154,7 @@ const Header = () => {
                 </ul>
               </div>
               <div className="md:hidden border border-solid border-secondary-10 w-[50%] mb-12 mt-5"></div>
-              <div className="md:w-full h-full md:h-min w-min text-sm flex flex-col md:flex-row md:justify-end">
+              <div className="md:w-full h-full md:h-min w-min text-s3 flex flex-col md:flex-row md:justify-end">
                 {socialNetworks.map((socialNetwork) => (
                   <div key={socialNetwork.id} className="md:ml-10 mb-8 md:text-center">
                     <Tooltip tooltipText={socialNetwork.name}>

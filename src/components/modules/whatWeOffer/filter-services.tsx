@@ -32,7 +32,7 @@ export const Filter = ({ text, active, selected, setSelected, item, setButtons }
       }
       onClick={handleClick}
     >
-      <p className="text-left text-sm">{text}</p>
+      <p className="text-left text-s3">{text}</p>
     </button>
   );
 };

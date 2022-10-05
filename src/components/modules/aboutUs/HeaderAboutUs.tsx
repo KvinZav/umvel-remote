@@ -42,8 +42,8 @@ export const HeaderAboutUs = ({ data }) => {
               lg:min-w-[144px] lg:w-[144px] mb-2.5 mx-auto lg:mr-6"
           />
           <div className="lg:text-left text-center">
-            <p className="font-bold text-[38px] md:text-[68px] lg:text-[78px]">{header?.title}</p>
-            <p className="font-bold text-[16px] md:text-[20px] lg:text-[24px]">
+            <p className="font-bold text-b2">{header?.title}</p>
+            <p className="font-bold text-s1 md:text-m5 lg:text-m4">
               {header?.subtitle}
             </p>
           </div>
@@ -57,8 +57,8 @@ export const HeaderAboutUs = ({ data }) => {
                 className={`${index == 2 ? 'w-full' : 'w-6/12'} 
                   md:w-4/12 md:flex md:justify-center flex-col lg:flex-row text-center items-center`}
               >
-                <p className="font-bold text-[28px] md:text-[38px] mr-2">{item.title}</p>
-                <p className="text-[16px] md:text-[20px]">{item.subtitle}</p>
+                <p className="font-bold text-b4 mr-2">{item.title}</p>
+                <p className="text-s1 md:text-m5">{item.subtitle}</p>
               </div>
             );
           })}

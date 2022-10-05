@@ -45,6 +45,9 @@ You can see more details about environments on Next.js [here](https://nextjs.org
 NEXT_PUBLIC_STRAPI_API_URL=''
 API_HUBAPI=''
 API_HUBAPI_TOKEN='Bearer TOKEN_API'
+NEXT_PUBLIC_STRAPI_API_URL=''
+NEXT_PUBLIC_SENTRY_DSN=''
+NEXT_PUBLIC_SENTRY_IGNORE_API_RESOLUTION_ERROR=''
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

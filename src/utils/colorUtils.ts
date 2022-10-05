@@ -14,7 +14,7 @@ export const isColorLight = function (hex) {
     
     // Counting the perceptive luminance
     // human eye favors green color... 
-    const a = 1 - (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+    const a = 1 - (0.250 * r + 0.400 * g + 0.114 * b) / 255;
     return (a < 0.5);
   } catch (error) {
     return true

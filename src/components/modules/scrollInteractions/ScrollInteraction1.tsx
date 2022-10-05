@@ -30,7 +30,7 @@ const ScrollInteraction1 = () => {
     setBoundsTop(rightTextRefs.current.map((i) => i.getBoundingClientRect().top));
     setRightTextOpacities(refsOpacity);
     setCurrentStep(refsOpacity.findIndex((i) => i > 0.2));
-    setIsTitleAnimToggled(rightTextRefs.current[rightTextRefs.current.length - 1].getBoundingClientRect().top >= -100);
+    setIsTitleAnimToggled(rightTextRefs.current[rightTextRefs.current.length - 1].getBoundingClientRect().top <= 100);
   }, [scrollOffset]);
 
   const { data: event } = useSWR(environment.HOME_URL);
@@ -43,13 +43,13 @@ const ScrollInteraction1 = () => {
       className={`flex flex-col items-center lg:block px-[72px] md:px-36 lg:px-0 pt-[104px] md:pt-[200px] pb-0 md:pb-[200px] lg:pt-0`}
       ref={containerRef}
     >
-      <div className={`flex flex-col lg:flex-row lg:sticky top-0 lg:h-screen lg:items-center`}>
+      <div className={`flex flex-col lg:flex-row lg:sticky top-0 lg:h-screen lg:items-center md:max-w-[460px] lg:max-w-full`}>
         {isDesktop ? (
-          <div className="w-1/2 pr-4">
+          <div className="w-1/2 lg:pr-8">
             <AnimatedTitle toggled={isTitleAnimToggled} />
           </div>
         ) : (
-          <h1 className="font-bold text-[26px] leading-tight mb-4">
+          <h1 className="font-bold text-b3 mb-4 lg:pr-8">
             Making the impossible, possible.
           </h1>
         )}
@@ -72,7 +72,7 @@ const ScrollInteraction1 = () => {
                   <p
                     className={`${
                       n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'
-                    } max-w-[416px] text-4xl leading-snug`}
+                    } max-w-[416px] text-m1`}
                   >
                     {i.right.text.replace(/\*/g, '')}
                   </p>
@@ -87,7 +87,7 @@ const ScrollInteraction1 = () => {
                   <p
                     className={`${
                       n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'
-                    } max-w-[416px] text-lg leading-snug`}
+                    } max-w-[460px] text-m5`}
                   >
                     {i.right.text.replace(/\*/g, '')}
                   </p>
@@ -119,7 +119,7 @@ const AnimatedTitle = ({ toggled }) => {
   return (
     <div className={`flex flex-col w-full h-full`}>
       <div className="flex justify-end children:ease-in-out children:transform children:transition-all children:duration-700">
-        <span className={`font-bold text-[58px] leading-tight mr-3`}>Making</span>
+        <span className={`font-bold text-b3 leading-tight mr-3`}>Making</span>
         <div
           className={`relative`}
           style={{
@@ -130,7 +130,7 @@ const AnimatedTitle = ({ toggled }) => {
         >
           <span
             ref={theRef}
-            className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${
+            className={`font-bold text-b3 absolute transition-opacity duration-500 right-0 ${
               toggled ? 'opacity-0' : 'opacity-100 delay-300'
             }`}
           >
@@ -138,7 +138,7 @@ const AnimatedTitle = ({ toggled }) => {
           </span>
           <span
             ref={itRef}
-            className={`font-bold text-[58px] leading-tight absolute transition-opacity duration-500 right-0 ${
+            className={`font-bold text-b3 absolute transition-opacity duration-500 right-0 ${
               toggled ? 'opacity-100' : 'opacity-0'
             }`}
           >
@@ -148,14 +148,14 @@ const AnimatedTitle = ({ toggled }) => {
       </div>
       <div className="relative children:ease-in-out children:transform children:transition-all children:duration-500 h-[144px]">
         <span
-          className={`font-bold text-[58px] leading-tight absolute top-0 right-0  ${
+          className={`font-bold text-b3 absolute top-0 right-0  ${
             toggled ? 'opacity-0' : 'opacity-100'
           }`}
         >
           impossible,
         </span>
         <span
-          className={`font-bold text-[58px] leading-tight delay-150 absolute top-0 right-0  ${
+          className={`font-bold text-b3 delay-150 absolute top-0 right-0  ${
             !toggled ? 'translate-y-full' : 'translate-y-0'
           }`}
         >

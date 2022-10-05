@@ -46,8 +46,8 @@ const WorkCases: React.FC = (): JSX.Element => {
             </div>
           );
         })}
-        <p className="md:hidden text-4xl font-bold max-w-md text-center mb-36">
-          We deliver what we promise.
+        <p className="md:hidden text-m1 font-bold max-w-md text-center mb-36">
+          We got plenty of space to put your brand here.
         </p>
       </div>
 

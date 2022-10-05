@@ -36,8 +36,8 @@ const  CasesHeroMobile = (props: CasesHeroProps) => {
             url={logo.data.attributes.url}
             alt={logo.data.attributes.alternativeText}
           />
-          <h1 className="text-xl mt-8 mb-2">{portfolioTitle}</h1>
-          <h2 className="font-bold text-[28px]">{portfolioDescription}</h2>
+          <h1 className="text-m5 mt-8 mb-2">{portfolioTitle}</h1>
+          <h2 className="font-bold text-m1">{portfolioDescription}</h2>
           <div className="flex mt-4 gap-2">
             {challenge.callToAction.map((item, index) => (
               <a
@@ -53,10 +53,10 @@ const  CasesHeroMobile = (props: CasesHeroProps) => {
         </div>
       </div>
       <div className="aspect-square p-12 bg-primary-black text-primary-white">
-        <h2 className="mb-2 text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">
+        <h2 className="mb-2 text-m3 md:leading-tight lg:leading-snug">
           {challenge.title}
         </h2>
-        <p>{challenge.content}</p>
+        <p className="text-s2">{challenge.content}</p>
       </div>
       <div className="relative aspect-square" style={{ backgroundColor: primaryColor }}>
         <div className="absolute w-full h-full bg-primary-black opacity-40" />
