@@ -203,7 +203,7 @@
             {
               "id": 3,
               "title": "Rapid Deployment",
-              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).<br /><br /> ",
+              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
             }
           ]
@@ -688,7 +688,7 @@
             {
               "id": 3,
               "title": "Rapid Deployment",
-              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).<br /><br /> ",
+              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_deliver3.png"
             }
           ]
