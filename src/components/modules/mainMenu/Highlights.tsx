@@ -15,8 +15,6 @@ const MainMenuHighlights = () => {
 
   const { cases } = FETCHER(event, BlockNameEnum.highlights);
 
-  console.log(screen)
-
   return (
     <section className="flex md:grid md:grid-cols-1 lg:grid-cols-3 md:justify-center overflow-x-scroll md:overflow-auto pt-8 lg:pt-[104px]">
       {cases.map((caseItem, caseIndex) => {

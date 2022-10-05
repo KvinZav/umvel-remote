@@ -34,6 +34,7 @@ const DesktopScrollInteraction3 = () => {
     setTitleCardOffset(top > 0 && top < 5000 ? top : 0);
     setQuotesContainerTop(quotesRefTop);
     setCurrentHighlight(quotesTop.findIndex((i) => i > cardComponentHeight - cardHeight * 0.7));
+
   }, [scrollOffset]);
 
   const { data: event } = useSWR(environment.HOME_URL);
@@ -74,6 +75,9 @@ const DesktopScrollInteraction3 = () => {
                 <li
                   key={'scroll3-quote-' + n + ''}
                   ref={(el) => (quoteRefs.current[n] = el)}
+                  style={{
+                    transform: `translateY(${quotesTop[n] * (-0.1 * (labels.length - 1 - n) )}px)`,
+                  }}
                 >
                   <div
                     className={`${n !== 0 && 'border-t border-secondary-10'
