@@ -1499,6 +1499,13 @@
             },
             "title": "See in appstore",
             "subtitle": null
+          },{
+            "id": 13,
+            "action": {
+              "openUrl": "https://www.youtube.com/watch?v=OdcjAWaQsvc&ab_channel=BoneMarrow%26CancerFoundation"
+            },
+            "title": "View launch video",
+            "subtitle": null
           }],
           "images": [{
             "data": {
@@ -3470,7 +3477,7 @@
             {
               "id": 13,
               "action": {
-                "openUrl": "https://oeio.app/"
+                "openUrl": "https://www.youtube.com/watch?v=PjWghw0_iHA&ab_channel=CarlosD%C3%ADaz"
               },
               "title": "View launch video",
               "subtitle": null
