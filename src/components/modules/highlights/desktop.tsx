@@ -8,6 +8,7 @@ import Image from '@elements/image-component';
 import CustomImage from '@elements/image-component/CustomImage';
 import Link from 'next/link';
 import BasicButton from '@elements/button';
+import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
 
 const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   project,
@@ -61,16 +62,16 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             style={{ transform: `translateY(${positionCase}px)`, transformOrigin: 'top left' }}
           >
             <div className="h-full p-8 bg-secondary-70/50">
-              <h3 className="text-xl font-bold text-primary-white mb-4">
+              <h3 className="text-xl font-bold text-primary-white mb-4 lg:mb-2">
                 {project.attributes.title}
               </h3>
-              <p className="text-sm font-bold text-primary-white mb-4">
+              <p className="text-sm font-bold text-primary-white mb-4 lg:mb-2">
                 {project.attributes.portfolioDataOfInterest}
               </p>
-              <p className="text-sm font-bold text-primary-white mb-4">
+              <p className="text-sm font-bold text-primary-white mb-4 lg:mb-2">
                 {project.attributes.portfolioDescription}
               </p>
-              <p className="text-sm text-primary-white mb-4">
+              <p className="text-sm text-primary-white mb-4 lg:mb-6">
                 {project.attributes.caseDescription}
               </p>
               <div className="flex">
@@ -90,14 +91,14 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 <p className="font-sm mx-8 mb-4 text-base">Explore more cases:</p>
               </div>
               <div className="h-1/2 flex flex-row justify-between items-center px-11">
-                <button className="mr-4" onClick={() => handlePrevious()}>
-                  <CustomImage src="/assets/icons/chevronLeft.svg" alt="icon-chevron-left" />
+                <button className="mr-4 text-[32px] xl:text-[40px]" onClick={() => handlePrevious()}>
+                  <ChevronLeftRounded fontSize="inherit" />
                 </button>
                 <Link href="/our-work">
                   <PrismButton>Show more</PrismButton>
                 </Link>
-                <button className="mr-4" onClick={() => handleNext()}>
-                  <CustomImage src="/assets/icons/chevronRight.svg" alt="icon-chevron-right" />
+                <button className="ml-4 text-[32px] leading-tight xl:text-[40px]" onClick={() => handleNext()}>
+                  <ChevronRightRounded fontSize="inherit" />
                 </button>
               </div>
             </div>

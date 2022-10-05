@@ -51,14 +51,14 @@ const Services = () => {
 
   return (
     <section className="relative">
-      <div className="grid md:grid-flow-row lg:grid-cols-12 mb-40 md:mt-10 lg:mt-12">
-        <div className="px-4 md:px-36 lg:col-span-5 lg:px-16">
+      <div className="grid md:grid-flow-row lg:grid-cols-12 mb-40 lg:mb-[200px] xl:mb-60 md:mt-10 lg:mt-12">
+        <div className="px-4 md:px-36 lg:col-span-5 lg:px-16 xl:px-20">
           <div className="flex flex-col">
-            <h1 className="text-3xl font-bold md:text-5xl mb-2">What we offer</h1>
+            <h1 className="text-3xl font-bold md:text-5xl mb-2 xl:mb-4">What we offer</h1>
             <p className="text-base mb-8">Leading the way in meaningful digital products.</p>
           </div>
           <div className="lg:flex flex-col hidden">
-            <p className="font-bold text-2xl mb-6">Have a goal in mind?</p>
+            <p className="font-bold text-2xl mb-6 xl:mb-8">Have a goal in mind?</p>
           </div>
           <div className="hidden w-full lg:grid grid-cols-2 gap-4">
             {services.map((item) => {

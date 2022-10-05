@@ -19,7 +19,7 @@ const WorkCase: React.FC<WorkCaseProps> = ({
           : `w-full flex flex-col-reverse md:flex-row-reverse`
       }
     >
-      <div className="md:w-1/2 aspect-square bg-primary-white flex md:justify-center py-6 px-12 flex-col md:px-16 md:py-16 lg:px-32 lg:py-32">
+      <div className="md:w-1/2 aspect-square bg-primary-white flex md:justify-center py-6 px-12 flex-col md:px-16 md:py-16 lg:px-32 lg:py-32 xl:px-[180px] xl:py-[180px]">
         <p className="text-3xl font-bold mb-2 md:mb-4 md:mt-0">{project.title}</p>
         <p className="text-xl font-bold mb-2 md:mb-4">{project.hoverClientName}</p>
         <p className="mb-4 md:mb-8">{project.hoverDescription}</p>
@@ -45,7 +45,7 @@ const WorkCase: React.FC<WorkCaseProps> = ({
       </div>
     </article>
     {project.quote && (
-      <div className="hidden md:flex w-full py-40 lg:py-[200px] flex-col justify-center items-center">
+      <div className="hidden md:flex w-full py-40 lg:py-[200px] xl:py-60 flex-col justify-center items-center">
         <p className="text-4xl font-bold max-w-md text-center">{project.quote}</p>
       </div>
     )}

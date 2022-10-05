@@ -20,7 +20,7 @@ const PrismButton: React.FC<PrismButtonProps> = ({ children, onClick }): JSX.Ele
 
   return (
     <button
-      className="relative group w-12 h-12 aspect-square grid grid-rows-4 grid-cols-4 justify-items-center place-items-center text-primary-black gap-1 lg:gap-0 cursor-pointer"
+      className="relative group w-12 xl:w-[66px] h-12 xl:h-[66px] aspect-square grid grid-rows-4 grid-cols-4 justify-items-center place-items-center text-primary-black gap-1 lg:gap-0 cursor-pointer"
       onMouseEnter={() => setIsExpanded(true)}
       onMouseLeave={() => setIsExpanded(false)}
       onClick={onClick}
