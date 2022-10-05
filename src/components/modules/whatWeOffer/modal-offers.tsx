@@ -1,5 +1,6 @@
 import CustomImage from '@elements/image-component/CustomImage';
 import Logo from '@elements/LogoNavBar/LogoNavBar';
+import { useState } from 'react';
 import { Filter } from './filter-services';
 
 export const ModalOffers = ({
@@ -10,6 +11,9 @@ export const ModalOffers = ({
   buttons,
   setButtons,
 }) => {
+
+  const [selectedModalServices, setSelectedModalServices] = useState(servicesSelected)
+
   return (
     <>
       <div className="z-[99] w-screen h-screen bg-primary-white fixed top-0 p-8 lg:hidden overflow-hidden overflow-y-scroll">
@@ -40,8 +44,8 @@ export const ModalOffers = ({
                   <Filter
                     text={service.text}
                     active={buttons.includes(service.id)}
-                    selected={servicesSelected}
-                    setSelected={setServicesSelected}
+                    selected={selectedModalServices}
+                    setSelected={setSelectedModalServices}
                     setButtons={setButtons}
                     key={'filter' + service.id}
                     item={service}
@@ -52,7 +56,10 @@ export const ModalOffers = ({
             <div className="mb-20 flex lg:hidden">
               <button
                 className="px-6 py-4 border rounded-full"
-                onClick={() => setStateModal((prev) => !prev)}
+                onClick={() => {
+                  setServicesSelected(selectedModalServices)
+                  setStateModal((prev) => !prev)
+                }}
               >
                 Set my goals
               </button>
