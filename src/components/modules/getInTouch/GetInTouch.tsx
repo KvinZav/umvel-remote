@@ -63,13 +63,13 @@ export const GetInTouch = () => {
   return (
     <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-[200px_420px] gap-x-8 grid-rows-2 lg:px-[20%] items-center place-content-center">
       <div className="px-[72px] md:px-0" style={{ gridColumn: '1/2', gridRow: '1/3' }}>
-        <h3 className="font-bold text-[28px] text-center md:text-[58px]">Get in Touch!</h3>
+        <h3 className="font-bold text-b3 text-center ">Get in Touch!</h3>
       </div>
       <div
         className="text-center mb-8 lg:mb-0 lg:text-left"
         style={{ gridColumn: '2/3', gridRow: '1/2' }}
       >
-        <p className="text-base md:text-2xl">
+        <p className="text-s1 md:text-m4">
           Enter your email address, and we’ll get in touch to plan a coffee.
         </p>
       </div>
@@ -92,7 +92,7 @@ export const GetInTouch = () => {
                 placeholder="Email"
                 style={formStyles.input}
               />
-              <p className="text-xs pt-2 px-6" style={formStyles.label}>{currentResponse.message}</p>
+              <p className="text-s4 pt-2 px-6" style={formStyles.label}>{currentResponse.message}</p>
               <button
                 disabled={email.errors.length > 1}
                 className="w-full py-4 px-1 border border-[#000] rounded-[32px] mt-6"
@@ -121,10 +121,10 @@ export const GetInTouch = () => {
                 <SendIcon fill={formStyles.fill} />
               </button>
             </div>
-            <p className={`hidden md:block text-xs pt-2 px-6`} style={formStyles.label}>{currentResponse.message}</p>
+            <p className={`hidden md:block text-s4 pt-2 px-6`} style={formStyles.label}>{currentResponse.message}</p>
           </>
         }
-      {emailSend && <p className="text-xl font-bold text-center lg:text-left">{currentResponse.message}</p>}
+      {emailSend && <p className="text-m5 font-bold text-center lg:text-left">{currentResponse.message}</p>}
       </form>
     </section>
   );
