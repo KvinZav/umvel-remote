@@ -12,9 +12,7 @@ export const Service: FC<ServicePropsTypes> = ({
   dark = false,
   onDetailClick,
 }) => {
-  const { screen } = useWindowSize();
-  console.log(screen);
-  
+  const { screen } = useWindowSize();  
 
   return (
     <article

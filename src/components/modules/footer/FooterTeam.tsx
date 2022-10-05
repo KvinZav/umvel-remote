@@ -30,7 +30,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
       </CardTeam>
       <article
         className="aspect-square hidden md:flex flex-col justify-between border border-secondary-10 
-      border-solid w-[100%] md:w-[50%] p-[15vw] md:p-[8vw_8.5vw_8.5vw_8vw]"
+      border-solid w-[100%] md:w-[50%] p-[15vw] md:p-[8vw_8.5vw_8.5vw_8vw] xl:p-[9.2vw]"
       >
         <div className="self-start">
           <CustomImage

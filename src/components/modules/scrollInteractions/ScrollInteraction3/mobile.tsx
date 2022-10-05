@@ -49,8 +49,8 @@ const MobileScrollInteraction3 = () => {
                       <PrismButton>Our Work</PrismButton>
                     </Link>
                   </div>
-                  <div className="py-[104px] md:mr-7 flex justify-center">
-                    <h2 className="font-bold text-xl">We seamlessly deliver business value.</h2>
+                  <div className="py-[104px] flex justify-center">
+                    <h2 className="font-bold text-xl">We seamlessly deliver<br className="md:hidden"/> business value.</h2>
                   </div>
                 </div>
               </li>

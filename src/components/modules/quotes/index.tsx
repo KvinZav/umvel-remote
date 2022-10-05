@@ -19,8 +19,8 @@ const Quotes = (): JSX.Element => {
     >
       <section className="h-[180vw] flex md:flex-row flex-col flex-wrap md:h-[200vw] lg:h-[50vw] snap-x">
         <article className="bg-primary-white group overflow-hidden h-[50%] md:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto">
-          <div className='p-9'>
-            <h2 className="text-4xl font-bold leading-snug mb-4 xl:text-4xl">
+          <div className='p-4 md:p-12 lg:p-8 xl:p-10'>
+            <h2 className="text-[32px] font-bold leading-tight mb-4 xl:text-4xl">
               Our projects speak for themselves.
             </h2>
             <p className="text-base">
@@ -71,14 +71,14 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
         backgroundColor: color
       }}
     >
-      <div className={`h-full w-full p-9 ${light ? 'text-primary-black' : 'text-primary-white'}`}>
-        <p className="mb-4">{description}</p>
-        <h3 className="font-bold text-[18px] lg:mb-2 ">{title}</h3>
+      <div className={`h-full w-full p-4 md:p-12 lg:p-8 xl:p-10 ${light ? 'text-primary-black' : 'text-primary-white'}`}>
+        <p className="mb-4 leading-snug">{description}</p>
+        <h3 className="font-bold text-[18px] leading-snug lg:mb-2 ">{title}</h3>
         <h4 className="mb-4">{subtitle}</h4>
       </div>
     {id && <div
         className={
-          'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-end items-center px-8 transition ease-in-out duration-700 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
+          'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-end items-center px-8 xl:px-9 transition ease-in-out duration-700 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
         }
       >
         <div>

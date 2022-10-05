@@ -1,5 +1,5 @@
-import Challenge from './challenge';
-import FindUs from './find-us';
+import Challenge from '@modules/letsTalk/challenge';
+import FindUs from '@modules/letsTalk/find-us';
 import Head from 'next/head';
 
 const LetsTalk = () => {
