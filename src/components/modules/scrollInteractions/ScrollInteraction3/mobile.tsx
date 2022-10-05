@@ -18,10 +18,10 @@ const MobileScrollInteraction3 = () => {
   return (
     <section className="grid grid-cols-2 items-start mb-[104px] md:mb-[112px] w-full overflow-x-clip">
       <CustomCard customStyles="flex justify-end items-center p-4">
-        <h1 className="text-[32px] md:text-[58px] font-bold text-right max-w-xs">{left.text}</h1>
+        <h1 className="text-b3 font-bold text-right max-w-xs">{left.text}</h1>
       </CustomCard>
       <CustomCard customStyles="flex justify-start items-center p-4">
-        <h2 className="text-[32px] md:text-[58px] font-bold text-left max-w-xs">
+        <h2 className="text-b3 font-bold text-left max-w-xs">
           <br />
           {right.text.toLowerCase()}
         </h2>
@@ -50,7 +50,7 @@ const MobileScrollInteraction3 = () => {
                     </Link>
                   </div>
                   <div className="py-[104px] flex justify-center">
-                    <h2 className="font-bold text-xl">We seamlessly deliver<br className="md:hidden"/> business value.</h2>
+                    <h2 className="font-bold text-m5">We seamlessly deliver<br className="md:hidden"/> business value.</h2>
                   </div>
                 </div>
               </li>
