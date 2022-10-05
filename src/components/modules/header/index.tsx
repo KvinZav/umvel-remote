@@ -67,11 +67,13 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'home' ? null : link.type === 'button' ? (
-                            <Link href={`/${link.link}`}>
-                        <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
-                          {link.name}
-                          </BasicButton>
-                          </Link>
+                        <Link href={`/${link.link}`}>
+                          <a>
+                            <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
+                              {link.name}
+                            </BasicButton>
+                          </a>
+                        </Link>
                       ) : (
                         <li key={'link-' + link.id}>
                           <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
@@ -131,11 +133,15 @@ const Header = () => {
                     options.map((link) =>
                       link.type === 'button' ? (
                         <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="-ml-6 py-3">
-                          <BasicButton>
-                            <Link
-                              href={`/${link.link}`}
-                            >{link.name}</Link>
-                          </BasicButton>
+                          <Link
+                            href={`/${link.link}`}
+                          >
+                            <a>
+                              <BasicButton>
+                                {link.name}
+                              </BasicButton>
+                            </a>
+                          </Link>
                         </li>
                       ) : (
                         <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="first-line:my-2 py-3">
