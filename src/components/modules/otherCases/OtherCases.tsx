@@ -17,7 +17,7 @@ export const OtherCases = ({ caseData: { otherCases } }: { caseData: CaseAttribu
   return (
     <section className="w-full">
       <div className="w-full mb-[80px]">
-        <h4 className="text-[28px] font-bold text-center">More great cases</h4>
+        <h4 className="text-b4 font-bold text-center">More great cases</h4>
       </div>
       <div className="grid auto-cols-[90vw] md:grid-cols-2 lg:grid-cols-3 grid-rows-1 grid-flow-col overflow-x-auto snap-x mb-[80px]">
         {otherCases.slice(0, numberCases).map((caseData, caseIdx) => (
