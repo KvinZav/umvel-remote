@@ -22,7 +22,7 @@ export const KeyFeatures = ({ data: { title, keyFeatures } }: { data: Feature })
   return (
     <section className="w-full mb-36 md:mb-40 lg:mb-[200px] xl:mb-60">
       <div className="mt-36 md:mt-40 lg:mt-[200px] xl:mt-60 mb-20">
-        <h4 className="text-center font-bold text-2xl md:text-3xl">{title}</h4>
+        <h4 className="text-center font-bold text-b4">{title}</h4>
       </div>
       <div
         className={
@@ -37,8 +37,8 @@ export const KeyFeatures = ({ data: { title, keyFeatures } }: { data: Feature })
           >
             <div className="w-full md:w-1/2 aspect-square flex flex-col justify-between p-6 lg:p-8 border border-[#E6E6E6]">
               <div className="content">
-                <h5 className="text-2xl font-bold mb-2">{keyFeature.title}</h5>
-                <p className="text-base">{keyFeature.content}</p>
+                <h5 className="text-m4 font-bold mb-2">{keyFeature.title}</h5>
+                <p className="text-s2">{keyFeature.content}</p>
               </div>
               <CustomImage
                 src={keyFeature.icon.data.attributes.url}
