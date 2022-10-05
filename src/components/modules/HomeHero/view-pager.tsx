@@ -153,7 +153,7 @@ const ViewPager = ({cases}) => {
               caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
               imageUrl={cases[bottomCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}
-              text={cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
+              text={tablet ? ' ' : cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
               showButton={isMobile}
               messageOnHover={desktop}
             />
@@ -174,7 +174,7 @@ const ViewPager = ({cases}) => {
               }}
               description={cases[topCaseIndex]?.case_of_study.data.attributes.caseDescription}
               imageUrl={cases[topCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}
-              text={cases[topCaseIndex]?.case_of_study.data.attributes.title}
+              text={tablet ? ' ' : cases[topCaseIndex]?.case_of_study.data.attributes.title}
               showButton={isMobile}
               caseId={cases[topCaseIndex]?.case_of_study.data.id}
               messageOnHover={desktop}
