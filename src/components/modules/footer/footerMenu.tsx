@@ -35,13 +35,13 @@ export const FooterMenu = () => {
                 </Link>
               ))}
             </div>
-            <BasicButton>
-              <Link href={'/lets-talk'}>
-                <a>
+            <Link href={'/lets-talk'}>
+              <a>
+                <BasicButton>
                   {"Let's Talk!"}
-                </a>
-              </Link>
-            </BasicButton>
+                </BasicButton>
+              </a>
+            </Link>
           </div>
         </div>
         <hr className="text-[#E6E6E6] hidden lg:block mb-8 xl:mb-10" />
