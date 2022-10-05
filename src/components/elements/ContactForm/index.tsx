@@ -68,9 +68,9 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
             <SendIcon fill={error ? '#CE4C4C' : (theme === 'light' ? '#000' : '#fff')} />
           </button>
         </div>
-        <p className={`md:block text-xs pt-2 px-6 text-prisma-red`}>{currentResponse.message}</p>
+        <p className={`md:block text-s4 pt-2 px-6 text-prisma-red`}>{currentResponse.message}</p>
       </div>) :
-        <p className={`mt-16 text-xl font-bold text-center lg:text-left ${theme === 'light' ? 'text-primary-black' : 'text-primary-white'}`}>{currentResponse.message}</p>
+        <p className={`mt-16 text-m5 font-bold text-center lg:text-left ${theme === 'light' ? 'text-primary-black' : 'text-primary-white'}`}>{currentResponse.message}</p>
       }
     </form>
   );
