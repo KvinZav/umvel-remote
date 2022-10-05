@@ -37,7 +37,7 @@ export const Card = React.memo((props: CardInterface) => {
         )}
       </MainContainer>
     );
-  }, (prevProps, nextProps) => prevProps.caseId === nextProps.caseId || prevProps.text === nextProps.text);
+  });
 
 export const CustomCard = ({ children, customStyles = '', borderless = false }) => {
   return (
