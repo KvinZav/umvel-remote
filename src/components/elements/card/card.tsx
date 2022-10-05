@@ -97,7 +97,7 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
       className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 xl:p-11 w-full`}
     >
       <h1
-        className={`group-hover:transition-colors group-hover:duration-500 pb-2 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
+        className={`text-s2 group-hover:transition-colors group-hover:duration-500 pb-2 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
       >
         {text}
       </h1>
@@ -124,13 +124,13 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
         ${styles.textStyles.align === 'end' && 'text-end'}
         ${
           styles.textStyles?.height === 'title' &&
-          'text-[46px] md:text-[78px] lg:text-[98px] font-bold'
+          'text-b1 font-bold'
         }
         ${
           styles.textStyles?.height === 'subtitle' &&
-          'text-[18px] md:text-4xl lg:text-[38px] font-bold max-w-xs'
+          'text-s1 md:text-b4 font-bold max-w-xs xl:max-w-[90%]'
         }
-        ${styles.textStyles?.height === 'paragraph' && 'text-base font-bold'}
+        ${styles.textStyles?.height === 'paragraph' && 'text-s2 font-bold'}
       `}
     >
       {text}
