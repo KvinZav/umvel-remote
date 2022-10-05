@@ -1419,7 +1419,7 @@
           },
           {
             "id": 8,
-            "title": "Arrivia Platform",
+            "title": "Travel Company Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_case.svg"
@@ -3890,7 +3890,7 @@
           },
           {
             "id": 8,
-            "title": "Arrivia Platform",
+            "title": "Travel Company Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
             "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_case.svg"
@@ -3903,7 +3903,7 @@
     "data": {
       "id": 8,
       "attributes": {
-        "title": "Arrivia",
+        "title": "Travel Company",
         "caseDescription": "",
         "primaryColor": "#04A3AC",
         "secondaryColor": null,
@@ -3917,9 +3917,9 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "tc_logo.svg",
-              "alternativeText": "Arrivia Logo",
-              "caption": "Arrivia Logo",
+              "name": "travel_company_logo.svg",
+              "alternativeText": "Travel Company Logo",
+              "caption": "Travel Company Logo",
               "width": 977,
               "height": 673,
               "formats": null,
@@ -3940,9 +3940,9 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "tc_hero_photo.png",
-              "alternativeText": "Arrivia Photo",
-              "caption": "Arrivia Photo",
+              "name": "travel_company_hero_photo.png",
+              "alternativeText": "Travel Company Photo",
+              "caption": "Travel Company Photo",
               "width": 977,
               "height": 673,
               "formats": null,
@@ -3968,9 +3968,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "tc_technical_photo.png",
-                "alternativeText": "Arrivia",
-                "caption": "Arrivia",
+                "name": "travel_company_technical_photo.png",
+                "alternativeText": "Travel Company",
+                "caption": "Travel Company",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -3990,9 +3990,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "Arrivia Challenge.png",
-                "alternativeText": "Arrivia Challenge.png",
-                "caption": "Arrivia Challenge.png",
+                "name": "Travel Company Challenge.png",
+                "alternativeText": "Travel Company Challenge.png",
+                "caption": "Travel Company Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -4015,7 +4015,7 @@
           "technicalInformation": [{
               "id": 1,
               "title": "Client",
-              "content": "Arrivia"
+              "content": "Travel Company"
             },
             {
               "id": 2,
@@ -4256,9 +4256,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "tc_quote_bg.png",
-                "alternativeText": "tc_quote_bg.png",
-                "caption": "tc_quote_bg.png",
+                "name": "travel_company_quote_bg.png",
+                "alternativeText": "travel_company_quote_bg.png",
+                "caption": "travel_company_quote_bg.png",
                 "width": 64,
                 "height": 64,
                 "formats": null,

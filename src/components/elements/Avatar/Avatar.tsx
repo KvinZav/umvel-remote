@@ -11,7 +11,7 @@ export const Avatar = ({
 }) => {
   return (
     <div
-      className={`w-48 h-48 rounded-full ${className}`}
+      className={`w-48 aspect-square rounded-full ${className}`}
       style={{
         backgroundImage: `url('${photo}')`,
         backgroundPosition: 'center',

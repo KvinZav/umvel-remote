@@ -239,7 +239,7 @@
             }
           }, {
             "id": 8,
-            "title": "Arrivia",
+            "title": "Travel Company",
             "hoverDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "hoverClientName": "Website",
             "hoverClientHeading": null,
@@ -249,7 +249,7 @@
               "data": {
                 "id": 1,
                 "attributes": {
-                  "name": "arrivia_mockup.png",
+                  "name": "travel_company_mockup.png",
                   "alternativeText": "Viva Aerobus Logo.png",
                   "caption": "Viva Aerobus Logotype.png",
                   "width": 977,
