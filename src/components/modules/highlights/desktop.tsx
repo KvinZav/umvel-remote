@@ -37,7 +37,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
 
   return (
     <section className="w-full h-[300vh]" ref={container}>
-      <div className="w-full h-screen bg-primary-black sticky top-0 flex justify-center items-center text-4xl text-primary-white">
+      <div className="w-full h-screen bg-primary-black sticky top-0 flex justify-center items-center text-m1 text-primary-white">
         <p
           style={{
             opacity:
@@ -62,16 +62,16 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             style={{ transform: `translateY(${positionCase}px)`, transformOrigin: 'top left' }}
           >
             <div className="h-full p-8 bg-secondary-70/50">
-              <h3 className="text-xl font-bold text-primary-white mb-4 lg:mb-2">
+              <h3 className="text-m3 font-bold text-primary-white mb-4 lg:mb-2">
                 {project.attributes.title}
               </h3>
-              <p className="text-sm font-bold text-primary-white mb-4 lg:mb-2">
+              <p className="text-s1 font-bold text-primary-white mb-4 lg:mb-2">
                 {project.attributes.portfolioDataOfInterest}
               </p>
-              <p className="text-sm font-bold text-primary-white mb-4 lg:mb-2">
+              <p className="text-s2 font-bold text-primary-white mb-4 lg:mb-2">
                 {project.attributes.portfolioDescription}
               </p>
-              <p className="text-sm text-primary-white mb-4 lg:mb-6">
+              <p className="text-s2 text-primary-white mb-4 lg:mb-6">
                 {project.attributes.caseDescription}
               </p>
               <div className="flex">
@@ -87,8 +87,8 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
           >
             <div className="h-full flex flex-col justify-center">
               <div>
-                <h3 className="text-xl font-bold mb-4 mx-8 mt-8">{title}</h3>
-                <p className="font-sm mx-8 mb-4 text-base">Explore more cases:</p>
+                <h3 className="text-m3 font-bold mb-4 mx-8 mt-8">{title}</h3>
+                <p className="mx-8 mb-4 text-s2">Explore more cases:</p>
               </div>
               <div className="h-1/2 flex flex-row justify-between items-center px-11">
                 <button className="mr-4 text-[32px] xl:text-[40px]" onClick={() => handlePrevious()}>

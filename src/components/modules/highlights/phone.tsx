@@ -10,7 +10,7 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
             <>
                 <hr className="mx-12 text-secondary-10"></hr>
                 <div className="h-full aspect-[2/1] flex justify-center items-center">
-                    <h3 className="text-3xl font-bold">
+                    <h3 className="text-m3 font-bold">
                         If you can dream it,
                         <br /> we can make it.
                     </h3>
@@ -76,17 +76,17 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({
         >
             <div className="row-start-1 row-span-1">
                 <div className="h-full p-8 bg-secondary-70/50">
-                    <h3 className="text-xl font-bold text-primary-white mb-4">{title}</h3>
+                    <h3 className="text-m3 font-bold text-primary-white mb-4">{title}</h3>
                     {portfolioDataOfInterest && (
-                        <p className="text-sm font-bold text-primary-white mb-4">{portfolioDataOfInterest}</p>
+                        <p className="text-s1 font-bold text-primary-white mb-4">{portfolioDataOfInterest}</p>
                     )}
                     {portfolioDescription && (
-                        <p className="text-sm font-bold text-primary-white mb-4">{portfolioDescription}</p>
+                        <p className="text-s2 font-bold text-primary-white mb-4">{portfolioDescription}</p>
                     )}
-                    {description && <p className="text-sm text-primary-white mb-4">{description}</p>}
+                    {description && <p className="text-s2 text-primary-white mb-4">{description}</p>}
                     {button && (
                     <div className="flex">
-                        <div className="flex border rounded-full px-4 py-2 text-primary-white text-base">
+                        <div className="flex border rounded-full px-4 py-2 text-primary-white text-s2">
                             <Link href={url}>View Case</Link>
                         </div>
                     </div>

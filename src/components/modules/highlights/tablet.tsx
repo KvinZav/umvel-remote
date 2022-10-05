@@ -20,18 +20,18 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
             >
                 <div className="col-start-1 col-span-1 row-start-1 row-span-1">
                     <div className="h-full p-8 bg-secondary-70/50">
-                        <h3 className="text-xl font-bold text-primary-white mb-4">
+                        <h3 className="text-m3 font-bold text-primary-white mb-4">
                             {project.attributes.title}
                         </h3>
-                        <p className="text-sm font-bold text-primary-white mb-4">
+                        <p className="text-s2 font-bold text-primary-white mb-4">
                             {project.attributes.portfolioDataOfInterest}
                         </p>
-                        <p className="text-sm font-bold text-primary-white mb-4">
+                        <p className="text-s2 font-bold text-primary-white mb-4">
                             {project.attributes.portfolioDescription}
                         </p>
-                        <p className="text-sm text-primary-white mb-4">{project.attributes.caseDescription}</p>
+                        <p className="text-s2 text-primary-white mb-4">{project.attributes.caseDescription}</p>
                         <div className="flex">
-                            <div className="flex border rounded-full px-4 py-2 text-primary-white text-base">
+                            <div className="flex border rounded-full px-4 py-2 text-primary-white text-s2">
                                 <Link href={`/cases/${project.id}`}>View Case</Link>
                             </div>
                         </div>
@@ -40,11 +40,11 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
                 <div className="col-start-2 col-span-1 row-start-1 row-span-1 bg-primary-white">
                     <div className="h-full flex flex-col justify-center ">
                         <div>
-                            <h3 className="text-xl font-bold mb-4 mx-8 mt-8">{title}</h3>
-                            <p className="font-sm mx-8 mb-4">Explore more cases:</p>
+                            <h3 className="text-m3 font-bold mb-4 mx-8 mt-8">{title}</h3>
+                            <p className="text-s2 mx-8 mb-4">Explore more cases:</p>
                         </div>
                         <div className="h-1/2 flex flex-row justify-center items-center ">
-                            <button className="mr-16 text-4xl" onClick={() => handlePrevious()}>
+                            <button className="mr-16 text-m1" onClick={() => handlePrevious()}>
                                 <CustomImage src="/assets/icons/chevronLeft.svg" alt="icon-chevron-right" />
                             </button>
                             <div>
@@ -52,7 +52,7 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
                                     <PrismButton>View all cases</PrismButton>
                                 </Link>
                             </div>
-                            <button className="ml-16 text-4xl" onClick={() => handleNext()}>
+                            <button className="ml-16 text-m1" onClick={() => handleNext()}>
                                 <CustomImage src="/assets/icons/chevronRight.svg" alt="icon-chevron-right" />
                             </button>
                         </div>
