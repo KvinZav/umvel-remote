@@ -138,7 +138,7 @@ const AnimatedTitle = ({ toggled }) => {
           </span>
           <span
             ref={itRef}
-            className={`font-bold text-b3 absolute transition-opacity duration-500 right-0 ${
+            className={`font-bold text-b3 leading-tight absolute transition-opacity duration-500 right-0 ${
               toggled ? 'opacity-100' : 'opacity-0'
             }`}
           >
