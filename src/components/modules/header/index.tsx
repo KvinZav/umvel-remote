@@ -35,7 +35,7 @@ const Header = () => {
     <>
       {!showMenu && (
         <nav className="sticky top-0 z-[99]">
-          <div className="flex justify-between items-center py-6 px-8">
+          <div className="flex justify-between items-center py-6 xl:py-8 px-8">
             <div className="h-6 w-6 md:h-8 md:w-8 ">
               {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
             </div>
@@ -66,7 +66,7 @@ const Header = () => {
                 <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 items-center">
                   {options &&
                     options.map((link) =>
-                      link.type === 'button' ? (
+                      link.type === 'home' ? null : link.type === 'button' ? (
                             <Link href={`/${link.link}`}>
                         <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
                           {link.name}

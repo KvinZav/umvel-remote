@@ -44,13 +44,14 @@ const MainMenuHighlights = () => {
                     height: 'paragraph',
                     align: 'left',
                   },
-                  direction: screen === "md" ? 'col' : 'col-reverse',
+                  direction: (screen === 'sm' || screen === 'xl')  ? 'col-reverse' : 'col',
                 }}
                 text={title}
                 description={caseDescription}
                 imageUrl={imageUrl}
-                showButton={screen === 'sm' || screen === "md"}
+                showButton={screen === 'sm' || screen === "md" || screen === "lg"}
                 messageOnHover={screen !== 'sm' && screen !== "md"}
+                caseId={caseItem.id}
               />
             </div>
           </section>

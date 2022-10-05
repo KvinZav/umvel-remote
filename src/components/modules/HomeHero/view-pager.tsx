@@ -121,7 +121,7 @@ const ViewPager = ({cases}) => {
             text={cases[topCaseIndex]?.Title}
           />
         </div>
-        <div className="absolute right-4 md:right-6 lg:right-8 bottom-4 md:bottom-12 lg:bottom-12">
+        <div className="absolute right-4 md:right-6 lg:right-8 xl:right-11 bottom-4 md:bottom-6 lg:bottom-12 xl:bottom-16">
           <button className="lg:opacity-10 lg:hover:opacity-100" onClick={handlePrevious}>
             <ChevronLeftRounded/>
           </button>
@@ -129,7 +129,7 @@ const ViewPager = ({cases}) => {
             <ChevronRightRounded/>
           </button>
         </div>
-        <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 bottom-4 md:bottom-6 lg:bottom-8 h-1 md:h-2 rounded-full overflow-hidden">
+        <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 xl:inset-x-11 bottom-4 md:bottom-6 lg:bottom-8 xl:bottom-11 h-1 md:h-2 rounded-full overflow-hidden">
           {!isMobile && <animated.div
             className={`bg-secondary-10`}
             style={styles}

@@ -4,8 +4,10 @@ const CasesQuote = ({ caseData }) => {
   return (
     <>
       <div
-        className="grid md:grid-cols-2 grid-cols-1 bg-cover bg-center bg-none"
-        style={{ backgroundImage: 'url(' + quote.photo.data.attributes.url + ')' }}
+        className={`${!quote.body ? 'hidden' : 'grid'} md:grid md:grid-cols-2 grid-cols-1 bg-cover bg-center bg-none`}
+        style={{
+          backgroundImage: 'url(' + quote.photo.data.attributes.url + ')'
+        }}
       >
         <div className="relative aspect-square lg:p-20 md:p-10 p-8 text-primary-white">
           {quote.body && <>
@@ -24,7 +26,10 @@ const CasesQuote = ({ caseData }) => {
       </div>
       <div
         className="md:hidden aspect-square bg-center"
-        style={{ backgroundImage: 'url(' + quote.photo.data.attributes.url + ')' }}
+        style={{
+          backgroundImage: 'url(' + quote.photo.data.attributes.url + ')',
+          backgroundSize: 'cover'
+        }}
       ></div>
     </>
   );

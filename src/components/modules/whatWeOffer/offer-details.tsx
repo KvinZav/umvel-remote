@@ -69,7 +69,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
             <Close />
           </button>
         </section>
-        <section className="relative flex w-full px-7 lg:px-32 pt-28 md:pt-[120px] lg:pt-[136px] flex-grow">
+        <section className="relative flex w-full px-7 lg:px-32 pt-28 md:pt-[120px] lg:pt-[136px] pb-24 md:pb-[120px] flex-grow">
           <button
             className={`border rounded-full p-2 absolute top-[45vh] left-3 md:left-8 lg:left-[134px] text-[18px] leading-[14px] ${
               dark ? 

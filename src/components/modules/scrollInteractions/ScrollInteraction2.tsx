@@ -3,6 +3,7 @@ import useScrollOffset from '@hooks/useScrollOffset';
 import React, { useEffect, useRef, useState } from 'react';
 
 const ScrollInteraction2 = ({ steps }) => {
+
   const isBrowser = typeof window !== 'undefined';
   const innerHeight = isBrowser ? window.innerHeight : 0;
 
@@ -24,12 +25,12 @@ const ScrollInteraction2 = ({ steps }) => {
   return (
     <section
       ref={mainContainerRef}
-      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[350vh] w-full"
+      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[250vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
         <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[30vh]">
           <div className="lg:flex-1 flex items-end md:items-start md:justify-end mr-4">
-            {isDesktop && topPosition < 500 && (
+            {isDesktop && topPosition < 800 && (
               <div className="grid grid-cols-3 gap-2">
                 <div />
                 <Block scale={scaleValue / 500 + 1} translate={scaleValue * (0.6 / 5)}>

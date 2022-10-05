@@ -32,13 +32,13 @@ const  CasesHeroMobile = (props: CasesHeroProps) => {
           <Image
             width="200"
             height="42"
-            layout="fixed"
+            layout="responsive"
             url={logo.data.attributes.url}
             alt={logo.data.attributes.alternativeText}
           />
           <h1 className="text-xl mt-8 mb-2">{portfolioTitle}</h1>
           <h2 className="font-bold text-[28px]">{portfolioDescription}</h2>
-          <div className="flex flex-wrap mt-4 space-x-4 space-y-4">
+          <div className="flex mt-4 gap-2">
             {challenge.callToAction.map((item, index) => (
               <a
                 key={'action-' + index}

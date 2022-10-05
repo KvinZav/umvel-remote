@@ -5,7 +5,8 @@ import Image from '@elements/image-component/index';
 import Link from 'next/link';
 import { isColorLight } from '@utils/colorUtils';
 
-export const Card = (props: CardInterface) => {
+//eslint-disable-next-line react/display-name
+export const Card = React.memo((props: CardInterface) => {
     const {
       styles,
       imageUrl,
@@ -36,7 +37,7 @@ export const Card = (props: CardInterface) => {
         )}
       </MainContainer>
     );
-  };
+  }, (prevProps, nextProps) => prevProps.caseId === nextProps.caseId || prevProps.text === nextProps.text);
 
 export const CustomCard = ({ children, customStyles = '', borderless = false }) => {
   return (
@@ -67,7 +68,7 @@ const MainContainer = ({ children, styles, messageOnHover, descriptionOnly }) =>
           min-h-full
           flex
           w-full
-          ${messageOnHover || descriptionOnly ? `p-0` : 'p-4'}
+          ${messageOnHover || descriptionOnly ? `p-0` : 'p-4 xl:p-[23px]'}
           ${styles.direction === 'col' ? 'flex-col' : 'flex-col-reverse'}
           ${styles.direction === 'col' && !styles.textPositionHorizontal && 'justify-start'} 
           ${styles.direction === 'col-reverse' && !styles.textPositionHorizontal && 'justify-end'} 
@@ -93,7 +94,7 @@ const MainGraphic = ({ imageUrl }) => (
 const TitleComponent = ({ text, description, showButton, styles, id, isLight }) => {
   return description ? (
     <div
-      className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 w-full`}
+      className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 xl:p-11 w-full`}
     >
       <h1
         className={`group-hover:transition-colors group-hover:duration-500 pb-2 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
@@ -102,7 +103,7 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
       </h1>
       {showButton && (
         <Link href={'/cases/' + id}>
-          <BasicButton theme="light">View Case</BasicButton>
+          <BasicButton theme={isLight ? "light" : "dark"}>View Case</BasicButton>
         </Link>
       )}
       <div
@@ -140,7 +141,7 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
 export const DescriptionComponent = ({ text, description, styles, id }) => {
   return (
     <div
-      className={`flex flex-col justify-center transition-[background-color] duration-500 bg-primary-black bg-opacity-50 p-8 w-full h-full`}
+      className={`flex flex-col justify-center transition-[background-color] duration-500 bg-primary-black bg-opacity-50 p-8 xl:p-11 w-full h-full`}
     >
       <h1 className={`mb-2 font-bold text-primary-white`}>{text}</h1>
       <p className="text-primary-white mb-4">{description}</p>

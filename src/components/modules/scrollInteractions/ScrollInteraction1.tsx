@@ -30,11 +30,8 @@ const ScrollInteraction1 = () => {
     setBoundsTop(rightTextRefs.current.map((i) => i.getBoundingClientRect().top));
     setRightTextOpacities(refsOpacity);
     setCurrentStep(refsOpacity.findIndex((i) => i > 0.2));
+    setIsTitleAnimToggled(rightTextRefs.current[rightTextRefs.current.length - 1].getBoundingClientRect().top >= -100);
   }, [scrollOffset]);
-
-  useEffect(() => {
-    setIsTitleAnimToggled(currentStep === 3);
-  }, [currentStep]);
 
   const { data: event } = useSWR(environment.HOME_URL);
   if (!event) return null;
@@ -46,9 +43,9 @@ const ScrollInteraction1 = () => {
       className={`flex flex-col items-center lg:block px-[72px] md:px-36 lg:px-0 pt-[104px] md:pt-[200px] pb-0 md:pb-[200px] lg:pt-0`}
       ref={containerRef}
     >
-      <div className={`flex flex-col lg:flex-row pr-8 lg:sticky top-0 lg:h-screen lg:items-center`}>
+      <div className={`flex flex-col lg:flex-row lg:sticky top-0 lg:h-screen lg:items-center`}>
         {isDesktop ? (
-          <div className="w-1/2">
+          <div className="w-1/2 pr-4">
             <AnimatedTitle toggled={isTitleAnimToggled} />
           </div>
         ) : (
@@ -66,7 +63,7 @@ const ScrollInteraction1 = () => {
                 <div
                   key={n + ''}
                   ref={(el) => (rightTextRefs.current[n] = el)}
-                  className={`flex snap-start w-[50vw] h-screen items-center`}
+                  className={`flex snap-start w-[50vw] h-screen items-center pl-4`}
                   style={{
                     opacity: boundsTop[boundsTop.length -1] > 0 ? rightTextOpacities[n] : 1,
                     transform: boundsTop[0] < 0 && boundsTop[boundsTop.length -1] > 0 ? `translateY(${1 - boundsTop[n] * 0.3}px)` : '',
