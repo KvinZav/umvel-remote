@@ -33,7 +33,7 @@ export const ModalOffers = ({
         </div>
         <div className="flex flex-col justify-center items-center">
           <div className="w-full md:w-3/5">
-            <p className="text-5xl font-bold mb-6">What we offer</p>
+            <p className="text-b3 font-bold mb-6">What we offer</p>
             <div className="grid grid-cols-2 gap-4 mb-12">
               {services.map((service) => {
                 return (
