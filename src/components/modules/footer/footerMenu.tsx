@@ -31,7 +31,7 @@ export const FooterMenu = () => {
             <div className="flex lg:items-center flex-col lg:flex-row my-6 lg:m-0">
               {links.map((menuItem, index) => (
                 <Link href={`/${menuItem.link}`} key={`menu-item-footer-${index}`}>
-                  <a className="text-s2 leading-tight py-4 lg:px-6">{menuItem.name}</a>
+                  <a className="text-s2 leading-tight py-4 lg:px-6 xl:px-7">{menuItem.name}</a>
                 </Link>
               ))}
             </div>
@@ -46,7 +46,7 @@ export const FooterMenu = () => {
         </div>
         <hr className="text-[#E6E6E6] hidden lg:block mb-8 xl:mb-10" />
         <div className="flex justify-between flex-col lg:flex-row">
-          <div className="flex gap-8 flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
+          <div className="flex gap-8 xl:gap-[52px] flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
             {socialNetworks.map((socialNetwork, index) => (
               <a
                 className="text-s3 leading-tight"
@@ -59,7 +59,7 @@ export const FooterMenu = () => {
               </a>
             ))}
           </div>
-          <div className="flex text-s3 flex-col md:flex-row gap-8 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
+          <div className="flex text-s3 flex-col md:flex-row gap-8 xl:gap-10 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
             <Link href="privacy-policy">
               <a>Privacy Policy</a>
             </Link>
