@@ -27,9 +27,7 @@ const OurOffering = () => {
       <UmvelCard darkTheme={true}>
         <div className="p-12 lg:p-[max(10%_128px)]">
           <h1 className="mb-6 font-bold text-b3">
-            Meet us
-            <br className="hidden lg:inline" />
-            in real life
+            Meet us <br className="hidden lg:inline" />in real life
             <br />
             (or on Zoom ;)
           </h1>
