@@ -62,12 +62,12 @@ const ScrollInteraction2 = ({ steps }) => {
             )}
           </div>
           <div className="lg:flex-1 lg:ml-4">
-            <h1 className="font-bold text-b4 max-w-xs mb-6">
+            <h1 className="font-bold text-b4 max-w-xs xl:max-w-[592px] mb-6">
               {steps[0].right.identifier.replace(/\*/g, '')}
             </h1>
             {/* TODO: Connect to CMS when texts are fixed */}
             <p
-              className={`text-s1 leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${
+              className={`text-s1 leading-tight md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
                 scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'
               }`}
             >
@@ -77,7 +77,7 @@ const ScrollInteraction2 = ({ steps }) => {
             </p>
             <br />
             <p
-              className={`text-s1 leading-tight md:w-[344px] lg:w-[418px] transition-opacity duration-500 ease-in ${
+              className={`text-s1 leading-tight md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
                 scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'
               }`}
             >
