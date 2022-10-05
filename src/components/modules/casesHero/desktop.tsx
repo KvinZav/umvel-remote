@@ -9,7 +9,7 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
 
   return (
     <section className="grid grid-cols-3">
-      <div className="col-span-1 aspect-square flex flex-col justify-center px-12 border border-secondary-10">
+      <div className="col-span-1 aspect-square flex flex-col justify-center px-12 xl:px-16 border border-secondary-10">
         <h1 className="text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">
           {portfolioTitle}
         </h1>
@@ -45,8 +45,8 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
           />
         </div>
       </div>
-      <div className="col-span-1 aspect-square p-12 bg-primary-black text-primary-white">
-        <h2 className="mb-2 text-xl md:text-2xl lg:text-[28px] md:leading-tight lg:leading-snug">
+      <div className="col-span-1 aspect-square p-12 xl:p-14 bg-primary-black text-primary-white">
+        <h2 className="mb-2 xl:mb-4 text-[28px] leading-snug">
           {challenge.title}
         </h2>
         <p dangerouslySetInnerHTML={{ __html: challenge.content }}/>

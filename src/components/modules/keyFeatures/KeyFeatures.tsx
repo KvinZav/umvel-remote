@@ -20,8 +20,8 @@ export const KeyFeatures = ({ data: { title, keyFeatures } }: { data: Feature })
   const { parent, image } = useMemo(() => classesByElement(keyFeatures), [keyFeatures]);
 
   return (
-    <section className="w-full">
-      <div className="m-[15%_0px_80px]">
+    <section className="w-full mb-36 md:mb-40 lg:mb-[200px] xl:mb-60">
+      <div className="mt-36 md:mt-40 lg:mt-[200px] xl:mt-60 mb-20">
         <h4 className="text-center font-bold text-2xl md:text-3xl">{title}</h4>
       </div>
       <div

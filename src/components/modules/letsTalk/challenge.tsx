@@ -70,12 +70,12 @@ const Challenge = () => {
   }
 
   return (
-    <div className="aspect-square lg:p-10 md:p-32 px-[72px] pt-7 pb-[132px] md:border-solid md:border-[#e6e6e6] md:border">
-      <p className="md:text-[28px] text-2xl font-bold leading-8">We’re up for the challenge</p>
-      <p className="text-base mt-2">
+    <section className="aspect-square xl:p-20 lg:p-10 md:p-32 px-[72px] pt-7 pb-[132px] md:border-solid md:border-[#e6e6e6] md:border">
+      <h1 className="md:text-[28px] text-2xl font-bold leading-8">We’re up for the challenge</h1>
+      <p className="text-base mt-2 xl:mt-4">
         Provide your details and we’ll get in touch as soon as humanly possible.
       </p>
-      <form className="lg:mt-10 md:mt-12 mt-10" onSubmit={handleSubmit}>
+      <form className="xl:mt-12 lg:mt-10 md:mt-12 mt-10" onSubmit={handleSubmit}>
         <div className="relative w-full">
           <input
             type="text"
@@ -95,7 +95,7 @@ const Challenge = () => {
             </p>
           )}
         </div>
-        <div className="md:flex mt-10">
+        <div className="md:flex mt-10 xl:mt-12">
           <div className="relative  md:w-1/2 w-full md:mr-8 mr-0">
             <input
               type="text"
@@ -116,7 +116,7 @@ const Challenge = () => {
               </p>
             )}
           </div>
-          <div className="relative md:w-1/2 w-full md:mt-0 mt-10 ">
+          <div className="relative md:w-1/2 w-full md:mt-0 mt-10 xl:mt-12">
             <input
               type="text"
               className={
@@ -151,8 +151,8 @@ const Challenge = () => {
           maxLength={500}
         />
         {hasTheFormBeenSubmitted ? (
-          <p className="text-right text-xl leading-6 font-bold lg:mt-10 md:mt-12 mt-10">
-            Your message was successfully sended!
+          <p className="text-right text-xl leading-6 font-bold lg:mt-10 md:mt-12 mt-10 xl:mt-12">
+            Your message was successfully sent!
           </p>
         ) : (
           <div className="lg:mt-10 md:mt-12 mt-10 flex justify-end">
@@ -162,7 +162,7 @@ const Challenge = () => {
           </div>
         )}
       </form>
-    </div>
+    </section>
   );
 };
 

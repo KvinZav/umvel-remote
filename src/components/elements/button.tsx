@@ -11,7 +11,7 @@ const BasicButton = React.forwardRef(
       <button
         ref={ref}
         className={`whitespace-nowrap self-baseline border rounded-full ${
-          small ? 'text-sm py-2 px-4' : 'text-base py-3 px-6'
+          small ? 'text-sm py-2 px-4 xl:py-4 xl:px-6' : 'text-base py-3 px-6'
         } ${
           theme === 'light'
             ? 'lg:hover:bg-primary-black text-primary-black lg:hover:text-primary-white lg:hover:border-primary-black'

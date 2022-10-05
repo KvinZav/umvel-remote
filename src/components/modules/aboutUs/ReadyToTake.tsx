@@ -18,7 +18,7 @@ export const ReadyToTake = () => {
   const { quotes } = infoAboutUs.data?.data?.attributes;
 
   return (
-    <div className="md:overflow-auto md:flex border border-secondary-10 border-solid mt-24 md:mt-52">
+    <div className="md:overflow-auto md:flex border border-secondary-10 border-solid mt-24 md:mt-52 xl:mt-[250px]">
       <div
         className="xl:w-[50%] max-h-[56rem] lg:min-w-[56rem] lg:min-h-[56rem] md:min-w-[38rem] 
           md:min-h-[38rem] flex items-center justify-center"

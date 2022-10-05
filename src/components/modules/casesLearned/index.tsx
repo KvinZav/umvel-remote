@@ -5,7 +5,7 @@ const CasesLearned = ({ caseData }) => {
 
   return (
     <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
-      <div className="aspect-square lg:p-12 md:p-8 p-6 bg-primary-black text-primary-white">
+      <div className="aspect-square p-6 md:p-8 lg:p-12 xl:p-14 bg-primary-black text-primary-white">
         <h1 className="md:text-[28px] text-2xl leading-8 font-bold">{whatWeLearned.title}</h1>
         <p
           className="mt-2 text-base"

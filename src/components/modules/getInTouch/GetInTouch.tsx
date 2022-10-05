@@ -56,7 +56,7 @@ export const GetInTouch = () => {
       setFormStyles(defaultStyles);
       return;
     }
-    setCurrentResponse({ error: false, message: 'Your email was successfully sended!' });
+    setCurrentResponse({ error: false, message: 'Your email was successfully sent!' });
     setEmailSend(true);
   };
 

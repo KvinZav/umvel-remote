@@ -16,9 +16,9 @@ export const FooterMenu = () => {
   const { socialNetworks, links } = FETCHER(event, BlockNameEnum.menu);
 
   return (
-    <section className="p-[15%] lg:p-[10%]">
+    <section className="p-[15%] lg:p-[10%] xl:px-[9.5%] xl:py-[9%]">
       <div className="flex flex-col">
-        <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8">
+        <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8 xl:mb-12">
           <div className="flex items-center gap-4">
             <CustomImage
               src={'assets/images/umvelLogoDark.svg'}
@@ -44,7 +44,7 @@ export const FooterMenu = () => {
             </BasicButton>
           </div>
         </div>
-        <hr className="text-[#E6E6E6] hidden lg:block mb-8" />
+        <hr className="text-[#E6E6E6] hidden lg:block mb-8 xl:mb-10" />
         <div className="flex justify-between flex-col lg:flex-row">
           <div className="flex gap-8 flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
             {socialNetworks.map((socialNetwork, index) => (

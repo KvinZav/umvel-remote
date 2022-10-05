@@ -14,7 +14,7 @@ export const Clients = () => {
   const { title, subtitle, clients } = FETCHER(event, BlockNameEnum.clients);
 
   return (
-    <div className="grid place-content-center py-[104px] md:py-[219px] lg:pt-80 px-[72px] md:px-36 cursor-default">
+    <div className="grid place-content-center py-[104px] md:py-[219px] lg:pt-80 lg:pb-[120px] xl:pb-[160px] xl:pt-[360px] px-[72px] md:px-36 cursor-default">
       <div className="grid gap-y-4 mb-20">
         <ClientsTitle>{title}</ClientsTitle>
         <ClientsSubTitle>{subtitle}</ClientsSubTitle>
