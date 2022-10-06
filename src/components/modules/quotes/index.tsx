@@ -15,10 +15,10 @@ const Quotes = (): JSX.Element => {
 
   return (
     <div
-      className={`h-[180vw] md:h-[200vw] w-screen overflow-hidden overflow-x-scroll snap-x lg:h-[50vw]`}
+      className={`w-full overflow-hidden overflow-x-scroll snap-x`}
     >
-      <section className="h-[180vw] flex md:flex-row flex-col flex-wrap md:h-[200vw] lg:h-[50vw] snap-x">
-        <article className="bg-primary-white group overflow-hidden h-[50%] md:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto">
+      <section className="w-[360%] bg-cases-smart-walk flex md:flex-row flex-row flex-wrap md:w-full">
+        <article className="bg-primary-white group overflow-hidden w-[25%] md:w-1/2 aspect-square snap-center lg:w-1/4">
           <div className='p-4 md:p-12 lg:p-8 xl:p-10'>
             <h2 className="text-m2 font-bold mb-4">
               Our projects speak for themselves.
@@ -66,10 +66,8 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
 
   return (
     <article
-      className={`flex flex-col group overflow-hidden h-[50%] md:h-1/4 aspect-square snap-center lg:h-1/2 lg:w-auto`}
-      style={{
-        backgroundColor: color
-      }}
+      className={`flex flex-col group overflow-hidden w-[25%] md:w-1/2 aspect-square snap-center lg:w-1/4`}
+      style={{backgroundColor: color}}
     >
       <div className={`h-full w-full p-4 md:pb-0 md:p-12 lg:p-8 xl:p-10 ${light ? 'text-primary-black' : 'text-primary-white'}`}>
         <p className="mb-4 text-s2">{description}</p>
