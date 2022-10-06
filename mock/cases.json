@@ -3563,12 +3563,16 @@
             {
               "id": 4,
               "title": "Country",
-              "content": "Colombia"
+              "content": "México"
             }
           ],
           "services": [{
               "id": 1,
               "name": "UI/UX Design"
+            },
+            {
+              "id": 2,
+              "name": "Animation"
             },
             {
               "id": 3,
