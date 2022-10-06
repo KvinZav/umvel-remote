@@ -75,7 +75,7 @@ const Header = () => {
                           </a>
                         </Link>
                       ) : (
-                        <li key={'link-' + link.id} className="hover:animate-bounce">
+                        <li key={'link-' + link.id} >
                           <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
@@ -134,7 +134,7 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
-                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="-ml-6 py-3 hover:motion-safe:animate-bounce">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="-ml-6 py-3">
                           <Link
                             href={`/${link.link}`}
                           >
@@ -146,7 +146,7 @@ const Header = () => {
                           </Link>
                         </li>
                       ) : (
-                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="first-line:my-2 py-3 hover:motion-safe:animate-bounce">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="first-line:my-2 py-3">
                           <Link
                             href={`/${link.link}`}
                           >{link.name}</Link>
