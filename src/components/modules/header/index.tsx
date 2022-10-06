@@ -98,6 +98,8 @@ const Header = () => {
                       title={caseItem.title}
                       imgAttribute={caseItem.image}
                       backgroundColor={caseItem.backgroundColor}
+                      id={caseItem.id}
+                      action={setShowMenu}
                     />
                   ))}
               </div>
@@ -195,18 +197,22 @@ type SquareProps = {
   backgroundColor?: string;
   imgAttribute?: any;
   primaryColor?: string;
+  id?: string | number;
+  action: (e: boolean) => void;
 };
-const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, primaryColor }) => {
+const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, primaryColor,id, action}) => {
   const image = imgAttribute?.data?.attributes;
 
   return (
+    <Link href={`/cases/${id}`}>
     <div
-      className={`h-full w-full group overflow-hidden aspect-square snap-center`}
+      onClick={() => action(false)}
+      className={`h-full w-full group overflow-hidden aspect-square snap-center cursor-pointer`}
       style={{
         backgroundColor
       }}
     >
-      <div className={`h-full w-full p-9`}>
+      <div className={`h-full w-full p-9 transition ease-in-out duration-300 group-hover:-translate-y-[0%] group-hover:scale-1 translate-y-[100%]`}>
         {image && (
           <Image
             url={image.url}
@@ -214,18 +220,20 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
             layout="responsive"
             height={image.height}
             width={image.height}
+            priority={true}
           />
         )}
       </div>
       {title && (
         <div
           className={
-            'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-start px-9 transition ease-in-out duration-500 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
+            'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-start px-9 transition ease-in-out duration-300 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
           }
         >
           <p className={`text-primary-white my-auto`}>{title}</p>
         </div>
       )}
     </div>
+    </Link>
   );
 };
