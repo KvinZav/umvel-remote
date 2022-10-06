@@ -2,12 +2,27 @@ import CustomImage from '@elements/image-component/CustomImage';
 import { Body } from '@interfaces/home-data/home.interface';
 import { CardTeam } from '@elements/card';
 import { Sizes } from '@enums/sizes.enum';
+import { Facebook, LinkedIn, Instagram } from '@mui/icons-material'
 
 const configNames = [
   { size: Sizes.LG, rows: 7, columns: 7 },
   { size: Sizes.MD, rows: 4, columns: 4 },
   { size: Sizes.SM, rows: 4, columns: 4 },
 ];
+
+const socialLinks = [{
+  name: "instagram",
+  icon: <Instagram/>
+},{
+  name: "facebook",
+  icon: <Facebook/>
+},{
+  name: "linkedin",
+  icon: <LinkedIn/>
+},{
+  name: "medium",
+  icon: <img height={24} width={24} src={'/assets/icons/medium.svg'}/>
+}]
 
 export const FooterTeam = ({ data }: { data: Body }) => {
   const {
@@ -40,7 +55,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
           />
           <p className="mt-3 text-m4">{titleRight}</p>
         </div>
-        <div className="flex justify-between self-end text-s3 w-[260px]">
+        <div className="flex justify-between self-end text-s3 w-[200px]">
           {socialNetworks.map((socialNetwork) => (
             <a
               key={socialNetwork.id}
@@ -48,7 +63,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {socialNetwork.name}
+              {socialLinks.find(i => i.name === socialNetwork.name.toLowerCase())?.icon}
             </a>
           ))}
         </div>
