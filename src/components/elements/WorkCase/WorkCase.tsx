@@ -24,7 +24,9 @@ const WorkCase: React.FC<WorkCaseProps> = ({
         <p className="text-s1 font-bold mb-2 md:mb-4">{project.hoverClientName}</p>
         <p className="text-s2 mb-4 md:mb-8">{project.hoverDescription}</p>
         <Link href={project.callToAction || `/cases/${project.id}`}>
-          <BasicButton>View Case</BasicButton>
+          <a>
+            <BasicButton>View Case</BasicButton>
+          </a>
         </Link>
       </div>
       <div
