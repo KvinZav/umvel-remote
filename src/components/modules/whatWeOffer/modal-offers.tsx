@@ -12,7 +12,8 @@ export const ModalOffers = ({
   setButtons,
 }) => {
 
-  const [selectedModalServices, setSelectedModalServices] = useState(servicesSelected)
+  const [selectedModalServices, setSelectedModalServices] = useState(servicesSelected.filter(Boolean));
+  const [selectedModalButtons, setSelectedModalButtons] = useState(buttons.filter(Boolean));
 
   return (
     <>
@@ -24,6 +25,7 @@ export const ModalOffers = ({
           <div
             className="h-5 w-5 md:w-7 md:h-7"
             onClick={() => {
+              setSelectedModalServices([]);
               setStateModal((prev) => !prev);
             }}
           >
@@ -43,12 +45,13 @@ export const ModalOffers = ({
                 return (
                   <Filter
                     text={service.text}
-                    active={buttons.includes(service.id)}
+                    active={selectedModalButtons.includes(service.id)}
                     selected={selectedModalServices}
                     setSelected={setSelectedModalServices}
-                    setButtons={setButtons}
+                    setButtons={setSelectedModalButtons}
                     key={'filter' + service.id}
                     item={service}
+                    buttons={selectedModalButtons}
                   />
                 );
               })}
@@ -57,6 +60,7 @@ export const ModalOffers = ({
               <button
                 className="px-6 py-4 border rounded-full"
                 onClick={() => {
+                  setButtons(selectedModalButtons);
                   setServicesSelected(selectedModalServices)
                   setStateModal((prev) => !prev)
                 }}

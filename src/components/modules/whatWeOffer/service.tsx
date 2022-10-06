@@ -16,7 +16,7 @@ export const Service: FC<ServicePropsTypes> = ({
 
   return (
     <article
-      onClick={screen !== 'xl' ? onDetailClick : null}
+      onClick={screen !== 'xl' && screen !== '2xl' ? onDetailClick : null}
       className={
         dark
           ? 'aspect-square w-1/2 md:w-1/4 lg:min-w-[200px] border border-primary-black flex flex-col p-6 overflow-hidden text-primary-white justify-between bg-primary-black group'
