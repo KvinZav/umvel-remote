@@ -69,21 +69,20 @@ const SquareQuotes: React.FC<SquareQuotesProps> = ({
       className={`flex flex-col group overflow-hidden w-[25%] md:w-1/2 aspect-square snap-center lg:w-1/4`}
       style={{backgroundColor: color}}
     >
-      <div className={`h-full w-full p-4 md:pb-0 md:p-12 lg:p-8 xl:p-10 ${light ? 'text-primary-black' : 'text-primary-white'}`}>
-        <p className="mb-4 text-s2">{description}</p>
-        <h3 className="font-bold text-s1 lg:mb-2">{title}</h3>
-        <h4 className="text-s3 mb-4">{subtitle}</h4>
-      </div>
-      {id &&
-        <div className='absolute overflow-hidden h-[5vw] w-1/4 hidden lg:flex translate-y-[20vw]'>
-          <div className="h-full w-full lg:flex justify-end items-center group-hover:translate-y-[0vw] translate-y-[5vw] bg-primary-black bg-opacity-50 px-8 xl:px-9 transition ease-in-out duration-300">
-            <div>
-              <Link href={'/cases/' + id}>
-                <BasicButton theme="dark" small>View Case</BasicButton>
-              </Link>
-            </div>
+      <div className='w-full h-full overflow-hidden '>
+        <div className={`h-full w-full p-4 md:pb-0 md:p-12 lg:p-8 xl:p-10 ${light ? 'text-primary-black' : 'text-primary-white'}`}>
+          <p className="mb-4 text-s2">{description}</p>
+          <h3 className="font-bold text-s1 lg:mb-2">{title}</h3>
+          <h4 className="text-s3 mb-4">{subtitle}</h4>
+        </div>
+        {id&&<div className='w-full hidden lg:flex justify-end items-center bg-primary-black bg-opacity-50 h-1/4 px-8 group-hover:-translate-y-[96%] translate-y-[200%] scale-y-0 group-hover:scale-y-100 transition ease-in-out duration-300'>
+          <div>
+            <Link href={'/cases/' + id}>
+              <BasicButton theme="dark" small>View Case</BasicButton>
+            </Link>
           </div>
         </div>}
+      </div>
       {id && <div className='lg:hidden w-full pb-4 md:pb-12 pl-4 md:pl-12'>
         <Link href={'/cases/' + id}>
           <BasicButton theme={light ? 'light' : 'dark'}>View Case</BasicButton>
