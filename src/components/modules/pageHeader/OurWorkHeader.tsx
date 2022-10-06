@@ -5,7 +5,7 @@ import React from 'react';
 
 export const OurWorkHeader = ({ data, onScrollButtonClick }: { data: Body, onScrollButtonClick: () => any }) => {
   return (
-    <section className="w-full flex flex-col-reverse md:flex-row px-[70px] py-24 md:py-[124px] lg:py-40 xl:py-[211px]">
+    <section className="w-full flex flex-col-reverse md:flex-row px-[70px] py-24 md:py-[124px] lg:py-40 xl:py-[211px] justify-center">
       <div className="flex justify-center items-center lg:items-start md:justify-end lg:ml-10 h-36 md:h-auto lg:pt-6">
         <PrismButton onClick={onScrollButtonClick}>
           <Image url="/assets/icons/arrowDown.svg" width={12} height={12} alt="Down" />
