@@ -12,7 +12,7 @@ export const Tooltip = ({ children, tooltipText }) => {
 
   return (
     <div
-      className="relative flex items-center lg:block hidden"
+      className="relative items-center lg:block hidden group"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -20,7 +20,7 @@ export const Tooltip = ({ children, tooltipText }) => {
         className="absolute bg-primary-black bottom-7 right-0 w-[120px] h-[120px]
         	pointer-events-none	
           text-white justify-center
-          flex items-center transition-all duration-150 opacity-0"
+          flex items-center max-h-0 group-hover:max-h-[120px] transition-[max-height] duration-500 origin-bottom"
         ref={createRef}
       >
         <div className="bg-black absolute rotate-45" />

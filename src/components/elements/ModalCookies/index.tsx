@@ -25,7 +25,7 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
     return showModal && (
         <animated.div
             style={childrenStyle} 
-            className="isolate z-[999] fixed bottom-0 w-full min-h-20 md:pr-4 bg-primary-black flex flex-col md:flex-row items-center justify-between text-primary-white"
+            className="isolate z-[999] fixed bottom-0 w-full h-20 min-h-20 md:pr-4 bg-primary-black flex flex-col md:flex-row items-center justify-between text-primary-white"
         >
             <div className="flex items-center">
                 <div className="hidden bg-prisma-cookie h-20 aspect-square lg:flex justify-center items-center">
@@ -44,9 +44,9 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
             </div>
             <div className="flex flex-row items-center md:text-sm lg:text-base ">
                 <Link href="about:blank">
-                    <button className="border rounded-full px-6 py-3 mr-4" onClick={handleLeave}>Leave website</button>
+                    <button className="border rounded-full px-6 py-3 mr-4 lg:hover:bg-prisma-cookie lg:hover:text-primary-black" onClick={handleLeave}>Leave website</button>
                 </Link>
-                <button className="border rounded-full px-6 py-3 bg-prisma-cookie text-primary-black" onClick={handleAccept}>Accept cookies</button>
+                <button className="border rounded-full px-6 py-3 bg-prisma-cookie text-primary-black lg:hover:bg-primary-black lg:hover:text-prisma-cookie" onClick={handleAccept}>Accept cookies</button>
             </div>
         </animated.div>
     )

@@ -128,7 +128,7 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
         }
         ${
           styles.textStyles?.height === 'subtitle' &&
-          'text-s1 md:text-b4 font-bold max-w-xs xl:max-w-[90%]'
+          'text-s1 md:text-b4 font-bold'
         }
         ${styles.textStyles?.height === 'paragraph' && 'text-s2 font-bold'}
       `}

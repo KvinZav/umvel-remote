@@ -91,13 +91,13 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 <p className="mx-8 mb-4 text-s2">Explore more cases:</p>
               </div>
               <div className="h-1/2 flex flex-row justify-between items-center px-11">
-                <button className="mr-4 text-[32px] xl:text-[40px]" onClick={() => handlePrevious()}>
+                <button className="mr-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:-translate-x-1" onClick={() => handlePrevious()}>
                   <ChevronLeftRounded fontSize="inherit" />
                 </button>
                 <Link href="/our-work">
                   <PrismButton>Show more</PrismButton>
                 </Link>
-                <button className="ml-4 text-[32px] leading-tight xl:text-[40px]" onClick={() => handleNext()}>
+                <button className="ml-4 text-[32px] leading-tight xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1" onClick={() => handleNext()}>
                   <ChevronRightRounded fontSize="inherit" />
                 </button>
               </div>
