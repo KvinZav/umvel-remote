@@ -32,14 +32,14 @@ export const HeaderAboutUs = ({ data }) => {
         names={data.names}
       >
         <div
-          className="absolute lg:w-[660px] md:w-[463px] w-[240px] right-[0] left-[0] 
-            top-[15%] mx-auto lg:flex items-end"
+          className="absolute xl:w-[948px] lg:w-[680px] md:w-[463px] w-[240px] right-[0] left-[0] 
+            top-[15%] mx-auto lg:flex items-center"
         >
           <CustomImage
             src={'assets/images/umvelLogoDark.svg'}
             alt={'logo-umvel'}
             className="min-w-[96px] w-[96px] md:min-w-[128px] md:w-[128px] 
-              lg:min-w-[144px] lg:w-[144px] mb-2.5 mx-auto lg:mr-6"
+              lg:min-w-[144px] lg:w-[144px] xl:w-[213px] xl:min-w-[213px] mb-2.5 mx-auto lg:mr-6"
           />
           <div className="lg:text-left text-center">
             <p className="font-bold text-b2">{header?.title}</p>
