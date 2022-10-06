@@ -14,6 +14,7 @@ export const FooterMenu = () => {
   if (!event) return null;
 
   const { socialNetworks, links } = FETCHER(event, BlockNameEnum.menu);
+  const logo = event.data.attributes.header.logo.data.attributes;
 
   return (
     <section className="p-[15%] lg:p-[10%] xl:px-[9.5%] xl:py-[9%]">
@@ -21,7 +22,7 @@ export const FooterMenu = () => {
         <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8 xl:mb-12">
           <div className="flex items-center gap-4">
             <CustomImage
-              src={'assets/images/umvelLogoDark.svg'}
+              src={logo.url}
               alt={'logo-umvel'}
               className="w-8"
             />
