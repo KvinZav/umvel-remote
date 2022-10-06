@@ -71,6 +71,7 @@ const Services = () => {
                   setButtons={setOfferSelected}
                   key={'filter' + item.id}
                   item={item}
+                  buttons={offerSelected}
                 />
               );
             })}
