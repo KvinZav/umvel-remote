@@ -574,7 +574,7 @@
                   "attributes": {
                     "title": "Food Central App focuses on user satisfaction!",
                     "caseDescription": "Food Central App focuses on user satisfaction!",
-                    "primaryColor": "#348181",
+                    "primaryColor": "#538E82",
                     "secondaryColor": null,
                     "createdAt": "2022-08-19T15:43:13.839Z",
                     "updatedAt": "2022-08-19T15:43:16.728Z",
@@ -596,7 +596,7 @@
                           "ext": ".svg",
                           "mime": "image/png",
                           "size": 0.42,
-                          "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/image%204.png",
+                          "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg",
                           "previewUrl": null,
                           "provider": "local",
                           "provider_metadata": null,
