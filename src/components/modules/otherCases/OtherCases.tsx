@@ -15,7 +15,7 @@ export const OtherCases = ({ caseData: { otherCases } }: { caseData: CaseAttribu
   }, [isMd]);
 
   return (
-    <section className="w-full">
+    <section className="w-full mb-20">
       <div className="w-full mb-[80px]">
         <h4 className="text-b4 font-bold text-center">More great cases</h4>
       </div>
