@@ -46,7 +46,7 @@ export const CardTeam = ({
   return (
     <article className={`select-none ${className}`} style={style}>
       <div
-        className="grid h-[100%]"
+        className="grid h-[100%] animate-pulse"
         style={{
           gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
           gridTemplateRows: `repeat(${rows}, minmax(0, 1fr))`,
