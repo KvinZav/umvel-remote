@@ -61,6 +61,7 @@ const WorkCases: React.FC = (): JSX.Element => {
               }`}
             />
             <button
+              style={{backgroundColor: '#fff'}}
               className={`absolute flex -top-[160%] right-0 border border-secondary-10 rounded-full py-3 px-4 space-x-4 justify-center items-center opacity-0 group-hover:opacity-100`}
               onClick={() => handleSmoothScroll(caseIndex)}
             >
