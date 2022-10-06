@@ -50,7 +50,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/vivaApp_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -537,7 +537,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/vivaWeb_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1014,9 +1014,9 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "pbb_hero_photo.png",
-              "alternativeText": "pbb_hero_photo.png",
-              "caption": "pbb_hero_photo.png",
+              "name": "pbb_hero_photo.jpg",
+              "alternativeText": "pbb_hero_photo.jpg",
+              "caption": "pbb_hero_photo.jpg",
               "width": 977,
               "height": 673,
               "formats": null,
@@ -1024,7 +1024,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/pbb_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1475,7 +1475,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "cb_hero_photo.png",
+              "name": "cb_hero_photo.jpg",
               "alternativeText": "Cancer Buddy Photo",
               "caption": "Cancer Buddy Photo",
               "width": 977,
@@ -1485,7 +1485,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/cb_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1966,7 +1966,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "fc_hero_photo.png",
+              "name": "fc_hero_photo.jpg",
               "alternativeText": "Food Central Photo",
               "caption": "Food Central Photo",
               "width": 977,
@@ -1976,7 +1976,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/fc_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2455,7 +2455,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "sw_hero_photo.png",
+              "name": "sw_hero_photo.jpg",
               "alternativeText": "Smart Walk Photo",
               "caption": "Smart Walk Photo",
               "width": 977,
@@ -2465,7 +2465,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/sw_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2968,7 +2968,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "sm_hero_photo.png",
+              "name": "sm_hero_photo.jpg",
               "alternativeText": "Seguros Mundial Photo",
               "caption": "Seguros Mundial Photo",
               "width": 977,
@@ -2978,7 +2978,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/sm_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3457,7 +3457,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "oeio_hero_photo.png",
+              "name": "oeio_hero_photo.jpg",
               "alternativeText": "OEIO Photo",
               "caption": "OEIO Photo",
               "width": 977,
@@ -3467,7 +3467,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/oeio_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3963,7 +3963,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "travel_company_hero_photo.png",
+              "name": "travel_company_hero_photo.jpg",
               "alternativeText": "Travel Company Photo",
               "caption": "Travel Company Photo",
               "width": 977,
@@ -3973,7 +3973,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/tc_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4443,7 +4443,7 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "capa_hero_photo.png",
+              "name": "capa_hero_photo.jpg",
               "alternativeText": "CAPA Photo",
               "caption": "CAPA Photo",
               "width": 977,
@@ -4453,7 +4453,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero_photo.png",
+              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/capa_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
