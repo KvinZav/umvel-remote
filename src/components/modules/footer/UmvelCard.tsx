@@ -1,5 +1,5 @@
 import { CustomCard } from '@elements/card/card';
-import CustomImage from '@elements/image-component/CustomImage';
+import Image from '@elements/image-component';
 import React, { FC } from 'react';
 
 const UmvelCard: FC<{ children?: React.ReactNode; darkTheme: boolean }> = ({
@@ -21,10 +21,12 @@ const UmvelCard: FC<{ children?: React.ReactNode; darkTheme: boolean }> = ({
           <div key={n + ''} className={`border ${darkTheme ? 'border-[#333]' : 'border-[#ccc]'}`} />
         ))}
         <div className="absolute w-full p-[24vw] md:p-[12vw]">
-          <CustomImage
-            src={`/assets/images/${darkTheme ? 'umvelLogo.svg' : 'umvelLogoDark.svg'}`}
+          <Image
+            url={`/assets/images/${darkTheme ? 'umvelLogo.svg' : 'umvelLogoDark.svg'}`}
             alt={'logo-umvel'}
-            className="w-full"
+            width="100%"
+            height="100%"
+            layout="responsive"
           />
         </div>
       </CustomCard>
