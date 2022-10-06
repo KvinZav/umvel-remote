@@ -15,12 +15,12 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
       <div className="flex justify-center ">
         <h2 className="font-bold text-b4 mb-20 mt-36 md:mt-40 lg:mt-[198px] xl:mt-60">Technical information</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full px-[5%] md:px-0">
         <div
-          className="aspect-square w-auto border-secondary-10 bg-cover bg-center hidden lg:flex"
+          className="md:aspect-square w-auto border-secondary-10 bg-cover bg-center hidden lg:flex"
           style={{ backgroundImage: `url(${image.data.attributes.url})` }}
         />
-        <div className="aspect-square w-auto border border-secondary-10 p-8 lg:p-12 xl:p-16 flex flex-col space-y-10">
+        <div className="md:aspect-square w-auto md:border border-secondary-10 p-8 lg:p-12 xl:p-16 flex flex-col space-y-10">
           {technicalInformation.map((infoItem) =>
             infoItem.title.toLowerCase() !== 'client' ? (
               <div key={'tech-info-' + infoItem.id}>
@@ -34,7 +34,7 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
             <p className="font-bold text-m5">{platforms.map((platform) => platform.name).join('/')}</p>
           </div>
         </div>
-        <div className="aspect-square w-auto border border-secondary-10 p-8 lg:p-12 xl:p-16 flex flex-col overflow-y-scroll overflow-hidden">
+        <div className="md:aspect-square w-auto md:border border-secondary-10 p-8 lg:p-12 xl:p-16 flex flex-col overflow-y-scroll overflow-hidden">
           <h3 className="mb-4">Services</h3>
           <div className="flex flex-wrap mb-6">
             {services.map((item) => {
