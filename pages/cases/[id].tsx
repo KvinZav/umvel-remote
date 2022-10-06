@@ -22,11 +22,16 @@ const CasesPage = () => {
   const { data: event } = useSWR(environment.CASES_URL, get, { revalidateOnFocus: false });
   if (!event || typeof id !== 'string') return;
 
-  const caseData = CASE_FETCHER(event, id);
-  if (!caseData) return;
+  const {data, meta} = CASE_FETCHER(event, id);
+  if (!data) return;
+
+  const caseData = data.attributes
 
   return (
     <>
+      <Head>
+        <title>{meta.title}</title>
+      </Head>
       <CasesHero caseData={caseData} />
       <TechnicalInformation caseData={caseData} />
       <DeliveredValue data={caseData.deliverValue} primaryColor={caseData.primaryColor} />

@@ -272,7 +272,9 @@ export interface RightFooterTeam {
   title: string;
 }
 
-export interface Meta {}
+export interface Meta {
+  title: string;
+}
 
 export interface SocialNetWork {
   id: string;
