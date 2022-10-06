@@ -7,4 +7,5 @@ export type ImageProps = {
   className?: string;
   priority?: boolean;
   objectFit?: 'contain' | 'cover' | 'fill' | 'none' | 'scale-down';
+  previewUrl?: string;
 };
