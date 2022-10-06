@@ -220,7 +220,6 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
             layout="responsive"
             height={image.height}
             width={image.height}
-            priority={true}
           />
         )}
       </div>
