@@ -64,28 +64,116 @@
         ],
         "cases": [
           {
-            "id": 0,
-            "title": null,
+            "id": 10,
+            "title": "Viva Aerobus App",
             "backgroundColor": "#40AD4C",
-            "image": null
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "Viva Aerobus Challenge.png",
+                  "alternativeText": "Viva Aerobus Challenge.png",
+                  "caption": "Viva Aerobus Challenge.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           },
           {
             "id": 1,
-            "title": null,
+            "title": "Viva Aerobus Web",
             "backgroundColor": "#2F7C38",
-            "image": null
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "Viva Aerobus Challenge.png",
+                  "alternativeText": "Viva Aerobus Challenge.png",
+                  "caption": "Viva Aerobus Challenge.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_hero1.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           },
           {
             "id": 2,
-            "title": null,
+            "title": "Planet Buyback",
             "backgroundColor": "#6BB7E6",
-            "image": null
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "Planet Buyback Challenge.png",
+                  "alternativeText": "Planet Buyback Challenge.png",
+                  "caption": "Planet Buyback Challenge.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero1.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           },
           {
             "id": 3,
-            "title": null,
+            "title": "Cancer Buddy",
             "backgroundColor": "#F1DE4F",
-            "image": null
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "BMCF Challenge.png",
+                  "alternativeText": "BMCF Challenge.png",
+                  "caption": "BMCF Challenge.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_hero1.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           },
           {
             "id": 4,
@@ -95,17 +183,17 @@
               "data": {
                 "id": 1,
                 "attributes": {
-                  "name": "Food Central Logo.png",
-                  "alternativeText": "Food Central",
-                  "caption": "Food Central",
-                  "width": 500,
-                  "height": 500,
+                  "name": "Food Central Challenge.png",
+                  "alternativeText": "Food Central Challenge.png",
+                  "caption": "Food Central Challenge.png",
+                  "width": 977,
+                  "height": 673,
                   "formats": null,
-                  "hash": "Food_Central_Logotype_c2f08b71ea",
-                  "ext": ".png",
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
                   "mime": "image/png",
                   "size": 0.42,
-                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/nav-bar_fc_cases.png",
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_hero1.png",
                   "previewUrl": null,
                   "provider": "local",
                   "provider_metadata": null,
@@ -117,27 +205,115 @@
           },
           {
             "id": 5,
-            "title": null,
+            "title": "Smart Walk",
             "backgroundColor": "#DA3440",
-            "image": null
-          },
-          {
-            "id": 6,
-            "title": null,
-            "backgroundColor": "#5B96CD",
-            "image": null
-          },
-          {
-            "id": 7,
-            "title": null,
-            "backgroundColor": "#CBA552",
-            "image": null
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "Smart Walk Challenge.png",
+                  "alternativeText": "Smart Walk Challenge.png",
+                  "caption": "Smart Walk Challenge.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Smart_Walk_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_hero1.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           },
           {
             "id": 8,
-            "title": null,
-            "backgroundColor": "#04A3AC",
-            "image": null
+            "title": "Travel Company",
+            "backgroundColor": "#5B96CD",
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "travel_company_technical_photo.png",
+                  "alternativeText": "Travel Company",
+                  "caption": "Travel Company",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_hero1.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "OEIO",
+            "backgroundColor": "#CBA552",
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "OEIO",
+                  "alternativeText": "OEIO",
+                  "caption": "OEIO",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "OEIO_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_hero1.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Capa",
+            "backgroundColor": "#093998",
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "capa_technical_photo.png",
+                  "alternativeText": "CAPA",
+                  "caption": "CAPA",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Capa_c2f08b71ea",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero1.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
           }
         ]
       },
@@ -570,7 +746,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/viva-web-home.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/viva-web-home.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -608,7 +784,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-planetbuyback.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/portfolio-planetbuyback.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -646,7 +822,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-cancerbuddy.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/portfolio-cancerbuddy.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -684,7 +860,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-foodcentral.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/portfolio-foodcentral.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -722,7 +898,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-smartwalk.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/portfolio-smartwalk.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -744,7 +920,7 @@
                       "publishedAt": "2022-08-19T15:43:23.633Z",
                       "portfolioTitle": "Seguros Mundial",
                       "portfolioDescription": null,
-                      "portfolioDataOfInterest": "A digital experiene for both renter’s and owner’s insurance",
+                      "portfolioDataOfInterest": "A digital experience for both renter’s and owner’s insurance",
                       "image": {
                         "data": {
                           "id": 1,
@@ -760,7 +936,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/seguros-home.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/seguros-home.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -798,7 +974,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-oeio.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/portfolio-oeio.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -836,7 +1012,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-tc.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/portfolio-tc.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",
@@ -874,7 +1050,7 @@
                             "mime": "image/png",
                             "size": 0.42,
                             "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio-capa.png",
-                            "previewUrl": null,
+                            "previewUrl": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/portfolio_placeholder/portfolio-capa.png",
                             "provider": "local",
                             "provider_metadata": null,
                             "createdAt": "2022-08-19T15:35:22.751Z",

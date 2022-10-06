@@ -118,6 +118,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 layout="intrinsic"
                 height={imgAttributes.height}
                 width={imgAttributes.width}
+                previewUrl={imgAttributes.previewUrl}
               />
             )}
           </div>

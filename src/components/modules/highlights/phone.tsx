@@ -101,6 +101,7 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({
                         layout="intrinsic"
                         width={imgAttributes.width}
                         height={imgAttributes.height}
+                        previewUrl={imgAttributes.previewUrl}
                     />
                 </div>
             )}

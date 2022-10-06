@@ -7,5 +7,5 @@ export const FETCHER = (response: HomeDataInterface, blockName: BlockNameEnum) =
 };
 
 export const CASE_FETCHER = (response: CasesDataInterface, id: string) => {
-  return response.cases.find((caseItem) => caseItem.data.id.toString() === id)?.data.attributes;
+  return response.cases.find((caseItem) => caseItem.data.id.toString() === id);
 };

@@ -3,7 +3,7 @@ import { ImageProps } from '@type/components/Image.type';
 import NextImage from 'next/image';
 import { FC } from 'react';
 
-const Image: FC<ImageProps> = ({ alt, width, height, url, layout = 'fixed', priority, objectFit = "contain", ...props }) => {
+const Image: FC<ImageProps> = ({ alt, width, height, url, layout = 'fixed', priority, objectFit = "contain", previewUrl, ...props }) => {
   return (
     <NextImage
       width={width}
@@ -13,6 +13,8 @@ const Image: FC<ImageProps> = ({ alt, width, height, url, layout = 'fixed', prio
       alt={alt || ''}
       layout={layout}
       priority={priority}
+      placeholder={previewUrl ? "blur" : "empty"}
+      blurDataURL={previewUrl}
       {...props}
     />
   );
