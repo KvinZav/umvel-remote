@@ -66,6 +66,7 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
                             layout="intrinsic"
                             height={imgAttribute.height}
                             width={imgAttribute.height}
+                            previewUrl={imgAttribute.previewUrl}
                         />
                     )}
                 </div>
