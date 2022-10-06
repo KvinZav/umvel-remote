@@ -4620,8 +4620,8 @@
           "title": "Key features",
           "keyFeatures": [{
               "id": 1,
-              "title": "Track all financial metrics for your portfolio ",
-              "content": "",
+              "title": "Visual portfolio overview",
+              "content": "Trends, growth and changes to clients’ portfolios are communicated by rich visuals, reducing cognitive load.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4648,8 +4648,8 @@
             },
             {
               "id": 2,
-              "title": "Track all financial metrics for your portfolio ",
-              "content": "",
+              "title": "Digital onboarding",
+              "content": "A fully digital onboarding allows for beginning investors to be onboarded quick and efficiently.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4676,8 +4676,8 @@
             },
             {
               "id": 3,
-              "title": "Versatile admin tools",
-              "content": "",
+              "title": "Easy platform sync",
+              "content": "Our client can sync  news fund and asset information on the platform, with the click of a button.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4704,8 +4704,8 @@
             },
             {
               "id": 4,
-              "title": "Automated and real-time information",
-              "content": "",
+              "title": "A variety of investments",
+              "content": "Properties, packages or a funds? Investors can easily select what fits their needs best.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4732,8 +4732,8 @@
             },
             {
               "id": 5,
-              "title": "Rich, visual information",
-              "content": "",
+              "title": "Brand new look and feel",
+              "content": "We applied a minimal, sleek and toned down visual language, serving the platform’s content.",
               "icon": {
                 "data": {
                   "id": 1,
