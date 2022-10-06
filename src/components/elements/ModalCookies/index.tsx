@@ -25,7 +25,7 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
     return showModal && (
         <animated.div
             style={childrenStyle} 
-            className="isolate z-[999] fixed bottom-0 w-full h-20 min-h-20 md:pr-4 bg-primary-black flex flex-col md:flex-row items-center justify-between text-primary-white"
+            className="isolate z-[999] fixed bottom-0 w-full lg:h-20 min-h-20 md:pr-4 pb-4 md:pb-0 bg-primary-black flex flex-col md:flex-row items-center justify-between text-primary-white"
         >
             <div className="flex items-center">
                 <div className="hidden bg-prisma-cookie h-20 aspect-square lg:flex justify-center items-center">
