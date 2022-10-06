@@ -1577,21 +1577,21 @@
             {
               "id": 3,
               "title": "Year",
-              "content": "2020 - Ongoing"
+              "content": "2021 - Ongoing"
             },
             {
               "id": 4,
               "title": "Country",
-              "content": "Mexico"
+              "content": "US & Canada"
             }
           ],
           "services": [{
               "id": 1,
-              "name": "Repositories"
+              "name": "Devops"
             },
             {
               "id": 2,
-              "name": "Micro-services"
+              "name": "Backend"
             },
             {
               "id": 3,
@@ -1603,8 +1603,12 @@
             }
           ],
           "platforms": [{
-            "id": 5,
-            "name": "Web"
+            "id": 1,
+            "name": "IOS"
+          },
+          {
+            "id": 2,
+            "name": "Android"
           }],
           "image": {
             "data": {
