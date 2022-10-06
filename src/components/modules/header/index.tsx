@@ -212,7 +212,7 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
         backgroundColor
       }}
     >
-      <div className={`h-full w-full p-9 transition ease-in-out duration-300 group-hover:-translate-y-[0%] group-hover:scale-1 translate-y-[100%]`}>
+      <div className={`h-full w-full p-9 transition ease-in-out duration-300 group-hover:-translate-y-[10%] group-hover:scale-1 translate-y-[100%]`}>
         {image && (
           <Image
             url={image.url}
