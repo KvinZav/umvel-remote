@@ -28,7 +28,7 @@ const ScrollInteraction2 = ({ steps }) => {
       className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[250vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
-        <div className="flex flex-col md:flex-row w-full lg:h-screen justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[30vh]">
+        <div className="flex flex-col md:flex-row w-full lg:h-screen lg:mb-52 justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[30vh]">
           <div className="lg:flex-1 flex items-end md:items-start md:justify-end mr-4">
             {isDesktop && topPosition < 800 && (
               <div className="grid grid-cols-3 gap-2">

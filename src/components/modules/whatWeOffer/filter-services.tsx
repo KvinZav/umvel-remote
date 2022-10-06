@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export const Filter = ({ text, active, selected, setSelected, item, setButtons }) => {
+export const Filter = ({ text, active, selected, setSelected, item, buttons, setButtons }) => {
   const [isActive, setIsActive] = useState<boolean>(false);
   useEffect(() => {
     active && setIsActive(true);
@@ -12,13 +12,11 @@ export const Filter = ({ text, active, selected, setSelected, item, setButtons }
         delete removeFilter[removeFilter.indexOf(item)];
       });
       setSelected(removeFilter.filter(Boolean));
-      setButtons((prev) => {
-        return prev.filter((item) => item === item.id);
-      });
+      setButtons(buttons.filter((actual) => actual !== item.id));
     }
     if (!isActive) {
-      setSelected([...selected, ...item.items]);
-      setButtons((prev) => [...prev, item.id]);
+      setSelected([...selected.filter(Boolean), ...item.items]);
+      setButtons([...buttons, item.id]);
     }
     setIsActive(!isActive);
   };
