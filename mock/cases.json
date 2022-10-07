@@ -62,7 +62,7 @@
         "challenge": {
           "id": 1,
           "title": "The Challenge",
-          "content": "Viva Aerobus is one of the largest low-cost airline in Mexico. It has over one million passengers monthly, and is the fastest-growing airline globally. We were tasked to develop a best-in-class digital experience for its customers across the world. Our team was able to enhance and simplify the airline booking experience in a responsive, fast and well integrated website.",
+          "content": "Next to developing Viva’s Aerobus website, Umvel was tasked to create a fun, convenient, and user-friendly mobile application. This app allows travelers to book and manage their trips in a variety of ways. We created the mobile digital strategy, the design, and all development, with a special focus on leveraging native iOS and Android features.",
           "callToAction": [{
             "id": 12,
             "action": {
@@ -142,15 +142,15 @@
           ],
           "services": [{
               "id": 1,
-              "name": "Repositories"
+              "name": "UX/UI Design"
             },
             {
               "id": 2,
-              "name": "Web development"
+              "name": "Devops"
             },
             {
               "id": 3,
-              "name": "Micro-services"
+              "name": "Animation"
             },
             {
               "id": 4,
@@ -159,7 +159,10 @@
           ],
           "platforms": [{
             "id": 5,
-            "name": "Web"
+            "name": "Android"
+          },{
+            "id": 1,
+            "name": "IOS"
           }],
           "image": {
             "data": {
@@ -190,20 +193,20 @@
           "title": "Delivered Client Value",
           "list": [{
               "id": 1,
-              "title": "A truly native experience",
-              "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience.",
+              "title": "A bespoke experience for two platforms",
+              "content": "One of the critical objectives for this project was to create unique design patterns for both Android and iOS users, taking advantage of native elements and components. The object Manager feature is an example of a custom UI component that was adapted to work with native elements from each OS, and their specific interface guidelines.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
             },
             {
               "id": 2,
-              "title": "Increased Conversions",
-              "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time.",
+              "title": "An on-the-go, intuitive experience",
+              "content": "Making an impact in the ecosystem: The app reached 10k+ downloads within the first 2 weeks since launching, and is found in the Top 5 travel apps in the app stores, with a rating of 4.8 stars.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
             },
             {
               "id": 3,
-              "title": "Rapid Deployment",
-              "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).",
+              "title": "Immediate impact in the travel ecosystem",
+              "content": "Direct, short UX paths to key information – such as boarding passes and passenger info – all from travelers’ fingertips.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
             }
           ]
@@ -1574,21 +1577,21 @@
             {
               "id": 3,
               "title": "Year",
-              "content": "2020 - Ongoing"
+              "content": "2021 - Ongoing"
             },
             {
               "id": 4,
               "title": "Country",
-              "content": "Mexico"
+              "content": "US & Canada"
             }
           ],
           "services": [{
               "id": 1,
-              "name": "Repositories"
+              "name": "Devops"
             },
             {
               "id": 2,
-              "name": "Micro-services"
+              "name": "Backend"
             },
             {
               "id": 3,
@@ -1600,8 +1603,12 @@
             }
           ],
           "platforms": [{
-            "id": 5,
-            "name": "Web"
+            "id": 1,
+            "name": "IOS"
+          },
+          {
+            "id": 2,
+            "name": "Android"
           }],
           "image": {
             "data": {
@@ -3563,12 +3570,16 @@
             {
               "id": 4,
               "title": "Country",
-              "content": "Colombia"
+              "content": "Mexico"
             }
           ],
           "services": [{
               "id": 1,
               "name": "UI/UX Design"
+            },
+            {
+              "id": 2,
+              "name": "Animation"
             },
             {
               "id": 3,
@@ -4620,8 +4631,8 @@
           "title": "Key features",
           "keyFeatures": [{
               "id": 1,
-              "title": "Track all financial metrics for your portfolio ",
-              "content": "",
+              "title": "Visual portfolio overview",
+              "content": "Trends, growth and changes to clients’ portfolios are communicated by rich visuals, reducing cognitive load.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4648,8 +4659,8 @@
             },
             {
               "id": 2,
-              "title": "Track all financial metrics for your portfolio ",
-              "content": "",
+              "title": "Digital onboarding",
+              "content": "A fully digital onboarding allows for beginning investors to be onboarded quick and efficiently.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4676,8 +4687,8 @@
             },
             {
               "id": 3,
-              "title": "Versatile admin tools",
-              "content": "",
+              "title": "Easy platform sync",
+              "content": "Our client can sync  news fund and asset information on the platform, with the click of a button.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4704,8 +4715,8 @@
             },
             {
               "id": 4,
-              "title": "Automated and real-time information",
-              "content": "",
+              "title": "A variety of investments",
+              "content": "Properties, packages or a funds? Investors can easily select what fits their needs best.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -4732,8 +4743,8 @@
             },
             {
               "id": 5,
-              "title": "Rich, visual information",
-              "content": "",
+              "title": "Brand new look and feel",
+              "content": "We applied a minimal, sleek and toned down visual language, serving the platform’s content.",
               "icon": {
                 "data": {
                   "id": 1,
