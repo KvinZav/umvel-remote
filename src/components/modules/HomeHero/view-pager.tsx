@@ -27,7 +27,7 @@ const ViewPager = ({cases}) => {
   const [styles, api] = useSpring(() => ({
     from: { width: '0%', height: '100%' },
     to: { width: '100%', height: '100%' },
-    config: { duration: 6000 },
+    config: { duration: 3500 },
   }))
   
   useEffect(() => {
@@ -56,7 +56,7 @@ const ViewPager = ({cases}) => {
         const newIndex = currentCaseIndex >= cases.length - 1 ? 0 : currentCaseIndex + 1
         setCurrentCaseIndex(newIndex)
         setCaseSource(newIndex)
-      }, 6000)
+      }, 3500)
   
       setCurrentTimeout(timeoutId)
     }
