@@ -69,7 +69,7 @@ const Header = () => {
                 id="navbar-default"
                 data-collapse-toggle="navbar-default"
               >
-                <ul className="flex flex-col mt-4 border md:flex-row md:space-x-8 md:mt-0 text-s2 md:font-medium md:border-0 items-center">
+                <ul className="grid grid-cols-4 grid-flow-col mt-4 border md:mt-0 text-s2 md:font-medium md:border-0 items-center hover:box-content">
                   {options &&
                     options.map((link) =>
                       link.type === 'home' ? null : link.type === 'button' ? (
@@ -81,7 +81,7 @@ const Header = () => {
                           </a>
                         </Link>
                       ) : (
-                        <li key={'link-' + link.id} >
+                        <li key={'link-' + link.id} className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold">
                           <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
@@ -136,7 +136,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="h-full flex items-center" id="navbar-default">
-                <ul className="flex flex-col p-4 mt-4 whitespace-nowrap text-m5">
+                <ul className="grid gap-3 grid-flow-cols w-[200px] mt-4 whitespace-nowrap text-m5">
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
@@ -152,7 +152,7 @@ const Header = () => {
                           </Link>
                         </li>
                       ) : (
-                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="first-line:my-2 py-3">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="self-center cursor-pointer transform transition duration-150 hover:scale-105 hover:font-semibold first-line:my-2">
                           <Link
                             href={`/${link.link}`}
                           >{link.name}</Link>

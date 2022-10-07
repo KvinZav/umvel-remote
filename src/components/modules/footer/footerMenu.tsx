@@ -32,7 +32,7 @@ export const FooterMenu = () => {
             <div className="flex lg:items-center flex-col lg:flex-row my-6 lg:m-0">
               {links.map((menuItem, index) => (
                 <Link href={`/${menuItem.link}`} key={`menu-item-footer-${index}`}>
-                  <a className="text-s2 leading-tight py-4 lg:px-6 xl:px-7">{menuItem.name}</a>
+                  <a className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold text-s2 leading-tight py-4 lg:px-6 xl:px-7">{menuItem.name}</a>
                 </Link>
               ))}
             </div>
