@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import useMediaQuery from '@hooks/useMediaQuery';
 import Logo from '@elements/LogoNavBar/LogoNavBar';
 import useSWR from 'swr';
@@ -14,6 +14,8 @@ import Link from 'next/link';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [shouldPeekIdx, setShouldPeekIdx] = useState(-1)
+
   const { data: event } = useSWR(environment.HOME_URL, get, {
     revalidateOnFocus: false,
   });
@@ -21,12 +23,16 @@ const Header = () => {
   const matchMedia = useMediaQuery('(min-width: 1024px)');
   const isVerticalScroll = useVerticalScroll(1);
 
+  
+  const logo = event?.data.attributes.header.logo.data.attributes;
+  const options = event?.data.attributes.header.links;
+  const cases = event?.data.attributes.header.cases;
+
+  useEffect(() => {
+    setShouldPeekIdx(showMenu ? Math.floor(Math.random() * cases.length) : null);
+  }, [showMenu])
+  
   if (!event) return null;
-
-  const logo = event.data.attributes.header.logo.data.attributes;
-  const options = event.data.attributes.header.links;
-  const cases = event.data.attributes.header.cases;
-
   const { socialNetworks } = event.data.attributes.body.find(
     (item) => item.__component === BlockNameEnum.menu
   );
@@ -91,17 +97,17 @@ const Header = () => {
           <div className="w-full h-screen flex">
             {matchMedia && (
               <div className="h-full min-w-[100vh] grid grid-cols-3 grid-rows-3 gap-0">
-                {cases &&
-                  cases.map(caseItem => (
-                    <Square
-                      key={caseItem.id}
-                      title={caseItem.title}
-                      imgAttribute={caseItem.image}
-                      backgroundColor={caseItem.backgroundColor}
-                      id={caseItem.id}
-                      action={setShowMenu}
-                    />
-                  ))}
+                {cases && cases.map((caseItem, caseIndex) => (
+                  <Square
+                    key={caseIndex + ''}
+                    title={caseItem.title}
+                    imgAttribute={caseItem.image}
+                    backgroundColor={caseItem.backgroundColor}
+                    id={caseItem.id}
+                    action={setShowMenu}
+                    shouldPeek={caseIndex === shouldPeekIdx}
+                  />
+                ))}
               </div>
             )}
             <div className="h-full overflow-y-auto min-w-min w-full flex flex-col items-center p-8">
@@ -199,24 +205,43 @@ type SquareProps = {
   primaryColor?: string;
   id?: string | number;
   action: (e: boolean) => void;
+  shouldPeek?: boolean;
 };
-const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, primaryColor,id, action}) => {
+const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, primaryColor, id, action, shouldPeek = false }) => {
   const image = imgAttribute?.data?.attributes;
+
+  const [isHovered, setIsHovered] = useState(false)
+
+  const handleMouseIn = () => setIsHovered(true)
+  const handleMouseOut = () => setIsHovered(false)
+
+  useEffect(() => {
+    if(shouldPeek){      
+      handleMouseIn()
+      setTimeout(() => {
+        handleMouseOut()
+      }, 1000);
+    }
+  }, [shouldPeek])
 
   return (
     <Link href={`/cases/${id}`}>
     <div
       onClick={() => action(false)}
-      className={`h-full w-full group overflow-hidden aspect-square snap-center cursor-pointer`}
+      className={`h-full w-full overflow-hidden aspect-square snap-center cursor-pointer`}
       style={{
         backgroundColor
       }}
+      onMouseEnter={handleMouseIn}
+      onMouseLeave={handleMouseOut}
     >
-      <div className={`h-full w-full p-9 transition ease-in-out duration-300 group-hover:-translate-y-[10%] group-hover:scale-1 translate-y-[100%]`}>
+      <div
+        className={`h-full w-full p-9 transition ease-in-out duration-500  ${isHovered ? '-translate-y-[10%]' : 'translate-y-[100%]'}`}
+      >
         {image && (
           <Image
             url={image.url}
-            alt="proyect"
+            alt="project"
             layout="responsive"
             height={image.height}
             width={image.height}
@@ -226,7 +251,7 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
       {title && (
         <div
           className={
-            'h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-start px-9 transition ease-in-out duration-300 group-hover:-translate-y-[100%] group-hover:scale-1 translate-y-[100%] '
+            `h-1/4 w-auto hidden bg-primary-black bg-opacity-50 lg:flex justify-start px-9 transition ease-in-out duration-500 ${isHovered ? '-translate-y-[100%]' : 'translate-y-[100%]'}`
           }
         >
           <p className={`text-primary-white my-auto`}>{title}</p>
