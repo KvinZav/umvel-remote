@@ -24,7 +24,7 @@ export const Tooltip = ({ children, tooltipText }) => {
         ref={createRef}
       >
         <div className="bg-black absolute rotate-45" />
-        <p className="text-primary-white">{tooltipText}</p>
+        <p className="text-primary-white hidden group-hover:block">{tooltipText}</p>
       </div>
       {children}
     </div>

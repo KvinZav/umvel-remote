@@ -1109,12 +1109,12 @@
             {
               "id": 3,
               "title": "Year",
-              "content": "2020-Ongoing"
+              "content": "2022"
             },
             {
               "id": 4,
               "title": "Country",
-              "content": "Mexico"
+              "content": "Mexico & US"
             }
           ],
           "services": [{
@@ -1136,11 +1136,7 @@
           ],
           "platforms": [{
               "id": 1,
-              "name": "iOS"
-            },
-            {
-              "id": 2,
-              "name": "Android"
+              "name": "Web"
             }
           ],
           "image": {
