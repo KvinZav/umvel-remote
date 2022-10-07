@@ -44,9 +44,9 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
             </div>
             <div className="flex flex-row items-center md:text-sm lg:text-base ">
                 <Link href="about:blank">
-                    <button className="border rounded-full px-6 py-3 mr-4 lg:hover:bg-prisma-cookie lg:hover:text-primary-black" onClick={handleLeave}>Leave website</button>
+                    <button className="border rounded-full px-6 py-3 mr-4 lg:hover:bg-primary-white lg:hover:text-primary-black" onClick={handleLeave}>Leave website</button>
                 </Link>
-                <button className="border rounded-full px-6 py-3 bg-prisma-cookie text-primary-black lg:hover:bg-primary-black lg:hover:text-prisma-cookie" onClick={handleAccept}>Accept cookies</button>
+                <button className="border rounded-full px-6 py-3 bg-prisma-cookie text-primary-black lg:hover:bg-[#FAE9D4]" onClick={handleAccept}>Accept cookies</button>
             </div>
         </animated.div>
     )
