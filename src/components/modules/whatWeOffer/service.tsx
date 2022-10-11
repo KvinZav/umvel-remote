@@ -30,7 +30,7 @@ export const Service: FC<ServicePropsTypes> = ({
           <Icon name={icon as IconNameType} size={32} />
         </div>
         <div className="flex">
-          <p className="text-s3 select-none text-left font-bold">{description}</p>
+          <p className="text-s1 md:text-s2 xl:text-s3 select-none text-left font-bold">{description}</p>
         </div>
       </div>
       <div className="hidden lg:group-hover:flex">
