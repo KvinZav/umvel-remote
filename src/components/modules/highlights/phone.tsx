@@ -9,7 +9,7 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
   if (projects) {
     return (
       <>
-        <hr className="mx-12 text-secondary-10"></hr>
+        <hr className="mx-12 text-secondary-10 mb-[104px]"></hr>
         <div className="h-full aspect-[2/1] flex justify-center items-center">
           <h3 className="text-m3 font-bold">
             If you can dream it,
@@ -76,7 +76,7 @@ const ProjectCard: React.FC<PorjectsCardPropsTypes> = ({
       }}
     >
       <div className="row-start-1 row-span-1">
-        <div className="h-full p-8 bg-secondary-70/50">
+        <div className="h-full p-8 bg-[rgba(0,0,0,0.5)]">
           <h3 className="text-m3 font-bold text-primary-white mb-4">{title}</h3>
           {portfolioDataOfInterest && (
             <p className="text-s1 font-bold text-primary-white mb-4">{portfolioDataOfInterest}</p>
