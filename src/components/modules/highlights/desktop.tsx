@@ -60,7 +60,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             className="col-start-1 col-span-1 row-start-2 row-span-1 aspect-square w-full "
             style={{ transform: `translateY(${positionCase}px)`, transformOrigin: 'top left' }}
           >
-            <div className="h-full p-8 bg-secondary-70/50">
+            <div className="h-full p-8 bg-[rgba(0,0,0,0.5)]">
               <h3 className="text-m3 font-bold text-primary-white mb-4 lg:mb-2">
                 {project.attributes.title}
               </h3>
