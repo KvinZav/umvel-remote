@@ -28,14 +28,10 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
             className="isolate z-[999] fixed bottom-0 w-full lg:h-20 min-h-20 md:pr-4 pb-4 md:pb-0 bg-primary-black flex flex-col md:flex-row items-center justify-between text-primary-white"
         >
             <div className="flex items-center">
-                <div className="hidden bg-prisma-cookie h-20 aspect-square lg:flex justify-center items-center">
-                    <CustomImage
-                        src={"/assets/images/menu-icon.svg"}
-                        alt="menu"
-                        width="60"
-                        height="60"
-                        className="opacity-50"
-                    />
+                <div className="hidden bg-prisma-cookie h-20 aspect-square lg:grid lg:grid-cols-3 lg:grid-rows-3 gap-2 p-2">
+                    {[... new Array(9)].map((_, index) => 
+                        <div key={''+index} className="w-full h-full bg-primary-black opacity-20"/>
+                    )}
                 </div>
                 <div className="flex flex-col justify-center p-4">
                     <p className="text-xl font-bold text-prisma-cookie">We use cookies</p>

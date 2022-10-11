@@ -23,10 +23,12 @@ export const Filter = ({ text, active, selected, setSelected, item, buttons, set
 
   return (
     <button
-      className={
-        isActive
-          ? 'border rounded-lg border-primary-black bg-primary-black text-primary-white p-4'
-          : 'border rounded-lg border-secondary-10 p-4 text-secondary-60'
+      className={`
+        border rounded-lg p-4 flex min-h-[5.5rem] outline-none
+        ${isActive ?
+          'border-primary-black bg-primary-black text-primary-white' :
+          'border-secondary-10 text-secondary-60'
+        }`
       }
       onClick={handleClick}
     >

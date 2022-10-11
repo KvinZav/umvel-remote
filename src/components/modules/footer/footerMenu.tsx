@@ -55,6 +55,7 @@ export const FooterMenu = () => {
                 href={socialNetwork.link}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`Visit Umvel's ${socialNetwork.name}`}
               >
                 {socialNetwork.name}
               </a>

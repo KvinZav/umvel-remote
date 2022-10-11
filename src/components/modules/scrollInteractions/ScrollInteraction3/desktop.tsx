@@ -103,18 +103,18 @@ const DesktopScrollInteraction3 = () => {
                   ref={(el) => (quoteRefs.current[n] = el)}
                 >
                   <div
-                    className={`flex justify-start items-center self-center w-auto py-9 xl:px-10 transition-all duration-1000
+                    className={`flex justify-start items-center self-center w-auto py-9 xl:py-10 transition-all duration-1000
                     ${currentHighlight > n - 2 || currentHighlight === -1
                         ? 'delay-500 translate-y-0 opacity-100'
                         : 'translate-y-24 opacity-[0.15]'
                       }`}
                   >
                     <Link href="/our-work">
-                      <div className="min-w-[48px] min-h-[48px] mr-4 xl:mr-14">
+                      <div className="min-w-[48px] min-h-[48px] ml-10 xl:ml-14 mr-14 xl:mr-[72px]">
                         <PrismButton>Our Work</PrismButton>
                       </div>
                     </Link>
-                    <div className="py-0 mr-7 flex justify-center">
+                    <div className="py-0 flex justify-center">
                       <h2 className="font-bold text-m5">We seamlessly deliver business value.</h2>
                     </div>
                   </div>

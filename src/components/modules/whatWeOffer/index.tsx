@@ -51,8 +51,8 @@ const Services = () => {
 
   return (
     <section className="relative">
-      <div className="grid md:grid-flow-row lg:grid-cols-12 mb-40 lg:mb-[200px] xl:mb-60 md:mt-10 lg:mt-12">
-        <div className="px-4 md:px-36 lg:col-span-5 lg:px-16 xl:px-20">
+      <div className="grid md:grid-flow-row lg:grid-cols-7 mb-40 lg:mb-[200px] xl:mb-60 md:mt-10 lg:mt-12">
+        <div className="px-4 md:px-36 lg:col-span-3 lg:pl-16 lg:pr-[15%] xl:pl-20 xl:pr-36">
           <div className="flex flex-col">
             <h1 className="text-b3 font-bold mb-2 xl:mb-4">What we offer</h1>
             <p className="text-s2 mb-8">Leading the way in meaningful digital products.</p>
@@ -85,7 +85,7 @@ const Services = () => {
             </button>
           </div>
         </div>
-        <div className="lg:col-span-7">
+        <div className="lg:col-span-4">
           <div className="flex flex-row flex-wrap">
             {response.data.offer.map((item) => (
               <Service

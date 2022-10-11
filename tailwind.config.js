@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         'sans': ['Lato'],
       },
-      borderStyle: ['hover'],
+      borderStyle: ['hover']
     },
     colors,
     screens: {

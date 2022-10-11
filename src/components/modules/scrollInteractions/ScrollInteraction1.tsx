@@ -30,7 +30,7 @@ const ScrollInteraction1 = () => {
     setBoundsTop(rightTextRefs.current.map((i) => i.getBoundingClientRect().top));
     setRightTextOpacities(refsOpacity);
     setCurrentStep(refsOpacity.findIndex((i) => i > 0.2));
-    setIsTitleAnimToggled(rightTextRefs.current[rightTextRefs.current.length - 1].getBoundingClientRect().top <= 100);
+    setIsTitleAnimToggled(rightTextRefs.current[rightTextRefs.current.length - 1].getBoundingClientRect().top <= 200);
   }, [scrollOffset]);
 
   const { data: event } = useSWR(environment.HOME_URL);
@@ -40,7 +40,7 @@ const ScrollInteraction1 = () => {
 
   return (
     <section
-      className={`flex flex-col items-center lg:block px-[72px] md:px-36 lg:px-0 pt-[104px] md:pt-[200px] pb-0 md:pb-[200px] lg:pt-0`}
+      className={`flex flex-col items-center lg:block px-[72px] md:px-36 lg:px-0 pt-[104px] md:pt-[200px] pb-0 md:pb-[100px] lg:pt-0`}
       ref={containerRef}
     >
       <div className={`flex flex-col lg:flex-row lg:sticky top-0 lg:h-screen lg:items-center md:max-w-[460px] lg:max-w-full`}>

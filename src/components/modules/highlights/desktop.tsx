@@ -5,7 +5,6 @@ import { HighlightsDesktopPorps } from '@type/modules/highlights';
 import React, { useEffect, useRef, useState } from 'react';
 import useSWR from 'swr';
 import Image from '@elements/image-component';
-import CustomImage from '@elements/image-component/CustomImage';
 import Link from 'next/link';
 import BasicButton from '@elements/button';
 import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
@@ -95,7 +94,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                   <ChevronLeftRounded fontSize="inherit" />
                 </button>
                 <Link href="/our-work">
-                  <PrismButton>Show more</PrismButton>
+                  <PrismButton>Our Work</PrismButton>
                 </Link>
                 <button className="ml-4 text-[32px] leading-tight xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1" onClick={() => handleNext()}>
                   <ChevronRightRounded fontSize="inherit" />

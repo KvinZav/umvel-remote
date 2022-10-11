@@ -130,9 +130,9 @@ const ViewPager = ({cases}) => {
             <ChevronRightRounded fontSize="inherit"/>
           </button>
         </div> */}
-        <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 xl:inset-x-11 bottom-4 md:bottom-6 lg:bottom-8 xl:bottom-11 h-1 md:h-2 rounded-full overflow-hidden">
+        <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 xl:inset-x-11 bottom-4 md:bottom-6 lg:bottom-8 xl:bottom-11 h-1 md:h-2">
           {!isMobile && <animated.div
-            className={`bg-secondary-10`}
+            className={`bg-secondary-10 rounded-full`}
             style={styles}
           />}
         </div>
