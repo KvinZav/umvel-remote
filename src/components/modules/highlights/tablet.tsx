@@ -19,7 +19,7 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
                 }}
             >
                 <div className="col-start-1 col-span-1 row-start-1 row-span-1">
-                    <div className="h-full p-8 bg-secondary-70/50">
+                    <div className="h-full p-8 bg-[rgba(0,0,0,0.5)]">
                         <h3 className="text-m3 font-bold text-primary-white mb-4">
                             {project.attributes.title}
                         </h3>

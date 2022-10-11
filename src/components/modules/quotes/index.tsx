@@ -18,7 +18,7 @@ const Quotes = (): JSX.Element => {
       className={`w-full overflow-hidden overflow-x-scroll snap-x`}
     >
       <section className="w-[360%] bg-cases-smart-walk flex md:flex-row flex-row flex-wrap md:w-full">
-        <article className="bg-primary-white group overflow-hidden w-[25%] md:w-1/2 aspect-square snap-center lg:w-1/4">
+        <article className="bg-primary-white border border-secondary-10 group overflow-hidden w-[25%] md:w-1/2 aspect-square snap-center lg:w-1/4">
           <div className='p-4 md:p-12 lg:p-8 xl:p-10'>
             <h2 className="text-m2 font-bold mb-4">
               Our projects speak for themselves.

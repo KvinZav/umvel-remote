@@ -44,7 +44,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
         dark ? 'bg-primary-black' : 'bg-primary-white'
       } fixed top-0 overflow-hidden overflow-y-scroll`}
     >
-      <section className="relative flex flex-col justify-between" style={{ minHeight: height - 32 }}>
+      <section className="relative flex flex-col justify-between" style={{ minHeight: `${(height || 32) - 32}` }}>
         <section
           className={`absolute w-full top-6 z-50 flex justify-between px-8 ${
             dark ? 'text-primary-white' : 'text-primary-black'
@@ -88,8 +88,9 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
                 <Icon name={icon as IconNameType} size={32} />
                 <h1 className={`text-m3 leading-tight font-bold`}>{name}</h1>
               </div>
-              <p className={`text-s2 ${dark ? 'text-primary-white' : 'text-primary-black'}`}>
-                {description}
+              <p
+                className={`text-s2 ${dark ? 'text-primary-white' : 'text-primary-black'}`}
+                dangerouslySetInnerHTML={{__html:`${description}`}}>
               </p>
               <ul className="flex flex-wrap">
                 {valuePropositions?.map((valueItem, valueIndex) => (

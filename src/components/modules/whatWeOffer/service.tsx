@@ -12,23 +12,25 @@ export const Service: FC<ServicePropsTypes> = ({
   dark = false,
   onDetailClick,
 }) => {
-  const { screen } = useWindowSize();  
+  const { screen } = useWindowSize();
 
   return (
     <article
       onClick={screen !== 'xl' && screen !== '2xl' ? onDetailClick : null}
       className={
-        dark
-          ? 'aspect-square w-1/2 md:w-1/4 lg:min-w-[200px] border border-primary-black flex flex-col p-6 overflow-hidden text-primary-white justify-between bg-primary-black group'
-          : 'aspect-square w-1/2 md:w-1/4 lg:min-w-[200px] border border-secondary-10 flex flex-col p-6 overflow-hidden justify-between group'
+        `aspect-square w-1/2 md:w-1/4 border flex flex-col p-6 overflow-hidden group
+        ${dark ?
+          'border-primary-black text-primary-white bg-primary-black' :
+          'border-secondary-10'
+        }`
       }
     >
-      <div>
+      <div className="mb-4">
         <div className="w-8 aspect-square mb-1">
           <Icon name={icon as IconNameType} size={32} />
         </div>
         <div className="flex">
-          <p className="text-s3 select-none text-left font-bold">{description}</p>
+          <p className="text-s1 md:text-s2 xl:text-s3 select-none text-left font-bold">{description}</p>
         </div>
       </div>
       <div className="hidden lg:group-hover:flex">

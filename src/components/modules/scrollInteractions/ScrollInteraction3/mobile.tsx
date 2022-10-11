@@ -34,7 +34,7 @@ const MobileScrollInteraction3 = () => {
                 <div
                   className={`${
                     n !== 0 && 'border-t border-secondary-10'
-                  } flex items-center h-[88px]`}
+                  } flex items-center py-6 md:py-8`}
                 >
                   <p className={`transition-[font-size] duration-1000`}>{i.replace(/\*/g, '')}</p>
                 </div>
@@ -49,7 +49,7 @@ const MobileScrollInteraction3 = () => {
                       <PrismButton>Our Work</PrismButton>
                     </Link>
                   </div>
-                  <div className="py-[104px] flex justify-center">
+                  <div className="py-[104px] flex w-full">
                     <h2 className="font-bold text-m5">We seamlessly deliver<br className="md:hidden"/> business value.</h2>
                   </div>
                 </div>

@@ -94,10 +94,10 @@ const MainGraphic = ({ imageUrl }) => (
 const TitleComponent = ({ text, description, showButton, styles, id, isLight }) => {
   return description ? (
     <div
-      className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 p-4 lg:p-8 xl:p-11 w-full`}
+      className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 md:p-6 md:pt-4 lg:p-8 xl:p-11 w-full`}
     >
       <h1
-        className={`text-s2 group-hover:transition-colors group-hover:duration-500 pb-2 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
+        className={`min-h-[4rem] text-s2 group-hover:transition-colors group-hover:duration-500 pb-2 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
       >
         {text}
       </h1>

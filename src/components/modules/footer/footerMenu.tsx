@@ -17,7 +17,7 @@ export const FooterMenu = () => {
   const logo = event.data.attributes.header.logo.data.attributes;
 
   return (
-    <section className="p-[15%] lg:p-[10%] xl:px-[9.5%] xl:py-[9%]">
+    <section className="px-[15%] py-20 lg:p-[10%] xl:px-[9.5%] xl:py-[9%]">
       <div className="flex flex-col">
         <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8 xl:mb-12">
           <div className="flex items-center gap-4">
@@ -55,12 +55,13 @@ export const FooterMenu = () => {
                 href={socialNetwork.link}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`Visit Umvel's ${socialNetwork.name}`}
               >
                 {socialNetwork.name}
               </a>
             ))}
           </div>
-          <div className="flex text-s3 flex-col md:flex-row gap-8 xl:gap-10 border-t border-[#E6E6E6] lg:border-0 py-14 lg:py-0">
+          <div className="flex text-s3 flex-col md:flex-row gap-8 xl:gap-10 border-t border-[#E6E6E6] lg:border-0 pt-14 lg:py-0">
             <Link href="privacy-policy">
               <a>Privacy Policy</a>
             </Link>

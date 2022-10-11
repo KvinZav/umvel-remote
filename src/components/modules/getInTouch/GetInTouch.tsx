@@ -62,7 +62,7 @@ export const GetInTouch = () => {
 
   return (
     <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-[200px_420px] xl:grid-cols-[150px_150px_600px] gap-x-8 lg:gap-y-4 grid-rows-2 lg:px-[20%] xl:px-0 items-center place-content-center">
-      <div className="px-[72px] md:px-0 col-span-1 xl:col-span-2 row-span-2 mb-">
+      <div className="md:px-0 col-span-1 xl:col-span-2 row-span-2 mb-2 md:mb-8 lg:mb-0">
         <h3 className="font-bold text-b3 text-center ">Get in touch!</h3>
       </div>
       <div
@@ -90,7 +90,7 @@ export const GetInTouch = () => {
                 placeholder="Email"
                 style={formStyles.input}
               />
-              <p className="text-s4 pt-2 px-6" style={formStyles.label}>{currentResponse.message}</p>
+              {currentResponse.message && <p className="text-s4 pt-2 px-6" style={formStyles.label}>{currentResponse.message}</p>}
               <button
                 disabled={email.errors.length > 1}
                 className="w-full py-4 px-1 border border-[#000] rounded-[32px] mt-6"

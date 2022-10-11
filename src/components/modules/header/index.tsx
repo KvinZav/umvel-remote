@@ -69,7 +69,7 @@ const Header = () => {
                 id="navbar-default"
                 data-collapse-toggle="navbar-default"
               >
-                <ul className="grid grid-cols-4 grid-flow-col mt-4 border md:mt-0 text-s2 md:font-medium md:border-0 items-center hover:box-content">
+                <ul className="grid grid-cols-4 grid-flow-col mt-4 border md:mt-0 text-s2 md:font-medium md:border-0 items-center hover:box-content gap-6 xl:gap-8">
                   {options &&
                     options.map((link) =>
                       link.type === 'home' ? null : link.type === 'button' ? (
@@ -236,7 +236,7 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
       onMouseLeave={handleMouseOut}
     >
       <div
-        className={`h-full w-full p-9 transition ease-in-out duration-500  ${isHovered ? '-translate-y-[10%]' : 'translate-y-[100%]'}`}
+        className={`h-full w-full p-5 transition ease-in-out duration-500  ${isHovered ? '-translate-y-[8%]' : 'translate-y-[100%]'}`}
       >
         {image && (
           <Image

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 type HeadingProps = {
-  children: string;
+  children: string | ReactNode;
 };
 
 export const HighlightTitle = ({ children }: HeadingProps) => (
@@ -11,7 +11,7 @@ export const HighlightTitle = ({ children }: HeadingProps) => (
 );
 
 export const HighlightSubtitle = ({ children }: HeadingProps) => (
-  <h2 className="text-s2 h-10 xl:h-auto">{children}</h2>
+  <h2 className="text-s2 xl:h-auto">{children}</h2>
 );
 
 export const ClientsTitle = ({ children }: HeadingProps) => (
