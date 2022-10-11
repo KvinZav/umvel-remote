@@ -46,7 +46,7 @@ const WorkCases: React.FC = (): JSX.Element => {
             </div>
           );
         })}
-        <p className="md:hidden text-m1 font-bold max-w-md text-center mb-36">
+        <p className="md:hidden text-m1 font-bold max-w-md text-center mb-36 px-[72px]">
           We got plenty of space to put your brand here.
         </p>
       </div>
