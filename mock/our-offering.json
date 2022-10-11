@@ -4,7 +4,7 @@
         "id": 1,
         "icon": "Search",
         "name": "Define service, user and technology needs",
-        "description": "We help you discover and define your target customers, their needs and potential success factors. In parallel, we do the same for technology: we analyze and prepare your infrastructure and systems to be ready for development and production.",
+        "description": "We help you discover and define your target customers, their needs and potential success factors.<br/> In parallel, we do the same for technology: we analyze and prepare your infrastructure and systems to be ready for development and production.",
         "valuePropositions": [
           "Qualitative user research",
           "Quantitative user research",
