@@ -46,22 +46,52 @@ export const CardTeam = ({
   return (
     <article className={`select-none ${className}`} style={style}>
       <div
-        className="grid h-[100%] animate-pulse"
+        className="grid h-[100%]"
         style={{
           gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
           gridTemplateRows: `repeat(${rows}, minmax(0, 1fr))`,
         }}
       >
         {names.slice(0, columns * rows).map((name: string, index: number) => (
-          <div
-            key={'card-team-name-' + index}
-            className="aspect-square flex justify-center items-center text-secondary-30 text-s3"
-          >
-            {name}
-          </div>
+          <PulsatingName key={'card-team-name-'+index} name={name}/>
         ))}
       </div>
       {children}
     </article>
   );
 };
+
+const PulsatingName = ({name}) => {
+
+  const [isVisible, setIsVisible] = useState(false)  
+
+  const handleToggleAnim = () => {
+    setIsVisible(true)
+    setTimeout(() => {
+      setIsVisible(false)
+    }, 1000);
+  }
+
+  useEffect(() => {
+    const initialDelay = Math.floor(Math.random() * 5000)
+    
+    setTimeout(() => {
+      setInterval(() => {
+        if(Math.random() >= 0.6){
+          handleToggleAnim()
+        }
+      }, 1500)
+    }, initialDelay)
+    
+  }, [])
+
+  return(
+    <div
+      className={`aspect-square flex justify-center items-center text-secondary-30 text-s3 transition-opacity duration-700 ease-in-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+    >
+      {name}
+    </div>
+  )
+}
+
+export default PulsatingName;

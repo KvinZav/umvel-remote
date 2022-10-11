@@ -69,7 +69,7 @@ const Header = () => {
                 id="navbar-default"
                 data-collapse-toggle="navbar-default"
               >
-                <ul className="grid grid-cols-4 grid-flow-col mt-4 border md:mt-0 text-s2 md:font-medium md:border-0 items-center hover:box-content">
+                <ul className="grid grid-cols-4 grid-flow-col mt-4 border md:mt-0 text-s2 md:font-medium md:border-0 items-center hover:box-content gap-6 xl:gap-8">
                   {options &&
                     options.map((link) =>
                       link.type === 'home' ? null : link.type === 'button' ? (
@@ -81,7 +81,7 @@ const Header = () => {
                           </a>
                         </Link>
                       ) : (
-                        <li key={'link-' + link.id} className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold min-w-[130px] xl:min-w-[170px]">
+                        <li key={'link-' + link.id} className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold">
                           <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
@@ -152,7 +152,7 @@ const Header = () => {
                           </Link>
                         </li>
                       ) : (
-                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="self-center cursor-pointer transform transition duration-150 hover:scale-105 hover:font-semibold first-line:my-2 min-w-[130px] xl:min-w-[170px]">
+                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="self-center cursor-pointer transform transition duration-150 hover:scale-105 hover:font-semibold first-line:my-2">
                           <Link
                             href={`/${link.link}`}
                           >{link.name}</Link>
@@ -236,7 +236,7 @@ const Square: React.FC<SquareProps> = ({ title, imgAttribute, backgroundColor, p
       onMouseLeave={handleMouseOut}
     >
       <div
-        className={`h-full w-full p-9 transition ease-in-out duration-500  ${isHovered ? '-translate-y-[10%]' : 'translate-y-[100%]'}`}
+        className={`h-full w-full p-5 transition ease-in-out duration-500  ${isHovered ? '-translate-y-[8%]' : 'translate-y-[100%]'}`}
       >
         {image && (
           <Image

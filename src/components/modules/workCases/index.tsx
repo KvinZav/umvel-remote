@@ -12,7 +12,7 @@ const WorkCases: React.FC = (): JSX.Element => {
 
   useEffect(() => {
     const tops = workCaseRefs.current.map((i, _) => i.getBoundingClientRect().top);
-    const current = tops[0] < 400 ? tops.findIndex((i) => i >= 0) : -1;
+    const current = tops[0] < 400 ? tops.findIndex((i) => i >= -200) : -1;
 
     setCurrentPage(current);
   }, [scrollOffset]);
@@ -51,25 +51,25 @@ const WorkCases: React.FC = (): JSX.Element => {
         </p>
       </div>
 
-      <div className="hidden lg:flex h-screen w-8 px-4 sticky top-0 right-0 flex-col justify-center items-end space-y-10">
+      <div className="hidden lg:flex h-screen w-8 sticky top-0 right-8 flex-col justify-center items-end space-y-6 xl:space-y-8">
         {cases.map((caseItem, caseIndex) => (
           <div key={'indicator-' + caseIndex} className="group relative">
-            {/* Negative right offset 19px = 34px (from indicator container margin) - 16px (from label padding) + 1px (from border width) */}
             <div
-              className={`mr-[19px] w-3 h-3 rounded-full ${
+              className={`w-2 h-2 rounded-full ${
                 caseIndex === currentPage ? 'bg-secondary-50' : 'bg-secondary-20'
               }`}
             />
+            {/* Negative right offset 17px = 34px (from indicator container margin) - 16px (from label padding) - 1px (from border width) */}
             <button
               style={{backgroundColor: '#fff'}}
-              className={`absolute flex -top-[160%] right-0 border border-secondary-10 rounded-full py-3 px-4 space-x-4 justify-center items-center opacity-0 group-hover:opacity-100`}
+              className={`absolute flex -top-[200%] xl:-top-[300%] -right-[17px] border border-secondary-10 rounded-full py-3 px-4 space-x-2 justify-center items-center opacity-0 group-hover:opacity-100`}
               onClick={() => handleSmoothScroll(caseIndex)}
             >
-              <span className="whitespace-nowrap origin-right transition-[max-width] duration-1000 max-w-0 group-hover:max-w-[150px] overflow-hidden">
+              <span className="whitespace-nowrap origin-right transition-[max-width] duration-1000 max-w-0 group-hover:max-w-[150px] group-hover:xl:max-w-[200px] overflow-hidden text-s3">
                 {caseItem.title}
               </span>
               <div
-                className={`w-4 h-4`}
+                className={`w-2 h-2`}
                 style={{
                   backgroundColor: caseItem.backgroundColor
                 }}

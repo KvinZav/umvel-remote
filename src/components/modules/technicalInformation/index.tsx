@@ -36,19 +36,19 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
         </div>
         <div className="md:aspect-square w-auto md:border border-secondary-10 p-8 lg:p-12 xl:p-16 flex flex-col overflow-y-scroll overflow-hidden">
           <h3 className="mb-4">Services</h3>
-          <div className="flex flex-wrap mb-6">
+          <div className="flex flex-wrap">
             {services.map((item) => {
               return (
                 <div
-                  className="rounded-full bg-secondary-10 mb-4 mr-4 px-6 py-2"
+                  className="rounded-full bg-secondary-10 px-6 py-2 xl:py-3 mr-4 mb-4"
                   key={'info' + item.id}
                 >
-                  <p className="text-primary-black inline">{item.name}</p>
+                  <p className="text-primary-black inline text-s3">{item.name}</p>
                 </div>
               );
             })}
           </div>
-          <div className="flex">
+          <div className="flex mt-2">
             <BasicButton>
               <Link href="/our-offering">
                   <p >See all services</p>
