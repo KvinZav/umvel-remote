@@ -18,7 +18,7 @@ export const ReadyToTake = () => {
   const { quotes } = infoAboutUs.data?.data?.attributes;
 
   return (
-    <div className="md:overflow-auto md:flex border border-secondary-10 border-solid mt-24 md:mt-52 xl:mt-[250px]">
+    <div className="md:overflow-auto md:flex md:border border-secondary-10 border-solid mt-24 md:mt-52 xl:mt-[250px]">
       <div
         className="xl:w-[50%] max-h-[56rem] lg:min-w-[56rem] lg:min-h-[56rem] md:min-w-[38rem] 
           md:min-h-[38rem] flex items-center justify-center"
@@ -44,7 +44,7 @@ export const ReadyToTake = () => {
         <div className="overflow-auto flex md:overflow-hidden md:block md:px-16 md:py-20 lg:px-32 lg:py-60">
           <div className="min-w-[319px] min-h-[319px] md:min-w-[0] md:min-h-[0] p-12 md:p-0">
             <p className="mb-3 text-s1 text-primary-white">{quotes.philosophy.title}</p>
-            <h1 className="font-bold lg:mb-2 text-b4 text-primary-white">
+            <h1 className="font-bold lg:mb-2 text-m4 md:text-b4 text-primary-white">
               {quotes.philosophy.body}
             </h1>
           </div>

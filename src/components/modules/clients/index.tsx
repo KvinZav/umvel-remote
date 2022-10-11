@@ -5,11 +5,17 @@ import { BlockNameEnum } from '@enums/BlockName';
 import useSWR from 'swr';
 import { useState } from 'react';
 import CustomImage from '@elements/image-component/CustomImage';
+import { useIsSizeScreen } from '@hooks/useIsSizeScreen';
 
 export const Clients = () => {
   const { data: event } = useSWR(environment.HOME_URL);
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const { isSm } = useIsSizeScreen();
+
+  const formatToXLinesText = (text: string): string => {
+    return text.replace(' ', '<br/>');
+  }
 
   const { title, subtitle, clients } = FETCHER(event, BlockNameEnum.clients);
 
@@ -19,7 +25,7 @@ export const Clients = () => {
         <ClientsTitle>{title}</ClientsTitle>
         <ClientsSubTitle>{subtitle}</ClientsSubTitle>
       </div>
-      <div className="grid grid-cols-2 gap-10 gap-y-8 md:gap-x-6 lg:grid-cols-3 lg:gap-x-60 lg:gap-y-10">
+      <div className="grid items-baseline grid-cols-2 gap-10 gap-y-8 md:gap-x-6 lg:grid-cols-3 lg:gap-x-60 lg:gap-y-10">
         {clients.data.map(({ id, attributes }, index) => (
           <div
             key={id}
@@ -52,7 +58,13 @@ export const Clients = () => {
                 />
               </div>
             </div>
-            <ClientsText>{attributes.name}</ClientsText>
+            <ClientsText>
+              {
+                isSm  
+                ? <span dangerouslySetInnerHTML={{__html: formatToXLinesText(attributes.name)}}></span>
+                : attributes.name
+              }
+              </ClientsText>
           </div>
         ))}
       </div>

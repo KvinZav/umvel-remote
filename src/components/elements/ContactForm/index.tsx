@@ -96,7 +96,7 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
             id="e-mail"
             name="email"
             placeholder="Email"
-            className={`rounded-full py-3 px-6 w-5/6 outline-none bg-transparent placeholder-secondary-50 ${currentStatus === 'error' && 'text-prisma-red placeholder-prisma-red'}`}
+            className={`text-s2 rounded-full py-3 px-6 w-5/6 outline-none bg-transparent placeholder-secondary-50 ${currentStatus === 'error' && 'text-prisma-red placeholder-prisma-red'}`}
             onChange={onChangeInput}
             value={email.value}
             onFocus={handleFocus}

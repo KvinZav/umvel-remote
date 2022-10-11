@@ -34,8 +34,8 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
                     )}
                 </div>
                 <div className="flex flex-col justify-center p-4">
-                    <p className="text-xl font-bold text-prisma-cookie">We use cookies</p>
-                    <p className="text-base">By clicking “Accept cookies” you consent to the use of the cookies for this website.</p>
+                    <p className="text-s1 font-bold text-prisma-cookie">We use cookies</p>
+                    <p className="text-s2">By clicking “Accept cookies” you consent to the use of the cookies for this website.</p>
                 </div>
             </div>
             <div className="flex flex-row items-center md:text-sm lg:text-base ">
