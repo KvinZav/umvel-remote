@@ -32,7 +32,7 @@ export const FooterMenu = () => {
             <div className="flex lg:items-center flex-col lg:flex-row my-6 lg:m-0">
               {links.map((menuItem, index) => (
                 <Link href={`/${menuItem.link}`} key={`menu-item-footer-${index}`}>
-                  <a className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold text-s2 leading-tight py-4 lg:px-6 xl:px-7">{menuItem.name}</a>
+                  <a className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold text-s2 py-4 lg:px-6 xl:px-7">{menuItem.name}</a>
                 </Link>
               ))}
             </div>
@@ -50,7 +50,7 @@ export const FooterMenu = () => {
           <div className="flex gap-8 xl:gap-[52px] flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
             {socialNetworks.map((socialNetwork, index) => (
               <a
-                className="text-s3 leading-tight"
+                className="text-s3"
                 key={`menu-item-footer-${index}`}
                 href={socialNetwork.link}
                 target="_blank"

@@ -119,7 +119,7 @@ const AnimatedTitle = ({ toggled }) => {
   return (
     <div className={`flex flex-col w-full h-full`}>
       <div className="flex justify-end children:ease-in-out children:transform children:transition-all children:duration-700">
-        <span className={`font-bold text-b3 leading-tight mr-3`}>Making</span>
+        <span className={`font-bold text-b3 mr-3`}>Making</span>
         <div
           className={`relative`}
           style={{
@@ -130,7 +130,7 @@ const AnimatedTitle = ({ toggled }) => {
         >
           <span
             ref={theRef}
-            className={`font-bold text-b3 leading-tight absolute transition-opacity duration-500 right-0 ${
+            className={`font-bold text-b3 absolute transition-opacity duration-500 right-0 ${
               toggled ? 'opacity-0' : 'opacity-100 delay-300'
             }`}
           >
@@ -138,7 +138,7 @@ const AnimatedTitle = ({ toggled }) => {
           </span>
           <span
             ref={itRef}
-            className={`font-bold text-b3 leading-tight absolute transition-opacity duration-500 right-0 ${
+            className={`font-bold text-b3 absolute transition-opacity duration-500 right-0 ${
               toggled ? 'opacity-100' : 'opacity-0'
             }`}
           >
@@ -148,14 +148,14 @@ const AnimatedTitle = ({ toggled }) => {
       </div>
       <div className="relative children:ease-in-out children:transform children:transition-all children:duration-500 h-[144px]">
         <span
-          className={`font-bold text-b3 leading-tight absolute top-0 right-0  ${
+          className={`font-bold text-b3 absolute top-0 right-0  ${
             toggled ? 'opacity-0' : 'opacity-100'
           }`}
         >
           impossible,
         </span>
         <span
-          className={`font-bold text-b3 leading-tight delay-150 absolute top-0 right-0  ${
+          className={`font-bold text-b3 delay-150 absolute top-0 right-0  ${
             !toggled ? 'translate-y-full' : 'translate-y-0'
           }`}
         >
