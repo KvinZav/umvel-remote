@@ -24,7 +24,7 @@ export const ReadyToTake = () => {
           md:min-h-[38rem] flex items-center justify-center"
       >
         <div className="px-16 py-20 lg:px-32 lg:py-60">
-          <h1 className="font-bold lg:mb-2 text-m3 md:text-b4 mb-6">{quotes.title}</h1>
+          <h1 className="font-bold md:mb-6 text-m3 md:text-b4 mb-4">{quotes.title}</h1>
           <p className="mb-8 text-s1">{quotes.subtitle}</p>
           <div className="p-10 flex md:flex-row flex-col-reverse items-center text-center">
             <Link href="/our-work">
