@@ -14,10 +14,10 @@ export default function PrivacyPolicy() {
     <div className={`grid lg:pt-10 xl:pt-16`}>
       <div className="lg:col-start-1 lg:p-8 lg:pl-32 xl:pl-40 md:px-32 lg:pt-0 lg:pr-0 p-10 pb-0 lg:sticky lg:top-[138px] xl:top-[190px] lg:h-72">
         <div className={`flex flex-col`}>
-          <h1 className={`text-b3 leading-tight font-bold pb-2`}>
+          <h1 className={`text-b3 font-bold pb-2`}>
             {data.title}
           </h1>
-          <p className="font-bold text-m4 leading-tight pb-6 xl:pb-8">
+          <p className="font-bold text-m4 pb-6 xl:pb-8">
             {data.info}
           </p>
         </div>

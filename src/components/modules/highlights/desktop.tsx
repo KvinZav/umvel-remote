@@ -96,7 +96,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 <Link href="/our-work">
                   <PrismButton>Our Work</PrismButton>
                 </Link>
-                <button className="ml-4 text-[32px] leading-tight xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1" onClick={() => handleNext()}>
+                <button className="ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1" onClick={() => handleNext()}>
                   <ChevronRightRounded fontSize="inherit" />
                 </button>
               </div>

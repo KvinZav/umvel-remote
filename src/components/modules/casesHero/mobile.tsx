@@ -53,7 +53,7 @@ const  CasesHeroMobile = (props: CasesHeroProps) => {
         </div>
       </div>
       <div className="aspect-square p-12 bg-primary-black text-primary-white">
-        <h2 className="mb-2 text-m3 md:leading-tight lg:leading-snug">
+        <h2 className="mb-2 text-m3">
           {challenge.title}
         </h2>
         <p className="text-s2">{challenge.content}</p>
