@@ -67,7 +67,7 @@ const ScrollInteraction2 = ({ steps }) => {
             </h1>
             {/* TODO: Connect to CMS when texts are fixed */}
             <p
-              className={`text-s1 leading-tight md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
+              className={`text-s1 xl:text-s2 md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
                 scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'
               }`}
             >
@@ -77,7 +77,7 @@ const ScrollInteraction2 = ({ steps }) => {
             </p>
             <br />
             <p
-              className={`text-s1 leading-tight md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
+              className={`text-s1 xl:text-s2 md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
                 scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'
               }`}
             >

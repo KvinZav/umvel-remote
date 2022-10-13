@@ -1,3 +1,5 @@
+import { CSSProperties } from "@mui/styled-engine";
+
 export interface CardInterface {
   styles: {
     textStyles: { height: 'title' | 'subtitle' | 'paragraph'; align: string };
@@ -17,4 +19,5 @@ export interface CardInterface {
   descriptionOnly?: boolean;
   caseId?: number;
   messageOnHover?: boolean;
+  containerStyles?: CSSProperties;
 }

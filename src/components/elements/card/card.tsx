@@ -15,13 +15,14 @@ export const Card = React.memo((props: CardInterface) => {
       showButton,
       descriptionOnly,
       caseId,
-      messageOnHover
+      messageOnHover,
+      containerStyles
     } = props;
 
     const isLight = isColorLight(styles.bg)
 
     return (
-      <MainContainer styles={styles} messageOnHover={messageOnHover} descriptionOnly={descriptionOnly}>
+      <MainContainer styles={styles} messageOnHover={messageOnHover} descriptionOnly={descriptionOnly} containerStyles={containerStyles}>
         {imageUrl && <MainGraphic imageUrl={imageUrl} />}
         {!descriptionOnly ? (
           <TitleComponent
@@ -51,7 +52,7 @@ export const CustomCard = ({ children, customStyles = '', borderless = false }) 
   );
 };
 
-const MainContainer = ({ children, styles, messageOnHover, descriptionOnly }) => {
+const MainContainer = ({ children, styles, messageOnHover, descriptionOnly, containerStyles }) => {
   return (
     <div
       className={`aspect-square overflow-clip flex ${
@@ -78,6 +79,7 @@ const MainContainer = ({ children, styles, messageOnHover, descriptionOnly }) =>
           ${styles.textPositionHorizontal === 'end' && 'items-end'}
           ${styles.textPositionVertical === 'start' ? 'justify-start' : 'justify-center'}
         `}
+        style={containerStyles}
       >
         {children}
       </div>

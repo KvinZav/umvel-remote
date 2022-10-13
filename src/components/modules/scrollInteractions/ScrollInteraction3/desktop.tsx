@@ -90,7 +90,7 @@ const DesktopScrollInteraction3 = () => {
                     <p
                       className={`transition-[font-size] duration-1000 ${currentHighlight === n && quotesContainerTop < cardBottom - 50
                           ? 'text-m4 font-bold'
-                          : 'text-s2 font-normal'
+                          : 'text-s2 xl:text-s3 font-normal'
                         }`}
                     >
                       {i.replace(/\*/g, '')}

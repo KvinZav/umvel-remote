@@ -86,6 +86,7 @@ const ViewPager = ({cases}) => {
             bg: 'primary-white',
           }}
           text='We'
+          containerStyles={{padding: `${isMobile ? '8px' : '16px'}`}}
         />
       </div>
       <div className="row-span-1 col-span-1 relative overflow-hidden border border-secondary-10">
@@ -100,6 +101,7 @@ const ViewPager = ({cases}) => {
               textPositionVertical: 'end',
             }}
             text={cases[bottomCaseIndex]?.Title}
+            containerStyles={{padding: `${isMobile ? '8px' : '16px'}`}}
           />
         </div>
         {/* top */}

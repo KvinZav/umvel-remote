@@ -108,7 +108,7 @@ export const GetInTouch = () => {
                 name="email"
                 type="text"
                 placeholder="Email"
-                className="rounded-full py-3 px-6 w-5/6 outline-none bg-transparent"
+                className="text-s2 rounded-full py-3 px-6 w-5/6 outline-none bg-transparent"
               />
               <button
                 disabled={email.errors.length > 1}

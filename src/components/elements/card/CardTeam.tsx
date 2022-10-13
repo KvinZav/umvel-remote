@@ -76,7 +76,7 @@ const PulsatingName = ({names} : { names: string[] }) => {
     setCurrentName(initialName)
     
     const nameInterval = setInterval(() => {
-      if(Math.random() >= 0.8){
+      if(Math.random() >= 0){
         handleNameChange()
       }
     }, intervalTime)

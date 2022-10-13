@@ -41,7 +41,7 @@ const Header = () => {
     <>
       {!showMenu && (
         <nav className="sticky top-0 z-[99]">
-          <div className="flex justify-between items-center py-6 xl:py-8 px-8">
+          <div className="flex justify-between items-center p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-8">
             <div className="h-6 w-6 md:h-8 md:w-8 ">
               {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
             </div>
@@ -110,7 +110,7 @@ const Header = () => {
                 ))}
               </div>
             )}
-            <div className="h-full overflow-y-auto min-w-min w-full flex flex-col items-center p-8">
+            <div className="h-full overflow-y-auto min-w-min w-full flex flex-col items-center p-4 md:p-6 lg:pt-6 lg:px-8">
               <div className="w-full flex flex-row justify-between">
                 <div className="h-6 w-6 md:h-8 md:w-8">
                   {logo && (
@@ -135,7 +135,7 @@ const Header = () => {
                   />
                 </div>
               </div>
-              <div className="w-full md:w-auto h-full flex items-center ml-[60%] md:ml-0" id="navbar-default">
+              <div className="w-full md:w-auto h-full flex flex-col items-center justify-center md:ml-0" id="navbar-default">
                 <ul className="grid gap-6 grid-flow-cols mt-4 whitespace-nowrap text-m5">
                   {options &&
                     options.map((link) =>
@@ -160,9 +160,35 @@ const Header = () => {
                       )
                     )}
                 </ul>
-              </div>
               <div className="md:hidden border border-solid border-secondary-10 w-[50%] mb-12 mt-5"></div>
-              <div className="w-full h-full md:h-min text-s3 flex flex-col md:flex-row md:justify-end ml-[60%] md:ml-0">
+              <div className="w-full md:h-min text-s3 flex flex-col md:hidden md:flex-row md:justify-end ml-[60%] md:ml-0">
+                {socialNetworks.map((socialNetwork) => (
+                  <div key={socialNetwork.id} className="md:ml-10 mb-8 md:text-center">
+                    <Tooltip tooltipText={socialNetwork.name}>
+                      <a
+                        key={socialNetwork.id}
+                        href={socialNetwork.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {socialNetwork.nickName}
+                      </a>
+                    </Tooltip>
+
+                    <a
+                      className="block lg:hidden"
+                      key={socialNetwork.id}
+                      href={socialNetwork.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {socialNetwork.name}
+                    </a>
+                  </div>
+                ))}
+              </div>
+              </div>
+              <div className="hidden md:flex w-full h-full md:h-min text-s3 flex-col md:flex-row md:justify-end ml-[60%] md:ml-0">
                 {socialNetworks.map((socialNetwork) => (
                   <div key={socialNetwork.id} className="md:ml-10 mb-8 md:text-center">
                     <Tooltip tooltipText={socialNetwork.name}>
