@@ -49,7 +49,7 @@ const MainMenuHighlights = () => {
                 text={title}
                 description={caseDescription}
                 imageUrl={imageUrl}
-                showButton={screen === 'sm' || screen === "md" || screen === "lg"}
+                showButton={screen === 'sm' || screen === "md" }
                 messageOnHover={screen !== 'sm' && screen !== "md"}
                 caseId={caseItem.id}
               />
