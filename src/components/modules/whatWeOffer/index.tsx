@@ -78,7 +78,7 @@ const Services = () => {
           </div>
           <div className="mb-20 flex lg:hidden">
             <button
-              className="text-s2 px-6 py-4 border rounded-full"
+              className="text-s2 px-6 py-4 border rounded-full leading-none"
               onClick={() => setShowModal(!showModal)}
             >
               Have a goal in mind?

@@ -37,8 +37,8 @@ const  FindUs = () => {
 
       <div className="bg-primary-black md:grid grid-cols-3 text-primary-white lg:hidden hidden">
         <div className="aspect-square border-solid border-[#333] border  p-8">
-          <p className="text-s3">Or find us here</p>
-          <p className="text-m3 mt-2 font-bold">
+          <p className="text-s3 leading-4">Or find us here</p>
+          <p className="text-m5 leading-6 mt-2 font-bold">
             Feel free to reach out directly, either in person, per phone or email.
           </p>
         </div>

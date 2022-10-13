@@ -190,7 +190,7 @@ const Header = () => {
               </div>
               <div className="hidden md:flex w-full h-full md:h-min text-s3 flex-col md:flex-row md:justify-end ml-[60%] md:ml-0">
                 {socialNetworks.map((socialNetwork) => (
-                  <div key={socialNetwork.id} className="md:ml-10 mb-8 md:text-center">
+                  <div key={socialNetwork.id} className="md:ml-10 mb-0 md:text-center">
                     <Tooltip tooltipText={socialNetwork.name}>
                       <a
                         key={socialNetwork.id}

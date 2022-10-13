@@ -96,10 +96,10 @@ const MainGraphic = ({ imageUrl }) => (
 const TitleComponent = ({ text, description, showButton, styles, id, isLight }) => {
   return description ? (
     <div
-      className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 md:p-6 md:pt-4 lg:p-8 xl:p-11 w-full`}
+      className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 md:p-2 md:pt-4 lg:p-8 xl:p-11 w-full`}
     >
       <h1
-        className={`min-h-[4rem] text-s2 group-hover:transition-colors group-hover:duration-500 pb-2 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
+        className={`${styles.direction === 'col-reverse' ? 'min-h-[4rem]' : 'min-h-fit'} text-s2 group-hover:transition-colors group-hover:duration-500 pb-4 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
       >
         {text}
       </h1>
@@ -143,7 +143,7 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
 export const DescriptionComponent = ({ text, description, styles, id }) => {
   return (
     <div
-      className={`flex flex-col justify-center transition-[background-color] duration-500 bg-primary-black bg-opacity-50 p-8 xl:p-11 w-full h-full`}
+      className={`flex flex-col justify-center bg-primary-black bg-opacity-50 p-[72px] w-full h-full`}
     >
       <h1 className={`mb-2 font-bold text-primary-white`}>{text}</h1>
       <p className="text-primary-white mb-4">{description}</p>
