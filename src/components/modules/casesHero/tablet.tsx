@@ -10,10 +10,10 @@ const CasesHeroTablet = (props: CasesHeroProps) => {
   return (
     <section className="grid grid-cols-2">
       <div className="aspect-square flex flex-col justify-center px-12 border border-secondary-10">
-        <h1 className="text-m5 md:leading-tight lg:leading-snug">
+        <h1 className="text-m5">
           {portfolioTitle}
         </h1>
-        <h2 className="font-bold text-m1 md:leading-tight lg:leading-snug">
+        <h2 className="font-bold text-m1">
           {portfolioDescription}
         </h2>
         <div className="flex mt-4 gap-2">
@@ -49,15 +49,15 @@ const CasesHeroTablet = (props: CasesHeroProps) => {
           width="100%"
           height="100%"
           layout="responsive"
-          url={challenge.images[1]?.data.attributes.url}
-          alt={challenge.images[1]?.data.attributes.alternativeText}
+          url={challenge.images[0]?.data.attributes.url}
+          alt={challenge.images[0]?.data.attributes.alternativeText}
         />
       </div>
       <div className="col-span-1 aspect-square p-8 bg-primary-black text-primary-white">
-        <h2 className="mb-2 text-m3 md:leading-tight lg:leading-snug">
+        <h2 className="mb-2 text-m3">
           {challenge.title}
         </h2>
-        <p className="text-s2">{challenge.content}</p>
+        <p className="text-s2" dangerouslySetInnerHTML={{ __html: challenge.content }}></p>
       </div>
       <div
         className={`relative col-span-1 aspect-square`}
@@ -68,8 +68,8 @@ const CasesHeroTablet = (props: CasesHeroProps) => {
           width="100%"
           height="100%"
           layout="responsive"
-          url={challenge.images[0]?.data.attributes.url}
-          alt={challenge.images[0]?.data.attributes.alternativeText}
+          url={challenge.images[1]?.data.attributes.url}
+          alt={challenge.images[1]?.data.attributes.alternativeText}
         />
       </div>
     </section>

@@ -17,7 +17,7 @@ export const FooterMenu = () => {
   const logo = event.data.attributes.header.logo.data.attributes;
 
   return (
-    <section className="px-[15%] py-20 lg:p-[10%] xl:px-[9.5%] xl:py-[9%]">
+    <section className="px-[15%] py-20 md:pb-[152px] lg:px-[10%] lg:py-32 xl:px-[9.5%] xl:py-[170px]">
       <div className="flex flex-col">
         <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8 xl:mb-12">
           <div className="flex items-center gap-4">
@@ -32,7 +32,7 @@ export const FooterMenu = () => {
             <div className="flex lg:items-center flex-col lg:flex-row my-6 lg:m-0">
               {links.map((menuItem, index) => (
                 <Link href={`/${menuItem.link}`} key={`menu-item-footer-${index}`}>
-                  <a className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold text-s2 leading-tight py-4 lg:px-6 xl:px-7">{menuItem.name}</a>
+                  <a className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold text-s2 py-4 lg:px-6 xl:px-7">{menuItem.name}</a>
                 </Link>
               ))}
             </div>
@@ -47,10 +47,10 @@ export const FooterMenu = () => {
         </div>
         <hr className="text-[#E6E6E6] hidden lg:block mb-8 xl:mb-10" />
         <div className="flex justify-between flex-col lg:flex-row">
-          <div className="flex gap-8 xl:gap-[52px] flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-6 lg:py-0">
+          <div className="flex gap-8 lg:justify-around flex-col md:flex-row border-t border-[#E6E6E6] lg:border-0 py-8 lg:py-0 lg:min-w-[336px] xl:min-w-[521px]">
             {socialNetworks.map((socialNetwork, index) => (
               <a
-                className="text-s3 leading-tight"
+                className="text-s3 leading-tight transform transition duration-150 hover:scale-105 hover:font-semibold"
                 key={`menu-item-footer-${index}`}
                 href={socialNetwork.link}
                 target="_blank"

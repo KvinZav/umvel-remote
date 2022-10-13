@@ -57,7 +57,7 @@ export const HeaderAboutUs = ({ data }) => {
                 className={`${index == 2 ? 'w-full' : 'w-6/12'} 
                   md:w-4/12 md:flex md:justify-center flex-col lg:flex-row text-center items-center`}
               >
-                <p className="font-bold text-b4 mr-2 bg-[rgba(255,255,255,0.5)]">{item.title}</p>
+                <p className="font-bold text-b4 mb-2 lg:mb-0 lg:mr-2 bg-[rgba(255,255,255,0.5)]">{item.title}</p>
                 <p className="text-s1 md:text-m5 bg-[rgba(255,255,255,0.5)]">{item.subtitle}</p>
               </div>
             );

@@ -80,7 +80,7 @@ const Challenge = () => {
           <input
             type="text"
             className={
-              'w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+              'text-s2 outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
               (isTheNameValid
                 ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
                 : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
@@ -100,7 +100,7 @@ const Challenge = () => {
             <input
               type="text"
               className={
-                'w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+                'text-s2 outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
                 (isTheEmailValid
                   ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
                   : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
@@ -116,11 +116,11 @@ const Challenge = () => {
               </p>
             )}
           </div>
-          <div className="relative md:w-1/2 w-full md:mt-0 mt-10 xl:mt-12">
+          <div className="relative md:w-1/2 w-full md:mt-0 mt-10">
             <input
               type="text"
               className={
-                'w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+                'text-s2 outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
                 (isThePhoneValid
                   ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
                   : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
@@ -140,7 +140,7 @@ const Challenge = () => {
         <input
           type="text"
           className={
-            'w-full mt-10 pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+            'text-s2 outline-none w-full mt-10 pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
             (isTheCommentValid
               ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
               : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
@@ -155,7 +155,7 @@ const Challenge = () => {
             Your message was successfully sent!
           </p>
         ) : (
-          <div className="lg:mt-10 md:mt-12 mt-10 flex justify-end">
+          <div className="lg:mt-10 md:mt-14 mt-10 flex justify-end">
             <BasicButton theme="light">
               <p>Send!</p>
             </BasicButton>

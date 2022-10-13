@@ -1,14 +1,8 @@
 import { Card } from '@elements/card/card'
 import useMediaQuery from '@hooks/useMediaQuery';
+import { waitFor } from '@utils/waitFor';
 import React, { useEffect, useState } from 'react'
 import { animated, useSpring } from 'react-spring';
-// import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
-
-const waitFor = (delay) => new Promise((resolve) => {
-  setTimeout(() => {
-    resolve(true)
-  }, delay);
-})
 
 const ViewPager = ({cases}) => {
 
@@ -92,6 +86,7 @@ const ViewPager = ({cases}) => {
             bg: 'primary-white',
           }}
           text='We'
+          containerStyles={{padding: `${isMobile ? '8px' : '16px'}`}}
         />
       </div>
       <div className="row-span-1 col-span-1 relative overflow-hidden border border-secondary-10">
@@ -106,6 +101,7 @@ const ViewPager = ({cases}) => {
               textPositionVertical: 'end',
             }}
             text={cases[bottomCaseIndex]?.Title}
+            containerStyles={{padding: `${isMobile ? '8px' : '16px'}`}}
           />
         </div>
         {/* top */}
@@ -154,7 +150,7 @@ const ViewPager = ({cases}) => {
               caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
               imageUrl={cases[bottomCaseIndex]?.case_of_study.data.attributes.image.data.attributes.url}
-              text={tablet ? ' ' : cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
+              text={tablet ? '' : cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
               showButton={isMobile}
               messageOnHover={desktop}
             />
