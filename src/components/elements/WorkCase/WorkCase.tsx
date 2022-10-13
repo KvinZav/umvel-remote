@@ -19,7 +19,7 @@ const WorkCase: React.FC<WorkCaseProps> = ({
           : `w-full flex flex-col-reverse md:flex-row-reverse`
       }
     >
-      <div className="md:w-1/2 aspect-square bg-primary-white flex md:justify-center py-6 px-12 flex-col md:px-16 md:py-16 lg:px-32 lg:py-32 xl:px-[180px] xl:py-[180px]">
+      <div className="md:w-1/2 aspect-square bg-primary-white flex lg:justify-center py-6 px-12 flex-col md:px-16 md:py-16 lg:px-32 lg:py-32 xl:px-[180px] xl:py-[180px]">
         <p className="text-m2 font-bold mb-2 xl:mb-4 md:mt-0">{project.title}</p>
         <p className="text-s1 font-bold mb-2 xl:mb-4">{project.hoverClientName}</p>
         <p className="text-s2 mb-4 md:mb-6 xl:mb-9">{project.hoverDescription}</p>

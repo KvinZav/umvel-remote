@@ -49,8 +49,8 @@ const CasesHeroTablet = (props: CasesHeroProps) => {
           width="100%"
           height="100%"
           layout="responsive"
-          url={challenge.images[1]?.data.attributes.url}
-          alt={challenge.images[1]?.data.attributes.alternativeText}
+          url={challenge.images[0]?.data.attributes.url}
+          alt={challenge.images[0]?.data.attributes.alternativeText}
         />
       </div>
       <div className="col-span-1 aspect-square p-8 bg-primary-black text-primary-white">
@@ -68,8 +68,8 @@ const CasesHeroTablet = (props: CasesHeroProps) => {
           width="100%"
           height="100%"
           layout="responsive"
-          url={challenge.images[0]?.data.attributes.url}
-          alt={challenge.images[0]?.data.attributes.alternativeText}
+          url={challenge.images[1]?.data.attributes.url}
+          alt={challenge.images[1]?.data.attributes.alternativeText}
         />
       </div>
     </section>

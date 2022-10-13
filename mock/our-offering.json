@@ -4,7 +4,7 @@
         "id": 1,
         "icon": "Search",
         "name": "Define service, user and technology needs",
-        "description": "We help you discover and define your target customers, their needs and potential success factors.<br/> In parallel, we do the same for technology: we analyze and prepare your infrastructure and systems to be ready for development and production.",
+        "description": "We help you discover and define your target customers, their needs and potential success factors.<br/><br/> In parallel, we do the same for technology: we analyze and prepare your infrastructure and systems to be ready for development and production.",
         "valuePropositions": [
           "Qualitative user research",
           "Quantitative user research",
@@ -176,7 +176,7 @@
         "id": 7,
         "icon": "Insights",
         "name": "Platform growth and tech strategy",
-        "description": "We develop a platform business and tech strategy, to help you understand the challenges and steps to take for a successful launch. Our team of solution architects and digital strategists will create a sound, future-proof strategy for platform execution. By keeping the end in mind, we ensure an attainable project without any major surprises along the way. The to-be technical infrastructure, (updated) value proposition and product requirements are key deliverables here.",
+        "description": "We develop a platform business and tech strategy, to help you understand the challenges and steps to take for a successful launch.<br/><br/>Our team of solution architects and digital strategists will create a sound, future-proof strategy for platform execution. By keeping the end in mind, we ensure an attainable project without any major surprises along the way. The to-be technical infrastructure, (updated) value proposition and product requirements are key deliverables here.",
         "valuePropositions": [
           "Value proposition definition",
           "API Documentation or definition",
@@ -348,7 +348,7 @@
         "id": 2,
         "icon": "People",
         "name": "System, product and experience design",
-        "description": "We make your platform tangible with best-in-class design. Our team of design strategists, UX and visual designers build on the platform strategy: they create the user experience, visual system and user interface, taking into account its technical feasibility and platform architecture. This results in a tangible realistic way for you to validate the business’ goals and platform experience.",
+        "description": "We make your platform tangible with best-in-class design. Our team of design strategists, UX and visual designers build on the platform strategy: they create the user experience, visual system and user interface, taking into account its technical feasibility and platform architecture.<br/><br/>This results in a tangible realistic way for you to validate the business’ goals and platform experience.",
         "valuePropositions": [
           "Personas",
           "Customer journey mapping",
@@ -524,7 +524,7 @@
         "id": 4,
         "icon": "Devices",
         "name": "Software engineering",
-        "description": "Coding starts here: once we have the technical architecture, UX and UI design approved, we develop the platform from front to back. Our diverse team of coding masterminds work closely together with Design, QA and System admins to create robust software that works just the way it should.",
+        "description": "Coding starts here: once we have the technical architecture, UX and UI design approved, we develop the platform from front to back.<br/><br/>Our diverse team of coding masterminds work closely together with Design, QA and System admins to create robust software that works just the way it should.",
         "valuePropositions": [
           "Mobile apps development",
           "Cloud development",
@@ -702,7 +702,7 @@
         "id": 5,
         "icon": "Lock",
         "name": "Testing, platform security and compliance",
-        "description": "We ensure your platform is secure and compliant. We help organizations across all industries with compliance assessments, QA expeditions, testing automation and migration assistance to the cloud. This will ensure platform's safety, resilience and robustness.",
+        "description": "We ensure your platform is secure and compliant. We help organizations across all industries with compliance assessments, QA expeditions, testing automation and migration assistance to the cloud.<br/><br/>This will ensure platform's safety, resilience and robustness.",
         "valuePropositions": [
           "2FA - authentication",
           "End-to-end testing",
@@ -887,7 +887,7 @@
         "id": 6,
         "icon": "Support",
         "name": "DevOps, support and maintenace",
-        "description": "We help you run, maintain and support your digital platform. Thanks to our dedicated DevOps, support and maintenance teams, we can safely say that we flawlessly run your digital platform and make sure it’s up to date and bug free.",
+        "description": "We help you run, maintain and support your digital platform.<br/><br/>Thanks to our dedicated DevOps, support and maintenance teams, we can safely say that we flawlessly run your digital platform and make sure it’s up to date and bug free.",
         "valuePropositions": [
           "PS management",
           "Cloud infrastructure management",
@@ -1061,7 +1061,7 @@
         "id": 3,
         "icon": "Rocket",
         "name": "Continuous platform innovation",
-        "description": "We enrich your platform with new features and design improvements, because software development is never ‘done’: finding product market fit, requires adaptation, flexibility and perseverance. A dedicated team of fearless Umvellers work day in, day out to take your platform to the next level.",
+        "description": "We enrich your platform with new features and design improvements, because software development is never ‘done’: finding product market fit, requires adaptation, flexibility and perseverance.<br/><br/>A dedicated team of fearless Umvellers work day in, day out to take your platform to the next level.",
         "cases": [{
           "data": {
             "id": 1,

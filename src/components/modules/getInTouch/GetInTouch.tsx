@@ -61,7 +61,7 @@ export const GetInTouch = () => {
   };
 
   return (
-    <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 lg:grid grid-cols-[200px_420px] xl:grid-cols-[150px_150px_600px] gap-x-8 lg:gap-y-4 grid-rows-2 lg:px-[20%] xl:px-0 items-center place-content-center">
+    <section className="w-full mt-[104px] md:mt-0 mb-[96px] md:mb-[224px] px-16 md:px-36 lg:grid grid-cols-[200px_420px] xl:grid-cols-[150px_150px_600px] gap-x-8 lg:gap-y-4 grid-rows-2 lg:px-[20%] xl:px-0 items-center place-content-center">
       <div className="md:px-0 col-span-1 xl:col-span-2 row-span-2 mb-2 md:mb-8 lg:mb-0">
         <h3 className="font-bold text-b3 text-center ">Get in touch!</h3>
       </div>

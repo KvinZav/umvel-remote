@@ -155,7 +155,7 @@ const Challenge = () => {
             Your message was successfully sent!
           </p>
         ) : (
-          <div className="lg:mt-10 md:mt-12 mt-10 flex justify-end">
+          <div className="lg:mt-10 md:mt-14 mt-10 flex justify-end">
             <BasicButton theme="light">
               <p>Send!</p>
             </BasicButton>

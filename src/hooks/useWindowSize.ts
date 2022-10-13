@@ -24,25 +24,25 @@ function useWindowSize(): Size {
           height,
           screen: 'sm',
         });
-      } else if (width < 768) {
+      } else if (width < 1024) {
         setWindowSize({
           width,
           height,
           screen: 'md',
         });
-      } else if (width < 1024) {
+      } else if (width < 1900) {
         setWindowSize({
           width,
           height,
           screen: 'lg',
         });
-      } else if (width < 1280) {
+      } else if (width < 3000) {
         setWindowSize({
           width,
           height,
           screen: 'xl',
         });
-      } else if (width >= 1280) {
+      } else if (width >= 3000) {
         setWindowSize({
           width,
           height,
