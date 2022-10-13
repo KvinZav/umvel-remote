@@ -54,7 +54,7 @@ export const CardTeam = ({
         }}
       >
         {
-          [... new Array(columns * rows)].map((name: string, index: number) => (
+          [... new Array(columns * rows)].map((_: string, index: number) => (
             <PulsatingName key={'card-team-name-'+index} names={names}/>
           ))
         }
@@ -69,14 +69,14 @@ const PulsatingName = ({names} : { names: string[] }) => {
   const [currentName, setCurrentName] = useState<string>('')
   const [isVisible, setIsVisible] = useState<boolean>(true)
 
-  const intervalTime = Math.random() * (2500) + 500 
+  const intervalTime = Math.random() * (4500) + 700 
 
   useEffect(() => {
     const initialName = names[Math.floor(Math.random() * names.length)]
     setCurrentName(initialName)
     
     const nameInterval = setInterval(() => {
-      if(Math.random() >= 0){
+      if(Math.random() >= 0.7){
         handleNameChange()
       }
     }, intervalTime)
@@ -87,7 +87,7 @@ const PulsatingName = ({names} : { names: string[] }) => {
   const handleNameChange = async () => {
     setIsVisible(false)
     const newName = names[Math.floor(Math.random() * names.length)]
-    await waitFor(800)
+    await waitFor(500)
     setCurrentName(newName)
     setIsVisible(true)
   }
