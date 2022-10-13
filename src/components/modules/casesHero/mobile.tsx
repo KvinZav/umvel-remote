@@ -56,7 +56,7 @@ const  CasesHeroMobile = (props: CasesHeroProps) => {
         <h2 className="mb-2 text-m3">
           {challenge.title}
         </h2>
-        <p className="text-s2">{challenge.content}</p>
+        <p className="text-s2" dangerouslySetInnerHTML={{ __html: challenge.content }}></p>
       </div>
       <div className="relative aspect-square" style={{ backgroundColor: primaryColor }}>
         <div className="absolute w-full h-full bg-primary-black opacity-40" />

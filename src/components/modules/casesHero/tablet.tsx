@@ -57,7 +57,7 @@ const CasesHeroTablet = (props: CasesHeroProps) => {
         <h2 className="mb-2 text-m3">
           {challenge.title}
         </h2>
-        <p className="text-s2">{challenge.content}</p>
+        <p className="text-s2" dangerouslySetInnerHTML={{ __html: challenge.content }}></p>
       </div>
       <div
         className={`relative col-span-1 aspect-square`}
