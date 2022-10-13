@@ -44,7 +44,7 @@ const MainMenuHighlights = () => {
                     height: 'paragraph',
                     align: 'left',
                   },
-                  direction: (screen === '2xl' || screen === 'xl' || screen === 'sm')  ? 'col-reverse' : 'col',
+                  direction: (screen === '2xl' || screen === 'xl' || screen === 'lg' || screen === 'sm')  ? 'col-reverse' : 'col',
                 }}
                 text={title}
                 description={caseDescription}
