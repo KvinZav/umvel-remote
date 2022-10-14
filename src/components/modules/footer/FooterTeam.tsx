@@ -40,7 +40,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
         names={names}
       >
         <div className="absolute h-full top-0 p-12 md:p-[8%_4vw] lg:p-[10%_5vw] xl:p-[182px]">
-          <p className="font-bold text-b3 w-[200px] lg:w-[400px]">{titleLeft}</p>
+          <p className="font-bold text-m1 lg:text-b3 w-[200px] lg:w-[400px]">{titleLeft}</p>
         </div>
       </CardTeam>
       <article

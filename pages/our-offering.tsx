@@ -31,7 +31,7 @@ const OurOffering = () => {
             <br />
             (or on Zoom ;)
           </h1>
-          <p className="mb-6 text-s1">
+          <p className="mb-6 xl:mb-12 text-s1">
             Enter your email address, and we’ll get in touch to plan a coffee.
           </p>
           <ContactForm theme="dark" />

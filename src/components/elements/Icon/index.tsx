@@ -3,12 +3,12 @@ import {
   Delete,
   Send,
   Search,
-  People,
-  Rocket,
   Devices,
-  Lock,
-  Support,
   Insights,
+  SupportAgent,
+  RocketLaunchOutlined,
+  LockOutlined,
+  GroupOutlined,
 } from '@mui/icons-material';
 import { IconProps } from '@type/components/Icons.type';
 
@@ -24,11 +24,11 @@ const Icon: FC<IconProps> = ({ name, size = 16, ...props }) => {
     Delete: <Delete {...style} />,
     Send: <Send {...style} />,
     Search: <Search {...style} />,
-    People: <People {...style} />,
-    Rocket: <Rocket {...style} />,
+    People: <GroupOutlined {...style} />,
+    Rocket: <RocketLaunchOutlined {...style} />,
     Devices: <Devices {...style} />,
-    Lock: <Lock {...style} />,
-    Support: <Support {...style} />,
+    Lock: <LockOutlined {...style} />,
+    Support: <SupportAgent {...style} />,
     Insights: <Insights {...style} />,
   };
 

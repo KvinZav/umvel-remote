@@ -9,7 +9,7 @@ const UmvelCard: FC<{ children?: React.ReactNode; darkTheme: boolean }> = ({
   return (
     <div className={`grid md:grid-cols-2 ${darkTheme ? 'bg-primary-black' : ''}`}>
       <CustomCard
-        customStyles={`flex flex-col items-center justify-center ${
+        customStyles={`flex flex-col items-center lg:justify-center ${
           !darkTheme ? 'border border-[#ccc]' : ''
         }`}
         borderless

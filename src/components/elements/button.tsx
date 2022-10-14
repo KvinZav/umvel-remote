@@ -10,7 +10,7 @@ const BasicButton = React.forwardRef(
     return (
       <button
         ref={ref}
-        className={`whitespace-nowrap self-baseline border rounded-full outline-none ${
+        className={`whitespace-nowrap self-baseline border rounded-full outline-none leading-tight ${
           small ? 'text-s3 py-2 px-4 xl:py-4 xl:px-6' : 'text-s2 px-6 py-4 lg:py-3 lg:px-6'
         } ${
           theme === 'light'
