@@ -38,8 +38,6 @@ export const ReadyToTake = () => {
       </div>
       <div
         className="bg-primary-black md:aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex"
-        // className="bg-primary-black xl:w-[50%] max-h-[56rem] lg:min-w-[56rem] lg:min-h-[56rem] md:min-w-[38rem]
-        //   md:min-h-[38rem] flex "
       >
         <div className="overflow-auto flex md:overflow-hidden md:block md:px-16 md:py-20 lg:px-32 lg:py-60 xl:pt-96">
           <div className="min-w-[319px] min-h-[319px] md:min-w-[0] md:min-h-[0] p-12 md:p-0">
