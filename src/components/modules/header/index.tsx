@@ -81,7 +81,7 @@ const Header = () => {
                           </a>
                         </Link>
                       ) : (
-                        <li key={'link-' + link.id} className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold">
+                        <li key={'link-' + link.id} className="cursor-pointer flex justify-center transform transition duration-150 hover:scale-105 hover:font-semibold">
                           <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
