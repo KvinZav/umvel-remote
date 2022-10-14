@@ -42,7 +42,7 @@ const Header = () => {
       {!showMenu && (
         <nav className="sticky top-0 z-[99]">
           <div className="flex justify-between items-center p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-8">
-            <div className="h-6 w-6 md:h-8 md:w-8 ">
+            <div className="h-6 w-6 md:h-8 md:w-8 xl:h-[46px] xl:w-[46px]">
               {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
             </div>
             {(!matchMedia || !isVerticalScroll) && (
@@ -52,7 +52,7 @@ const Header = () => {
                 type="button"
                 className="flex items-center text-s3 text-gray-500 rounded-lg md:flex-row md:mt-0 md:font-medium md:border-0"
               >
-                <div className="h-5 w-5 md:w-7 md:h-7">
+                <div className="h-5 w-5 md:w-7 md:h-7 xl:h-[46px] xl:w-[46px]">
                   <CustomImage
                     src={'/assets/images/menu-icon.svg'}
                     alt="menu"
