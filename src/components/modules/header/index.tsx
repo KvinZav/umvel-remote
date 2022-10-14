@@ -146,7 +146,7 @@ const Header = () => {
                           >
                             <a>
                               <BasicButton>
-                                {link.name}
+                                <span className="text-m5 leading-none">{link.name}</span>
                               </BasicButton>
                             </a>
                           </Link>
