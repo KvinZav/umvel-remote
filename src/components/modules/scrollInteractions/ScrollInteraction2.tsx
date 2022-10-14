@@ -1,5 +1,6 @@
 import useMediaQuery from '@hooks/useMediaQuery';
 import useScrollOffset from '@hooks/useScrollOffset';
+import useWindowSize from '@hooks/useWindowSize';
 import React, { useEffect, useRef, useState } from 'react';
 
 const ScrollInteraction2 = ({ steps }) => {
@@ -14,7 +15,7 @@ const ScrollInteraction2 = ({ steps }) => {
   const [scaleValue, setScaleValue] = useState<number>();
   const [topPosition, setTopPosition] = useState(Number.MAX_SAFE_INTEGER);
 
-  const isDesktop = useMediaQuery('(min-width: 1024px)');
+  const { screen } = useWindowSize();
 
   useEffect(() => {
     const { bottom, top } = mainContainerRef.current.getBoundingClientRect();
@@ -25,35 +26,35 @@ const ScrollInteraction2 = ({ steps }) => {
   return (
     <section
       ref={mainContainerRef}
-      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[250vh] w-full"
+      className="my-[104px] md:my-[216px] lg:mt-96 lg:mb-0 lg:h-[450vh] xl:h-[250vh] w-full"
     >
       <div className="w-full flex items-center lg:sticky top-0">
         <div className="flex flex-col md:flex-row w-full lg:h-screen lg:mb-52 justify-center lg:justify-start overflow-hidden px-[72px] md:px-0 lg:pt-[30vh]">
           <div className="lg:flex-1 flex items-end md:items-start md:justify-end mr-4">
-            {isDesktop && topPosition < 800 && (
+            {screen !== 'sm' && screen !== 'md' && topPosition < 800 && (
               <div className="grid grid-cols-3 gap-2">
                 <div />
                 <Block scale={scaleValue / 500 + 1} translate={scaleValue * (0.6 / 5)}>
                   {steps[0].left.identifier}
                 </Block>
                 <div />
-                <Block scale={scaleValue / 350 + 1} translate={scaleValue * (1.5 / 5)}>
+                <Block scale={scaleValue / 400 + 1} translate={scaleValue * (1.5 / 5)}>
                   {steps[1].left.identifier}
                 </Block>
                 <Block scale={scaleValue / 300 + 1} translate={scaleValue * (2.5 / 5)}>
                   {steps[2].left.identifier}
                 </Block>
-                <Block scale={scaleValue / 150 + 1} translate={scaleValue * (4 / 5)}>
+                <Block scale={scaleValue / 250 + 1} translate={scaleValue * (4 / 5)}>
                   {steps[3].left.identifier}
                 </Block>
                 <div />
-                <Block scale={scaleValue / 100 + 1} translate={scaleValue * (6 / 5)}>
+                <Block scale={scaleValue / 100 + 1} translate={scaleValue * (5.5 / 5)}>
                   {steps[4].left.identifier}
                 </Block>
                 <div />
               </div>
             )}
-            {!isDesktop && (
+            {screen === 'sm' || screen === 'md' && (
               <div className="grid grid-cols-3 gap-2 mb-4">
                 {[...new Array(9)].map((_, n) =>
                   n === 0 || n === 2 || n === 6 || n === 8 ? <div /> : <Block />
@@ -68,7 +69,7 @@ const ScrollInteraction2 = ({ steps }) => {
             {/* TODO: Connect to CMS when texts are fixed */}
             <p
               className={`text-s1 xl:text-s2 md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
-                scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'
+                (screen === 'lg' && scaleValue > 100) || ((screen === 'xl' || screen === '2xl') && scaleValue > 200) ? 'lg:opacity-0' : 'opacity-100'
               }`}
             >
               We partner with you throughout the entire journey: from idea validation, to experience
@@ -78,7 +79,7 @@ const ScrollInteraction2 = ({ steps }) => {
             <br />
             <p
               className={`text-s1 xl:text-s2 md:max-w-[344px] lg:max-w-[418px] xl:max-w-[592px] transition-opacity duration-500 ease-in ${
-                scaleValue > 100 ? 'lg:opacity-0' : 'opacity-100'
+                (screen === 'lg' && scaleValue > 100) || ((screen === 'xl' || screen === '2xl') && scaleValue > 200) ? 'lg:opacity-0' : 'opacity-100'
               }`}
             >
               Our approach draws on the best practices we have gathered from working with numerous

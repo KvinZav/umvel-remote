@@ -103,7 +103,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             </div>
           </div>
           <div
-            className="col-start-2 col-span-3 row-start-2 row-span-2 flex justify-center items-center"
+            className="col-start-2 col-span-3 row-start-2 row-span-2 h-full"
             style={{
               transform: `translateY(${positionImage}px)`,
               transformOrigin: 'top left',
@@ -114,9 +114,9 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
               <Image
                 url={imgAttributes.url}
                 alt="project"
-                layout="intrinsic"
-                height={imgAttributes.height}
-                width={imgAttributes.width}
+                layout="fill"
+                height="100%"
+                width="100%"
                 previewUrl={imgAttributes.previewUrl}
               />
             )}
