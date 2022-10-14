@@ -9,6 +9,7 @@ const WorkCase: React.FC<WorkCaseProps> = ({
   inverted,
   alignImage,
   caseRef,
+  quote
 }): JSX.Element => (
   <>
     <article
@@ -46,9 +47,9 @@ const WorkCase: React.FC<WorkCaseProps> = ({
         </div>
       </div>
     </article>
-    {project.quote && (
+    {quote && (
       <div className="hidden md:flex w-full py-40 lg:py-[200px] xl:py-60 flex-col justify-center items-center">
-        <p className="text-m1 font-bold max-w-md xl:max-w-[600px] text-center">{project.quote}</p>
+        <p className="text-m1 font-bold max-w-md xl:max-w-[600px] text-center">{quote}</p>
       </div>
     )}
   </>

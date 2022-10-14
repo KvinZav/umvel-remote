@@ -19,7 +19,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
 
   const highlightsContainerRef = useRef<HTMLDivElement>(null);
 
-  const { height } = useWindowSize();
+  const { height, screen } = useWindowSize();
 
   const { id, name, description, valuePropositions, icon, cases } = detail;  
 
@@ -78,14 +78,16 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
             }`}
             onClick={onPreviousClick}
           >
-            <ArrowBackRounded fontSize="inherit"/>
+            <div className="w-[18px] h-[18px] flex justify-center text-[18px] leading-none">
+              <ArrowBackRounded fontSize="inherit"/>
+            </div>
           </button>
           <div className="flex w-full flex-col items-center px-9">
-            <div className="md:px-24 lg:px-0 lg:max-w-[640px] space-y-12">
+            <div className="md:px-24 lg:px-0 lg:max-w-[640px] xl:max-w-[795px] space-y-12">
               <div
                 className={`flex space-x-2 ${dark ? 'text-primary-white' : 'text-primary-black'}`}
               >
-                <Icon name={icon as IconNameType} size={32} />
+                <Icon name={icon as IconNameType} size={screen !== 'xl' ? 32 : 40} />
                 <h1 className={`text-m3 font-bold`}>{name}</h1>
               </div>
               <p
@@ -107,14 +109,16 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
             </div>
           </div>
           <button
-            className={`border rounded-full p-2 absolute top-[45vh] right-3 md:right-8 lg:right-[134px] text-[18px] ${
+            className={`border rounded-full p-2 absolute top-[45vh] right-3 md:right-8 lg:right-[134px] ${
               dark ? 
                 'border-primary-white text-primary-white lg:hover:text-primary-black lg:hover:bg-primary-white':
                 ' border-primary-black text-primary-black lg:hover:text-primary-white lg:hover:bg-primary-black'
             }`}
             onClick={onNextClick}
           >
-            <ArrowForwardRounded fontSize="inherit"/>
+            <div className="w-[18px] h-[18px] flex justify-center text-[18px] leading-none">
+              <ArrowForwardRounded fontSize="inherit"/>
+            </div>
           </button>
         </section>
         <section className="flex flex-col items-center">

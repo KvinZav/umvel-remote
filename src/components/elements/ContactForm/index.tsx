@@ -4,6 +4,7 @@ import { useForm } from '@hooks/index';
 import { emailValidation, isNotEmptyValidation } from '@utils/validations';
 import { post } from '@fetcher/post';
 import { environment } from '@environments/index';
+import { Send } from '@mui/icons-material'
 
 const classesByStatus = {
   light: {
@@ -14,12 +15,17 @@ const classesByStatus = {
     },
     focused: {
       input: 'bg-primary-white border-primary-black',
-      button: 'bg-primary-black border-primary-white',
+      button: 'bg-primary-white border-primary-black hover:bg-primary-black hover:text-primary-white',
       color: '#ffffff'
+    },
+    hover: {
+      input: 'bg-primary-white border-secondary-20',
+      button: 'bg-primary-white border-primary-black hover:bg-primary-black hover:text-primary-white',
+      color: '#000000'
     },
     error: {
       input: 'bg-primary-white border-prisma-red',
-      button: 'bg-primary-black border-prisma-red',
+      button: 'bg-primary-white border-prisma-red cursor-not-allowed text-prisma-red',
       color: '#CE4C4C'
     }
   },
@@ -31,12 +37,17 @@ const classesByStatus = {
     },
     focused: {
       input: 'bg-secondary-90 border-primary-white',
-      button: 'bg-primary-white border-primary-white',
+      button: 'bg-secondary-90 text-primary-white hover:bg-primary-white hover:border-primary-white hover:text-primary-black',
       color: '#000000'
+    },
+    hover: {
+      input: 'bg-secondary-90 border-secondary-80',
+      button: 'bg-secondary-90 border-secondary-80 hover:bg-primary-white hover:text-primary-black',
+      color: '#ffffff'
     },
     error: {
       input: 'bg-secondary-90 border-prisma-red',
-      button: 'bg-primary-black border-prisma-red',
+      button: 'bg-secondary-90 border-prisma-red text-prisma-red cursor-not-allowed',
       color: '#CE4C4C'
     }
   }
@@ -47,7 +58,8 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
   const [currentResponse, setCurrentResponse] = useState({ error: false, message: '' });
   const [emailSend, setEmailSend] = useState(false);
 
-  const [currentStatus, setCurrentStatus] = useState<'default' | 'focused' | 'error'>('default')
+  const [currentStatus, setCurrentStatus] = useState<'default' | 'hover' | 'focused' | 'error'>('default')
+  const [isButtonHovered, setIsButtonHovered] = useState(false)
 
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -87,10 +99,22 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
     setCurrentStatus('default')
   }
 
+  const handleHoverIn = () => {
+    if(currentStatus !== 'focused' && currentStatus !== 'error') setCurrentStatus('hover')
+  }
+
+  const handleHoverOut = () => {
+    if(currentStatus !== 'focused' && currentStatus !== 'error') setCurrentStatus('default')
+  }
+
   return (
     <form onSubmit={onSubmit} method="post">
       {!emailSend ? (<div className=''>
-        <div className={`flex rounded-full border p-1 justify-between ${classesByStatus[theme][currentStatus].input}`}>
+        <div
+          className={`flex rounded-full border p-1 justify-between ${classesByStatus[theme][currentStatus].input}`}
+          onMouseEnter={handleHoverIn}
+          onMouseLeave={handleHoverOut}
+        >
           <input
             type="text"
             id="e-mail"
@@ -106,8 +130,10 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
             disabled={email.errors.length > 1}
             className={`cursor-pointer border outline-none rounded-full py-3 px-6 flex justify-center items-center ${classesByStatus[theme][currentStatus].button}`}
             type="submit"
+            onMouseEnter={handleHoverIn}
+            onMouseLeave={handleHoverOut}
           >
-            <SendIcon fill={classesByStatus[theme][currentStatus].color} />
+            <Send />
           </button>
         </div>
         <p className={`md:block text-s4 pt-2 px-6 text-prisma-red h-4`}>{currentResponse.message}</p>
