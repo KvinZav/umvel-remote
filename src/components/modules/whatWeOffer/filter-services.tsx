@@ -24,7 +24,7 @@ export const Filter = ({ text, active, selected, setSelected, item, buttons, set
   return (
     <button
       className={`
-        border rounded-lg p-4 flex min-h-[5.5rem] outline-none
+        border rounded-lg p-4 flex min-h-[5rem] xl:min-h-[8rem] outline-none
         ${isActive ?
           'border-primary-black bg-primary-black text-primary-white' :
           'border-secondary-10 text-secondary-60'
