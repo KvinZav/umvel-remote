@@ -16,7 +16,7 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
         <h2 className="font-bold text-m1 mb-12">
           {portfolioDescription}
         </h2>
-        <div className="flex gap-2 mt-2">
+        <div className="flex gap-4 mt-2">
           {challenge.callToAction.map((item, index) => (
             <a
               key={'action-' + index}
@@ -35,10 +35,10 @@ const CasesHeroDesktop = (props: CasesHeroProps) => {
       />
       <div className="relative col-span-1 aspect-square p-12">
         <span className="absolute top-12 left-12">Client</span>
-        <div className="w-full h-full p-12">
+        <div className="w-full h-full p-[15%]">
           <Image
-            width="50"
-            height="50"
+            width="100%"
+            height="100%"
             layout="responsive"
             url={logo.data.attributes.url}
             alt={logo.data.attributes.alternativeText}

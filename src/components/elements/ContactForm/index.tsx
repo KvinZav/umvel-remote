@@ -17,6 +17,11 @@ const classesByStatus = {
       button: 'bg-primary-black border-primary-white',
       color: '#ffffff'
     },
+    hover: {
+      input: 'bg-primary-white border-primary-black',
+      button: 'bg-primary-black border-primary-white',
+      color: '#ffffff'
+    },
     error: {
       input: 'bg-primary-white border-prisma-red',
       button: 'bg-primary-black border-prisma-red',
@@ -34,6 +39,11 @@ const classesByStatus = {
       button: 'bg-primary-white border-primary-white',
       color: '#000000'
     },
+    hover: {
+      input: 'bg-secondary-90 border-primary-white',
+      button: 'bg-primary-white border-primary-white',
+      color: '#000000'
+    },
     error: {
       input: 'bg-secondary-90 border-prisma-red',
       button: 'bg-primary-black border-prisma-red',
@@ -47,7 +57,7 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
   const [currentResponse, setCurrentResponse] = useState({ error: false, message: '' });
   const [emailSend, setEmailSend] = useState(false);
 
-  const [currentStatus, setCurrentStatus] = useState<'default' | 'focused' | 'error'>('default')
+  const [currentStatus, setCurrentStatus] = useState<'default' | 'hover' | 'focused' | 'error'>('default')
 
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -87,10 +97,22 @@ const ContactForm: FC<{ theme?: 'dark' | 'light' }> = ({ theme = 'light' }): JSX
     setCurrentStatus('default')
   }
 
+  const handleHoverIn = () => {
+    if(currentStatus !== 'focused' && currentStatus !== 'error') setCurrentStatus('hover')
+  }
+
+  const handleHoverOut = () => {
+    if(currentStatus !== 'focused' && currentStatus !== 'error') setCurrentStatus('default')
+  }
+
   return (
     <form onSubmit={onSubmit} method="post">
       {!emailSend ? (<div className=''>
-        <div className={`flex rounded-full border p-1 justify-between ${classesByStatus[theme][currentStatus].input}`}>
+        <div
+          className={`flex rounded-full border p-1 justify-between ${classesByStatus[theme][currentStatus].input}`}
+          onMouseEnter={handleHoverIn}
+          onMouseLeave={handleHoverOut}
+        >
           <input
             type="text"
             id="e-mail"
