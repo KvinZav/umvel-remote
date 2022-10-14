@@ -9,8 +9,8 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
   if (projects) {
     return (
       <>
-        <hr className="mx-12 text-secondary-10 mb-[104px]"></hr>
-        <div className="h-full aspect-[2/1] flex justify-center items-center">
+        <hr className="mx-12 text-secondary-10"></hr>
+        <div className="flex justify-center items-center my-[104px]">
           <h3 className="text-m3 font-bold">
             If you can dream it,
             <br /> we can make it.
