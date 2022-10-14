@@ -41,7 +41,7 @@ const Header = () => {
     <>
       {!showMenu && (
         <nav className="sticky top-0 z-[99]">
-          <div className="flex justify-between items-center p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-8">
+          <div className="flex justify-between items-center p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
             <div className="h-6 w-6 md:h-8 md:w-8 xl:h-[46px] xl:w-[46px]">
               {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
             </div>
@@ -69,7 +69,7 @@ const Header = () => {
                 id="navbar-default"
                 data-collapse-toggle="navbar-default"
               >
-                <ul className="grid grid-cols-4 grid-flow-col mt-4 border md:mt-0 text-s2 md:font-medium md:border-0 items-center hover:box-content gap-6 xl:gap-8">
+                <ul className="grid grid-cols-4 grid-flow-col mt-4 border md:mt-0 text-s2 md:font-medium md:border-0 items-center hover:box-content gap-4 xl:gap-6">
                   {options &&
                     options.map((link) =>
                       link.type === 'home' ? null : link.type === 'button' ? (
@@ -81,7 +81,7 @@ const Header = () => {
                           </a>
                         </Link>
                       ) : (
-                        <li key={'link-' + link.id} className="cursor-pointer justify-self-center transform transition duration-150 hover:scale-105 hover:font-semibold">
+                        <li key={'link-' + link.id} className="cursor-pointer flex justify-center transform transition duration-150 hover:scale-105 hover:font-semibold">
                           <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
                         </li>
                       )
@@ -146,7 +146,7 @@ const Header = () => {
                           >
                             <a>
                               <BasicButton>
-                                {link.name}
+                                <span className="text-m5 leading-none">{link.name}</span>
                               </BasicButton>
                             </a>
                           </Link>
