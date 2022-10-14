@@ -13,7 +13,6 @@
             "hoverClientHeading": null,
             "callToAction": null,
             "backgroundColor": "#40AD4C",
-            "quote": null,
             "image": {
               "data": {
                 "id": 1,
@@ -45,7 +44,6 @@
             "hoverClientHeading": null,
             "callToAction": null,
             "backgroundColor": "#2F7C38",
-            "quote": "We seamlessly deliver business value.",
             "image": {
               "data": {
                 "id": 1,
@@ -139,7 +137,6 @@
             "hoverClientHeading": null,
             "callToAction": null,
             "backgroundColor": "#348181",
-            "quote": "We design, build and run digital platforms.",
             "image": {
               "data": {
                 "id": 1,
@@ -171,7 +168,6 @@
             "hoverClientHeading": null,
             "callToAction": null,
             "backgroundColor": "#DA3440",
-            "quote": "",
             "image": {
               "data": {
                 "id": 1,
@@ -203,7 +199,6 @@
             "hoverClientHeading": null,
             "callToAction": null,
             "backgroundColor": "#5B96CD",
-            "quote": "We know what it takes, to make your idea real.",
             "image": {
               "data": {
                 "id": 1,
@@ -235,7 +230,6 @@
             "hoverClientHeading": null,
             "callToAction": null,
             "backgroundColor": "#CBA552",
-            "quote": "",
             "image": {
               "data": {
                 "id": 1,
@@ -298,7 +292,6 @@
             "hoverClientHeading": null,
             "callToAction": null,
             "backgroundColor": "#0F55C3",
-            "quote": "We got plenty of space to put your brand here.",
             "image": {
               "data": {
                 "id": 1,
@@ -322,6 +315,23 @@
                 }
               }
             }
+          }]
+        },
+        {
+          "id": 2,
+          "__component": "workcases.quotes",
+          "quotes": [{
+            "body": "We seamlessly deliver business value.",
+            "position": 1
+          },{
+            "body": "We design, build and run  digital platforms.",
+            "position": 4
+          },{
+            "body": "We know what it takes, to make your idea real.",
+            "position": 6
+          },{
+            "body": "We got plenty of space to put your brand here.",
+            "position": 9
           }]
         },
         {

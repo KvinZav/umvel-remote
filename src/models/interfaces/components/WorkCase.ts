@@ -3,4 +3,5 @@ export type WorkCaseProps = {
   inverted?: boolean;
   alignImage?: 'left' | 'right' | 'center';
   caseRef?: (el: HTMLDivElement) => any;
+  quote?: any;
 };
