@@ -20,7 +20,7 @@ export const ReadyToTake = () => {
   return (
     <div className="md:overflow-auto md:flex md:border border-secondary-10 border-solid mt-24 md:mt-52 xl:mt-[250px]">
       <div
-        className="aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex"
+        className="md:aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex"
       >
         <div className="px-16 py-20 lg:px-32 lg:py-60 xl:pt-96">
           <h1 className="font-bold md:mb-6 text-m3 md:text-b4 mb-4">{quotes.title}</h1>
@@ -37,9 +37,7 @@ export const ReadyToTake = () => {
         </div>
       </div>
       <div
-        className="bg-primary-black aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex"
-        // className="bg-primary-black xl:w-[50%] max-h-[56rem] lg:min-w-[56rem] lg:min-h-[56rem] md:min-w-[38rem]
-        //   md:min-h-[38rem] flex "
+        className="bg-primary-black md:aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex"
       >
         <div className="overflow-auto flex md:overflow-hidden md:block md:px-16 md:py-20 lg:px-32 lg:py-60 xl:pt-96">
           <div className="min-w-[319px] min-h-[319px] md:min-w-[0] md:min-h-[0] p-12 md:p-0">
