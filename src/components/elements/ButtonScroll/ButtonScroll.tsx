@@ -1,6 +1,5 @@
-import CustomImage from '@elements/image-component/CustomImage';
 import { ArrowDownwardRounded } from '@mui/icons-material';
-import React, { useState } from 'react';
+import React from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 
 export const ButtonScroll = ({ elementTo }) => {
