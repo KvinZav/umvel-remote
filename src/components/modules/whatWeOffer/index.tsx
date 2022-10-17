@@ -111,15 +111,15 @@ const Services = () => {
       )}
 
       {isDetailVisible && (
-      <Suspense>
-        <OfferDetails
-        detail={selectedDetail}
-        onPreviousClick={handlePrevious}
-        onNextClick={handleNext}
-        onClose={handleDetailsClose}
-        servicesSelected={servicesSelected}
-        />
-      </Suspense>
+        <Suspense>
+          <OfferDetails
+            detail={selectedDetail}
+            onPreviousClick={handlePrevious}
+            onNextClick={handleNext}
+            onClose={handleDetailsClose}
+            servicesSelected={servicesSelected}
+          />
+        </Suspense>
       )}
     </section>
   );
