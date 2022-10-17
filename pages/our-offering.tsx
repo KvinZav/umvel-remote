@@ -8,8 +8,6 @@ const Services = dynamic(() => import('@modules/whatWeOffer'), {
   suspense: true,
 });
 
-
-
 const OurOffering = () => {
   return (
     <>
