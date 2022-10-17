@@ -1,38 +1,23 @@
 import CustomImage from '@elements/image-component/CustomImage';
+import { ArrowDownwardRounded } from '@mui/icons-material';
 import React, { useState } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 
 export const ButtonScroll = ({ elementTo }) => {
   const scrollToRef = () => {
-    setIsHovered(false)
     smoothscroll.polyfill();
     elementTo.current.scrollIntoView({
       behavior: 'smooth',
     });
   };
 
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <div className="w-full flex justify-center md:justify-end p-[1.5rem]">
       <button
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-        onTouchStart={() => setIsHovered(true)}
         onTouchEnd={scrollToRef}
-        className="border rounded-full border-3 p-[1rem] w-[3rem] h-[3rem] lg:hover:bg-primary-black outline-none"
+        className="border rounded-full pb-0.5 border-3 w-[3rem] h-[3rem] text-2xl leading-none lg:hover:bg-primary-black outline-none lg:hover:text-primary-white"
         onClick={scrollToRef}>
-          {
-            isHovered ? 
-              <CustomImage
-                src="/assets/icons/arrow-down-white.svg"
-                alt="icon-arrow-down"
-              /> :
-              <CustomImage
-                src="/assets/icons/arrowDown.svg"
-                alt="icon-arrow-down"
-              />    
-          }
+          <ArrowDownwardRounded fontSize="inherit"/>
       </button>
     </div>
   );
