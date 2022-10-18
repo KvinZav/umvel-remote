@@ -38,7 +38,9 @@ const HighlightsPhone: React.FC<HighlightsPhonePorps> = ({ projects }): JSX.Elem
         <div className="flex justify-center items-center">
           <div className="min-h-[128px] flex justify-center items-center my-[104px]">
             <Link href="/our-work">
-              <PrismButton>View all cases</PrismButton>
+              <a>
+                <PrismButton>View all cases</PrismButton>
+              </a>
             </Link>
           </div>
         </div>

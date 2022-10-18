@@ -52,7 +52,9 @@ const HighlightsTablet: React.FC<HighlightsTabletPorps> = ({
               </button>
               <div>
                 <Link href="/our-work">
-                  <PrismButton>View all cases</PrismButton>
+                  <a>
+                    <PrismButton>View all cases</PrismButton>
+                  </a>
                 </Link>
               </div>
               <button className="ml-16 text-m1" onClick={() => handleNext()}>

@@ -27,7 +27,9 @@ export const ReadyToTake = () => {
           <p className="mb-8 text-s1">{quotes.subtitle}</p>
           <div className="p-10 flex md:flex-row flex-col-reverse items-center text-center">
             <Link href="/our-work">
-              <PrismButton>{'Our Work'}</PrismButton>
+              <a>
+                <PrismButton>{'Our Work'}</PrismButton>
+              </a>
             </Link>
 
             <p className="font-bold text-m3 md:text-m4 lg:text-m3 md:ml-10 mb-14 md:mb-0">

@@ -6,6 +6,7 @@ import { environment } from '@environments/index';
 import { get } from '@fetcher/get';
 import { FETCHER } from '@fetcher/clients';
 import { BlockNameEnum } from '@enums/BlockName';
+import Logo from '@elements/LogoNavBar/LogoNavBar';
 
 export const FooterMenu = () => {
   const { data: event } = useSWR(environment.HOME_URL, get, {
@@ -20,12 +21,8 @@ export const FooterMenu = () => {
     <section className="px-[15%] py-20 md:pb-[152px] lg:px-[10%] lg:py-32 xl:px-[9.5%] xl:py-[170px]">
       <div className="flex flex-col">
         <div className="flex w-full justify-between flex-col lg:flex-row mb-14 lg:mb-8 xl:mb-12">
-          <div className="flex items-center gap-4">
-            <CustomImage
-              src={logo.url}
-              alt={'logo-umvel'}
-              className="w-8"
-            />
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+            <Logo/>
             <p className="font-bold text-s3">We deliver what we promise.</p>
           </div>
           <div className="flex flex-col lg:flex-row">
