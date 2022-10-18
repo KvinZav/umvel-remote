@@ -111,7 +111,9 @@ const DesktopScrollInteraction3 = () => {
                   >
                     <Link href="/our-work">
                       <div className="min-w-[48px] min-h-[48px] ml-10 xl:ml-14 mr-14 xl:mr-[72px]">
-                        <PrismButton>Our Work</PrismButton>
+                        <a>
+                          <PrismButton>Our Work</PrismButton>
+                        </a>
                       </div>
                     </Link>
                     <div className="py-0 flex justify-center">

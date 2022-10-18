@@ -47,9 +47,11 @@ export const OtherCases = ({ caseData: { otherCases } }: { caseData: CaseAttribu
       </div>
       <div className="w-full flex justify-center ">
         <Link href="/our-work" >
-          <PrismButton>
-            {'View all cases'}
-          </PrismButton>
+          <a>
+            <PrismButton>
+              {'View all cases'}
+            </PrismButton>
+          </a>
         </Link>
       </div>
     </section>

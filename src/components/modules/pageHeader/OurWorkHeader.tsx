@@ -8,7 +8,9 @@ export const OurWorkHeader = ({ data, onScrollButtonClick }: { data: Body, onScr
     <section className="w-full flex flex-col-reverse md:flex-row px-[70px] py-24 md:py-[124px] lg:py-40 xl:py-[211px] justify-center">
       <div className="flex justify-center items-center lg:items-start md:justify-end lg:ml-10 h-36 md:h-auto lg:pt-6">
         <PrismButton onClick={onScrollButtonClick}>
-          <Image url="/assets/icons/arrowDown.svg" width={12} height={12} alt="Down" />
+          <a>
+            <Image url="/assets/icons/arrowDown.svg" width={12} height={12} alt="Down" />
+          </a>
         </PrismButton>
       </div>
       <div className="flex flex-col justify-evenly md:ml-16 xl:ml-[92px] text-center md:text-left my-2 space-y-2">

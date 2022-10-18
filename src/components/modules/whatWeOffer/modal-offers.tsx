@@ -20,7 +20,7 @@ export const ModalOffers = ({
       <div className="z-[99] w-screen h-screen bg-primary-white fixed top-0 p-8 lg:hidden overflow-hidden overflow-y-scroll">
         <div className="w-full flex flex-row justify-between mb-6">
           <div className="h-6 w-6 md:h-8 md:w-8">
-            <Logo imgUrl={`/assets/images/umvelLogoDark.svg`} alt={'Logo Umvel'} />
+            <Logo/>
           </div>
           <div
             className="h-5 w-5 md:w-7 md:h-7"
