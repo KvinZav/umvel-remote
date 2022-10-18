@@ -9,7 +9,7 @@ const MainLogo = () => {
           src="/assets/images/ntt-umvel-logo.svg"
           className="
             fixed
-            top-12 left-4 w-[155] h-8
+            top-4 left-4 w-[155] h-8
             md:top-6 md:left-6
             lg:top-8 lg:left-8
             xl:top-11 xl:left-8 xl:w-[224px] xl:h-[46px]
