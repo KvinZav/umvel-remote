@@ -11,8 +11,8 @@ const MainLogo = () => {
             fixed
             top-3 left-4 w-[155] h-8
             md:top-6 md:left-6
-            lg:top-8 lg:left-8
-            xl:top-11 xl:left-8 xl:w-[224px] xl:h-[46px]
+            lg:top-6 lg:left-8
+            xl:top-8 xl:left-8 xl:w-[224px] xl:h-[46px]
             z-[99]"
             alt="Umvel an NTT Data Company"
         />
