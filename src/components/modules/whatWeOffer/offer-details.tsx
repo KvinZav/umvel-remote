@@ -50,18 +50,18 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
             dark ? 'text-primary-white' : 'text-primary-black'
           }`}
         >
-          <div className="w-8 h-8">
+          <div className="w-[155px] h-8 xl:w-[224px] xl:h-[46px]">
             {dark ? (
               <CustomImage
-                src={'assets/images/umvelLogo.svg'}
+                src={'assets/images/ntt-umvel-logo-white.svg'}
                 alt={'logo-umvel'}
-                className="w-8"
+                className="w-[155px] h-8 xl:w-[224px] xl:h-[46px]"
               />
             ) : (
               <CustomImage
-                src={'assets/images/umvelLogoDark.svg'}
+                src={'assets/images/ntt-umvel-logo.svg'}
                 alt={'logo-umvel'}
-                className="w-8"
+                className="w-[155px] h-8 xl:w-[224px] xl:h-[46px]"
               />            
             )}
           </div>
