@@ -49,9 +49,9 @@ export const FooterTeam = ({ data }: { data: Body }) => {
       >
         <div className="self-start">
           <CustomImage
-            src="/assets/images/umvelImagoType.svg"
+            src="/assets/images/ntt-umvel-logo.svg"
             alt="logo-umvel"
-            className="w-[152px] lg:w-[190px]"
+            className="w-[155px] h-8 xl:w-[224px] xl:h-[46px]"
           />
           <p className="mt-3 text-m4">{titleRight}</p>
         </div>
