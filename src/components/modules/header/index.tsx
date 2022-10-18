@@ -41,8 +41,8 @@ const Header = () => {
   return (
     <>
       {!showMenu && (
-        <nav className="sticky top-0 z-[98] bg-primary-white mix-blend-multiply">
-          <div className="flex justify-end items-center pt-12 p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
+        <nav className="sticky top-0 z-[98]">
+          <div className="flex justify-end items-center min-h-[56px] p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
             {(!matchMedia || !isVerticalScroll) && (
               <button
                 data-collapse-toggle="navbar-default"
