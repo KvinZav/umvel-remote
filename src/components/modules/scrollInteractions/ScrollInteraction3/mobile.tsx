@@ -46,7 +46,9 @@ const MobileScrollInteraction3 = () => {
                 >
                   <div className="flex justify-center items-center min-w-[120px] min-h-[120px] lg:mr-3">
                     <Link href="/our-work">
-                      <PrismButton>Our Work</PrismButton>
+                      <a>
+                        <PrismButton>Our Work</PrismButton>
+                      </a>
                     </Link>
                   </div>
                   <div className="py-[104px] flex w-full">

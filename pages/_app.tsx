@@ -5,6 +5,8 @@ import { ScrollContextProvider } from '@context/scrollContext';
 import { FooterMenu } from '@modules/footer';
 import ModalCookies from '@elements/ModalCookies';
 import { useEffect, useState } from 'react';
+import Logo from '@elements/LogoNavBar/LogoNavBar';
+import MainLogo from '@elements/LogoNavBar/MainLogo';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -50,6 +52,7 @@ function MyApp({ Component, pageProps }) {
     <ModalCookies showModal={showModal}/>
       <SWRConfig value={swrConfig}>
         <ScrollContextProvider>
+          <MainLogo/>
           <Header />
           <Component {...pageProps} />
           <FooterMenu />

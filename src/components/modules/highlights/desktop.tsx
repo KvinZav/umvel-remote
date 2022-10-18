@@ -94,7 +94,9 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                   <ChevronLeftRounded fontSize="inherit" />
                 </button>
                 <Link href="/our-work">
-                  <PrismButton>Our Work</PrismButton>
+                  <a>
+                    <PrismButton>Our Work</PrismButton>
+                  </a>
                 </Link>
                 <button className="ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1" onClick={() => handleNext()}>
                   <ChevronRightRounded fontSize="inherit" />
@@ -115,8 +117,6 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                 url={imgAttributes.url}
                 alt="project"
                 layout="fill"
-                height="100%"
-                width="100%"
                 previewUrl={imgAttributes.previewUrl}
               />
             )}

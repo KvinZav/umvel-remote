@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import useMediaQuery from '@hooks/useMediaQuery';
 import Logo from '@elements/LogoNavBar/LogoNavBar';
 import useSWR from 'swr';
@@ -11,6 +11,7 @@ import Image from '@elements/image-component';
 import { BlockNameEnum } from '@enums/BlockName';
 import Tooltip from '@elements/tooltip/tooltip';
 import Link from 'next/link';
+import MainLogo from '@elements/LogoNavBar/MainLogo';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -40,11 +41,8 @@ const Header = () => {
   return (
     <>
       {!showMenu && (
-        <nav className="sticky top-0 z-[99]">
-          <div className="flex justify-between items-center p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
-            <div className="h-6 w-6 md:h-8 md:w-8 xl:h-[46px] xl:w-[46px]">
-              {logo && <Logo imgUrl={logo.url} alt={logo.alternativeText} />}
-            </div>
+        <nav className="sticky top-0 z-[98] bg-primary-white mix-blend-multiply">
+          <div className="flex justify-end items-center pt-12 p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
             {(!matchMedia || !isVerticalScroll) && (
               <button
                 data-collapse-toggle="navbar-default"
@@ -73,7 +71,7 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'home' ? null : link.type === 'button' ? (
-                        <Link href={`/${link.link}`}>
+                        <Link key={'link-'+link.id} href={`/${link.link}`}>
                           <a>
                             <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
                               {link.name}
@@ -82,7 +80,11 @@ const Header = () => {
                         </Link>
                       ) : (
                         <li key={'link-' + link.id} className="cursor-pointer flex justify-center transform transition duration-150 hover:scale-105 hover:font-semibold">
-                          <Link onClick={() => setShowMenu(false)} href={`/${link.link}`}>{link.name}</Link>
+                          <Link href={`/${link.link}`}>
+                            <a onClick={() => setShowMenu(false)}>
+                              {link.name}  
+                            </a>
+                          </Link>
                         </li>
                       )
                     )}
@@ -112,15 +114,11 @@ const Header = () => {
             )}
             <div className="h-full overflow-y-auto min-w-min w-full flex flex-col items-center p-4 md:p-6 lg:pt-6 lg:px-8">
               <div className="w-full flex flex-row justify-between">
-                <div className="h-6 w-6 md:h-8 md:w-8">
-                  {logo && (
-                    <Logo
-                      onClick={() => setShowMenu(false)}
-                      imgUrl={logo.url}
-                      alt={logo.alternativeText}
-                    />
-                  )}
-                </div>
+                {logo && (
+                  <Logo
+                    onClick={() => setShowMenu(false)}
+                  />
+                )}
                 <div
                   className="h-5 w-5 md:w-7 md:h-7"
                   onClick={() => {
