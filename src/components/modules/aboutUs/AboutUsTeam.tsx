@@ -26,7 +26,7 @@ export const AboutUsTeam = ({ data: { title, subtitle, teamMembers } }: { data: 
         <p className="text-s1 md:text-m3">{subtitle}</p>
       </div>
       <div
-        className="w-full grid grid-rows-2 md:flex md:flex-wrap md:justify-center gap-y-8 lg:gap-y-16 xl:gap-y-20 overflow-x-auto snap-x mb-[104px] md:mb-[200px] lg:mb-[320px] px-[72px] md:px-14 lg:px-[10%]"
+        className="w-full grid grid-rows-2 md:flex md:flex-wrap md:justify-center gap-y-8 lg:gap-y-16 xl:gap-y-20 overflow-x-auto md:overflow-hidden snap-x mb-[104px] md:mb-[200px] lg:mb-[320px] px-[72px] md:px-14 lg:px-[10%]"
         style={customStyle}
       >
         {teamMembers.map((member, idx) => (

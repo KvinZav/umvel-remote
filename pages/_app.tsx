@@ -35,10 +35,12 @@ const colors = [
   'bg-#0081C6',
 ];
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, userAgent }) {  
+  
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => {    
+
     if (!sessionStorage.getItem('consent')) {
       sessionStorage.setItem('consent', 'false');
     }
