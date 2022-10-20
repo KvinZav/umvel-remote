@@ -5,8 +5,8 @@ import { ScrollContextProvider } from '@context/scrollContext';
 import { FooterMenu } from '@modules/footer';
 import ModalCookies from '@elements/ModalCookies';
 import { useEffect, useState } from 'react';
-import Logo from '@elements/LogoNavBar/LogoNavBar';
 import MainLogo from '@elements/LogoNavBar/MainLogo';
+import Script from 'next/script';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -49,6 +49,15 @@ function MyApp({ Component, pageProps }) {
   
   return (
     <>
+    {/* Google tag (gtag.js) */}
+    <Script async id="google-tag-manager" src="https://www.googletagmanager.com/gtag/js?id=G-QEPBH435ZF"></Script>
+    <Script id="google-tag-manager-datalayer-push">
+      {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QEPBH435ZF');`}
+    </Script>
     <ModalCookies showModal={showModal}/>
       <SWRConfig value={swrConfig}>
         <ScrollContextProvider>
