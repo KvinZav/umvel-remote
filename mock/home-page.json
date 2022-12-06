@@ -376,7 +376,7 @@
                   "id": 7,
                   "attributes": {
                     "title": "OEIO disrupts the wellness market!",
-                    "caseDescription": "Find out how we created a two-sided welllness marketplace for LATAM countries.",
+                    "caseDescription": "Find out how we created a two-sided wellness marketplace for LATAM countries.",
                     "primaryColor": "#CBA552",
                     "secondaryColor": "capa-secondary",
                     "createdAt": "2022-08-19T15:15:34.095Z",
@@ -651,8 +651,8 @@
               },
               "left": {
                 "id": 3,
-                "identifier": "Makingthe impossible,",
-                "text": "Makingthe impossible,"
+                "identifier": "Making the impossible,",
+                "text": "Making the impossible,"
               }
             },
             {
@@ -988,7 +988,7 @@
                     "id": 8,
                     "attributes": {
                       "title": "Travel Company",
-                      "caseDescription": "We defined travel customer segmentations for 7 brands, in the domains of air, hotel, timeshares, cruise and car rental.",
+                      "caseDescription": "We defined travel customer segmentation for 7 brands, in the domains of air, hotel, timeshares, cruise and car rental.",
                       "primaryColor": "#04A3AC",
                       "secondaryColor": null,
                       "createdAt": "2022-08-19T15:43:13.839Z",

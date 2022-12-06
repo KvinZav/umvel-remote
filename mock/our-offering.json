@@ -538,7 +538,7 @@
           "Cross platform development",
           "ML development & Training",
           "Legacy to cloud transformation",
-          "System deign and architecture development"
+          "System design and architecture development"
         ],
         "cases": [{
           "data": {
@@ -886,7 +886,7 @@
       {
         "id": 6,
         "icon": "Support",
-        "name": "DevOps, support and maintenace",
+        "name": "DevOps, support and maintenance",
         "description": "We help you run, maintain and support your digital platform.<br/><br/>Thanks to our dedicated DevOps, support and maintenance teams, we can safely say that we flawlessly run your digital platform and make sure it’s up to date and bug free.",
         "valuePropositions": [
           "PS management",
