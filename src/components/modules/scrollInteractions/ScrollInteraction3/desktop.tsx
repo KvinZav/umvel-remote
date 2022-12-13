@@ -48,7 +48,7 @@ const DesktopScrollInteraction3 = () => {
     <section className="grid grid-cols-3 items-start mb-[312px] w-full overflow-x-clip">
       <div className="sticky pt-[200px] top-0">
         <CustomCard customStyles="flex justify-end items-center p-4 xl:p-6">
-          <h1 className="text-b3 font-bold text-right max-w-xs">{left.text}</h1>
+          <h1 className="text-b3 font-bold text-right max-w-xs xl:max-w-lg">{left.text}</h1>
         </CustomCard>
       </div>
       <div
@@ -76,7 +76,7 @@ const DesktopScrollInteraction3 = () => {
                   key={'scroll3-quote-' + n + ''}
                   ref={(el) => (quoteRefs.current[n] = el)}
                   style={{
-                    transform: `translateY(${quotesTop[n] * (-0.1 * (labels.length - 1 - n) )}px)`,
+                    transform: `translateY(${quotesTop[n] * (-0.05 * (labels.length - 1 - n) )}px)`,
                   }}
                 >
                   <div
