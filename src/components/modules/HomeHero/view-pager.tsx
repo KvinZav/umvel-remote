@@ -119,7 +119,7 @@ const ViewPager = ({cases}) => {
             containerStyles={{padding: `${isMobile ? '8px' : '16px'}`}}
           />
         </div>
-        <div className="absolute space-x-4 md:space-x-8 text-[32px] right-4 md:right-6 lg:right-8 xl:right-11 bottom-4 md:bottom-6 lg:bottom-12 xl:bottom-16">
+        <div className="absolute space-x-4 text-[32px] right-4 md:right-6 lg:right-8 xl:right-11 bottom-4 md:bottom-6 lg:bottom-12 xl:bottom-16">
           <button className="lg:opacity-10 lg:hover:opacity-100" onClick={handlePrevious}>
             <ChevronLeftRounded fontSize="inherit"/>
           </button>  
