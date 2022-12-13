@@ -31,8 +31,14 @@ const Header = () => {
 
   useEffect(() => {
     setShouldPeekIdx(showMenu ? Math.floor(Math.random() * cases.length) : null);
+    avoidScrollMenu(showMenu);
   }, [showMenu])
   
+  const avoidScrollMenu = (isShowingMenu: boolean) => {
+    const body = document.body.classList;
+    isShowingMenu ? body.add('overflow-hidden') : body.remove('overflow-hidden');
+  }
+
   if (!event) return null;
   const { socialNetworks } = event.data.attributes.body.find(
     (item) => item.__component === BlockNameEnum.menu
