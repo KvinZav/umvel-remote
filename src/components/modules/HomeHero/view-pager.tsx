@@ -3,6 +3,7 @@ import useMediaQuery from '@hooks/useMediaQuery';
 import { waitFor } from '@utils/waitFor';
 import React, { useEffect, useState } from 'react'
 import { animated, useSpring } from 'react-spring';
+import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
 
 const ViewPager = ({cases}) => {
 
@@ -115,17 +116,17 @@ const ViewPager = ({cases}) => {
               textPositionVertical: 'end',
             }}
             text={cases[topCaseIndex]?.Title}
+            containerStyles={{padding: `${isMobile ? '8px' : '16px'}`}}
           />
         </div>
-        {/* Phase 2 Feature */}
-        {/* <div className="absolute space-x-10 text-[32px] right-4 md:right-6 lg:right-8 xl:right-11 bottom-4 md:bottom-6 lg:bottom-12 xl:bottom-16">
+        <div className="absolute space-x-10 text-[32px] right-4 md:right-6 lg:right-8 xl:right-11 bottom-4 md:bottom-6 lg:bottom-12 xl:bottom-16">
           <button className="lg:opacity-10 lg:hover:opacity-100" onClick={handlePrevious}>
             <ChevronLeftRounded fontSize="inherit"/>
           </button>
           <button className="lg:opacity-10 lg:hover:opacity-100" onClick={handleNext}>
             <ChevronRightRounded fontSize="inherit"/>
           </button>
-        </div> */}
+        </div>
         <div className="absolute inset-x-4 md:inset-x-6 lg:inset-x-8 xl:inset-x-11 bottom-4 md:bottom-6 lg:bottom-8 xl:bottom-11 h-1 md:h-2">
           {!isMobile && <animated.div
             className={`bg-secondary-10 rounded-full`}
