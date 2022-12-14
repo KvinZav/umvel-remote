@@ -12,16 +12,16 @@ const configNames = [
 
 const socialLinks = [{
   name: "instagram",
-  icon: <Instagram/>
+  icon: <Instagram fontSize='inherit'/>
 },{
   name: "facebook",
-  icon: <Facebook/>
+  icon: <Facebook fontSize='inherit'/>
 },{
   name: "linkedin",
-  icon: <LinkedIn/>
+  icon: <LinkedIn fontSize='inherit'/>
 },{
   name: "medium",
-  icon: <img height={24} width={24} src={'/assets/icons/medium.svg'}/>
+  icon: <img height={24} width={24} className="md:mt-[6px] xl:mt-1.5 xl:h-[34px] xl:w-[34px]" src={'/assets/icons/medium.svg'}/>
 }]
 
 export const FooterTeam = ({ data }: { data: Body }) => {
@@ -40,12 +40,12 @@ export const FooterTeam = ({ data }: { data: Body }) => {
         names={names}
       >
         <div className="absolute h-full top-0 p-12 md:p-[8%_4vw] lg:p-[10%_5vw] xl:p-[182px]">
-          <p className="font-bold text-m1 lg:text-b3 w-[200px] lg:w-[400px]">{titleLeft}</p>
+          <p className="font-bold text-m1 lg:text-b3 w-[200px] lg:w-[400px] xl:w-[500px]">{titleLeft}</p>
         </div>
       </CardTeam>
       <article
         className="aspect-square hidden md:flex flex-col justify-between border border-secondary-10 
-      border-solid w-[100%] md:w-[50%] p-[15vw] md:p-[8vw_8.5vw_8.5vw_8vw] xl:p-[9.2vw]"
+      border-solid w-[100%] md:w-[50%] p-[15vw] md:p-[8vw_8.5vw_8.5vw_8vw] xl:p-[9.9vw_9.2vw_9.9vw_9.2vw]"
       >
         <div className="self-start">
           <CustomImage
@@ -55,7 +55,7 @@ export const FooterTeam = ({ data }: { data: Body }) => {
           />
           <p className="mt-3 text-m4">{titleRight}</p>
         </div>
-        <div className="flex justify-between self-end text-s3 w-[200px]">
+        <div className="flex justify-between self-end text-m4 w-[200px] xl:w-[210px]">
           {socialNetworks.map((socialNetwork) => (
             <a
               key={socialNetwork.id}
