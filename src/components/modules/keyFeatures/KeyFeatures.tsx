@@ -43,7 +43,7 @@ export const KeyFeatures = ({ data: { title, keyFeatures } }: { data: Feature })
               <CustomImage
                 src={keyFeature.icon.data.attributes.url}
                 alt={keyFeature.icon.data.attributes.alternativeText}
-                className="w-10 md:hidden"
+                className="w-10 md:hidden xl:w-20"
               />
             </div>
             <div
@@ -54,7 +54,7 @@ export const KeyFeatures = ({ data: { title, keyFeatures } }: { data: Feature })
               <CustomImage
                 src={keyFeature.icon.data.attributes.url}
                 alt={keyFeature.icon.data.attributes.alternativeText}
-                className="w-10"
+                className="w-10 xl:w-20"
               />
               <hr style={{ width: 'calc(50% - 1rem)', color: '#B3B3B3' }} />
             </div>
