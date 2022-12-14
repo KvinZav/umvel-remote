@@ -99,7 +99,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
                   <li
                     className={`w-full lg:w-auto text-s3 lg:flex-[1_1_50%] mb-4 before:content-['•'] before:mr-2 ${
                       dark ? 'text-primary-white' : 'text-primary-black'
-                    }`}
+                    } ${valueIndex % 2 === 1 ? 'xl:pl-24' : 'xl:pl-0'}`}
                     key={'value-' + valueIndex}
                   >
                     {valueItem}
