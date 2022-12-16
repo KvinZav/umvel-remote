@@ -35,7 +35,7 @@ const TechnicalInformation: FC<TechnicalInformationProps> = ({ caseData }) => {
           </div>
         </div>
         <div className="md:aspect-square w-auto md:border border-secondary-10 p-8 lg:p-12 xl:p-16 flex flex-col overflow-y-scroll overflow-hidden">
-          <h3 className="mb-4">Services</h3>
+          <h3 className="text-s2 mb-4">Services</h3>
           <div className="flex flex-wrap">
             {services.map((item) => {
               return (
