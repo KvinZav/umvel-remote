@@ -35,7 +35,6 @@ module.exports = {
     function ({ addVariant }) {
       addVariant('children', '& > *');
       addVariant('children-hover', '& > *:hover');
-      addVariant('supports-saturation', '@supports (mix-blend-mode: saturation)')
     }
   ],
 }

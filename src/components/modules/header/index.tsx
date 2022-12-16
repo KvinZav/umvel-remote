@@ -11,10 +11,10 @@ import Image from '@elements/image-component';
 import { BlockNameEnum } from '@enums/BlockName';
 import Tooltip from '@elements/tooltip/tooltip';
 import Link from 'next/link';
-import MainLogo from '@elements/LogoNavBar/MainLogo';
+import useMenuButton from '@hooks/useMenuButton';
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const { handleToggleMenu, mainMenuVisible } = useMenuButton()
   const [shouldPeekIdx, setShouldPeekIdx] = useState(-1)
 
   const { data: event } = useSWR(environment.HOME_URL, get, {
@@ -29,10 +29,10 @@ const Header = () => {
   const options = event?.data.attributes.header.links;
   const cases = event?.data.attributes.header.cases;
 
-  useEffect(() => {
-    setShouldPeekIdx(showMenu ? Math.floor(Math.random() * cases.length) : null);
-    avoidScrollMenu(showMenu);
-  }, [showMenu])
+  useEffect(() => {    
+    setShouldPeekIdx(mainMenuVisible ? Math.floor(Math.random() * cases.length) : null);
+    avoidScrollMenu(mainMenuVisible);
+  }, [mainMenuVisible])
   
   const avoidScrollMenu = (isShowingMenu: boolean) => {
     const body = document.body.classList;
@@ -46,27 +46,9 @@ const Header = () => {
 
   return (
     <>
-      {!showMenu && (
+      {!mainMenuVisible && (
         <nav className="sticky top-0 z-[98]">
           <div className="flex justify-end items-center min-h-[56px] p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
-            {(!matchMedia || !isVerticalScroll) && (
-              <button
-                data-collapse-toggle="navbar-default"
-                onClick={() => setShowMenu(!showMenu)}
-                type="button"
-                className="flex items-center text-s3 text-gray-500 rounded-lg md:flex-row md:mt-0 md:font-medium md:border-0"
-              >
-                <div className="h-5 w-5 md:w-7 md:h-7 xl:h-[46px] xl:w-[46px]">
-                  <CustomImage
-                    src={'/assets/images/menu-icon.svg'}
-                    alt="menu"
-                    width="100%"
-                    height="100%"
-                    className="bg-primary-white bg-clip-text"
-                  />
-                </div>
-              </button>
-            )}
             {matchMedia && isVerticalScroll && (
               <div
                 className="w-full md:block md:w-auto"
@@ -79,7 +61,7 @@ const Header = () => {
                       link.type === 'home' ? null : link.type === 'button' ? (
                         <Link key={'link-'+link.id} href={`/${link.link}`}>
                           <a>
-                            <BasicButton key={'button-' + link.id} onClick={() => setShowMenu(false)}>
+                            <BasicButton key={'button-' + link.id} onClick={() => handleToggleMenu(false)}>
                               {link.name}
                             </BasicButton>
                           </a>
@@ -87,7 +69,7 @@ const Header = () => {
                       ) : (
                         <li key={'link-' + link.id} className="cursor-pointer flex justify-center transform transition duration-150 hover:scale-105 hover:font-semibold">
                           <Link href={`/${link.link}`}>
-                            <a onClick={() => setShowMenu(false)}>
+                            <a onClick={() => handleToggleMenu(false)}>
                               {link.name}  
                             </a>
                           </Link>
@@ -100,7 +82,7 @@ const Header = () => {
           </div>
         </nav>
       )}
-      {showMenu && (
+      {mainMenuVisible && (
         <div className="w-full h-screen sticky top-0 md:block md:w-auto bg-primary-white z-[99]">
           <div className="w-full h-screen flex">
             {matchMedia && (
@@ -112,7 +94,7 @@ const Header = () => {
                     imgAttribute={caseItem.image}
                     backgroundColor={caseItem.backgroundColor}
                     id={caseItem.id}
-                    action={setShowMenu}
+                    action={handleToggleMenu}
                     shouldPeek={caseIndex === shouldPeekIdx}
                   />
                 ))}
@@ -122,13 +104,13 @@ const Header = () => {
               <div className="w-full flex flex-row justify-between">
                 {logo && (
                   <Logo
-                    onClick={() => setShowMenu(false)}
+                    onClick={() => handleToggleMenu(false)}
                   />
                 )}
                 <div
                   className="h-5 w-5 md:w-7 md:h-7"
                   onClick={() => {
-                    setShowMenu(false);
+                    handleToggleMenu(false);
                   }}
                 >
                   <CustomImage
@@ -144,7 +126,7 @@ const Header = () => {
                   {options &&
                     options.map((link) =>
                       link.type === 'button' ? (
-                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="-ml-6 py-3">
+                        <li onClick={() => handleToggleMenu(false)} key={'link-' + link.id} className="-ml-6 py-3">
                           <Link
                             href={`/${link.link}`}
                           >
@@ -156,7 +138,7 @@ const Header = () => {
                           </Link>
                         </li>
                       ) : (
-                        <li onClick={() => setShowMenu(false)} key={'link-' + link.id} className="self-center cursor-pointer transform transition duration-150 hover:scale-105 hover:font-semibold first-line:my-2">
+                        <li onClick={() => handleToggleMenu(false)} key={'link-' + link.id} className="self-center cursor-pointer transform transition duration-150 hover:scale-105 hover:font-semibold first-line:my-2">
                           <Link
                             href={`/${link.link}`}
                           >{link.name}</Link>
