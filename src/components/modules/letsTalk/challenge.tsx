@@ -80,7 +80,7 @@ const Challenge = () => {
           <input
             type="text"
             className={
-              'text-s2 outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+              'text-s2 outline-none bg-transparent w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
               (isTheNameValid
                 ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
                 : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
@@ -100,7 +100,7 @@ const Challenge = () => {
             <input
               type="text"
               className={
-                'text-s2 outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+                'text-s2 bg-transparent outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
                 (isTheEmailValid
                   ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
                   : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
@@ -120,7 +120,7 @@ const Challenge = () => {
             <input
               type="text"
               className={
-                'text-s2 outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+                'text-s2 bg-transparent outline-none w-full pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
                 (isThePhoneValid
                   ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
                   : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
@@ -140,7 +140,7 @@ const Challenge = () => {
         <input
           type="text"
           className={
-            'text-s2 outline-none w-full mt-10 pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
+            'text-s2 bg-transparent outline-none w-full mt-10 pl-0 pr-0 pb-2 h-[32px] border-solid border-b ' +
             (isTheCommentValid
               ? 'border-b-[#e6e6e6] placeholder:text-[#000] focus:border-b-[#000]'
               : 'border-b-[#CE4C4C] placeholder:text-[#CE4C4C] focus:border-b-[#CE4C4C] text-[#CE4C4C]')
