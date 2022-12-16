@@ -42,8 +42,8 @@ export const HeaderAboutUs = ({ data }) => {
               lg:min-w-[144px] lg:w-[144px] xl:w-[213px] xl:min-w-[213px] mb-2.5 mx-auto lg:mr-6"
           />
           <div className="lg:text-left text-center">
-            <p className="font-bold text-b2 bg-[rgba(255,255,255,0.5)]">{header?.title}</p>
-            <p className="font-bold text-s1 md:text-m5 lg:text-m4 bg-[rgba(255,255,255,0.5)]">
+            <p className="font-bold text-b2 bg-[rgba(245,245,245,0.5)]">{header?.title}</p>
+            <p className="font-bold text-s1 md:text-m5 lg:text-m4 bg-[rgba(245,245,245,0.5)]">
               {header?.subtitle}
             </p>
           </div>
@@ -57,8 +57,8 @@ export const HeaderAboutUs = ({ data }) => {
                 className={`${index == 2 ? 'w-full' : 'w-6/12'} 
                   md:w-4/12 md:flex md:justify-center flex-col lg:flex-row text-center items-center`}
               >
-                <p className="font-bold text-b4 mb-2 lg:mb-0 lg:mr-2 bg-[rgba(255,255,255,0.5)]">{item.title}</p>
-                <p className="text-s1 md:text-m5 bg-[rgba(255,255,255,0.5)]">{item.subtitle}</p>
+                <p className="font-bold text-b4 mb-2 lg:mb-0 lg:mr-2 bg-[rgba(245,245,245,0.5)]">{item.title}</p>
+                <p className="text-s1 md:text-m5 bg-[rgba(245,245,245,0.5)]">{item.subtitle}</p>
               </div>
             );
           })}
