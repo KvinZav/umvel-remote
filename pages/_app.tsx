@@ -7,6 +7,8 @@ import ModalCookies from '@elements/ModalCookies';
 import { useEffect, useState } from 'react';
 import MainLogo from '@elements/LogoNavBar/MainLogo';
 import Script from 'next/script';
+import MenuButton from '@elements/MenuButton';
+import { HeaderMenuContextProvider } from '@context/headerMenuContext';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -35,10 +37,12 @@ const colors = [
   'bg-#0081C6',
 ];
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, userAgent }) {  
+  
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => {    
+
     if (!sessionStorage.getItem('consent')) {
       sessionStorage.setItem('consent', 'false');
     }
@@ -61,10 +65,13 @@ function MyApp({ Component, pageProps }) {
     <ModalCookies showModal={showModal}/>
       <SWRConfig value={swrConfig}>
         <ScrollContextProvider>
-          <MainLogo/>
-          <Header />
-          <Component {...pageProps} />
-          <FooterMenu />
+          <HeaderMenuContextProvider>
+            <MainLogo/>
+            <MenuButton/>
+            <Header />
+            <Component {...pageProps} />
+            <FooterMenu />
+          </HeaderMenuContextProvider>
         </ScrollContextProvider>
       </SWRConfig>
     </>

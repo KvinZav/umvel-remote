@@ -57,7 +57,7 @@ const ScrollInteraction2 = ({ steps }) => {
             {screen === 'sm' || screen === 'md' && (
               <div className="grid grid-cols-3 gap-2 mb-4">
                 {[...new Array(9)].map((_, n) =>
-                  n === 0 || n === 2 || n === 6 || n === 8 ? <div key={'scroll2-block'+n} /> : <Block key={'scroll2-block'+n} />
+                  n === 0 || n === 2 || n === 6 || n === 8 ? <div key={'block-'+n} /> : <Block key={'block-'+n} />
                 )}
               </div>
             )}
