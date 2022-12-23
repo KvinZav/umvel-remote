@@ -18,6 +18,7 @@ const ViewPager = ({cases}) => {
   const [topCaseIndex, setTopCaseIndex] = useState<number | undefined>(0)
   const [bottomCaseIndex, setBottomCaseIndex] = useState<number | undefined>(0)
   const [topVisible, setTopVisible] = useState(false)
+  const [isTransitionActive, setIsTransitionActive] = useState(false)
 
   const [styles, api] = useSpring(() => ({
     from: { width: '0%', height: '100%' },
@@ -34,14 +35,18 @@ const ViewPager = ({cases}) => {
   }, []);
 
   const setCaseSource = async (caseIdx) => {
+    setIsTransitionActive(true)
+
     api.set({width: '0%'})
     api.start({width: '100%'})
-
+    
     setTopCaseIndex(caseIdx)
     await waitFor(250)
     setTopVisible(true)
     await waitFor(1000)
     setBottomCaseIndex(caseIdx)
+
+    setIsTransitionActive(false)
   }
   
   useEffect(() => {
@@ -63,6 +68,7 @@ const ViewPager = ({cases}) => {
   }, [bottomCaseIndex])
 
   const handleNext = () => {
+    if(isTransitionActive) return;
     clearTimeout(currentTimeout)
     const newIndex = currentCaseIndex >= cases.length - 1 ? 0 : currentCaseIndex + 1
     setCurrentCaseIndex(newIndex)
@@ -70,6 +76,7 @@ const ViewPager = ({cases}) => {
   }
 
   const handlePrevious = () => {
+    if(isTransitionActive) return;
     clearTimeout(currentTimeout)
     const newIndex = currentCaseIndex <= 0 ? cases.length - 1 : currentCaseIndex - 1
     setCurrentCaseIndex(newIndex)
