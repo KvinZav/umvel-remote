@@ -72,7 +72,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "Viva Aerobus Challenge.png",
-                  "alternativeText": "Viva Aerobus Challenge.png",
+                  "alternativeText": "Viva aerobus customer illustration in green tones with colored paste. A passport is shown with a graph of the world's meridians in lines and below the graph the text Pass.",
                   "caption": "Viva Aerobus Challenge.png",
                   "width": 977,
                   "height": 673,
@@ -100,7 +100,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "Viva Aerobus Challenge.png",
-                  "alternativeText": "Viva Aerobus Challenge.png",
+                  "alternativeText": "Viva aerobus customer illustration in green tones with colored paste. A passport is shown with a graph of the world's meridians in lines and below the graph the text Pass.",
                   "caption": "Viva Aerobus Challenge.png",
                   "width": 977,
                   "height": 673,
@@ -128,7 +128,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "Planet Buyback Challenge.png",
-                  "alternativeText": "Planet Buyback Challenge.png",
+                  "alternativeText": "Illustration of client Planet Buybkac with white color in plastic color. A circle is shown with an opening on the upper right side and a small circle in the middle.",
                   "caption": "Planet Buyback Challenge.png",
                   "width": 977,
                   "height": 673,
@@ -156,7 +156,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "BMCF Challenge.png",
-                  "alternativeText": "BMCF Challenge.png",
+                  "alternativeText": "Illustration of CancerBuddy client with white and yellow color to color paste. It shows the face and torso of a happy person embracing three small hearts on his chest.",
                   "caption": "BMCF Challenge.png",
                   "width": 977,
                   "height": 673,
@@ -184,7 +184,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "Food Central Challenge.png",
-                  "alternativeText": "Food Central Challenge.png",
+                  "alternativeText": "Foodcentral customer illustration with white color to plastic color. A coffee with cali smoke is shown",
                   "caption": "Food Central Challenge.png",
                   "width": 977,
                   "height": 673,
@@ -240,7 +240,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "travel_company_technical_photo.png",
-                  "alternativeText": "Travel Company",
+                  "alternativeText": "Illustration of the client Travel Company. A magnifying glass is illustrated with a bust illustration of a person in the center.",
                   "caption": "Travel Company",
                   "width": 977,
                   "height": 673,
@@ -296,7 +296,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "capa_technical_photo.png",
-                  "alternativeText": "CAPA",
+                  "alternativeText": "Illustration of the client Cape. Illustrated is a two-dimensional house, viewed from the right side, with two rows of windows in the center and a door illustrated below the rows. Something similar to a chimney protrudes from the roof with a window at the top.",
                   "caption": "CAPA",
                   "width": 977,
                   "height": 673,
@@ -340,6 +340,7 @@
                     "portfolioTitle": null,
                     "portfolioDescription": null,
                     "portfolioDataOfInterest": null,
+                    "altText": "Viva aerobus customer illustration in green tones with colored paste. A full screen cell phone and two tickets are shown with an illustration of an airplane, below the word Ticket.",
                     "image": {
                       "data": {
                         "id": 1,
@@ -385,6 +386,7 @@
                     "portfolioTitle": null,
                     "portfolioDescription": null,
                     "portfolioDataOfInterest": null,
+                    "altText": "Illustration of the customer I HATE. A half circle is illustrated that forms a window, on the left side of this on another half circle comes out slightly.",
                     "image": {
                       "data": {
                         "id": 1,
@@ -430,6 +432,7 @@
                     "portfolioTitle": null,
                     "portfolioDescription": null,
                     "portfolioDataOfInterest": null,
+                    "altText": "Smart Walk customer logo. 6 thin lines are illustrated, parallel to each other, which form an S.",
                     "image": {
                       "data": {
                         "id": 1,
@@ -492,6 +495,7 @@
                     "portfolioTitle": null,
                     "portfolioDescription": null,
                     "portfolioDataOfInterest": null,
+                    "altText": "Illustration of CancerBuddy client with white and yellow color to color paste. It shows the face and torso of a happy person embracing three small hearts on his chest.",
                     "image": {
                       "data": {
                         "id": 1,
@@ -537,6 +541,7 @@
                     "portfolioTitle": null,
                     "portfolioDescription": null,
                     "portfolioDataOfInterest": null,
+                    "altText": "Viva aerobus customer illustration in green tones with colored paste. A passport is shown with a graph of the world's meridians in lines and below the graph the text Pass",
                     "image": {
                       "data": {
                         "id": 1,
@@ -582,6 +587,7 @@
                     "portfolioTitle": null,
                     "portfolioDescription": null,
                     "portfolioDataOfInterest": null,
+                    "altText": "Foodcentral customer illustration with white color to plastic color. A coffee with cali smoke is shown",
                     "image": {
                       "data": {
                         "id": 1,
@@ -1002,7 +1008,7 @@
                           "id": 1,
                           "attributes": {
                             "name": "TC.png",
-                            "alternativeText": "Travel Company",
+                            "alternativeText": "Illustration of the client Travel Company. A magnifying glass is illustrated with a bust illustration of a person in the center.",
                             "caption": "Travel Company",
                             "width": 977,
                             "height": 673,

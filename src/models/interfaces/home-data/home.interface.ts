@@ -149,7 +149,8 @@ export interface Attributes4 {
   portfolioTitle: any;
   portfolioDescription: any;
   portfolioDataOfInterest: any;
-  image: Logo;
+  image: Logo;  
+  altText?: string;
 }
 
 export interface Step {

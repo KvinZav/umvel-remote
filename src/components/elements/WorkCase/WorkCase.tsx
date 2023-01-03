@@ -16,10 +16,10 @@ const WorkCase: React.FC<WorkCaseProps> = ({
       ref={caseRef}
       className={
         inverted
-          ? `w-full flex flex-col-reverse md:flex-row`
-          : `w-full flex flex-col-reverse md:flex-row-reverse`
+        ? `w-full flex flex-col-reverse md:flex-row`
+        : `w-full flex flex-col-reverse md:flex-row-reverse`
       }
-    >
+      >
       <div className="md:w-1/2 aspect-square bg-primary-white flex md:justify-center py-6 px-12 flex-col md:px-16 md:py-16 lg:px-32 lg:py-32 xl:px-[180px] xl:py-[180px]">
         <p className="text-m2 lg:text-b4 font-bold mb-2 xl:mb-4 md:mt-0">{project.title}</p>
         <p className="text-s1 lg:text-m4 font-bold mb-2 xl:mb-4">{project.hoverClientName}</p>
@@ -39,7 +39,7 @@ const WorkCase: React.FC<WorkCaseProps> = ({
         <div className="w-full h-full">
           <Image
             url={project.image?.data.attributes.url || '/assets/images/generic_mockup.svg'}
-            alt="project"
+            alt={project.image?.data.attributes.alternativeText}
             layout="responsive"
             height={'100%'}
             width={'100%'}

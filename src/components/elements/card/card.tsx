@@ -16,14 +16,15 @@ export const Card = React.memo((props: CardInterface) => {
       descriptionOnly,
       caseId,
       messageOnHover,
-      containerStyles
+      containerStyles,
+      altText
     } = props;
 
     const isLight = isColorLight(styles.bg)
 
     return (
       <MainContainer styles={styles} messageOnHover={messageOnHover} descriptionOnly={descriptionOnly} containerStyles={containerStyles}>
-        {imageUrl && <MainGraphic imageUrl={imageUrl} />}
+        {imageUrl && <MainGraphic imageUrl={imageUrl} altText={altText} />}
         {!descriptionOnly ? (
           <TitleComponent
             text={text}
@@ -87,9 +88,9 @@ const MainContainer = ({ children, styles, messageOnHover, descriptionOnly, cont
   );
 };
 
-const MainGraphic = ({ imageUrl }) => (
+const MainGraphic = ({ imageUrl, altText }) => (
   <div className="w-1/2 h-1/2 m-auto">
-    <Image url={imageUrl} alt="" height="100%" width="100%" layout="responsive" />
+    <Image url={imageUrl} alt={altText} height="100%" width="100%" layout="responsive" />
   </div>
 );
 

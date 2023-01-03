@@ -7,6 +7,7 @@ import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
 
 const ViewPager = ({cases}) => {
 
+
   const [currentTimeout, setCurrentTimeout] = useState<NodeJS.Timeout>(null)
   
   const isMobile = useMediaQuery('(max-width: 639px)');
@@ -161,6 +162,7 @@ const ViewPager = ({cases}) => {
               text={tablet ? '' : cases[bottomCaseIndex]?.case_of_study.data.attributes.title}
               showButton={isMobile}
               messageOnHover={desktop}
+              altText={cases[bottomCaseIndex]?.case_of_study.data.attributes.altText}
             />
           </div>
           {/* top */}
@@ -183,6 +185,7 @@ const ViewPager = ({cases}) => {
               showButton={isMobile}
               caseId={cases[topCaseIndex]?.case_of_study.data.id}
               messageOnHover={desktop}
+              altText={cases[bottomCaseIndex]?.case_of_study.data.attributes.altText}
             />
           </div>
         </div>
@@ -203,6 +206,7 @@ const ViewPager = ({cases}) => {
               description={cases[bottomCaseIndex]?.case_of_study.data.attributes.caseDescription}
               descriptionOnly
               caseId={cases[bottomCaseIndex]?.case_of_study.data.id}
+              altText={cases[bottomCaseIndex]?.case_of_study.data.attributes.altText}
             />
             </div>
             {/* top */}
@@ -223,6 +227,7 @@ const ViewPager = ({cases}) => {
                 description={cases[topCaseIndex]?.case_of_study.data.attributes.caseDescription}
                 descriptionOnly
                 caseId={cases[topCaseIndex]?.case_of_study.data.id}
+                altText={cases[bottomCaseIndex]?.case_of_study.data.attributes.altText}
               />
             </div>
         </div>}
