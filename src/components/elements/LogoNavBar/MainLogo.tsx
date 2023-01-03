@@ -15,48 +15,48 @@ const MainLogo = () => {
     <Link href="/">
       {isBlendModeCompatible ? <a>
           <img
-            src="/assets/images/ntt-umvel-logo-white.svg"
+            src="/assets/images/ntt-umvel-logo-complete-white.svg"
             className="
               fixed
               top-3 left-4 w-[155] h-8
               md:top-6 md:left-6
               lg:top-5 lg:left-8
-              xl:top-8 xl:left-8 xl:w-[224px] xl:h-[46px]
+              xl:top-8 xl:left-8 xl:w-[316px] xl:h-[46px]
               z-[99] mix-blend-overlay"
               alt="Umvel an NTT Data Company"
           />
           <img
-            src="/assets/images/ntt-umvel-logo.svg"
+            src="/assets/images/ntt-umvel-logo-complete.svg"
             className="
               fixed
               top-3 left-4 w-[155] h-8
               md:top-6 md:left-6
               lg:top-5 lg:left-8
-              xl:top-8 xl:left-8 xl:w-[224px] xl:h-[46px]
+              xl:top-8 xl:left-8 xl:w-[316px] xl:h-[46px]
               z-[99] mix-blend-saturation"
               alt="Umvel an NTT Data Company"
           />
           <img
-            src="/assets/images/ntt-umvel-logo-white.svg"
+            src="/assets/images/ntt-umvel-logo-complete-white.svg"
             className="
               fixed
               top-3 left-4 w-[155] h-8
               md:top-6 md:left-6
               lg:top-5 lg:left-8
-              xl:top-8 xl:left-8 xl:w-[224px] xl:h-[46px]
+              xl:top-8 xl:left-8 xl:w-[316px] xl:h-[46px]
               z-[99] mix-blend-difference"
               alt="Umvel an NTT Data Company"
           />
       </a> :
       <a>
         <img
-            src="/assets/images/ntt-umvel-logo.svg"
+            src="/assets/images/ntt-umvel-logo-complete.svg"
             className="
               fixed
               top-3 left-4 w-[155] h-8
               md:top-6 md:left-6
               lg:top-5 lg:left-8
-              xl:top-8 xl:left-8 xl:w-[224px] xl:h-[46px]
+              xl:top-8 xl:left-8 xl:w-[316px] xl:h-[46px]
               z-[99]"
               alt="Umvel an NTT Data Company"
           />
