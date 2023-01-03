@@ -18,7 +18,7 @@ const MainMenuHighlights = () => {
   return (
     <section className="flex md:grid md:grid-cols-1 lg:grid-cols-3 md:justify-center overflow-x-scroll md:overflow-auto pt-8 lg:pt-[104px]">
       {cases.map((caseItem, caseIndex) => {
-        const { title, caseDescription, image, primaryColor } =
+        const { title, caseDescription, image, primaryColor, altText } =
           caseItem.case_of_study.data.attributes;
         const imageUrl = image.data.attributes.url;
 
@@ -52,6 +52,7 @@ const MainMenuHighlights = () => {
                 showButton={screen === 'sm' || screen === "md" }
                 messageOnHover={screen !== 'sm' && screen !== "md"}
                 caseId={caseItem.id}
+                altText={altText}
               />
             </div>
           </section>
