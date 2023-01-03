@@ -20,4 +20,5 @@ export interface CardInterface {
   caseId?: number;
   messageOnHover?: boolean;
   containerStyles?: CSSProperties;
+  altText?: string;
 }
