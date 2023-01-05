@@ -21,7 +21,7 @@ module.exports = {
       },
     },
     animation: {
-      'waving-hand': 'wave 1s linear infinite',
+      'move-arrow': 'wave 1s ease infinite',
     },
     screens: {
       'md': '640px',

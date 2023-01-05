@@ -117,7 +117,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                     <PrismButton>Our Work</PrismButton>
                   </a>
                 </Link>
-                <button className={`ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1 ${isMovingChevronRight ? 'animate-waving-hand' : ''}`} onClick={() => handleNext()}>
+                <button className={`ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1 ${isMovingChevronRight ? 'animate-move-arrow' : ''}`} onClick={() => handleNext()}>
                   <ChevronRightRounded fontSize="inherit" />
                 </button>
               </div>
