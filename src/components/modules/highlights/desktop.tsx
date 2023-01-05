@@ -31,26 +31,27 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
     setTopPosition(top);
     setScaleValue(bottom - innerHeight > 0 ? bottom - innerHeight : 0);
   }, [scrollOffset, container]);
+
+  useEffect(() => {
+    if (topPosition < -1 && actualProject <= projects) {
+      setTimeout(() => {
+        handleNext();
+        setActualProject(actualProject + 1);
+      }, 30000 / projects);
+      if (actualProject === 1) {
+        setIsMovingChevronRight(true);
+        setTimeout(() => {
+          setIsMovingChevronRight(false);
+        }, 30000);
+      }
+    }
+  }, [actualProject, topPosition]);
+
   if (!event) return null;
   const imgAttributes = project.attributes.image.data.attributes;
   const positionInfo = scaleValue * (2.5 / 10);
   const positionCase = scaleValue * (3.5 / 10);
   const positionImage = scaleValue * (3.5 / 10);
-
-  // useEffect(() => {
-  //   if (topPosition < -1 && actualProject <= projects) {
-  //     setTimeout(() => {
-  //       handleNext();
-  //       setActualProject(actualProject + 1);
-  //     }, 30000 / projects);
-  //     if (actualProject === 1) {
-  //       setIsMovingChevronRight(true);
-  //       setTimeout(() => {
-  //         setIsMovingChevronRight(false);
-  //       }, 30000);
-  //     }
-  //   }
-  // }, [actualProject, topPosition]);
 
   return (
     <section className="w-full h-[300vh]" ref={container}>
