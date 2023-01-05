@@ -23,7 +23,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   const [scaleValue, setScaleValue] = useState<number>();
   const [topPosition, setTopPosition] = useState(Number.MAX_SAFE_INTEGER);
   const { data: event } = useSWR(environment.HOME_URL);
-  const [actualProject, setActualProject] = useState(1);
+  const [currentProject, setCurrentProject] = useState(1);
   const [isMovingChevronRight, setIsMovingChevronRight] = useState(false);
 
   useEffect(() => {
@@ -33,19 +33,19 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   }, [scrollOffset, container]);
 
   useEffect(() => {
-    if (topPosition < -1 && actualProject <= projects) {
+    if (topPosition < -1 && currentProject <= projects) {
       setTimeout(() => {
         handleNext();
-        setActualProject(actualProject + 1);
+        setCurrentProject(currentProject + 1);
       }, 30000 / projects);
-      if (actualProject === 1) {
+      if (currentProject === 1) {
         setIsMovingChevronRight(true);
         setTimeout(() => {
           setIsMovingChevronRight(false);
         }, 30000);
       }
     }
-  }, [actualProject, topPosition]);
+  }, [currentProject, topPosition]);
 
   if (!event) return null;
   const imgAttributes = project.attributes.image.data.attributes;
