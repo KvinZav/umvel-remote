@@ -14,6 +14,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   handleNext,
   handlePrevious,
   title,
+  projects
 }): JSX.Element => {
   const isBrowser = typeof window !== 'undefined';
   const innerHeight = isBrowser ? window.innerHeight : 0;
@@ -22,12 +23,30 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   const [scaleValue, setScaleValue] = useState<number>();
   const [topPosition, setTopPosition] = useState(Number.MAX_SAFE_INTEGER);
   const { data: event } = useSWR(environment.HOME_URL);
+  const [currentProject, setCurrentProject] = useState(1);
+  const [isMovingChevronRight, setIsMovingChevronRight] = useState(false);
 
   useEffect(() => {
     const { bottom, top } = container.current.getBoundingClientRect();
     setTopPosition(top);
     setScaleValue(bottom - innerHeight > 0 ? bottom - innerHeight : 0);
   }, [scrollOffset, container]);
+
+  useEffect(() => {
+    if (topPosition < -1 && currentProject <= projects) {
+      setTimeout(() => {
+        handleNext();
+        setCurrentProject(currentProject + 1);
+      }, 30000 / projects);
+      if (currentProject === 1) {
+        setIsMovingChevronRight(true);
+        setTimeout(() => {
+          setIsMovingChevronRight(false);
+        }, 30000);
+      }
+    }
+  }, [currentProject, topPosition]);
+
   if (!event) return null;
   const imgAttributes = project.attributes.image.data.attributes;
   const positionInfo = scaleValue * (2.5 / 10);
@@ -98,7 +117,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                     <PrismButton>Our Work</PrismButton>
                   </a>
                 </Link>
-                <button className="ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1" onClick={() => handleNext()}>
+                <button className={`ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1 ${isMovingChevronRight ? 'animate-move-arrow' : ''}`} onClick={() => handleNext()}>
                   <ChevronRightRounded fontSize="inherit" />
                 </button>
               </div>

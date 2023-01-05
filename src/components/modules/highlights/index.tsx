@@ -62,6 +62,7 @@ const CasesHighlights: React.FC = (): JSX.Element => {
         handleNext={handleNext}
         handlePrevious={handlePrevious}
         title={caseSelector.title}
+        projects={projects.length}
       />
     );
   }
