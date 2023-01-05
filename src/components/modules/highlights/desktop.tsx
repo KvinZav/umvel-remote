@@ -14,6 +14,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   handleNext,
   handlePrevious,
   title,
+  projects
 }): JSX.Element => {
   const isBrowser = typeof window !== 'undefined';
   const innerHeight = isBrowser ? window.innerHeight : 0;
@@ -22,6 +23,8 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   const [scaleValue, setScaleValue] = useState<number>();
   const [topPosition, setTopPosition] = useState(Number.MAX_SAFE_INTEGER);
   const { data: event } = useSWR(environment.HOME_URL);
+  const [actualProject, setActualProject] = useState(1);
+  const [isMovingChevronRight, setIsMovingChevronRight] = useState(false);
 
   useEffect(() => {
     const { bottom, top } = container.current.getBoundingClientRect();
@@ -33,6 +36,21 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
   const positionInfo = scaleValue * (2.5 / 10);
   const positionCase = scaleValue * (3.5 / 10);
   const positionImage = scaleValue * (3.5 / 10);
+
+  // useEffect(() => {
+  //   if (topPosition < -1 && actualProject <= projects) {
+  //     setTimeout(() => {
+  //       handleNext();
+  //       setActualProject(actualProject + 1);
+  //     }, 30000 / projects);
+  //     if (actualProject === 1) {
+  //       setIsMovingChevronRight(true);
+  //       setTimeout(() => {
+  //         setIsMovingChevronRight(false);
+  //       }, 30000);
+  //     }
+  //   }
+  // }, [actualProject, topPosition]);
 
   return (
     <section className="w-full h-[300vh]" ref={container}>
@@ -98,7 +116,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
                     <PrismButton>Our Work</PrismButton>
                   </a>
                 </Link>
-                <button className="ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1" onClick={() => handleNext()}>
+                <button className={`ml-4 text-[32px] xl:text-[40px] transition-all duration-100 lg:hover:translate-x-1 ${isMovingChevronRight ? 'animate-waving-hand' : ''}`} onClick={() => handleNext()}>
                   <ChevronRightRounded fontSize="inherit" />
                 </button>
               </div>

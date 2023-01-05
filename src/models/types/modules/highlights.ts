@@ -13,6 +13,7 @@ export type HighlightsTabletPorps = {
 export type HighlightsDesktopPorps = {
   project: Daum;
   title: string;
+  projects: number;
   handlePrevious: () => void;
   handleNext: () => void;
 };
