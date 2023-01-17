@@ -25,10 +25,10 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
     return showModal && (
         <animated.div
             style={childrenStyle} 
-            className="isolate z-[999] fixed bottom-0 w-full lg:h-20 min-h-20 md:pr-4 pb-4 md:pb-0 bg-primary-black flex flex-col md:flex-row items-center justify-between text-primary-white"
+            className="isolate z-[999] fixed bottom-0 w-full lg:h-auto min-h-20 md:pr-4 pb-4 md:pb-0 bg-primary-black flex flex-col md:flex-row items-center justify-between text-primary-white"
         >
             <div className="flex items-center">
-                <div className="hidden bg-prisma-cookie h-20 aspect-square lg:grid lg:grid-cols-3 lg:grid-rows-3 gap-2 p-2">
+                <div className="hidden bg-prisma-cookie lg:h-[7rem] md:h-20 aspect-square lg:grid lg:grid-cols-3 lg:grid-rows-3 gap-2 p-2">
                     {[... new Array(9)].map((_, index) => 
                         <div key={''+index} className="w-full h-full bg-primary-black opacity-20"/>
                     )}
@@ -40,9 +40,9 @@ const CookiesModal:FC<{showModal: boolean}> = ({showModal=false }) => {
             </div>
             <div className="flex flex-row items-center md:text-sm lg:text-base ">
                 <Link href="about:blank">
-                    <button className="border rounded-full px-6 py-3 mr-4 lg:hover:bg-primary-white lg:hover:text-primary-black" onClick={handleLeave}>Leave website</button>
+                    <button className="border rounded-full px-6 py-3 mr-4 md:min-w-[150px] lg:hover:bg-primary-white lg:hover:text-primary-black" onClick={handleLeave}>Leave website</button>
                 </Link>
-                <button className="border rounded-full px-6 py-3 bg-prisma-cookie text-primary-black lg:hover:bg-[#FAE9D4]" onClick={handleAccept}>Accept cookies</button>
+                <button className="border rounded-full px-6 py-3 bg-prisma-cookie md:min-w-[150px] text-primary-black lg:hover:bg-[#FAE9D4]" onClick={handleAccept}>Accept cookies</button>
             </div>
         </animated.div>
     )
