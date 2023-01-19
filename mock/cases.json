@@ -76,7 +76,7 @@
               "id": 1,
               "attributes": {
                 "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Viva aerobus customer illustration in green tones with colored paste. A passport is shown with a graph of the world's meridians in lines and below the graph the text Pass.",
+                "alternativeText": "Viva Aerobus customer illustration in green tones with colored paste. A full-screen cell phone and two tickets with an airplane silhouette are shown below the word Ticket.",
                 "caption": "Viva Aerobus Challenge.png",
                 "width": 977,
                 "height": 673,
@@ -98,7 +98,7 @@
               "id": 2,
               "attributes": {
                 "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Main screen of the viva web website, the ticket search engine and background image are shown. Behind flight selection screen.",
+                "alternativeText": "Main screen of the Viva Aerobus app, the services menu, search engine, promotions card and app menu are displayed in that order vertically. The passenger boarding pass screen is shown behind, with the qr code and passenger data.",
                 "caption": "Viva Aerobus Challenge.png",
                 "width": 977,
                 "height": 673,
@@ -169,7 +169,7 @@
               "id": 1,
               "attributes": {
                 "name": "Viva Aerobus Logo.png",
-                "alternativeText": "Viva Aerobus Logo.png",
+                "alternativeText": "Photograph of a woman sitting, waiting for her flight in the departure lounge of the airport.",
                 "caption": "Viva Aerobus Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -194,18 +194,21 @@
           "list": [{
               "id": 1,
               "title": "A bespoke experience for two platforms",
+              "alternativeText": "'Continue with...' screen to log in to the Viva Aerobus app, with an Apple, Google Facebook or Email account. A background image is shown with a woman looking at the horizon from the plane window.",
               "content": "One of the critical objectives for this project was to create unique design patterns for both Android and iOS users, taking advantage of native elements and components. The object Manager feature is an example of a custom UI component that was adapted to work with native elements from each OS, and their specific interface guidelines.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
             },
             {
               "id": 2,
               "title": "An on-the-go, intuitive experience",
+              "alternativeText": "'Select origin' screen in the Viva Aerobus app, to choose the starting point, with nearby recommended airports or the option to choose a specific one.",
               "content": "Making an impact in the ecosystem: The app reached 10k+ downloads within the first 2 weeks since launching, and is found in the Top 5 travel apps in the app stores, with a rating of 4.8 stars.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
             },
             {
               "id": 3,
               "title": "Immediate impact in the travel ecosystem",
+              "alternativeText": "Example of the Viva Aerobus digital ticket, showing the passenger's name, the departure point with their destination and boarding details. As well as a scannable QR code.",
               "content": "Direct, short UX paths to key information – such as boarding passes and passenger info – all from travelers’ fingertips.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
             }
@@ -391,7 +394,7 @@
             "id": 1,
             "attributes": {
               "name": "vivaApp_quote_bg",
-              "alternativeText": "vivaApp_quote_bg",
+              "alternativeText": "Main screen of the Viva Aerobus app, the services menu, search engine, promotions card and app menu are displayed in that order vertically. The passenger boarding pass screen is shown on the back, with the QR code and passenger data.",
               "caption": "vivaApp_quote_bg",
               "width": 64,
               "height": 64,
@@ -417,7 +420,7 @@
               "id": 1,
               "attributes": {
                 "name": "vivaApp_learned1.png",
-                "alternativeText": "Viva Aerobus Learned",
+                "alternativeText": "Detail of 'Check in of...' to record the presence of a user.",
                 "caption": "Viva Aerobus Learned",
                 "width": 977,
                 "height": 673,
@@ -439,7 +442,7 @@
               "id": 2,
               "attributes": {
                 "name": "vivaApp_learned2.png",
-                "alternativeText": "Viva Aerobus Learned.png",
+                "alternativeText": "Detail of 'Flight Status' to see details of departure and departure of the current flight",
                 "caption": "Viva Aerobus Learned.png",
                 "width": 977,
                 "height": 673,
@@ -566,7 +569,7 @@
               "id": 1,
               "attributes": {
                 "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "3Viva aerobus customer illustration in green tones with colored paste. A passport is shown with a graph of the world's meridians in lines and below the graph the text Pass.",
+                "alternativeText": "Viva Aerobus customer illustration in green tones with colored paste. A passport is shown with a graph of the world's meridians in lines and below the graph the text 'Pass'.",
                 "caption": "Viva Aerobus Challenge.png",
                 "width": 977,
                 "height": 673,
@@ -588,7 +591,7 @@
               "id": 2,
               "attributes": {
                 "name": "Viva Aerobus Challenge.png",
-                "alternativeText": "Main screen of the Viva Aerobus app, the services menu, search engine, promotions card and app menu are displayed in that order vertically. The passenger boarding pass screen is shown behind, with the qr code and passenger data.",
+                "alternativeText": "Main screen of the viva web website, the ticket search engine and background image are shown. Behind flight selection screen.",
                 "caption": "Viva Aerobus Challenge.png",
                 "width": 977,
                 "height": 673,
@@ -1018,7 +1021,7 @@
             "id": 1,
             "attributes": {
               "name": "pbb_hero_photo.jpg",
-              "alternativeText": "pbb_hero_photo.jpg",
+              "alternativeText": "Photograph of a group of people collecting garbage in a field, as an altruistic activity to take care of the planet.",
               "caption": "pbb_hero_photo.jpg",
               "width": 977,
               "height": 673,
@@ -1075,7 +1078,7 @@
               "id": 2,
               "attributes": {
                 "name": "Planet Buyback Challenge.png",
-                "alternativeText": "Main screen of the Planet Buyback website, with the sea in the background, top menu and text 'Be part of the solution'. Behind the screen of the cards with different projects to donate, each one with a title, amount donated and image.",
+                "alternativeText": "Main screen of the Planet Buyback website, with the sea in the background, top menu and text 'Be part of the solution'.",
                 "caption": "Planet Buyback Challenge.png",
                 "width": 977,
                 "height": 673,
@@ -1144,7 +1147,7 @@
               "id": 1,
               "attributes": {
                 "name": "Planet Buyback Logo.png",
-                "alternativeText": "Planet Buyback Logo.png",
+                "alternativeText": "Photograph of a group of people collecting garbage in a field, as an altruistic activity to take care of the planet.",
                 "caption": "Planet Buyback Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -1169,18 +1172,21 @@
           "list": [{
               "id": 1,
               "title": "An new project dashboard experience",
+              "alternativeText": "Planet Buyback screen detail with the name of the project 'Planet Surf' and amount of money raised so far. It is accompanied by a photograph of surfers of different nationalities on the beach.",
               "content": "The donation dashboard provides a consistent, visual design in line with Planet Buyback's brand guidelines. It informs and attracts new users to donate in a simple and effective way.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver1.png"
             },
             {
               "id": 2,
               "title": "Enticing data visualization",
+              "alternativeText":"Planet Buyback screen detail where you select what type of 'damaging' user you are",
               "content": "We kept a close relationship between textual and visual storytelling in order to match content, with form. Images, icons, and animations support and reinforce the main value proposition.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver2.png"
             },
             {
               "id": 3,
               "title": "Brand new interface design ",
+              "alternativeText":"Detail of the Planet Buyback navigation menu with the sections: 1. Profile 2. Subscription Settings 3. Donation History 4. Payment Details 5. Newsletter Preferences",
               "content": "The new interface design followed from a market study and an overall brand revamp; this defined the desired modifications in terms of forms, composition, hierarchy, and components.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver3.png"
             }
@@ -1611,7 +1617,7 @@
               "id": 1,
               "attributes": {
                 "name": "BMCF Logo.png",
-                "alternativeText": "BMCF Logo.png",
+                "alternativeText": "Photograph of a cancer patient being accompanied, taken from the hands of that person who comforts her while they sit quietly.",
                 "caption": "BMCF Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -1636,18 +1642,21 @@
           "list": [{
               "id": 1,
               "title": "A hybrid mobile app",
+              "alternativeText":"'Who do you want to connect with?' screen in the CancerBuddy app, which displays a list of patients who can be contacted.",
               "content": "Cancerbuddy is built on a serverless framework; it's a hybrid app making it easy to scale to other platforms. We used the React Native framework, allowing us to easily build the app for iOS, Android and web, all with one codebase.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver1.png"
             },
             {
               "id": 2,
               "title": "A fast and seamless experience",
+              "alternativeText":"Listing detail 'Who do you want to connect with?'. A list of patients diagnosed with cancer is displayed, along with their photograph, name and age.",
               "content": "We used Amplify (an AWS service). This allows for fast and effective coding. It provides easy Authentication, data and API integration and the tools to help us authenticate users, connect services, build databases and web services, resulting in a fast and seamless end user experience.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver2.png"
             },
             {
               "id": 3,
               "title": "A world's first",
+              "alternativeText":"Illustration of Cancer Buddy in yellow tones with color paste. Two jubilantly smiling people are shown in poses of cheering and happiness.",
               "content": "It's not everyday that we can work on an app that truly changes lives. Cancerbuddy is the world’s first cancer patient and survivor network and offers people that are affected by this disease a way to feel less isolated and supported by others.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver3.png"
             }
@@ -1856,7 +1865,7 @@
               "id": 1,
               "attributes": {
                 "name": "cb_learned1.png",
-                "alternativeText": "BMCF Learned",
+                "alternativeText": "Mosaic of the photos that the cancer patient wants to share publicly on their profile.",
                 "caption": "BMCF Learned",
                 "width": 977,
                 "height": 673,
@@ -1878,7 +1887,7 @@
               "id": 2,
               "attributes": {
                 "name": "cb_learned2.png",
-                "alternativeText": "BMCF Learned.png",
+                "alternativeText": "Menu of 'Emojis' to react with different states or thoughts among cancer patients.",
                 "caption": "BMCF Learned.png",
                 "width": 977,
                 "height": 673,
@@ -1998,7 +2007,7 @@
               "id": 1,
               "attributes": {
                 "name": "Food Central Challenge.png",
-                "alternativeText": "Foodcentral customer illustration with white color to plastic color. A coffee with cali smoke is shown",
+                "alternativeText": "Illustration of a Food Central customer in white lines. A steaming hot coffee is shown.",
                 "caption": "Food Central Challenge.png",
                 "width": 977,
                 "height": 673,
@@ -2097,7 +2106,7 @@
               "id": 1,
               "attributes": {
                 "name": "Food Central Logo.png",
-                "alternativeText": "Food Central Logo.png",
+                "alternativeText": "Photograph of various foods served (hamburgers, peppers, pickles and potatoes) and ready to eat.",
                 "caption": "Food Central Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -2123,18 +2132,21 @@
           "list": [{
               "id": 1,
               "title": "Enabling providers to instantly digitize their business",
+              "alternativeText":"Illustration of a Food Central customer in white lines. A piece of sushi is shown.",
               "content": "By the use of a so-called “central table”, the system collects and organizes orders in a central place, making fulfillment more efficient.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver1.png"
             },
             {
               "id": 2,
               "title": "All-in-one solution for restaurants",
+              "alternativeText":"Details of 'Delivery options' to place an order, with the contact number and hours of the establishment.",
               "content": "Users can pre-order food up to 24 hours before delivery and have a pick-up option if needed. This provides a great customer experience and makes it easy to plan the day ahead in an easy way.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver2.png"
             },
             {
               "id": 3,
               "title": "Native iOS and Android experience",
+              "alternativeText":"'Select item' screen in the Food Central app, to choose a food. The Santa Clara Ice Cream shop is shown with a list of the ice creams they offer.",
               "content": "We have developed both a native iOS and Android experience, making the Food Central intuitive and easy to use.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver3.png"
             }
@@ -2345,7 +2357,7 @@
               "id": 1,
               "attributes": {
                 "name": "fc_learned1.png",
-                "alternativeText": "Food Central Learned",
+                "alternativeText": "Illustration of a Food Central customer in white lines. An ice cream with 2 wafer balls is shown, served in a glass.",
                 "caption": "Food Central Learned",
                 "width": 977,
                 "height": 673,
@@ -2367,7 +2379,7 @@
               "id": 2,
               "attributes": {
                 "name": "fc_learned2.png",
-                "alternativeText": "Food Central Learned.png",
+                "alternativeText": "Details of 'Delivery' to choose how you want to receive the order and give a telephone reference for it.",
                 "caption": "Food Central Learned.png",
                 "width": 977,
                 "height": 673,
@@ -2581,7 +2593,7 @@
               "id": 1,
               "attributes": {
                 "name": "Smart Walk Logo",
-                "alternativeText": "Smart Walk",
+                "alternativeText": "Photograph of a woman in a casual outfit examining an apartment for sale.",
                 "caption": "Smart Walk",
                 "width": 977,
                 "height": 673,
@@ -2607,18 +2619,21 @@
           "list": [{
               "id": 1,
               "title": "Uptake of 10% in property viewings",
+              "alternativeText":"Photograph of a furnished room, with a fireplace, a wooden floor and green interiors.",
               "content": "GGI now has a new way to attract potential buyers who are interested in property and use SmartWalk to get a better impression of the space, before they decide to physically go.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver1.png"
             },
             {
               "id": 2,
               "title": "Better relationships between broker and buyer",
+              "alternativeText":"Detail of calendar with day, month and year of Smart Walk",
               "content": "Because of the video and audio layer on top of the 3D tour, the broker can answer questions and provide a voice over while doing the tour.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver2.png"
             },
             {
               "id": 3,
               "title": "New way to capture client data",
+              "alternativeText":"Smart Walk screen detail, with details such as customer name and type of department. to take a virtual tour.",
               "content": "Potential buyers can leave their personal data behind when signing up for SmartWalk, captured in a CRM system so that GGI can track its leads better.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver3.png"
             }
@@ -2832,7 +2847,7 @@
             "id": 1,
             "attributes": {
               "name": "sw_quote_bg",
-              "alternativeText": "sw_quote_bg",
+              "alternativeText": "Home screen of the SmartWalk platform. The calendar and the Appointment Book list are displayed. Behind is the screen where a virtual appointment is scheduled.",
               "caption": "sw_quote_bg",
               "width": 64,
               "height": 64,
@@ -2858,7 +2873,7 @@
               "id": 1,
               "attributes": {
                 "name": "sw_learned1.png",
-                "alternativeText": "Smart Walk Learned",
+                "alternativeText": "Photograph of the interior of a white furnished room, suitable with a television and an art painting.",
                 "caption": "Smart Walk Learned",
                 "width": 977,
                 "height": 673,
@@ -2880,7 +2895,7 @@
               "id": 2,
               "attributes": {
                 "name": "sw_learned2.png",
-                "alternativeText": "Smart Walk Learned.png",
+                "alternativeText": "Map of the interior of an apartment seen from above showing the bedrooms it has and the distribution of spaces.",
                 "caption": "Smart Walk Learned.png",
                 "width": 977,
                 "height": 673,
@@ -3102,7 +3117,7 @@
               "id": 1,
               "attributes": {
                 "name": "Seguros Mundial Logo.png",
-                "alternativeText": "Seguros Mundial Logo.png",
+                "alternativeText": "Photograph of a room in a house facing the window, with objects stored in boxes.",
                 "caption": "Seguros Mundial Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -3128,18 +3143,21 @@
           "list": [{
               "id": 1,
               "title": "80% more effective operations",
+              "alternativeText":"Illustration of client Seguros Mundial in white lines. A speedometer is shown, with the marker at a high gear.",
               "content": "Thanks to the DevOps implementation we carried out, Seguros Mundial can execute operations with 80% more speed.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver1.png"
             },
             {
               "id": 2,
               "title": "Fully digitized insurance process",
+              "alternativeText":"Photograph of a man outside dressed in white smiling as he looks at his cell phone.",
               "content": "Say goodbye to long paper trails! By digitizing the insurance experience, customers can quote and contract insurance products fully online. That’s a first in Seguros Mundial’s local industry.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver2.png"
             },
             {
               "id": 3,
               "title": "Reducing operational costs with 20%",
+              "alternativeText":"'Analytics' screen on the Seguros Mundial website, to monitor site traffic. Bar, dot, and circle graphs are displayed to measure the data.",
               "content": "Thanks to a fully digital self service platform, the help of a broker is not required anymore. This greatly benefits the customer acquisition process, as operational costs go down while customer volume increases.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver3.png"
             }
@@ -3347,7 +3365,7 @@
               "id": 1,
               "attributes": {
                 "name": "sm_learned1.png",
-                "alternativeText": "Seguros Mundial Learned",
+                "alternativeText": "Illustration of client Seguros Mundial with white color plast. The silhouette of a house with a keyhole in the center is shown.",
                 "caption": "Seguros Mundial Learned",
                 "width": 977,
                 "height": 673,
@@ -3369,7 +3387,7 @@
               "id": 2,
               "attributes": {
                 "name": "sm_learned2.png",
-                "alternativeText": "Seguros Mundial Learned.png",
+                "alternativeText": "Photograph of a mother with her children sitting together on a sofa.",
                 "caption": "Seguros Mundial Learned.png",
                 "width": 977,
                 "height": 673,
@@ -3505,7 +3523,7 @@
               "id": 1,
               "attributes": {
                 "name": "OEIO",
-                "alternativeText": "Illustration of the client I HATE. A half circle is illustrated that forms a window, on the left side of this on another half circle comes out slightly.",
+                "alternativeText": "Illustration of the client OEIO. A half circle is illustrated that forms a window, on the left side of this on another half circle comes out slightly.",
                 "caption": "OEIO",
                 "width": 977,
                 "height": 673,
@@ -3608,7 +3626,7 @@
               "id": 1,
               "attributes": {
                 "name": "OEIO Logo.png",
-                "alternativeText": "OEIO Logo.png",
+                "alternativeText": "Photograph of a meditation session with a close-up on some candles and incense, in the background a person appears in the lotus position.",
                 "caption": "OEIO Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -3634,18 +3652,21 @@
           "list": [{
               "id": 1,
               "title": "A versatile, digital wellness marketplace",
+              "alternativeText":"OEIO screen detail that indicates the name of the package, the services it has, the location and the validity. It also gives the option to 'Book'.",
               "content": "OEIO offers all tools for customers, salon owners and managers, professionals and OEIO staff to book and manages appointments. All in one ecosystem.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver1.png"
             },
             {
               "id": 2,
               "title": "Track and manage business growth",
+              "alternativeText":"'Dashboard' screen on the OEIO website, to view the list of reservations for the day in detail.",
               "content": "We’ve built an easy to use Admin SaaS platform, that serves native OEIO iOS and Android apps. It lets owners manage bookings, track sales, progress and employee performance.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver2.png"
             },
             {
               "id": 3,
               "title": "End-to-end digital experience for customers",
+              "alternativeText":"Detail of the calendar in OEIO to reserve the services, with the times available on the selected day.",
               "content": "From discovery, to choosing a service, to booking, to payment: users can perform everything in-app, in the palm of their hands.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver3.png"
             }
@@ -3857,7 +3878,7 @@
               "id": 1,
               "attributes": {
                 "name": "oeio_learned1.png",
-                "alternativeText": "OEIO Learned",
+                "alternativeText": "OEIO screen detail indicating the name of the package, the price, how much is saved, the location and location.",
                 "caption": "OEIO Learned",
                 "width": 977,
                 "height": 673,
@@ -3879,7 +3900,7 @@
               "id": 2,
               "attributes": {
                 "name": "oeio_learned2.png",
-                "alternativeText": "OEIO Learned.png",
+                "alternativeText": "OEIO screen detail indicating what type of space it is and its name, as well as the distance and its rating. It is accompanied by a photo of a woman doing yoga.",
                 "caption": "OEIO Learned.png",
                 "width": 977,
                 "height": 673,
@@ -4092,7 +4113,7 @@
               "id": 1,
               "attributes": {
                 "name": "Travel Company Logo.png",
-                "alternativeText": "Travel Company Logo.png",
+                "alternativeText": "Photograph of a woman with her back to the edge of a boat, looking towards the horizon over the sea.",
                 "caption": "Travel Company Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -4118,18 +4139,21 @@
           "list": [{
               "id": 1,
               "title": "Understanding members and their behavior",
+              "alternativeText":"Photograph of a hotel pool with guests enjoying the sun in bathing suits.",
               "content": "We helped our client truly understand their members. What drives them? What’s their decision making process? Why do they choose one travel product over another? A total of 34 personas over 7 brands helped to answers these questions.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver1.png"
             },
             {
               "id": 2,
               "title": "Actionable personas, backed up by data",
+              "alternativeText":"Ornament composed of circles containing portraits of people smiling.",
               "content": "Next to qualitative research, we conducted quantitative analysis: through 500,000 data points on purchase and loyalty behavior and cross-referenced these with our qualitative hypotheses and insights. This resulted in very rich personas, backed up by data around ROI, CLV and other metrics.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver2.png"
             },
             {
               "id": 3,
               "title": "Priorization of better ways to earn and spending loyalty points",
+              "alternativeText":"Travel Company customer illustrations in blue and white colors. Icons with circular envelopes of a hotel, an airplane, a ship and a car are shown.",
               "content": "As a result of our research, we prioritized potential improvements in the digital journey for all products (air, cruise, hotel, car rental). These were mostly centered around better ways to educate people about earning and spending loyalty points, which ultimately is our client’s main revenue driver.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver3.png"
             }
@@ -4337,7 +4361,7 @@
               "id": 1,
               "attributes": {
                 "name": "tc_learned1.png",
-                "alternativeText": "Travel Company Learned",
+                "alternativeText": "Photograph of a work meeting in an office, in which the speaker presents his ideas with the help of a board where notes are made.",
                 "caption": "Travel Company Learned",
                 "width": 977,
                 "height": 673,
@@ -4359,7 +4383,7 @@
               "id": 2,
               "attributes": {
                 "name": "tc_learned2.png",
-                "alternativeText": "Travel Company Learned.png",
+                "alternativeText": "Travel Company customer illustration in silver color. A world map with all the continents is displayed.",
                 "caption": "Travel Company Learned.png",
                 "width": 977,
                 "height": 673,
@@ -4579,7 +4603,7 @@
               "id": 1,
               "attributes": {
                 "name": "CAPA Logo.png",
-                "alternativeText": "CAPA Logo.png",
+                "alternativeText": "Photograph of a residential area seen from above, with white houses.",
                 "caption": "CAPA Logotype.png",
                 "width": 977,
                 "height": 673,
@@ -4605,18 +4629,21 @@
           "list": [{
               "id": 1,
               "title": "A real-time, digital way to start investing",
+              "alternativeText":"Illustration of Client Layer. A two-dimensional yellow house is illustrated, looking to the left, it has two large windows.",
               "content": "Investors can onboard themselves in a digital way, and start investing the same day. This form of self-service allows them to independently explore the real-estate investment world, without requiring assistance.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver1.png"
             },
             {
               "id": 2,
               "title": "Track performance and growth in one place",
+              "alternativeText":"Layer customer screen detail. A graph is shown that marks the annual financial status of a set of properties.",
               "content": "The central dashboard enables investors to keep track of asset and fund performance, ARR, MRR and other important financial metrics - all in one place and in real-time.",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver2.png"
             },
             {
               "id": 3,
               "title": "Reduction of operational costs and effort",
+              "alternativeText":"Layer customer screen detail. A table is shown that dates the financial movements with salt for and against.",
               "content": "The new digital platform allows CAPA to reduce cost por customer acquisition, onboarding and operational costs. By offering a real-time, automated view on portfolio performance, our client avoid drafting lengthy quarterly reports (done by hand).",
               "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver3.png"
             }
@@ -4825,7 +4852,7 @@
               "id": 1,
               "attributes": {
                 "name": "capa_learned1.png",
-                "alternativeText": "CAPA Learned",
+                "alternativeText": "Purple card with financial details of a 'Syndicate', with your name and photos of some of the properties it contains.",
                 "caption": "CAPA Learned",
                 "width": 977,
                 "height": 673,
@@ -4847,7 +4874,7 @@
               "id": 2,
               "attributes": {
                 "name": "capa_learned2.png",
-                "alternativeText": "CAPA Learned.png",
+                "alternativeText": "Yellow card with financial details of a 'Property', with your name, address and photograph.",
                 "caption": "CAPA Learned.png",
                 "width": 977,
                 "height": 673,

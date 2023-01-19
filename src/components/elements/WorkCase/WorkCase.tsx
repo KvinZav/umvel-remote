@@ -43,6 +43,7 @@ const WorkCase: React.FC<WorkCaseProps> = ({
             layout="responsive"
             height={'100%'}
             width={'100%'}
+            title={project.image?.data.attributes.caption}
           />
         </div>
       </div>

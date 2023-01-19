@@ -87,6 +87,7 @@ export interface Value {
   title: string;
   content: string;
   image?: string;
+  alternativeText?: string;
 }
 
 export interface ChallengeData {

@@ -120,7 +120,7 @@ export const DeliveredValue = ({
         <h4 className="text-center font-bold text-b4">{title}</h4>
       </div>
       <div className="w-full grid grid-rows-1 md:grid-rows-3 lg:grid-rows-2 grid-cols-[repeat(3,90vw)] md:grid-cols-2 lg:grid-cols-3 overflow-x-auto snap-x">
-        {list.slice(0, 3).map(({ title, content, image }, idx) => (
+        {list.slice(0, 3).map(({ title, content, image, alternativeText }, idx) => (
           <div
             className="flex"
             key={`item-delivery-${idx}`}
@@ -145,7 +145,7 @@ export const DeliveredValue = ({
                 className={`flex w-full h-full ${imageConfigurations[idx].className}`}
                 style={imageConfigurations[idx].style}
               >
-                <CustomImage src={image} alt={`deliver-image-${idx}`} />
+                <CustomImage src={image} alt={alternativeText} />
               </div>
             </div>
           </div>

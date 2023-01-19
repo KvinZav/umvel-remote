@@ -134,7 +134,7 @@ const HighlightsDesktop: React.FC<HighlightsDesktopPorps> = ({
             {imgAttributes.url && (
               <Image
                 url={imgAttributes.url}
-                alt="project"
+                alt={imgAttributes.alternativeText}
                 layout="fill"
                 previewUrl={imgAttributes.previewUrl}
               />
