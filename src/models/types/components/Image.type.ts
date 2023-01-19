@@ -8,4 +8,5 @@ export type ImageProps = {
   priority?: boolean;
   objectFit?: 'contain' | 'cover' | 'fill' | 'none' | 'scale-down';
   previewUrl?: string;
+  title?: string;
 };

@@ -268,7 +268,7 @@
                 "id": 1,
                 "attributes": {
                   "name": "OEIO",
-                  "alternativeText": "OEIO",
+                  "alternativeText": "OEIO customer illustration. A half circle is illustrated that forms a window, on the left side of this on another half circle comes out slightly.",
                   "caption": "OEIO",
                   "width": 977,
                   "height": 673,
@@ -346,7 +346,7 @@
                         "id": 1,
                         "attributes": {
                           "name": "vivaApp_case",
-                          "alternativeText": "vivaApp_case",
+                          "alternativeText": "Viva Aerobus customer illustration in green tones with colored paste. A full screen cell phone and two tickets with an airplane silhouette are shown, below the word 'Ticket.'",
                           "caption": "vivaApp_case",
                           "width": 977,
                           "height": 673,
@@ -386,13 +386,13 @@
                     "portfolioTitle": null,
                     "portfolioDescription": null,
                     "portfolioDataOfInterest": null,
-                    "altText": "Illustration of the customer I HATE. A half circle is illustrated that forms a window, on the left side of this on another half circle comes out slightly.",
+                    "altText": "Illustration of the customer OEIO. A half circle is illustrated that forms a window, on the left side of this on another half circle comes out slightly.",
                     "image": {
                       "data": {
                         "id": 1,
                         "attributes": {
                           "name": "oeio_case",
-                          "alternativeText": "oeio_case",
+                          "alternativeText": "OEIO customer illustration. A half circle is illustrated that forms a window, on the left side of this on another half circle comes out slightly.",
                           "caption": "oeio_case",
                           "width": 977,
                           "height": 673,
@@ -500,9 +500,9 @@
                       "data": {
                         "id": 1,
                         "attributes": {
-                          "name": "Viva Aerobus Logo.png",
-                          "alternativeText": "Viva Aerobus Logo.png",
-                          "caption": "Viva Aerobus Logotype.png",
+                          "name": "cancerbuddy-abrazo-ilustracion.png",
+                          "alternativeText": "Illustration of CancerBuddy in yellow tones with color paste. A warm person is shown smiling, with hearts in their arms.",
+                          "caption": "cancerbuddy abrazo ilustracion.png",
                           "width": 977,
                           "height": 673,
                           "formats": null,
@@ -547,7 +547,7 @@
                         "id": 1,
                         "attributes": {
                           "name": "Viva Aerobus Logo.png",
-                          "alternativeText": "Viva Aerobus Logo.png",
+                          "alternativeText": "Viva Aerobus customer illustration in green tones with colored paste. A passport is shown with a graph of the world's meridians in lines and below the graph the text 'Pass'.",
                           "caption": "Viva Aerobus Logotype.png",
                           "width": 977,
                           "height": 673,
@@ -704,7 +704,7 @@
                           "id": 1,
                           "attributes": {
                             "name": "Viva Aerobus Logo.png",
-                            "alternativeText": "Viva Aerobus Logo.png",
+                            "alternativeText": "Main screen of the Viva Aerobus app, the services menu, search engine, promotions card and app menu are displayed in that order vertically. The passenger boarding pass screen is shown behind, with the qr code and passenger data.",
                             "caption": "Viva Aerobus Logotype.png",
                             "width": 977,
                             "height": 673,
@@ -742,7 +742,7 @@
                           "id": 1,
                           "attributes": {
                             "name": "Viva Aerobus Logo.png",
-                            "alternativeText": "Viva Aerobus Logo.png",
+                            "alternativeText": "Main screen of the viva web website, the ticket search engine and background image are shown. Behind flight selection screen.",
                             "caption": "Viva Aerobus Logotype.png",
                             "width": 977,
                             "height": 673,
@@ -779,9 +779,9 @@
                         "data": {
                           "id": 1,
                           "attributes": {
-                            "name": "Viva Aerobus Logo.png",
-                            "alternativeText": "Viva Aerobus Logo.png",
-                            "caption": "Viva Aerobus Logotype.png",
+                            "name": "mockup-planetbuyback-ourwork.png",
+                            "alternativeText": "Main screen of the Planet Buyback website, with the sea in the background, top menu and text 'Be part of the solution'.",
+                            "caption": "mockup planetbuyback ourwork.png",
                             "width": 977,
                             "height": 673,
                             "formats": null,
@@ -818,7 +818,7 @@
                           "id": 1,
                           "attributes": {
                             "name": "Cancerbuddy.png",
-                            "alternativeText": "Cancerbuddy.png",
+                            "alternativeText": "User profile screen in the Cancer Buddy app. Your photo, personal information, and app menu are displayed, in that order. Behind it is the screen of 'Buddies' chat that the user has with the other people in the app.",
                             "caption": "Cancerbuddytype.png",
                             "width": 977,
                             "height": 673,
@@ -855,9 +855,9 @@
                         "data": {
                           "id": 1,
                           "attributes": {
-                            "name": "Viva Aerobus Logo.png",
-                            "alternativeText": "Viva Aerobus Logo.png",
-                            "caption": "Viva Aerobus Logotype.png",
+                            "name": "mockup-foodcentral-ourwork.png",
+                            "alternativeText": "Main screen of the Food Central app. It shows the search engine, favorites in stores, food categories and the app menu, in the same vertical order. Behind the screen of gastronomic preferences to choose.",
+                            "caption": "mockup foodcentral ourwork.png",
                             "width": 977,
                             "height": 673,
                             "formats": null,
@@ -893,9 +893,9 @@
                         "data": {
                           "id": 1,
                           "attributes": {
-                            "name": "Viva Aerobus Logo.png",
-                            "alternativeText": "Viva Aerobus Logo.png",
-                            "caption": "Viva Aerobus Logotype.png",
+                            "name": "mockup-smartwalk-ourwork.png",
+                            "alternativeText": "Home screen of the SmartWalk platform. The calendar and the Appointment Book list are displayed. Behind is the screen where a virtual appointment is scheduled.",
+                            "caption": "mockup smartwalk ourwork.png",
                             "width": 977,
                             "height": 673,
                             "formats": null,
@@ -932,7 +932,7 @@
                           "id": 1,
                           "attributes": {
                             "name": "Seguros Mundial",
-                            "alternativeText": "Seguros Mundial",
+                            "alternativeText": "Home screen of the world insurance website, with text about the insurance policy and image of a woman surprised by the discounts.",
                             "caption": "Seguros Mundial",
                             "width": 977,
                             "height": 673,
@@ -969,9 +969,9 @@
                         "data": {
                           "id": 1,
                           "attributes": {
-                            "name": "Viva Aerobus Logo.png",
-                            "alternativeText": "Viva Aerobus Logo.png",
-                            "caption": "Viva Aerobus Logotype.png",
+                            "name": "mockup-oeio-ourwork.png",
+                            "alternativeText": "OEIO app onboarding screen. An image and text about the massage packages are shown. Behind it is the main screen of the app with the favorite services, packages and categories, in that vertical order.",
+                            "caption": "mockup oeio ourwork.png",
                             "width": 977,
                             "height": 673,
                             "formats": null,
@@ -1008,7 +1008,7 @@
                           "id": 1,
                           "attributes": {
                             "name": "TC.png",
-                            "alternativeText": "Illustration of the client Travel Company. A magnifying glass is illustrated with a bust illustration of a person in the center.",
+                            "alternativeText": "Explained diagram of a user person, with photography and specific data, as well as cards with bar graphs of the person's personality and motivations.",
                             "caption": "Travel Company",
                             "width": 977,
                             "height": 673,
@@ -1045,9 +1045,9 @@
                         "data": {
                           "id": 1,
                           "attributes": {
-                            "name": "cancer buddy.png",
-                            "alternativeText": "Cancer Buddy.png",
-                            "caption": "CancerBuddyMockup.png",
+                            "name": "mockup-capa-ourwork.png",
+                            "alternativeText": "Main dasboard of the Capa platform, with graphs and side menu.",
+                            "caption": "mockup capa ourwork.png",
                             "width": 977,
                             "height": 673,
                             "formats": null,
