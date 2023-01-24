@@ -1,15 +1,41 @@
 import PrismButton from '@elements/square-colors';
 import { environment } from '@environments/index';
 import { get } from '@fetcher/get';
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import useSWR from 'swr';
 import { PhilosophyBulletPoint } from '@interfaces/about-us-data/about-us.interface';
 import Link from 'next/link';
+import useScrollOffset from '@hooks/useScrollOffset';
+import useWindowSize from '@hooks/useWindowSize';
 
 export const ReadyToTake = () => {
+  const isBrowser = typeof window !== 'undefined';
+  const innerHeight = isBrowser ? window.innerHeight : 0;
+
+  const mainContainerRef = useRef<HTMLDivElement>();
+
+  const { scrollOffset } = useScrollOffset();
+
+  const [positionValue, setPositionValue] = useState<number>();
+
+  const { screen } = useWindowSize();
+
   const infoAboutUs = useSWR(environment.ABOUT_US, get, {
     revalidateOnFocus: false,
   });
+
+  useEffect(() => {
+    const { top } = mainContainerRef.current.getBoundingClientRect();
+    let position = 0;
+    if(screen == 'sm') {
+      position = top <= 100 ? ((scrollOffset-innerHeight-550)) : 0;
+    } else if(screen == 'md') {
+      position = top <= 320 ? ((scrollOffset-600)) : 0;
+    } else {
+      position = top <= 0 ? ((scrollOffset-innerHeight-250)/3.5) : 0;
+    }
+    setPositionValue(position);
+  }, [scrollOffset, mainContainerRef]);
 
   if (!infoAboutUs.data) {
     return;
@@ -18,9 +44,13 @@ export const ReadyToTake = () => {
   const { quotes } = infoAboutUs.data?.data?.attributes;
 
   return (
-    <div className="md:overflow-auto md:flex md:border border-secondary-10 border-solid mt-6 md:mt-52 xl:mt-[250px]">
+    <div ref={mainContainerRef} className="bg-[#000] lg:mb-[2500px] lg:sticky lg:top-0 lg:h-screen lg:items-center md:overflow-hidden md:flex md:border border-secondary-10 border-solid mt-6 md:mt-52 xl:mt-[250px]">
+      <div className='md:flex'
+      style={{
+        transform: `translateX(${screen !='sm' ? -positionValue : 0}px)`,
+      }}>
       <div
-        className="md:aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex"
+        className="md:aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex bg-primary-white"
       >
         <div className="px-16 py-20 lg:px-32 lg:py-60 xl:pt-96">
           <h1 className="font-bold md:mb-6 text-m3 md:text-b4 mb-4">{quotes.title}</h1>
@@ -42,6 +72,9 @@ export const ReadyToTake = () => {
         className="bg-primary-black md:aspect-square flex-1 lg:min-h-[56rem] md:min-w-[38rem] lg:min-w-[56rem] xl:min-w-[1280px] md:min-h-[38rem] flex"
       >
         <div className="overflow-auto flex md:overflow-hidden md:block md:px-16 md:py-20 lg:px-32 lg:py-60 xl:pt-96">
+          <div className={screen == 'sm' ? 'flex' : ''}  style={{
+                  transform: `translateX(${screen =='sm' ? -positionValue : 0}px)`,  
+                }}>
           <div className="min-w-[319px] min-h-[319px] md:min-w-[0] md:min-h-[0] p-12 md:p-0">
             <p className="mb-3 text-s1 text-primary-white">{quotes.philosophy.title}</p>
             <h1 className="font-bold lg:mb-2 text-m4 md:text-b4 text-primary-white">
@@ -61,7 +94,9 @@ export const ReadyToTake = () => {
               );
             })}
           </div>
+          </div>
         </div>
+      </div>
       </div>
     </div>
   );
