@@ -7,6 +7,7 @@ import { PhilosophyBulletPoint } from '@interfaces/about-us-data/about-us.interf
 import Link from 'next/link';
 import useScrollOffset from '@hooks/useScrollOffset';
 import useWindowSize from '@hooks/useWindowSize';
+import BasicButton from '@elements/button';
 
 export const ReadyToTake = () => {
   const isBrowser = typeof window !== 'undefined';
@@ -55,10 +56,17 @@ export const ReadyToTake = () => {
         <div className="px-16 py-20 lg:px-32 lg:py-60 xl:pt-96">
           <h1 className="font-bold md:mb-6 text-m3 md:text-b4 mb-4">{quotes.title}</h1>
           <p className="mb-8 text-s1">{quotes.subtitle}</p>
-          <div className="p-10 flex md:flex-row flex-col-reverse items-center text-center">
+          <a
+            href='https://us.nttdata.com/?utm_source=umvel&utm_medium=referral&utm_campaign=fy22_umvel_about'
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BasicButton>Learn more</BasicButton>
+          </a>
+          <div className="mt-[52px] p-10 flex md:flex-row flex-col-reverse items-center text-center">
             <Link href="/our-work">
               <a>
-                <PrismButton>{'Our Work'}</PrismButton>
+                <PrismButton>Our Work</PrismButton>
               </a>
             </Link>
 
