@@ -8,8 +8,9 @@
       "header": {
         "id": 1,
         "title": "We are Umvel",
-        "subtitle": "Umvel is an integral team of 150+ engineers, researchers, strategists and designers.",
-        "highlightText": [{
+        "subtitle": "Umvel—now part of NTT DATA, a global digital business and IT services leader— is an integrated team of 150+ engineers, researchers, strategists and designers.",
+        "highlightText": [
+          {
             "id": 1,
             "title": "150+",
             "subtitle": "Umvellers"
@@ -28,12 +29,13 @@
       },
       "quotes": {
         "id": 2,
-        "title": "We're ready to take on any challenge, no matter the complexity.",
-        "subtitle": "We are committed to continuous collaboration and believe that we can only succeed by working with integrated teams from day one. By applying best practices from the work we have done with numerous clients, in over 10 industries across the world, we demonstrate that we can deliver what we promise - time and time again.",
+        "title": "We’re Now Part of the NTT DATA Family.",
+        "subtitle": "Umvel is now an NTT DATA company, and we’re excited to offer our customers expanded industry-centric services and capabilities from one of the world’s largest digital consulting and IT services companies. Ranked as one of world’s most valuable brands, NTT DATA pushes the boundaries on what’s possible to simplify your digital transformation.",
         "philosophy": {
           "title": "Our philosophy",
           "body": "“We are fearless, take ownership of what we do and help each other to push boundaries.”",
-          "bulletPoints": [{
+          "bulletPoints": [
+            {
               "id": 1,
               "body": "We’re confident about what we do"
             },
@@ -52,7 +54,8 @@
         "id": 3,
         "title": "Umvel leadership team",
         "subtitle": "Meet our senior Umvellers",
-        "teamMembers": [{
+        "teamMembers": [
+          {
             "id": 1,
             "name": "Alberto Yael Vázquez",
             "position": "SysAdmin/DevOps Lead",
