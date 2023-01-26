@@ -72,7 +72,7 @@ const ScrollInteraction1 = () => {
                   <p
                     className={`${
                       n === steps.length - 1 ? 'lg:pb-[72px]' : 'lg:pb-0'
-                    } max-w-[416px] xl:max-w-[600px] text-m1`}
+                    } max-w-[416px] lg:max-w-[500px] xl:max-w-[600px] text-m1`}
                   >
                     {i.right.text.replace(/\*/g, '')}
                   </p>
