@@ -69,7 +69,6 @@ export const ReadyToTake = () => {
                 <PrismButton>Our Work</PrismButton>
               </a>
             </Link>
-
             <p className="font-bold text-m3 md:text-m4 lg:text-m3 md:ml-10 mb-14 md:mb-0">
               We deliver what we promise.
             </p>

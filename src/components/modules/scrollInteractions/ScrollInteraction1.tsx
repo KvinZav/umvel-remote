@@ -45,7 +45,7 @@ const ScrollInteraction1 = () => {
     >
       <div className={`flex flex-col lg:flex-row lg:sticky top-0 lg:h-screen lg:items-center md:max-w-[460px] lg:max-w-full`}>
         {isDesktop ? (
-          <div className="w-1/2 lg:pr-8">
+          <div className="w-[44%] lg:pr-8">
             <AnimatedTitle toggled={isTitleAnimToggled} />
           </div>
         ) : (
@@ -63,7 +63,7 @@ const ScrollInteraction1 = () => {
                 <div
                   key={n + ''}
                   ref={(el) => (rightTextRefs.current[n] = el)}
-                  className={`flex snap-start w-[50vw] h-screen items-center pl-4`}
+                  className={`flex snap-start w-[56vw] h-screen items-center pl-4`}
                   style={{
                     opacity: boundsTop[boundsTop.length -1] > 0 ? rightTextOpacities[n] : 1,
                     transform: boundsTop[0] < 0 && boundsTop[boundsTop.length -1] > 0 ? `translateY(${1 - boundsTop[n] * 0.3}px)` : '',
