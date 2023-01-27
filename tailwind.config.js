@@ -24,6 +24,9 @@ module.exports = {
       'move-arrow': 'wave 1s ease infinite',
     },
     screens: {
+      'sm': '425px',
+      // => @media (min-width: 425px) { ... }
+
       'md': '640px',
       // => @media (min-width: 640px) { ... }
 

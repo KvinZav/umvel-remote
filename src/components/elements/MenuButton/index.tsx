@@ -18,7 +18,7 @@ const MenuButton = () => {
 
   const handleMenuButtonClick = () => handleToggleMenu(true)
 
-  if(!matchMedia || isVerticalScroll) return;
+  if(isVerticalScroll) return;
 
   return isBlendModeCompatible ? (
     <button

@@ -49,7 +49,7 @@ export const HeaderAboutUs = ({ data }) => {
           </div>
         </div>
 
-        <div className="absolute bottom-[20%] lg:bottom-[25%] w-[96%] flex justify-between px-[8%] flex-wrap">
+        <div className="absolute bottom-[8%] sm:bottom-[20%] lg:bottom-[25%] w-[96%] flex justify-between px-[8%] flex-wrap">
           {header?.highlightText.map((item: AboutUsHeader, index: number) => {
             return (
               <div
