@@ -23,7 +23,7 @@ const OfferDetails = ({ detail, onPreviousClick, onNextClick, onClose, servicesS
 
   const { id, name, description, valuePropositions, icon, cases } = detail;  
 
-  const dark = servicesSelected.includes(id);
+  const dark = servicesSelected.includes(id) || id === 8;
 
   const handleSmoothScroll = () => {
     smoothscroll.polyfill();
