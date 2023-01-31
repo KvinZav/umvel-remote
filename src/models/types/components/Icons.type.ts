@@ -7,7 +7,8 @@ export type IconNameType =
   | 'Devices'
   | 'Lock'
   | 'Support'
-  | 'Insights';
+  | 'Insights'
+  | 'Storefront';
 
 export type IconProps = {
   name: IconNameType;

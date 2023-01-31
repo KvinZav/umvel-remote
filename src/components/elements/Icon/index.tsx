@@ -9,6 +9,7 @@ import {
   RocketLaunchOutlined,
   LockOutlined,
   GroupOutlined,
+  Storefront
 } from '@mui/icons-material';
 import { IconProps } from '@type/components/Icons.type';
 
@@ -30,6 +31,7 @@ const Icon: FC<IconProps> = ({ name, size = 16, ...props }) => {
     Lock: <LockOutlined {...style} />,
     Support: <SupportAgent {...style} />,
     Insights: <Insights {...style} />,
+    Storefront: <Storefront {...style} />,
   };
 
   return Icons[name];

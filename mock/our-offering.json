@@ -55,7 +55,7 @@
           }
         }, {
           "data": {
-            "id": 6,
+            "id": 5,
             "attributes": {
               "title": "Smart Walk",
               "caseDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
@@ -1208,6 +1208,130 @@
                     "mime": "image/svg+xml",
                     "size": 0.42,
                     "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          }
+        }]
+      },
+      {
+        "id": 8,
+        "icon": "Storefront",
+        "name": "VTEX",
+        "description": "Build, manage and deliver advanced B2B, B2C, and Marketplace commerce experiences without the complexity — and with complete flexibility. <br /><br /> VTEX is a multi-tenant single-instance platform that uses a cloud infrastructure as a service as a unique ecommerce solution that provides auto-scaling elastic capabilities to respond to market changes and customer demands in real-time.<br /><br /> The power of this platform leads to higher conversion rates, stronger customer loyalty, and lower Total Cost of Ownership (TCO).<br /><br /> VTEX is trusted by over 2,500 clients worldwide including Walmart, Danone, Whirlpool, Coca-cola, Pandora, Miniso, Samsung, Avon and Lego. The platform team has more than 18 years of experience and 800 retailers with +2000 online stores in +17 countries. This is why it's one of the most trusted ecommerce platforms available today",
+        "cases": [{
+          "data": {
+            "id": 4,
+            "attributes": {
+              "title": "Food Central",
+              "caseDescription": "Digital transformation in the food marketplace industry",
+              "primaryColor": "#348181",
+              "secondaryColor": null,
+              "createdAt": "2022-08-19T15:41:14.198Z",
+              "updatedAt": "2022-08-19T15:43:23.634Z",
+              "publishedAt": "2022-08-19T15:43:23.633Z",
+              "portfolioTitle": null,
+              "portfolioDescription": null,
+              "portfolioDataOfInterest": null,
+              "image": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "fc_case.svg",
+                    "alternativeText": "fc_case.svg",
+                    "caption": "fc_case.svg",
+                    "width": 977,
+                    "height": 673,
+                    "formats": null,
+                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 0.42,
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          }
+        }, {
+          "data": {
+            "id": 5,
+            "attributes": {
+              "title": "Smart Walk",
+              "caseDescription": "An immersive real estate platform designed for brokers and visitors of GGI properties",
+              "primaryColor": "#DA3440",
+              "secondaryColor": null,
+              "createdAt": "2022-08-19T15:41:14.198Z",
+              "updatedAt": "2022-08-19T15:43:23.634Z",
+              "publishedAt": "2022-08-19T15:43:23.633Z",
+              "portfolioTitle": null,
+              "portfolioDescription": null,
+              "portfolioDataOfInterest": null,
+              "image": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "sw_case.svg",
+                    "alternativeText": "sw_case.svg",
+                    "caption": "sw_case.svg",
+                    "width": 977,
+                    "height": 673,
+                    "formats": null,
+                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 0.42,
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          }
+        }, {
+          "data": {
+            "id": 9,
+            "attributes": {
+              "title": "CAPA",
+              "caseDescription": "A fully digital way to invest in real-estate.",
+              "primaryColor": "#0F55C3",
+              "secondaryColor": null,
+              "createdAt": "2022-08-19T15:41:14.198Z",
+              "updatedAt": "2022-08-19T15:43:23.634Z",
+              "publishedAt": "2022-08-19T15:43:23.633Z",
+              "portfolioTitle": null,
+              "portfolioDescription": null,
+              "portfolioDataOfInterest": null,
+              "image": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "capa_case.svg",
+                    "alternativeText": "capa_case.svg",
+                    "caption": "capa_case.svg",
+                    "width": 977,
+                    "height": 673,
+                    "formats": null,
+                    "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 0.42,
+                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
