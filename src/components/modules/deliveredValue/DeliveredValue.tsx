@@ -134,7 +134,7 @@ export const DeliveredValue = ({
             >
               <div className="p-6 md:p-[30px] lg:p-12 xl:p-14">
                 <h5 className="text-m3 font-bold mb-2 xl:mb-4">{title}</h5>
-                <p className="text-s2">{content}</p>
+                <p className="text-s2" dangerouslySetInnerHTML={{ __html: content }}></p>
               </div>
             </CardConnect>
             <div

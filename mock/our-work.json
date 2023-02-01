@@ -315,7 +315,39 @@
                 }
               }
             }
-          }]
+          }, {
+            "id": 11,
+            "title": "G Square",
+            "hoverDescription": "GGI challenged us to imagine and create a digital platform that allows users to find, rent, and contract storage units.",
+            "hoverClientName": "App y web platform",
+            "hoverClientHeading": null,
+            "callToAction": null,
+            "backgroundColor": "#f1193e",
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "G Square.png",
+                  "alternativeText": "Main screen of the Food Central app. It shows the search engine, favorites in stores, food categories and the app menu, in the same vertical order. Behind the screen of gastronomic preferences to choose.",
+                  "caption": "mockup-gsquare-ourwork.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".svg",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_mockup.webp",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
+          }
+        ]
         },
         {
           "id": 2,
