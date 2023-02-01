@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: ["raw.githubusercontent.com","api.strapi.io"],
+    domains: ["api.strapi.io"],
   },
   sentry: {
     hideSourceMaps: false,

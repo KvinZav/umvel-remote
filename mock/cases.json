@@ -27,7 +27,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaLogo.svg",
+              "url": "/assets/assets-umvel/vivaLogo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -50,7 +50,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/vivaApp_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/vivaApp_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -85,7 +85,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero1.png",
+                "url": "/assets/assets-umvel/vivaApp_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -107,7 +107,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_hero2.png",
+                "url": "/assets/assets-umvel/vivaApp_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -178,7 +178,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_technical.png",
+                "url": "/assets/assets-umvel/vivaApp_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -196,21 +196,21 @@
               "title": "A bespoke experience for two platforms",
               "alternativeText": "'Continue with...' screen to log in to the Viva Aerobus app, with an Apple, Google Facebook or Email account. A background image is shown with a woman looking at the horizon from the plane window.",
               "content": "One of the critical objectives for this project was to create unique design patterns for both Android and iOS users, taking advantage of native elements and components. The object Manager feature is an example of a custom UI component that was adapted to work with native elements from each OS, and their specific interface guidelines.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver1.png"
+              "image": "/assets/assets-umvel/vivaApp_deliver1.png"
             },
             {
               "id": 2,
               "title": "An on-the-go, intuitive experience",
               "alternativeText": "'Select origin' screen in the Viva Aerobus app, to choose the starting point, with nearby recommended airports or the option to choose a specific one.",
               "content": "Making an impact in the ecosystem: The app reached 10k+ downloads within the first 2 weeks since launching, and is found in the Top 5 travel apps in the app stores, with a rating of 4.8 stars.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver2.png"
+              "image": "/assets/assets-umvel/vivaApp_deliver2.png"
             },
             {
               "id": 3,
               "title": "Immediate impact in the travel ecosystem",
               "alternativeText": "Example of the Viva Aerobus digital ticket, showing the passenger's name, the departure point with their destination and boarding details. As well as a scannable QR code.",
               "content": "Direct, short UX paths to key information – such as boarding passes and passenger info – all from travelers’ fingertips.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_deliver3.png"
+              "image": "/assets/assets-umvel/vivaApp_deliver3.png"
             }
           ]
         },
@@ -235,7 +235,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_ad_units.svg",
+                    "url": "/assets/assets-umvel/vivaApp_ad_units.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -263,7 +263,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_bookmark_border.svg",
+                    "url": "/assets/assets-umvel/vivaApp_bookmark_border.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -291,7 +291,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_accessibility_new.svg",
+                    "url": "/assets/assets-umvel/vivaApp_accessibility_new.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -319,7 +319,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_multiplatform.svg",
+                    "url": "/assets/assets-umvel/vivaApp_multiplatform.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -347,7 +347,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_wifi_off.svg",
+                    "url": "/assets/assets-umvel/vivaApp_wifi_off.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -379,7 +379,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_quote_bg.png",
+                "url": "/assets/assets-umvel/vivaApp_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -403,7 +403,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_main.webp",
+              "url": "/assets/assets-umvel/vivaApp_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -429,7 +429,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned1.png",
+                "url": "/assets/assets-umvel/vivaApp_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -451,7 +451,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_learned2.png",
+                "url": "/assets/assets-umvel/vivaApp_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -470,21 +470,21 @@
             "title": "Viva Aerobus Website",
             "subtitle": "",
             "primaryColor": "#2F7C38",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
+            "image": "/assets/assets-umvel/Project%3DVivaWeb.svg"
           },
           {
             "id": 3,
             "title": "Cancerbuddy App",
             "subtitle": "",
             "primaryColor": "#F1DE4F",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png"
+            "image": "/assets/assets-umvel/cb_case.png"
           },
           {
             "id": 7,
             "title": "OEIO Marketplace",
             "subtitle": "",
             "primaryColor": "#CBA552",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
+            "image": "/assets/assets-umvel/oeio_case.svg"
           }
         ]
       }
@@ -520,7 +520,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaLogo.svg",
+              "url": "/assets/assets-umvel/vivaLogo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -543,7 +543,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/vivaWeb_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/vivaWeb_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -578,7 +578,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_hero1.png",
+                "url": "/assets/assets-umvel/vivaWeb_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -600,7 +600,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_hero2.png",
+                "url": "/assets/assets-umvel/vivaWeb_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -668,7 +668,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_technical.png",
+                "url": "/assets/assets-umvel/vivaWeb_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -685,19 +685,19 @@
               "id": 1,
               "title": "A truly native experience",
               "content": "Creating a truly native browsing experience, was top priority for Viva. Our team combined multiple coding languages and methods to achieve this. This way, accessing the website from whichever device and browser, always feels like an “app-like” intuitive experience.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_deliver1.png"
+              "image": "/assets/assets-umvel/vivaWeb_deliver1.png"
             },
             {
               "id": 2,
               "title": "Increased Conversions",
               "content": "Thanks to the creation of custom modules, Viva Aerobus can easily add new (informative) pages for promotions, services and brand content, saving them valuable time.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_deliver2.png"
+              "image": "/assets/assets-umvel/vivaWeb_deliver2.png"
             },
             {
               "id": 3,
               "title": "Rapid Deployment",
               "content": "Changes, and new functionalities for Viva's website are continously deployed in a rapid and secure way, through use of Gitlab and Amazon Web Services (AWS).",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_deliver3.png"
+              "image": "/assets/assets-umvel/vivaWeb_deliver3.png"
             }
           ]
         },
@@ -722,7 +722,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_insights.svg",
+                    "url": "/assets/assets-umvel/vivaWeb_insights.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -750,7 +750,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_computer.svg",
+                    "url": "/assets/assets-umvel/vivaWeb_computer.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -778,7 +778,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_shopping_cart.svg",
+                    "url": "/assets/assets-umvel/vivaWeb_shopping_cart.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -806,7 +806,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_format_paint.svg",
+                    "url": "/assets/assets-umvel/vivaWeb_format_paint.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -834,7 +834,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_admin_panel_settings.svg",
+                    "url": "/assets/assets-umvel/vivaWeb_admin_panel_settings.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -866,7 +866,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_quote_bg.png",
+                "url": "/assets/assets-umvel/vivaWeb_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -890,7 +890,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_main.webp",
+              "url": "/assets/assets-umvel/vivaWeb_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -916,7 +916,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_learned1.png",
+                "url": "/assets/assets-umvel/vivaWeb_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -938,7 +938,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaWeb_learned2.png",
+                "url": "/assets/assets-umvel/vivaWeb_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -957,21 +957,21 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+            "image": "/assets/assets-umvel/vivaApp_case.svg"
           },
           {
             "id": 2,
             "title": "Planet Buyback Website",
             "subtitle": "",
             "primaryColor": "#6BB7E6",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
+            "image": "/assets/assets-umvel/pbb_case.svg"
           },
           {
             "id": 6,
             "title": "Seguros Mundial Platform",
             "subtitle": "",
             "primaryColor": "#5B96CD",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg"
+            "image": "/assets/assets-umvel/sm_case.svg"
           }
         ]
       }
@@ -1007,7 +1007,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_logo.svg",
+              "url": "/assets/assets-umvel/pbb_logo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1030,7 +1030,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/pbb_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/pbb_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1065,7 +1065,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero1.png",
+                "url": "/assets/assets-umvel/pbb_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1087,7 +1087,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_hero2.png",
+                "url": "/assets/assets-umvel/pbb_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1156,7 +1156,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_technical.png",
+                "url": "/assets/assets-umvel/pbb_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1174,21 +1174,21 @@
               "title": "An new project dashboard experience",
               "alternativeText": "Planet Buyback screen detail with the name of the project 'Planet Surf' and amount of money raised so far. It is accompanied by a photograph of surfers of different nationalities on the beach.",
               "content": "The donation dashboard provides a consistent, visual design in line with Planet Buyback's brand guidelines. It informs and attracts new users to donate in a simple and effective way.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver1.png"
+              "image": "/assets/assets-umvel/pbb_deliver1.png"
             },
             {
               "id": 2,
               "title": "Enticing data visualization",
               "alternativeText":"Planet Buyback screen detail where you select what type of 'damaging' user you are",
               "content": "We kept a close relationship between textual and visual storytelling in order to match content, with form. Images, icons, and animations support and reinforce the main value proposition.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver2.png"
+              "image": "/assets/assets-umvel/pbb_deliver2.png"
             },
             {
               "id": 3,
               "title": "Brand new interface design ",
               "alternativeText":"Detail of the Planet Buyback navigation menu with the sections: 1. Profile 2. Subscription Settings 3. Donation History 4. Payment Details 5. Newsletter Preferences",
               "content": "The new interface design followed from a market study and an overall brand revamp; this defined the desired modifications in terms of forms, composition, hierarchy, and components.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_deliver3.png"
+              "image": "/assets/assets-umvel/pbb_deliver3.png"
             }
           ]
         },
@@ -1213,7 +1213,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_volunteer.svg",
+                    "url": "/assets/assets-umvel/pbb_volunteer.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1241,7 +1241,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_dashboard.svg",
+                    "url": "/assets/assets-umvel/pbb_dashboard.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1269,7 +1269,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_devices.svg",
+                    "url": "/assets/assets-umvel/pbb_devices.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1297,7 +1297,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_animation.svg",
+                    "url": "/assets/assets-umvel/pbb_animation.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1326,7 +1326,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_quote_bg.png",
+                "url": "/assets/assets-umvel/pbb_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1350,7 +1350,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_main.webp",
+              "url": "/assets/assets-umvel/pbb_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1376,7 +1376,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_learned1.png",
+                "url": "/assets/assets-umvel/pbb_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1398,7 +1398,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_learned2.png",
+                "url": "/assets/assets-umvel/pbb_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1417,21 +1417,21 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+            "image": "/assets/assets-umvel/vivaApp_case.svg"
           },
           {
             "id": 4,
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+            "image": "/assets/assets-umvel/fc_case.svg"
           },
           {
             "id": 8,
             "title": "Travel Company Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_case.svg"
+            "image": "/assets/assets-umvel/tc_case.svg"
           }
         ]
       }
@@ -1467,7 +1467,7 @@
               "ext": ".svg",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/BMCF_logo.png",
+              "url": "/assets/assets-umvel/BMCF_logo.png",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1490,7 +1490,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/cb_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/cb_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1532,7 +1532,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_hero1.png",
+                "url": "/assets/assets-umvel/cb_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1554,7 +1554,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_hero2.png",
+                "url": "/assets/assets-umvel/cb_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1626,7 +1626,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_technical.png",
+                "url": "/assets/assets-umvel/cb_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1644,21 +1644,21 @@
               "title": "A hybrid mobile app",
               "alternativeText":"'Who do you want to connect with?' screen in the CancerBuddy app, which displays a list of patients who can be contacted.",
               "content": "Cancerbuddy is built on a serverless framework; it's a hybrid app making it easy to scale to other platforms. We used the React Native framework, allowing us to easily build the app for iOS, Android and web, all with one codebase.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver1.png"
+              "image": "/assets/assets-umvel/cb_deliver1.png"
             },
             {
               "id": 2,
               "title": "A fast and seamless experience",
               "alternativeText":"Listing detail 'Who do you want to connect with?'. A list of patients diagnosed with cancer is displayed, along with their photograph, name and age.",
               "content": "We used Amplify (an AWS service). This allows for fast and effective coding. It provides easy Authentication, data and API integration and the tools to help us authenticate users, connect services, build databases and web services, resulting in a fast and seamless end user experience.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver2.png"
+              "image": "/assets/assets-umvel/cb_deliver2.png"
             },
             {
               "id": 3,
               "title": "A world's first",
               "alternativeText":"Illustration of Cancer Buddy in yellow tones with color paste. Two jubilantly smiling people are shown in poses of cheering and happiness.",
               "content": "It's not everyday that we can work on an app that truly changes lives. Cancerbuddy is the world’s first cancer patient and survivor network and offers people that are affected by this disease a way to feel less isolated and supported by others.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_deliver3.png"
+              "image": "/assets/assets-umvel/cb_deliver3.png"
             }
           ]
         },
@@ -1683,7 +1683,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_group_add.svg",
+                    "url": "/assets/assets-umvel/cb_group_add.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1711,7 +1711,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_diversity.svg",
+                    "url": "/assets/assets-umvel/cb_diversity.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1739,7 +1739,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_chat_bubble.svg",
+                    "url": "/assets/assets-umvel/cb_chat_bubble.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1767,7 +1767,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_qr_code.svg",
+                    "url": "/assets/assets-umvel/cb_qr_code.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1795,7 +1795,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_users.svg",
+                    "url": "/assets/assets-umvel/cb_users.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -1824,7 +1824,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_quote_bg.png",
+                "url": "/assets/assets-umvel/cb_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1848,7 +1848,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_main.webp",
+              "url": "/assets/assets-umvel/cb_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1874,7 +1874,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_learned1.png",
+                "url": "/assets/assets-umvel/cb_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1896,7 +1896,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_learned2.png",
+                "url": "/assets/assets-umvel/cb_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -1915,21 +1915,21 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+            "image": "/assets/assets-umvel/vivaApp_case.svg"
           },
           {
             "id": 1,
             "title": "Viva Aerobus Website",
             "subtitle": "",
             "primaryColor": "#2F7C38",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
+            "image": "/assets/assets-umvel/Project%3DVivaWeb.svg"
           },
           {
             "id": 4,
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+            "image": "/assets/assets-umvel/fc_case.svg"
           }
         ]
       }
@@ -1965,7 +1965,7 @@
               "ext": ".svg",
               "mime": "image/svg+xml",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_logo.svg",
+              "url": "/assets/assets-umvel/fc_logo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -1988,7 +1988,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/fc_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/fc_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2016,7 +2016,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_hero1.png",
+                "url": "/assets/assets-umvel/fc_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2038,7 +2038,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_hero2.png",
+                "url": "/assets/assets-umvel/fc_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2115,7 +2115,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_technical.png",
+                "url": "/assets/assets-umvel/fc_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2134,21 +2134,21 @@
               "title": "Enabling providers to instantly digitize their business",
               "alternativeText":"Illustration of a Food Central customer in white lines. A piece of sushi is shown.",
               "content": "By the use of a so-called “central table”, the system collects and organizes orders in a central place, making fulfillment more efficient.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver1.png"
+              "image": "/assets/assets-umvel/fc_deliver1.png"
             },
             {
               "id": 2,
               "title": "All-in-one solution for restaurants",
               "alternativeText":"Details of 'Delivery options' to place an order, with the contact number and hours of the establishment.",
               "content": "Users can pre-order food up to 24 hours before delivery and have a pick-up option if needed. This provides a great customer experience and makes it easy to plan the day ahead in an easy way.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver2.png"
+              "image": "/assets/assets-umvel/fc_deliver2.png"
             },
             {
               "id": 3,
               "title": "Native iOS and Android experience",
               "alternativeText":"'Select item' screen in the Food Central app, to choose a food. The Santa Clara Ice Cream shop is shown with a list of the ice creams they offer.",
               "content": "We have developed both a native iOS and Android experience, making the Food Central intuitive and easy to use.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_deliver3.png"
+              "image": "/assets/assets-umvel/fc_deliver3.png"
             }
           ]
         },
@@ -2173,7 +2173,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_analytics.svg",
+                    "url": "/assets/assets-umvel/fc_analytics.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2200,7 +2200,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_point_of_sale.svg",
+                    "url": "/assets/assets-umvel/fc_point_of_sale.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2228,7 +2228,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_storefront.svg",
+                    "url": "/assets/assets-umvel/fc_storefront.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2256,7 +2256,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_cloud_done.svg",
+                    "url": "/assets/assets-umvel/fc_cloud_done.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2284,7 +2284,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_map.svg",
+                    "url": "/assets/assets-umvel/fc_map.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2316,7 +2316,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_quote_bg.png",
+                "url": "/assets/assets-umvel/fc_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2340,7 +2340,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_main.webp",
+              "url": "/assets/assets-umvel/fc_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2366,7 +2366,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_learned1.png",
+                "url": "/assets/assets-umvel/fc_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2388,7 +2388,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_learned2.png",
+                "url": "/assets/assets-umvel/fc_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2407,21 +2407,21 @@
             "title": "Smart Walk Platform",
             "subtitle": "",
             "primaryColor": "#DA3440",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg"
+            "image": "/assets/assets-umvel/sw_case.svg"
           },
           {
             "id": 7,
             "title": "OEIO Marketplace",
             "subtitle": "",
             "primaryColor": "#CBA552",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
+            "image": "/assets/assets-umvel/oeio_case.svg"
           },
           {
             "id": 9,
             "title": "CAPA Management Platform",
             "subtitle": "",
             "primaryColor": "#0F55C3",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
+            "image": "/assets/assets-umvel/capa_case.svg"
           }
         ]
       }
@@ -2457,7 +2457,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_logo.png",
+              "url": "/assets/assets-umvel/sw_logo.png",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2480,7 +2480,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/sw_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/sw_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2508,7 +2508,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_hero1.png",
+                "url": "/assets/assets-umvel/sw_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2530,7 +2530,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_hero2.png",
+                "url": "/assets/assets-umvel/sw_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2602,7 +2602,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_technical.png",
+                "url": "/assets/assets-umvel/sw_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2621,21 +2621,21 @@
               "title": "Uptake of 10% in property viewings",
               "alternativeText":"Photograph of a furnished room, with a fireplace, a wooden floor and green interiors.",
               "content": "GGI now has a new way to attract potential buyers who are interested in property and use SmartWalk to get a better impression of the space, before they decide to physically go.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver1.png"
+              "image": "/assets/assets-umvel/sw_deliver1.png"
             },
             {
               "id": 2,
               "title": "Better relationships between broker and buyer",
               "alternativeText":"Detail of calendar with day, month and year of Smart Walk",
               "content": "Because of the video and audio layer on top of the 3D tour, the broker can answer questions and provide a voice over while doing the tour.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver2.png"
+              "image": "/assets/assets-umvel/sw_deliver2.png"
             },
             {
               "id": 3,
               "title": "New way to capture client data",
               "alternativeText":"Smart Walk screen detail, with details such as customer name and type of department. to take a virtual tour.",
               "content": "Potential buyers can leave their personal data behind when signing up for SmartWalk, captured in a CRM system so that GGI can track its leads better.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_deliver3.png"
+              "image": "/assets/assets-umvel/sw_deliver3.png"
             }
           ]
         },
@@ -2660,7 +2660,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_admin_panel.svg",
+                    "url": "/assets/assets-umvel/sw_admin_panel.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2688,7 +2688,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_calendar_today.svg",
+                    "url": "/assets/assets-umvel/sw_calendar_today.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2716,7 +2716,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_touch_app.svg",
+                    "url": "/assets/assets-umvel/sw_touch_app.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2744,7 +2744,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_view_in_air.svg",
+                    "url": "/assets/assets-umvel/sw_view_in_air.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2772,7 +2772,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_video_call.svg",
+                    "url": "/assets/assets-umvel/sw_video_call.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2800,7 +2800,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_view_quilt.svg",
+                    "url": "/assets/assets-umvel/sw_view_quilt.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -2832,7 +2832,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_quote_bg.png",
+                "url": "/assets/assets-umvel/sw_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2856,7 +2856,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_main.webp",
+              "url": "/assets/assets-umvel/sw_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2882,7 +2882,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_learned1.png",
+                "url": "/assets/assets-umvel/sw_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2904,7 +2904,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_learned2.png",
+                "url": "/assets/assets-umvel/sw_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -2923,21 +2923,21 @@
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+            "image": "/assets/assets-umvel/fc_case.svg"
           },
           {
             "id": 7,
             "title": "OEIO Marketplace",
             "subtitle": "",
             "primaryColor": "#CBA552",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_case.svg"
+            "image": "/assets/assets-umvel/oeio_case.svg"
           },
           {
             "id": 9,
             "title": "CAPA Management Platform",
             "subtitle": "",
             "primaryColor": "#0F55C3",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
+            "image": "/assets/assets-umvel/capa_case.svg"
           }
         ]
       }
@@ -2973,7 +2973,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_logo.png",
+              "url": "/assets/assets-umvel/sm_logo.png",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -2996,7 +2996,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/sm_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/sm_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3031,7 +3031,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_hero1.png",
+                "url": "/assets/assets-umvel/sm_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3053,7 +3053,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_hero2.png",
+                "url": "/assets/assets-umvel/sm_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3126,7 +3126,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_technical.png",
+                "url": "/assets/assets-umvel/sm_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3145,21 +3145,21 @@
               "title": "80% more effective operations",
               "alternativeText":"Illustration of client Seguros Mundial in white lines. A speedometer is shown, with the marker at a high gear.",
               "content": "Thanks to the DevOps implementation we carried out, Seguros Mundial can execute operations with 80% more speed.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver1.png"
+              "image": "/assets/assets-umvel/sm_deliver1.png"
             },
             {
               "id": 2,
               "title": "Fully digitized insurance process",
               "alternativeText":"Photograph of a man outside dressed in white smiling as he looks at his cell phone.",
               "content": "Say goodbye to long paper trails! By digitizing the insurance experience, customers can quote and contract insurance products fully online. That’s a first in Seguros Mundial’s local industry.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver2.png"
+              "image": "/assets/assets-umvel/sm_deliver2.png"
             },
             {
               "id": 3,
               "title": "Reducing operational costs with 20%",
               "alternativeText":"'Analytics' screen on the Seguros Mundial website, to monitor site traffic. Bar, dot, and circle graphs are displayed to measure the data.",
               "content": "Thanks to a fully digital self service platform, the help of a broker is not required anymore. This greatly benefits the customer acquisition process, as operational costs go down while customer volume increases.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_deliver3.png"
+              "image": "/assets/assets-umvel/sm_deliver3.png"
             }
           ]
         },
@@ -3184,7 +3184,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_insights.svg",
+                    "url": "/assets/assets-umvel/sm_insights.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3211,7 +3211,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_devices.svg",
+                    "url": "/assets/assets-umvel/sm_devices.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3239,7 +3239,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_code.svg",
+                    "url": "/assets/assets-umvel/sm_code.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3267,7 +3267,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_web.svg",
+                    "url": "/assets/assets-umvel/sm_web.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3295,7 +3295,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_format_paint.svg",
+                    "url": "/assets/assets-umvel/sm_format_paint.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3324,7 +3324,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_quote_bg.png",
+                "url": "/assets/assets-umvel/sm_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3348,7 +3348,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_main.webp",
+              "url": "/assets/assets-umvel/sm_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3374,7 +3374,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_learned1.png",
+                "url": "/assets/assets-umvel/sm_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3396,7 +3396,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_learned2.png",
+                "url": "/assets/assets-umvel/sm_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3415,21 +3415,21 @@
             "title": "Viva Aerobus Website",
             "subtitle": "",
             "primaryColor": "#2F7C38",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/Project%3DVivaWeb.svg"
+            "image": "/assets/assets-umvel/Project%3DVivaWeb.svg"
           },
           {
             "id": 4,
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+            "image": "/assets/assets-umvel/fc_case.svg"
           },
           {
             "id": 9,
             "title": "CAPA Management Platform",
             "subtitle": "",
             "primaryColor": "#0F55C3",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_case.svg"
+            "image": "/assets/assets-umvel/capa_case.svg"
           }
         ]
       }
@@ -3465,7 +3465,7 @@
               "ext": ".svg",
               "mime": "image/svg+xml",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_logo.svg",
+              "url": "/assets/assets-umvel/oeio_logo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3488,7 +3488,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/oeio_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/oeio_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3532,7 +3532,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_hero1.png",
+                "url": "/assets/assets-umvel/oeio_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3554,7 +3554,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_hero2.png",
+                "url": "/assets/assets-umvel/oeio_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3635,7 +3635,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_technical.png",
+                "url": "/assets/assets-umvel/oeio_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3654,21 +3654,21 @@
               "title": "A versatile, digital wellness marketplace",
               "alternativeText":"OEIO screen detail that indicates the name of the package, the services it has, the location and the validity. It also gives the option to 'Book'.",
               "content": "OEIO offers all tools for customers, salon owners and managers, professionals and OEIO staff to book and manages appointments. All in one ecosystem.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver1.png"
+              "image": "/assets/assets-umvel/oeio_deliver1.png"
             },
             {
               "id": 2,
               "title": "Track and manage business growth",
               "alternativeText":"'Dashboard' screen on the OEIO website, to view the list of reservations for the day in detail.",
               "content": "We’ve built an easy to use Admin SaaS platform, that serves native OEIO iOS and Android apps. It lets owners manage bookings, track sales, progress and employee performance.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver2.png"
+              "image": "/assets/assets-umvel/oeio_deliver2.png"
             },
             {
               "id": 3,
               "title": "End-to-end digital experience for customers",
               "alternativeText":"Detail of the calendar in OEIO to reserve the services, with the times available on the selected day.",
               "content": "From discovery, to choosing a service, to booking, to payment: users can perform everything in-app, in the palm of their hands.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_deliver3.png"
+              "image": "/assets/assets-umvel/oeio_deliver3.png"
             }
           ]
         },
@@ -3693,7 +3693,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_self_improvement.svg",
+                    "url": "/assets/assets-umvel/oeio_self_improvement.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3721,7 +3721,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_event.svg",
+                    "url": "/assets/assets-umvel/oeio_event.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3749,7 +3749,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_qr_code.svg",
+                    "url": "/assets/assets-umvel/oeio_qr_code.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3777,7 +3777,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_admin_panel.svg",
+                    "url": "/assets/assets-umvel/oeio_admin_panel.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3805,7 +3805,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_person.svg",
+                    "url": "/assets/assets-umvel/oeio_person.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -3837,7 +3837,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_quote_bg.png",
+                "url": "/assets/assets-umvel/oeio_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3861,7 +3861,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_main.webp",
+              "url": "/assets/assets-umvel/oeio_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -3887,7 +3887,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_learned1.png",
+                "url": "/assets/assets-umvel/oeio_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3909,7 +3909,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_learned2.png",
+                "url": "/assets/assets-umvel/oeio_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -3928,21 +3928,21 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+            "image": "/assets/assets-umvel/vivaApp_case.svg"
           },
           {
             "id": 2,
             "title": "Planet Buyback Website",
             "subtitle": "",
             "primaryColor": "#6BB7E6",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
+            "image": "/assets/assets-umvel/pbb_case.svg"
           },
           {
             "id": 8,
             "title": "Travel Company Platform",
             "subtitle": "",
             "primaryColor": "#04A3AC",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_case.svg"
+            "image": "/assets/assets-umvel/tc_case.svg"
           }
         ]
       }
@@ -3978,7 +3978,7 @@
               "ext": ".svg",
               "mime": "image/svg+xml",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_logo.svg",
+              "url": "/assets/assets-umvel/tc_logo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4001,7 +4001,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/tc_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/tc_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4029,7 +4029,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_hero1.png",
+                "url": "/assets/assets-umvel/tc_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4051,7 +4051,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_hero2.png",
+                "url": "/assets/assets-umvel/tc_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4122,7 +4122,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_technical.png",
+                "url": "/assets/assets-umvel/tc_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4141,21 +4141,21 @@
               "title": "Understanding members and their behavior",
               "alternativeText":"Photograph of a hotel pool with guests enjoying the sun in bathing suits.",
               "content": "We helped our client truly understand their members. What drives them? What’s their decision making process? Why do they choose one travel product over another? A total of 34 personas over 7 brands helped to answers these questions.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver1.png"
+              "image": "/assets/assets-umvel/tc_deliver1.png"
             },
             {
               "id": 2,
               "title": "Actionable personas, backed up by data",
               "alternativeText":"Ornament composed of circles containing portraits of people smiling.",
               "content": "Next to qualitative research, we conducted quantitative analysis: through 500,000 data points on purchase and loyalty behavior and cross-referenced these with our qualitative hypotheses and insights. This resulted in very rich personas, backed up by data around ROI, CLV and other metrics.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver2.png"
+              "image": "/assets/assets-umvel/tc_deliver2.png"
             },
             {
               "id": 3,
               "title": "Priorization of better ways to earn and spending loyalty points",
               "alternativeText":"Travel Company customer illustrations in blue and white colors. Icons with circular envelopes of a hotel, an airplane, a ship and a car are shown.",
               "content": "As a result of our research, we prioritized potential improvements in the digital journey for all products (air, cruise, hotel, car rental). These were mostly centered around better ways to educate people about earning and spending loyalty points, which ultimately is our client’s main revenue driver.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_deliver3.png"
+              "image": "/assets/assets-umvel/tc_deliver3.png"
             }
           ]
         },
@@ -4180,7 +4180,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_groups.svg",
+                    "url": "/assets/assets-umvel/tc_groups.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4207,7 +4207,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_luggage.svg",
+                    "url": "/assets/assets-umvel/tc_luggage.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4235,7 +4235,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_travel_explore.svg",
+                    "url": "/assets/assets-umvel/tc_travel_explore.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4263,7 +4263,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_headset_mic.svg",
+                    "url": "/assets/assets-umvel/tc_headset_mic.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4291,7 +4291,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_search.svg",
+                    "url": "/assets/assets-umvel/tc_search.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4320,7 +4320,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_quote_bg.png",
+                "url": "/assets/assets-umvel/tc_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4344,7 +4344,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_main.webp",
+              "url": "/assets/assets-umvel/tc_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4370,7 +4370,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_learned1.png",
+                "url": "/assets/assets-umvel/tc_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4392,7 +4392,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/tc_learned2.png",
+                "url": "/assets/assets-umvel/tc_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4411,21 +4411,21 @@
             "title": "Viva Aerobus Native App",
             "subtitle": "",
             "primaryColor": "#40AD4C",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/vivaApp_case.svg"
+            "image": "/assets/assets-umvel/vivaApp_case.svg"
           },
           {
             "id": 2,
             "title": "Planet Buyback Website",
             "subtitle": "",
             "primaryColor": "#6BB7E6",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/pbb_case.svg"
+            "image": "/assets/assets-umvel/pbb_case.svg"
           },
           {
             "id": 5,
             "title": "Smart Walk Platform",
             "subtitle": "",
             "primaryColor": "#DA3440",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sw_case.svg"
+            "image": "/assets/assets-umvel/sw_case.svg"
           }
         ]
       }
@@ -4461,7 +4461,7 @@
               "ext": ".svg",
               "mime": "image/svg+xml",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_logo.svg",
+              "url": "/assets/assets-umvel/capa_logo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4484,7 +4484,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/capa_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/capa_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4519,7 +4519,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero1.png",
+                "url": "/assets/assets-umvel/capa_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4541,7 +4541,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero2.png",
+                "url": "/assets/assets-umvel/capa_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4612,7 +4612,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_technical.png",
+                "url": "/assets/assets-umvel/capa_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4631,21 +4631,21 @@
               "title": "A real-time, digital way to start investing",
               "alternativeText":"Illustration of Client Layer. A two-dimensional yellow house is illustrated, looking to the left, it has two large windows.",
               "content": "Investors can onboard themselves in a digital way, and start investing the same day. This form of self-service allows them to independently explore the real-estate investment world, without requiring assistance.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver1.png"
+              "image": "/assets/assets-umvel/capa_deliver1.png"
             },
             {
               "id": 2,
               "title": "Track performance and growth in one place",
               "alternativeText":"Layer customer screen detail. A graph is shown that marks the annual financial status of a set of properties.",
               "content": "The central dashboard enables investors to keep track of asset and fund performance, ARR, MRR and other important financial metrics - all in one place and in real-time.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver2.png"
+              "image": "/assets/assets-umvel/capa_deliver2.png"
             },
             {
               "id": 3,
               "title": "Reduction of operational costs and effort",
               "alternativeText":"Layer customer screen detail. A table is shown that dates the financial movements with salt for and against.",
               "content": "The new digital platform allows CAPA to reduce cost por customer acquisition, onboarding and operational costs. By offering a real-time, automated view on portfolio performance, our client avoid drafting lengthy quarterly reports (done by hand).",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver3.png"
+              "image": "/assets/assets-umvel/capa_deliver3.png"
             }
           ]
         },
@@ -4670,7 +4670,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_insights.svg",
+                    "url": "/assets/assets-umvel/capa_insights.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4698,7 +4698,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_devices.svg",
+                    "url": "/assets/assets-umvel/capa_devices.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4726,7 +4726,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_devices.svg",
+                    "url": "/assets/assets-umvel/capa_devices.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4754,7 +4754,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_ad_units.svg",
+                    "url": "/assets/assets-umvel/capa_ad_units.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4782,7 +4782,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_format_paint.svg",
+                    "url": "/assets/assets-umvel/capa_format_paint.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -4811,7 +4811,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_quote_bg.png",
+                "url": "/assets/assets-umvel/capa_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4835,7 +4835,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_main.webp",
+              "url": "/assets/assets-umvel/capa_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4861,7 +4861,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_learned1.png",
+                "url": "/assets/assets-umvel/capa_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4883,7 +4883,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_learned2.png",
+                "url": "/assets/assets-umvel/capa_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -4902,21 +4902,21 @@
             "title": "Cancerbuddy App",
             "subtitle": "",
             "primaryColor": "#F1DE4F",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png"
+            "image": "/assets/assets-umvel/cb_case.png"
           },
           {
             "id": 4,
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+            "image": "/assets/assets-umvel/fc_case.svg"
           },
           {
             "id": 6,
             "title": "Seguros Mundial Platform",
             "subtitle": "",
             "primaryColor": "#5B96CD",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg"
+            "image": "/assets/assets-umvel/sm_case.svg"
           }
         ]
       }
