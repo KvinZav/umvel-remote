@@ -4943,9 +4943,9 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "capa_logo.svg",
-              "alternativeText": "CAPA Logo",
-              "caption": "CAPA Logo",
+              "name": "gsquare_logo.svg",
+              "alternativeText": "G Square Logo",
+              "caption": "G Square Logo",
               "width": 977,
               "height": 673,
               "formats": null,
@@ -4953,7 +4953,7 @@
               "ext": ".svg",
               "mime": "image/svg+xml",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_logo.svg",
+              "url": "/assets/assets-umvel/gsquare_logo.svg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4966,8 +4966,8 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "capa_hero_photo.jpg",
-              "alternativeText": "CAPA Photo",
+              "name": "gsquare_hero_photo.jpg",
+              "alternativeText": "G Square Photo",
               "caption": "CAPA Photo",
               "width": 977,
               "height": 673,
@@ -4976,7 +4976,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 0.42,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/hero_photos/capa_hero_photo.jpg",
+              "url": "/assets/assets-umvel/hero_photos/gsquare_hero_photo.jpg",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -4992,7 +4992,7 @@
           "callToAction": [{
             "id": 12,
             "action": {
-              "openUrl": "https://www.capa.management/"
+              "openUrl": "https://g-square.com.mx/"
             },
             "title": "Launch website",
             "subtitle": null
@@ -5000,7 +5000,7 @@
           {
             "id": 13,
             "action": {
-              "openUrl": "https://www.youtube.com/watch?v=PjWghw0_iHA&ab_channel=CarlosD%C3%ADaz"
+              "openUrl": "https://apps.apple.com/us/app/gsquare/id6444351350"
             },
             "title": "See in App Store",
             "subtitle": null
@@ -5009,9 +5009,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "capa_technical_photo.png",
+                "name": "gsquare_technical_photo.png",
                 "alternativeText": "Illustration of the client Cape. Illustrated is a two-dimensional house, viewed from the right side, with two rows of windows in the center and a door illustrated below the rows. Something similar to a chimney protrudes from the roof with a window at the top.",
-                "caption": "CAPA",
+                "caption": "G Square",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -5019,7 +5019,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero1.png",
+                "url": "/assets/assets-umvel/gsquare_hero1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -5031,9 +5031,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "CAPA Challenge.png",
+                "name": "G Square Challenge.png",
                 "alternativeText": "Main Dashboard of the Capa platform, with graphs and side menu. Behind login screen with house illustrations.",
-                "caption": "CAPA Challenge.png",
+                "caption": "G Square Challenge.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -5041,7 +5041,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_hero2.png",
+                "url": "/assets/assets-umvel/gsquare_hero2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -5110,9 +5110,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "CAPA Logo.png",
+                "name": "G Square Logo.png",
                 "alternativeText": "Photograph of a residential area seen from above, with white houses.",
-                "caption": "CAPA Logotype.png",
+                "caption": "G Square Logotype.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -5120,7 +5120,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_technical.png",
+                "url": "/assets/assets-umvel/gsquare_technical.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -5139,21 +5139,21 @@
               "title": "Find your space in an easy way",
               "alternativeText":"Illustration of Client Layer. A two-dimensional yellow house is illustrated, looking to the left, it has two large windows.",
               "content": "Thanks to a user friendly app and website, users can browse and compare available storage unit spaces in their area. From there, they can rent their dream space in a secure way, in just a few taps.<br /><br /> No more driving around town or dealing with complicated rental contracts: The G-Square platform makes the entire process quick and convenient.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver1.png"
+              "image": "/assets/assets-umvel/gsquare_deliver1.png"
             },
             {
               "id": 2,
               "title": "A clear value proposition",
               "alternativeText":"Layer customer screen detail. A graph is shown that marks the annual financial status of a set of properties.",
               "content": "We turned complicated flows into simple and effective ones. Thanks to an intuitive UI design, users can easily navigate and browse the value proposition and decide which services fit them best.<br /><br />Guiding the user to take the next best action, is key in getting an overall pleasant experience.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver2.png"
+              "image": "/assets/assets-umvel/gsquare_deliver2.png"
             },
             {
               "id": 3,
               "title": "New brand, new look and feel",
               "alternativeText":"Layer customer screen detail. A table is shown that dates the financial movements with salt for and against.",
               "content": "As part of this project, we established a new brand and look and feel, from scratch.<br /><br /> Bright red, friendly fonts, and rounded shapes and cards attribute to an overall fun experience, for all types of users. Through a flexible but solid design system, our client can apply the new branding to any future platform.",
-              "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_deliver3.png"
+              "image": "/assets/assets-umvel/gsquare_deliver3.png"
             }
           ]
         },
@@ -5163,7 +5163,7 @@
           "keyFeatures": [{
               "id": 1,
               "title": "Visual portfolio overview",
-              "content": "Trends, growth and changes to clients’ portfolios are communicated by rich visuals, reducing cognitive load.",
+              "content": "",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5178,7 +5178,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_insights.svg",
+                    "url": "/assets/assets-umvel/gsquare_insights.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -5191,7 +5191,7 @@
             {
               "id": 2,
               "title": "Digital onboarding",
-              "content": "A fully digital onboarding allows for beginning investors to be onboarded quick and efficiently.",
+              "content": "",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5206,7 +5206,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_devices.svg",
+                    "url": "/assets/assets-umvel/gsquare_devices.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -5219,7 +5219,7 @@
             {
               "id": 3,
               "title": "Easy platform sync",
-              "content": "Our client can sync  news fund and asset information on the platform, with the click of a button.",
+              "content": "",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5234,7 +5234,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_devices.svg",
+                    "url": "/assets/assets-umvel/gsquare_admin_panel_settings.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -5247,7 +5247,7 @@
             {
               "id": 4,
               "title": "A variety of investments",
-              "content": "Properties, packages or a funds? Investors can easily select what fits their needs best.",
+              "content": "",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5262,7 +5262,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_ad_units.svg",
+                    "url": "/assets/assets-umvel/gsquare_ad_units.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -5275,7 +5275,7 @@
             {
               "id": 5,
               "title": "Brand new look and feel",
-              "content": "We applied a minimal, sleek and toned down visual language, serving the platform’s content.",
+              "content": "",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5290,7 +5290,7 @@
                     "ext": ".svg",
                     "mime": "image/svg+xml",
                     "size": 1,
-                    "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_format_paint.svg",
+                    "url": "/assets/assets-umvel/gsquare_format_paint.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
@@ -5312,9 +5312,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "oeio_quote_bg.png",
-                "alternativeText": "oeio_quote_bg.png",
-                "caption": "oeio_quote_bg.png",
+                "name": "gsquare_quote_bg.png",
+                "alternativeText": "gsquare_quote_bg.png",
+                "caption": "gsquare_quote_bg.png",
                 "width": 64,
                 "height": 64,
                 "formats": null,
@@ -5322,7 +5322,7 @@
                 "ext": ".png",
                 "mime": "image/png",
                 "size": 1,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/oeio_quote_bg.png",
+                "url": "/assets/assets-umvel/gsquare_quote_bg.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -5336,9 +5336,9 @@
           "data": {
             "id": 1,
             "attributes": {
-              "name": "capa_quote_bg",
-              "alternativeText": "capa_quote_bg",
-              "caption": "capa_quote_bg",
+              "name": "gsquare_quote_bg",
+              "alternativeText": "gsquare_quote_bg",
+              "caption": "gsquare_quote_bg",
               "width": 64,
               "height": 64,
               "formats": null,
@@ -5346,7 +5346,7 @@
               "ext": ".png",
               "mime": "image/png",
               "size": 1,
-              "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_main.webp",
+              "url": "/assets/assets-umvel/gsquare_main.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
@@ -5362,9 +5362,9 @@
             "data": {
               "id": 1,
               "attributes": {
-                "name": "capa_learned1.png",
+                "name": "gsquare_learned1",
                 "alternativeText": "Purple card with financial details of a 'Syndicate', with your name and photos of some of the properties it contains.",
-                "caption": "CAPA Learned",
+                "caption": "G Square Learned",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -5372,7 +5372,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_learned1.png",
+                "url": "/assets/assets-umvel/gsquare_learned1.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -5384,9 +5384,9 @@
             "data": {
               "id": 2,
               "attributes": {
-                "name": "capa_learned2.png",
+                "name": "gsquare_learned2.png",
                 "alternativeText": "Yellow card with financial details of a 'Property', with your name, address and photograph.",
-                "caption": "CAPA Learned.png",
+                "caption": "G Square Learned.png",
                 "width": 977,
                 "height": 673,
                 "formats": null,
@@ -5394,7 +5394,7 @@
                 "ext": ".svg",
                 "mime": "image/png",
                 "size": 0.42,
-                "url": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/capa_learned2.png",
+                "url": "/assets/assets-umvel/gsquare_learned2.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
@@ -5413,21 +5413,21 @@
             "title": "Cancerbuddy App",
             "subtitle": "",
             "primaryColor": "#F1DE4F",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/cb_case.png"
+            "image": "/assets/assets-umvel/cb_case.png"
           },
           {
             "id": 4,
             "title": "Food Central Platform",
             "subtitle": "",
             "primaryColor": "#348181",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/fc_case.svg"
+            "image": "/assets/assets-umvel/fc_case.svg"
           },
           {
             "id": 6,
             "title": "Seguros Mundial Platform",
             "subtitle": "",
             "primaryColor": "#5B96CD",
-            "image": "https://raw.githubusercontent.com/franciscojagarcia/assets-umvel/main/sm_case.svg"
+            "image": "/assets/assets-umvel/sm_case.svg"
           }
         ]
       }
