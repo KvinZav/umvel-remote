@@ -4924,5 +4924,517 @@
     "meta": {
       "title": "Capa - Digital real estate investment manager"
     }
-  }]
+  },
+  {
+    "data": {
+      "id": 11,
+      "attributes": {
+        "title": "G Square",
+        "caseDescription": "",
+        "primaryColor": "#f1193e",
+        "secondaryColor": null,
+        "createdAt": "2022-08-19T16:08:15.067Z",
+        "updatedAt": "2022-09-21T22:57:26.199Z",
+        "publishedAt": "2022-08-19T16:10:38.202Z",
+        "portfolioTitle": "G Square",
+        "portfolioDescription": "A new digital platform to get your unique storage space",
+        "portfolioDataOfInterest": "1,000,000 + <br /><br /> Users",
+        "logo": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "gsquare_logo.svg",
+              "alternativeText": "G Square Logo",
+              "caption": "G Square Logo",
+              "width": 977,
+              "height": 673,
+              "formats": null,
+              "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 0.42,
+              "url": "/assets/assets-umvel/gsquare_logo.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
+        "image": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "gsquare_hero_photo.jpg",
+              "alternativeText": "G Square Photo",
+              "caption": "CAPA Photo",
+              "width": 977,
+              "height": 673,
+              "formats": null,
+              "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0.42,
+              "url": "/assets/assets-umvel/hero_photos/gsquare_hero_photo.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
+        "challenge": {
+          "id": 1,
+          "title": "The Challenge",
+          "content": "GGI challenged us to imagine and create a digital platform that allows users to find, rent, and contract storage units - all in a digital only way. <br /> <br />Unlike traditional self-storage options, G Square wants to offer a quick, on-demand solution that allows anyone to quickly and easily find and rent storage units, without the hassle of long-term contracts or in-person visits. In addition, they required an app to manage your personal storage space.",
+          "callToAction": [{
+            "id": 12,
+            "action": {
+              "openUrl": "https://g-square.com.mx/"
+            },
+            "title": "Launch website",
+            "subtitle": null
+          },
+          {
+            "id": 13,
+            "action": {
+              "openUrl": "https://apps.apple.com/us/app/gsquare/id6444351350"
+            },
+            "title": "See in App Store",
+            "subtitle": null
+          }],
+          "images": [{
+            "data": {
+              "id": 1,
+              "attributes": {
+                "name": "gsquare_technical_photo.png",
+                "alternativeText": "Illustration of the client Cape. Illustrated is a two-dimensional house, viewed from the right side, with two rows of windows in the center and a door illustrated below the rows. Something similar to a chimney protrudes from the roof with a window at the top.",
+                "caption": "G Square",
+                "width": 977,
+                "height": 673,
+                "formats": null,
+                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 0.42,
+                "url": "/assets/assets-umvel/gsquare_hero1.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2022-08-19T15:35:22.751Z",
+                "updatedAt": "2022-08-19T15:35:22.751Z"
+              }
+            }
+          }, {
+            "data": {
+              "id": 2,
+              "attributes": {
+                "name": "G Square Challenge.png",
+                "alternativeText": "Main Dashboard of the Capa platform, with graphs and side menu. Behind login screen with house illustrations.",
+                "caption": "G Square Challenge.png",
+                "width": 977,
+                "height": 673,
+                "formats": null,
+                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 0.42,
+                "url": "/assets/assets-umvel/gsquare_hero2.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2022-08-19T15:35:22.751Z",
+                "updatedAt": "2022-08-19T15:35:22.751Z"
+              }
+            }
+          }]
+        },
+        "technicalInformationGroup": {
+          "id": 1,
+          "technicalInformation": [{
+              "id": 1,
+              "title": "Client",
+              "content": "G Square"
+            },
+            {
+              "id": 2,
+              "title": "Industry",
+              "content": "Real-estate"
+            },
+            {
+              "id": 3,
+              "title": "Year",
+              "content": "2022-Ongoing"
+            },
+            {
+              "id": 4,
+              "title": "Country",
+              "content": "Mexico"
+            }
+          ],
+          "services": [{
+              "id": 1,
+              "name": "UI/UX Design"
+            },
+            {
+              "id": 3,
+              "name": "Research"
+            },
+            {
+              "id": 4,
+              "name": "Value proposition design"
+            },
+            {
+              "id": 5,
+              "name": "Branding"
+            },
+            {
+              "id": 6,
+              "name": "Mobile Development"
+            },
+            {
+              "id": 7,
+              "name": "Front-end"
+            }
+          ],
+          "platforms": [{
+            "id": 5,
+            "name": "Web"
+          }, {
+            "id": 1,
+            "name": "Mobile"
+          }],
+          "image": {
+            "data": {
+              "id": 1,
+              "attributes": {
+                "name": "G Square Logo.png",
+                "alternativeText": "Photograph of a residential area seen from above, with white houses.",
+                "caption": "G Square Logotype.png",
+                "width": 977,
+                "height": 673,
+                "formats": null,
+                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                "ext": ".svg",
+                "mime": "image/png",
+                "size": 0.42,
+                "url": "/assets/assets-umvel/gsquare_technical.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2022-08-19T15:35:22.751Z",
+                "updatedAt": "2022-08-19T15:35:22.751Z"
+              }
+            }
+          }
+        },
+
+        "deliverValue": {
+          "id": 1,
+          "title": "Delivered Client Value",
+          "list": [{
+              "id": 1,
+              "title": "Find your space in an easy way",
+              "alternativeText":"Illustration of Client Layer. A two-dimensional yellow house is illustrated, looking to the left, it has two large windows.",
+              "content": "Thanks to a user friendly app and website, users can browse and compare available storage unit spaces in their area. From there, they can rent their dream space in a secure way, in just a few taps.<br /><br /> No more driving around town or dealing with complicated rental contracts: The G-Square platform makes the entire process quick and convenient.",
+              "image": "/assets/assets-umvel/gsquare_deliver1.png"
+            },
+            {
+              "id": 2,
+              "title": "A clear value proposition",
+              "alternativeText":"Layer customer screen detail. A graph is shown that marks the annual financial status of a set of properties.",
+              "content": "We turned complicated flows into simple and effective ones. Thanks to an intuitive UI design, users can easily navigate and browse the value proposition and decide which services fit them best.<br /><br />Guiding the user to take the next best action, is key in getting an overall pleasant experience.",
+              "image": "/assets/assets-umvel/gsquare_deliver2.png"
+            },
+            {
+              "id": 3,
+              "title": "New brand, new look and feel",
+              "alternativeText":"Layer customer screen detail. A table is shown that dates the financial movements with salt for and against.",
+              "content": "As part of this project, we established a new brand and look and feel, from scratch.<br /><br /> Bright red, friendly fonts, and rounded shapes and cards attribute to an overall fun experience, for all types of users. Through a flexible but solid design system, our client can apply the new branding to any future platform.",
+              "image": "/assets/assets-umvel/gsquare_deliver3.png"
+            }
+          ]
+        },
+        "feature": {
+          "id": 1,
+          "title": "Key features",
+          "keyFeatures": [{
+              "id": 1,
+              "title": "Visual portfolio overview",
+              "content": "",
+              "icon": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "Book Icon",
+                    "alternativeText": "Book Icon",
+                    "caption": "Book Icon",
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 1,
+                    "url": "/assets/assets-umvel/gsquare_insights.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            },
+            {
+              "id": 2,
+              "title": "Digital onboarding",
+              "content": "",
+              "icon": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "Animation Icon",
+                    "alternativeText": "Animation Icon",
+                    "caption": "Animation Icon",
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 1,
+                    "url": "/assets/assets-umvel/gsquare_devices.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            },
+            {
+              "id": 3,
+              "title": "Easy platform sync",
+              "content": "",
+              "icon": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "Speed Icon",
+                    "alternativeText": "Speed Icon",
+                    "caption": "Speed Icon",
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 1,
+                    "url": "/assets/assets-umvel/gsquare_admin_panel_settings.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            },
+            {
+              "id": 4,
+              "title": "A variety of investments",
+              "content": "",
+              "icon": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "No Wifi Icon",
+                    "alternativeText": "No Wifi Icon",
+                    "caption": "No Wifi Icon",
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 1,
+                    "url": "/assets/assets-umvel/gsquare_ad_units.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            },
+            {
+              "id": 5,
+              "title": "Brand new look and feel",
+              "content": "",
+              "icon": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "No Wifi Icon",
+                    "alternativeText": "No Wifi Icon",
+                    "caption": "No Wifi Icon",
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 1,
+                    "url": "/assets/assets-umvel/gsquare_format_paint.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "quote": {
+          "body": "The Umvel team was quick, on time with everything and delivered an amazing result. We’re super pleased with our new platform!",
+          "client": {
+            "name": "G-square",
+            "title": null
+          },
+          "photo": {
+            "data": {
+              "id": 1,
+              "attributes": {
+                "name": "gsquare_quote_bg.png",
+                "alternativeText": "gsquare_quote_bg.png",
+                "caption": "gsquare_quote_bg.png",
+                "width": 64,
+                "height": 64,
+                "formats": null,
+                "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 1,
+                "url": "/assets/assets-umvel/gsquare_quote_bg.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2022-08-19T15:35:22.751Z",
+                "updatedAt": "2022-08-19T15:35:22.751Z"
+              }
+            }
+          }
+        },
+        "mainGraphic": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "gsquare_quote_bg",
+              "alternativeText": "gsquare_quote_bg",
+              "caption": "gsquare_quote_bg",
+              "width": 64,
+              "height": 64,
+              "formats": null,
+              "hash": "book_FILL0_wght400_GRAD0_opsz48",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1,
+              "url": "/assets/assets-umvel/gsquare_main.webp",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2022-08-19T15:35:22.751Z",
+              "updatedAt": "2022-08-19T15:35:22.751Z"
+            }
+          }
+        },
+        "whatWeLearned": {
+          "title": "What we learned",
+          "content": "We learned a lot about the world rental units and why people need them.<br /><br />Customer research helped us understand the questions and doubts people have when searching for space. This led to a robust feature set and complete self-service platform.",
+          "images": [{
+            "data": {
+              "id": 1,
+              "attributes": {
+                "name": "gsquare_learned1",
+                "alternativeText": "Purple card with financial details of a 'Syndicate', with your name and photos of some of the properties it contains.",
+                "caption": "G Square Learned",
+                "width": 977,
+                "height": 673,
+                "formats": null,
+                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                "ext": ".svg",
+                "mime": "image/png",
+                "size": 0.42,
+                "url": "/assets/assets-umvel/gsquare_learned1.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2022-08-19T15:35:22.751Z",
+                "updatedAt": "2022-08-19T15:35:22.751Z"
+              }
+            }
+          }, {
+            "data": {
+              "id": 2,
+              "attributes": {
+                "name": "gsquare_learned2.png",
+                "alternativeText": "Yellow card with financial details of a 'Property', with your name, address and photograph.",
+                "caption": "G Square Learned.png",
+                "width": 977,
+                "height": 673,
+                "formats": null,
+                "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                "ext": ".svg",
+                "mime": "image/png",
+                "size": 0.42,
+                "url": "/assets/assets-umvel/gsquare_learned2.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2022-08-19T15:35:22.751Z",
+                "updatedAt": "2022-08-19T15:35:22.751Z"
+              }
+            }
+          }]
+        },
+        "contactForm": {
+          "id": 1
+        },
+        "otherCases": [
+          {
+            "id": 3,
+            "title": "Cancerbuddy App",
+            "subtitle": "",
+            "primaryColor": "#F1DE4F",
+            "image": "/assets/assets-umvel/cb_case.png"
+          },
+          {
+            "id": 4,
+            "title": "Food Central Platform",
+            "subtitle": "",
+            "primaryColor": "#348181",
+            "image": "/assets/assets-umvel/fc_case.svg"
+          },
+          {
+            "id": 6,
+            "title": "Seguros Mundial Platform",
+            "subtitle": "",
+            "primaryColor": "#5B96CD",
+            "image": "/assets/assets-umvel/sm_case.svg"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "title": "Capa - Digital real estate investment manager"
+    }
+  }
+]
 }
