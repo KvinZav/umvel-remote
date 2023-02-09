@@ -30,7 +30,8 @@ export default function FourOhFour() {
             </div>
             <div className='flex items-center ml-0 mt-[30px] md:ml-[50px] md:mt-0'>
               <button
-                className={`border rounded-full p-2 md:left-8 lg:left-[134px] text-[18px] border-primary-white text-primary-white lg:hover:text-primary-black lg:hover:bg-primary-white`}>
+                className={`border rounded-full p-2 md:left-8 lg:left-[134px] text-[18px] 
+                border-primary-white text-primary-white lg:hover:text-primary-black lg:hover:bg-primary-white`}>
                 <div className="w-[18px] h-[18px] flex justify-center text-[18px] leading-none">
                   <Link href={'/'}>
                     <Home fontSize="inherit" />
