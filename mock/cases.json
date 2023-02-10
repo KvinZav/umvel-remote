@@ -5162,7 +5162,7 @@
           "title": "Key features",
           "keyFeatures": [{
               "id": 1,
-              "title": "Visual portfolio overview",
+              "title": "Space calculator",
               "content": "",
               "icon": {
                 "data": {
@@ -5190,7 +5190,7 @@
             },
             {
               "id": 2,
-              "title": "Digital onboarding",
+              "title": "App and Web",
               "content": "",
               "icon": {
                 "data": {
@@ -5218,7 +5218,7 @@
             },
             {
               "id": 3,
-              "title": "Easy platform sync",
+              "title": "Easy contracting",
               "content": "",
               "icon": {
                 "data": {
@@ -5246,7 +5246,7 @@
             },
             {
               "id": 4,
-              "title": "A variety of investments",
+              "title": "100% self-service",
               "content": "",
               "icon": {
                 "data": {
