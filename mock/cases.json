@@ -5271,41 +5271,13 @@
                   }
                 }
               }
-            },
-            {
-              "id": 5,
-              "title": "Brand new look and feel",
-              "content": "",
-              "icon": {
-                "data": {
-                  "id": 1,
-                  "attributes": {
-                    "name": "No Wifi Icon",
-                    "alternativeText": "No Wifi Icon",
-                    "caption": "No Wifi Icon",
-                    "width": 64,
-                    "height": 64,
-                    "formats": null,
-                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
-                    "ext": ".svg",
-                    "mime": "image/svg+xml",
-                    "size": 1,
-                    "url": "/assets/assets-umvel/gsquare_format_paint.svg",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2022-08-19T15:35:22.751Z",
-                    "updatedAt": "2022-08-19T15:35:22.751Z"
-                  }
-                }
-              }
             }
           ]
         },
         "quote": {
           "body": "The Umvel team was quick, on time with everything and delivered an amazing result. We’re super pleased with our new platform!",
           "client": {
-            "name": "G-square",
+            "name": "G Square",
             "title": null
           },
           "photo": {
