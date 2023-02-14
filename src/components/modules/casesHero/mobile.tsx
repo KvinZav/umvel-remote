@@ -38,7 +38,7 @@ const  CasesHeroMobile = (props: CasesHeroProps) => {
           />
           <h1 className="text-m5 mt-8 mb-2">{portfolioTitle}</h1>
           <h2 className="font-bold text-m1">{portfolioDescription}</h2>
-          <div className="flex mt-4 gap-2">
+          <div className="flex mt-4 gap-2 flex-col">
             {challenge.callToAction.map((item, index) => (
               <a
                 key={'action-' + index}
