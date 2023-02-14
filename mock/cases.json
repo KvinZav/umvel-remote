@@ -5163,7 +5163,7 @@
           "keyFeatures": [{
               "id": 1,
               "title": "Space calculator",
-              "content": "",
+              "content": "By selecting the type of objects you want to save in your bodega, G Square shows you which bodega is best suited for your needs.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5191,7 +5191,7 @@
             {
               "id": 2,
               "title": "App and Web",
-              "content": "",
+              "content": "We created both native apps, as well as an easy to use website. This ensures that users can use the service in any way they prefer.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5219,7 +5219,7 @@
             {
               "id": 3,
               "title": "Easy contracting",
-              "content": "",
+              "content": "Go from search, to selection, to contracting a bodega in the easiest way possible.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5247,7 +5247,7 @@
             {
               "id": 4,
               "title": "100% self-service",
-              "content": "",
+              "content": "We made it easier than ever to explore bodegas, find the best one and go through the contracting process, all without any outside help",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5263,6 +5263,34 @@
                     "mime": "image/svg+xml",
                     "size": 1,
                     "url": "/assets/assets-umvel/gsquare_ad_units.svg",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2022-08-19T15:35:22.751Z",
+                    "updatedAt": "2022-08-19T15:35:22.751Z"
+                  }
+                }
+              }
+            },
+            {
+              "id": 5,
+              "title": "Brand new look and feel",
+              "content": "A fresh, new logo, color palette and visual style makes G Square a dynamic and lively brand.",
+              "icon": {
+                "data": {
+                  "id": 1,
+                  "attributes": {
+                    "name": "No Wifi Icon",
+                    "alternativeText": "No Wifi Icon",
+                    "caption": "No Wifi Icon",
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "book_FILL0_wght400_GRAD0_opsz48",
+                    "ext": ".svg",
+                    "mime": "image/svg+xml",
+                    "size": 1,
+                    "url": "/assets/assets-umvel/gsquare_format_paint.svg",
                     "previewUrl": null,
                     "provider": "local",
                     "provider_metadata": null,
