@@ -5162,8 +5162,8 @@
           "title": "Key features",
           "keyFeatures": [{
               "id": 1,
-              "title": "Visual portfolio overview",
-              "content": "",
+              "title": "Space calculator",
+              "content": "By selecting the type of objects you want to save in your bodega, G Square shows you which bodega is best suited for your needs.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5190,8 +5190,8 @@
             },
             {
               "id": 2,
-              "title": "Digital onboarding",
-              "content": "",
+              "title": "App and Web",
+              "content": "We created both native apps, as well as an easy to use website. This ensures that users can use the service in any way they prefer.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5218,8 +5218,8 @@
             },
             {
               "id": 3,
-              "title": "Easy platform sync",
-              "content": "",
+              "title": "Easy contracting",
+              "content": "Go from search, to selection, to contracting a bodega in the easiest way possible.",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5246,8 +5246,8 @@
             },
             {
               "id": 4,
-              "title": "A variety of investments",
-              "content": "",
+              "title": "100% self-service",
+              "content": "We made it easier than ever to explore bodegas, find the best one and go through the contracting process, all without any outside help",
               "icon": {
                 "data": {
                   "id": 1,
@@ -5275,7 +5275,7 @@
             {
               "id": 5,
               "title": "Brand new look and feel",
-              "content": "",
+              "content": "A fresh, new logo, color palette and visual style makes G Square a dynamic and lively brand.",
               "icon": {
                 "data": {
                   "id": 1,
