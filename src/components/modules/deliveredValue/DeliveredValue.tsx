@@ -135,7 +135,8 @@ export const DeliveredValue = ({
             <ChevronRightRounded fontSize="inherit"/>
           </button>
       </div>
-      <div ref={cardContainerRef} className="w-full grid grid-rows-1 md:grid-rows-3 lg:grid-rows-2 grid-cols-[repeat(3,100vw)] md:grid-cols-2 lg:grid-cols-3 overflow-x-auto snap-x scroll-smooth">
+      <div ref={cardContainerRef} className="w-full grid grid-rows-1 md:grid-rows-3 lg:grid-rows-2 
+      grid-cols-[repeat(3,100vw)] md:grid-cols-2 lg:grid-cols-3 overflow-x-auto snap-x scroll-smooth">
         {list.slice(0, 3).map(({ title, content, image, alternativeText }, idx) => (
           <div
             className="flex"
