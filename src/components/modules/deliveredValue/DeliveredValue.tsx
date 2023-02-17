@@ -5,7 +5,8 @@ import { Sizes } from '@enums/sizes.enum';
 import { useIsSizeScreen } from '@hooks/useIsSizeScreen';
 import { DeliverValue } from '@interfaces/cases-data/cases.interface';
 import { CardConnectConfiguration } from '@interfaces/components/cardConnect.interface';
-import { CSSProperties, useEffect, useState } from 'react';
+import { CSSProperties, useEffect, useState, useRef } from 'react';
+import { ChevronRightRounded, ChevronLeftRounded } from '@mui/icons-material';
 
 const gridConfig = {
   sm: {
@@ -104,6 +105,13 @@ export const DeliveredValue = ({
   const { list, title } = data;
   const { currentScreen } = useIsSizeScreen();
   const [currentGridConfig, setCurrentGridConfig] = useState(null);
+  const cardContainerRef = useRef<HTMLDivElement>();
+  const screenWidth = window.screen.width;
+
+  const slideMove = (side = 'right') => {
+    cardContainerRef.current.scrollLeft = side === 'left' ? 
+    cardContainerRef.current.scrollLeft - screenWidth : cardContainerRef.current.scrollLeft + screenWidth;
+  };
 
   useEffect(() => {
     const config = gridConfig[currentScreen];
@@ -119,7 +127,16 @@ export const DeliveredValue = ({
       <div className="mt-36 md:mt-40 lg:mt-[200px] xl:mt-[300px] mb-20">
         <h4 className="text-center font-bold text-b4">{title}</h4>
       </div>
-      <div className="w-full grid grid-rows-1 md:grid-rows-3 lg:grid-rows-2 grid-cols-[repeat(3,90vw)] md:grid-cols-2 lg:grid-cols-3 overflow-x-auto snap-x">
+      <div className='md:hidden flex justify-end text-[32px] space-x-4 pr-6 mb-[30px]'>
+          <button onClick={() => slideMove('left')}>
+            <ChevronLeftRounded fontSize="inherit"/>
+          </button>  
+          <button onClick={() => slideMove()}>
+            <ChevronRightRounded fontSize="inherit"/>
+          </button>
+      </div>
+      <div ref={cardContainerRef} className="w-full grid grid-rows-1 md:grid-rows-3 lg:grid-rows-2 
+      grid-cols-[repeat(3,100vw)] md:grid-cols-2 lg:grid-cols-3 overflow-x-auto snap-x scroll-smooth">
         {list.slice(0, 3).map(({ title, content, image, alternativeText }, idx) => (
           <div
             className="flex"
