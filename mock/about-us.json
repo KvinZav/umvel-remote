@@ -169,15 +169,15 @@
           },
           {
             "id": 2,
-            "name": "Fabián Solano",
-            "position": "QA Lead",
+            "name": "Mario Delgado",
+            "position": "Architect Lead",
             "photo": {
               "data": {
                 "id": 1,
                 "attributes": {
-                  "name": "fsolano_photo.png",
-                  "alternativeText": "fsolano_photo.png",
-                  "caption": "fsolano_photo.png",
+                  "name": "mdelgado_photo.png",
+                  "alternativeText": "mdelgado_photo.png",
+                  "caption": "mdelgado_photo.png",
                   "width": 977,
                   "height": 673,
                   "formats": null,
@@ -185,7 +185,7 @@
                   "ext": ".png",
                   "mime": "image/png",
                   "size": 0.42,
-                  "url": "/assets/assets-umvel/fsolano_photo.png",
+                  "url": "/assets/assets-umvel/mdelgado_photo.png",
                   "previewUrl": null,
                   "provider": "local",
                   "provider_metadata": null,
@@ -394,7 +394,7 @@
           {
             "id": 2,
             "name": "Miguel López",
-            "position": "Architect Lead",
+            "position": "Backend Lead",
             "photo": {
               "data": {
                 "id": 1,
@@ -410,6 +410,34 @@
                   "mime": "image/png",
                   "size": 0.42,
                   "url": "/assets/assets-umvel/mlopez_photo.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-08-19T15:35:22.751Z",
+                  "updatedAt": "2022-08-19T15:35:22.751Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 2,
+            "name": "Jocelyn Delgado",
+            "position": "Frontend Lead",
+            "photo": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "jdelgado_photo.png",
+                  "alternativeText": "jdelgado_photo.png",
+                  "caption": "jdelgado_photo.png",
+                  "width": 977,
+                  "height": 673,
+                  "formats": null,
+                  "hash": "Viva_Aerobus_Logotype_c2f08b71ea",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 0.42,
+                  "url": "/assets/assets-umvel/jdelgado_photo.png",
                   "previewUrl": null,
                   "provider": "local",
                   "provider_metadata": null,
