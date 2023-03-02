@@ -7,15 +7,17 @@ import { get } from '@fetcher/get';
 import { FETCHER } from '@fetcher/clients';
 import { BlockNameEnum } from '@enums/BlockName';
 import Logo from '@elements/LogoNavBar/LogoNavBar';
+import { useStartHomeAnimation } from '@hooks/useStartHomeAnimation';
 
 export const FooterMenu = () => {
   const { data: event } = useSWR(environment.HOME_URL, get, {
     revalidateOnFocus: false,
   });
-  if (!event) return null;
+  const { isFinished } = useStartHomeAnimation();
+
+  if (!event || !isFinished) return null;
 
   const { socialNetworks, links } = FETCHER(event, BlockNameEnum.menu);
-  const logo = event.data.attributes.header.logo.data.attributes;
 
   return (
     <section className="px-[15%] py-20 md:pb-[152px] lg:px-[10%] lg:py-32 xl:px-[9.5%] xl:py-[170px]">

@@ -9,6 +9,7 @@ import MainLogo from '@elements/LogoNavBar/MainLogo';
 import Script from 'next/script';
 import MenuButton from '@elements/MenuButton';
 import { HeaderMenuContextProvider } from '@context/headerMenuContext';
+import { StartHomeContextProvider } from '@context/startHomeContext';
 
 const swrConfig = {
   revalidateOnFocus: false,
@@ -64,15 +65,17 @@ function MyApp({ Component, pageProps, userAgent }) {
     </Script>
     <ModalCookies showModal={showModal}/>
       <SWRConfig value={swrConfig}>
-        <ScrollContextProvider>
-          <HeaderMenuContextProvider>
-            <MainLogo/>
-            <MenuButton/>
-            <Header />
-            <Component {...pageProps} />
-            <FooterMenu />
-          </HeaderMenuContextProvider>
-        </ScrollContextProvider>
+        <StartHomeContextProvider>
+          <ScrollContextProvider>
+            <HeaderMenuContextProvider>
+              <MainLogo/>
+              <MenuButton/>
+              <Header />
+              <Component {...pageProps} />
+              <FooterMenu />
+            </HeaderMenuContextProvider>
+          </ScrollContextProvider>
+        </StartHomeContextProvider>
       </SWRConfig>
     </>
   );

@@ -21,7 +21,10 @@ const socialLinks = [{
   icon: <LinkedIn fontSize='inherit'/>
 },{
   name: "medium",
-  icon: <img height={24} width={24} className="md:mt-[6px] xl:mt-1.5 xl:h-[34px] xl:w-[34px]" src={'/assets/icons/medium.svg'}/>
+  icon: <CustomImage
+    style={{height: '24px', width: '24px'}}
+    className="md:mt-[6px] xl:mt-1.5 xl:h-[34px] xl:w-[34px]"
+    src={'/assets/icons/medium.svg'} alt="medium-logo"/>
 }]
 
 export const FooterTeam = ({ data }: { data: Body }) => {
