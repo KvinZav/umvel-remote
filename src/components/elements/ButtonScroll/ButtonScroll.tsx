@@ -1,3 +1,4 @@
+import { useStartHomeAnimation } from '@hooks/useStartHomeAnimation';
 import { ArrowDownwardRounded } from '@mui/icons-material';
 import React from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
@@ -9,9 +10,15 @@ export const ButtonScroll = ({ elementTo }) => {
       behavior: 'smooth',
     });
   };
+  const { stylesButtonScroll, classTransitions } = useStartHomeAnimation();
 
   return (
-    <div className="w-full flex justify-center md:justify-end p-[1.5rem]">
+    <div
+      className={
+        "w-full flex justify-center md:justify-end p-[1.5rem] " +
+        classTransitions.five
+      }
+      style={stylesButtonScroll}>
       <button
         onTouchEnd={scrollToRef}
         className="border rounded-full pb-0.5 border-3 w-[3rem] h-[3rem] text-2xl leading-none lg:hover:bg-primary-black outline-none lg:hover:text-primary-white"
