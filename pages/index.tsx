@@ -16,6 +16,7 @@ import { ButtonScroll } from '@elements/ButtonScroll';
 import ScrollInteraction3 from '@modules/scrollInteractions/ScrollInteraction3';
 import Head from 'next/head';
 import HomeHero from '@modules/HomeHero';
+import { useStartHomeAnimation } from '@hooks/useStartHomeAnimation';
 
 export default function Home() {
   const isBrowser = typeof window !== 'undefined';
@@ -27,6 +28,8 @@ export default function Home() {
   const { handleScroll } = useScrollOffset();
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
+
+  const { isFinished } = useStartHomeAnimation();
 
   useEffect(() => {
     isBrowser && window.addEventListener('scroll', onScroll);
@@ -49,19 +52,24 @@ export default function Home() {
         </Head>
         <HomeHero />
         {<ButtonScroll elementTo={highlightsRef} />}
-        <div ref={highlightsRef}>
-          <MainMenuHighlights />
-        </div>
-        <ScrollInteraction1 />
-        <Highlights />
-        <ScrollInteraction2 steps={data?.data?.attributes.body[4].step} />
-        <Quotes />
-        <Clients />
-        <ScrollInteraction3 />
-        <FooterCta />
-        <FooterTeam
-          data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
-        />
+        {
+          isFinished &&
+          <div>
+            <div ref={highlightsRef}>
+              <MainMenuHighlights />
+            </div>
+            <ScrollInteraction1 />
+            <Highlights />
+            <ScrollInteraction2 steps={data?.data?.attributes.body[4].step} />
+            <Quotes />
+            <Clients />
+            <ScrollInteraction3 />
+            <FooterCta />
+            <FooterTeam
+              data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
+            />
+          </div>
+        }
       </div>
     )
   );
