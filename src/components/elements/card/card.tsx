@@ -100,13 +100,19 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
       className={`transition-[background-color] duration-500 bg-primary-black bg-opacity-0 lg:group-hover:bg-opacity-50 md:p-2 md:pt-4 lg:p-8 xl:p-11 w-full`}
     >
       <h1
-        className={`${styles.direction === 'col-reverse' ? 'min-h-[4rem]' : 'min-h-fit'} text-s2 group-hover:transition-colors group-hover:duration-500 pb-4 font-bold ${isLight ? 'text-primary-black lg:group-hover:text-primary-white' : 'text-primary-white lg:group-hover:text-primary-white'}`}
+        className={`${
+          styles.direction === 'col-reverse' ? 'min-h-[4rem]' : 'min-h-fit'
+        } text-s2 group-hover:transition-colors group-hover:duration-500 pb-4 font-bold ${
+          isLight
+            ? 'text-primary-black lg:group-hover:text-primary-white'
+            : 'text-primary-white lg:group-hover:text-primary-white'
+        }`}
       >
         {text}
       </h1>
       {showButton && (
         <Link href={'/cases/' + id}>
-          <BasicButton theme={isLight ? "light" : "dark"}>View Case</BasicButton>
+          <BasicButton theme={isLight ? 'light' : 'dark'}>View Case</BasicButton>
         </Link>
       )}
       <div
@@ -125,14 +131,8 @@ const TitleComponent = ({ text, description, showButton, styles, id, isLight }) 
         ${styles.textStyles.align === 'start' && 'text-start'}
         ${styles.textStyles.align === 'center' && 'text-center'}
         ${styles.textStyles.align === 'end' && 'text-end'}
-        ${
-          styles.textStyles?.height === 'title' &&
-          'text-b1 font-bold'
-        }
-        ${
-          styles.textStyles?.height === 'subtitle' &&
-          'text-s1 md:text-b4 font-bold'
-        }
+        ${styles.textStyles?.height === 'title' && 'text-b2 font-bold'}
+        ${styles.textStyles?.height === 'subtitle' && 'text-s1 md:text-b4 font-bold'}
         ${styles.textStyles?.height === 'paragraph' && 'text-s2 font-bold'}
       `}
     >
