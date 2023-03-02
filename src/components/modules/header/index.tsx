@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import useMediaQuery from '@hooks/useMediaQuery';
 import Logo from '@elements/LogoNavBar/LogoNavBar';
 import useSWR from 'swr';
@@ -12,6 +12,7 @@ import { BlockNameEnum } from '@enums/BlockName';
 import Tooltip from '@elements/tooltip/tooltip';
 import Link from 'next/link';
 import useMenuButton from '@hooks/useMenuButton';
+import { useStartHomeAnimation } from '@hooks/useStartHomeAnimation';
 
 const Header = () => {
   const { handleToggleMenu, mainMenuVisible } = useMenuButton()
@@ -24,6 +25,7 @@ const Header = () => {
   const matchMedia = useMediaQuery('(min-width: 1024px)');
   const isVerticalScroll = useVerticalScroll(1);
 
+  const { stylesNav, classTransitions } = useStartHomeAnimation();
   
   const logo = event?.data.attributes.header.logo.data.attributes;
   const options = event?.data.attributes.header.links;
@@ -32,7 +34,7 @@ const Header = () => {
   useEffect(() => {    
     setShouldPeekIdx(mainMenuVisible ? Math.floor(Math.random() * cases.length) : null);
     avoidScrollMenu(mainMenuVisible);
-  }, [mainMenuVisible])
+  }, [cases, mainMenuVisible])
   
   const avoidScrollMenu = (isShowingMenu: boolean) => {
     const body = document.body.classList;
@@ -47,7 +49,12 @@ const Header = () => {
   return (
     <>
       {!mainMenuVisible && (
-        <nav className="sticky top-0 z-[98]">
+        <nav
+          className={
+            "sticky top-0 z-[98] " +
+            classTransitions.five
+          }
+          style={stylesNav}>
           <div className="flex justify-end items-center min-h-[56px] p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
             {matchMedia && isVerticalScroll && (
               <div
