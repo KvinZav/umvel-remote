@@ -1,3 +1,4 @@
+import { CardLogoAnimated } from '@elements/card';
 import { BlockNameEnum } from '@enums/BlockName';
 import { environment } from '@environments/index';
 import { FETCHER } from '@fetcher/clients';
@@ -14,6 +15,7 @@ const Hero = () => {
 
   return (
     <>
+      <CardLogoAnimated></CardLogoAnimated>
       <ViewPager
         cases={caseOfStudy}
       />
