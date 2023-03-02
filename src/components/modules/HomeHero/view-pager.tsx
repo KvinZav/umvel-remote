@@ -213,7 +213,7 @@ const ViewPager = ({cases}) => {
         style={stylesCards}
       >
         {!isFinished && !tablet && <CardMosaicAnimated />}
-        <div className={`kvin-otra-vez flex-1 relative opacity-100 aspect-square`}>
+        <div className={`flex-1 relative opacity-100 aspect-square`}>
           {/* bottom */}
           {!isFinished ? (
             <CardMosaicAnimated showText={false} />
@@ -286,7 +286,7 @@ const ViewPager = ({cases}) => {
           </div>
         </div>
         {tablet && (
-          <div className="kvin-anda-ahi relative flex-1">
+          <div className="relative flex-1">
             {/* bottom */}
             {!isFinished ? (
               <CardMosaicAnimated showMosaic={false} />
