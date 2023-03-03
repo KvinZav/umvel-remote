@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import useMediaQuery from '@hooks/useMediaQuery';
 import Logo from '@elements/LogoNavBar/LogoNavBar';
 import useSWR from 'swr';
@@ -13,6 +13,7 @@ import Tooltip from '@elements/tooltip/tooltip';
 import Link from 'next/link';
 import useMenuButton from '@hooks/useMenuButton';
 import { useStartHomeAnimation } from '@hooks/useStartHomeAnimation';
+import { useRouter } from 'next/router';
 
 const Header = () => {
   const { handleToggleMenu, mainMenuVisible } = useMenuButton()
@@ -26,6 +27,10 @@ const Header = () => {
   const isVerticalScroll = useVerticalScroll(1);
 
   const { stylesNav, classTransitions } = useStartHomeAnimation();
+  const router = useRouter();
+
+  const isHome = useMemo(() => router.pathname === '/', [router])
+
   
   const logo = event?.data.attributes.header.logo.data.attributes;
   const options = event?.data.attributes.header.links;
@@ -54,7 +59,7 @@ const Header = () => {
             "sticky top-0 z-[98] " +
             classTransitions.five
           }
-          style={stylesNav}>
+          style={isHome ? stylesNav : null}>
           <div className="flex justify-end items-center min-h-[56px] p-4 md:p-6 lg:pt-6 lg:px-8 xl:py-[34px]">
             {matchMedia && isVerticalScroll && (
               <div
