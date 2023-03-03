@@ -6,7 +6,7 @@ import PrismButton from '@elements/square-colors';
 import Link from 'next/link';
 
 export const OtherCases = ({ caseData: { otherCases } }: { caseData: CaseAttributes }) => {
-  const { isLg, isMd } = useIsSizeScreen();
+  const { isLg, isMd, isXl } = useIsSizeScreen();
   const [numberCases, setNumberCases] = useState(3);
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export const OtherCases = ({ caseData: { otherCases } }: { caseData: CaseAttribu
                 imageUrl={caseData.image}
                 showButton={!isLg}
                 caseId={caseData.id}
-                messageOnHover={isLg}
+                messageOnHover={isLg || isXl}
               />
             </div>
           </div>

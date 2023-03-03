@@ -66,6 +66,25 @@ const gridConfig = {
       },
     ],
   },
+  xl: {
+    items: [
+      {
+        parentStyle: { gridColumn: '1/3' },
+        cardConnectStyle: { width: '50%' },
+        imageStyle: { width: '50%' },
+      },
+      {
+        parentStyle: { gridRow: '1/3', gridColumn: '3/4', flexDirection: 'column' },
+        cardConnectStyle: { width: '100%' },
+        imageStyle: { width: '100%' },
+      },
+      {
+        parentStyle: { gridRow: '2/3', gridColumn: '1/3', flexDirection: 'row-reverse' },
+        cardConnectStyle: { width: '50%' },
+        imageStyle: { width: '50%' },
+      },
+    ],
+  },
 };
 
 const connectConfigurations: {
@@ -82,6 +101,7 @@ const connectConfigurations: {
   },
   {
     connectConfig: [
+      { align: Position.left, size: Sizes.XL },
       { align: Position.left, size: Sizes.LG },
       { align: Position.top, size: Sizes.MD },
       { align: Position.bottom, size: Sizes.SM },

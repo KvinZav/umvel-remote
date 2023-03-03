@@ -8,6 +8,7 @@ import CustomImage from '@elements/image-component/CustomImage';
 import { AboutUsHeader } from '@interfaces/about-us-data/about-us.interface';
 
 const configNames = [
+  { size: Sizes.XL, rows: 6, columns: 12 },
   { size: Sizes.LG, rows: 6, columns: 12 },
   { size: Sizes.MD, rows: 7, columns: 7 },
   { size: Sizes.SM, rows: 8, columns: 5 },
