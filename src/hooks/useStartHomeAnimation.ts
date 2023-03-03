@@ -73,6 +73,12 @@ const classTransitions = {
   five: 'transition-all duration-1000 delay-[5000ms]',
 };
 
+const setTransitions = (isSm: boolean) => {
+  return Object.keys(classTransitions).reduce((prev, curr) => {
+    return  {...prev, [curr]: !isSm ? classTransitions[curr] : ''}
+  }, classTransitions);
+}
+
 const determineStylesAnimation = (
   original: CSSProperties,
   current: CSSProperties,
@@ -88,7 +94,8 @@ const determineStylesAnimation = (
 export const useStartHomeAnimation = () => {
   const context = useContext(StartHomeContext);
   const { cards, logo, secondCard, nav, buttonScroll } = stylesAnimation;
-
+  const { isSm } = useIsSizeScreen();
+  const classTransitions = useMemo(() => setTransitions(isSm), [isSm]);
   const { isInitialized, isFinished, navHeight } = context;
 
   const stylesLogo = useMemo(
