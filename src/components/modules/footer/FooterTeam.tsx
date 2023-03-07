@@ -5,6 +5,7 @@ import { Sizes } from '@enums/sizes.enum';
 import { Facebook, LinkedIn, Instagram } from '@mui/icons-material'
 
 const configNames = [
+  { size: Sizes.XL, rows: 7, columns: 7 },
   { size: Sizes.LG, rows: 7, columns: 7 },
   { size: Sizes.MD, rows: 4, columns: 4 },
   { size: Sizes.SM, rows: 4, columns: 4 },

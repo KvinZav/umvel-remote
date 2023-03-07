@@ -13,7 +13,7 @@ const initialState = {
 export const StartHomeContext = createContext(initialState);
 
 export function StartHomeContextProvider(props: any) {
-  const { isXl, isLg, isMd } = useIsSizeScreen();
+  const { isXl, isLg, isMd, isSm } = useIsSizeScreen();
 
   const [values, setValues] = useState(initialState);
   const navHeight = useMemo(() => {
@@ -34,12 +34,20 @@ export function StartHomeContextProvider(props: any) {
   }, [isMd, isLg, isXl]);
 
   const initializeAnimation = () => {
+
+    if (isSm) {
+      setValues({...values, isFinished: true, isInitialized: true});
+      return;
+    }
+
     setValues({...values, isFinished: false, isInitialized: true})
   }
 
   useEffect(() => {
+    if (!values.isInitialized) return;
+
     const timeOut = setTimeout(() => {
-      setValues({...values, isFinished: true});
+      setValues({...values, isFinished: true, showMosaicSlider: true});
     }, 10000);
 
     return () => {
