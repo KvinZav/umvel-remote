@@ -27,7 +27,7 @@ export const CardLogoAnimated = () => {
     <div className={`w-full absolute grid grid-cols-${(isMd || isSm) ? 2 : 3}`}>
       <div
         className={
-          "flex items-center justify-end " + 
+          "flex h-full items-center justify-end " + 
           classTransitions.one
         }
         style={styles}
