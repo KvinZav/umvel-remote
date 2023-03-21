@@ -216,7 +216,7 @@ const ViewPager = ({cases}) => {
         <div className={`flex-1 relative opacity-100 aspect-square`}>
           {/* bottom */}
           {!isFinished && !isMobile ? (
-            <CardMosaicAnimated showText={false} />
+            <CardMosaicAnimated dropAnimation={true} />
           ) : (
             <div
               className={`absolute w-full h-full transform ${
@@ -227,7 +227,7 @@ const ViewPager = ({cases}) => {
             >
               {/* here last animation */}
               {showMosaicSlider && !isMobile ? (
-                <CardMosaicAnimated showText={false} dropAnimation={true} />
+                <CardMosaicAnimated dropAnimation={true} />
               ) : (
                 <Card
                   styles={{

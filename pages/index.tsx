@@ -29,7 +29,7 @@ export default function Home() {
 
   const onScroll = () => handleScroll(isBrowser ? window.pageYOffset : 0);
 
-  const { isFinished } = useStartHomeAnimation();
+  const { isFinished, classTransitions, stylesSecondCard } = useStartHomeAnimation();
 
   useEffect(() => {
     isBrowser && window.addEventListener('scroll', onScroll);
@@ -52,24 +52,21 @@ export default function Home() {
         </Head>
         <HomeHero />
         {<ButtonScroll elementTo={highlightsRef} />}
-        {
-          isFinished &&
-          <div>
-            <div ref={highlightsRef}>
-              <MainMenuHighlights />
-            </div>
-            <ScrollInteraction1 />
-            <Highlights />
-            <ScrollInteraction2 steps={data?.data?.attributes.body[4].step} />
-            <Quotes />
-            <Clients />
-            <ScrollInteraction3 />
-            <FooterCta />
-            <FooterTeam
-              data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
-            />
+        <div className={classTransitions.six} style={stylesSecondCard}>
+          <div ref={highlightsRef}>
+            <MainMenuHighlights />
           </div>
-        }
+          <ScrollInteraction1 />
+          <Highlights />
+          <ScrollInteraction2 steps={data?.data?.attributes.body[4].step} />
+          <Quotes />
+          <Clients />
+          <ScrollInteraction3 />
+          <FooterCta />
+          <FooterTeam
+            data={data.data.attributes.body.find((item) => item.__component === BlockNameEnum.team)}
+          />
+        </div>
       </div>
     )
   );
