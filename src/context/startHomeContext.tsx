@@ -35,10 +35,10 @@ export function StartHomeContextProvider(props: any) {
 
   const initializeAnimation = () => {
 
-    if (isSm) {
-      setValues({...values, isFinished: true, isInitialized: true});
-      return;
-    }
+    // if (isSm) {
+    //   setValues({...values, isFinished: true, isInitialized: true});
+    //   return;
+    // }
 
     setValues({...values, isFinished: false, isInitialized: true})
   }
