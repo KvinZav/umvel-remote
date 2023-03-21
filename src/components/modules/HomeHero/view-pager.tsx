@@ -115,7 +115,7 @@ const ViewPager = ({cases}) => {
         }
         style={ (tablet || isMobile) ? stylesCards : stylesSecondCard}
       >
-        {!isFinished && (
+        {!isFinished && !isMobile && (
           <Card
             styles={{
               textStyles: { height: 'title', align: 'start' },
@@ -136,7 +136,7 @@ const ViewPager = ({cases}) => {
                 : 'transition-none translate-y-0 opacity-100'
             } duration-1000`}
           >
-            {showMosaicSlider ? (
+            {showMosaicSlider && !isMobile ? (
               <Card
                 styles={{
                   textStyles: { height: 'title', align: 'start' },
@@ -212,10 +212,10 @@ const ViewPager = ({cases}) => {
         }
         style={stylesCards}
       >
-        {!isFinished && !tablet && <CardMosaicAnimated />}
+        {!isFinished && !tablet && !isMobile && <CardMosaicAnimated />}
         <div className={`flex-1 relative opacity-100 aspect-square`}>
           {/* bottom */}
-          {!isFinished ? (
+          {!isFinished && !isMobile ? (
             <CardMosaicAnimated dropAnimation={true} />
           ) : (
             <div
@@ -226,7 +226,7 @@ const ViewPager = ({cases}) => {
               } duration-1000`}
             >
               {/* here last animation */}
-              {showMosaicSlider ? (
+              {showMosaicSlider && !isMobile ? (
                 <CardMosaicAnimated dropAnimation={true} />
               ) : (
                 <Card
@@ -288,7 +288,7 @@ const ViewPager = ({cases}) => {
         {tablet && (
           <div className="relative flex-1">
             {/* bottom */}
-            {!isFinished ? (
+            {!isFinished && !isMobile ? (
               <CardMosaicAnimated showMosaic={false} />
             ) : (
               <div
@@ -298,7 +298,7 @@ const ViewPager = ({cases}) => {
                     : 'transition-none translate-y-0'
                 } duration-1000`}
               >
-                {showMosaicSlider ? (
+                {showMosaicSlider && !isMobile ? (
                   <CardMosaicAnimated showMosaic={false} dropAnimation={true} />
                 ) : (
                   <Card
