@@ -63,12 +63,12 @@ export const CardMosaicAnimated = ({ showText = true, showMosaic = true, dropAni
   }, [dropAnimation]);
 
   return (
-    <div className="w-100 relative aspect-square bg-primary-black">
+    <div className="w-100 h-full relative aspect-square bg-primary-black">
       {
         showText &&
         <div
           className={
-            "w-100 aspect-square " +
+            "absolute w-full top-0 aspect-square z-20 " +
             `${classTransitions.five} ` +
             "flex justify-center items-center"
           }

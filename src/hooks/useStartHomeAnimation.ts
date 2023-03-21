@@ -71,6 +71,7 @@ const classTransitions = {
   three: 'transition-all duration-1000 delay-[3000ms]',
   four: 'transition-all duration-1000 delay-[4000ms]',
   five: 'transition-all duration-1000 delay-[5000ms]',
+  six: 'transition-all duration-1000 delay-[6000ms]',
 };
 
 const setTransitions = (isSm: boolean) => {
